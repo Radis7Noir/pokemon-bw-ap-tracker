@@ -1,13 +1,17 @@
 {
     "name": "Pokemon Black and White Archipelago",
     "game_name": "Pokémon Black and White",
-    "package_version": "0.0.2",
+    "package_version": "0.0.3",
     "min_poptracker_version": "0.29.0",
     "package_uid": "pokemon bw_ap",
     "author": "RadisNoir",
     "variants": {
-        "items_only": {
-            "display_name": "Items Only",
+        "standard": {
+            "display_name": "Item and Encounter Tracker (Horizontal)",
+            "flags": ["ap"]
+        },
+        "var_vertical": {
+            "display_name": "Item and Encounter Tracker (Vertical)",
             "flags": ["ap"]
         },
     }

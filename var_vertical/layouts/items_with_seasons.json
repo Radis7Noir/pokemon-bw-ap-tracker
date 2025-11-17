@@ -1,0 +1,103 @@
+{
+    "badges_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 48",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "triobadge",
+                "basicbadge",
+                "insectbadge",
+                "boltbadge",
+                "quakebadge",
+                "jetbadge",
+                "freezebadge",
+                "legendbadge"
+            ]
+        ]
+    },
+    "key_items_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 32",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "hm01cut",
+                "hm02fly",
+                "hm03surf",
+                "hm04strength",
+                "hm05waterfall",
+				"hm06dive",
+				"tm70flash",
+				"ownedtms"
+            ],
+			[
+			    "parcel",
+                "lootsack",
+                "dragonskull",
+                "machinepart",
+                "tidalbell",
+				"light-darkstone",
+				"oaksletter",
+				"bluecard"
+		    ],
+			[
+				"basementkey",
+				"lockcapsule",
+				"libertypass",
+				"explorerkit",
+				"redchain",
+				"gram",
+				"dowsingmchn",
+				"superrod"
+		    ]
+        ]
+		
+    },
+    "seasons_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32, 32",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "spring",
+                "summer",
+                "autumn",
+                "winter"
+            ]
+        ]
+    },
+    "items_tracker": {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+            {
+                "type": "group",
+                "header": "Badges",
+                "content": {
+                    "type": "layout",
+                    "key": "badges_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Items",
+                "content": {
+                    "type": "layout",
+                    "key": "key_items_grid"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Seasons",
+                "content": {
+                    "type": "layout",
+                    "key": "seasons_grid"
+                }
+            }
+        ]
+    }
+}
