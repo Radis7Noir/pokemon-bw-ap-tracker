@@ -1,7 +1,7 @@
 [
             {
                 "name": "overworld",
-                "location_size": 14,
+                "location_size": 12,
                 "location_border_thickness": 2,
                 "img": "images/maps/overworld512.png"
             }
