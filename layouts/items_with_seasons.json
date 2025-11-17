@@ -72,7 +72,7 @@
     },
     "items_tracker": {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "content": [
             {
                 "type": "group",
@@ -84,7 +84,7 @@
             },
             {
                 "type": "group",
-                "header": "Key Items",
+                "header": "Items",
                 "content": {
                     "type": "layout",
                     "key": "key_items_grid"

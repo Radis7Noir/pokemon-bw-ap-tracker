@@ -8,7 +8,7 @@
             "content": [
                 {
                     "type": "dock",
-                    "dock": "left",
+                    "dock": "bottom",
                     "content": [
                         {
                             "type": "layout",

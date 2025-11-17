@@ -26,9 +26,11 @@
         "h_alignment": "left",
         "rows": [
             [
+                "goal",
+				"bluecard",
                 "season_control",
-                "flash_requirement",
-                "goal"
+                "require_dowsingmchn",
+				"require_flash"
             ]
         ]
     }
