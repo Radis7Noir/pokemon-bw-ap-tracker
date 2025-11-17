@@ -6,6 +6,12 @@
     ]
   },
   {
+    "name": "all_hms",
+    "access_rules": [
+	  "hm01cut,hm02fly,hm03surf,hm04strength,hm05waterfall,hm06dive"
+    ]
+  },
+  {
     "name": "Nuvema Town Access",
     "access_rules": [
 	  ""
