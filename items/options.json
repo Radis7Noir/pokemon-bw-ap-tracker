@@ -6,49 +6,49 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Ghetsis",
+                "name": "Goal - Ghetsis",
                 "img": "/images/events/goalghetsis.png",
                 "codes": "goal,goal_ghetsis",
                 "inherit_codes": false
             },
             {
-                "name": "Champion Alder",
+                "name": "Goal - Champion Alder",
                 "img": "/images/events/goalchampion.png",
                 "codes": "goal,goal_champion",
                 "inherit_codes": false
             },
             {
-                "name": "Cynthia",
+                "name": "Goal - Cynthia",
                 "img": "/images/events/goalcynthia.png",
                 "codes": "goal,goal_cynthia",
                 "inherit_codes": false
             },
             {
-                "name": "Cobalion",
+                "name": "Goal - Cobalion",
                 "img": "/images/events/goalcobalion.png",
                 "codes": "goal,goal_cobalion",
                 "inherit_codes": false
             },
             {
-                "name": "TM/HM Hunt",
+                "name": "Goal - TM/HM Hunt",
                 "img": "/images/events/goaltmhms.png",
                 "codes": "goal,goal_tmhm_hunt",
                 "inherit_codes": false
             },
             {
-                "name": "Seven Sages Hunt",
+                "name": "Goal - Seven Sages Hunt",
                 "img": "/images/events/goal7sages.png",
                 "codes": "goal,goal_seven_sages_hunt",
                 "inherit_codes": false
             },
             {
-                "name": "Legendary Hunt",
+                "name": "Goal - Legendary Hunt",
                 "img": "/images/events/victini.png",
                 "codes": "goal,goal_legendary_hunt",
                 "inherit_codes": false
             },
             {
-                "name": "Pokemon Master",
+                "name": "Goal - Pokemon Master",
                 "img": "/images/events/goalmaster.png",
                 "codes": "goal,goal_pokemon_master",
                 "inherit_codes": false
@@ -63,19 +63,19 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Vanilla",
+                "name": "Season Control - Vanilla",
                 "img": "/images/settings/seasons_vanilla.png",
                 "codes": "season_control,season_control_vanilla",
                 "inherit_codes": false
             },
             {
-                "name": "Changeable",
+                "name": "Season Control - Changeable",
                 "img": "/images/settings/seasons_changeable.png",
                 "codes": "season_control,season_control_changeable",
                 "inherit_codes": false
             },
             {
-                "name": "Randomized",
+                "name": "Season Control - Randomized",
                 "img": "/images/settings/seasons_randomized.png",
                 "codes": "season_control,season_control_randomized",
                 "inherit_codes": false
@@ -89,10 +89,14 @@
         "allow_disabled": false,
         "stages": [
             {
+                "name": "Flash Requirement - OFF",
+                "img": "/images/settings/flash_false.png",
                 "codes": "require_flash,require_flash_false",
                 "inherit_codes": false
             },
             {
+                "name": "Flash Requirement - ON",
+                "img": "/images/settings/flash_true.png",
                 "codes": "require_flash,require_flash_true",
                 "inherit_codes": false
             }
@@ -101,18 +105,19 @@
     {
         "name": "Hidden Items Requirement",
         "type": "progressive",
+		"loop": true,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Randomized",
+                "name": "Dowsing MCHN Requirement - OFF",
                 "img": "/images/settings/dowsingmchn_false.png",
                 "codes": "require_dowsingmachn,require_dowsingmchn_false",
                 "inherit_codes": false
             },
             {
-                "name": "Randomized",
+                "name": "Dowsing MCHN Requirement - ON",
                 "img": "/images/settings/dowsingmchn_true.png",
-                "codes": "require_dowsing_mchn,require_dowsingmchn_true",
+                "codes": "require_dowsingmchn,require_dowsingmchn_true",
                 "inherit_codes": false
             }
         ]
