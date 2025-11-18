@@ -28,16 +28,6 @@ function toggle_seasons()
 	end
 end
 
-function toggle_seasons()
-    if has("season_control_vanilla") then
-        Tracker:AddLayouts("layouts/items.json")
-    elseif has("season_control_changeable") then
-        Tracker:AddLayouts("layouts/items.json")
-	elseif has("season_control_randomized") then
-        Tracker:AddLayouts("layouts/items_with_seasons.json")
-	end
-end
-
 function flash()
     if has("require_flash_false") then
         return AccessibilityLevel.Normal

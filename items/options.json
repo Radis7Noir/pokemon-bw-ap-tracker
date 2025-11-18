@@ -1,5 +1,25 @@
 [
     {
+        "name": "Game Version",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Game Version - Pokémon Black",
+                "img": "/images/settings/pokemonblack.png",
+                "codes": "game_version,pokemon_black",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Pokémon White",
+                "img": "/images/settings/pokemonwhite.png",
+                "codes": "game_version,pokemon_white",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Goal",
         "type": "progressive",
 		"loop": true,
@@ -54,6 +74,17 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Dexsanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "dexsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
     },
     {
 

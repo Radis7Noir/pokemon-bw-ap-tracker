@@ -13,7 +13,7 @@
         "var_vertical": {
             "display_name": "Items and Encounters Tracker (Vertical)",
             "flags": ["ap"]
-        },
+        }
     }
     , "versions_url": "no"
 }

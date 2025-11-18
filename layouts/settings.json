@@ -26,7 +26,8 @@
         "h_alignment": "left",
         "rows": [
             [
-                "goal",
+                "game_version",
+				"goal",
                 "season_control",
                 "require_dowsingmchn",
 				"require_flash"

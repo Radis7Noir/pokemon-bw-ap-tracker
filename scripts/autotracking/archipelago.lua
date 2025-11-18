@@ -48,14 +48,14 @@ function onClear(slot_data)
         elseif k == "goal" then
             local item = Tracker:FindObjectForCode("goal")
             local mapping = {
-                goal_ghetsis = 0,
-                goal_champion = 1,
-                goal_cynthia = 2,
-                goal_cobalion = 3,
-                goal_tmhm_hunt = 4,
-                goal_seven_sages_hunt = 5,
-                goal_legendary_hunt = 6,
-                goal_pokemon_master = 7
+                ghetsis = 0,
+                champion = 1,
+                cynthia = 2,
+                cobalion = 3,
+                tmhm_hunt = 4,
+                seven_sages_hunt = 5,
+                legendary_hunt = 6,
+                pokemon_master = 7
             }
             if mapping[v] ~= nil then
                 item.CurrentStage = mapping[v]
@@ -73,6 +73,13 @@ function onClear(slot_data)
                 require_dowsingmchn.CurrentStage = 1
             else
                 require_dowsingmchn.CurrentStage = 0
+            end
+         elseif k == "version" then
+            local game_version = Tracker:FindObjectForCode("game_version")
+            if v == "white" then
+                game_version.CurrentStage = 1
+            else
+                game_version.CurrentStage = 0
             end
         end
     end
