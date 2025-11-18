@@ -17,7 +17,7 @@
             ]
         }
     },
-    "option_grid": {
+    "options_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32,32",
@@ -27,7 +27,6 @@
         "rows": [
             [
                 "goal",
-				"bluecard",
                 "season_control",
                 "require_dowsingmchn",
 				"require_flash"
