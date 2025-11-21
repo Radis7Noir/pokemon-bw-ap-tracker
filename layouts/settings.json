@@ -13,6 +13,14 @@
                         "type": "layout",
                         "key": "options_grid"
                     }
+                },
+				                {
+                    "type": "group",
+                    "header": "Logic",
+                    "content": {
+                        "type": "layout",
+                        "key": "logic_grid"
+                    }
                 }
             ]
         }
@@ -28,8 +36,23 @@
             [
                 "game_version",
 				"goal",
+				"dexsanity",
                 "season_control",
-                "require_dowsingmchn",
+				"randomize_trainers"
+            ]
+        ]
+    },
+    "logic_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "keyitem_priority",
+				"require_dowsingmchn",
 				"require_flash"
             ]
         ]
