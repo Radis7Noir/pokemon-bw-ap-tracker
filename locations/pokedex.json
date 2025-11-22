@@ -1,6 +1,7 @@
 [
 {       "name": "Pokemon",
         "children": [
+{"name": "Bulbasaur", "access_rules": ["caught_1"], "sections": [{"hosted_item": "caught_1"}], "map_locations": [{"map": "kantodex", "x": 72, "y": 72, "shape": "rect"}]},
 {"name": "Ivysaur", "access_rules": ["caught_2"], "sections": [{"hosted_item": "caught_2"}], "map_locations": [{"map": "kantodex", "x": 168, "y": 72, "shape": "rect"}]},
 {"name": "Venusaur", "access_rules": ["caught_3"], "sections": [{"hosted_item": "caught_3"}], "map_locations": [{"map": "kantodex", "x": 264, "y": 72, "shape": "rect"}]},
 {"name": "Charmander", "access_rules": ["caught_4"], "sections": [{"hosted_item": "caught_4"}], "map_locations": [{"map": "kantodex", "x": 360, "y": 72, "shape": "rect"}]},
