@@ -114,6 +114,38 @@
         ]
     },
     {
+        "name": "Badge Shuffling",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuffle Badges - Vanilla",
+                "img": "/images/settings/badge_vanilla.png",
+                "codes": "shuffle_badges,shuffle_badges_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Shuffle",
+                "img": "/images/settings/badge_shuffle.png",
+                "codes": "shuffle_badges,shuffle_badges_shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Any Badge",
+                "img": "/images/settings/badge_anybadge.png",
+                "codes": "shuffle_badges,shuffle_badges_any_badge",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Anything",
+                "img": "/images/settings/badge_anything.png",
+                "codes": "shuffle_badges,shuffle_badges_anything",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Prioritize Key Item Locations",
         "type": "progressive",
 		"loop": true,
@@ -169,26 +201,6 @@
                 "name": "Dowsing MCHN Requirement - ON",
                 "img": "/images/settings/dowsingmchn_true.png",
                 "codes": "require_dowsingmchn,require_dowsingmchn_true",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
-        "name": "Randomize Trainers",
-        "type": "progressive",
-		"loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "name": "Randomized Trainers - OFF",
-                "img": "/images/settings/randomized_trainers_false.png",
-                "codes": "randomize_trainers,randomize_trainers_false",
-                "inherit_codes": false
-            },
-            {
-                "name": "Randomized Trainers - ON",
-                "img": "/images/settings/randomized_trainers_true.png",
-                "codes": "randomize_trainers,randomize_trainers_true",
                 "inherit_codes": false
             }
         ]
