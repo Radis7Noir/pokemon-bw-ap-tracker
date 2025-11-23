@@ -28,8 +28,8 @@ function onClear(slot_data)
     CUR_INDEX = -1
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    CAUGHT = nil
-    SEEN = nil
+    CAUGHT = {}
+    SEEN = {}
 
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
@@ -308,15 +308,13 @@ function updatePokemon()
     end
     
     for dex_number, locations in pairs(POKEMON_TO_LOCATIONS) do
-        local caughtCode = Tracker:FindObjectForCode("caught_" .. dex_number)
-        local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number)
-        local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number)
+        local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number).Active
+        local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number).Active
         
         local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = table_contains(SEEN, dex_number)
         
         local should_decrement = false
-        
         if is_caught then
             should_decrement = true
         elseif has("encounter_tracking_minimal") and (dexSentCode or not dexVisibilityCode) then
