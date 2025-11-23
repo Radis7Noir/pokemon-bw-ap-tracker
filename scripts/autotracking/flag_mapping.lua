@@ -1,0 +1,22 @@
+FLAG_EVENT_CODES = {
+    "",
+    "defeatghetsis",
+    "defeatcynthia",
+    "arrestsagegiallo",
+    "arrestsagegorm",
+    "arrestsagezinzolin",
+    "arrestsageryoku",
+    "arrestsagerood",
+    "arrestsagebronius",
+    "catchdefeatvictini",
+    "catchreshiramzekrom",
+    "catchdefeatkyurem",
+    "catchdefeatvolcarona",
+    "catchdefeatcobalion",
+    "catchdefeatterrakion",
+    "catchdefeatvirizion",
+    "defeatchampionalder",
+    "turnintmhmcollection",
+    "defeatbrycen",
+    "helpdaycareman"
+}

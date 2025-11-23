@@ -2,6 +2,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
 HINT_STATUS_MAPPING = {}
@@ -16,6 +17,8 @@ if Highlight then
 end
 
 CUR_INDEX = -1
+PLAYER_ID = -1
+TEAM_NUMBER = 0
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
@@ -119,6 +122,23 @@ function onClear(slot_data)
             end
         end
     end
+    
+    -- Datastorage Watches
+    if PLAYER_ID>-1 then
+        updateEvents(0)
+        
+        EVENT_ID = "pokemon_bw_events"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+
+        POKE_CAUGHT_ID="pokemon_bw_caught_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({POKE_CAUGHT_ID})
+        Archipelago:Get({POKE_CAUGHT_ID})
+        
+        POKE_SEEN_ID="pokemon_bw_seen_pokemon_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({POKE_SEEN_ID})
+        Archipelago:Get({POKE_SEEN_ID})
+    end
 end
 
 function resetItem(code, type)
@@ -191,6 +211,46 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find object for code %s", code))
+        end
+    end
+end
+
+function onNotify(key, value, old_value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == POKE_CAUGHT_ID then
+            updatePokemom(value)
+        elseif key == POKE_SEEN_ID then
+            updatePokemom(value)
+        end
+    end
+end
+
+function onNotifyLaunch(key, value)
+    if value ~= nil and value ~= 0 then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == POKE_CAUGHT_ID then
+            updatePokemom(value)
+        elseif key == POKE_SEEN_ID then
+            updatePokemom(value)
+        end
+    end
+end
+
+function updateEvents(value)
+    if value ~= nil then
+        for i, code in ipairs(FLAG_EVENT_CODES) do
+            local obj = Tracker:FindObjectForCode(code)
+            if obj ~= nil then
+                obj.Active = false
+            end
+            local bit = value >> (i - 1) & 1
+            if #code > 0 then
+                local obj = Tracker:FindObjectForCode(code)
+                obj.Active = obj.Active or bit == 1
+            end
         end
     end
 end
