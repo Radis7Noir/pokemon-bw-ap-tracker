@@ -204,5 +204,39 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 3,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "/images/settings/encounter_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_tracking, encounter_tracking_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off Caught",
+                "img": "/images/settings/encounter_tracking.png",
+                "codes": "encounter_tracking, encounter_tracking_caught",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off caught, seen if not dexsanity",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_seen",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off caught and not dexsanity",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_minimal",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

@@ -1,7 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
@@ -29,6 +28,8 @@ function onClear(slot_data)
     CUR_INDEX = -1
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    CAUGHT = nil
+    SEEN = nil
 
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
@@ -46,6 +47,26 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("caught_" .. i).Active = false
     end
 
+    -- so we can access the mapping later
+    POKEMON_TO_LOCATIONS = {}
+    for location, dex_list in pairs(slot_data["encounter_by_method"]) do
+        for _, dex_number in pairs(dex_list) do
+            if POKEMON_TO_LOCATIONS[dex_number] == nil then
+                POKEMON_TO_LOCATIONS[dex_number] = {}
+            end
+            table.insert(POKEMON_TO_LOCATIONS[dex_number], location)
+        end
+    end
+    
+    -- This sets each Encounter location to however many unique encounters there are in it
+    for region_key, location in pairs(ENCOUNTER_MAPPING) do
+        local object = Tracker:FindObjectForCode(location)
+        object.AvailableChestCount = #slot_data.encounter_by_method[region_key]
+    end
+    
+    REGION_ENCOUNTERS = slot_data.encounter_by_method
+
+    -- Main Slot Data Processing
     for k, v in pairs(slot_data.options) do
         if k == "season_control" then
             local item = Tracker:FindObjectForCode("season_control")
@@ -139,6 +160,8 @@ function onClear(slot_data)
         Archipelago:SetNotify({POKE_SEEN_ID})
         Archipelago:Get({POKE_SEEN_ID})
     end
+    
+    updatePokemon()
 end
 
 function resetItem(code, type)
@@ -220,9 +243,9 @@ function onNotify(key, value, old_value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == POKE_CAUGHT_ID then
-            updatePokemom(value)
+            updateCaught(value)
         elseif key == POKE_SEEN_ID then
-            updatePokemom(value)
+            updateSeen(value)
         end
     end
 end
@@ -232,9 +255,9 @@ function onNotifyLaunch(key, value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == POKE_CAUGHT_ID then
-            updatePokemom(value)
+            updateCaught(value)
         elseif key == POKE_SEEN_ID then
-            updatePokemom(value)
+            updateSeen(value)
         end
     end
 end
@@ -250,6 +273,67 @@ function updateEvents(value)
             if #code > 0 then
                 local obj = Tracker:FindObjectForCode(code)
                 obj.Active = obj.Active or bit == 1
+            end
+        end
+    end
+end
+
+function updateCaught(value)
+    CAUGHT = value
+    updatePokemon()
+end
+
+function updateSeen(value)
+    SEEN = value
+    updatePokemon()
+end
+
+function updatePokemon()
+
+    for i = 1, 649 do
+        if table_contains(CAUGHT, i) then
+            Tracker:FindObjectForCode("caught_"..i).Active = true
+        else
+            Tracker:FindObjectForCode("caught_"..i).Active = false
+        end
+    end
+    
+    if has("encounter_tracking_off") then
+        return
+    end
+    
+    for region_key, location in pairs(ENCOUNTER_MAPPING) do
+        local object = Tracker:FindObjectForCode(location)
+        object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
+    end
+    
+    for dex_number, locations in pairs(POKEMON_TO_LOCATIONS) do
+        local caughtCode = Tracker:FindObjectForCode("caught_" .. dex_number)
+        local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number)
+        local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number)
+        
+        local is_caught = table_contains(CAUGHT, dex_number)
+        local is_seen = table_contains(SEEN, dex_number)
+        
+        local should_decrement = false
+        
+        if is_caught then
+            should_decrement = true
+        elseif has("encounter_tracking_minimal") and (dexSentCode or not dexVisibilityCode) then
+            should_decrement = true
+        elseif has("encounter_tracking_seen") and not dexVisibilityCode and is_seen then
+            should_decrement = true
+        end
+        
+        if should_decrement then
+            for _, location in pairs(locations) do
+                local object_name = ENCOUNTER_MAPPING[location]
+                if object_name ~= nil then
+                    local object = Tracker:FindObjectForCode(object_name)
+                    if object then
+                        object.AvailableChestCount = object.AvailableChestCount - 1
+                    end
+                end
             end
         end
     end
