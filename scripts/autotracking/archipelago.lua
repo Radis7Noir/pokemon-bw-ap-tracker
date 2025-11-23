@@ -148,7 +148,7 @@ function onClear(slot_data)
     if PLAYER_ID>-1 then
         updateEvents(0)
         
-        EVENT_ID = "pokemon_bw_events"..TEAM_NUMBER.."_"..PLAYER_ID
+        EVENT_ID = "pokemon_bw_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
 
