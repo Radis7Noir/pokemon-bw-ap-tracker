@@ -1,0 +1,29 @@
+﻿{
+    "broadcast_item_grid": { //...replace with your desired layout here 
+        "type": "array",
+        "orientation": "vertical",
+        "dropshadow": false,
+        "margin": 0,
+        "content": [
+            {
+                "type": "layout",
+                "key": "badges_grid"
+            },
+            {
+                "type": "layout",
+                "key": "key_items_grid"
+            }
+        ]
+    },
+    "tracker_broadcast": {
+        "type": "array",
+        "dropshadow": false,
+        "margin": 0,
+        "content": [
+            {
+                "type": "layout",
+                "key": "broadcast_item_grid"
+            }
+        ]
+    }
+}

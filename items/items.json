@@ -1,0 +1,230 @@
+[
+    {
+        "name": "Trio Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/trio_badge.png",
+        "codes": "triobadge"
+    },
+    {
+        "name": "Basic Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/basic_badge.png",
+        "codes": "basicbadge"
+    },
+    {
+        "name": "Insect Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/insect_badge.png",
+        "codes": "insectbadge"
+    },
+    {
+        "name": "Bolt Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/bolt_badge.png",
+        "codes": "boltbadge"
+    },
+    {
+        "name": "Quake Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/quake_badge.png",
+        "codes": "quakebadge"
+    },
+    {
+        "name": "Jet Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/jet_badge.png",
+        "codes": "jetbadge"
+    },
+    {
+        "name": "Freeze Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/freeze_badge.png",
+        "codes": "freezebadge"
+    },
+    {
+        "name": "Legend Badge",
+        "type": "toggle",
+        "img": "/images/items/badges/legend_badge.png",
+        "codes": "legendbadge"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "/images/items/hms/hm01_cut.png",
+        "codes": "hm01cut"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "/images/items/hms/hm02_fly.png",
+        "codes": "hm02fly"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "/images/items/hms/hm03_surf.png",
+        "codes": "hm03surf"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "/images/items/hms/hm04_strength.png",
+        "codes": "hm04strength"
+    },
+    {
+        "name": "HM05 Waterfall",
+        "type": "toggle",
+        "img": "/images/items/hms/hm05_waterfall.png",
+        "codes": "hm05waterfall"
+    },
+    {
+    "name": "HM06 Dive",
+    "type": "toggle",
+    "img": "/images/items/hms/hm06_dive.png",
+    "codes": "hm06dive"
+    },
+    {
+        "name": "TM70 Flash",
+        "type": "toggle",
+        "img": "/images/items/hms/tm70_flash.png",
+        "codes": "tm70flash"
+    },
+    {
+        "name": "Owned TMs",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 95,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "/images/items/hms/tm_case.png",
+        "overlay_background": "#000000",
+        "codes": "ownedtms"
+    },
+    {
+        "name": "Dowsing MCHN",
+        "type": "toggle",
+        "img": "/images/items/misc/dowsing_mchn.png",
+        "codes": "dowsingmchn"
+    },
+    {
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "/images/items/misc/super_rod.png",
+        "codes": "superrod"
+    },
+    {
+        "name": "Lock Capsule",
+        "type": "toggle",
+        "img": "/images/items/misc/lock_capsule.png",
+        "codes": "lockcapsule"
+    },
+    {
+        "name": "Wingull Gram",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 3,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "/images/items/misc/gram.png",
+        "overlay_background": "#000000",
+        "codes": "gram"
+    },
+    {
+        "name": "Parcel",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/parcel.png",
+        "codes": "parcel"
+    },
+    {
+        "name": "Loot Sack",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/loot_sack.png",
+        "codes": "lootsack"
+    },
+    {
+        "name": "Dragon Skull",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/dragon_skull.png",
+        "codes": "dragonskull"
+    },
+    {
+        "name": "Machine Part",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/machine_part.png",
+        "codes": "machinepart"
+    },
+    {
+        "name": "Tidal Bell",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/tidal_bell.png",
+        "codes": "tidalbell"
+    },
+    {
+        "name": "Light/Dark Stone",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/light-dark_stone.png",
+        "codes": "light-darkstone"
+    },
+	{
+        "name": "Blue Card",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/blue_card.png",
+        "codes": "bluecard"
+    },
+	{
+        "name": "Oak's Letter",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/oaks_letter.png",
+        "codes": "oaksletter"
+    },
+	{
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/basement_key.png",
+        "codes": "basementkey"
+    },
+	{
+        "name": "Explorer Kit",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/explorer_kit.png",
+        "codes": "explorerkit"
+    },
+    {
+        "name": "Red Chain",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/red_chain.png",
+        "codes": "redchain"
+    },
+	{
+        "name": "Liberty Pass",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/liberty_pass.png",
+        "codes": "libertypass"
+    },
+    {
+        "name": "Spring",
+        "type": "toggle",
+        "img": "/images/items/seasons/spring.png",
+        "codes": "spring"
+    },
+    {
+        "name": "Summer",
+        "type": "toggle",
+        "img": "/images/items/seasons/summer.png",
+        "codes": "summer"
+    },
+    {
+        "name": "Autumn",
+        "type": "toggle",
+        "img": "/images/items/seasons/autumn.png",
+        "codes": "autumn"
+    },
+    {
+        "name": "Winter",
+        "type": "toggle",
+        "img": "/images/items/seasons/winter.png",
+        "codes": "winter"
+    }
+]

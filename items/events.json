@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Defeat Ghetsis",
+        "type": "toggle",
+        "img": "/images/events/goalghetsis.png",
+        "codes": "defeatghetsis"
+    },
+    {
+        "name": "Defeat Champion Alder",
+        "type": "toggle",
+        "img": "/images/events/goalchampion.png",
+        "codes": "defeatchampionalder"
+    },
+    {
+        "name": "Defeat Cynthia",
+        "type": "toggle",
+        "img": "/images/events/goalcynthia.png",
+        "codes": "defeatcynthia"
+    },
+    {
+        "name": "Catch or defeat Cobalion",
+        "type": "toggle",
+        "img": "/images/events/goalcobalion.png",
+        "codes": "catchdefeatcobalion"
+    },
+    {
+        "name": "Show all TMs and HMs to the scientist in Castelia City",
+        "type": "toggle",
+        "img": "/images/events/goaltmhms.png",
+        "codes": "showalltmhms"
+    },
+    {
+        "name": "Arrest Sage Gorm at the Dreamyard",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsagegorm"
+    },
+    {
+        "name": "Arrest Sage Giallo on Route 14",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsagegiallo"
+    },
+    {
+        "name": "Arrest Sage Zinzolin in Cold Storage",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsagezinzolin"
+    },
+    {
+        "name": "Arrest Sage Ryoku in Relic Castle",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsageryoku"
+    },
+    {
+        "name": "Arrest Sage Rood on Route 18",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsagerood"
+    },
+    {
+        "name": "Arrest Sage Bronius in Chargestone Cave",
+        "type": "toggle",
+        "img": "/images/events/goal7sages.png",
+        "codes": "arrestsagebronius"
+    },
+    {
+        "name": "Catch or defeat Victini",
+        "type": "toggle",
+        "img": "/images/events/victini.png",
+        "codes": "catchdefeatvictini"
+    },
+    {
+        "name": "Catch Reshiram or Zekrom",
+        "type": "toggle",
+        "img": "/images/events/zeshiram.png",
+        "codes": "catchreshiramzekrom"
+    },
+    {
+        "name": "Catch or defeat Cobalion",
+        "type": "toggle",
+        "img": "/images/events/goallegendhunt.png",
+        "codes": "catchdefeatcobalion"
+    },
+    {
+        "name": "Catch or defeat Terrakion",
+        "type": "toggle",
+        "img": "/images/events/terrakion.png",
+        "codes": "catchdefeatterrakion"
+    },
+    {
+        "name": "Catch or defeat Virizion",
+        "type": "toggle",
+        "img": "/images/events/virizion.png",
+        "codes": "catchdefeatvirizion"
+    },
+    {
+        "name": "Catch or deafeat Kyurem",
+        "type": "toggle",
+        "img": "/images/events/kyurem.png",
+        "codes": "catchdefeatkyurem"
+    },
+    {
+        "name": "Catch or defeat Volcarona",
+        "type": "toggle",
+        "img": "/images/events/volcarona.png",
+        "codes": "catchdefeatvolcarona"
+    },
+    {
+        "name": "Defeat Gym Leader Brycen",
+        "type": "toggle",
+        "img": "/images/events/brycen.png",
+        "codes": "defeatbrycen"
+    },
+    {
+        "name": "Help the Daycare Man",
+        "type": "toggle",
+        "img": "/images/events/oldman.png",
+        "codes": "helpdaycareman"
+    }
+]

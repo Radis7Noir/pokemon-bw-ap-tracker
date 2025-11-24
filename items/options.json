@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Game Version",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Game Version - Pokémon Black",
+                "img": "/images/settings/pokemonblack.png",
+                "codes": "game_version,pokemon_black",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Pokémon White",
+                "img": "/images/settings/pokemonwhite.png",
+                "codes": "game_version,pokemon_white",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Goal - Ghetsis",
+                "img": "/images/events/goalghetsis.png",
+                "codes": "goal,goal_ghetsis",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Champion Alder",
+                "img": "/images/events/goalchampion.png",
+                "codes": "goal,goal_champion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Cynthia",
+                "img": "/images/events/goalcynthia.png",
+                "codes": "goal,goal_cynthia",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Cobalion",
+                "img": "/images/events/goalcobalion.png",
+                "codes": "goal,goal_cobalion",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - TM/HM Hunt",
+                "img": "/images/events/goaltmhms.png",
+                "codes": "goal,goal_tmhm_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Seven Sages Hunt",
+                "img": "/images/events/goal7sages.png",
+                "codes": "goal,goal_seven_sages_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Legendary Hunt",
+                "img": "/images/events/victini.png",
+                "codes": "goal,goal_legendary_hunt",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal - Pokemon Master",
+                "img": "/images/events/goalmaster.png",
+                "codes": "goal,goal_pokemon_master",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dexsanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "dexsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+
+        "name": "Season Control",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Season Control - Vanilla",
+                "img": "/images/settings/seasons_vanilla.png",
+                "codes": "season_control,season_control_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Season Control - Changeable",
+                "img": "/images/settings/seasons_changeable.png",
+                "codes": "season_control,season_control_changeable",
+                "inherit_codes": false
+            },
+            {
+                "name": "Season Control - Randomized",
+                "img": "/images/settings/seasons_randomized.png",
+                "codes": "season_control,season_control_randomized",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Badge Shuffling",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuffle Badges - Vanilla",
+                "img": "/images/settings/badge_vanilla.png",
+                "codes": "shuffle_badges,shuffle_badges_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Shuffle",
+                "img": "/images/settings/badge_shuffle.png",
+                "codes": "shuffle_badges,shuffle_badges_shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Any Badge",
+                "img": "/images/settings/badge_anybadge.png",
+                "codes": "shuffle_badges,shuffle_badges_any_badge",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle Badges - Anything",
+                "img": "/images/settings/badge_anything.png",
+                "codes": "shuffle_badges,shuffle_badges_anything",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Prioritize Key Item Locations",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Key Item Locations Priority - OFF",
+                "img": "/images/settings/prioritize_false.png",
+                "codes": "keyitem_priority,keyitem_priority_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Key Item Locations Priority - ON",
+                "img": "/images/settings/prioritize_true.png",
+                "codes": "keyitem_priority,keyitem_priority_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Flash Requirement",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Flash Requirement - OFF",
+                "img": "/images/settings/flash_false.png",
+                "codes": "require_flash,require_flash_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Flash Requirement - ON",
+                "img": "/images/settings/flash_true.png",
+                "codes": "require_flash,require_flash_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hidden Items Requirement",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dowsing MCHN Requirement - OFF",
+                "img": "/images/settings/dowsingmchn_false.png",
+                "codes": "require_dowsingmachn,require_dowsingmchn_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dowsing MCHN Requirement - ON",
+                "img": "/images/settings/dowsingmchn_true.png",
+                "codes": "require_dowsingmchn,require_dowsingmchn_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Adjust Levels",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Adjust Levels - OFF",
+                "img": "/images/settings/adjustlevels_off.png",
+                "codes": "adjustlevels, adjustlevels_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Wilds & Trainers",
+                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "codes": "adjustlevels, adjustlevels_wilds, adjustlevels_trainers",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Wilds",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "codes": "adjustlevels, adjustlevels_wilds",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Levels - Trainers",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "codes": "adjustlevels, adjustlevels_trainers",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "/images/settings/encounter_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_tracking, encounter_tracking_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off Caught",
+                "img": "/images/settings/encounter_tracking.png",
+                "codes": "encounter_tracking, encounter_tracking_caught",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off caught, seen if not dexsanity",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_seen",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - Mark off caught and not dexsanity",
+                "img": "/images/settings/encounter_tracking_loose.png",
+                "codes": "encounter_tracking, encounter_tracking_minimal",
+                "inherit_codes": false
+            }
+        ]
+    }
+]
