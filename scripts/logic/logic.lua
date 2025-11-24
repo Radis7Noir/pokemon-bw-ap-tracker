@@ -17,7 +17,7 @@ end
 function season(season)
     local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
     if has("season_control_vanilla") then
-        return AccessibilityLevel.Inspect
+        return AccessibilityLevel.SequenceBreak
     elseif has("season_control_changeable") and nimbasa then
         return nimbasa
     elseif has("season_control_randomized") and nimbasa and has(season) then
