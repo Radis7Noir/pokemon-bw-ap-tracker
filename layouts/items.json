@@ -103,7 +103,7 @@
             },
             {
                 "type": "group",
-                "header": "Items",
+                "header": "Quick Settings",
                 "content": {
                     "type": "layout",
                     "key": "quicksettings_grid"
