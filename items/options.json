@@ -238,5 +238,25 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Wild Levels",
+        "type": "progressive",
+		"loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wild Levels - Vanilla",
+                "img": "/images/settings/dowsingmchn_false.png",
+                "codes": "wild_levels, wild_levels_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wild Levels - Adjusted",
+                "img": "/images/settings/dowsingmchn_true.png",
+                "codes": "wild_levels, wild_levels_adjusted",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
