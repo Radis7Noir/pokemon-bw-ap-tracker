@@ -78,7 +78,12 @@ function evolve_item(value)
 end
 
 function evolve_friendship(value)
-    return AccessibilityLevel.Normal
+    local friendship_appraiser = Tracker:FindObjectForCode("@Nacrene City Access").AccessibilityLevel
+	if friendship_appraiser then
+        return friendship_appraiser
+	else
+	    return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function evolve_area(area)
