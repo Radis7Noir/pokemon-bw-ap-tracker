@@ -1,7 +1,7 @@
 {
     "name": "Pokémon Black and White Archipelago",
     "game_name": "Pokémon Black and White",
-    "package_version": "1.0.0",
+    "package_version": "1.0.1",
     "min_poptracker_version": "0.32.1",
     "package_uid": "ap_pokemon_bw",
     "author": "RadisNoir & palex00",
