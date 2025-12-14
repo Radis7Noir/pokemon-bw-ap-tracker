@@ -53,7 +53,42 @@ function onClear(slot_data)
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Static Encounters etc. added manually
     local newEncounters = {
+	    Magikarp_Gift = 129,
+		Zorua_Gift = 570,
+		Larvesta_Egg = 636,
+		Omanyte_Fossil = 138,
+		Kabuto_Fossil = 140,
+		Aerodactyl_Fossil = 142,
+		Lileep_Fossil = 345,
+		Anorith_Fossil = 347,
+		Cranidos_Fossil = 408,
+		Sieldon_Fossil = 410,
+		Tirtouga_Fossil = 564,
+		Archen_Fossil = 566,
+		Munchlax_Trade = 446,
+		Rotom_Trade = 479,
+		Cottonee_Trade = 546,
+		Petilil_Trade = 548,
+		Basculin_Trade = 550,
+		Emolga_Trade = 587,
+		Foongus_Trap6 = 590,
+		Foongus_Trap10 = 590,
+		Amoonguss_Trap = 591,
+		Victini_Static = 494,
+		Musharna_Static = 518,
+		Darmanitan_Static = 555,
+		Zoroark_Static = 571,
         Volcarona_Static = 637,
+		Cobalion_Static = 638,
+		Terrakion_Static = 639,
+		Virizion_Static = 640,
+		Reshiram_Static = 643,
+		Zekrom_Static = 644,
+		Landorus_Static = 645,
+		Kyurem_Static = 646,
+		Tornadus_Roamer = 641,
+		Thundurus_Roamer = 642
+		
     }
     
     for name, dexID in pairs(newEncounters) do

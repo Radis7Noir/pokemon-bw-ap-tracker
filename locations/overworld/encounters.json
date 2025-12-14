@@ -19,8 +19,8 @@
                         "map": "overworld",
                         "x": 40,
                         "y": 270,
-						"size": 48,
-						"shape": "diamond"
+                        "size": 48,
+                        "shape": "diamond"
                     }
                 ]
             },
@@ -31,24 +31,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Catch the roaming Tornadus",
+                        "name": "Tornadus (Roamer)",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_641,static_visibility_true"
-                        ],
-						"hosted_item": "caught_641"
+                            ""
+                        ]
                     },
                     {
-                        "name": "Catch the roaming Thundurus",
+                        "name": "Thundurus (Roamer)",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_642,static_visibility_true"
-                        ],
-						"hosted_item": "caught_642"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -56,8 +54,8 @@
                         "map": "overworld",
                         "x": 8,
                         "y": 8,
-						"size": 14,
-						"shape": "diamond"
+                        "size": 14,
+                        "shape": "diamond"
                     }
                 ]
             },
@@ -141,10 +139,8 @@
                             "caught_546"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_548,static_visibility_true",
-							"pokemon_black,dexsanity_visibility_549,static_visibility_true"
-                        ],
-						"hosted_item": "caught_548"
+                            ""
+                        ]
                     },
                     {
                         "name": "Lass requesting a Petilil (Trade)",
@@ -152,10 +148,8 @@
                             "caught_548"
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_546,static_visibility_true",
-							"pokemon_white,dexsanity_visibility_547,static_visibility_true"
-                        ],
-						"hosted_item": "caught_546"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Helix Fossil",
@@ -163,10 +157,8 @@
                             "helixfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_138,static_visibility_true",
-							"dexsanity_visibility_139,static_visibility_true"
-                        ],
-						"hosted_item": "caught_138"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Dome Fossil",
@@ -174,10 +166,8 @@
                             "domefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_140,static_visibility_true",
-							"dexsanity_visibility_141,static_visibility_true"
-                        ],
-						"hosted_item": "caught_140"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Old Amber",
@@ -185,9 +175,8 @@
                             "domefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_142,static_visibility_true"
-                        ],
-						"hosted_item": "caught_142"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Root Fossil",
@@ -195,10 +184,8 @@
                             "rootfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_345,static_visibility_true",
-							"dexsanity_visibility_346,static_visibility_true"
-                        ],
-						"hosted_item": "caught_345"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Claw Fossil",
@@ -206,10 +193,8 @@
                             "clawfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_347,static_visibility_true",
-							"dexsanity_visibility_348,static_visibility_true"
-                        ],
-						"hosted_item": "caught_347"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Skull Fossil",
@@ -217,10 +202,8 @@
                             "skullfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_408,static_visibility_true",
-							"dexsanity_visibility_409,static_visibility_true"
-                        ],
-						"hosted_item": "caught_408"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Armor Fossil",
@@ -228,10 +211,8 @@
                             "armorfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_410,static_visibility_true",
-							"dexsanity_visibility_411,static_visibility_true"
-                        ],
-						"hosted_item": "caught_410"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Cover Fossil",
@@ -239,10 +220,8 @@
                             "coverfossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_564,static_visibility_true",
-							"dexsanity_visibility_565,static_visibility_true"
-                        ],
-						"hosted_item": "caught_564"
+                            ""
+                        ]
                     },
                     {
                         "name": "Museum - Revive the Plume Fossil",
@@ -250,10 +229,8 @@
                             "plumefossil"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_566,static_visibility_true",
-							"dexsanity_visibility_567,static_visibility_true"
-                        ],
-						"hosted_item": "caught_566"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -272,15 +249,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Zorua Event (Celebi in the party)",
+                        "name": "Zorua (Gift)",
                         "access_rules": [
                             "caught_251"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_570",
-							"dexsanity_visibility_571"
-                        ],
-						"hosted_item": "caught_570"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -304,9 +279,8 @@
                             "caught_572"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_550,static_visibility_true"
-                        ],
-						"hosted_item": "caught_550"
+                            ""
+                        ]
                     },
                     {
                         "name": "Surf Encounters",
@@ -645,10 +619,8 @@
                             "caught_573"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_446,static_visibility_true",
-							"dexsanity_visibility_143,static_visibility_true"
-                        ],
-						"hosted_item": "caught_446"
+                            ""
+                        ]
                     },
                     {
                         "name": "Surf Encounters",
@@ -1114,10 +1086,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_590,static_visibility_true",
-							"dexsanity_visibility_591,static_visibility_true"
-                        ],
-						"hosted_item": "caught_590"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters (Spring)",
@@ -1504,9 +1474,8 @@
                             "caught_525"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_587,static_visibility_true"
-                        ],
-						"hosted_item": "caught_587"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters (Spring)",
@@ -2001,10 +1970,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_590,static_visibility_true",
-							"dexsanity_visibility_591,static_visibility_true"
-                        ],
-						"hosted_item": "caught_590"
+                            ""
+                        ]
                     },
                     {
                         "name": "Amoonguss Trap",
@@ -2012,9 +1979,8 @@
                             ""
                         ],
                         "visibility_rules": [
-							"dexsanity_visibility_591,static_visibility_true"
-                        ],
-						"hosted_item": "caught_591"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters",
@@ -2448,9 +2414,8 @@
                             "caught_132"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_479,static_visibility_true"
-                        ],
-						"hosted_item": "caught_479"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters",
@@ -2628,15 +2593,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Larvesta Egg from a Ranger",
+                        "name": "Larvesta Egg (Gift)",
                         "access_rules": [
                             "hm03surf"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_636,static_visibility_true",
-							"dexsanity_visibility_637,static_visibility_true"
-                        ],
-						"hosted_item": "caught_636"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters",
@@ -2843,9 +2806,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_494,static_visibility_true"
-                        ],
-						"hosted_item": "caught_494"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2877,7 +2839,8 @@
                         ]
                     },
                     {
-                        "name": "Ruins - Dark Grass Encounters", "item_count": 12,
+                        "name": "Ruins - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -2908,12 +2871,12 @@
                             "@Dreamyard Basement Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_518,static_visibility_true"
-                        ],
-						"hosted_item": "caught_518"
+                            ""
+                        ]
                     },
                     {
-                        "name": "Basement - Dark Grass Encounters", "item_count": 12,
+                        "name": "Basement - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -2966,7 +2929,8 @@
                         ]
                     },
                     {
-                        "name": "1F - Surf Encounters", "item_count": 5,
+                        "name": "1F - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -2978,7 +2942,8 @@
                         ]
                     },
                     {
-                        "name": "1F - Surf Phenomena", "item_count": 5,
+                        "name": "1F - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -2990,7 +2955,8 @@
                         ]
                     },
                     {
-                        "name": "1F - Rod Encounters", "item_count": 5,
+                        "name": "1F - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -3041,7 +3007,8 @@
                         ]
                     },
                     {
-                        "name": "B1F - Surf Encounters", "item_count": 5,
+                        "name": "B1F - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -3053,7 +3020,8 @@
                         ]
                     },
                     {
-                        "name": "B1F - Surf Phenomena", "item_count": 5,
+                        "name": "B1F - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -3065,7 +3033,8 @@
                         ]
                     },
                     {
-                        "name": "B1F - Rod Encounters", "item_count": 5,
+                        "name": "B1F - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -3118,7 +3087,8 @@
                         ]
                     },
                     {
-                        "name": "Outside - Dark Grass Encounters", "item_count": 12,
+                        "name": "Outside - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -3156,7 +3126,8 @@
                         ]
                     },
                     {
-                        "name": "Inside - Dark Grass Encounters", "item_count": 12,
+                        "name": "Inside - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -3181,7 +3152,8 @@
                         ]
                     },
                     {
-                        "name": "Inside - Surf Encounters", "item_count": 5,
+                        "name": "Inside - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -3193,7 +3165,8 @@
                         ]
                     },
                     {
-                        "name": "Inside - Surf Phenomena", "item_count": 5,
+                        "name": "Inside - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -3205,7 +3178,8 @@
                         ]
                     },
                     {
-                        "name": "Inside - Rod Encounters", "item_count": 5,
+                        "name": "Inside - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -3235,9 +3209,8 @@
                             "@Rumination Field Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_640,static_visibility_true"
-                        ],
-						"hosted_item": "caught_640"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -3268,14 +3241,14 @@
                         ]
                     },
                     {
-                        "name": "Inside - Zen Mode Darmanitan Statue",
+                        "name": "Inside - Darmanitan Statue (Static)",
                         "access_rules": [
                             "ragecandybar"
                         ],
                         "visibility_rules": [
                             "dexsanity_visibility_555,static_visibility_true"
                         ],
-						"hosted_item": "caught_555"
+                        "hosted_item": "caught_555"
                     },
                     {
                         "name": "Inside - Land Encounters",
@@ -3965,11 +3938,8 @@
                             "hm04strength"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_638,static_visibility_true",
-							"dexsanity_visibility_639,static_visibility_true",
-							"dexsanity_visibility_640,static_visibility_true"
-                        ],
-						"hosted_item": "caught_638"
+                            ""
+                        ]
                     },
                     {
                         "name": "Guidance Chamber - Land Encounters",
@@ -5373,7 +5343,8 @@
                         ]
                     },
                     {
-                        "name": "B2F - Surf Encounters", "item_count": 5,
+                        "name": "B2F - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -5385,7 +5356,8 @@
                         ]
                     },
                     {
-                        "name": "B2F - Surf Phenomena", "item_count": 5,
+                        "name": "B2F - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -5397,7 +5369,8 @@
                         ]
                     },
                     {
-                        "name": "B2F - Rod Encounters", "item_count": 5,
+                        "name": "B2F - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -5450,7 +5423,8 @@
                         ]
                     },
                     {
-                        "name": "Insect Badge Gate - Dark Grass Encounters", "item_count": 12,
+                        "name": "Insect Badge Gate - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -5529,7 +5503,8 @@
                         ]
                     },
                     {
-                        "name": "1F Middle Cave - Surf Encounters", "item_count": 5,
+                        "name": "1F Middle Cave - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -5541,7 +5516,8 @@
                         ]
                     },
                     {
-                        "name": "1F Middle Cave - Surf Phenomena", "item_count": 5,
+                        "name": "1F Middle Cave - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -5553,7 +5529,8 @@
                         ]
                     },
                     {
-                        "name": "1F Middle Cave - Rod Encounters", "item_count": 5,
+                        "name": "1F Middle Cave - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -5630,7 +5607,8 @@
                         ]
                     },
                     {
-                        "name": "1F Right Cave - Surf Encounters", "item_count": 5,
+                        "name": "1F Right Cave - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -5642,7 +5620,8 @@
                         ]
                     },
                     {
-                        "name": "1F Right Cave - Surf Phenomena", "item_count": 5,
+                        "name": "1F Right Cave - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -5654,7 +5633,8 @@
                         ]
                     },
                     {
-                        "name": "1F Right Cave - Rod Encounters", "item_count": 5,
+                        "name": "1F Right Cave - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -5970,9 +5950,8 @@
                             "@Trial Chamber Access"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_639,static_visibility_true"
-                        ],
-						"hosted_item": "caught_639"
+                            ""
+                        ]
                     },
                     {
                         "name": "Trial Chamber - Land Encounters",
@@ -6021,9 +6000,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_black,dexsanity_visibility_643,static_visibility_true"
-                        ],
-						"hosted_item": "caught_643"
+                            ""
+                        ]
                     },
                     {
                         "name": "N's Castle - Zekrom (Static)",
@@ -6031,9 +6009,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "pokemon_white,dexsanity_visibility_644,static_visibility_true"
-                        ],
-						"hosted_item": "caught_644"
+                            ""
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -6041,7 +6018,7 @@
                         "map": "overworld",
                         "x": 340,
                         "y": 30,
-						"size": 14
+                        "size": 14
                     }
                 ]
             },
@@ -6171,7 +6148,8 @@
                         ]
                     },
                     {
-                        "name": "Outside Entrance - Dark Grass Encounters", "item_count": 12,
+                        "name": "Outside Entrance - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -6222,7 +6200,8 @@
                         ]
                     },
                     {
-                        "name": "Entrance Cave - Surf Encounters", "item_count": 5,
+                        "name": "Entrance Cave - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -6234,7 +6213,8 @@
                         ]
                     },
                     {
-                        "name": "Entrance Cave - Surf Phenomena", "item_count": 5,
+                        "name": "Entrance Cave - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -6246,7 +6226,8 @@
                         ]
                     },
                     {
-                        "name": "Entrance Cave - Rod Encounters", "item_count": 5,
+                        "name": "Entrance Cave - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -6284,7 +6265,8 @@
                         ]
                     },
                     {
-                        "name": "Crater - Dark Grass Encounters", "item_count": 12,
+                        "name": "Crater - Dark Grass Encounters",
+                        "item_count": 12,
                         "chest_unopened_img": "images/locations/darkgrass.png",
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
@@ -6314,9 +6296,8 @@
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_646,static_visibility_true"
-                        ],
-						"hosted_item": "caught_646"
+                            ""
+                        ]
                     },
                     {
                         "name": "Kyurem's Cave - Land Encounters",
@@ -6345,7 +6326,8 @@
                         ]
                     },
                     {
-                        "name": "Kyurem's Cave - Surf Encounters", "item_count": 5,
+                        "name": "Kyurem's Cave - Surf Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
@@ -6357,7 +6339,8 @@
                         ]
                     },
                     {
-                        "name": "Kyurem's Cave - Surf Phenomena", "item_count": 5,
+                        "name": "Kyurem's Cave - Surf Phenomena",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/surf_ripple.png",
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
@@ -6369,7 +6352,8 @@
                         ]
                     },
                     {
-                        "name": "Kyurem's Cave - Rod Encounters", "item_count": 5,
+                        "name": "Kyurem's Cave - Rod Encounters",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/rod.png",
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
@@ -6632,14 +6616,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Landorus Event (Tornadus and Thundurus in the party)",
+                        "name": "Landorus (Static)",
                         "access_rules": [
                             "caught_641,caught_642,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_645"
-                        ],
-						"hosted_item": "caught_645"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters",
@@ -6748,15 +6731,13 @@
                 ],
                 "sections": [
                     {
-                        "name": "Purchase a Magikarp for 500 Pokédollars",
+                        "name": "Magikarp (Gift)",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_129,static_visibility_true",
-							"dexsanity_visibility_130,static_visibility_true"
-                        ],
-						"hosted_item": "caught_129"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Phenomena",
@@ -6787,16 +6768,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Zoroark Event (Entei, Suicune or Raikou in the party)",
+                        "name": "Zoroark (Static)",
                         "access_rules": [
                             "caught_243",
-							"caught_244",
-							"caught_245"
+                            "caught_244",
+                            "caught_245"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_571"
-                        ],
-						"hosted_item": "caught_571"
+                            ""
+                        ]
                     },
                     {
                         "name": "Land Encounters",
