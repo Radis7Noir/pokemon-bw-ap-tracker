@@ -386,12 +386,12 @@
         "stages": [
             {
                 "name": "Click here to search",
-                "img": "/images/settings/area.png",
+                "img": "/images/settings/go.png",
                 "codes": "go"
             },
             {
                 "name": "Click here to search",
-                "img": "/images/settings/area.png",
+                "img": "/images/settings/go.png",
                 "codes": "search_active",
                 "inherit_codes": "false",
                 "img_mods": "@disabled"
@@ -427,7 +427,7 @@
         "stages": [
             {
                 "name": "Not searched yet",
-                "img": "/images/settings/pokedex.png"
+                "img": "/images/settings/0.png"
             },
             {
                 "name": "Searched for Bulbasaur",
