@@ -442,5 +442,8 @@ ENCOUNTER_MAPPING = {
     ["r17 - S"] = "@Encounters/Route 17/Surf Encounters",
     ["r17 - SR"] = "@Encounters/Route 17/Surf Phenomena",
     ["r17 - F"] = "@Encounters/Route 17/Rod Encounters",
-    ["r17 - FR"] = "@Encounters/Route 17/Rod Phenomena"
+    ["r17 - FR"] = "@Encounters/Route 17/Rod Phenomena",
+
+-- These are manually added for now, they are always Vanilla
+    ["Volcarona_Static"] = "@Encounters/Relic Castle/Volcarona Room - Volcarona (Static)"
 }

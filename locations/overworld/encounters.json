@@ -3571,9 +3571,8 @@
                             "explorerkit, defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_637,static_visibility_true"
-                        ],
-						"hosted_item": "caught_637"
+                            ""
+                        ]
                     },
                     {
                         "name": "Volcarona Room - Land Encounters",

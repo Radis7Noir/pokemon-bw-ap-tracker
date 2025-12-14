@@ -50,9 +50,20 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("caught_" .. i).Active = false
     end
 
+    REGION_ENCOUNTERS = slot_data.encounter_by_method
+    -- Static Encounters etc. added manually
+    local newEncounters = {
+        Volcarona_Static = 637,
+    }
+    
+    for name, dexID in pairs(newEncounters) do
+        REGION_ENCOUNTERS[name] = { dexID }
+    end
+    print(dump_table(REGION_ENCOUNTERS))
+    
     -- so we can access the mapping later
     POKEMON_TO_LOCATIONS = {}
-    for location, dex_list in pairs(slot_data["encounter_by_method"]) do
+    for location, dex_list in pairs(REGION_ENCOUNTERS) do
         for _, dex_number in pairs(dex_list) do
             if POKEMON_TO_LOCATIONS[dex_number] == nil then
                 POKEMON_TO_LOCATIONS[dex_number] = {}
@@ -64,10 +75,8 @@ function onClear(slot_data)
     -- This sets each Encounter location to however many unique encounters there are in it
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         local object = Tracker:FindObjectForCode(location)
-        object.AvailableChestCount = #slot_data.encounter_by_method[region_key]
+        object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
     end
-    
-    REGION_ENCOUNTERS = slot_data.encounter_by_method
 
     -- Main Slot Data Processing
     for k, v in pairs(slot_data.options) do
