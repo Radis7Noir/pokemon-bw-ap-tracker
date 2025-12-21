@@ -9,6 +9,8 @@
                 "sections": [
                     {
                         "name": "If you see this, the Pokemon you searched\nfor does not exist in the Wild.\n\n Consider Evolution logic and search for its pre-evolutions!",
+                        "chest_unopened_img": "images/pokemon/0.png",
+                        "chest_opened_img": "images/pokemon/0.png",
                         "visibility_rules": [
                             "no_wild_encounters_found"
                         ]
@@ -32,20 +34,24 @@
                 "sections": [
                     {
                         "name": "Tornadus (Roamer)",
+                        "chest_unopened_img": "images/events/tornadus.png",
+                        "chest_opened_img": "images/events/tornadus_grayscale.png",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_black"
                         ]
                     },
                     {
                         "name": "Thundurus (Roamer)",
+                        "chest_unopened_img": "images/events/thundurus.png",
+                        "chest_opened_img": "images/events/thundurus_grayscale.png",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_white"
                         ]
                     }
                 ],
@@ -135,24 +141,30 @@
                 "sections": [
                     {
                         "name": "Lass requesting a Cottonee (Trade)",
+                        "chest_unopened_img": "images/events/lass_lillil.png",
+                        "chest_opened_img": "images/events/lass_lillil_grayscale.png",
                         "access_rules": [
                             "caught_546"
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_black"
                         ]
                     },
                     {
                         "name": "Lass requesting a Petilil (Trade)",
+                        "chest_unopened_img": "images/events/lass_fluffee.png",
+                        "chest_opened_img": "images/events/lass_fluffee_grayscale.png",
                         "access_rules": [
                             "caught_548"
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_white"
                         ]
                     },
                     {
                         "name": "Museum - Revive the Helix Fossil",
+                        "chest_unopened_img": "images/events/138_fossil.png",
+                        "chest_opened_img": "images/events/138_fossil_grayscale.png",
                         "access_rules": [
                             "helixfossil"
                         ],
@@ -162,6 +174,8 @@
                     },
                     {
                         "name": "Museum - Revive the Dome Fossil",
+                        "chest_unopened_img": "images/events/140_fossil.png",
+                        "chest_opened_img": "images/events/140_fossil_grayscale.png",
                         "access_rules": [
                             "domefossil"
                         ],
@@ -171,6 +185,8 @@
                     },
                     {
                         "name": "Museum - Revive the Old Amber",
+                        "chest_unopened_img": "images/events/142_fossil.png",
+                        "chest_opened_img": "images/events/142_fossil_grayscale.png",
                         "access_rules": [
                             "domefossil"
                         ],
@@ -180,6 +196,8 @@
                     },
                     {
                         "name": "Museum - Revive the Root Fossil",
+                        "chest_unopened_img": "images/events/345_fossil.png",
+                        "chest_opened_img": "images/events/345_fossil_grayscale.png",
                         "access_rules": [
                             "rootfossil"
                         ],
@@ -189,6 +207,8 @@
                     },
                     {
                         "name": "Museum - Revive the Claw Fossil",
+                        "chest_unopened_img": "images/events/347_fossil.png",
+                        "chest_opened_img": "images/events/347_fossil_grayscale.png",
                         "access_rules": [
                             "clawfossil"
                         ],
@@ -198,6 +218,8 @@
                     },
                     {
                         "name": "Museum - Revive the Skull Fossil",
+                        "chest_unopened_img": "images/events/408_fossil.png",
+                        "chest_opened_img": "images/events/408_fossil_grayscale.png",
                         "access_rules": [
                             "skullfossil"
                         ],
@@ -207,6 +229,8 @@
                     },
                     {
                         "name": "Museum - Revive the Armor Fossil",
+                        "chest_unopened_img": "images/events/410_fossil.png",
+                        "chest_opened_img": "images/events/410_fossil_grayscale.png",
                         "access_rules": [
                             "armorfossil"
                         ],
@@ -216,6 +240,8 @@
                     },
                     {
                         "name": "Museum - Revive the Cover Fossil",
+                        "chest_unopened_img": "images/events/564_fossil.png",
+                        "chest_opened_img": "images/events/564_fossil_grayscale.png",
                         "access_rules": [
                             "coverfossil"
                         ],
@@ -225,6 +251,8 @@
                     },
                     {
                         "name": "Museum - Revive the Plume Fossil",
+                        "chest_unopened_img": "images/events/566_fossil.png",
+                        "chest_opened_img": "images/events/566_fossil_grayscale.png",
                         "access_rules": [
                             "plumefossil"
                         ],
@@ -250,6 +278,8 @@
                 "sections": [
                     {
                         "name": "Zorua (Gift)",
+                        "chest_unopened_img": "images/events/zorua.png",
+                        "chest_opened_img": "images/events/zorua_grayscale.png",
                         "access_rules": [
                             "caught_251"
                         ],
@@ -275,6 +305,8 @@
                 "sections": [
                     {
                         "name": "Youngster requesting a Minccino (Trade)",
+                        "chest_unopened_img": "images/events/youngster_redeye.png",
+                        "chest_opened_img": "images/events/youngster_redeye_grayscale.png",
                         "access_rules": [
                             "caught_572"
                         ],
@@ -615,6 +647,8 @@
                 "sections": [
                     {
                         "name": "Backer requesting a Cinccino (Trade)",
+                        "chest_unopened_img": "images/events/backerm_gorge.png",
+                        "chest_opened_img": "images/events/backerm_gorge_grayscale.png",
                         "access_rules": [
                             "caught_573"
                         ],
@@ -1082,6 +1116,8 @@
                 "sections": [
                     {
                         "name": "Foongus Trap",
+                        "chest_unopened_img": "images/events/foongus.png",
+                        "chest_opened_img": "images/events/foongus_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -1470,6 +1506,8 @@
                 "sections": [
                     {
                         "name": "Hiker requesting a Boldore (Trade)",
+                        "chest_unopened_img": "images/events/hiker_minipete.png",
+                        "chest_opened_img": "images/events/hiker_minipete_grayscale.png",
                         "access_rules": [
                             "caught_525"
                         ],
@@ -1966,6 +2004,8 @@
                 "sections": [
                     {
                         "name": "Foongus Trap",
+                        "chest_unopened_img": "images/events/foongus.png",
+                        "chest_opened_img": "images/events/foongus_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -1975,6 +2015,8 @@
                     },
                     {
                         "name": "Amoonguss Trap",
+                        "chest_unopened_img": "images/events/amoonguss.png",
+                        "chest_opened_img": "images/events/amoonguss_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -2410,6 +2452,8 @@
                 "sections": [
                     {
                         "name": "Scientist requesting a Ditto (Trade)",
+                        "chest_unopened_img": "images/events/scientistf_eeks.png",
+                        "chest_opened_img": "images/events/scientistf_eeks_grayscale.png",
                         "access_rules": [
                             "caught_132"
                         ],
@@ -2594,6 +2638,8 @@
                 "sections": [
                     {
                         "name": "Larvesta Egg (Gift)",
+                        "chest_unopened_img": "images/events/rangerm_larvesta.png",
+                        "chest_opened_img": "images/events/rangerm_larvesta_grayscale.png",
                         "access_rules": [
                             "hm03surf"
                         ],
@@ -2802,6 +2848,8 @@
                 "sections": [
                     {
                         "name": "Lighthouse Basement - Victini (Static)",
+                        "chest_unopened_img": "images/events/victini.png",
+                        "chest_opened_img": "images/events/victini_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -2867,6 +2915,8 @@
                     },
                     {
                         "name": "Basement - Musharna (Static)",
+                        "chest_unopened_img": "images/events/musharna.png",
+                        "chest_opened_img": "images/events/musharna_grayscale.png",
                         "access_rules": [
                             "@Dreamyard Basement Access"
                         ],
@@ -3205,6 +3255,8 @@
                     },
                     {
                         "name": "Rumination Field - Virizion (Static)",
+                        "chest_unopened_img": "images/events/virizion.png",
+                        "chest_opened_img": "images/events/virizion_grayscale.png",
                         "access_rules": [
                             "@Rumination Field Access"
                         ],
@@ -3242,13 +3294,14 @@
                     },
                     {
                         "name": "Inside - Darmanitan Statue (Static)",
+                        "chest_unopened_img": "images/events/zendarmanitan.png",
+                        "chest_opened_img": "images/events/zendarmanitan_grayscale.png",
                         "access_rules": [
                             "ragecandybar"
                         ],
                         "visibility_rules": [
-                            "dexsanity_visibility_555,static_visibility_true"
-                        ],
-                        "hosted_item": "caught_555"
+                            ""
+                        ]
                     },
                     {
                         "name": "Inside - Land Encounters",
@@ -3540,6 +3593,8 @@
                     },
                     {
                         "name": "Volcarona Room - Volcarona (Static)",
+                        "chest_unopened_img": "images/events/volcarona.png",
+                        "chest_opened_img": "images/events/volcarona_grayscale.png",
                         "access_rules": [
                             "explorerkit, defeatghetsis"
                         ],
@@ -3934,6 +3989,8 @@
                     },
                     {
                         "name": "Guidance Chamber - Cobalion (Static)",
+                        "chest_unopened_img": "images/events/goalcobalion.png",
+                        "chest_opened_img": "images/events/goalcobalion_grayscale.png",
                         "access_rules": [
                             "hm04strength"
                         ],
@@ -5946,6 +6003,8 @@
                     },
                     {
                         "name": "Trial Chamber - Terrakion (Static)",
+                        "chest_unopened_img": "images/events/terrakion.png",
+                        "chest_opened_img": "images/events/terrakion_grayscale.png",
                         "access_rules": [
                             "@Trial Chamber Access"
                         ],
@@ -5996,20 +6055,24 @@
                 "sections": [
                     {
                         "name": "N's Castle - Reshiram (Static)",
+                        "chest_unopened_img": "images/pokemon/643.png",
+                        "chest_opened_img": "images/pokemon/643_grayscale.png",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_black"
                         ]
                     },
                     {
                         "name": "N's Castle - Zekrom (Static)",
+                        "chest_unopened_img": "images/pokemon/644.png",
+                        "chest_opened_img": "images/pokemon/644_grayscale.png",
                         "access_rules": [
                             ""
                         ],
                         "visibility_rules": [
-                            ""
+                            "pokemon_white"
                         ]
                     }
                 ],
@@ -6292,6 +6355,8 @@
                     },
                     {
                         "name": "Kyurem's Cave - Kyurem (Static)",
+                        "chest_unopened_img": "images/pokemon/646.png",
+                        "chest_opened_img": "images/pokemon/646_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -6617,6 +6682,8 @@
                 "sections": [
                     {
                         "name": "Landorus (Static)",
+                        "chest_unopened_img": "images/events/landorus.png",
+                        "chest_opened_img": "images/events/landorus_grayscale.png",
                         "access_rules": [
                             "caught_641,caught_642,defeatghetsis"
                         ],
@@ -6732,6 +6799,8 @@
                 "sections": [
                     {
                         "name": "Magikarp (Gift)",
+                        "chest_unopened_img": "images/events/man_magikarp.png",
+                        "chest_opened_img": "images/events/man_magikarp_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -6769,6 +6838,8 @@
                 "sections": [
                     {
                         "name": "Zoroark (Static)",
+                        "chest_unopened_img": "images/events/zoroark.png",
+                        "chest_opened_img": "images/events/zoroark_grayscale.png",
                         "access_rules": [
                             "caught_243",
                             "caught_244",

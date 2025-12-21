@@ -415,6 +415,30 @@
         ]
     },
     {
+        "name": "",
+        "type": "static",
+        "img": "/images/settings/dexentrytop.png",
+        "codes": "dexentrytop"
+    },
+    {
+        "name": "",
+        "type": "static",
+        "img": "/images/settings/dexentryleft.png",
+        "codes": "dexentryleft"
+    },
+    {
+        "name": "",
+        "type": "static",
+        "img": "/images/settings/dexentryright.png",
+        "codes": "dexentryright"
+    },
+    {
+        "name": "",
+        "type": "static",
+        "img": "/images/settings/dexentrybottom.png",
+        "codes": "dexentrybottom"
+    },
+    {
         "name": "No Wild Encounters found",
         "type": "toggle",
         "codes": "no_wild_encounters_found"
@@ -427,7 +451,7 @@
         "stages": [
             {
                 "name": "Not searched yet",
-                "img": "/images/settings/0.png"
+                "img": "/images/pokemon/0.png"
             },
             {
                 "name": "Searched for Bulbasaur",
@@ -3027,7 +3051,7 @@
             },
             {
                 "name": "Not a valid search!",
-                "img": "/images/settings/pokedex.png"
+                "img": "/images/pokemon/0.png"
             }
         ]
     }
