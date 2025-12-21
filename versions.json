@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.0",
+			"download_url": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/archive/refs/tags/1.1.0.zip",
+			"sha256": "608be729ba51111fbebc1e2ffff4f4849d4b186a5a965a413e2d2d90f5eb6c67",
+			"changelog": ["See Changelog"]
+		},
+		{
 			"package_version": "1.0.2",
 			"download_url": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/archive/refs/tags/1.0.2.zip",
 			"sha256": "4b12f9fd0e12c368d98138cd7b282fa76f63f997d1c25c8be3e3ebabcb4cfe12",
