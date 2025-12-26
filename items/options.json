@@ -237,6 +237,128 @@
         ]
     },
     {
+        "name": "Abyssal Ruins Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "abyssalruins_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show Abyssal Ruins Locations",
+                "img": "/images/settings/show_abyssalruins_on.png",
+                "codes": "show_abyssalruins",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Abyssal Ruins Locations",
+                "img": "/images/settings/show_abyssalruins_off.png",
+                "codes": "hide_abyssalruins",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pokédex Appraisal Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "dexappraisal_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show Pokédex Appraisal Locations",
+                "img": "/images/settings/show_dexappraisal_on.png",
+                "codes": "show_dexappraisal",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Pokédex Appraisal Locations",
+                "img": "/images/settings/show_dexappraisal_off.png",
+                "codes": "hide_dexappraisal",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Brangers Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "brangers_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show Rangers and Breeders Locations",
+                "img": "/images/settings/show_brangers_on.png",
+                "codes": "show_brangers",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Rangers and Breeders Locations",
+                "img": "/images/settings/show_brangers_off.png",
+                "codes": "hide_brangers",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Season Items Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "seasonitems_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show All Season Item Locations",
+                "img": "/images/settings/show_seasons.png",
+                "codes": "show_spring,show_winter",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Winter Item Locations",
+                "img": "/images/settings/show_nowinter.png",
+                "codes": "show_spring",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide All Season Item Locations",
+                "img": "/images/settings/show_noseasons.png",
+                "codes": "show_noseason",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Encounter Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "location_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Encounter Locations - OFF",
+                "img": "/images/settings/show_encounters_off.png",
+                "codes": "show_items",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Locations - ON",
+                "img": "/images/settings/show_encounters_on.png",
+                "codes": "show_items,show_mons",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Locations - ONLY",
+                "img": "/images/settings/show_encounters_only.png",
+                "codes": "show_mons",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Encounter Tracking",
         "type": "progressive",
         "loop": true,

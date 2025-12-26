@@ -62,6 +62,7 @@ function toggle_keyitemgrid()
     local suffix = ""
     if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
         suffix = suffix .. "_fossils"
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
     end
         
     Tracker:AddLayouts("layouts/items"..suffix..".json")

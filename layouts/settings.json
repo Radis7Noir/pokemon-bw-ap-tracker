@@ -14,12 +14,20 @@
                         "key": "options_grid"
                     }
                 },
-				                {
+			    {
                     "type": "group",
                     "header": "Logic",
                     "content": {
                         "type": "layout",
                         "key": "logic_grid"
+                    }
+                },
+			    {
+                    "type": "group",
+                    "header": "Location Visibility",
+                    "content": {
+                        "type": "layout",
+                        "key": "hide_grid"
                     }
                 }
             ]
@@ -55,6 +63,22 @@
 				"require_dowsingmchn",
 				"require_flash",
 				"adjustlevels"
+            ]
+        ]
+    },
+    "hide_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "abyssalruins_visibility",
+				"dexappraisal_visibility",
+				"brangers_visibility",
+				"seasonitems_visibility"
             ]
         ]
     }

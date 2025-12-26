@@ -44,7 +44,7 @@
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "quick_settings_grid"
+                                "key": "v_quick_settings_grid"
                             }
                         },
                         {

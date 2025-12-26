@@ -101,6 +101,7 @@ end
 
 function searchMon()
     if POKEMON_TO_LOCATIONS ~= nil then
+	    Tracker:FindObjectForCode("location_visibility").CurrentStage = 2
         Tracker:FindObjectForCode("static_visibility").CurrentStage = 0
         Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
         
