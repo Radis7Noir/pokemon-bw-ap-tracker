@@ -281,6 +281,54 @@
         ]
     },
     {
+        "name": "Auto-Tab",
+        "type": "progressive",
+        "loop": true,
+        "codes": "auto_switch",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Auto-Tab Map - OFF",
+                "img": "/images/settings/autoswitch_off.png",
+                "codes": "automap, automap_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto-Tab Map - ON",
+                "img": "/images/settings/autoswitch_on.png",
+                "codes": "automap, automap_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Split Map",
+        "type": "progressive",
+        "loop": true,
+        "codes": "split",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Split Map - OFF",
+                "img": "/images/settings/map_single.png",
+                "codes": "splitmap, splitmap_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - ON",
+                "img": "/images/settings/map_split.png",
+                "codes": "splitmap, splitmap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Split Map - Reverse",
+                "img": "/images/settings/map_reverse.png",
+                "codes": "splitmap, splitmap_reverse",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
         "name": "Brangers Visibility",
         "type": "progressive",
         "loop": true,

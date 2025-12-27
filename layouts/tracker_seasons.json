@@ -78,7 +78,7 @@
                     "type": "dock",
                     "content": {
                         "type": "layout",
-                        "key": "tabs"
+                        "key": "tabbed_maps"
                     }
                 }
             ]

@@ -87,7 +87,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "mistraltoncity_b"
+                        "mistraltoncity"
                     ]
                 }
             },
@@ -105,7 +105,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "opelucidcity_b"
+                        "opelucidcity"
                     ]
                 }
             },
@@ -138,951 +138,7 @@
             }
         ]
     },
-    "johto_routes": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Route 29",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route29"
-                    ]
-                }
-            },
-            {
-                "title": "Route 30",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route30"
-                    ]
-                }
-            },
-            {
-                "title": "Route 31",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route31"
-                    ]
-                }
-            },
-            {
-                "title": "Route 32",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route32North",
-                        "Route32South"
-                    ]
-                }
-            },
-            {
-                "title": "Route 33",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route33"
-                    ]
-                }
-            },
-            {
-                "title": "Route 34",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route34"
-                    ]
-                }
-            },
-            {
-                "title": "Route 35",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route35"
-                    ]
-                }
-            },
-            {
-                "title": "Route 36",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route36"
-                    ]
-                }
-            },
-            {
-                "title": "Route 37",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route37"
-                    ]
-                }
-            },
-            {
-                "title": "Route 38",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route38"
-                    ]
-                }
-            },
-            {
-                "title": "Route 39",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route39"
-                    ]
-                }
-            },
-            {
-                "title": "Route 40",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route40"
-                    ]
-                }
-            },
-            {
-                "title": "Route 41",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route41"
-                    ]
-                }
-            },
-            {
-                "title": "Route 42",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route42"
-                    ]
-                }
-            },
-            {
-                "title": "Route 43",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route43"
-                    ]
-                }
-            },
-            {
-                "title": "Lake of Rage",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "LakeOfRage"
-                    ]
-                }
-            },
-            {
-                "title": "Route 44",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route44"
-                    ]
-                }
-            },
-            {
-                "title": "Route 45",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route45North",
-                        "Route45South"
-                    ]
-                }
-            },
-            {
-                "title": "Route 46",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route46"
-                    ]
-                }
-            },
-            {
-                "title": "Route 23",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route23"
-                    ]
-                }
-            },
-            {
-                "title": "Route 26",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route26South",
-                        "Route26North"
-                    ]
-                }
-            },
-            {
-                "title": "Route 27",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route27"
-                    ]
-                }
-            },
-            {
-                "title": "Route 28",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route28"
-                    ]
-                }
-            }
-        ]
-    },
-    "johto_dungeons": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Dark Cave",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Dark Cave - Violet Entrance",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "DarkCaveVioletEntrance"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Dark Cave - Blackthorn Entrance",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "DarkCaveBlackthornEntrance"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Ruins of Alph",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphOutside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Inner Chamber",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphInnerChamber"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Kabuto Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphKabutoItemRoom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Omanyte Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphOmanyteItemRoom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Aerodactyl Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphAerodactylItemRoom"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ho-Oh Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "RuinsOfAlphHoOhItemRoom"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Union Cave",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Union Cave 1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "UnionCave1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Union Cave B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "UnionCaveB1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Union Cave B2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "UnionCaveB2F"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Ilex Forest",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "IlexForest"
-                    ]
-                }
-            },
-            {
-                "title": "National Park",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "NationalPark"
-                    ]
-                }
-            },
-            {
-                "title": "Whirl Islands",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Whirl Islands 1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "WhirlIsland1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Whirl Islands Cave",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "WhirlIslandCave"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Whirl Islands B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "WhirlIslandB1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Whirl Islands B2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "WhirlIslandB2F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Whirl Islands Lugia Chamber",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "WhirlIslandLugiaChamber"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Mortar",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Mt. Mortar 1F - Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "MountMortar1FOutside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Mt. Mortar 1F - Inside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "MountMortar1FInside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Mt. Mortar 2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "MountMortar2FInside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Mt. Mortar B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "MountMortarB1F"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Ice Path",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Ice Path 1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "IcePath1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ice Path B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "IcePathB1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ice Path B2F - Mahogany Side",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "IcePathB2FMahoganySide"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ice Path B2F - Blackthorn Side",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "IcePathB2FBlackthornSide"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ice Path B3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "IcePathB3F"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Tohjo Falls",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TohjoFalls"
-                    ]
-                }
-            },
-            {
-                "title": "Victory Road",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "VictoryRoad1F",
-                        "VictoryRoad2F",
-                        "VictoryRoad3F"
-                    ]
-                }
-            },
-            {
-                "title": "Silver Cave",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SilverCaveOutside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SilverCaveRoom1"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SilverCaveRoom2",
-                                    "SilverCaveItemRooms"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SilverCaveRoom3"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "fast_ship": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Olivine Port",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "OlivinePort"
-                    ]
-                }
-            },
-            {
-                "title": "Vermilion Port",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "VermilionPort"
-                    ]
-                }
-            },
-            {
-                "title": "Overview",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F Hallways",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShip1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "1F Cabins",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipCabins_Overview"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipB1F_Overview"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Eastbound",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F Hallways",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShip1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "1F Cabins",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipCabins_Eastbound"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipB1F_Eastbound"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Westbound",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F Hallways",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShip1F"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "1F Cabins",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipCabins_Westbound"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FastShipB1F_Westbound"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "kanto_cities": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Pallet Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "PalletTown"
-                    ]
-                }
-            },
-            {
-                "title": "Viridian City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "ViridianCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "ViridianGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Pewter City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "PewterCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "PewterGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Cerulean City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CeruleanCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CeruleanGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Vermilion City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "VermilionCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "VermilionGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Celadon City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CeladonCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Cafe",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CeladonCafe"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CeladonGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Saffron City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SaffronCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SaffronGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Lavender Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "LavenderTown"
-                    ]
-                }
-            },
-            {
-                "title": "Fuchsia City",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FuchsiaCity"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FuchsiaGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Cinnabar Island",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Cinnabar Island",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "CinnabarIsland"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Seafoam Gym",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SeafoamGym"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "kanto_routes": {
+    "routes": {
         "type": "tabbed",
         "tabs": [
             {
@@ -1090,7 +146,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route1"
+                        "route1"
                     ]
                 }
             },
@@ -1099,7 +155,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route2"
+                        "route2"
                     ]
                 }
             },
@@ -1108,7 +164,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route3"
+                        "route3"
                     ]
                 }
             },
@@ -1117,7 +173,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route4"
+                        "route4"
                     ]
                 }
             },
@@ -1126,7 +182,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route5"
+                        "route5"
                     ]
                 }
             },
@@ -1135,7 +191,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route6"
+                        "route6"
                     ]
                 }
             },
@@ -1144,7 +200,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route7"
+                        "route7"
                     ]
                 }
             },
@@ -1153,7 +209,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route8"
+                        "Route36"
                     ]
                 }
             },
@@ -1162,7 +218,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route9"
+                        "route9"
                     ]
                 }
             },
@@ -1171,7 +227,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route10"
+                        "route10"
                     ]
                 }
             },
@@ -1180,7 +236,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route11"
+                        "route11"
                     ]
                 }
             },
@@ -1189,8 +245,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route12North",
-                        "Route12South"
+                        "route12"
                     ]
                 }
             },
@@ -1199,7 +254,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route13"
+                        "route13"
                     ]
                 }
             },
@@ -1208,7 +263,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route14"
+                        "route14"
                     ]
                 }
             },
@@ -1217,7 +272,7 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route15"
+                        "route15"
                     ]
                 }
             },
@@ -1226,107 +281,44 @@
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route16"
+                        "route16"
                     ]
                 }
             },
             {
-                "title": "Route 17",
+                "title": "Routes 17-18, P2 Laboratory",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Route17"
-                    ]
-                }
-            },
-            {
-                "title": "Route 18",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route18"
-                    ]
-                }
-            },
-            {
-                "title": "Route 19",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route19"
-                    ]
-                }
-            },
-            {
-                "title": "Route 20",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route20"
-                    ]
-                }
-            },
-            {
-                "title": "Route 21",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route21"
-                    ]
-                }
-            },
-            {
-                "title": "Route 22",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route22"
-                    ]
-                }
-            },
-            {
-                "title": "Route 24",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route24"
-                    ]
-                }
-            },
-            {
-                "title": "Route 25",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Route25"
+                        "routes_17_18_p2lab"
                     ]
                 }
             }
         ]
     },
-    "kanto_dungeons": {
+    "dungeons": {
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Rock Tunnel",
+                "title": "Dreamyard",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Rock Tunnel 1F",
+                            "title": "Ruins",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "RockTunnel1F"
+                                    "dreamyard"
                                 ]
                             }
                         },
                         {
-                            "title": "Rock Tunnel B1F",
+                            "title": "Basement",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "RockTunnelB1F"
+                                    "dreamyardbasement"
                                 ]
                             }
                         }
@@ -1334,55 +326,967 @@
                 }
             },
             {
-                "title": "Power Plant",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "PowerPlant"
-                    ]
-                }
-            },
-            {
-                "title": "Digletts Cave",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "DiglettsCave"
-                    ]
-                }
-            },
-            {
-                "title": "Underground Path",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "UndergroundPath"
-                    ]
-                }
-            },
-            {
-                "title": "Mount Moon",
+                "title": "Wellspring Cave",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "wellspringcave1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "wellspringcaveb1f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Pinwheel Forest",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "pinwheelforestoutside"
+                                ]
+                            }
+                        },
                         {
                             "title": "Inside",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "MountMoon"
+                                    "pinwheelforest"
                                 ]
                             }
                         },
                         {
-                            "title": "Square",
+                            "title": "Rumination Field",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "MountMoonSquare"
+                                    "ruminationfield"
                                 ]
                             }
                         }
+                    ]
+                }
+            },
+            {
+                "title": "Liberty Garden",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Island",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "libertygarden"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lighthouse",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "libertygardenlighthouse"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Desert Resort",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresortentrance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Inside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresort"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Relic Castle",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Castleside 1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastle1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside B1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside B2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside B3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside B4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb4f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside Sand-Filled Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb5f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Castleside Back Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastleb7f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Maze",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastlemaze"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Volcarona's Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastlevolcaronasroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside Front Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb7f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B6F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb6f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B5F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb5f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb4f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside B1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletowerb1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Towerside 1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "reliccastletower1f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Lostlorn Forest",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "lostlornforest"
+                    ]
+                }
+            },
+            {
+                "title": "Cold Storage",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "coldstorageoutside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Building",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "coldstorage"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Container",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "coldstoragecontainer"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Mistralton Cave",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "mistraltoncave1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "mistraltoncave2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Guidance Chamber",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "guidancechamber"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chargestone Cave",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "chargestonecave1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "chargestonecaveb1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "chargestonecaveb2f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Celestial Tower",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "celestialtower1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "celestialtower2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "celestialtower3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "celestialtower4f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Top",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "celestialtower5f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Twist Mountain",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Upper Level",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountainupperlevel"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Main Floor",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountain"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Middle Level",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountainmiddlelevel"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lower Level",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountainlowerlevel"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ice Rock Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "twistmountainicerockcave"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Dragonspiral Tower",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Icirrus City Part",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltowerentrance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltoweroutside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower4f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower5f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower6f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dragonspiraltower7f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Moor of Icirrus",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "mooroficirrus"
+                    ]
+                }
+            },
+            {
+                "title": "Challenger's Cave",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "challengerscave1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "challengerscaveb1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "challengerscaveb2f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Victory Road",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroadoutside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1F Left",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad1fleftmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1F Middle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad1fmiddleroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1F Right",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad1frightmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F Left",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad2fleftroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F Right",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad2frightroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F Left",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad3fleftmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F Middle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad3fmiddleroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F Right",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad3frightmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F Left",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad4fleftmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F Middle",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad4fmiddleroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F Right",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad4frightmostroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad5f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad6f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "7F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroad7f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Trial Chamber",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "victoryroadtrialchamber"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Pokémon League",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "N's Castle - 1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastle1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle - 2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastle2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle - 3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastle3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle - 4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastle4f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle - 5F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastle5f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle - Throne Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nscastlethroneroom"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pokémon League - Champion's Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "championsroom"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Village Bridge",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "vilagebridge"
+                    ]
+                }
+            },
+            {
+                "title": "Giant Chasm",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Outside",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "giantchasmentrance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Entrance Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "giantchasmcave"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Crater",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "giantchasmcrater"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kyurem's Cave",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "giantchasmdepths"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Undella Bay",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "undellabay"
+                    ]
+                }
+            },
+            {
+                "title": "Abyssal Ruins",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "abyssalruins1f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "abyssalruins2f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "abyssalruins3f"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4F",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "abyssalruins4f"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Abundant Shrine",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "abundantshrine"
                     ]
                 }
             }

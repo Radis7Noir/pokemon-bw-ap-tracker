@@ -1,0 +1,74 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "content": {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Cities",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "cities"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Routes",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "routes"
+                                        }
+                                    }
+                                },
+                                {
+                                    "title": "Dungeons",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "dungeons"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "tabbed",
+                            "tabs": [
+                                {
+                                    "title": "Overworld",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "overworld"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Pokédex",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "pokedex_grid"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

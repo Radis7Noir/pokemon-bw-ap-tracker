@@ -76,3 +76,13 @@ function toggle_itemgrid()
 	
     Tracker:AddLayouts("layouts/tracker"..suffix..".json")
 end
+
+function toggle_splitmap()
+    if has("splitmap_off") then
+        Tracker:AddLayouts("layouts/tabs_single.json")
+    elseif has("splitmap_on") then
+        Tracker:AddLayouts("layouts/tabs_split.json")
+    elseif has("splitmap_reverse") then
+        Tracker:AddLayouts("layouts/tabs_reverse.json")
+    end
+end

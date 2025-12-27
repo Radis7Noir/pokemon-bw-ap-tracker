@@ -1,0 +1,80 @@
+[
+    {
+        "name": "nuvematown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/nuvematown.png"
+    },
+    {
+        "name": "accumulatown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/accumulatown.png"
+    },
+    {
+        "name": "striatoncity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/striatoncity.png"
+    },
+    {
+        "name": "nacrenecity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/nacrenecity.png"
+    },
+    {
+        "name": "accumulatown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/accumulatown.png"
+    },
+    {
+        "name": "casteliacity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/casteliacity.png"
+    },
+    {
+        "name": "nimbasacity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/nimbasacity.png"
+    },
+    {
+        "name": "nimbasacityeast",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/nimbasacityeast.png"
+    },
+    {
+        "name": "driftveilcity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/driftveilcity.png"
+    },
+    {
+        "name": "icirruscity",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/icirruscity.png"
+    },
+    {
+        "name": "lacunosatown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/lacunosatown.png"
+    },
+    {
+        "name": "undellatown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/undellatown.png"
+    },
+    {
+        "name": "anvilletown",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/anvilletown.png"
+    }
+]
