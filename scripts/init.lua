@@ -45,7 +45,7 @@ Tracker:AddLayouts("layouts/seasons.json")
 ScriptHost:LoadScript("scripts/autotracking.lua")
 
 -- Watches
-ScriptHost:AddWatchForCode("goal", "goal", toggle_goal)
+ScriptHost:AddWatchForCode("game_version", "game_version", toggle_versionmaps)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("season_control_randomized", "season_control_randomized", toggle_itemgrid)
 ScriptHost:AddWatchForCode("dexsanity", "dexsanity", toggle_keyitemgrid)

@@ -315,13 +315,13 @@
         "name": "reliccastletowerb5f",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/reliccastletowerb5f.png"
+        "img": "images/maps/reliccastletowerb4-5f.png"
     },
     {
         "name": "reliccastletowerb4f",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/reliccastletowerb4f.png"
+        "img": "images/maps/reliccastletowerb4-5f.png"
     },
     {
         "name": "reliccastletowerb3f",
@@ -333,13 +333,13 @@
         "name": "reliccastletowerb2f",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/reliccastletowerb2f.png"
+        "img": "images/maps/reliccastletowerb1-2f.png"
     },
     {
         "name": "reliccastletowerb1f",
         "location_size": 12,
         "location_border_thickness": 2,
-        "img": "images/maps/reliccastletowerb1f.png"
+        "img": "images/maps/reliccastletowerb1-2f.png"
     },
     {
         "name": "reliccastletower1f",
