@@ -2271,8 +2271,8 @@
                 "name": "Mistralton Gym",
                 "sections": [
                     {
-                        "name": "Gym guide item",
-                        "ref": "Unova Locations/Mistralton City/Gym - Gym guide item"
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Mistralton City/Gym - Guide item"
                     },
                     {
                         "name": "Badge reward",
