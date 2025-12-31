@@ -3,16 +3,16 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 -- used for hint tracking to quickly map hint status to a value from the Highlight enum
-HINT_STATUS_MAPPING = {}
 if Highlight then
-    HINT_STATUS_MAPPING = {
-        [20] = Highlight.Avoid,
-        [40] = Highlight.None,
-        [10] = Highlight.NoPriority,
+    HIGHTLIGHT_LEVEL = {
         [0] = Highlight.Unspecified,
+        [10] = Highlight.NoPriority,
+        [20] = Highlight.Avoid,
         [30] = Highlight.Priority,
+        [40] = Highlight.None
     }
 end
 
@@ -31,6 +31,7 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     CAUGHT = {}
     SEEN = {}
+	HINT = {}
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
@@ -220,6 +221,14 @@ function onClear(slot_data)
         POKE_SEEN_ID="pokemon_bw_seen_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({POKE_SEEN_ID})
         Archipelago:Get({POKE_SEEN_ID})
+		
+		MAP_ID= "pokemon_bw_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({MAP_ID})
+        Archipelago:Get({MAP_ID})
+		
+        HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINT_ID})
+        Archipelago:Get({HINT_ID})
     end
     
     updatePokemon()
@@ -342,6 +351,10 @@ function onNotify(key, value, old_value)
             updateCaught(value)
         elseif key == POKE_SEEN_ID then
             updateSeen(value)
+        elseif key == MAP_ID then
+            updateMap(value)
+        elseif key == HINT_ID then
+            updateHints(value)
         end
     end
 end
@@ -354,6 +367,10 @@ function onNotifyLaunch(key, value)
             updateCaught(value)
         elseif key == POKE_SEEN_ID then
             updateSeen(value)
+        elseif key == MAP_ID then
+            updateMap(value)
+        elseif key == HINT_ID then
+            updateHints(value)
         end
     end
 end
@@ -427,6 +444,36 @@ function updatePokemon()
                     local object = Tracker:FindObjectForCode(object_name)
                     if object then
                         object.AvailableChestCount = object.AvailableChestCount - 1
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- Auto-tabbing
+function updateMap(map_id)
+    if has("automap_on") then
+        local tabs = MAP_MAPPING[map_id]
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        end
+    end
+end
+
+function updateHints(value)
+    if Highlight then
+        for _, hint in ipairs(value) do -- loop over all hints provided
+            local location_table = LOCATION_MAPPING[hint.location]
+            for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
+                if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+                    local obj = Tracker:FindObjectForCode(location)
+                    if obj then
+                        obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                    else
+                        print(string.format("No object found for code: %s", location))
                     end
                 end
             end

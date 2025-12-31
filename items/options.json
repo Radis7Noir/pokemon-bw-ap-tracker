@@ -288,15 +288,15 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Auto-Tab Map - OFF",
-                "img": "/images/settings/autoswitch_off.png",
-                "codes": "automap, automap_off",
-                "inherit_codes": false
-            },
-            {
                 "name": "Auto-Tab Map - ON",
                 "img": "/images/settings/autoswitch_on.png",
                 "codes": "automap, automap_on",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto-Tab Map - OFF",
+                "img": "/images/settings/autoswitch_off.png",
+                "codes": "automap, automap_off",
                 "inherit_codes": false
             }
         ]

@@ -689,7 +689,7 @@
                 ]
             },
             {
-                "name": "Nacrene City​​",
+                "name": "Nacrene City​​​​​​​​",
                 "sections": [
                     {
                         "name": "Item from Cheren #1",
@@ -700,7 +700,7 @@
                         "ref": "Unova Locations/Nacrene City/Item from Cheren #2"
                     },
                     {
-                        "name": "Item from Cheren #1",
+                        "name": "Item from Cheren #3",
                         "ref": "Unova Locations/Nacrene City/Item from Cheren #3"
                     }
                 ],
@@ -1335,7 +1335,7 @@
                         "x": 744,
                         "y": 1008,
 						"shape": "diamond"
-                    },
+                    }
                 ]
             },
             {
@@ -1538,6 +1538,12 @@
                         "x": 16,
                         "y": 358,
 						"shape": "diamond"
+                    },
+                    {
+                        "map": "driftveilcity",
+                        "x": 1508,
+                        "y": 776,
+						"shape": "diamond"
                     }
                 ]
             },
@@ -1679,6 +1685,488 @@
                         "map": "nimbasacityeast",
                         "x": 104,
                         "y": 208,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Driftveil City/North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 136,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City​",
+                "sections": [
+                    {
+                        "name": "Item near lighthouse",
+                        "ref": "Unova Locations/Driftveil City/Item near lighthouse"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 920,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Pokémon Center",
+                "sections": [
+                    {
+                        "name": "Item from girl in pokémon center #1",
+                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #1"
+                    },
+                    {
+                        "name": "Item from girl in pokémon center #2",
+                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #2"
+                    },
+                    {
+                        "name": "Item from girl in pokémon center #3",
+                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 440,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City​​",
+                "sections": [
+                    {
+                        "name": "Item from man for seeing more than 50 pokémon",
+                        "ref": "Unova Locations/Driftveil City/Item from man for seeing more than 50 pokémon"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 552,
+                        "y": 576
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City​​​",
+                "sections": [
+                    {
+                        "name": "TM from Bianca",
+                        "ref": "Unova Locations/Driftveil City/TM from Bianca"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 80,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Market",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Driftveil City/Market - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 184,
+                        "y": 608
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Market​",
+                "sections": [
+                    {
+                        "name": "Hidden item",
+                        "ref": "Unova Locations/Driftveil City/Market - Hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 218,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Market​​",
+                "sections": [
+                    {
+                        "name": "Item from man in black",
+                        "ref": "Unova Locations/Driftveil City/Market - Item from man in black"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 280,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Driftveil City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Driftveil City/Gym - Badge reward"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 840,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City​​​​",
+                "sections": [
+                    {
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
+                    },
+                    {
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 440,
+                        "y": 720
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Driftveil City/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Driftveil City/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Driftveil City/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Driftveil City/Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 16,
+                        "y": 16,
+						"size": 40,
+                        "location_border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Drawbridge",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Driftveil Drawbridge/Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 1468,
+                        "y": 776,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cold Storage",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Cold Storage/Center item"
+                    },
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Cold Storage/East item"
+                    },
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Cold Storage/West item"
+                    },
+                    {
+                        "name": "Hidden item in trash can",
+                        "ref": "Unova Locations/Cold Storage/Hidden item in trash can"
+                    },
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Cold Storage/North east hidden item"
+                    },
+                    {
+                        "name": "South east hidden item",
+                        "ref": "Unova Locations/Cold Storage/South east hidden item"
+                    },
+                    {
+                        "name": "Item from worker",
+                        "ref": "Unova Locations/Cold Storage/Item from worker"
+                    },
+                    {
+                        "name": "Building - Item near entrance, up the stairs",
+                        "ref": "Unova Locations/Cold Storage/Building - Item near entrance, up the stairs"
+                    },
+                    {
+                        "name": "Building - Item on first ice field",
+                        "ref": "Unova Locations/Cold Storage/Building - Item on first ice field"
+                    },
+                    {
+                        "name": "Building - North east item",
+                        "ref": "Unova Locations/Cold Storage/Building - North east item"
+                    },
+                    {
+                        "name": "Building - South east item",
+                        "ref": "Unova Locations/Cold Storage/Building - South east item"
+                    },
+                    {
+                        "name": "Container - Item",
+                        "ref": "Unova Locations/Cold Storage/Container - Item"
+                    },
+                    {
+                        "name": "Container - TM from sage Zinzolin",
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
+                    },
+                    {
+                        "name": "Container - Sage Zinzolin (Event)",
+                        "ref": "Unova Locations/Cold Storage/Container - Sage Zinzolin (Event)"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Cold Storage/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Cold Storage/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Cold Storage/Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 280,
+                        "y": 1008,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 6",
+                "sections": [
+                    {
+                        "name": "Item next to Season Research Lab",
+                        "ref": "Unova Locations/Route 6/Item next to Season Research Lab"
+                    },
+                    {
+                        "name": "Item south of Season Research Lab",
+                        "ref": "Unova Locations/Route 6/Item south of Season Research Lab"
+                    },
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Route 6/West item"
+                    },
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Route 6/North east item"
+                    },
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Route 6/South item"
+                    },
+                    {
+                        "name": "East hidden item",
+                        "ref": "Unova Locations/Route 6/East hidden item"
+                    },
+                    {
+                        "name": "Hidden item behind Season Research Lab #1",
+                        "ref": "Unova Locations/Route 6/Hidden item behind Season Research Lab #1"
+                    },
+                    {
+                        "name": "Hidden item behind Season Research Lab #2",
+                        "ref": "Unova Locations/Route 6/Hidden item behind Season Research Lab #2"
+                    },
+                    {
+                        "name": "Item from child in western house",
+                        "ref": "Unova Locations/Route 6/Item from child in western house"
+                    },
+                    {
+                        "name": "Item from ranger Richard",
+                        "ref": "Unova Locations/Route 6/Item from ranger Richard"
+                    },
+                    {
+                        "name": "Item from ranger Shanti",
+                        "ref": "Unova Locations/Route 6/Item from ranger Shanti"
+                    },
+                    {
+                        "name": "Item from scientist for all Deerling forms",
+                        "ref": "Unova Locations/Route 6/Item from scientist for all Deerling forms"
+                    },
+                    {
+                        "name": "Foongus Trap",
+                        "ref": "Unova Locations/Route 6/Foongus Trap"
+                    },
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 16,
+                        "y": 344,
 						"shape": "diamond"
                     }
                 ]
