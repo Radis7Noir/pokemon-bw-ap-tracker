@@ -4678,7 +4678,7 @@
                     {
                         "name": "Item near western gate",
                         "access_rules": [
-                            "hm03surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"

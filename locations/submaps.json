@@ -293,7 +293,7 @@
                 ]
             },
             {
-                "name": "Garden​​​",
+                "name": "Striaton Garden​​​",
                 "sections": [
                     {
                         "name": "Item",
@@ -309,7 +309,7 @@
                 ]
             },
             {
-                "name": "Garden​​",
+                "name": "Striaton Garden​​",
                 "sections": [
                     {
                         "name": "North west hidden item #1",
@@ -325,7 +325,7 @@
                 ]
             },
             {
-                "name": "Garden​",
+                "name": "Striaton Garden​",
                 "sections": [
                     {
                         "name": "North west hidden item #2",
@@ -341,7 +341,7 @@
                 ]
             },
             {
-                "name": "Garden",
+                "name": "Striaton Garden",
                 "sections": [
                     {
                         "name": "Item from fisherman",
@@ -381,7 +381,7 @@
                 ]
             },
             {
-                "name": "Encounters",
+                "name": "Striaton City Encounters",
                 "sections": [
                     {
                         "name": "Surf Encounters",
@@ -406,7 +406,7 @@
                         "x": 8,
                         "y": 8,
                         "size": 28,
-                        "location_border_thickness": 4,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -545,7 +545,7 @@
                         "map": "striatoncity",
                         "x": 1112,
                         "y": 96,
-                        "shape": "trapezoid"
+                        "shape": "diamond"
                     }
                 ]
             },
@@ -1130,7 +1130,7 @@
                 ]
             },
             {
-                "name": "Gym",
+                "name": "Castelia Gym",
                 "sections": [
                     {
                         "name": "Guide item",
@@ -1888,10 +1888,10 @@
                 "map_locations": [
                     {
                         "map": "driftveilcity",
-                        "x": 16,
-                        "y": 16,
-						"size": 40,
-                        "location_border_thickness": 5,
+                        "x": 20,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
 						"shape": "diamond"
                     }
                 ]
@@ -2167,6 +2167,2071 @@
                         "map": "driftveilcity",
                         "x": 16,
                         "y": 344,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton City",
+                "sections": [
+                    {
+                        "name": "Item near south plane",
+                        "ref": "Unova Locations/Mistralton City/Item near south plane"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 504,
+                        "y": 840
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton City​",
+                "sections": [
+                    {
+                        "name": "Appearing item at south end of runway",
+                        "ref": "Unova Locations/Mistralton City/Appearing item at south end of runway"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 88,
+                        "y": 1176
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton City​​",
+                "sections": [
+                    {
+                        "name": "Hidden item at greenhouse or vegetable patches #1",
+                        "ref": "Unova Locations/Mistralton City/Hidden item at greenhouse or vegetable patches #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 136,
+                        "y": 1304
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton City​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item at greenhouse or vegetable patches #2",
+                        "ref": "Unova Locations/Mistralton City/Hidden item at greenhouse or vegetable patches #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 360,
+                        "y": 1336
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton City​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item at greenhouse or vegetable patches #3",
+                        "ref": "Unova Locations/Mistralton City/Hidden item at greenhouse or vegetable patches #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 296,
+                        "y": 1432
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Cargo Service",
+                "sections": [
+                    {
+                        "name": "Item from veteran in Cargo Service building",
+                        "ref": "Unova Locations/Mistralton City/Item from veteran in Cargo Service building"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 456,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Gym",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Mistralton City/Gym - Gym guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Mistralton City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Mistralton City/Gym - TM reward"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 232,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Chargestone Cave",
+                "sections": [
+                    {
+                        "name": "Outside - TM from Clay",
+                        "ref": "Unova Locations/Chargestone Cave/Outside - TM from Clay"
+                    },
+                    {
+                        "name": "1F - North east item",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North east item"
+                    },
+                    {
+                        "name": "1F - North west item #1",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North west item #1"
+                    },
+                    {
+                        "name": "1F - North west item #2",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North west item #2"
+                    },
+                    {
+                        "name": "1F - North west item #3",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North west item #3"
+                    },
+                    {
+                        "name": "1F - South east item #1",
+                        "ref": "Unova Locations/Chargestone Cave/1F - South east item #1"
+                    },
+                    {
+                        "name": "1F - South east item #2",
+                        "ref": "Unova Locations/Chargestone Cave/1F - South east item #2"
+                    },
+                    {
+                        "name": "1F - North hidden item #1",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North hidden item #1"
+                    },
+                    {
+                        "name": "1F - North hidden item #2",
+                        "ref": "Unova Locations/Chargestone Cave/1F - North hidden item #2"
+                    },
+                    {
+                        "name": "1F - South hidden item",
+                        "ref": "Unova Locations/Chargestone Cave/1F - South hidden item"
+                    },
+                    {
+                        "name": "1F - Item from Professor Juniper",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Item from Professor Juniper"
+                    },
+                    {
+                        "name": "B1F - Center item",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Center item"
+                    },
+                    {
+                        "name": "B1F - North item",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - North item"
+                    },
+                    {
+                        "name": "B1F - East hidden item",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - East hidden item"
+                    },
+                    {
+                        "name": "B1F - West hidden item",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - West hidden item"
+                    },
+                    {
+                        "name": "B1F - Item from nugget brothers #1",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #1"
+                    },
+                    {
+                        "name": "B1F - Item from nugget brothers #2",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #2"
+                    },
+                    {
+                        "name": "B2F - North east item",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - North east item"
+                    },
+                    {
+                        "name": "B2F - South east item",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - South east item"
+                    },
+                    {
+                        "name": "B2F - South west item",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - South west item"
+                    },
+                    {
+                        "name": "B2F - Hidden item",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Hidden item"
+                    },
+                    {
+                        "name": "B2F - West hidden item",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - West hidden item"
+                    },
+                    {
+                        "name": "B2F - TM from sage Bronius",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - TM from sage Bronius"
+                    },
+                    {
+                        "name": "B2F - Sage Bronius (Event)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Sage Bronius (Event)"
+                    },
+                    {
+                        "name": "1F - Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "1F - Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Land Phenomena"
+                    },
+                    {
+                        "name": "B1F - Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "B1F - Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "B2F - Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Land Encounters"
+                    },
+                    {
+                        "name": "B2F - Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 634,
+                        "y": 892,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 7",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Route 7/East item"
+                    },
+                    {
+                        "name": "Item south east of Celestial Tower",
+                        "ref": "Unova Locations/Route 7/Item south east of Celestial Tower"
+                    },
+                    {
+                        "name": "Item south of Celestial Tower",
+                        "ref": "Unova Locations/Route 7/Item south of Celestial Tower"
+                    },
+                    {
+                        "name": "Item from ranger Mary",
+                        "ref": "Unova Locations/Route 7/Item from ranger Mary"
+                    },
+                    {
+                        "name": "Item from ranger Pedro",
+                        "ref": "Unova Locations/Route 7/Item from ranger Pedro"
+                    },
+                    {
+                        "name": "TM from battle girl",
+                        "ref": "Unova Locations/Route 7/TM from battle girl"
+                    },
+                    {
+                        "name": "Hiker requesting a Boldore (Trade)",
+                        "ref": "Unova Locations/Route 7/Hiker requesting a Boldore (Trade)"
+                    },
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncity",
+                        "x": 856,
+                        "y": 532,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City",
+                "sections": [
+                    {
+                        "name": "Item west of pokémon center (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Item west of pokémon center (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 136,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​",
+                "sections": [
+                    {
+                        "name": "East hidden item #1",
+                        "ref": "Unova Locations/Icirrus City/East hidden item #1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 968,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​",
+                "sections": [
+                    {
+                        "name": "East hidden item #2",
+                        "ref": "Unova Locations/Icirrus City/East hidden item #2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 1000,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item in large water puddle",
+                        "ref": "Unova Locations/Icirrus City/Hidden item in large water puddle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 504,
+                        "y": 744
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item west of pokémon center (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Hidden item west of pokémon center (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 216,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item #1 (Winter)",
+                        "ref": "Unova Locations/Icirrus City/South hidden item #1 (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 552,
+                        "y": 1016
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item #2 (Winter)",
+                        "ref": "Unova Locations/Icirrus City/South hidden item #2 (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 600,
+                        "y": 1016
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item #3 (Winter)",
+                        "ref": "Unova Locations/Icirrus City/South hidden item #3 (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 632,
+                        "y": 1016
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from Aha if answer was correct",
+                        "ref": "Unova Locations/Icirrus City/Item from Aha if answer was correct"
+                    },
+                    {
+                        "name": "Item from Aha if answer was incorrect",
+                        "ref": "Unova Locations/Icirrus City/Item from Aha if answer was incorrect"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 376,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Pokémon Fan Club",
+                "sections": [
+                    {
+                        "name": "Item from Pokémon Fan Club chairman for gaining 25 levels",
+                        "ref": "Unova Locations/Icirrus City/Item from Pokémon Fan Club chairman for gaining 25 levels"
+                    },
+                    {
+                        "name": "Item from Pokémon Fan Club chairman for gaining 50 levels",
+                        "ref": "Unova Locations/Icirrus City/Item from Pokémon Fan Club chairman for gaining 50 levels"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 152,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from the former Team Rocket member's wife (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Item from the former Team Rocket member's wife (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 808,
+                        "y": 920
+                    }
+                ]
+            },
+            {
+                "name": "Pokémon Center​",
+                "sections": [
+                    {
+                        "name": "TM from old lady in pokémon center",
+                        "ref": "Unova Locations/Icirrus City/TM from old lady in pokémon center"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 392,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Icirrus City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Icirrus City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Icirrus City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 200,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 20,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain",
+                "sections": [
+                    {
+                        "name": "Outside - Hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Hidden item"
+                    },
+                    {
+                        "name": "Outside - TM from Alder",
+                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
+                    },
+                    {
+                        "name": "Main Floor - East item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - East item"
+                    },
+                    {
+                        "name": "Main Floor - North west item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North west item"
+                    },
+                    {
+                        "name": "Main Floor - South item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - South item"
+                    },
+                    {
+                        "name": "Main Floor - West item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - West item"
+                    },
+                    {
+                        "name": "Main Floor - East hidden item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - East hidden item (Winter)"
+                    },
+                    {
+                        "name": "Main Floor - North hidden item #1 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #1 (Winter)"
+                    },
+                    {
+                        "name": "Main Floor - North hidden item #2 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #2 (Winter)"
+                    },
+                    {
+                        "name": "Upper Level - North east cave item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - North east cave item"
+                    },
+                    {
+                        "name": "Upper Level - North east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - North east cave hidden item"
+                    },
+                    {
+                        "name": "Upper Level - South east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - South east cave hidden item"
+                    },
+                    {
+                        "name": "Middle Level - West cave item #1",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave item #1"
+                    },
+                    {
+                        "name": "Middle Level - West cave item #2",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave item #2"
+                    },
+                    {
+                        "name": "Middle Level - North cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - North cave item (Winter)"
+                    },
+                    {
+                        "name": "Middle Level - East cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - East cave hidden item"
+                    },
+                    {
+                        "name": "Middle Level - West cave hidden item #1",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave hidden item #1"
+                    },
+                    {
+                        "name": "Middle Level - West cave hidden item #2",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave hidden item #2"
+                    },
+                    {
+                        "name": "Lower Level - East cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - East cave item (Winter)"
+                    },
+                    {
+                        "name": "Lower Level - North west cave item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - North west cave item (Spring, Summer, Autumn)"
+                    },
+                    {
+                        "name": "Lower Level - North west cave hidden item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - North west cave hidden item (Spring, Summer, Autumn)"
+                    },
+                    {
+                        "name": "Lower Level - Item from worker near ice rock cave",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Item from worker near ice rock cave"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Item near ice rock",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Item near ice rock"
+                    },
+                    {
+                        "name": "Upper Level - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Upper Level - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Middle Level - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Middle Level - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Lower Level - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Lower Level - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Upper Level - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Upper Level - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Middle Level - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Middle Level - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Lower Level - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Lower Level - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Upper Level - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Upper Level - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Middle Level - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Middle Level - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Lower Level - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Lower Level - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Upper Level - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Upper Level - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Middle Level - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Middle Level - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Lower Level - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Lower Level - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Ice Rock Chamber - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 168,
+                        "y": 776,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower",
+                "sections": [
+                    {
+                        "name": "Icirrus City Part - Item from Cedric Juniper",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Item from Cedric Juniper"
+                    },
+                    {
+                        "name": "Outside - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Item"
+                    },
+                    {
+                        "name": "Outside - Hidden item",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Hidden item"
+                    },
+                    {
+                        "name": "2F - Item on pillar",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Item on pillar"
+                    },
+                    {
+                        "name": "2F - North east item",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - North east item"
+                    },
+                    {
+                        "name": "3F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/3F - Item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Item"
+                    },
+                    {
+                        "name": "5F - Item #1",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #1"
+                    },
+                    {
+                        "name": "5F - Item #2",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #2"
+                    },
+                    {
+                        "name": "5F - Item #3",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #3"
+                    },
+                    {
+                        "name": "6F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Item"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Tower Exterior - Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Winter)"
+                    },
+                    {
+                        "name": "1F - Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/1F - Land Encounters"
+                    },
+                    {
+                        "name": "2F - Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 328,
+                        "y": 16,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower​",
+                "sections": [
+                    {
+                        "name": "Icirrus City Part - Item near entrance (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Item near entrance (Winter)"
+                    },
+                    {
+                        "name": "Icirrus City Part - Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Dark Grass Encounters (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 200,
+                        "y": 16,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 8",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Route 8/Center item"
+                    },
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Route 8/East item"
+                    },
+                    {
+                        "name": "Item near northern lake",
+                        "ref": "Unova Locations/Route 8/Item near northern lake"
+                    },
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Route 8/North west item"
+                    },
+                    {
+                        "name": "East hidden item",
+                        "ref": "Unova Locations/Route 8/East hidden item"
+                    },
+                    {
+                        "name": "West hidden item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Route 8/West hidden item (Spring, Summer, Autumn)"
+                    },
+                    {
+                        "name": "Item from eastern parasol lady",
+                        "ref": "Unova Locations/Route 8/Item from eastern parasol lady"
+                    },
+                    {
+                        "name": "Item from ranger Annie",
+                        "ref": "Unova Locations/Route 8/Item from ranger Annie"
+                    },
+                    {
+                        "name": "Item from ranger Lewis",
+                        "ref": "Unova Locations/Route 8/Item from ranger Lewis"
+                    },
+                    {
+                        "name": "Item from Bianca",
+                        "ref": "Unova Locations/Route 8/Item from Bianca"
+                    },
+                    {
+                        "name": "TM from western parasol lady",
+                        "ref": "Unova Locations/Route 8/TM from western parasol lady"
+                    },
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity",
+                        "x": 808,
+                        "y": 528,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid City",
+                "sections": [
+                    {
+                        "name": "Hidden item near Pokémon Center",
+                        "ref": "Unova Locations/Opelucid City/Hidden item near Pokémon Center"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 712,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid City​",
+                "sections": [
+                    {
+                        "name": "Hidden item on northern road",
+                        "ref": "Unova Locations/Opelucid City/Hidden item on northern road"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 568,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Drayden's House",
+                "sections": [
+                    {
+                        "name": "Item from linebacker in Drayden's house",
+                        "ref": "Unova Locations/Opelucid City/Item from linebacker in Drayden's house"
+                    },
+                    {
+                        "name": "Item from female NPC in Drayden's house",
+                        "ref": "Unova Locations/Opelucid City/Item from female NPC in Drayden's house"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 552,
+                        "y": 504
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid City​​",
+                "sections": [
+                    {
+                        "name": "Item from female NPC in northern house",
+                        "ref": "Unova Locations/Opelucid City/Item from female NPC in northern house"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 504,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid City​​​",
+                "sections": [
+                    {
+                        "name": "Item from Professor Juniper",
+                        "ref": "Unova Locations/Opelucid City/Item from Professor Juniper"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 760,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid Gym",
+                "sections": [
+                    {
+                        "name": "Guide item",
+                        "ref": "Unova Locations/Opelucid City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                    },
+                    {
+                        "name": "Badge reward​",
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward​",
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 344,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Route 9",
+                "sections": [
+                    {
+                        "name": "Item near Challenger's Cave #1",
+                        "ref": "Unova Locations/Route 9/Item near Challenger's Cave #1"
+                    },
+                    {
+                        "name": "Item near Challenger's Cave #2",
+                        "ref": "Unova Locations/Route 9/Item near Challenger's Cave #2"
+                    },
+                    {
+                        "name": "Hidden item near Challenger's Cave",
+                        "ref": "Unova Locations/Route 9/Hidden item near Challenger's Cave"
+                    },
+                    {
+                        "name": "Hidden item on road",
+                        "ref": "Unova Locations/Route 9/Hidden item on road"
+                    },
+                    {
+                        "name": "TM from infielder",
+                        "ref": "Unova Locations/Route 9/TM from infielder"
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Item in storage room",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item in storage room"
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Item from worker",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item from worker"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 9/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 9/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 9/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 16,
+                        "y": 760,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 10",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Route 10/Center item"
+                    },
+                    {
+                        "name": "Item in dark grass #1",
+                        "ref": "Unova Locations/Route 10/Item in dark grass #1"
+                    },
+                    {
+                        "name": "Item in dark grass #2",
+                        "ref": "Unova Locations/Route 10/Item in dark grass #2"
+                    },
+                    {
+                        "name": "Item near badge gate",
+                        "ref": "Unova Locations/Route 10/Item near badge gate"
+                    },
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Route 10/West item"
+                    },
+                    {
+                        "name": "Hidden item on western cliff",
+                        "ref": "Unova Locations/Route 10/Hidden item on western cliff"
+                    },
+                    {
+                        "name": "Item from veteran near northern bridge",
+                        "ref": "Unova Locations/Route 10/Item from veteran near northern bridge"
+                    },
+                    {
+                        "name": "Item from Bianca #1",
+                        "ref": "Unova Locations/Route 10/Item from Bianca #1"
+                    },
+                    {
+                        "name": "Item from Bianca #2",
+                        "ref": "Unova Locations/Route 10/Item from Bianca #2"
+                    },
+                    {
+                        "name": "Foongus Trap",
+                        "ref": "Unova Locations/Route 10/Foongus Trap"
+                    },
+                    {
+                        "name": "Amoonguss Trap",
+                        "ref": "Unova Locations/Route 10/Amoonguss Trap"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 10/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 10/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 10/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 760,
+                        "y": 120,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 11",
+                "sections": [
+                    {
+                        "name": "Item near western gate",
+                        "ref": "Unova Locations/Route 11/Item near western gate"
+                    },
+                    {
+                        "name": "Item in ravine",
+                        "ref": "Unova Locations/Route 11/Item in ravine"
+                    },
+                    {
+                        "name": "Item on northern cliff",
+                        "ref": "Unova Locations/Route 11/Item on northern cliff"
+                    },
+                    {
+                        "name": "Hidden item near western gate",
+                        "ref": "Unova Locations/Route 11/Hidden item near western gate"
+                    },
+                    {
+                        "name": "Hidden item on northern cliff",
+                        "ref": "Unova Locations/Route 11/Hidden item on northern cliff"
+                    },
+                    {
+                        "name": "Item from ranger Thalia",
+                        "ref": "Unova Locations/Route 11/Item from ranger Thalia"
+                    },
+                    {
+                        "name": "Item from ranger Crofton",
+                        "ref": "Unova Locations/Route 11/Item from ranger Crofton"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 11/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 11/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 11/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 11/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 11/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 11/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 11/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 1008,
+                        "y": 760,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lacunosa Town",
+                "sections": [
+                    {
+                        "name": "Hidden item near policeman",
+                        "ref": "Unova Locations/Lacunosa Town/Hidden item near policeman"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 104,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Lacunosa Town​",
+                "sections": [
+                    {
+                        "name": "Hidden item on north eastern wall",
+                        "ref": "Unova Locations/Lacunosa Town/Hidden item on north eastern wall"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 392,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Lacunosa Town​​",
+                "sections": [
+                    {
+                        "name": "Item from executive",
+                        "ref": "Unova Locations/Lacunosa Town/Item from executive"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 440,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "Route 12",
+                "sections": [
+                    {
+                        "name": "Item near western gate",
+                        "ref": "Unova Locations/Route 12/Item near western gate"
+                    },
+                    {
+                        "name": "Item on hills",
+                        "ref": "Unova Locations/Route 12/Item on hills"
+                    },
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Route 12/North east item"
+                    },
+                    {
+                        "name": "Hidden item #1",
+                        "ref": "Unova Locations/Route 12/Hidden item #1"
+                    },
+                    {
+                        "name": "Hidden item #2",
+                        "ref": "Unova Locations/Route 12/Hidden item #2"
+                    },
+                    {
+                        "name": "Hidden item #3",
+                        "ref": "Unova Locations/Route 12/Hidden item #3"
+                    },
+                    {
+                        "name": "Hidden item #4",
+                        "ref": "Unova Locations/Route 12/Hidden item #4"
+                    },
+                    {
+                        "name": "Item from breeder Ethel",
+                        "ref": "Unova Locations/Route 12/Item from breeder Ethel"
+                    },
+                    {
+                        "name": "Item from breeder Eustace",
+                        "ref": "Unova Locations/Route 12/Item from breeder Eustace"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 12/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 12/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 12/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 8,
+                        "y": 426,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13",
+                "sections": [
+                    {
+                        "name": "Item on cliff near bridges #1",
+                        "ref": "Unova Locations/Route 13/Item on cliff near bridges #1"
+                    },
+                    {
+                        "name": "Item on cliff near bridges #2",
+                        "ref": "Unova Locations/Route 13/Item on cliff near bridges #2"
+                    },
+                    {
+                        "name": "Item near northern ledges",
+                        "ref": "Unova Locations/Route 13/Item near northern ledges"
+                    },
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Route 13/South item"
+                    },
+                    {
+                        "name": "Item on cliff behind boulder",
+                        "ref": "Unova Locations/Route 13/Item on cliff behind boulder"
+                    },
+                    {
+                        "name": "Item near stairs to Giant Chasm",
+                        "ref": "Unova Locations/Route 13/Item near stairs to Giant Chasm"
+                    },
+                    {
+                        "name": "Item in shallow water",
+                        "ref": "Unova Locations/Route 13/Item in shallow water"
+                    },
+                    {
+                        "name": "Hidden item on south eastern coast #1",
+                        "ref": "Unova Locations/Route 13/Hidden item on south eastern coast #1"
+                    },
+                    {
+                        "name": "Hidden item on south eastern coast #2",
+                        "ref": "Unova Locations/Route 13/Hidden item on south eastern coast #2"
+                    },
+                    {
+                        "name": "Hidden item on south eastern coast #3",
+                        "ref": "Unova Locations/Route 13/Hidden item on south eastern coast #3"
+                    },
+                    {
+                        "name": "Hidden item in dark grass #1",
+                        "ref": "Unova Locations/Route 13/Hidden item in dark grass #1"
+                    },
+                    {
+                        "name": "Hidden item in dark grass #2",
+                        "ref": "Unova Locations/Route 13/Hidden item in dark grass #2"
+                    },
+                    {
+                        "name": "Hidden item on side of cliff between bridges",
+                        "ref": "Unova Locations/Route 13/Hidden item on side of cliff between bridges"
+                    },
+                    {
+                        "name": "West hidden item",
+                        "ref": "Unova Locations/Route 13/West hidden item"
+                    },
+                    {
+                        "name": "Item from old man",
+                        "ref": "Unova Locations/Route 13/Item from old man"
+                    },
+                    {
+                        "name": "Item from parasol lady",
+                        "ref": "Unova Locations/Route 13/Item from parasol lady"
+                    },
+                    {
+                        "name": "Random item from man in black",
+                        "ref": "Unova Locations/Route 13/Random item from man in black"
+                    },
+                    {
+                        "name": "Item from veteran in western house #1",
+                        "ref": "Unova Locations/Route 13/Item from veteran in western house #1"
+                    },
+                    {
+                        "name": "Item from veteran in western house #2",
+                        "ref": "Unova Locations/Route 13/Item from veteran in western house #2"
+                    },
+                    {
+                        "name": "TM from Wingull",
+                        "ref": "Unova Locations/Route 13/TM from Wingull"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 13/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 504,
+                        "y": 264,
+						"shape": "diamond"
+                    },
+                    {
+                        "map": "undellatown",
+                        "x": 792,
+                        "y": 136,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town",
+                "sections": [
+                    {
+                        "name": "Behind the hedges of The Riches' Mansion",
+                        "ref": "Unova Locations/Undella Town/Behind the hedges of The Riches' Mansion"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 344,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Pokémon Center​​",
+                "sections": [
+                    {
+                        "name": "Item from man in Pokémon Center",
+                        "ref": "Unova Locations/Undella Town/Item from man in Pokémon Center"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 904,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town​",
+                "sections": [
+                    {
+                        "name": "TM from girl",
+                        "ref": "Unova Locations/Undella Town/TM from girl"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 680,
+                        "y": 236
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town​​",
+                "sections": [
+                    {
+                        "name": "Cynthia (Event)",
+                        "ref": "Unova Locations/Undella Town/Cynthia (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 648,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town​​​",
+                "sections": [
+                    {
+                        "name": "Backer requesting a Cinccino (Trade)",
+                        "ref": "Unova Locations/Undella Town/Backer requesting a Cinccino (Trade)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 408,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Undella Town/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Undella Town/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Undella Town/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Undella Town/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 16,
+                        "y": 16,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay",
+                "sections": [
+                    {
+                        "name": "Hidden item on western shore #1",
+                        "ref": "Unova Locations/Undella Bay/Hidden item on western shore #1"
+                    },
+                    {
+                        "name": "Hidden item on western shore #2",
+                        "ref": "Unova Locations/Undella Bay/Hidden item on western shore #2"
+                    },
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Undella Bay/North hidden item"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 1012,
+                        "y": 272,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 14",
+                "sections": [
+                    {
+                        "name": "Item near dark grass",
+                        "ref": "Unova Locations/Route 14/Item near dark grass"
+                    },
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Route 14/North item"
+                    },
+                    {
+                        "name": "East hidden item",
+                        "ref": "Unova Locations/Route 14/East hidden item"
+                    },
+                    {
+                        "name": "TM from sage Giallo",
+                        "ref": "Unova Locations/Route 14/TM from sage Giallo"
+                    },
+                    {
+                        "name": "Sage Giallo (Event)",
+                        "ref": "Unova Locations/Route 14/Sage Giallo (Event)"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 14/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 14/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 14/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 14/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 14/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 14/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 14/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 264,
+                        "y": 500,
 						"shape": "diamond"
                     }
                 ]

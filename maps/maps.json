@@ -49,8 +49,8 @@
     },
     {
         "name": "icirruscity",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/icirruscity.png"
     },
     {
@@ -61,8 +61,8 @@
     },
     {
         "name": "undellatown",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/undellatown.png"
     },
     {

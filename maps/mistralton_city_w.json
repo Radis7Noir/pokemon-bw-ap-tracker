@@ -1,8 +1,8 @@
 [
     {
         "name": "mistraltoncity",
-        "location_size": 12,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/mistraltoncity_w.png"
     }
 ]

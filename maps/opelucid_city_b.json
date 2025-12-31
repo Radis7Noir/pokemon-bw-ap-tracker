@@ -1,8 +1,8 @@
 [
     {
         "name": "opelucidcity",
-        "location_size": 12,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/opelucidcity_b.png"
     }
 ]
