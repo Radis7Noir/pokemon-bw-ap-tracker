@@ -25,7 +25,7 @@ GLOBAL_ITEMS = {}
 HINT_ID = {}
 
 function onClear(slot_data)
-    print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    --print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     LOCAL_ITEMS = {}
@@ -98,7 +98,7 @@ function onClear(slot_data)
     for name, dexID in pairs(newEncounters) do
         REGION_ENCOUNTERS[name] = { dexID }
     end
-    print(dump_table(REGION_ENCOUNTERS))
+    --print(dump_table(REGION_ENCOUNTERS))
     
     -- so we can access the mapping later
     POKEMON_TO_LOCATIONS = {}
@@ -466,15 +466,13 @@ end
 function updateHints(value)
     if Highlight then
         for _, hint in ipairs(value) do -- loop over all hints provided
-            local location_table = LOCATION_MAPPING[hint.location]
-            for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
-                if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
-                    local obj = Tracker:FindObjectForCode(location)
-                    if obj then
-                        obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
-                    else
-                        print(string.format("No object found for code: %s", location))
-                    end
+            local location = LOCATION_MAPPING[hint.location]
+			if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+				local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                else
+                    print(string.format("No object found for code: %s", location))
                 end
             end
         end
