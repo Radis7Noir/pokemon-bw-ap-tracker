@@ -73,20 +73,20 @@
     },
     {
         "name": "route1",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/route1.png"
     },
     {
         "name": "route2",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/route2.png"
     },
     {
         "name": "route3",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/route3.png"
     },
     {
