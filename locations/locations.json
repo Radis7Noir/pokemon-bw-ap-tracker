@@ -8591,7 +8591,7 @@
                     {
                         "name": "2F - South item",
                         "access_rules": [
-                            ""
+                            "hm04strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8633,7 +8633,7 @@
                     {
                         "name": "Guidance Chamber - North east item",
                         "access_rules": [
-                            ""
+                            "hm04strength"
                         ],
                         "visibility_rules": [
                             "show_items"

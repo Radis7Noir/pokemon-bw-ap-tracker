@@ -22,6 +22,7 @@ TEAM_NUMBER = 0
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+HINT_ID = {}
 
 function onClear(slot_data)
     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -31,7 +32,6 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     CAUGHT = {}
     SEEN = {}
-	HINT = {}
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
@@ -208,8 +208,8 @@ function onClear(slot_data)
     
     -- Datastorage Watches
     if PLAYER_ID>-1 then
-        updateEvents(0)
-        
+  updateEvents(0)
+  
         EVENT_ID = "pokemon_bw_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
@@ -230,7 +230,7 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINT_ID})
         Archipelago:Get({HINT_ID})
     end
-    
+  
     updatePokemon()
 end
 

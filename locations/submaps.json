@@ -2753,10 +2753,6 @@
                         "ref": "Unova Locations/Icirrus City/Surf Phenomena (Spring)"
                     },
                     {
-                        "name": "Surf Phenomena (Spring)",
-                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Spring)"
-                    },
-                    {
                         "name": "Rod Encounters (Spring)",
                         "ref": "Unova Locations/Icirrus City/Rod Encounters (Spring)"
                     },
@@ -3349,10 +3345,6 @@
                     {
                         "name": "Surf Encounters (Spring)",
                         "ref": "Unova Locations/Route 8/Surf Encounters (Spring)"
-                    },
-                    {
-                        "name": "Surf Phenomena (Spring)",
-                        "ref": "Unova Locations/Route 8/Surf Phenomena (Spring)"
                     },
                     {
                         "name": "Surf Phenomena (Spring)",
@@ -4233,6 +4225,118 @@
                         "x": 264,
                         "y": 500,
 						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 1​",
+                "sections": [
+                    {
+                        "name": "Item after catching tutorial #1",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #1"
+                    },
+                    {
+                        "name": "Item after catching tutorial #2",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #2"
+                    },
+                    {
+                        "name": "Item after catching tutorial #3",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #3"
+                    },
+                    {
+                        "name": "Item after catching tutorial #4",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #4"
+                    },
+                    {
+                        "name": "Item after catching tutorial #5",
+                        "ref": "Unova Locations/Route 1/Item after catching tutorial #5"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 776,
+                        "y": 888
+                    }
+                ]
+            },
+            {
+                "name": "Route 1​",
+                "sections": [
+                    {
+                        "name": "Item from woman",
+                        "ref": "Unova Locations/Route 1/Item from woman"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 872,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 West",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Route 1/West - South item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 312,
+                        "y": 1400
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 West​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Route 1/West - West item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 56,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 West​​",
+                "sections": [
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Route 1/West - South hidden item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 328,
+                        "y": 1352
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 West​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Brenda",
+                        "ref": "Unova Locations/Route 1/West - Item from ranger Brenda"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1",
+                        "x": 408,
+                        "y": 808
                     }
                 ]
             }
