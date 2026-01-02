@@ -8680,7 +8680,7 @@
                         ]
                     },
                     {
-                        "name": "Cobalion (Event)",
+                        "name": "Guidance Chamber - Cobalion (Event)",
                         "access_rules": [
                             "@Mistralton Cave Access,hm04strength"
                         ],
