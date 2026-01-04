@@ -109,14 +109,14 @@
     },
     {
         "name": "route7",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/route7.png"
     },
     {
         "name": "route8",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/route8.png"
     },
     {
@@ -127,32 +127,32 @@
     },
     {
         "name": "route10",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/route10.png"
     },
     {
         "name": "route11",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/route11.png"
     },
     {
         "name": "route12",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/route12.png"
     },
     {
         "name": "route13",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/route13.png"
     },
     {
         "name": "route14",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/route14.png"
     },
     {
@@ -169,8 +169,8 @@
     },
     {
         "name": "routes_17_18_p2lab",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/routes_17_18_p2lab.png"
     },
     {
@@ -610,6 +610,18 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroadtrialchamber.png"
+    },
+    {
+        "name": "pokemonleague",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pokemonleague.png"
+    },
+    {
+        "name": "pokemonleaguechampionsroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pokemonleaguechampionsroom.png"
     },
     {
         "name": "nscastle1f",

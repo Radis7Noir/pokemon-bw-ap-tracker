@@ -1271,6 +1271,32 @@
                         }
                     ]
                 }
+            },
+            {
+                "title": "Pokémon League",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "pokemonleague"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Champion's Room",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "pokemonleaguechampionsroom"
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ]
     }

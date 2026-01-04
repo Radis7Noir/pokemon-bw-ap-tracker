@@ -1,4 +1,4 @@
-MAP_MAPPING =  {
+﻿MAP_MAPPING =  {
   [317] = {"Routes", "Route 1"},
   [319] = {"Routes", "Route 2"},
   [321] = {"Routes", "Route 3"},
@@ -163,8 +163,8 @@ MAP_MAPPING =  {
   [227] = {"Dungeons B", "Victory Road", "4F"}, -- victoryroad4frightmostroom
   [228] = {"Dungeons B", "Victory Road", "7F"},
   [229] = {"Dungeons B", "Victory Road", "Trial Chamber"},
---  [136] = "pokemonleague",
---  [144] = "championsroom",
+  [136] = {"Others", "Pokémon League", "Entrance"},
+  [144] = {"Others", "Pokémon League", "Champion's Room"},
   [255] = {"Others", "Village Bridge"},
   [324] = {"Dungeons A", "Wellspring Cave", "1F"},
   [325] = {"Dungeons A", "Wellspring Cave", "B1F"}
