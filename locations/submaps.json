@@ -459,7 +459,7 @@
                 ]
             },
             {
-                "name": "Dreamyard",
+                "name": "​Dreamyard",
                 "sections": [
                     {
                         "name": "Ruins - Item near traffic cone",
@@ -556,7 +556,7 @@
                 ]
             },
             {
-                "name": "Route 3",
+                "name": "​Route 3",
                 "sections": [
                     {
                         "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
@@ -4844,8 +4844,8 @@
                     },
                     {
                         "map": "dreamyard",
-                        "x": 266,
-                        "y": 648,
+                        "x": 40,
+                        "y": 416,
 						"shape": "diamond"
                     }
                 ]
@@ -10180,7 +10180,7 @@
                         "y": 74
                     }
                 ]
-            },,
+            },
             {
                 "name": "P2 Laboratory​",
                 "sections": [
@@ -10232,6 +10232,514 @@
                         "y": 20,
 						"size": 35,
                         "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ruins",
+                "sections": [
+                    {
+                        "name": "Item near traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near traffic cone"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 520,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​",
+                "sections": [
+                    {
+                        "name": "Item behind broken wall",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item behind broken wall"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 472,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 184,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​",
+                "sections": [
+                    {
+                        "name": "2F - East item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 634,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​",
+                "sections": [
+                    {
+                        "name": "2F - West item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 264,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​​",
+                "sections": [
+                    {
+                        "name": "Item near furnace",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near furnace"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 536,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 120,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item in barrel",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South hidden item in barrel"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 216,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "TM from sage Gorm",
+                        "ref": "Unova Locations/Dreamyard/Ruins - TM from sage Gorm"
+                    },
+                    {
+                        "name": "Sage Gorm (Event)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Sage Gorm (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 728,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "Ruins​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 568,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Ruins Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 20,
+                        "y": 20,
+                        "size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Dreamyard Basement",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west item"
+                    },
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North east hidden item"
+                    },
+                    {
+                        "name": "South west hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west hidden item"
+                    },
+                    {
+                        "name": "West hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 746,
+                        "y": 168,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​​Dreamyard Basement",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west item"
+                    },
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North east hidden item"
+                    },
+                    {
+                        "name": "South west hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west hidden item"
+                    },
+                    {
+                        "name": "West hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 746,
+                        "y": 728,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​​​Dreamyard Basement",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west item"
+                    },
+                    {
+                        "name": "Musharna (Static)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Musharna (Static)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 232,
+                        "y": 600,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Basement",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 40,
+                        "y": 16
+                    }
+                ]
+            },
+            {
+                "name": "Basement​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 24,
+                        "y": 402
+                    }
+                ]
+            },
+            {
+                "name": "Basement​​",
+                "sections": [
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - North east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 362,
+                        "y": 112
+                    }
+                ]
+            },
+            {
+                "name": "Basement​​​",
+                "sections": [
+                    {
+                        "name": "South west hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - South west hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 104,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Basement​​​​",
+                "sections": [
+                    {
+                        "name": "West hidden item",
+                        "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 104,
+                        "y": 176
+                    }
+                ]
+            },
+            {
+                "name": "Basement​​​​​",
+                "sections": [
+                    {
+                        "name": "Musharna (Static)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Musharna (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 168,
+                        "y": 32
+                    }
+                ]
+            },
+            {
+                "name": "Basement Encounters",
+                "sections": [
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 88,
+                        "y": 12,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Ruins",
+                "sections": [
+                    {
+                        "name": "Ruins - Item near traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near traffic cone"
+                    },
+                    {
+                        "name": "Ruins - Item behind broken wall",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item behind broken wall"
+                    },
+                    {
+                        "name": "Ruins - North west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - North west item"
+                    },
+                    {
+                        "name": "Ruins 2F - East item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - East item"
+                    },
+                    {
+                        "name": "Ruins 2F - West item",
+                        "ref": "Unova Locations/Dreamyard/Ruins 2F - West item"
+                    },
+                    {
+                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                    },
+                    {
+                        "name": "Ruins - Land Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Encounters"
+                    },
+                    {
+                        "name": "Ruins - Land Phenomena",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 394,
+                        "y": 26,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Ruins",
+                "sections": [
+                    {
+                        "name": "Ruins - Item near furnace",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near furnace"
+                    },
+                    {
+                        "name": "Ruins - South west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South west item"
+                    },
+                    {
+                        "name": "Ruins - South hidden item in barrel",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South hidden item in barrel"
+                    },
+                    {
+                        "name": "Ruins - TM from sage Gorm",
+                        "ref": "Unova Locations/Dreamyard/Ruins - TM from sage Gorm"
+                    },
+                    {
+                        "name": "Ruins - Sage Gorm (Event)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Sage Gorm (Event)"
+                    },
+                    {
+                        "name": "Ruins - Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 24,
+                        "y": 300,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​​Ruins",
+                "sections": [
+                    {
+                        "name": "Ruins - Item near furnace",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Item near furnace"
+                    },
+                    {
+                        "name": "Ruins - South west item",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South west item"
+                    },
+                    {
+                        "name": "Ruins - South hidden item in barrel",
+                        "ref": "Unova Locations/Dreamyard/Ruins - South hidden item in barrel"
+                    },
+                    {
+                        "name": "Ruins - TM from sage Gorm",
+                        "ref": "Unova Locations/Dreamyard/Ruins - TM from sage Gorm"
+                    },
+                    {
+                        "name": "Ruins - Sage Gorm (Event)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Sage Gorm (Event)"
+                    },
+                    {
+                        "name": "Ruins - Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 394,
+                        "y": 414,
 						"shape": "diamond"
                     }
                 ]

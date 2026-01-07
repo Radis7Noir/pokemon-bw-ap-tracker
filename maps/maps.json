@@ -175,8 +175,8 @@
     },
     {
         "name": "dreamyard",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/dreamyard.png"
     },
     {
