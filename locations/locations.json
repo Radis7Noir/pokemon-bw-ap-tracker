@@ -2042,7 +2042,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - Badge reward",
+                        "name": "Gym - Badge reward​",
                         "chest_unopened_img": "images/locations/iris_badge.png",
                         "chest_opened_img": "images/locations/iris_badge_grayscale.png",
                         "access_rules": [
@@ -2064,7 +2064,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - TM reward",
+                        "name": "Gym - TM reward​",
                         "chest_unopened_img": "images/locations/iris_tm.png",
                         "chest_opened_img": "images/locations/iris_tm_grayscale.png",
                         "access_rules": [

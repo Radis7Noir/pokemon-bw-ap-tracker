@@ -329,8 +329,17 @@ function onLocation(location_id, location_name)
     local obj = Tracker:FindObjectForCode(v)
     if obj then
 		if location_id == 200903 then
-			Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount - 1
-			Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount - 1
+			Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 0
+			Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 0
+    	elseif location_id == 537700 then
+			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - TM reward").AvailableChestCount = 0
+			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - TM reward​").AvailableChestCount = 0
+    	elseif location_id == 400377 then
+			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - Badge reward").AvailableChestCount = 0
+			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - Badge reward​").AvailableChestCount = 0
+    	elseif location_id == 340500 then
+			Tracker:FindObjectForCode("@Unova Locations/Nacrene City/Item from Lenora after Relic Castle").AvailableChestCount = 0
+			Tracker:FindObjectForCode("@Unova Locations/Nacrene City/Item from Lenora after Relic Castle").AvailableChestCount = 0
     	elseif v:sub(1, 1) == "@" then
     		obj.AvailableChestCount = obj.AvailableChestCount - 1
     	elseif obj.Type == "progressive" then

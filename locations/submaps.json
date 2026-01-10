@@ -659,6 +659,12 @@
                         "x": 1012,
                         "y": 376,
                         "shape": "diamond"
+                    },
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 480,
+                        "y": 96,
+                        "shape": "diamond"
                     }
                 ]
             },
@@ -851,7 +857,7 @@
                 ]
             },
             {
-                "name": "Pinwheel Forest Outside",
+                "name": "​Pinwheel Forest Outside",
                 "sections": [
                     {
                         "name": "Item near ledge",
@@ -1218,7 +1224,7 @@
                 ]
             },
             {
-                "name": "Route 4",
+                "name": "​Route 4",
                 "sections": [
                     {
                         "name": "South - Item north east of parasol lady",
@@ -1554,7 +1560,7 @@
                 ]
             },
             {
-                "name": "Route 16",
+                "name": "​Route 16",
                 "sections": [
                     {
                         "name": "Item near dark grass",
@@ -3533,11 +3539,11 @@
                     },
                     {
                         "name": "Badge reward​",
-                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward​"
                     },
                     {
                         "name": "TM reward​",
-                        "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward​"
                     }
                 ],
                 "map_locations": [
@@ -4707,7 +4713,7 @@
                 ]
             },
             {
-                "name": "Route 2​​​​​",
+                "name": "Route 2​​​​​​",
                 "sections": [
                     {
                         "name": "Item behind cut tree #2",
@@ -5126,7 +5132,7 @@
                 ]
             },
             {
-                "name": "Wellspring Cave",
+                "name": "​Wellspring Cave",
                 "sections": [
                     {
                         "name": "1F - North east item",
@@ -5239,7 +5245,7 @@
                 ]
             },
             {
-                "name": "Nacrene City​​​​​​",
+                "name": "​Nacrene City",
                 "sections": [
                     {
                         "name": "Hidden item near Café Warehouse",
@@ -5344,6 +5350,12 @@
                         "x": 20,
                         "y": 824,
 						"shape": "diamond"
+                    },
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 404,
+                        "y": 152,
+						"shape": "diamond"
                     }
                 ]
             },
@@ -5422,8 +5434,8 @@
                 "map_locations": [
                     {
                         "map": "route4",
-                        "x": 600,
-                        "y": 1672
+                        "x": 488,
+                        "y": 1336
                     }
                 ]
             },
@@ -7644,16 +7656,16 @@
                         "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
                     },
                     {
-                        "name": "Gym - Badge reward",
-                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
+                        "name": "Gym - Badge reward​",
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward​"
                     },
                     {
                         "name": "Gym - TM reward",
                         "ref": "Unova Locations/Opelucid City/Gym - TM reward"
                     },
                     {
-                        "name": "Gym - TM reward",
-                        "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                        "name": "Gym - TM reward​",
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward​"
                     }
                 ],
                 "map_locations": [
@@ -10237,7 +10249,7 @@
                 ]
             },
             {
-                "name": "Ruins",
+                "name": "Dreamyard Ruins",
                 "sections": [
                     {
                         "name": "Item near traffic cone",
@@ -10253,7 +10265,7 @@
                 ]
             },
             {
-                "name": "Ruins​",
+                "name": "Dreamyard Ruins​",
                 "sections": [
                     {
                         "name": "Item behind broken wall",
@@ -10269,7 +10281,7 @@
                 ]
             },
             {
-                "name": "Ruins​​",
+                "name": "Dreamyard Ruins​​",
                 "sections": [
                     {
                         "name": "North west item",
@@ -10285,7 +10297,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​",
+                "name": "Dreamyard Ruins​​​",
                 "sections": [
                     {
                         "name": "2F - East item",
@@ -10301,7 +10313,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​",
+                "name": "Dreamyard Ruins​​​​",
                 "sections": [
                     {
                         "name": "2F - West item",
@@ -10317,7 +10329,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​​",
+                "name": "Dreamyard Ruins​​​​​",
                 "sections": [
                     {
                         "name": "Item near furnace",
@@ -10333,7 +10345,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​​​",
+                "name": "Dreamyard Ruins​​​​​​",
                 "sections": [
                     {
                         "name": "South west item",
@@ -10349,7 +10361,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​​​​",
+                "name": "Dreamyard Ruins​​​​​​​",
                 "sections": [
                     {
                         "name": "South hidden item in barrel",
@@ -10365,7 +10377,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​​​​​",
+                "name": "Dreamyard Ruins​​​​​​​​",
                 "sections": [
                     {
                         "name": "TM from sage Gorm",
@@ -10385,7 +10397,7 @@
                 ]
             },
             {
-                "name": "Ruins​​​​​​​​​",
+                "name": "Dreamyard Ruins​​​​​​​​​",
                 "sections": [
                     {
                         "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
@@ -10401,7 +10413,7 @@
                 ]
             },
             {
-                "name": "Ruins Encounters",
+                "name": "Dreamyard Ruins Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -10511,7 +10523,7 @@
                 ]
             },
             {
-                "name": "Basement",
+                "name": "Dreamyard Basement",
                 "sections": [
                     {
                         "name": "North west item",
@@ -10527,7 +10539,7 @@
                 ]
             },
             {
-                "name": "Basement​",
+                "name": "Dreamyard Basement​",
                 "sections": [
                     {
                         "name": "South west item",
@@ -10543,7 +10555,7 @@
                 ]
             },
             {
-                "name": "Basement​​",
+                "name": "Dreamyard Basement​​",
                 "sections": [
                     {
                         "name": "North east hidden item",
@@ -10559,7 +10571,7 @@
                 ]
             },
             {
-                "name": "Basement​​​",
+                "name": "Dreamyard Basement​​​",
                 "sections": [
                     {
                         "name": "South west hidden item",
@@ -10575,7 +10587,7 @@
                 ]
             },
             {
-                "name": "Basement​​​​",
+                "name": "Dreamyard Basement​​​​",
                 "sections": [
                     {
                         "name": "West hidden item",
@@ -10591,7 +10603,7 @@
                 ]
             },
             {
-                "name": "Basement​​​​​",
+                "name": "Dreamyard Basement​​​​​",
                 "sections": [
                     {
                         "name": "Musharna (Static)",
@@ -10607,7 +10619,7 @@
                 ]
             },
             {
-                "name": "Basement Encounters",
+                "name": "Dreamyard Basement Encounters",
                 "sections": [
                     {
                         "name": "Dark Grass Encounters",
@@ -10626,7 +10638,7 @@
                 ]
             },
             {
-                "name": "​Ruins",
+                "name": "​Dreamyard Ruins",
                 "sections": [
                     {
                         "name": "Ruins - Item near traffic cone",
@@ -10671,7 +10683,7 @@
                 ]
             },
             {
-                "name": "​Ruins",
+                "name": "​​Dreamyard Ruins",
                 "sections": [
                     {
                         "name": "Ruins - Item near furnace",
@@ -10708,7 +10720,7 @@
                 ]
             },
             {
-                "name": "​​Ruins",
+                "name": "​​​Dreamyard Ruins",
                 "sections": [
                     {
                         "name": "Ruins - Item near furnace",
@@ -10740,6 +10752,1412 @@
                         "map": "dreamyardbasement",
                         "x": 394,
                         "y": 414,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 432,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 272,
+                        "y": 400
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 48,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item #1",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 368,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item #2",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 320,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 64,
+                        "y": 32,
+						"size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Wellspring Cave B1F",
+                "sections": [
+                    {
+                        "name": "Item east of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Item east of trainers"
+                    },
+                    {
+                        "name": "Item south of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Item south of trainers"
+                    },
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - North item"
+                    },
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - South item"
+                    },
+                    {
+                        "name": "Hidden item north west of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Hidden item north west of trainers"
+                    },
+                    {
+                        "name": "Hidden item south east of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Hidden item south east of trainers"
+                    },
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - North hidden item"
+                    },
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - South hidden item"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 432,
+                        "y": 384,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​",
+                "sections": [
+                    {
+                        "name": "Item east of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Item east of trainers"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 416,
+                        "y": 544
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​",
+                "sections": [
+                    {
+                        "name": "Item south of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Item south of trainers"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 256,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​",
+                "sections": [
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - North item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 288,
+                        "y": 62
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 448,
+                        "y": 864
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item north west of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Hidden item north west of trainers"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 208,
+                        "y": 432
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item south east of trainers",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Hidden item south east of trainers"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 416,
+                        "y": 672
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 368,
+                        "y": 78
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - South hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 386,
+                        "y": 896
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 72,
+                        "y": 124,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Wellspring Cave 1F",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - North east item"
+                    },
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - South item"
+                    },
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Wellspring Cave/1F - West item"
+                    },
+                    {
+                        "name": "Hidden item #1",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Hidden item #1"
+                    },
+                    {
+                        "name": "Hidden item #2",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Hidden item #2"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 56,
+                        "y": 944,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside",
+                "sections": [
+                    {
+                        "name": "Item near ledge",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item near ledge"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 360,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​",
+                "sections": [
+                    {
+                        "name": "Item near railway",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item near railway"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 344,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​",
+                "sections": [
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - North item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 248,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 280,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 56,
+                        "y": 888
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item behind dark grass",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Hidden item behind dark grass"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 136,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 344,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South east hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 744,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - South hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 248,
+                        "y": 888
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from challenge rock",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Item from challenge rock"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 688,
+                        "y": 676
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "TM from woman near Nacrene City",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - TM from woman near Nacrene City"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 232,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 20,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Pinwheel Forest Inside",
+                "sections": [
+                    {
+                        "name": "Item near water #1",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item near water #1"
+                    },
+                    {
+                        "name": "North item near ledge",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - North item near ledge"
+                    },
+                    {
+                        "name": "North west item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - North west item inside tree stump"
+                    },
+                    {
+                        "name": "South item #1",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South item #1"
+                    },
+                    {
+                        "name": "South item #2",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South item #2"
+                    },
+                    {
+                        "name": "West item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - West item inside tree stump"
+                    },
+                    {
+                        "name": "South west hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South west hidden item"
+                    },
+                    {
+                        "name": "West hidden item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - West hidden item inside tree stump"
+                    },
+                    {
+                        "name": "Item from ranger Audra",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Audra"
+                    },
+                    {
+                        "name": "Item from ranger Forrest",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Forrest"
+                    },
+                    {
+                        "name": "Item from ranger Irene",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Irene"
+                    },
+                    {
+                        "name": "Item from ranger Miguel",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Miguel"
+                    },
+                    {
+                        "name": "Stolen item from Plasma grunt",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Stolen item from Plasma grunt"
+                    },
+                    {
+                        "name": "Inside - Item from Lenora",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from Lenora"
+                    },
+                    {
+                        "name": "East Inside - East item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - East item inside tree stump"
+                    },
+                    {
+                        "name": "East Inside - South east item",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - South east item"
+                    },
+                    {
+                        "name": "East Inside - Item near water #2",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - Item near water #2"
+                    },
+                    {
+                        "name": "East Inside - East hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - East hidden item"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestoutside",
+                        "x": 40,
+                        "y": 160,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside",
+                "sections": [
+                    {
+                        "name": "Item near water #1",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item near water #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 712,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​",
+                "sections": [
+                    {
+                        "name": "North item near ledge",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - North item near ledge"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 904,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​",
+                "sections": [
+                    {
+                        "name": "North west item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - North west item inside tree stump"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 504,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​",
+                "sections": [
+                    {
+                        "name": "South item #1",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 600,
+                        "y": 984
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​",
+                "sections": [
+                    {
+                        "name": "South item #2",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 472,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​",
+                "sections": [
+                    {
+                        "name": "West item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - West item inside tree stump"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 184,
+                        "y": 728
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - South west hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 472,
+                        "y": 968
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​",
+                "sections": [
+                    {
+                        "name": "West hidden item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - West hidden item inside tree stump"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 136,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Audra",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Audra"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 248,
+                        "y": 700
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Forrest",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Forrest"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 584,
+                        "y": 780
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Irene",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Irene"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 104,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Miguel",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Miguel"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 600,
+                        "y": 332
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Stolen item from Plasma grunt",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Stolen item from Plasma grunt"
+                    },
+                    {
+                        "name": "Item from Lenora",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Item from Lenora"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 600,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest East Inside",
+                "sections": [
+                    {
+                        "name": "East item inside tree stump",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - East item inside tree stump"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1624,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest East Inside​",
+                "sections": [
+                    {
+                        "name": "South east item",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - South east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1784,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest East Inside​​",
+                "sections": [
+                    {
+                        "name": "Item near water #2",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - Item near water #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 696,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest East Inside​​​",
+                "sections": [
+                    {
+                        "name": "East hidden item",
+                        "ref": "Unova Locations/Pinwheel Forest/East Inside - East hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1320,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 24,
+                        "y": 24,
+                        "size": 42,
+                        "border_thickness": 6,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Rumination Field",
+                "sections": [
+                    {
+                        "name": "Virizion (Event)",
+                        "ref": "Unova Locations/Pinwheel Forest/Rumination Field - Virizion (Event)"
+                    },
+                    {
+                        "name": "Virizion (Static)",
+                        "ref": "Unova Locations/Pinwheel Forest/Rumination Field - Virizion (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "ruminationfield",
+                        "x": 216,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort",
+                "sections": [
+                    {
+                        "name": "Even more south west item",
+                        "ref": "Unova Locations/Desert Resort/Even more south west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 40,
+                        "y": 1080
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​",
+                "sections": [
+                    {
+                        "name": "Item between Relic Castle entrances",
+                        "ref": "Unova Locations/Desert Resort/Item between Relic Castle entrances"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 600,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Desert Resort/North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 168,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​",
+                "sections": [
+                    {
+                        "name": "Sandy area item #1",
+                        "ref": "Unova Locations/Desert Resort/Sandy area item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1048,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​",
+                "sections": [
+                    {
+                        "name": "Sandy area item #2",
+                        "ref": "Unova Locations/Desert Resort/Sandy area item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 856,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​",
+                "sections": [
+                    {
+                        "name": "Sandy area item #3",
+                        "ref": "Unova Locations/Desert Resort/Sandy area item #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 600,
+                        "y": 632
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Desert Resort/South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 360,
+                        "y": 1016
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near tower",
+                        "ref": "Unova Locations/Desert Resort/Hidden item near tower"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 456,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Desert Resort/North east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1192,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South hidden item",
+                        "ref": "Unova Locations/Desert Resort/South hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 600,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "West hidden item",
+                        "ref": "Unova Locations/Desert Resort/West hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 280,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from man in black",
+                        "ref": "Unova Locations/Desert Resort/Item from man in black"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1096,
+                        "y": 508
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Jaden",
+                        "ref": "Unova Locations/Desert Resort/Item from ranger Jaden"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 152,
+                        "y": 748
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Mylene",
+                        "ref": "Unova Locations/Desert Resort/Item from ranger Mylene"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 344,
+                        "y": 684
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from Professor Juniper",
+                        "ref": "Unova Locations/Desert Resort/Item from Professor Juniper"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 872,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Darmanitan Statue (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 792,
+                        "y": 236
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Darmanitan Statue (Static)​",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 824,
+                        "y": 268
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Darmanitan Statue (Static)​​",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 840,
+                        "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Darmanitan Statue (Static)​​​",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 904,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort​​​​​​​​​​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Darmanitan Statue (Static)​​​​",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 952,
+                        "y": 236
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort Inside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Desert Resort/Inside - Land Encounters"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 24,
+                        "y": 24,
+						"size": 42,
+                        "border_thickness": 6,
 						"shape": "diamond"
                     }
                 ]

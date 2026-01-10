@@ -193,20 +193,20 @@
     },
     {
         "name": "wellspringcaveb1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/wellspringcaveb1f.png"
     },
     {
         "name": "pinwheelforestoutside",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/pinwheelforestoutside.png"
     },
     {
         "name": "pinwheelforest",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/pinwheelforest.png"
     },
     {
@@ -235,8 +235,8 @@
     },
     {
         "name": "desertresort",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/desertresort.png"
     },
     {
