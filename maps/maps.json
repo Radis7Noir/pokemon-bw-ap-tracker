@@ -343,14 +343,14 @@
     },
     {
         "name": "lostlornforest",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/lostlornforest.png"
     },
     {
         "name": "coldstorageoutside",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/coldstorageoutside.png"
     },
     {
@@ -391,20 +391,20 @@
     },
     {
         "name": "chargestonecave1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/chargestonecave1f.png"
     },
     {
         "name": "chargestonecaveb1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/chargestonecaveb1f.png"
     },
     {
         "name": "chargestonecaveb2f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/chargestonecaveb2f.png"
     },
     {

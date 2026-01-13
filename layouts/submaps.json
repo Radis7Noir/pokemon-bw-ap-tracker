@@ -458,7 +458,15 @@
                                                 "reliccastleb7f"
                                             ]
                                         }
-                                    },
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "B7F",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
                                     {
                                         "title": "Maze",
                                         "content": {
