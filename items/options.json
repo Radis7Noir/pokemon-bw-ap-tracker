@@ -148,6 +148,7 @@
         "name": "Prioritize Key Item Locations",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -168,6 +169,7 @@
         "name": "Flash Requirement",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -188,6 +190,7 @@
         "name": "Hidden Items Requirement",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -208,6 +211,7 @@
         "name": "Adjust Levels",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {

@@ -49,8 +49,8 @@
     },
     {
         "name": "icirruscity",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/icirruscity.png"
     },
     {
@@ -445,26 +445,26 @@
     },
     {
         "name": "twistmountainupperlevel",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/twistmountainupperlevel.png"
     },
     {
         "name": "twistmountain",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/twistmountain.png"
     },
     {
         "name": "twistmountainmiddlelevel",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/twistmountainmiddlelevel.png"
     },
     {
         "name": "twistmountainlowerlevel",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/twistmountainlowerlevel.png"
     },
     {
@@ -481,8 +481,8 @@
     },
     {
         "name": "dragonspiraltoweroutside",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/dragonspiraltoweroutside.png"
     },
     {
@@ -529,8 +529,8 @@
     },
     {
         "name": "mooroficirrus",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/mooroficirrus.png"
     },
     {
@@ -553,20 +553,20 @@
     },
     {
         "name": "challengerscaveb2f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/challengerscaveb2f.png"
     },
     {
         "name": "victoryroadoutside",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/victoryroadoutside.png"
     },
     {
         "name": "victoryroad1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/victoryroad1f.png"
     },
     {
@@ -577,14 +577,14 @@
     },
     {
         "name": "victoryroad3f",
-        "location_size": 14,
+        "location_size": 18,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad3f.png"
     },
     {
         "name": "victoryroad4f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/victoryroad4f.png"
     },
     {
@@ -631,39 +631,27 @@
     },
     {
         "name": "nscastle2f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/nscastle2f.png"
     },
     {
         "name": "nscastle3f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/nscastle3f.png"
     },
     {
         "name": "nscastle4f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/nscastle4f.png"
     },
     {
         "name": "nscastle5f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/nscastle5f.png"
-    },
-    {
-        "name": "nscastlethroneroom",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/throneroom.png"
-    },
-    {
-        "name": "nscastlethroneroom",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/throneroom.png"
     },
     {
         "name": "villagebridge",
@@ -679,14 +667,14 @@
     },
     {
         "name": "giantchasmcave",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/giantchasmcave.png"
     },
     {
         "name": "giantchasmcrater",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/giantchasmcrater.png"
     },
     {
@@ -697,26 +685,26 @@
     },
     {
         "name": "undellabay",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/undellabay.png"
     },
     {
         "name": "abyssalruins1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/abyssalruins1f.png"
     },
     {
         "name": "abyssalruins2f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/abyssalruins2f.png"
     },
     {
         "name": "abyssalruins3f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/abyssalruins3f.png"
     },
     {
@@ -727,8 +715,8 @@
     },
     {
         "name": "abundantshrine",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/abundantshrine.png"
     },
     {

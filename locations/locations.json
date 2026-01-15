@@ -10550,7 +10550,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|winter"
+                            "hm03surf,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10563,7 +10563,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|winter"
+                            "triobadge,hm03surf,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"

@@ -1795,14 +1795,14 @@
                 ]
             },
             {
-                "name": "Icirrus Pokémon Fan Club",
+                "name": "Pokémon Fan Club",
                 "sections": [
                     {
-                        "name": "Item from Pokémon Fan Club chairman for gaining 25 levels",
+                        "name": "Item from chairman for gaining 25 levels",
                         "ref": "Unova Locations/Icirrus City/Item from Pokémon Fan Club chairman for gaining 25 levels"
                     },
                     {
-                        "name": "Item from Pokémon Fan Club chairman for gaining 50 levels",
+                        "name": "Item from chairman for gaining 50 levels",
                         "ref": "Unova Locations/Icirrus City/Item from Pokémon Fan Club chairman for gaining 50 levels"
                     }
                 ],
@@ -1964,14 +1964,6 @@
             {
                 "name": "Twist Mountain",
                 "sections": [
-                    {
-                        "name": "Outside - Hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Outside - Hidden item"
-                    },
-                    {
-                        "name": "Outside - TM from Alder",
-                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
-                    },
                     {
                         "name": "Main Floor - East item",
                         "ref": "Unova Locations/Twist Mountain/Main Floor - East item"
@@ -2190,6 +2182,11 @@
                         "map": "icirruscity",
                         "x": 168,
                         "y": 776
+                    },
+                    {
+                        "map": "twistmountainoutside",
+                        "x": 200,
+                        "y": 168
                     }
                 ]
             },
@@ -10821,6 +10818,4888 @@
                         "y": 16,
 						"size": 28,
                         "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Outside",
+                "sections": [
+                    {
+                        "name": "Hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainoutside",
+                        "x": 360,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Outside​",
+                "sections": [
+                    {
+                        "name": "TM from Alder",
+                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainoutside",
+                        "x": 264,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Outside​",
+                "sections": [
+                    {
+                        "name": "TM from Alder",
+                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainoutside",
+                        "x": 264,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Upper Level",
+                "sections": [
+                    {
+                        "name": "North east cave item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - North east cave item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 968,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Upper Level​",
+                "sections": [
+                    {
+                        "name": "North east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - North east cave hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 712,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Upper Level​​",
+                "sections": [
+                    {
+                        "name": "South east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - South east cave hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 696,
+                        "y": 886
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Upper Level Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Level - Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 20,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 712,
+                        "y": 472
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 232,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 552,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 168,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​​​​",
+                "sections": [
+                    {
+                        "name": "East hidden item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - East hidden item (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 664,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item #1 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #1 (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 344,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Main Floor​​​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item #2 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #2 (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 536,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level",
+                "sections": [
+                    {
+                        "name": "West cave item #1",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 236,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level​",
+                "sections": [
+                    {
+                        "name": "West cave item #2",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 72,
+                        "y": 616
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level​​",
+                "sections": [
+                    {
+                        "name": "North cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - North cave item (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 488,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level​​​",
+                "sections": [
+                    {
+                        "name": "East cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - East cave hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 968,
+                        "y": 904
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level​​​​",
+                "sections": [
+                    {
+                        "name": "West cave hidden item #1",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 212,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level​​​​​",
+                "sections": [
+                    {
+                        "name": "West cave hidden item #2",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - West cave hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 56,
+                        "y": 904
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Middle Level Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Level - Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 64,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Lower Level",
+                "sections": [
+                    {
+                        "name": "East cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - East cave item (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 936,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Lower Level​",
+                "sections": [
+                    {
+                        "name": "North west cave item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - North west cave item (Spring, Summer, Autumn)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Lower Level​​",
+                "sections": [
+                    {
+                        "name": "North west cave hidden item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - North west cave hidden item (Spring, Summer, Autumn)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 264,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Lower Level​​​",
+                "sections": [
+                    {
+                        "name": "Item from worker near ice rock cave",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Item from worker near ice rock cave"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 88,
+                        "y": 796
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Lower Level Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Level - Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 36,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Ice Rock Cave",
+                "sections": [
+                    {
+                        "name": "Item near ice rock",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Item near ice rock"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainicerockcave",
+                        "x": 296,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Ice Rock Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Chamber - Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainicerockcave",
+                        "x": 16,
+                        "y": 16,
+						"size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Icirrus City Part",
+                "sections": [
+                    {
+                        "name": "Item near entrance (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Item near entrance (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltowerentrance",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Icirrus City Part​",
+                "sections": [
+                    {
+                        "name": "Item from Cedric Juniper",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Item from Cedric Juniper"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltowerentrance",
+                        "x": 216,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Icirrus City Part Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Icirrus City Part - Land Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltowerentrance",
+                        "x": 12,
+                        "y": 12,
+						"size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Outside",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 662,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Outside​",
+                "sections": [
+                    {
+                        "name": "Hidden item",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 458,
+                        "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "​Dragonspiral Tower",
+                "sections": [
+                    {
+                        "name": "2F - Item on pillar",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Item on pillar"
+                    },
+                    {
+                        "name": "2F - North east item",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - North east item"
+                    },
+                    {
+                        "name": "3F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/3F - Item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Item"
+                    },
+                    {
+                        "name": "5F - Item #1",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #1"
+                    },
+                    {
+                        "name": "5F - Item #2",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #2"
+                    },
+                    {
+                        "name": "5F - Item #3",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #3"
+                    },
+                    {
+                        "name": "6F - Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Item"
+                    },
+                    {
+                        "name": "1F - Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/1F - Land Encounters"
+                    },
+                    {
+                        "name": "2F - Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Land Encounters"
+                    },
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 238,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Tower Exterior - Rod Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 16,
+                        "y": 16,
+                        "size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/1F - Land Encounters"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower1f",
+                        "x": 64,
+                        "y": 176,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 2F",
+                "sections": [
+                    {
+                        "name": "Item on pillar",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Item on pillar"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower2f",
+                        "x": 126,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 2F​",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower2f",
+                        "x": 366,
+                        "y": 154
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Land Encounters"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower2f",
+                        "x": 138,
+                        "y": 78,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 3F",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/3F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower3f",
+                        "x": 144,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 4F",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 314,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 5F",
+                "sections": [
+                    {
+                        "name": "Item #1",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower5f",
+                        "x": 436,
+                        "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 5F​",
+                "sections": [
+                    {
+                        "name": "Item #2",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower5f",
+                        "x": 144,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 5F​​",
+                "sections": [
+                    {
+                        "name": "Item #3",
+                        "ref": "Unova Locations/Dragonspiral Tower/5F - Item #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower5f",
+                        "x": 224,
+                        "y": 352
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 6F",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower6f",
+                        "x": 296,
+                        "y": 24
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus",
+                "sections": [
+                    {
+                        "name": "Item near northern lake",
+                        "ref": "Unova Locations/Moor of Icirrus/Item near northern lake"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 440,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Moor of Icirrus/North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 616,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​",
+                "sections": [
+                    {
+                        "name": "Item behind boulder #1",
+                        "ref": "Unova Locations/Moor of Icirrus/Item behind boulder #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 40,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​",
+                "sections": [
+                    {
+                        "name": "Item behind boulder #2",
+                        "ref": "Unova Locations/Moor of Icirrus/Item behind boulder #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 184,
+                        "y": 728
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​",
+                "sections": [
+                    {
+                        "name": "South east item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/South east item (Spring, Summer, Autumn)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 664,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near ledge",
+                        "ref": "Unova Locations/Moor of Icirrus/Hidden item near ledge"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 552,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Moor of Icirrus/North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 264,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South east hidden item",
+                        "ref": "Unova Locations/Moor of Icirrus/South east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 616,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item behind boulder (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Hidden item behind boulder (Spring, Summer, Autumn)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 216,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Chloris",
+                        "ref": "Unova Locations/Moor of Icirrus/Item from ranger Chloris"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 824,
+                        "y": 524
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from ranger Harry",
+                        "ref": "Unova Locations/Moor of Icirrus/Item from ranger Harry"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 472,
+                        "y": 188
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 16,
+                        "y": 16,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscave1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 14,
+                        "border_thickness": 2,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F",
+                "sections": [
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - North item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 112,
+                        "y": 62
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 192,
+                        "y": 382
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near stairs to 1F",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Hidden item near stairs to 1F"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 112,
+                        "y": 416
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near stairs to B2F",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Hidden item near stairs to B2F"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 32,
+                        "y": 254
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 64,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F",
+                "sections": [
+                    {
+                        "name": "Item near eastern ledge",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Item near eastern ledge"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 720,
+                        "y": 648
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​",
+                "sections": [
+                    {
+                        "name": "Item near stairs #1",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Item near stairs #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 192,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​",
+                "sections": [
+                    {
+                        "name": "Item near stairs #2",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Item near stairs #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 80,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​",
+                "sections": [
+                    {
+                        "name": "Item on island",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Item on island"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 430,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​",
+                "sections": [
+                    {
+                        "name": "South east item",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - South east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 960,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item on south end of island",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Hidden item on south end of island"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 432,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​​​",
+                "sections": [
+                    {
+                        "name": "North east hidden item",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - North east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 944,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South east hidden item",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - South east hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 832,
+                        "y": 888
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west hidden item #1",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - South west hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 112,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west hidden item #2",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - South west hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 112,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 312,
+                        "y": 24,
+                        "size": 42,
+                        "border_thickness": 6,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside",
+                "sections": [
+                    {
+                        "name": "Item #1",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 1046,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside​",
+                "sections": [
+                    {
+                        "name": "Item #2",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 770,
+                        "y": 564
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside​​",
+                "sections": [
+                    {
+                        "name": "Item #3",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 564,
+                        "y": 804
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside​​​",
+                "sections": [
+                    {
+                        "name": "Item #4",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #4"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 230,
+                        "y": 916
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside​​​​",
+                "sections": [
+                    {
+                        "name": "Item #5",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #5"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 1412,
+                        "y": 804
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside​​​​​",
+                "sections": [
+                    {
+                        "name": "Item #6",
+                        "ref": "Unova Locations/Victory Road/Outside - Item #6"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 836,
+                        "y": 404
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/Outside - Land Encounters"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 520,
+                        "y": 28,
+                        "size": 49,
+                        "border_thickness": 7,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F",
+                "sections": [
+                    {
+                        "name": "Center cavern item",
+                        "ref": "Unova Locations/Victory Road/1F - Center cavern item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 600,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 556,
+                        "y": 42,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F​",
+                "sections": [
+                    {
+                        "name": "Eastern cavern item",
+                        "ref": "Unova Locations/Victory Road/1F - Eastern cavern item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 1076,
+                        "y": 314
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 958,
+                        "y": 264,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F​​",
+                "sections": [
+                    {
+                        "name": "Western cavern hidden item #1",
+                        "ref": "Unova Locations/Victory Road/1F - Western cavern hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 314,
+                        "y": 370
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F​​​",
+                "sections": [
+                    {
+                        "name": "Western cavern hidden item #2",
+                        "ref": "Unova Locations/Victory Road/1F - Western cavern hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 480,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Left Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 46,
+                        "y": 190,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 2F Right Cave",
+                "sections": [
+                    {
+                        "name": "Eastern cavern hidden item",
+                        "ref": "Unova Locations/Victory Road/2F - Eastern cavern hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 510,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 2F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 400,
+                        "y": 36,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 2F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/2F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/2F Right Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 674,
+                        "y": 66,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F",
+                "sections": [
+                    {
+                        "name": "Western cavern item",
+                        "ref": "Unova Locations/Victory Road/3F - Western cavern item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 144,
+                        "y": 142
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F​",
+                "sections": [
+                    {
+                        "name": "Middle cavern hidden item",
+                        "ref": "Unova Locations/Victory Road/3F - Middle cavern hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 512,
+                        "y": 274
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 38,
+                        "y": 40,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 406,
+                        "y": 114,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 770,
+                        "y": 202,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F",
+                "sections": [
+                    {
+                        "name": "Western cavern item",
+                        "ref": "Unova Locations/Victory Road/4F - Western cavern item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 330,
+                        "y": 586
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F​",
+                "sections": [
+                    {
+                        "name": "Eastern cavern hidden item #1",
+                        "ref": "Unova Locations/Victory Road/4F - Eastern cavern hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 1080,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F​​",
+                "sections": [
+                    {
+                        "name": "Eastern cavern hidden item #2",
+                        "ref": "Unova Locations/Victory Road/4F - Eastern cavern hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 1008,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F​​​",
+                "sections": [
+                    {
+                        "name": "Western cavern hidden item",
+                        "ref": "Unova Locations/Victory Road/4F - Western cavern hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 128,
+                        "y": 452
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 72,
+                        "y": 316,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 462,
+                        "y": 440,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 752,
+                        "y": 216,
+                        "size": 28,
+                        "border_thickness": 4,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 5F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/5F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/5F Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad5f",
+                        "x": 216,
+                        "y": 38,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "​Trial Chamber",
+                "sections": [
+                    {
+                        "name": "Terrakion (Event)",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Terrakion (Event)"
+                    },
+                    {
+                        "name": "Terrakion (Static)",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Terrakion (Static)"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad6f",
+                        "x": 110,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 6F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad6f",
+                        "x": 246,
+                        "y": 38,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 7F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/7F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/7F Cave - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad7f",
+                        "x": 34,
+                        "y": 32,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Trial Chamber Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadtrialchamber",
+                        "x": 36,
+                        "y": 36,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Trial Chamber",
+                "sections": [
+                    {
+                        "name": "Terrakion (Event)",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Terrakion (Event)"
+                    },
+                    {
+                        "name": "Terrakion (Static)",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Terrakion (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadtrialchamber",
+                        "x": 108,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "N's Castle 2F",
+                "sections": [
+                    {
+                        "name": "Right room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 2F - Right room item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle2f",
+                        "x": 1012,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "N's Castle 3F",
+                "sections": [
+                    {
+                        "name": "Center room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 3F - Center room item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle3f",
+                        "x": 764,
+                        "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "N's Castle 3F​",
+                "sections": [
+                    {
+                        "name": "Item from grunt in left room",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 3F - Item from grunt in left room"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle3f",
+                        "x": 484,
+                        "y": 82
+                    }
+                ]
+            },
+            {
+                "name": "N's Castle 4F",
+                "sections": [
+                    {
+                        "name": "Center room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 4F - Center room item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle4f",
+                        "x": 774,
+                        "y": 222
+                    }
+                ]
+            },
+            {
+                "name": "N's Room",
+                "sections": [
+                    {
+                        "name": "N's room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 4F - N's room item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle4f",
+                        "x": 424,
+                        "y": 124
+                    }
+                ]
+            },
+            {
+                "name": "​Throne Room",
+                "sections": [
+                    {
+                        "name": "Reshiram or Zekrom (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram or Zekrom (Event)"
+                    },
+                    {
+                        "name": "Reshiram (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Static)"
+                    },
+                    {
+                        "name": "Zekrom (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
+                    },
+                    {
+                        "name": "Ghetsis (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Ghetsis (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastle5f",
+                        "x": 870,
+                        "y": 96
+                    }
+                ]
+            },
+            {
+                "name": "Throne Room",
+                "sections": [
+                    {
+                        "name": "Reshiram or Zekrom (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram or Zekrom (Event)"
+                    },
+                    {
+                        "name": "Reshiram (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Static)"
+                    },
+                    {
+                        "name": "Zekrom (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
+                    },
+                    {
+                        "name": "Ghetsis (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Ghetsis (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "nscastlethroneroom",
+                        "x": 232,
+                        "y": 478
+                    }
+                ]
+            },
+            {
+                "name": "​Giant Chasm",
+                "sections": [
+                    {
+                        "name": "Entrance Cave - North east item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North east item"
+                    },
+                    {
+                        "name": "Entrance Cave - North west item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North west item"
+                    },
+                    {
+                        "name": "Entrance Cave - South west item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - South west item"
+                    },
+                    {
+                        "name": "Entrance Cave - Hidden item near entrance",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Hidden item near entrance"
+                    },
+                    {
+                        "name": "Entrance Cave - North hidden item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North hidden item"
+                    },
+                    {
+                        "name": "Entrance Cave - North west hidden item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North west hidden item"
+                    },
+                    {
+                        "name": "Crater - Item near lake",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near lake"
+                    },
+                    {
+                        "name": "Crater - Item near northern stairs #1",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near northern stairs #1"
+                    },
+                    {
+                        "name": "Crater - Item near northern stairs #2",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near northern stairs #2"
+                    },
+                    {
+                        "name": "Crater - North west item #1",
+                        "ref": "Unova Locations/Giant Chasm/Crater - North west item #1"
+                    },
+                    {
+                        "name": "Crater - North west item #2",
+                        "ref": "Unova Locations/Giant Chasm/Crater - North west item #2"
+                    },
+                    {
+                        "name": "Crater - South east item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - South east item"
+                    },
+                    {
+                        "name": "Crater - South west item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - South west item"
+                    },
+                    {
+                        "name": "Crater - West item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - West item"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Kyurem (Event)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Event)"
+                    },
+                    {
+                        "name": "Entrance Cave - Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Entrance Cave - Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Entrance Cave - Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Entrance Cave - Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Entrance Cave - Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Entrance Cave - Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Phenomena"
+                    },
+                    {
+                        "name": "Crater - Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Encounters"
+                    },
+                    {
+                        "name": "Crater - Dark Grass Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Crater - Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Phenomena"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Kyurem (Static)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Static)"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Kyurem's Cave - Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmentrance",
+                        "x": 200,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Outside Entrance - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Outside Entrance - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Outside Entrance - Land Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmentrance",
+                        "x": 12,
+                        "y": 12,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 644,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 228,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 160,
+                        "y": 854
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near entrance",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Hidden item near entrance"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 256,
+                        "y": 950
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave​​​​",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 404,
+                        "y": 94
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave​​​​​",
+                "sections": [
+                    {
+                        "name": "North west hidden item",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - North west hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 46,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 24,
+                        "y": 24,
+                        "size": 42,
+                        "border_thickness": 6,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater",
+                "sections": [
+                    {
+                        "name": "Item near lake",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near lake"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 552,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​",
+                "sections": [
+                    {
+                        "name": "Item near northern stairs #1",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near northern stairs #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 648,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​",
+                "sections": [
+                    {
+                        "name": "Item near northern stairs #2",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Item near northern stairs #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 760,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​​",
+                "sections": [
+                    {
+                        "name": "North west item #1",
+                        "ref": "Unova Locations/Giant Chasm/Crater - North west item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 280,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​​​",
+                "sections": [
+                    {
+                        "name": "North west item #2",
+                        "ref": "Unova Locations/Giant Chasm/Crater - North west item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 408,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​​​​",
+                "sections": [
+                    {
+                        "name": "South east item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - South east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 936,
+                        "y": 872
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 88,
+                        "y": 856
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater​​​​​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Giant Chasm/Crater - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 232,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "​Giant Chasm Kyurem's Cave",
+                "sections": [
+                    {
+                        "name": "Kyurem (Event)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Event)"
+                    },
+                    {
+                        "name": "Kyurem (Static)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Static)"
+                    },
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 776,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater Encounters",
+                "sections": [
+                    {
+                        "name": "Crater - Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Encounters"
+                    },
+                    {
+                        "name": "Crater - Dark Grass Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Crater - Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Phenomena"
+                    },
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 24,
+                        "y": 24,
+                        "size": 42,
+                        "border_thickness": 6,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Kyurem's Cave",
+                "sections": [
+                    {
+                        "name": "Kyurem (Event)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Event)"
+                    },
+                    {
+                        "name": "Kyurem (Static)",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmdepths",
+                        "x": 190,
+                        "y": 182
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Kyurem's Cave - Rod Phenomena"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmdepths",
+                        "x": 32,
+                        "y": 20,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay",
+                "sections": [
+                    {
+                        "name": "Hidden item on western shore #1",
+                        "ref": "Unova Locations/Undella Bay/Hidden item on western shore #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 72,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay​",
+                "sections": [
+                    {
+                        "name": "Hidden item on western shore #2",
+                        "ref": "Unova Locations/Undella Bay/Hidden item on western shore #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 88,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay​​",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Undella Bay/North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 392,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "​Abyssal Ruins",
+                "sections": [
+                    {
+                        "name": "1F Center - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
+                    },
+                    {
+                        "name": "1F Center - North item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
+                    },
+                    {
+                        "name": "1F East - Item near center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
+                    },
+                    {
+                        "name": "1F East - Kinda south item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
+                    },
+                    {
+                        "name": "1F East - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
+                    },
+                    {
+                        "name": "1F East - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
+                    },
+                    {
+                        "name": "1F East - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
+                    },
+                    {
+                        "name": "1F East - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
+                    },
+                    {
+                        "name": "1F North - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
+                    },
+                    {
+                        "name": "1F North - Item east of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
+                    },
+                    {
+                        "name": "1F North - Item north of center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
+                    },
+                    {
+                        "name": "1F North - Item west of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
+                    },
+                    {
+                        "name": "1F North - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
+                    },
+                    {
+                        "name": "1F South - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
+                    },
+                    {
+                        "name": "1F South - Item near entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
+                    },
+                    {
+                        "name": "1F South - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
+                    },
+                    {
+                        "name": "1F South - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
+                    },
+                    {
+                        "name": "1F South - North west item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
+                    },
+                    {
+                        "name": "1F South - North west item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
+                    },
+                    {
+                        "name": "1F South - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
+                    },
+                    {
+                        "name": "1F West - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
+                    },
+                    {
+                        "name": "1F West - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
+                    },
+                    {
+                        "name": "1F West - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
+                    },
+                    {
+                        "name": "1F West - South east item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
+                    },
+                    {
+                        "name": "1F West - South east item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
+                    },
+                    {
+                        "name": "1F West - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
+                    },
+                    {
+                        "name": "2F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
+                    },
+                    {
+                        "name": "2F - Item north east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
+                    },
+                    {
+                        "name": "2F - Item south east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
+                    },
+                    {
+                        "name": "2F - Item west of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
+                    },
+                    {
+                        "name": "2F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
+                    },
+                    {
+                        "name": "2F - Kinda north item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
+                    },
+                    {
+                        "name": "2F - Kinda north west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
+                    },
+                    {
+                        "name": "2F - Kinda south west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
+                    },
+                    {
+                        "name": "2F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
+                    },
+                    {
+                        "name": "2F - South east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
+                    },
+                    {
+                        "name": "2F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
+                    },
+                    {
+                        "name": "3F - Center item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
+                    },
+                    {
+                        "name": "3F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
+                    },
+                    {
+                        "name": "3F - Item south of center",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
+                    },
+                    {
+                        "name": "3F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
+                    },
+                    {
+                        "name": "3F - North east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
+                    },
+                    {
+                        "name": "3F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
+                    },
+                    {
+                        "name": "3F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
+                    },
+                    {
+                        "name": "3F - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 296,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "​​Abyssal Ruins",
+                "sections": [
+                    {
+                        "name": "1F Center - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
+                    },
+                    {
+                        "name": "1F Center - North item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
+                    },
+                    {
+                        "name": "1F East - Item near center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
+                    },
+                    {
+                        "name": "1F East - Kinda south item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
+                    },
+                    {
+                        "name": "1F East - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
+                    },
+                    {
+                        "name": "1F East - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
+                    },
+                    {
+                        "name": "1F East - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
+                    },
+                    {
+                        "name": "1F East - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
+                    },
+                    {
+                        "name": "1F North - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
+                    },
+                    {
+                        "name": "1F North - Item east of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
+                    },
+                    {
+                        "name": "1F North - Item north of center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
+                    },
+                    {
+                        "name": "1F North - Item west of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
+                    },
+                    {
+                        "name": "1F North - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
+                    },
+                    {
+                        "name": "1F South - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
+                    },
+                    {
+                        "name": "1F South - Item near entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
+                    },
+                    {
+                        "name": "1F South - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
+                    },
+                    {
+                        "name": "1F South - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
+                    },
+                    {
+                        "name": "1F South - North west item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
+                    },
+                    {
+                        "name": "1F South - North west item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
+                    },
+                    {
+                        "name": "1F South - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
+                    },
+                    {
+                        "name": "1F West - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
+                    },
+                    {
+                        "name": "1F West - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
+                    },
+                    {
+                        "name": "1F West - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
+                    },
+                    {
+                        "name": "1F West - South east item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
+                    },
+                    {
+                        "name": "1F West - South east item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
+                    },
+                    {
+                        "name": "1F West - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
+                    },
+                    {
+                        "name": "2F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
+                    },
+                    {
+                        "name": "2F - Item north east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
+                    },
+                    {
+                        "name": "2F - Item south east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
+                    },
+                    {
+                        "name": "2F - Item west of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
+                    },
+                    {
+                        "name": "2F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
+                    },
+                    {
+                        "name": "2F - Kinda north item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
+                    },
+                    {
+                        "name": "2F - Kinda north west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
+                    },
+                    {
+                        "name": "2F - Kinda south west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
+                    },
+                    {
+                        "name": "2F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
+                    },
+                    {
+                        "name": "2F - South east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
+                    },
+                    {
+                        "name": "2F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
+                    },
+                    {
+                        "name": "3F - Center item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
+                    },
+                    {
+                        "name": "3F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
+                    },
+                    {
+                        "name": "3F - Item south of center",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
+                    },
+                    {
+                        "name": "3F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
+                    },
+                    {
+                        "name": "3F - North east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
+                    },
+                    {
+                        "name": "3F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
+                    },
+                    {
+                        "name": "3F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
+                    },
+                    {
+                        "name": "3F - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 776,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "​​​Abyssal Ruins",
+                "sections": [
+                    {
+                        "name": "1F Center - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
+                    },
+                    {
+                        "name": "1F Center - North item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
+                    },
+                    {
+                        "name": "1F East - Item near center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
+                    },
+                    {
+                        "name": "1F East - Kinda south item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
+                    },
+                    {
+                        "name": "1F East - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
+                    },
+                    {
+                        "name": "1F East - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
+                    },
+                    {
+                        "name": "1F East - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
+                    },
+                    {
+                        "name": "1F East - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
+                    },
+                    {
+                        "name": "1F North - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
+                    },
+                    {
+                        "name": "1F North - Item east of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
+                    },
+                    {
+                        "name": "1F North - Item north of center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
+                    },
+                    {
+                        "name": "1F North - Item west of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
+                    },
+                    {
+                        "name": "1F North - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
+                    },
+                    {
+                        "name": "1F South - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
+                    },
+                    {
+                        "name": "1F South - Item near entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
+                    },
+                    {
+                        "name": "1F South - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
+                    },
+                    {
+                        "name": "1F South - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
+                    },
+                    {
+                        "name": "1F South - North west item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
+                    },
+                    {
+                        "name": "1F South - North west item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
+                    },
+                    {
+                        "name": "1F South - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
+                    },
+                    {
+                        "name": "1F West - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
+                    },
+                    {
+                        "name": "1F West - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
+                    },
+                    {
+                        "name": "1F West - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
+                    },
+                    {
+                        "name": "1F West - South east item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
+                    },
+                    {
+                        "name": "1F West - South east item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
+                    },
+                    {
+                        "name": "1F West - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
+                    },
+                    {
+                        "name": "2F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
+                    },
+                    {
+                        "name": "2F - Item north east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
+                    },
+                    {
+                        "name": "2F - Item south east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
+                    },
+                    {
+                        "name": "2F - Item west of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
+                    },
+                    {
+                        "name": "2F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
+                    },
+                    {
+                        "name": "2F - Kinda north item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
+                    },
+                    {
+                        "name": "2F - Kinda north west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
+                    },
+                    {
+                        "name": "2F - Kinda south west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
+                    },
+                    {
+                        "name": "2F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
+                    },
+                    {
+                        "name": "2F - South east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
+                    },
+                    {
+                        "name": "2F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
+                    },
+                    {
+                        "name": "3F - Center item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
+                    },
+                    {
+                        "name": "3F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
+                    },
+                    {
+                        "name": "3F - Item south of center",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
+                    },
+                    {
+                        "name": "3F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
+                    },
+                    {
+                        "name": "3F - North east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
+                    },
+                    {
+                        "name": "3F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
+                    },
+                    {
+                        "name": "3F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
+                    },
+                    {
+                        "name": "3F - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 536,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "​​​​Abyssal Ruins",
+                "sections": [
+                    {
+                        "name": "1F Center - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
+                    },
+                    {
+                        "name": "1F Center - North item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
+                    },
+                    {
+                        "name": "1F East - Item near center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
+                    },
+                    {
+                        "name": "1F East - Kinda south item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
+                    },
+                    {
+                        "name": "1F East - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
+                    },
+                    {
+                        "name": "1F East - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
+                    },
+                    {
+                        "name": "1F East - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
+                    },
+                    {
+                        "name": "1F East - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
+                    },
+                    {
+                        "name": "1F North - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
+                    },
+                    {
+                        "name": "1F North - Item east of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
+                    },
+                    {
+                        "name": "1F North - Item north of center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
+                    },
+                    {
+                        "name": "1F North - Item west of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
+                    },
+                    {
+                        "name": "1F North - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
+                    },
+                    {
+                        "name": "1F South - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
+                    },
+                    {
+                        "name": "1F South - Item near entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
+                    },
+                    {
+                        "name": "1F South - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
+                    },
+                    {
+                        "name": "1F South - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
+                    },
+                    {
+                        "name": "1F South - North west item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
+                    },
+                    {
+                        "name": "1F South - North west item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
+                    },
+                    {
+                        "name": "1F South - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
+                    },
+                    {
+                        "name": "1F West - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
+                    },
+                    {
+                        "name": "1F West - North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
+                    },
+                    {
+                        "name": "1F West - North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
+                    },
+                    {
+                        "name": "1F West - South east item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
+                    },
+                    {
+                        "name": "1F West - South east item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
+                    },
+                    {
+                        "name": "1F West - South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
+                    },
+                    {
+                        "name": "2F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
+                    },
+                    {
+                        "name": "2F - Item north east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
+                    },
+                    {
+                        "name": "2F - Item south east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
+                    },
+                    {
+                        "name": "2F - Item west of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
+                    },
+                    {
+                        "name": "2F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
+                    },
+                    {
+                        "name": "2F - Kinda north item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
+                    },
+                    {
+                        "name": "2F - Kinda north west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
+                    },
+                    {
+                        "name": "2F - Kinda south west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
+                    },
+                    {
+                        "name": "2F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
+                    },
+                    {
+                        "name": "2F - South east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
+                    },
+                    {
+                        "name": "2F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
+                    },
+                    {
+                        "name": "3F - Center item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
+                    },
+                    {
+                        "name": "3F - East item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
+                    },
+                    {
+                        "name": "3F - Item south of center",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
+                    },
+                    {
+                        "name": "3F - Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
+                    },
+                    {
+                        "name": "3F - North east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
+                    },
+                    {
+                        "name": "3F - North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
+                    },
+                    {
+                        "name": "3F - South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
+                    },
+                    {
+                        "name": "3F - West item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
+                    },
+                    {
+                        "name": "4F - Item",
+                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 536,
+                        "y": 680
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Winter)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 20,
+                        "y": 20,
+                        "size": 35,
+                        "border_thickness": 5,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F Center",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1440,
+                        "y": 1008
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F Center​",
+                "sections": [
+                    {
+                        "name": "North item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1206,
+                        "y": 821
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East",
+                "sections": [
+                    {
+                        "name": "Item near center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1489,
+                        "y": 1100
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East​",
+                "sections": [
+                    {
+                        "name": "Kinda south item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1722,
+                        "y": 1386
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East​​",
+                "sections": [
+                    {
+                        "name": "North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1864,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East​​​",
+                "sections": [
+                    {
+                        "name": "North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1770,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East​​​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1817,
+                        "y": 1661
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F East​​​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1535,
+                        "y": 914
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F North",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1676,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F North​",
+                "sections": [
+                    {
+                        "name": "Item east of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1253,
+                        "y": 445
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F North​​",
+                "sections": [
+                    {
+                        "name": "Item north of center",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1159,
+                        "y": 633
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F North​​​",
+                "sections": [
+                    {
+                        "name": "Item west of entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1065,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F North​​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 501,
+                        "y": 348
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1489,
+                        "y": 1570
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​",
+                "sections": [
+                    {
+                        "name": "Item near entrance",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1253,
+                        "y": 1661
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​​",
+                "sections": [
+                    {
+                        "name": "North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1159,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​​​",
+                "sections": [
+                    {
+                        "name": "North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 1347,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​​​​",
+                "sections": [
+                    {
+                        "name": "North west item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 877,
+                        "y": 1430
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​​​​​",
+                "sections": [
+                    {
+                        "name": "North west item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 689,
+                        "y": 1346
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F South​​​​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 501,
+                        "y": 1661
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 971,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West​",
+                "sections": [
+                    {
+                        "name": "North item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 595,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West​​",
+                "sections": [
+                    {
+                        "name": "North item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 689,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West​​​",
+                "sections": [
+                    {
+                        "name": "South east item #1",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 877,
+                        "y": 1052
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West​​​​",
+                "sections": [
+                    {
+                        "name": "South east item #2",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 783,
+                        "y": 1146
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 1F West​​​​​",
+                "sections": [
+                    {
+                        "name": "South item",
+                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins1f",
+                        "x": 501,
+                        "y": 1346
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 801,
+                        "y": 627
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​",
+                "sections": [
+                    {
+                        "name": "Item north east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 512,
+                        "y": 485
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​",
+                "sections": [
+                    {
+                        "name": "Item south east of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 512,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​",
+                "sections": [
+                    {
+                        "name": "Item west of center",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 272,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​",
+                "sections": [
+                    {
+                        "name": "Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 705,
+                        "y": 389
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​",
+                "sections": [
+                    {
+                        "name": "Kinda north item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 464,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​​",
+                "sections": [
+                    {
+                        "name": "Kinda north west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 224,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Kinda south west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 321,
+                        "y": 770
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 31,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South east item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 608,
+                        "y": 919
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 2F​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins2f",
+                        "x": 31,
+                        "y": 867
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 319,
+                        "y": 358
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 609,
+                        "y": 501
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​",
+                "sections": [
+                    {
+                        "name": "Item south of center",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 319,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​​",
+                "sections": [
+                    {
+                        "name": "Kinda north east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 512,
+                        "y": 308
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​​​",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 609,
+                        "y": 121
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​​​​",
+                "sections": [
+                    {
+                        "name": "North west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 128,
+                        "y": 121
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​​​​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 128,
+                        "y": 691
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 3F​​​​​​​",
+                "sections": [
+                    {
+                        "name": "West item",
+                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins3f",
+                        "x": 31,
+                        "y": 358
+                    }
+                ]
+            },
+            {
+                "name": "Abyssal Ruins 4F",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abyssalruins4f",
+                        "x": 176,
+                        "y": 114
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Abundant Shrine/Center item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 376,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​",
+                "sections": [
+                    {
+                        "name": "Item near ledge",
+                        "ref": "Unova Locations/Abundant Shrine/Item near ledge"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 280,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​",
+                "sections": [
+                    {
+                        "name": "South west item",
+                        "ref": "Unova Locations/Abundant Shrine/South west item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 24,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​",
+                "sections": [
+                    {
+                        "name": "East item",
+                        "ref": "Unova Locations/Abundant Shrine/East item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 696,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​",
+                "sections": [
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Abundant Shrine/North east item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 680,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​",
+                "sections": [
+                    {
+                        "name": "Center hidden item",
+                        "ref": "Unova Locations/Abundant Shrine/Center hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 392,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​​",
+                "sections": [
+                    {
+                        "name": "East hidden item",
+                        "ref": "Unova Locations/Abundant Shrine/East hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 568,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​​​",
+                "sections": [
+                    {
+                        "name": "North west hidden item",
+                        "ref": "Unova Locations/Abundant Shrine/North west hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 104,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item near northern lake",
+                        "ref": "Unova Locations/Abundant Shrine/Hidden item near northern lake"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 392,
+                        "y": 56
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Hidden item on southern lake",
+                        "ref": "Unova Locations/Abundant Shrine/Hidden item on southern lake"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 312,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine​​​​​​​​​​",
+                "sections": [
+                    {
+                        "name": "Landorus (Static)",
+                        "ref": "Unova Locations/Abundant Shrine/Landorus (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 232,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 20,
+                        "y": 20,
+						"size": 35,
+                        "border_thickness": 5,
 						"shape": "diamond"
                     }
                 ]

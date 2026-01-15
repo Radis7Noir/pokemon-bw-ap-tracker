@@ -1,8 +1,8 @@
 [
     {
         "name": "nscastlethroneroom",
-        "location_size": 12,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastlethroneroom_b.png"
     }
 ]
