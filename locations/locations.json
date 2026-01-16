@@ -58,10 +58,11 @@
                 "map_locations": [
                     {
                         "map": "overworld",
-                        "x": 8,
-                        "y": 8,
-                        "size": 14,
-                        "shape": "diamond"
+                        "x": 12,
+                        "y": 12,
+                        "size": 21,
+                        "border_thickness": 3,
+						"shape": "diamond"
                     }
                 ]
             },

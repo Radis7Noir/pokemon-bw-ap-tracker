@@ -8917,7 +8917,7 @@
                 ]
             },
             {
-                "name": "Relic Castle Volcarona Room",
+                "name": "​Relic Castle Volcarona Room",
                 "sections": [
                     {
                         "name": "Volcarona (Event)",
@@ -10855,7 +10855,7 @@
                 ]
             },
             {
-                "name": "Twist Mountain Outside​",
+                "name": "Twist Mountain Outside​​",
                 "sections": [
                     {
                         "name": "TM from Alder",
@@ -13800,7 +13800,7 @@
                 ]
             },
             {
-                "name": "Giant Chasm Crater Encounters",
+                "name": "Giant Chasm Kyurem's Cave Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -15701,6 +15701,408 @@
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Skyarrow Bridge",
+                "sections": [
+                    {
+                        "name": "Item from hiker in gate",
+                        "ref": "Unova Locations/Skyarrow Bridge/Item from hiker in gate"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "skyarrowbridge",
+                        "x": 424,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Tubeline Bridge",
+                "sections": [
+                    {
+                        "name": "TM from battle girl",
+                        "ref": "Unova Locations/Tubeline Bridge/TM from battle girl"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "tubelinebridge",
+                        "x": 164,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge",
+                "sections": [
+                    {
+                        "name": "Item on northern island",
+                        "ref": "Unova Locations/Village Bridge/Item on northern island"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 648,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​",
+                "sections": [
+                    {
+                        "name": "Item on southern island",
+                        "ref": "Unova Locations/Village Bridge/Item on southern island"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 712,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​​",
+                "sections": [
+                    {
+                        "name": "Hidden item in trash can",
+                        "ref": "Unova Locations/Village Bridge/Hidden item in trash can"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 520,
+                        "y": 624
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​​​",
+                "sections": [
+                    {
+                        "name": "North east hidden item #1",
+                        "ref": "Unova Locations/Village Bridge/North east hidden item #1"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 1336,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​​​​",
+                "sections": [
+                    {
+                        "name": "North east hidden item #2",
+                        "ref": "Unova Locations/Village Bridge/North east hidden item #2"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 1368,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from baker Chris",
+                        "ref": "Unova Locations/Village Bridge/Item from baker Chris"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 1240,
+                        "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Village Bridge/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Village Bridge/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Village Bridge/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Village Bridge/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 24,
+                        "y": 24,
+						"size": 42,
+                        "border_thickness": 6,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Marvelous Bridge",
+                "sections": [
+                    {
+                        "name": "Item from Shadow Triad #1",
+                        "ref": "Unova Locations/Marvelous Bridge/Item from Shadow Triad #1"
+                    },
+                    {
+                        "name": "Item from Shadow Triad #2",
+                        "ref": "Unova Locations/Marvelous Bridge/Item from Shadow Triad #2"
+                    },
+                    {
+                        "name": "Item from Shadow Triad #3",
+                        "ref": "Unova Locations/Marvelous Bridge/Item from Shadow Triad #3"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 896,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Marvelous Bridge​",
+                "sections": [
+                    {
+                        "name": "Patrat shuffle reward",
+                        "ref": "Unova Locations/Marvelous Bridge/Patrat shuffle reward"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 1520,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Marvelous Bridge​​",
+                "sections": [
+                    {
+                        "name": "Magikarp (Gift)",
+                        "ref": "Unova Locations/Marvelous Bridge/Magikarp (Gift)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 476,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Marvelous Bridge Encounters",
+                "sections": [
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Marvelous Bridge/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 28,
+                        "y": 28,
+						"size": 49,
+                        "border_thickness": 7,
+						"shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Anville Town",
+                "sections": [
+                    {
+                        "name": "North hidden item",
+                        "ref": "Unova Locations/Anville Town/North hidden item"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "anvilletown",
+                        "x": 664,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Anville Town​",
+                "sections": [
+                    {
+                        "name": "Item from depot agent on first visit",
+                        "ref": "Unova Locations/Anville Town/Item from depot agent on first visit"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "anvilletown",
+                        "x": 616,
+                        "y": 616
+                    }
+                ]
+            },
+            {
+                "name": "Liberty Garden​",
+                "sections": [
+                    {
+                        "name": "Hidden item in trash can",
+                        "ref": "Unova Locations/Liberty Garden/Hidden item in trash can"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "libertygarden",
+                        "x": 136,
+                        "y": 374
+                    }
+                ]
+            },
+            {
+                "name": "​Liberty Garden Lighthouse",
+                "sections": [
+                    {
+                        "name": "Basement - Victini (Event)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
+                    },
+                    {
+                        "name": "Basement - Victini (Static)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "libertygarden",
+                        "x": 356,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Liberty Garden Lighthouse​",
+                "sections": [
+                    {
+                        "name": "Basement - Victini (Event)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
+                    },
+                    {
+                        "name": "Basement - Victini (Static)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Static)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "libertygardenlighthouse",
+                        "x": 335,
+                        "y": 150
+                    }
+                ]
+            },
+            {
+                "name": "​Pokémon League",
+                "sections": [
+                    {
+                        "name": "N's Castle 2F - Right room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 2F - Right room item"
+                    },
+                    {
+                        "name": "N's Castle 3F - Center room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 3F - Center room item"
+                    },
+                    {
+                        "name": "N's Castle 3F - Item from grunt in left room",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 3F - Item from grunt in left room"
+                    },
+                    {
+                        "name": "N's Castle 4F - Center room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 4F - Center room item"
+                    },
+                    {
+                        "name": "N's Castle 4F - N's room item",
+                        "ref": "Unova Locations/Pokémon League/N's Castle 4F - N's room item"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Reshiram or Zekrom (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram or Zekrom (Event)"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Reshiram (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Static)"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Zekrom (Static)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Ghetsis (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Ghetsis (Event)"
+                    },
+                    {
+                        "name": "Champion's Room - Alder (Event)",
+                        "ref": "Unova Locations/Pokémon League/Champion's Room - Alder (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pokemonleague",
+                        "x": 257,
+                        "y": 128
+                    }
+                ]
+            },
+            {
+                "name": "Champion's Room",
+                "sections": [
+                    {
+                        "name": "Alder (Event)",
+                        "ref": "Unova Locations/Pokémon League/Champion's Room - Alder (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "pokemonleaguechampionsroom",
+                        "x": 255,
+                        "y": 180
                     }
                 ]
             }

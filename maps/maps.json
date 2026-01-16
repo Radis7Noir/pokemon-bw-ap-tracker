@@ -67,8 +67,8 @@
     },
     {
         "name": "anvilletown",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/anvilletown.png"
     },
     {
@@ -217,14 +217,14 @@
     },
     {
         "name": "skyarrowbridge",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/skyarrowbridge.png"
     },
     {
         "name": "libertygarden",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/libertygarden.png"
     },
     {
@@ -613,14 +613,14 @@
     },
     {
         "name": "pokemonleague",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/pokemonleague.png"
     },
     {
         "name": "pokemonleaguechampionsroom",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/pokemonleaguechampionsroom.png"
     },
     {
@@ -655,8 +655,8 @@
     },
     {
         "name": "villagebridge",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/villagebridge.png"
     },
     {
@@ -721,8 +721,8 @@
     },
     {
         "name": "marvelousbridge",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 35,
+        "location_border_thickness": 5,
         "img": "images/maps/marvelousbridge.png"
     }
 ]
