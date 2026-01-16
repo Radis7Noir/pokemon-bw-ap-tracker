@@ -32,37 +32,37 @@
     {
         "name": "Arrest Sage Gorm at the Dreamyard",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_gorm.png",
         "codes": "arrestsagegorm"
     },
     {
         "name": "Arrest Sage Giallo on Route 14",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_giallo.png",
         "codes": "arrestsagegiallo"
     },
     {
         "name": "Arrest Sage Zinzolin in Cold Storage",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_zinzolin.png",
         "codes": "arrestsagezinzolin"
     },
     {
         "name": "Arrest Sage Ryoku in Relic Castle",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_ryoku.png",
         "codes": "arrestsageryoku"
     },
     {
         "name": "Arrest Sage Rood on Route 18",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_rood.png",
         "codes": "arrestsagerood"
     },
     {
         "name": "Arrest Sage Bronius in Chargestone Cave",
         "type": "toggle",
-        "img": "/images/events/goal7sages.png",
+        "img": "/images/events/sage_bronius.png",
         "codes": "arrestsagebronius"
     },
     {

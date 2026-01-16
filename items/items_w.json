@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Dark Stone",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/dark_stone.png",
+        "codes": "light-darkstone"
+    },
+    {
+        "name": "Catch Zekrom in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/zekrom.png",
+        "codes": "catchreshiramzekrom"
+    }
+]
