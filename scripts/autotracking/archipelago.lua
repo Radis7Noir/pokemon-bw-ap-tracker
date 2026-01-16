@@ -208,7 +208,7 @@ function onClear(slot_data)
     
     -- Datastorage Watches
     if PLAYER_ID>-1 then
-  updateEvents(0)
+        updateEvents(0)
   
         EVENT_ID = "pokemon_bw_events_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({EVENT_ID})
@@ -309,46 +309,39 @@ function onItem(index, item_id, item_name, player_number)
 end
 
 function resetLocations()
-    for _, v in pairs(LOCATION_MAPPING) do
-        local obj = Tracker:FindObjectForCode(v)
-        if obj ~= nil and (v:sub(1, 1) == "@") then
-            obj.AvailableChestCount = obj.ChestCount
+    for id, value in pairs(LOCATION_MAPPING) do
+        for _, code in pairs(value) do
+            local object = Tracker:FindObjectForCode(code)
+            if object then
+                if code:sub(1, 1) == "@" then
+                    object.AvailableChestCount = object.ChestCount
+                else
+                    object.CurrentStage = 0
+                end
+            end
         end
     end
-	-- Hardcoded Edge Case:
-	Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 1
 end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-    local v = LOCATION_MAPPING[location_id]
-    -- if not v then
-    --     print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    -- end
-    
-    local obj = Tracker:FindObjectForCode(v)
-    if obj then
-		if location_id == 200903 then
-			Tracker:FindObjectForCode("@Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 0
-			Tracker:FindObjectForCode("@Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone").AvailableChestCount = 0
-    	elseif location_id == 537700 then
-			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - TM reward").AvailableChestCount = 0
-			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - TM reward​").AvailableChestCount = 0
-    	elseif location_id == 400377 then
-			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - Badge reward").AvailableChestCount = 0
-			Tracker:FindObjectForCode("@Unova Locations/Opelucid City/Gym - Badge reward​").AvailableChestCount = 0
-    	elseif location_id == 340500 then
-			Tracker:FindObjectForCode("@Unova Locations/Nacrene City/Item from Lenora after Relic Castle").AvailableChestCount = 0
-			Tracker:FindObjectForCode("@Unova Locations/Nacrene City/Item from Lenora after Relic Castle").AvailableChestCount = 0
-    	elseif v:sub(1, 1) == "@" then
-    		obj.AvailableChestCount = obj.AvailableChestCount - 1
-    	elseif obj.Type == "progressive" then
-    		obj.CurrentStage = obj.CurrentStage + 1
-    	else
-    		obj.Active = true
-    	end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-    	print(string.format("onLocation: could not find object for code %s", v[1]))
+    local value = LOCATION_MAPPING[location_id]
+    if not value then
+        return
+    end
+    for _, code in pairs(value) do
+        local object = Tracker:FindObjectForCode(code)
+        if object then
+            if code:sub(1, 1) == "@" then
+                object.AvailableChestCount = object.AvailableChestCount - 1
+            elseif obj.Type == "progressive" then
+                obj.CurrentStage = obj.CurrentStage + 1
+            else
+                obj.Active = true
+            end
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find object for code %s", code))
+        end
     end
 end
 
@@ -473,16 +466,19 @@ function updateMap(map_id)
 end
 
 function updateHints(value)
-    if Highlight then
-        for _, hint in ipairs(value) do -- loop over all hints provided
-            local location = LOCATION_MAPPING[hint.location]
-			if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
-				local obj = Tracker:FindObjectForCode(location)
-                if obj then
-                    obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
-                else
-                    print(string.format("No object found for code: %s", location))
-                end
+    if not Highlight then
+        return
+    end
+
+    for _, hint in ipairs(value) do
+        local mapped = LOCATION_MAPPING[hint.location]
+
+        local locations = (type(mapped) == "table") and mapped or { mapped }
+
+        for _, location in ipairs(locations) do
+            -- Only sections (items don't support Highlight)
+            if type(location) == "string" and location:sub(1, 1) == "@" then
+                Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.status]
             end
         end
     end
