@@ -1860,6 +1860,10 @@
                     {
                         "name": "TM reward",
                         "ref": "Unova Locations/Icirrus City/Gym - TM reward"
+                    },
+                    {
+                        "name": "Defeat Brycen (Event)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
                     }
                 ],
                 "map_locations": [
@@ -2226,11 +2230,11 @@
                 "name": "Drayden's House",
                 "sections": [
                     {
-                        "name": "Item from linebacker in Drayden's house",
+                        "name": "Item from linebacker",
                         "ref": "Unova Locations/Opelucid City/Item from linebacker in Drayden's house"
                     },
                     {
-                        "name": "Item from female NPC in Drayden's house",
+                        "name": "Item from female NPC",
                         "ref": "Unova Locations/Opelucid City/Item from female NPC in Drayden's house"
                     }
                 ],

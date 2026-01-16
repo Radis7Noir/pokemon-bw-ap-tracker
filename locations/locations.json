@@ -1692,6 +1692,16 @@
                         ]
                     },
                     {
+                        "name": "Gym - Defeat Brycen (Event)",
+                        "access_rules": [
+                            "@Icirrus City Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatbrycen"
+                    },
+                    {
                         "name": "Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/puddle.png",
@@ -8686,9 +8696,7 @@
                             "@Mistralton Cave Access,hm04strength"
                         ],
                         "visibility_rules": [
-                            "goal_cobalion,show_items",
-							"goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "show_items"
                         ],
                         "hosted_item": "catchdefeatcobalion"
                     },
