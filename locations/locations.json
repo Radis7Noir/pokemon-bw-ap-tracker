@@ -1841,7 +1841,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13482,4 +13482,5 @@
             }
         ]
     }
+
 ]
