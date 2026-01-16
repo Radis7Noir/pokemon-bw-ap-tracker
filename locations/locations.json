@@ -4021,7 +4021,7 @@
                     {
                         "name": "East item",
                         "access_rules": [
-                            ""
+                            "@Moor of Icirrus Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4085,7 +4085,7 @@
                         "chest_unopened_img": "images/locations/rangeress_pechaberry.png",
                         "chest_opened_img": "images/locations/rangeress_pechaberry_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Moor of Icirrus Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
