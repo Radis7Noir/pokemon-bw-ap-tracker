@@ -1,4 +1,4 @@
-﻿MAP_MAPPING =  {
+MAP_MAPPING =  {
   [317] = {"Routes", "Route 1"},
   [319] = {"Routes", "Route 2"},
   [321] = {"Routes", "Route 3"},
