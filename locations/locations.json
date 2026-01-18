@@ -5144,7 +5144,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf"
+                            "hm03surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
