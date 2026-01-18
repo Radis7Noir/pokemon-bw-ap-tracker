@@ -7487,7 +7487,7 @@
                     {
                         "name": "Castleside B4F - Item",
                         "access_rules": [
-                            "explorerkit,^$hidden"
+                            "explorerkit"
                         ],
                         "visibility_rules": [
                             "show_items"
