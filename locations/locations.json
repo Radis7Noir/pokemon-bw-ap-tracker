@@ -8913,7 +8913,7 @@
             {
                 "name": "Twist Mountain",
                 "access_rules": [
-                    "@Twist Mountain Access"
+                    ""
                 ],
                 "sections": [
                     {
@@ -8921,7 +8921,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Route 7 Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8932,7 +8932,7 @@
                         "chest_unopened_img": "images/locations/alder_hm03surf.png",
                         "chest_opened_img": "images/locations/alder_hm03surf_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 7 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8941,7 +8941,7 @@
                     {
                         "name": "Main Floor - East item",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8950,7 +8950,7 @@
                     {
                         "name": "Main Floor - North west item",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8959,7 +8959,7 @@
                     {
                         "name": "Main Floor - South item",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8968,7 +8968,7 @@
                     {
                         "name": "Main Floor - West item",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8979,7 +8979,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8990,7 +8990,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -9001,7 +9001,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -9010,7 +9010,7 @@
                     {
                         "name": "Upper Level - North east cave item",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9021,7 +9021,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Twist Mountain Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9032,7 +9032,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Twist Mountain Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9041,7 +9041,7 @@
                     {
                         "name": "Middle Level - West cave item #1",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9050,7 +9050,7 @@
                     {
                         "name": "Middle Level - West cave item #2",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9059,7 +9059,7 @@
                     {
                         "name": "Middle Level - North cave item (Winter)",
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -9070,7 +9070,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Twist Mountain Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9081,7 +9081,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Twist Mountain Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9092,7 +9092,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Twist Mountain Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9101,7 +9101,7 @@
                     {
                         "name": "Lower Level - East cave item (Winter)",
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,,show_winter"
@@ -9110,9 +9110,9 @@
                     {
                         "name": "Lower Level - North west cave item (Spring, Summer, Autumn)",
                         "access_rules": [
-                            "^$season|spring",
-                            "^$season|summer",
-                            "^$season|autumn"
+                            "@Twist Mountain Access,^$season|spring",
+                            "@Twist Mountain Access,^$season|summer",
+                            "@Twist Mountain Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -9123,9 +9123,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|spring",
-                            "^$hidden,^$season|summer",
-                            "^$hidden,^$season|autumn"
+                            "@Twist Mountain Access,^$hidden,^$season|spring",
+                            "@Twist Mountain Access,^$hidden,^$season|summer",
+                            "@Twist Mountain Access,^$hidden,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -9136,7 +9136,7 @@
                         "chest_unopened_img": "images/locations/worker_fossil.png",
                         "chest_opened_img": "images/locations/worker_fossil_grayscale.png",
                         "access_rules": [
-                            "defeatghetsis"
+                            "@Twist Mountain Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9145,7 +9145,7 @@
                     {
                         "name": "Ice Rock Chamber - Item near ice rock",
                         "access_rules": [
-                            ""
+                            "@Twist Mountain Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9158,7 +9158,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "@Twist Mountain Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9171,7 +9171,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9184,7 +9184,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "@Twist Mountain Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9197,7 +9197,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9210,7 +9210,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "@Twist Mountain Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9223,7 +9223,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9236,7 +9236,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "@Twist Mountain Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9249,7 +9249,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9262,7 +9262,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "@Twist Mountain Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9275,7 +9275,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9288,7 +9288,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "@Twist Mountain Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9301,7 +9301,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9314,7 +9314,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "@Twist Mountain Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9327,7 +9327,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9340,7 +9340,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "@Twist Mountain Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9353,7 +9353,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9366,7 +9366,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "@Twist Mountain Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9379,7 +9379,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9392,7 +9392,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "@Twist Mountain Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9405,7 +9405,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9418,7 +9418,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "@Twist Mountain Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9431,7 +9431,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9444,7 +9444,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "@Twist Mountain Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9457,7 +9457,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9470,7 +9470,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9483,7 +9483,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9496,7 +9496,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9509,7 +9509,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9522,7 +9522,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9535,7 +9535,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9548,7 +9548,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "@Twist Mountain Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9561,7 +9561,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
