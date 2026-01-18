@@ -1016,7 +1016,7 @@
                 ]
             },
             {
-                "name": "East Gate",
+                "name": "Nimbasa East Gate",
                 "sections": [
                     {
                         "name": "Item from man in eastern gate",
@@ -1199,15 +1199,15 @@
                 "name": "Driftveil Pokémon Center",
                 "sections": [
                     {
-                        "name": "Item from girl in pokémon center #1",
+                        "name": "Item from girl #1",
                         "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #1"
                     },
                     {
-                        "name": "Item from girl in pokémon center #2",
+                        "name": "Item from girl #2",
                         "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #2"
                     },
                     {
-                        "name": "Item from girl in pokémon center #3",
+                        "name": "Item from girl #3",
                         "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #3"
                     }
 			    ],
@@ -1374,7 +1374,7 @@
                 "name": "Driftveil Drawbridge",
                 "sections": [
                     {
-                        "name": "Surf Encounters",
+                        "name": "Land Phenomena",
                         "ref": "Unova Locations/Driftveil Drawbridge/Land Phenomena"
                     }
 			    ],
