@@ -12,6 +12,15 @@
                 }
             },
             {
+                "title": "Goal",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "goal"
+                    ]
+                }
+            },
+            {
                 "title": "Pokédex",
                 "content": {
                     "type": "dock",

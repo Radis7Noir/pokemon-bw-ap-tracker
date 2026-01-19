@@ -15,6 +15,7 @@ ScriptHost:LoadScript("scripts/logic/dexsanity.lua")
 
 -- Maps
 Tracker:AddMaps("maps/overworld.json")
+Tracker:AddMaps("maps/goal_ghetsis.json")
 Tracker:AddMaps("maps/pokedex.json")
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddMaps("maps/mistralton_city_b.json")
@@ -22,6 +23,7 @@ Tracker:AddMaps("maps/opelucid_city_b.json")
 Tracker:AddMaps("maps/nscastlethroneroom_b.json")
 
 -- Locations
+Tracker:AddLocations("locations/goal_locations.json")
 Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/access.json")
 Tracker:AddLocations("locations/pokedex.json")
@@ -45,6 +47,7 @@ Tracker:AddLayouts("layouts/seasons.json")
 ScriptHost:LoadScript("scripts/autotracking.lua")
 
 -- Watches
+ScriptHost:AddWatchForCode("goal", "goal", toggle_goal)
 ScriptHost:AddWatchForCode("game_version", "game_version", toggle_versionmaps)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("season_control_randomized", "season_control_randomized", toggle_itemgrid)
