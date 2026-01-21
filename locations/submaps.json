@@ -52,7 +52,7 @@
                 "name": "Accumula Town",
                 "sections": [
                     {
-                        "name": "Item from man in north west building",
+                        "name": "Item from man upstairs in north west building",
                         "ref": "Unova Locations/Accumula Town/Item from man in north west building"
                     }
                 ],
@@ -635,7 +635,7 @@
                 "name": "Castelia Street",
                 "sections": [
                     {
-                        "name": "TM from hiker in left building",
+                        "name": "TM from hiker upstairs in left building",
                         "ref": "Unova Locations/Castelia City/Castelia Street - TM from hiker in left building"
                     }
                 ],
@@ -751,7 +751,7 @@
                 "name": "Northern Street​",
                 "sections": [
                     {
-                        "name": "TM from school kid in first right building",
+                        "name": "TM from school kid upstairs in first right building",
                         "ref": "Unova Locations/Castelia City/Northern Street - TM from school kid in first right building"
                     }
                 ],
@@ -767,7 +767,7 @@
                 "name": "Northern Street​​",
                 "sections": [
                     {
-                        "name": "TM from Mr. Lock in left building",
+                        "name": "TM from Mr. Lock upstairs in left building",
                         "ref": "Unova Locations/Castelia City/Northern Street - TM from Mr. Lock in left building"
                     }
                 ],
@@ -1035,7 +1035,7 @@
                 "name": "Nimbasa City​​",
                 "sections": [
                     {
-                        "name": "Item from ace trainer in another western building",
+                        "name": "Item from ace trainer upstairs in another western building",
                         "ref": "Unova Locations/Nimbasa City/Item from ace trainer in another western building"
                     }
                 ],
@@ -1051,12 +1051,12 @@
                 "name": "Nimbasa City​​​",
                 "sections": [
                     {
-                        "name": "Item from socialite in western building",
-                        "ref": "Unova Locations/Nimbasa City/Item from socialite in western building"
-                    },
-                    {
                         "name": "TM from ace trainer in western building",
                         "ref": "Unova Locations/Nimbasa City/TM from ace trainer in western building"
+                    },
+                    {
+                        "name": "Item from socialite upstairs in western building",
+                        "ref": "Unova Locations/Nimbasa City/Item from socialite in western building"
                     }
                 ],
                 "map_locations": [
@@ -1068,7 +1068,7 @@
                 ]
             },
             {
-                "name": "Nimbasa Musical Theater",
+                "name": "Musical Theater",
                 "sections": [
                     {
                         "name": "Item from owner",
@@ -2230,11 +2230,11 @@
                 "name": "Drayden's House",
                 "sections": [
                     {
-                        "name": "Item from linebacker",
+                        "name": "Item from linebacker upstairs",
                         "ref": "Unova Locations/Opelucid City/Item from linebacker in Drayden's house"
                     },
                     {
-                        "name": "Item from female NPC",
+                        "name": "Item from female NPC upstairs",
                         "ref": "Unova Locations/Opelucid City/Item from female NPC in Drayden's house"
                     }
                 ],
