@@ -315,6 +315,7 @@ function resetLocations()
             if object then
                 if code:sub(1, 1) == "@" then
                     object.AvailableChestCount = object.ChestCount
+                    object.Highlight = 0
                 else
                     object.CurrentStage = 0
                 end
@@ -469,18 +470,20 @@ function updateHints(value)
     if not Highlight then
         return
     end
-
+    
     for _, hint in ipairs(value) do
-        local mapped = LOCATION_MAPPING[hint.location]
-
-        local locations = (type(mapped) == "table") and mapped or { mapped }
-
-        for _, location in ipairs(locations) do
-            -- Only sections (items don't support Highlight)
-            if type(location) == "string" and location:sub(1, 1) == "@" then
-                Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.status]
+        if hint.finding_player == PLAYER_ID then
+            local mapped = LOCATION_MAPPING[hint.location]
+            local locations = (type(mapped) == "table") and mapped or { mapped }
+    
+            
+            for _, location in ipairs(locations) do
+                -- Only sections (items don't support Highlight)
+                if type(location) == "string" and location:sub(1, 1) == "@" then
+                    Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                end
             end
-        end
+        end        
     end
 end
 
