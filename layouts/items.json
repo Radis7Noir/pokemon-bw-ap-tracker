@@ -49,7 +49,77 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "light-darkstone",
+                                "lightstone",
+                                "oaksletter",
+                                "bluecard"
+                            ],
+                            [
+                                "basementkey",
+                                "lockcapsule",
+                                "libertypass",
+                                "explorerkit",
+                                "redchain",
+                                "gram",
+                                "dowsingmchn",
+                                "superrod"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_key_items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,48",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "triobadge",
+                                "basicbadge",
+                                "insectbadge",
+                                "boltbadge",
+                                "quakebadge",
+                                "jetbadge",
+                                "freezebadge",
+                                "legendbadge"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "hm01cut",
+                                "hm02fly",
+                                "hm03surf",
+                                "hm04strength",
+                                "hm05waterfall",
+                                "hm06dive",
+                                "tm70flash",
+                                "ownedtms"
+                            ],
+                            [
+                                "parcel",
+                                "lootsack",
+                                "dragonskull",
+                                "machinepart",
+                                "tidalbell",
+                                "lightstone",
                                 "oaksletter",
                                 "bluecard"
                             ],

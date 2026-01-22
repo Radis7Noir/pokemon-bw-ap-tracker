@@ -2,7 +2,7 @@
     "dexsearch_grid": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "0,2,0,0",
+        "margin": "5,2,0,0",
         "content": [
             {
                 "type": "array",

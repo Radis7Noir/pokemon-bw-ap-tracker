@@ -1,0 +1,59 @@
+{
+    "event_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "helpdaycareman"
+                            ],
+                            [
+                                "defeatbrycen"
+                            ],
+                            [
+                                "catchreshiram"
+                            ],
+                            [
+                                "defeatghetsis"
+                            ],
+                            [
+                                "defeatcynthia"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_event_grid": {
+        "type": "array",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "item_size": "32,32",
+                "h_alignment": "center",
+                "rows": [
+                    [
+                        "helpdaycareman",
+                        "defeatbrycen",
+                        "catchreshiram",
+                        "defeatghetsis",
+						"defeatcynthia"
+                    ]
+                ]
+            }
+        ]
+    }
+}

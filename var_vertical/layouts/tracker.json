@@ -17,7 +17,7 @@
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "key_items_grid"
+                                "key": "v_key_items_grid"
                             }
                         },
                         {

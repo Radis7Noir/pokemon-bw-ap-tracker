@@ -13234,8 +13234,12 @@
                 "name": "​Throne Room",
                 "sections": [
                     {
-                        "name": "Reshiram or Zekrom (Event)",
-                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram or Zekrom (Event)"
+                        "name": "Reshiram (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Event)"
+                    },
+                    {
+                        "name": "Zekrom (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Event)"
                     },
                     {
                         "name": "Reshiram (Static)",
@@ -13262,8 +13266,12 @@
                 "name": "Throne Room",
                 "sections": [
                     {
-                        "name": "Reshiram or Zekrom (Event)",
-                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram or Zekrom (Event)"
+                        "name": "Reshiram (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Event)"
+                    },
+                    {
+                        "name": "Zekrom (Event)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Event)"
                     },
                     {
                         "name": "Reshiram (Static)",

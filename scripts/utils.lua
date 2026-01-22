@@ -52,6 +52,10 @@ end
 
 function toggle_keyitemgrid()    
     local suffix = ""
+    if has("pokemon_white") then
+        suffix = suffix .. "_w"
+	end
+	
     if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
         suffix = suffix .. "_fossils"
         Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
@@ -60,7 +64,41 @@ function toggle_keyitemgrid()
     Tracker:AddLayouts("layouts/items"..suffix..".json")
 end
 
-function toggle_itemgrid()   
+function toggle_goal()
+    local suffix = ""
+    if has("goal_ghetsis") then
+        suffix = suffix .. "_ghetsis"
+	end
+    if has("goal_champion") then
+        suffix = suffix .. "_champion"
+	end
+	if has("goal_cynthia") then
+        suffix = suffix .. "_cynthia"
+	end
+	if has("goal_cobalion") then
+        suffix = suffix .. "_cobalion"
+	end
+	if has("goal_tmhm_hunt") then
+        suffix = suffix .. "_tmhm_hunt"
+	end
+	if has("goal_seven_sages_hunt") then
+        suffix = suffix .. "_seven_sages_hunt"
+	end
+	if has("goal_legendary_hunt") then
+        suffix = suffix .. "_legendary_hunt"
+	end
+	if has("goal_pokemon_master") then
+        suffix = suffix .. "_pokemon_master"
+	end
+    if has("pokemon_white") then
+        suffix = suffix .. "_w"
+	end
+	
+    Tracker:AddMaps("maps/goal"..suffix..".json")
+	Tracker:AddLayouts("layouts/events"..suffix..".json")
+end
+
+function toggle_seasongrid()   
     local suffix = ""
     if has("season_control_randomized") then
         suffix = suffix .. "_seasons"

@@ -162,10 +162,16 @@
         "codes": "tidalbell"
     },
     {
-        "name": "Light/Dark Stone",
+        "name": "Light Stone",
         "type": "toggle",
-        "img": "/images/items/roadblocks/light-dark_stone.png",
-        "codes": "light-darkstone"
+        "img": "/images/items/roadblocks/light_stone.png",
+        "codes": "lightstone, light-darkstone"
+    },
+    {
+        "name": "Dark Stone",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/dark_stone.png",
+        "codes": "darkstone, light-darkstone"
     },
 	{
         "name": "Blue Card",

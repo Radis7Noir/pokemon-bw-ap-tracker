@@ -16,23 +16,31 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "helpdaycareman"
+                                "helpdaycareman",
+								"defeatbrycen"
                             ],
                             [
-                                "defeatbrycen"
+								"catchreshiram",
+								"defeatghetsis"
                             ],
                             [
-                                "catchdefeatcobalion"
+								"arrestsagegorm",
+								"arrestsagegiallo"
                             ],
                             [
-                                "defeatghetsis"
+								"arrestsagezinzolin",
+								"arrestsageryoku"
+                            ],
+                            [
+								"arrestsagerood",
+								"arrestsagebronius"
                             ]
                         ]
                     }
                 ]
             }
-        ]
-    },
+		]
+	},
     "v_event_grid": {
         "type": "array",
         "content": [
@@ -42,12 +50,21 @@
                 "item_size": "32,32",
                 "h_alignment": "center",
                 "rows": [
-                    [
-                        "helpdaycareman",
-                        "defeatbrycen",
-                        "catchdefeatcobalion",
-                        "defeatghetsis"
-                    ]
+                            [
+                                "helpdaycareman",
+								"defeatbrycen",
+								"catchreshiram",
+								"defeatghetsis",
+                                "arrestsagegorm",
+								"arrestsagegiallo",
+								"arrestsagezinzolin",
+								"arrestsageryoku"
+                            ],
+                            [
+								"arrestsagerood",
+								"arrestsagebronius"
+								
+                            ]
                 ]
             }
         ]

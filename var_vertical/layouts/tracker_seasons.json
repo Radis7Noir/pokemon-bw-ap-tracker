@@ -17,16 +17,7 @@
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "key_items_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Seasons",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "v_seasons_grid"
+                                "key": "v_key_items_grid"
                             }
                         },
                         {
@@ -36,6 +27,15 @@
                             "content": {
                                 "type": "layout",
                                 "key": "v_event_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Seasons",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "v_seasons_grid"
                             }
                         },
                         {

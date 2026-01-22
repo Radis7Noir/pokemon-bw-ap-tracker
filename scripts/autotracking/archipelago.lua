@@ -454,6 +454,14 @@ function updatePokemon()
     end
 end
 
+functionUpdateZeshiram()
+    if has ("catchreshiramzekrom") then
+	    Tracker:FindObjectForCode("catchreshiramzekrom").Active = FindObjectForCode("catchreshiram").Active
+		Tracker:FindObjectForCode("catchreshiramzekrom").Active = Tracker:FindObjectForCode("catchzekrom").Active
+	end
+end
+
+
 -- Auto-tabbing
 function updateMap(map_id)
     if has("automap_on") then

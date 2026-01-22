@@ -72,10 +72,22 @@
         "codes": "catchdefeatvictini"
     },
     {
-        "name": "Catch Reshiram or Zekrom in N's Castle",
+        "name": "Catch Zeshiram in N's Castle",
         "type": "toggle",
         "img": "/images/events/zeshiram.png",
         "codes": "catchreshiramzekrom"
+    },
+    {
+        "name": "Catch Reshiram in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/reshiram.png",
+        "codes": "catchreshiram"
+    },
+    {
+        "name": "Catch Zekrom in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/zekrom.png",
+        "codes": "catchzekrom"
     },
     {
         "name": "Catch or defeat Terrakion in Trial Chamber",

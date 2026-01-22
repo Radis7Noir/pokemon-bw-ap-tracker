@@ -14,7 +14,7 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Items  ",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
@@ -22,6 +22,18 @@
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "key_items_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Events ",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "event_grid"
                             }
                         },
                         {
@@ -38,19 +50,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Events",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "event_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Tools",
+                            "header": "Tools  ",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {

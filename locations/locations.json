@@ -11739,15 +11739,24 @@
                         ]
                     },
                     {
-                        "name": "N's Castle Throne Room - Reshiram or Zekrom (Event)",
+                        "name": "N's Castle Throne Room - Reshiram (Event)",
                         "access_rules": [
                             "@N's Castle Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "pokemon_black,show_items"
                         ],
-                        "hosted_item": "catchreshiramzekrom"
+                        "hosted_item": "catchreshiram"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Zekrom (Event)",
+                        "access_rules": [
+                            "@N's Castle Access"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,show_items"
+                        ],
+                        "hosted_item": "catchzekrom"
                     },
                     {
                         "name": "N's Castle Throne Room - Ghetsis (Event)",

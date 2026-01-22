@@ -14,9 +14,9 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Items  ",
                             "dock": "left",
-                            "margin": "0,0,3,0",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
@@ -26,9 +26,9 @@
                         },
                         {
                             "type": "group",
-                            "header": "Events",
+                            "header": "Events ",
                             "dock": "left",
-                            "margin": "0,0,3,0",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
@@ -38,9 +38,9 @@
                         },
                         {
                             "type": "group",
-                            "header": "Tools",
+                            "header": "Tools  ",
                             "dock": "left",
-                            "margin": "0,0,3,0",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
@@ -52,7 +52,7 @@
                             "type": "group",
                             "header": "Pokésearch",
                             "dock": "left",
-                            "margin": "0,0,3,0",
+                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",

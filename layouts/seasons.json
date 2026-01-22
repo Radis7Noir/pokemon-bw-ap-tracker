@@ -11,7 +11,7 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2,2",
+                        "item_margin": "5,2",
                         "item_size": "32,32",
                         "h_alignment": "center",
                         "rows": [
