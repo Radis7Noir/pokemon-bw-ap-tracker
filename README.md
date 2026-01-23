@@ -7,6 +7,7 @@
 * Event Tracking
 * Auto-Tabbing
 * Split Mode
+* Hint Highlighting
 * Settings Display for most settings
   * You can manually hide some of the commonly excluded locations in the Locations Visibility section of the settings pop-up
 * Encounters Tracking
@@ -14,7 +15,7 @@
 * Evolution Logic Display
 
 ## Locations Without Logic
-These locations will show in logic as soon as you can physically access them.
+The following locations will show in logic as soon as you can physically access them.
 
 ```
     - "Castelia City - Item from scientist in building in northern street"
