@@ -8696,7 +8696,8 @@
                             "@Mistralton Cave Access,hm04strength"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "goal_cobalion,show_items",
+							"goal_legendary_hunt,show_items"
                         ],
                         "hosted_item": "catchdefeatcobalion"
                     },

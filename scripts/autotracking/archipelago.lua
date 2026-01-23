@@ -390,6 +390,10 @@ function updateEvents(value)
                 local obj = Tracker:FindObjectForCode(code)
                 obj.Active = obj.Active or bit == 1
             end
+            if has("catchreshiramzekrom") then
+                Tracker:FindObjectForCode("catchreshiram").Active = true
+                Tracker:FindObjectForCode("catchzekrom").Active = true
+            end
         end
     end
 end

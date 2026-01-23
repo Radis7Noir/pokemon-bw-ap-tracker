@@ -72,7 +72,7 @@
         "codes": "catchdefeatvictini"
     },
     {
-        "name": "Catch Zeshiram in N's Castle",
+        "name": "Catch Reshiram or Zekrom in N's Castle",
         "type": "toggle",
         "img": "/images/events/zeshiram.png",
         "codes": "catchreshiramzekrom"
