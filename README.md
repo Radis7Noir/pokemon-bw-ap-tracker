@@ -26,7 +26,7 @@ These locations will show in logic as soon as you can physically access them.
 ```
  
 ## Locations Visibility Lists
-You can manually show or hide the following groups of locations by clicking on their corresponding icon in the settings pop-up.
+You can manually show or hide the following groups of locations by clicking on their corresponding icon in the settings pop-up. You should only consider hiding a location if you excluded it in your YAML.
 
 - Show/Hide Abyssal Ruins Locations (46 locations)
 ```
