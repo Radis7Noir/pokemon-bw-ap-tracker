@@ -2,7 +2,7 @@
 
 ## Features (for v0.3.14 of the apworld and later)
 
-* Item Tracking
+* Key Items Tracking
 * Item Locations Tracking
 * Event Tracking
 * Auto-Tabbing
@@ -28,7 +28,7 @@ The following locations will show in logic as soon as you can physically access 
 ```
 
 ## Pokésearch
-While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking the enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Adjust the Encounter Tracking and Locations options in the Tools grid to cancel a search.
+While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking on the Enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Adjust the Encounter Tracking and Locations options in the Tools grid to cancel a search.
 Some useful IDs:
 - `585` (Deerling)
 - `251` (Celebi)
