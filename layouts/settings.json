@@ -24,7 +24,7 @@
                 },
 			    {
                     "type": "group",
-                    "header": "Location Visibility",
+                    "header": "Locations Visibility",
                     "content": {
                         "type": "layout",
                         "key": "hide_grid"

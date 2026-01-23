@@ -1,12 +1,12 @@
-# Pokémon Black & White Tracker for Archipelago
+# Pokémon Black \& White Tracker for Archipelago
 
-Features if you have an apworld-version of v0.3.13 or earlier:
-- Item Tracking
+Features (for v0.3.14 of the apworld and later):
 
-Features if you have an apworld-version newer than that:
-- Full Encounter Tracking:
-   - You can decide whether to show all Pokémon and track them automatically or to only show encounters which are Dexsanity checks!
-- Event Tracking
-- Settings Display for most settings
-- Goal Display
-- Evolution Logic Display
+* Item Tracking
+* Item Locations Tracking
+* Event Tracking
+* Settings Display for most settings
+  * You can manually hide some of the commonly excluded locations in the Locations Visibility section of the settings pop-up
+* Encounters Tracking:
+  * You can decide whether to show all Pokémon and track them automatically or to only show encounters which are Dexsanity checks
+* Evolution Logic Display
