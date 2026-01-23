@@ -69,7 +69,7 @@ You can manually show or hide the following groups of locations by clicking on t
     - "Route 8 - Item from ranger Annie"
     - "Route 8 - Item from ranger Lewis"
 ```
-- Show/Hide Winter or All Season Item Locations (12-17 locations)
+- Show/Hide Winter or All Season Items Locations (12-17 locations)
 ```
 -- Winter Locations
     - "Dragonspiral Tower - Item near entrance (Winter)"
