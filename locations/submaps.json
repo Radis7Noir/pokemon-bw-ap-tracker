@@ -1854,16 +1854,16 @@
                         "ref": "Unova Locations/Icirrus City/Gym - Guide item"
                     },
                     {
+                        "name": "Defeat Brycen (Event)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
+                    },
+                    {
                         "name": "Badge reward",
                         "ref": "Unova Locations/Icirrus City/Gym - Badge reward"
                     },
                     {
                         "name": "TM reward",
                         "ref": "Unova Locations/Icirrus City/Gym - TM reward"
-                    },
-                    {
-                        "name": "Defeat Brycen (Event)",
-                        "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
                     }
                 ],
                 "map_locations": [
