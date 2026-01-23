@@ -1670,6 +1670,16 @@
                         ]
                     },
                     {
+                        "name": "Gym - Defeat Brycen (Event)",
+                        "access_rules": [
+                            "@Icirrus City Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatbrycen"
+                    },
+                    {
                         "name": "Gym - Badge reward",
                         "chest_unopened_img": "images/locations/brycen_badge.png",
                         "chest_opened_img": "images/locations/brycen_badge_grayscale.png",
@@ -1690,16 +1700,6 @@
                         "visibility_rules": [
                             "show_items"
                         ]
-                    },
-                    {
-                        "name": "Gym - Defeat Brycen (Event)",
-                        "access_rules": [
-                            "@Icirrus City Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ],
-                        "hosted_item": "defeatbrycen"
                     },
                     {
                         "name": "Land Encounters (Spring)",
