@@ -145,20 +145,20 @@
         ]
     },
     {
-        "name": "Prioritize Key Item Locations",
+        "name": "Prioritize Key Items Locations",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Key Item Locations Priority - OFF",
+                "name": "Key Items Locations Priority - OFF",
                 "img": "/images/settings/prioritize_false.png",
                 "codes": "keyitem_priority,keyitem_priority_false",
                 "inherit_codes": false
             },
             {
-                "name": "Key Item Locations Priority - ON",
+                "name": "Key Items Locations Priority - ON",
                 "img": "/images/settings/prioritize_true.png",
                 "codes": "keyitem_priority,keyitem_priority_true",
                 "inherit_codes": false
@@ -363,19 +363,19 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Show All Season Item Locations",
+                "name": "Show All Season Items Locations",
                 "img": "/images/settings/show_seasons.png",
                 "codes": "show_spring,show_winter",
                 "inherit_codes": false
             },
             {
-                "name": "Hide Winter Item Locations",
+                "name": "Hide Winter Items Locations",
                 "img": "/images/settings/show_nowinter.png",
                 "codes": "show_spring",
                 "inherit_codes": false
             },
             {
-                "name": "Hide All Season Item Locations",
+                "name": "Hide All Season Items Locations",
                 "img": "/images/settings/show_noseasons.png",
                 "codes": "show_noseason",
                 "inherit_codes": false
