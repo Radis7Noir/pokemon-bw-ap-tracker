@@ -13,6 +13,7 @@
 * Encounters Tracking
   * You can decide whether to show all Pokémon and track them automatically or to only show encounters which are Dexsanity checks
 * Evolution Logic Display
+* Pokésearch
 
 ## Locations Without Logic
 The following locations will show in logic as soon as you can physically access them.
