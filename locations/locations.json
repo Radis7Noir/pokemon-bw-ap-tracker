@@ -503,7 +503,7 @@
                         "chest_unopened_img": "images/locations/lenora_lightstone.png",
                         "chest_opened_img": "images/locations/lenora_lightstone_grayscale.png",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Access,explorerkit"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_items"
@@ -514,7 +514,7 @@
                         "chest_unopened_img": "images/locations/lenora_darkstone.png",
                         "chest_opened_img": "images/locations/lenora_darkstone_grayscale.png",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Access,explorerkit"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_items"
