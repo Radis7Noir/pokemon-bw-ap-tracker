@@ -16,7 +16,7 @@
 * Pokésearch
 
 ## Locations Without Logic
-The following locations will show in logic as soon as you can physically access them.
+The following locations will show in logic as soon as you can physically access them. Use Universal Tracker if you need to see when they really are in logic.
 
 ```
     - "Castelia City - Item from scientist in building in northern street"
