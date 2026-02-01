@@ -335,7 +335,7 @@ function onLocation(location_id, location_name)
         if object then
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
-            elseif obj.Type == "progressive" then
+            elseif object.Type == "progressive" then
                 object.CurrentStage = object.CurrentStage + 1
             else
                 object.Active = true
@@ -357,7 +357,6 @@ function onNotify(key, value, old_value)
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
-            print(value)
             updateHints(value)
         end
     end
@@ -374,7 +373,6 @@ function onNotifyLaunch(key, value)
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
-            print(dump_table(value))
             updateHints(value)
         end
     end
