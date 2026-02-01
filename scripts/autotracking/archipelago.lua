@@ -336,9 +336,9 @@ function onLocation(location_id, location_name)
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
             elseif obj.Type == "progressive" then
-                obj.CurrentStage = obj.CurrentStage + 1
+                object.CurrentStage = object.CurrentStage + 1
             else
-                obj.Active = true
+                object.Active = true
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find object for code %s", code))
@@ -357,6 +357,7 @@ function onNotify(key, value, old_value)
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
+            print(value)
             updateHints(value)
         end
     end
@@ -373,6 +374,7 @@ function onNotifyLaunch(key, value)
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
+            print(dump_table(value))
             updateHints(value)
         end
     end
