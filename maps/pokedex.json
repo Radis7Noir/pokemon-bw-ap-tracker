@@ -1,8 +1,8 @@
 [
     {
         "name": "kantodex",
-        "location_size": 16,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/kantodex.png"
     },
     {
@@ -13,7 +13,7 @@
     },
     {
         "name": "hoenndex",
-        "location_size": 16,
+        "location_size": 20,
         "location_border_thickness": 2,
         "img": "images/maps/hoenndex.png"
     },
@@ -25,8 +25,8 @@
     },
     {
         "name": "unovadex",
-        "location_size": 16,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/unovadex.png"
     }
 ]
