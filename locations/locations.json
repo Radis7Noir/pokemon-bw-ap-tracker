@@ -602,7 +602,7 @@
                         "chest_unopened_img": "images/events/142_fossil.png",
                         "chest_opened_img": "images/events/142_fossil_grayscale.png",
                         "access_rules": [
-                            "domefossil"
+                            "oldamber"
                         ],
                         "visibility_rules": [
                             "show_mons"
