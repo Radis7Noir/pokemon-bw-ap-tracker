@@ -1229,6 +1229,14 @@
                     {
                         "name": "Item from man for seeing more than 50 pokémon",
                         "ref": "Unova Locations/Driftveil City/Item from man for seeing more than 50 pokémon"
+                    },
+                    {
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
+                    },
+                    {
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
                     }
 			    ],
                 "map_locations": [
@@ -1320,26 +1328,6 @@
                         "map": "driftveilcity",
                         "x": 840,
                         "y": 264
-                    }
-                ]
-            },
-            {
-                "name": "Driftveil City​​​​",
-                "sections": [
-                    {
-                        "name": "Youngster requesting a Minccino (Trade)",
-                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
-                    },
-                    {
-                        "name": "Youngster requesting a Minccino (Trade)",
-                        "ref": "Unova Locations/Driftveil City/Youngster requesting a Minccino (Trade)"
-                    }
-			    ],
-                "map_locations": [
-                    {
-                        "map": "driftveilcity",
-                        "x": 440,
-                        "y": 720
                     }
                 ]
             },
