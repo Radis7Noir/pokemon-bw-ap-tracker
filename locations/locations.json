@@ -2690,7 +2690,7 @@
                         ]
                     },
                     {
-                        "name": "South - South east or west hidden item",
+                        "name": "South - South east hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -2700,6 +2700,17 @@
                             "show_items"
                         ]
                     },
+					{
+    					"name": "Pond - West hidden item",
+    					"chest_unopened_img": "images/locations/hidden.png",
+    					"chest_opened_img": "images/locations/hidden_open.png",
+    					"access_rules": [
+        					"@Route 3 South Access,^$hidden, hm03surf"
+    					],
+    					"visibility_rules": [
+        					"show_items"
+    					]
+					},
                     {
                         "name": "Pond - Item across water",
                         "access_rules": [
@@ -13502,3 +13513,5 @@
     }
 
 ]
+
+
