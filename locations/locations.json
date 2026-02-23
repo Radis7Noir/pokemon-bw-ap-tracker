@@ -2590,17 +2590,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Route 3 North Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "North - North item",
                         "access_rules": [
                             "@Route 3 North Access"
@@ -2613,6 +2602,17 @@
                         "name": "North - North west item",
                         "access_rules": [
                             "@Route 3 North Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "North - Hidden item in sandbox",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Route 3 North Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6267,6 +6267,17 @@
                         ]
                     },
                     {
+                        "name": "Ruins - Hidden item behind traffic cone",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Dreamyard Basement Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Ruins - South hidden item in barrel",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -6341,17 +6352,6 @@
                     },
                     {
                         "name": "Basement - West hidden item",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Dreamyard Basement Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [

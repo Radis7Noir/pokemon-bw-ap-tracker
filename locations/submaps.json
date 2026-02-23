@@ -311,6 +311,10 @@
                         "ref": "Unova Locations/Dreamyard/Ruins - South west item"
                     },
                     {
+                        "name": "Ruins - Hidden item behind traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Hidden item behind traffic cone"
+                    },
+                    {
                         "name": "Ruins - South hidden item in barrel",
                         "ref": "Unova Locations/Dreamyard/Ruins - South hidden item in barrel"
                     },
@@ -341,10 +345,6 @@
                     {
                         "name": "Basement - West hidden item",
                         "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
-                    },
-                    {
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
-                        "ref": "Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
                     },
                     {
                         "name": "Ruins - Land Encounters",
@@ -2755,8 +2755,8 @@
                 "name": "Route 3 North",
                 "sections": [
                     {
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
-                        "ref": "Unova Locations/Route 3/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                        "name": "Hidden item in sandbox",
+                        "ref": "Unova Locations/Route 3/North - Hidden item in sandbox"
                     }
                 ],
                 "map_locations": [
@@ -2891,7 +2891,7 @@
                 "name": "Route 3 South​​​",
                 "sections": [
                     {
-                        "name": "South east or west hidden item",
+                        "name": "South east hidden item",
                         "ref": "Unova Locations/Route 3/South - South east hidden item"
                     }
                 ],
@@ -2907,7 +2907,7 @@
                 "name": "Route 3 Pond",
                 "sections": [
                     {
-                        "name": "South east or west hidden item",
+                        "name": "West hidden item",
                         "ref": "Unova Locations/Route 3/Pond - West hidden item"
                     }
                 ],
@@ -7062,8 +7062,8 @@
                 "name": "Dreamyard Ruins​​​​​​​​​",
                 "sections": [
                     {
-                        "name": "Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone",
-                        "ref": "Unova Locations/Dreamyard/Route 3 or Dreamyard - Hidden item in sandbox or behind traffic cone"
+                        "name": "Hidden item behind traffic cone",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Hidden item behind traffic cone"
                     }
 			    ],
                 "map_locations": [
