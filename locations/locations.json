@@ -29,7 +29,7 @@
             {
                 "name": "Roamer",
                 "access_rules": [
-                    "@Opelucid City Access, @Route 7 Access"
+                    "@Opelucid City Access, @Route 7 Access, [@N's Castle Access]"
                 ],
                 "sections": [
                     {
@@ -1630,7 +1630,7 @@
                         "chest_unopened_img": "images/locations/gentleman_cleansetag.png",
                         "chest_opened_img": "images/locations/gentleman_cleansetag_grayscale.png",
                         "access_rules": [
-                            ""
+                            "[@N's Castle Access]"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4027,13 +4027,13 @@
             {
                 "name": "Route 8",
                 "access_rules": [
-                    "@Route 8 Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Center item",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4042,7 +4042,7 @@
                     {
                         "name": "East item",
                         "access_rules": [
-                            "@Moor of Icirrus Access"
+                            "@Route 8 North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4051,7 +4051,7 @@
                     {
                         "name": "Item near northern lake",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4060,7 +4060,7 @@
                     {
                         "name": "North west item",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4071,7 +4071,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Route 8 Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4082,9 +4082,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|spring",
-                            "^$hidden,^$season|summer",
-                            "^$hidden,^$season|autumn"
+                            "@Route 8 Access,^$hidden,^$season|spring",
+                            "@Route 8 Access,^$hidden,^$season|summer",
+                            "@Route 8 Access,^$hidden,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -4095,7 +4095,7 @@
                         "chest_unopened_img": "images/locations/parasollady_damprock.png",
                         "chest_opened_img": "images/locations/parasollady_damprock_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4106,7 +4106,7 @@
                         "chest_unopened_img": "images/locations/rangeress_pechaberry.png",
                         "chest_opened_img": "images/locations/rangeress_pechaberry_grayscale.png",
                         "access_rules": [
-                            "@Moor of Icirrus Access"
+                            "@Route 8 North Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -4117,7 +4117,7 @@
                         "chest_unopened_img": "images/locations/ranger_pechaberry.png",
                         "chest_opened_img": "images/locations/ranger_pechaberry_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -4128,7 +4128,7 @@
                         "chest_unopened_img": "images/locations/bianca_fullrestore.png",
                         "chest_opened_img": "images/locations/bianca_fullrestore_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4139,7 +4139,7 @@
                         "chest_unopened_img": "images/locations/parasollady_tm.png",
                         "chest_opened_img": "images/locations/parasollady_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 8 Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4152,7 +4152,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "@Route 8 Access,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4165,7 +4165,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|spring"
+                            "@Route 8 Access,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4178,7 +4178,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|spring"
+                            "@Route 8 Access,triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4191,7 +4191,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|spring"
+                            "@Route 8 Access,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4204,7 +4204,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|spring"
+                            "@Route 8 Access,triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4217,7 +4217,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "@Route 8 Access,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4230,7 +4230,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "@Route 8 Access,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4243,7 +4243,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|summer"
+                            "@Route 8 Access,triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4256,7 +4256,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|summer"
+                            "@Route 8 Access,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4269,7 +4269,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|summer"
+                            "@Route 8 Access,triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4282,7 +4282,7 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "@Route 8 Access,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4295,7 +4295,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|autumn"
+                            "@Route 8 Access,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4308,7 +4308,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|autumn"
+                            "@Route 8 Access,triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4321,7 +4321,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|autumn"
+                            "@Route 8 Access,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4334,7 +4334,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|autumn"
+                            "@Route 8 Access,triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4347,7 +4347,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|winter"
+                            "@Route 8 Access,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4360,7 +4360,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|winter"
+                            "@Route 8 Access,triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4373,7 +4373,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|winter"
+                            "@Route 8 Access,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4386,7 +4386,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|winter"
+                            "@Route 8 Access,triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
