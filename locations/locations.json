@@ -29,7 +29,7 @@
             {
                 "name": "Roamer",
                 "access_rules": [
-                    "@Opelucid City Access"
+                    "@Opelucid City Access, @Route 7 Access"
                 ],
                 "sections": [
                     {
