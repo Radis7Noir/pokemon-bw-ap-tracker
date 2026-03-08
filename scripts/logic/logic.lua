@@ -28,3 +28,27 @@ end
 function scout()
   return AccessibilityLevel.Inspect
 end
+
+function badges_req(count)
+    return (badges() >= tonumber(count))
+end
+
+function badges_soft_req(count)
+    if (badges() >= tonumber(count)) then
+        return AccessibilityLevel.Normal
+	else
+	    return AccessibilityLevel.SequenceBreak
+	end
+end
+
+function badges()
+    return
+    Tracker:ProviderCountForCode("triobadge") +
+    Tracker:ProviderCountForCode("basicbadge") +
+    Tracker:ProviderCountForCode("insectbadge") +
+    Tracker:ProviderCountForCode("boltbadge") +
+    Tracker:ProviderCountForCode("quakebadge") +
+    Tracker:ProviderCountForCode("jetbadge") +
+    Tracker:ProviderCountForCode("freezebadge") +
+    Tracker:ProviderCountForCode("legendbadge")
+end

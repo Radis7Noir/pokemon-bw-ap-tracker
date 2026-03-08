@@ -320,12 +320,19 @@
     ]
   },
   {
+    "name": "Route 8 North Access",
+    "access_rules": [
+	  "@Route 8 Access,^$season|spring",
+	  "@Route 8 Access,^$season|summer",
+	  "@Route 8 Access,^$season|autumn",
+	  "@Route 8 Access,hm03surf",
+      "@Moor of Icirrus Access"
+    ]
+  },
+  {
     "name": "Moor of Icirrus Access",
     "access_rules": [
-      "@Route 8 Access,$season|spring",
-      "@Route 8 Access,$season|summer",
-      "@Route 8 Access,$season|autumn",
-      "@Route 8 Access,$season|winter,hm03surf"
+      "@Route 8 North Access"
     ]
   },
   {
