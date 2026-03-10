@@ -120,10 +120,16 @@ function searchMon()
         local locations = POKEMON_TO_LOCATIONS[dexID]
         
         if not locations then
-            print("The Pokemon with the ID "..dexID.." cannot be caught in the wild!")
-            Tracker:FindObjectForCode("go").CurrentStage = 0
-            Tracker:FindObjectForCode("no_wild_encounters_found").Active = true
-            return
+            if dexID == 0 then
+                updatePokemon()
+                Tracker:FindObjectForCode("go").CurrentStage = 0
+                return
+            else
+                print("The Pokemon with the ID "..dexID.." cannot be caught in the wild!")
+                Tracker:FindObjectForCode("go").CurrentStage = 0
+                Tracker:FindObjectForCode("no_wild_encounters_found").Active = true
+                return
+            end
         end
     
         for _, location in ipairs(locations) do
