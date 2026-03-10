@@ -1240,7 +1240,7 @@
                         "chest_opened_img": "images/locations/oldman_shellbell_grayscale.png",
                         "access_rules": [
                             "{}",
-                            "seen_pokemon:50"
+                            "seen_pokemon:51"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
