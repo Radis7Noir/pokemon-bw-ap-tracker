@@ -88,7 +88,8 @@
                         "chest_unopened_img": "images/locations/profjuniper_tm.png",
                         "chest_opened_img": "images/locations/profjuniper_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "{}",
+                            "seen_pokemon:25"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
@@ -99,7 +100,8 @@
                         "chest_unopened_img": "images/locations/profjuniper_tm.png",
                         "chest_opened_img": "images/locations/profjuniper_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "{}",
+                            "seen_pokemon:60"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
@@ -110,7 +112,8 @@
                         "chest_unopened_img": "images/locations/profjuniper_tm.png",
                         "chest_opened_img": "images/locations/profjuniper_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "{}",
+                            "seen_pokemon:115"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
@@ -3383,7 +3386,8 @@
                         "chest_unopened_img": "images/locations/scientist_leafstone.png",
                         "chest_opened_img": "images/locations/scientist_leafstone_grayscale.png",
                         "access_rules": [
-                            ""
+                            "{}",
+                            "caught_585"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"

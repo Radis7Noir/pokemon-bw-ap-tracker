@@ -3228,5 +3228,13 @@
                 "img": "/images/pokemon/0.png"
             }
         ]
+    },
+    {
+        "name": "Seen Pokemon",
+        "codes": "seen_pokemon",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "initial_quantity": 0
     }
 ]

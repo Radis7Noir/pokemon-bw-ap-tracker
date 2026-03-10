@@ -400,6 +400,7 @@ end
 
 function updateSeen(value)
     SEEN = value
+    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
     updatePokemon()
 end
 
