@@ -427,11 +427,6 @@ function updatePokemon()
         baseCounts[region_key] = #REGION_ENCOUNTERS[region_key]
         pendingDecrements[region_key] = 0
     end
-        
-    for region_key, location in pairs(ENCOUNTER_MAPPING) do
-        local object = Tracker:FindObjectForCode(location)
-        object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
-    end
     
     for dex_number, locations in pairs(POKEMON_TO_LOCATIONS) do
         local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number).Active
