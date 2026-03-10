@@ -3389,7 +3389,7 @@
                         "chest_opened_img": "images/locations/scientist_leafstone_grayscale.png",
                         "access_rules": [
                             "{}",
-                            "caught_585"
+                            "caught_585, ^$season|spring, ^$season|summer, ^$season|autumn, ^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
