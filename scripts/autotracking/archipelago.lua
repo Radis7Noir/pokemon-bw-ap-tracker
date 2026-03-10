@@ -416,6 +416,16 @@ function updatePokemon()
         return
     end
     
+    local regionObjects = {}
+    local baseCounts = {}
+    local pendingDecrements = {}
+    
+    for region_key, location in pairs(ENCOUNTER_MAPPING) do
+        regionObjects[region_key] = Tracker:FindObjectForCode(location)
+        baseCounts[region_key] = #REGION_ENCOUNTERS[region_key]
+        pendingDecrements[region_key] = 0
+    end
+        
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         local object = Tracker:FindObjectForCode(location)
         object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
@@ -443,11 +453,14 @@ function updatePokemon()
                 if object_name ~= nil then
                     local object = Tracker:FindObjectForCode(object_name)
                     if object then
-                        object.AvailableChestCount = object.AvailableChestCount - 1
+                        pendingDecrements[location] = pendingDecrements[location] + 1
                     end
                 end
             end
         end
+    end
+    for region_key, object in pairs(regionObjects) do
+        object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
     end
 end
 
