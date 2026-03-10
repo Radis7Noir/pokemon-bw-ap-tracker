@@ -48,9 +48,7 @@ function onClear(slot_data)
 
     -- reset dexsanity items
     for i = 1, 649 do
-        Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = false
         Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
-        Tracker:FindObjectForCode("caught_" .. i).Active = false
     end
 
     REGION_ENCOUNTERS = slot_data.encounter_by_method
@@ -200,8 +198,14 @@ function onClear(slot_data)
     
     for k, v in pairs(slot_data) do
         if k == "dexsanity_pokemon" then
+            local active = {}
+    
             for _, pokeID in ipairs(v) do
-                Tracker:FindObjectForCode("dexsanity_visibility_" .. pokeID).Active = true
+                active[pokeID] = true
+            end
+    
+            for i = 1, 649 do
+                Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = active[i] or false
             end
         end
     end
@@ -230,8 +234,6 @@ function onClear(slot_data)
         Archipelago:SetNotify({HINT_ID})
         Archipelago:Get({HINT_ID})
     end
-  
-    updatePokemon()
 end
 
 function resetItem(code, type)
