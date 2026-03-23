@@ -25,10 +25,6 @@ function season(season)
     end
 end
 
-function scout()
-  return AccessibilityLevel.Inspect
-end
-
 function badges_req(count)
     return (badges() >= tonumber(count))
 end
