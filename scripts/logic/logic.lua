@@ -53,21 +53,22 @@ function badges()
     Tracker:ProviderCountForCode("legendbadge")
 end
 
-function deerling()
-    local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
-	if has("caught_585") and has("season_control_randomized") and has("encounters_randomized") then
-	    return nimbasa and has("spring") and has("summer") and has("autumn") and has("winter")
-	elseif has("caught_585") and has("season_control_randomized") and has("encounters_vanilla") then
-	    return nimbasa and has("spring") and has("summer") and has("autumn") and has("winter")
-	elseif has("caught_585") and has("season_control_changeable") and has("encounters_randomized") then
-	    return nimbasa
-	elseif has("caught_585") and has("season_control_changeable") and has("encounters_vanilla") then
-	    return nimbasa
-	elseif has("caught_585") and has("season_control_vanilla") and has("encounters_randomized") then
-	    return AccessibilityLevel.Inspect
-	elseif has("season_control_vanilla") and has("encounters_vanilla") then
-	    return AccessibilityLevel.SequenceBreak
-	else
-	    return AccessibilityLevel.Inspect
-	end
-end
+--function deerling()
+--    if not has("caught_585") then
+--        return AccessibilityLevel.Inspect
+--    end
+--
+--    local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
+--	
+--	if has("season_control_randomized") then
+--	    return nimbasa and has("spring") and has("summer") and has("autumn") and has("winter")
+--	elseif has("season_control_changeable") then
+--	    return nimbasa
+--	elseif has("season_control_vanilla") and has("encounters_randomized") then
+--	    return AccessibilityLevel.Inspect
+--	elseif has("season_control_vanilla") and has("encounters_vanilla") then
+--	    return AccessibilityLevel.SequenceBreak
+--	else
+--	    return AccessibilityLevel.Inspect
+--	end
+--end

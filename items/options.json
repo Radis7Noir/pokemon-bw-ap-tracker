@@ -253,7 +253,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Radomize Encounters - ON",
+                "name": "Randomize Encounters - ON",
                 "codes": "encounters,encounters_randomized",
                 "inherit_codes": false
             }

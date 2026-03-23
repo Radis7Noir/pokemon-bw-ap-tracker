@@ -3388,7 +3388,7 @@
                         "chest_unopened_img": "images/locations/scientist_leafstone.png",
                         "chest_opened_img": "images/locations/scientist_leafstone_grayscale.png",
                         "access_rules": [
-                            "^$deerling"
+                            "{}"
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"

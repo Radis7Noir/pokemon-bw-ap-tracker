@@ -185,8 +185,8 @@ function onClear(slot_data)
                 adjustlevels.CurrentStage = 0
             end
         elseif k == "randomize_wild_pokemon" then
+            if table_contains(v, "randomize") then
             local encounters = Tracker:FindObjectForCode("encounters")
-            if v == "randomize" then
                 encounters.CurrentStage = 1
             else
                 encounters.CurrentStage = 0
