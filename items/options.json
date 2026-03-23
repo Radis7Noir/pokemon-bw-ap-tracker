@@ -241,6 +241,25 @@
         ]
     },
     {
+        "name": "Randomize Encounters",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Randomize Encounters - OFF",
+                "codes": "encounters,encounters_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Radomize Encounters - ON",
+                "codes": "encounters,encounters_randomized",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Abyssal Ruins Visibility",
         "type": "progressive",
         "loop": true,

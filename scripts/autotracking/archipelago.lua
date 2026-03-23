@@ -184,6 +184,13 @@ function onClear(slot_data)
             else
                 adjustlevels.CurrentStage = 0
             end
+        elseif k == "randomize_wild_pokemon" then
+            local encounters = Tracker:FindObjectForCode("encounters")
+            if v == "randomize" then
+                encounters.CurrentStage = 1
+            else
+                encounters.CurrentStage = 0
+            end
         elseif k == "version" then
             local game_version = Tracker:FindObjectForCode("game_version")
             if v == "white" then
