@@ -360,9 +360,12 @@ function onNotify(key, value, old_value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == POKE_CAUGHT_ID then
-            updateCaught(value)
+            CAUGHT = value
+            updatePokemon()
         elseif key == POKE_SEEN_ID then
-            updateSeen(value)
+            SEEN = value
+            Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
+            updatePokemon()
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
@@ -376,9 +379,12 @@ function onNotifyLaunch(key, value)
         if key == EVENT_ID then
             updateEvents(value)
         elseif key == POKE_CAUGHT_ID then
-            updateCaught(value)
+            CAUGHT = value
+            updatePokemon()
         elseif key == POKE_SEEN_ID then
-            updateSeen(value)
+            SEEN = value
+            Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
+            updatePokemon()
         elseif key == MAP_ID then
             updateMap(value)
         elseif key == HINT_ID then
@@ -398,17 +404,6 @@ function updateEvents(value)
             Tracker:FindObjectForCode("catchzekrom").Active = true
         end
     end
-end
-
-function updateCaught(value)
-    CAUGHT = value
-    updatePokemon()
-end
-
-function updateSeen(value)
-    SEEN = value
-    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
-    updatePokemon()
 end
 
 function updatePokemon()
