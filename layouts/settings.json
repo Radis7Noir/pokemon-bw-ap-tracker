@@ -24,7 +24,15 @@
                 },
 			    {
                     "type": "group",
-                    "header": "Locations Visibility",
+                    "header": "Dexsanity Logic",
+                    "content": {
+                        "type": "layout",
+                        "key": "dexsanity_grid"
+                    }
+                },
+			    {
+                    "type": "group",
+                    "header": "Location Visibility",
                     "content": {
                         "type": "layout",
                         "key": "hide_grid"
@@ -63,6 +71,21 @@
 				"require_dowsingmchn",
 				"require_flash",
 				"adjustlevels"
+            ]
+        ]
+    },
+    "dexsanity_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "consider_evolutions",
+				"consider_statics",
+				"consider_trades",
             ]
         ]
     },

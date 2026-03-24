@@ -95,6 +95,7 @@
             {
                 "name": "Season Control - Vanilla",
                 "img": "/images/settings/seasons_vanilla.png",
+                "img_mods": "@disabled",
                 "codes": "season_control,season_control_vanilla",
                 "inherit_codes": false
             },
@@ -249,13 +250,15 @@
         "stages": [
             {
                 "name": "Evolving Pokémon is NOT in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_evolutions.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
                 "codes": "consider_evolutions,consider_evolution_false",
                 "inherit_codes": false
             },
             {
                 "name": "Evolving Pokémon IS in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_evolutions.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_evolutions,consider_evolution_true",
                 "inherit_codes": false
             }
@@ -270,13 +273,15 @@
         "stages": [
             {
                 "name": "Catching statics is NOT in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
                 "codes": "consider_statics,consider_statics_false",
                 "inherit_codes": false
             },
             {
                 "name": "Catching statics IS in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_statics,consider_statics_true",
                 "inherit_codes": false
             }
@@ -291,13 +296,15 @@
         "stages": [
             {
                 "name": "Trading with NPCs is NOT in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
                 "codes": "consider_trades,consider_trades_false",
                 "inherit_codes": false
             },
             {
                 "name": "Trading with NPCs IS in logic",
-                "img": "/images/settings/palex00.png",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_trades,consider_trades_true",
                 "inherit_codes": false
             }
@@ -363,6 +370,7 @@
             {
                 "name": "Auto-Tab Map - OFF",
                 "img": "/images/settings/autoswitch_off.png",
+                "img_mods": "@disabled",
                 "codes": "automap, automap_off",
                 "inherit_codes": false
             }
@@ -378,6 +386,7 @@
             {
                 "name": "Split Map - OFF",
                 "img": "/images/settings/map_single.png",
+                "img_mods": "@disabled",
                 "codes": "splitmap, splitmap_off",
                 "inherit_codes": false
             },
@@ -456,6 +465,7 @@
             {
                 "name": "Encounter Locations - OFF",
                 "img": "/images/settings/show_encounters_off.png",
+                "img_mods": "@disabled",
                 "codes": "show_items",
                 "inherit_codes": false
             },
