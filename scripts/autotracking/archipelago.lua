@@ -194,6 +194,8 @@ function onClear(slot_data)
             end
         elseif k == "dexsanity" then
             Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
+        elseif k == "all_pokemon_seen" then
+            Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
     end
     
@@ -438,7 +440,13 @@ function updatePokemon()
         local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number).Active
         
         local is_caught = table_contains(CAUGHT, dex_number)
-        local is_seen = table_contains(SEEN, dex_number)
+        local is_seen = false
+        
+        if has("all_pokemon_seen") then
+            is_seen = true
+        else
+            is_seen = table_contains(SEEN, dex_number)
+        end
         
         local should_decrement = false
         if is_caught then

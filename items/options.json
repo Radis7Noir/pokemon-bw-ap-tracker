@@ -3327,5 +3327,10 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "All Pokemon Seen (Hidden Option)",
+        "type": "toggle",
+        "codes": "all_pokemon_seen"
     }
 ]
