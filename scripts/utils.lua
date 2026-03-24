@@ -8,20 +8,32 @@ function has(item, amount)
     end
 end
 
+
 function dump_table(o, depth)
     if depth == nil then
         depth = 0
     end
+
+    local ignore_keys = {
+        encounter_by_method = true,
+        dexsanity_pokemon = true,
+        ut_compatibility = true,
+        trade_data = true,
+        seed = true,
+    }
+
     if type(o) == 'table' then
         local tabs = ('\t'):rep(depth)
         local tabs2 = ('\t'):rep(depth + 1)
         local s = '{\n'
         for k, v in pairs(o) do
-            local kc = k
-            if type(k) ~= 'number' then
-                kc = '"' .. k .. '"'
+            local key_str = tostring(k)
+            if not ignore_keys[key_str] then
+                if type(k) ~= 'number' then
+                    k = '"' .. k .. '"'
+                end
+                s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
             end
-            s = s .. tabs2 .. '[' .. kc .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
         end
         return s .. tabs .. '}'
     else
