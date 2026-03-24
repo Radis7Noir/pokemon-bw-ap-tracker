@@ -27,12 +27,9 @@ The following locations will turn blue as soon as you can physically access them
 ```
 
 ## Deerling Forms Logic
-Due to PopTracker limitations, the logic for `"Route 6 - Item from scientist for all Deerling forms"` will not follow the apworld. Instead, the location will turn blue as soon as you can physically access Route 6.
-* With `season_control` set to `vanilla`, the location will turn yellow once you have caught any form of Deerling.
-* With `season_control` set to `changeable`, the location will turn green once you have caught any form of Deerling.
-* With `season_control` set to `randomized`, the location will turn green once you have caught any form of Deerling and have access to all seasons.
+Due to PopTracker limitations, the logic for `"Route 6 - Item from scientist for all Deerling forms"` will not follow the apworld. Instead, the location will remain blue at all times.
 
-Use Universal Tracker and Pokésearch to find out if the location is currently accessible.
+Use Universal Tracker to find out if the location is currently accessible and use Pokésearch or the in-game Pokédex to check Deerling's locations.
 
 ## Pokésearch
 While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking on the Enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Adjust the Encounter Tracking and Locations options in the Tools grid to cancel a search.
