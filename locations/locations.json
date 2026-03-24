@@ -3399,7 +3399,7 @@
                         "chest_unopened_img": "images/events/foongus.png",
                         "chest_opened_img": "images/events/foongus_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4631,7 +4631,7 @@
                         "chest_unopened_img": "images/events/foongus.png",
                         "chest_opened_img": "images/events/foongus_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4642,7 +4642,7 @@
                         "chest_unopened_img": "images/events/amoonguss.png",
                         "chest_opened_img": "images/events/amoonguss_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
