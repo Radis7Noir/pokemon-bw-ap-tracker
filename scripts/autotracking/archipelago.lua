@@ -26,6 +26,7 @@ HIGHLIGHT_PRIORITY =  {
     [0] = 5
 }
 
+REGION_ENCOUNTERS = {}
 CUR_INDEX = -1
 PLAYER_ID = -1
 TEAM_NUMBER = 0
@@ -420,7 +421,8 @@ end
 
 function updatePokemon()
     Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
-
+    CAUGHT = CAUGHT or {}
+    SEEN = SEEN or {}
     for i = 1, 649 do
         if table_contains(CAUGHT, i) then
             Tracker:FindObjectForCode("caught_"..i).Active = true
@@ -549,12 +551,24 @@ end
 
 CLEARED_HINTS = {}
 function updateHints()
+    print("Yes")
     if not Highlight then return end
+    print("Also Yes")
     if has("hint_tracking_off") then return end
 
     CLEARED_HINTS = {}
 
     local tracking_plus = has("hint_tracking_on_plus")
+    
+    if has("keyitem_priority_true") then
+        for _, location in ipairs(PRIORITY_LOCATIONS) do
+            Tracker:FindObjectForCode(location).Highlight = 3
+        end
+    else
+        for _, location in ipairs(PRIORITY_LOCATIONS) do
+            Tracker:FindObjectForCode(location).Highlight = 0
+        end
+    end
 
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
