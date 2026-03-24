@@ -241,20 +241,64 @@
         ]
     },
     {
-        "name": "Randomize Encounters",
+        "name": "Consider Evolutions",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Randomize Encounters - OFF",
-                "codes": "encounters,encounters_vanilla",
+                "name": "Evolving Pokémon is NOT in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_evolutions,consider_evolution_false",
                 "inherit_codes": false
             },
             {
-                "name": "Randomize Encounters - ON",
-                "codes": "encounters,encounters_randomized",
+                "name": "Evolving Pokémon IS in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_evolutions,consider_evolution_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consider Statics",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Catching statics is NOT in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_statics,consider_statics_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Catching statics IS in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_statics,consider_statics_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consider Trades",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Trading with NPCs is NOT in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_trades,consider_trades_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trading with NPCs IS in logic",
+                "img": "/images/settings/palex00.png",
+                "codes": "consider_trades,consider_trades_true",
                 "inherit_codes": false
             }
         ]
@@ -348,7 +392,7 @@
                 "img": "/images/settings/map_reverse.png",
                 "codes": "splitmap, splitmap_reverse",
                 "inherit_codes": false
-            },
+            }
         ]
     },
     {
@@ -398,7 +442,7 @@
                 "img": "/images/settings/show_noseasons.png",
                 "codes": "show_noseason",
                 "inherit_codes": false
-            },
+            }
         ]
     },
     {
