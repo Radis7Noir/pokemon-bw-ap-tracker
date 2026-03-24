@@ -37,7 +37,7 @@
                         "chest_unopened_img": "images/events/tornadus.png",
                         "chest_opened_img": "images/events/tornadus_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons"
@@ -48,7 +48,7 @@
                         "chest_unopened_img": "images/events/thundurus.png",
                         "chest_opened_img": "images/events/thundurus_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons"
@@ -6176,7 +6176,7 @@
                         "chest_unopened_img": "images/events/victini.png",
                         "chest_opened_img": "images/events/victini_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6412,7 +6412,7 @@
                         "chest_unopened_img": "images/events/musharna.png",
                         "chest_opened_img": "images/events/musharna_grayscale.png",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard Basement Access, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7183,7 +7183,7 @@
                         "chest_unopened_img": "images/events/virizion.png",
                         "chest_opened_img": "images/events/virizion_grayscale.png",
                         "access_rules": [
-                            "@Rumination Field Access"
+                            "@Rumination Field Access, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7399,7 +7399,7 @@
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/zendarmanitan_grayscale.png",
                         "access_rules": [
-                            "ragecandybar"
+                            "ragecandybar, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7838,7 +7838,7 @@
                         "chest_unopened_img": "images/events/volcarona.png",
                         "chest_opened_img": "images/events/volcarona_grayscale.png",
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "explorerkit, defeatghetsis, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8774,7 +8774,7 @@
                         "chest_unopened_img": "images/events/goalcobalion.png",
                         "chest_opened_img": "images/events/goalcobalion_grayscale.png",
                         "access_rules": [
-                            "hm04strength"
+                            "hm04strength, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11639,7 +11639,7 @@
                         "chest_unopened_img": "images/events/terrakion.png",
                         "chest_opened_img": "images/events/terrakion_grayscale.png",
                         "access_rules": [
-                            "@Trial Chamber Access"
+                            "@Trial Chamber Access, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11738,7 +11738,7 @@
                         "chest_unopened_img": "images/events/reshiram.png",
                         "chest_opened_img": "images/events/reshiram_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons"
@@ -11749,7 +11749,7 @@
                         "chest_unopened_img": "images/events/zekrom.png",
                         "chest_opened_img": "images/events/zekrom_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons"
@@ -12288,7 +12288,7 @@
                         "chest_unopened_img": "images/events/kyurem.png",
                         "chest_opened_img": "images/events/kyurem_grayscale.png",
                         "access_rules": [
-                            ""
+                            "^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13177,7 +13177,7 @@
                         "chest_unopened_img": "images/events/landorus.png",
                         "chest_opened_img": "images/events/landorus_grayscale.png",
                         "access_rules": [
-                            "caught_641,caught_642,defeatghetsis"
+                            "caught_641,caught_642,defeatghetsis,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13406,9 +13406,9 @@
                         "chest_unopened_img": "images/events/zoroark.png",
                         "chest_opened_img": "images/events/zoroark_grayscale.png",
                         "access_rules": [
-                            "caught_243",
-                            "caught_244",
-                            "caught_245"
+                            "caught_243,^$static_encounter",
+                            "caught_244,^$static_encounter",
+                            "caught_245,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
