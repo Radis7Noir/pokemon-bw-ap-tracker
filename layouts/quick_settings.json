@@ -26,6 +26,9 @@
                             ],
                             [
 								"encounter_tracking"
+                            ],
+                            [
+                                "hint_tracking"
                             ]
                         ]
                     }
@@ -53,7 +56,8 @@
                                 "auto_switch",
 								"split",
 								"location_visibility",
-								"encounter_tracking"
+								"encounter_tracking",
+                                "hint_tracking"
                             ]
                         ]
                     }
