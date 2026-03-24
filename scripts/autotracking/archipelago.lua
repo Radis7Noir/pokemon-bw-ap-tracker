@@ -168,12 +168,14 @@ function onClear(slot_data)
             local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
 			local keyitem_priority = Tracker:FindObjectForCode("keyitem_priority")
             local consider_evolutions = Tracker:FindObjectForCode("consider_evolutions")
-            local consider_static_pokemon = Tracker:FindObjectForCode("consider_static_pokemon")
+            local consider_statics = Tracker:FindObjectForCode("consider_statics")
+            local consider_trades = Tracker:FindObjectForCode("consider_trades")
 
             require_flash.CurrentStage = table_contains(v, "require flash") and 1 or 0
             require_dowsingmchn.CurrentStage = table_contains(v, "require dowsing machine") and 1 or 0
             keyitem_priority.CurrentStage = table_contains(v, "prioritize key item locations") and 1 or 0
-            consider_static_pokemon.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
+            consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
+            consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
         elseif k == "adjust_levels" then
             local adjustlevels = Tracker:FindObjectForCode("adjustlevels")
             if table_contains(v, "wild") and table_contains(v, "trainer") then
