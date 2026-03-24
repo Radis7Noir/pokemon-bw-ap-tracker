@@ -1,4 +1,8 @@
 function levelup(value)
+    if has("consider_evolution_false") then
+        return AccessibilityLevel.SequenceBreak
+    end
+
     local in_vanilla_east = 0
     if not has("adjustlevels_wilds") then
         in_vanilla_east = Tracker:FindObjectForCode("@Route 15 Access").AccessibilityLevel
@@ -56,46 +60,89 @@ end
 
 function evolve_item(value)
     value = tonumber(value)
-    if value == 80 or value == 81 then
-        return Tracker:FindObjectForCode("@Twist Mountain Access").AccessibilityLevel
-    elseif value == 82 or value == 84 or value == 85 then
-        return Tracker:FindObjectForCode("@Castelia City Access").AccessibilityLevel
-    elseif value == 83 or value == 233 then
-        return Tracker:FindObjectForCode("@Chargestone Cave Access").AccessibilityLevel
-    elseif value == 107 or value == 108 or value == 109 then
-        return Tracker:FindObjectForCode("@Route 10 Access").AccessibilityLevel
-    elseif value == 110 or value == 221 or value == 235 or value == 321 or value == 325 then
-        return Tracker:FindObjectForCode("@Route 9 Access").AccessibilityLevel
-    elseif value == 226 or value == 227 or value == 252 or value == 322 or value == 323 or value == 324 or value == 325 or value == 537 then
-        return Tracker:FindObjectForCode("@Undella Town Access").AccessibilityLevel
-    elseif value == 326 or value == 327 then
-        return Tracker:FindObjectForCode("@Giant Chasm Access").AccessibilityLevel
+    if has("consider_evolution_true") then
+        if value == 80 or value == 81 then
+            return Tracker:FindObjectForCode("@Twist Mountain Access").AccessibilityLevel
+        elseif value == 82 or value == 84 or value == 85 then
+            return Tracker:FindObjectForCode("@Castelia City Access").AccessibilityLevel
+        elseif value == 83 or value == 233 then
+            return Tracker:FindObjectForCode("@Chargestone Cave Access").AccessibilityLevel
+        elseif value == 107 or value == 108 or value == 109 then
+            return Tracker:FindObjectForCode("@Route 10 Access").AccessibilityLevel
+        elseif value == 110 or value == 221 or value == 235 or value == 321 or value == 325 then
+            return Tracker:FindObjectForCode("@Route 9 Access").AccessibilityLevel
+        elseif value == 226 or value == 227 or value == 252 or value == 322 or value == 323 or value == 324 or value == 325 or value == 537 then
+            return Tracker:FindObjectForCode("@Undella Town Access").AccessibilityLevel
+        elseif value == 326 or value == 327 then
+            return Tracker:FindObjectForCode("@Giant Chasm Access").AccessibilityLevel
+        else
+            print("The value "..value.." is not expected for evolve_item. Please contact palex00")
+        end
     else
-        print("The value "..value.." is not expected for evolve_item. Please contact palex00")
+        if value == 80 or value == 81 then
+            if Tracker:FindObjectForCode("@Twist Mountain Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 82 or value == 84 or value == 85 then
+            if Tracker:FindObjectForCode("@Castelia City Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 83 or value == 233 then
+            if Tracker:FindObjectForCode("@Chargestone Cave Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 107 or value == 108 or value == 109 then
+            if Tracker:FindObjectForCode("@Route 10 Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 110 or value == 221 or value == 235 or value == 321 or value == 325 then
+            if Tracker:FindObjectForCode("@Route 9 Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 226 or value == 227 or value == 252 or value == 322 or value == 323 or value == 324 or value == 325 or value == 537 then
+            if Tracker:FindObjectForCode("@Undella Town Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        elseif value == 326 or value == 327 then
+            if Tracker:FindObjectForCode("@Giant Chasm Access").AccessibilityLevel >= 5 then
+                return AccessibilityLevel.SequenceBreak
+            end
+        else
+            print("The value "..value.." is not expected for evolve_item. Please contact palex00")
+        end
     end
-    
     -- See here: https://github.com/SparkyDaDoggo/Archipelago/blob/main/worlds/pokemon_bw/data/pokemon/evolution_methods.py
 end
 
 function evolve_friendship(value)
     local friendship_appraiser = Tracker:FindObjectForCode("@Nacrene City Access").AccessibilityLevel
-	if friendship_appraiser then
-        return friendship_appraiser
-	else
-	    return AccessibilityLevel.SequenceBreak
+
+    if has("consider_evolution_false") then
+        return AccessibilityLevel.SequenceBreak
+    else
+        return math.max(friendship_appraiser, AccessibilityLevel.SequenceBreak)
     end
 end
 
 function evolve_area(area)
-    return Tracker:FindObjectForCode("@"..area.." Access").AccessibilityLevel
+    local access = Tracker:FindObjectForCode("@"..area.." Access").AccessibilityLevel
+    if has("consider_evolution_false") then
+        if access >= 5 then
+            return AccessibilityLevel.SequenceBreak
+        else
+            return AccessibilityLevel.None
+        end
+    else
+        return access
+    end
 end
 
 function evolve_move()
     local move_relearner = Tracker:FindObjectForCode("@Mistralton City Access").AccessibilityLevel
-	if move_relearner then
-        return move_relearner
-	else
-	    return AccessibilityLevel.SequenceBreak
+    if has("consider_evolution_false") then
+        return AccessibilityLevel.SequenceBreak
+    else
+        return math.max(move_relearner, AccessibilityLevel.SequenceBreak)
     end
 end
 
@@ -145,4 +192,12 @@ function searchMon()
     end
     
     Tracker:FindObjectForCode("go").CurrentStage = 0
+end
+
+function static_encounter()
+    if has("consider_statics_true") then
+        return AccessibilityLevel.None
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
 end

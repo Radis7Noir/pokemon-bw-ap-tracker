@@ -26,6 +26,7 @@ HIGHLIGHT_PRIORITY =  {
     [0] = 5
 }
 
+REGION_ENCOUNTERS = {}
 CUR_INDEX = -1
 PLAYER_ID = -1
 TEAM_NUMBER = 0
@@ -35,7 +36,7 @@ GLOBAL_ITEMS = {}
 HINT_ID = {}
 
 function onClear(slot_data)
-    --print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+    print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     LOCAL_ITEMS = {}
@@ -119,8 +120,6 @@ function onClear(slot_data)
         end
     end
     
-    print(dump_table(POKEMON_TO_LOCATIONS))
-    
     -- This sets each Encounter location to however many unique encounters there are in it
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         local object = Tracker:FindObjectForCode(location)
@@ -168,23 +167,13 @@ function onClear(slot_data)
             local require_flash = Tracker:FindObjectForCode("require_flash")
             local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
 			local keyitem_priority = Tracker:FindObjectForCode("keyitem_priority")
-            if table_contains(v, "require flash") then
-                require_flash.CurrentStage = 1
-            else
-                require_flash.CurrentStage = 0
-            end
-            
-            if table_contains(v, "require dowsing machine") then
-                require_dowsingmchn.CurrentStage = 1
-            else
-                require_dowsingmchn.CurrentStage = 0
-            end
-			
-			if table_contains(v, "prioritize key item locations") then
-                keyitem_priority.CurrentStage = 1
-            else
-                keyitem_priority.CurrentStage = 0
-            end
+            local consider_evolutions = Tracker:FindObjectForCode("consider_evolutions")
+            local consider_static_pokemon = Tracker:FindObjectForCode("consider_static_pokemon")
+
+            require_flash.CurrentStage = table_contains(v, "require flash") and 1 or 0
+            require_dowsingmchn.CurrentStage = table_contains(v, "require dowsing machine") and 1 or 0
+            keyitem_priority.CurrentStage = table_contains(v, "prioritize key item locations") and 1 or 0
+            consider_static_pokemon.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
         elseif k == "adjust_levels" then
             local adjustlevels = Tracker:FindObjectForCode("adjustlevels")
             if table_contains(v, "wild") and table_contains(v, "trainer") then
@@ -420,7 +409,8 @@ end
 
 function updatePokemon()
     Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
-
+    CAUGHT = CAUGHT or {}
+    SEEN = SEEN or {}
     for i = 1, 649 do
         if table_contains(CAUGHT, i) then
             Tracker:FindObjectForCode("caught_"..i).Active = true
@@ -555,6 +545,16 @@ function updateHints()
     CLEARED_HINTS = {}
 
     local tracking_plus = has("hint_tracking_on_plus")
+    
+    if has("keyitem_priority_true") then
+        for _, location in ipairs(PRIORITY_LOCATIONS) do
+            Tracker:FindObjectForCode(location).Highlight = 3
+        end
+    else
+        for _, location in ipairs(PRIORITY_LOCATIONS) do
+            Tracker:FindObjectForCode(location).Highlight = 0
+        end
+    end
 
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
