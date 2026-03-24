@@ -252,14 +252,14 @@
                 "name": "Evolving Pokémon is NOT in logic",
                 "img": "/images/settings/consider_evolutions.png",
                 "img_mods": "overlay|images/settings/overlays/ool.png",
-                "codes": "consider_evolutions,consider_evolution_false",
+                "codes": "consider_evolutions,consider_evolutions_false",
                 "inherit_codes": false
             },
             {
                 "name": "Evolving Pokémon IS in logic",
                 "img": "/images/settings/consider_evolutions.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
-                "codes": "consider_evolutions,consider_evolution_true",
+                "codes": "consider_evolutions,consider_evolutions_true",
                 "inherit_codes": false
             }
         ]

@@ -1,5 +1,5 @@
 function levelup(value)
-    if has("consider_evolution_false") then
+    if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
     end
 
@@ -60,7 +60,7 @@ end
 
 function evolve_item(value)
     value = tonumber(value)
-    if has("consider_evolution_true") then
+    if has("consider_evolutions_true") then
         if value == 80 or value == 81 then
             return Tracker:FindObjectForCode("@Twist Mountain Access").AccessibilityLevel
         elseif value == 82 or value == 84 or value == 85 then
@@ -117,7 +117,7 @@ end
 function evolve_friendship(value)
     local friendship_appraiser = Tracker:FindObjectForCode("@Nacrene City Access").AccessibilityLevel
 
-    if has("consider_evolution_false") then
+    if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
     else
         return math.max(friendship_appraiser, AccessibilityLevel.SequenceBreak)
@@ -126,7 +126,7 @@ end
 
 function evolve_area(area)
     local access = Tracker:FindObjectForCode("@"..area.." Access").AccessibilityLevel
-    if has("consider_evolution_false") then
+    if has("consider_evolutions_false") then
         if access >= 5 then
             return AccessibilityLevel.SequenceBreak
         else
@@ -139,7 +139,7 @@ end
 
 function evolve_move()
     local move_relearner = Tracker:FindObjectForCode("@Mistralton City Access").AccessibilityLevel
-    if has("consider_evolution_false") then
+    if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
     else
         return math.max(move_relearner, AccessibilityLevel.SequenceBreak)
@@ -196,7 +196,7 @@ end
 
 function static_encounter()
     if has("consider_statics_true") then
-        return AccessibilityLevel.None
+        return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
     end
