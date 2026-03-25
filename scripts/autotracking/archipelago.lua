@@ -345,8 +345,8 @@ function onLocation(location_id, location_name)
         if object then
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
-            local current_total = CLEARED_LOCATIONS[v] or 0
-            CLEARED_LOCATIONS[v] = current_total + 1
+            local current_total = CLEARED_LOCATIONS[value] or 0
+            CLEARED_LOCATIONS[value] = current_total + 1
             elseif object.Type == "progressive" then
                 object.CurrentStage = object.CurrentStage + 1
             else
