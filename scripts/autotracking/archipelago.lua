@@ -545,6 +545,13 @@ function resetHints()
             obj.Highlight = 0
         end
     end
+    
+    for _, location in pairs(PRIORITY_LOCATIONS) do
+        if location and location:sub(1, 1) == "@" then
+            local obj = Tracker:FindObjectForCode(location)
+            obj.Highlight = 0
+        end
+    end
 end
 
 CLEARED_HINTS = {}
@@ -558,7 +565,12 @@ function updateHints()
     
     if has("keyitem_priority_true") then
         for _, location in ipairs(PRIORITY_LOCATIONS) do
-            Tracker:FindObjectForCode(location).Highlight = 3
+            loc = Tracker:FindObjectForCode(location)
+            if loc.AvailableChestCount == 0 then
+                loc.Highlight = 0
+            else
+                loc.Highlight = 3
+            end
         end
     else
         for _, location in ipairs(PRIORITY_LOCATIONS) do
