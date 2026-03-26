@@ -174,6 +174,7 @@ function onClear(slot_data)
             require_flash.CurrentStage = table_contains(v, "require flash") and 1 or 0
             require_dowsingmchn.CurrentStage = table_contains(v, "require dowsing machine") and 1 or 0
             keyitem_priority.CurrentStage = table_contains(v, "prioritize key item locations") and 1 or 0
+            consider_evolutions.CurrentStage = table_contains(v, "consider evolutions") and 1 or 0
             consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
             consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
         elseif k == "adjust_levels" then
