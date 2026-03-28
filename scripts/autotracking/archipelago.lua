@@ -365,7 +365,7 @@ function onNotify(key, value, old_value)
         elseif key == IDs.SEEN then
             SEEN = value
             updatePokemon()
-        elseif key == IDs.MAP then
+        elseif key == IDs.MAP and old_value ~= nil then
             updateMap(value)
         elseif key == IDs.HINT then
             SAVED_HINTS = value
