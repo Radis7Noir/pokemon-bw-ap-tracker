@@ -165,14 +165,12 @@ function onClear(slot_data)
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
             local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
-			local keyitem_priority = Tracker:FindObjectForCode("keyitem_priority")
             local consider_evolutions = Tracker:FindObjectForCode("consider_evolutions")
             local consider_statics = Tracker:FindObjectForCode("consider_statics")
             local consider_trades = Tracker:FindObjectForCode("consider_trades")
 
             require_flash.CurrentStage = table_contains(v, "require flash") and 1 or 0
             require_dowsingmchn.CurrentStage = table_contains(v, "require dowsing machine") and 1 or 0
-            keyitem_priority.CurrentStage = table_contains(v, "prioritize key item locations") and 1 or 0
             consider_evolutions.CurrentStage = table_contains(v, "consider evolutions") and 1 or 0
             consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
             consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
@@ -524,13 +522,6 @@ function resetHints()
             obj.Highlight = 0
         end
     end
-    
-    for _, location in pairs(PRIORITY_LOCATIONS) do
-        if location and location:sub(1, 1) == "@" then
-            local obj = Tracker:FindObjectForCode(location)
-            obj.Highlight = 0
-        end
-    end
 end
 
 CLEARED_HINTS = {}
@@ -541,22 +532,6 @@ function updateHints()
     CLEARED_HINTS = {}
 
     local tracking_plus = has("hint_tracking_on_plus")
-    
-    if has("keyitem_priority_true") then
-        for _, location in ipairs(PRIORITY_LOCATIONS) do
-            loc = Tracker:FindObjectForCode(location)
-            if loc.AvailableChestCount == 0 then
-                loc.Highlight = 0
-            else
-                loc.Highlight = 3
-            end
-        end
-    else
-	
-        for _, location in ipairs(PRIORITY_LOCATIONS) do
-            Tracker:FindObjectForCode(location).Highlight = 0
-        end
-    end
 
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
