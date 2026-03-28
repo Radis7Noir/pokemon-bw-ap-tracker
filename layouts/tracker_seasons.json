@@ -1,19 +1,19 @@
 ﻿{
     "tracker_default": {
         "type": "container",
-        "background": "#000000",
+        "background": "#171717",
         "content": {
             "type": "dock",
-            "dropshadow": false,
+            "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
                     "dropshadow": false,
                     "dock": "bottom",
-                    "background": "#000000",
                     "content": [
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Items  ",
                             "dock": "left",
                             "margin": "0,0,3,0",
@@ -26,6 +26,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Events ",
                             "dock": "left",
                             "margin": "0,0,3,0",
@@ -38,6 +39,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Seasons",
                             "dock": "left",
                             "margin": "0,0,3,0",
@@ -50,6 +52,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Tools  ",
                             "dock": "left",
                             "margin": "0,0,3,0",
@@ -62,6 +65,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Pokésearch",
                             "dock": "left",
                             "margin": "0,0,3,0",

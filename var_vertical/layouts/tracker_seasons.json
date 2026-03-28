@@ -1,18 +1,20 @@
 ﻿{
     "tracker_default": {
         "type": "container",
-        "background": "#00000000",
+        "background": "#171717",
         "content": {
             "type": "dock",
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
+                    "dropshadow": false,
                     "dock": "left",
                     "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Items",
                             "dock": "top",
                             "content": {
@@ -22,6 +24,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Events",
                             "dock": "top",
                             "content": {
@@ -31,6 +34,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Seasons",
                             "dock": "top",
                             "content": {
@@ -40,6 +44,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Tools",
                             "dock": "top",
                             "content": {
@@ -49,6 +54,7 @@
                         },
                         {
                             "type": "group",
+                            "background": "#171717",
                             "header": "Pokésearch",
                             "dock": "top",
                             "content": {
