@@ -271,8 +271,8 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 8,
-                        "y": 8,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
                         "shape": "diamond"
@@ -1354,8 +1354,8 @@
                 "map_locations": [
                     {
                         "map": "driftveilcity",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -1363,7 +1363,7 @@
                 ]
             },
             {
-                "name": "Driftveil Drawbridge",
+                "name": "Driftveil Drawbridge Encounters",
                 "sections": [
                     {
                         "name": "Land Phenomena",
@@ -1373,13 +1373,13 @@
                 "map_locations": [
                     {
                         "map": "driftveilcity",
-                        "x": 1508,
+                        "x": 1504,
                         "y": 776,
 						"shape": "diamond"
                     },
                     {
                         "map": "route5",
-                        "x": 12,
+                        "x": 16,
                         "y": 262,
 						"shape": "diamond"
                     }
@@ -1949,8 +1949,8 @@
                 "map_locations": [
                     {
                         "map": "icirruscity",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -2453,8 +2453,8 @@
                 "map_locations": [
                     {
                         "map": "undellatown",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -2624,8 +2624,8 @@
                 "map_locations": [
                     {
                         "map": "route1",
-                        "x": 24,
-                        "y": 536,
+                        "x": 32,
+                        "y": 544,
 						"size": 42,
 						"border_thickness": 6,
 						"shape": "diamond"
@@ -2743,8 +2743,8 @@
                 "map_locations": [
                     {
                         "map": "route2",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
 						"border_thickness": 4,
 						"shape": "diamond"
@@ -3018,8 +3018,8 @@
                 "map_locations": [
                     {
                         "map": "route3",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -3535,8 +3535,8 @@
                 "map_locations": [
                     {
                         "map": "route5",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -3886,8 +3886,8 @@
                 "map_locations": [
                     {
                         "map": "route6",
-                        "x": 16,
-                        "y": 16,
+                        "x": 26,
+                        "y": 26,
                         "size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -4181,8 +4181,8 @@
                 "map_locations": [
                     {
                         "map": "route7",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
                         "size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -4496,8 +4496,8 @@
                 "map_locations": [
                     {
                         "map": "route8",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -4755,8 +4755,8 @@
                 "map_locations": [
                     {
                         "map": "route9",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -5086,8 +5086,8 @@
                 "map_locations": [
                     {
                         "map": "route10",
-                        "x": 12,
-                        "y": 12,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -5510,8 +5510,8 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -5681,8 +5681,8 @@
                 "map_locations": [
                     {
                         "map": "route12",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -6032,10 +6032,10 @@
                 "map_locations": [
                     {
                         "map": "route13",
-                        "x": 16,
-                        "y": 536,
-						"size": 42,
-                        "border_thickness": 6,
+                        "x": 38,
+                        "y": 554,
+						"size": 50,
+                        "border_thickness": 8,
 						"shape": "diamond"
                     }
                 ]
@@ -6143,8 +6143,8 @@
                 "map_locations": [
                     {
                         "map": "route14",
-                        "x": 500,
-                        "y": 20,
+                        "x": 506,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -6366,8 +6366,8 @@
                 "map_locations": [
                     {
                         "map": "route15",
-                        "x": 12,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -6441,8 +6441,8 @@
                 "map_locations": [
                     {
                         "map": "route16",
-                        "x": 12,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -6624,8 +6624,8 @@
                 "map_locations": [
                     {
                         "map": "routes_17_18_p2lab",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -6831,8 +6831,8 @@
                 "map_locations": [
                     {
                         "map": "routes_17_18_p2lab",
-                        "x": 60,
-                        "y": 20,
+                        "x": 76,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -6902,8 +6902,8 @@
                 "map_locations": [
                     {
                         "map": "routes_17_18_p2lab",
-                        "x": 100,
-                        "y": 20,
+                        "x": 126,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -7093,8 +7093,8 @@
                 "map_locations": [
                     {
                         "map": "dreamyard",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
                         "size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -7208,8 +7208,8 @@
                 "map_locations": [
                     {
                         "map": "dreamyardbasement",
-                        "x": 88,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -7327,8 +7327,8 @@
                 "map_locations": [
                     {
                         "map": "wellspringcave1f",
-                        "x": 64,
-                        "y": 32,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -7494,8 +7494,8 @@
                 "map_locations": [
                     {
                         "map": "wellspringcaveb1f",
-                        "x": 72,
-                        "y": 124,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -7697,8 +7697,8 @@
                 "map_locations": [
                     {
                         "map": "pinwheelforestoutside",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -8016,8 +8016,8 @@
                 "map_locations": [
                     {
                         "map": "pinwheelforest",
-                        "x": 24,
-                        "y": 24,
+                        "x": 32,
+                        "y": 32,
                         "size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -8395,8 +8395,8 @@
                 "map_locations": [
                     {
                         "map": "desertresort",
-                        "x": 24,
-                        "y": 24,
+                        "x": 32,
+                        "y": 32,
 						"size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -8642,8 +8642,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastle1f",
-                        "x": 20,
-                        "y": 132,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8693,8 +8693,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb1f",
-                        "x": 20,
-                        "y": 102,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8744,8 +8744,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb2f",
-                        "x": 306,
-                        "y": 96,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8795,8 +8795,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb3f",
-                        "x": 210,
-                        "y": 176,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8846,8 +8846,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb4f",
-                        "x": 402,
-                        "y": 256,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8865,8 +8865,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb5f",
-                        "x": 412,
-                        "y": 192,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -8874,7 +8874,7 @@
                 ]
             },
             {
-                "name": "Relic Castle Castleside Back Room",
+                "name": "Relic Castle Castleside Back Room Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -8884,8 +8884,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb7f",
-                        "x": 70,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9350,8 +9350,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastlevolcaronasroom",
-                        "x": 96,
-                        "y": 32,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9359,7 +9359,7 @@
                 ]
             },
             {
-                "name": "Reclic Castle Towerside Front Room Encounters",
+                "name": "Relic Castle Towerside Front Room Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -9369,8 +9369,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb7f",
-                        "x": 410,
-                        "y": 262,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9388,8 +9388,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb6f",
-                        "x": 106,
-                        "y": 54,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9407,8 +9407,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb5f",
-                        "x": 106,
-                        "y": 54,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9426,8 +9426,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb4f",
-                        "x": 106,
-                        "y": 54,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9461,8 +9461,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb3f",
-                        "x": 124,
-                        "y": 52,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9480,8 +9480,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb2f",
-                        "x": 124,
-                        "y": 52,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9499,8 +9499,8 @@
                 "map_locations": [
                     {
                         "map": "reliccastletowerb1f",
-                        "x": 124,
-                        "y": 52,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -9534,7 +9534,7 @@
                 "map_locations": [
                     {
                         "map": "reliccastletower1f",
-                        "x": 60,
+                        "x": 16,
                         "y": 16,
 						"size": 21,
                         "border_thickness": 3,
@@ -9641,8 +9641,8 @@
                 "map_locations": [
                     {
                         "map": "lostlornforest",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -9780,8 +9780,8 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -10086,8 +10086,8 @@
                 "map_locations": [
                     {
                         "map": "mistraltoncave2f",
-                        "x": 48,
-                        "y": 32,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -10424,8 +10424,8 @@
                 "map_locations": [
                     {
                         "map": "chargestonecave1f",
-                        "x": 36,
-                        "y": 136,
+                        "x": 32,
+                        "y": 32,
 						"size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -10531,8 +10531,8 @@
                 "map_locations": [
                     {
                         "map": "chargestonecaveb1f",
-                        "x": 330,
-                        "y": 40,
+                        "x": 32,
+                        "y": 32,
 						"size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -10654,8 +10654,8 @@
                 "map_locations": [
                     {
                         "map": "chargestonecaveb2f",
-                        "x": 72,
-                        "y": 88,
+                        "x": 32,
+                        "y": 32,
 						"size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -10705,8 +10705,8 @@
                 "map_locations": [
                     {
                         "map": "celestialtower2f",
-                        "x": 18,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -10740,8 +10740,8 @@
                 "map_locations": [
                     {
                         "map": "celestialtower3f",
-                        "x": 18,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -10791,8 +10791,8 @@
                 "map_locations": [
                     {
                         "map": "celestialtower4f",
-                        "x": 18,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -10810,8 +10810,8 @@
                 "map_locations": [
                     {
                         "map": "celestialtower5f",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -10953,8 +10953,8 @@
                 "map_locations": [
                     {
                         "map": "twistmountainupperlevel",
-                        "x": 20,
-                        "y": 20,
+                        "x": 512,
+                        "y": 512,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -11208,8 +11208,8 @@
                 "map_locations": [
                     {
                         "map": "twistmountainmiddlelevel",
-                        "x": 64,
-                        "y": 20,
+                        "x": 512,
+                        "y": 488,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -11319,8 +11319,8 @@
                 "map_locations": [
                     {
                         "map": "twistmountainlowerlevel",
-                        "x": 36,
-                        "y": 20,
+                        "x": 512,
+                        "y": 512,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -11382,8 +11382,8 @@
                 "map_locations": [
                     {
                         "map": "twistmountainicerockcave",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
 						"size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -11465,8 +11465,8 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltowerentrance",
-                        "x": 12,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
 						"size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -11676,8 +11676,8 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltoweroutside",
-                        "x": 16,
-                        "y": 16,
+                        "x": 26,
+                        "y": 26,
                         "size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -11695,8 +11695,8 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltower1f",
-                        "x": 64,
-                        "y": 176,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -11746,8 +11746,8 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltower2f",
-                        "x": 138,
-                        "y": 78,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -12109,8 +12109,8 @@
                 "map_locations": [
                     {
                         "map": "mooroficirrus",
-                        "x": 16,
-                        "y": 16,
+                        "x": 20,
+                        "y": 20,
                         "size": 28,
                         "border_thickness": 4,
 						"shape": "diamond"
@@ -12132,8 +12132,8 @@
                 "map_locations": [
                     {
                         "map": "challengerscave1f",
-                        "x": 16,
-                        "y": 16,
+                        "x": 12,
+                        "y": 12,
                         "size": 14,
                         "border_thickness": 2,
 						"shape": "diamond"
@@ -12219,7 +12219,7 @@
                 "map_locations": [
                     {
                         "map": "challengerscaveb1f",
-                        "x": 64,
+                        "x": 16,
                         "y": 16,
                         "size": 21,
                         "border_thickness": 3,
@@ -12418,8 +12418,8 @@
                 "map_locations": [
                     {
                         "map": "challengerscaveb2f",
-                        "x": 312,
-                        "y": 24,
+                        "x": 32,
+                        "y": 32,
                         "size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -12534,7 +12534,7 @@
                     {
                         "map": "victoryroadoutside",
                         "x": 520,
-                        "y": 28,
+                        "y": 36,
                         "size": 49,
                         "border_thickness": 7,
 						"shape": "diamond"
@@ -12737,7 +12737,7 @@
                 "map_locations": [
                     {
                         "map": "victoryroad2f",
-                        "x": 400,
+                        "x": 236,
                         "y": 36,
                         "size": 21,
                         "border_thickness": 3,
@@ -12760,8 +12760,8 @@
                 "map_locations": [
                     {
                         "map": "victoryroad2f",
-                        "x": 674,
-                        "y": 66,
+                        "x": 565,
+                        "y": 65,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13017,8 +13017,8 @@
                 "map_locations": [
                     {
                         "map": "victoryroad5f",
-                        "x": 216,
-                        "y": 38,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13068,8 +13068,8 @@
                 "map_locations": [
                     {
                         "map": "victoryroad6f",
-                        "x": 246,
-                        "y": 38,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13091,8 +13091,8 @@
                 "map_locations": [
                     {
                         "map": "victoryroad7f",
-                        "x": 34,
-                        "y": 32,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13114,8 +13114,8 @@
                 "map_locations": [
                     {
                         "map": "victoryroadtrialchamber",
-                        "x": 36,
-                        "y": 36,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13441,8 +13441,8 @@
                 "map_locations": [
                     {
                         "map": "giantchasmentrance",
-                        "x": 12,
-                        "y": 12,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -13576,8 +13576,8 @@
                 "map_locations": [
                     {
                         "map": "giantchasmcave",
-                        "x": 24,
-                        "y": 24,
+                        "x": 30,
+                        "y": 30,
                         "size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -13775,8 +13775,8 @@
                 "map_locations": [
                     {
                         "map": "giantchasmcrater",
-                        "x": 24,
-                        "y": 24,
+                        "x": 30,
+                        "y": 30,
                         "size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -13834,8 +13834,8 @@
                 "map_locations": [
                     {
                         "map": "giantchasmdepths",
-                        "x": 32,
-                        "y": 20,
+                        "x": 16,
+                        "y": 16,
                         "size": 21,
                         "border_thickness": 3,
 						"shape": "diamond"
@@ -14083,590 +14083,17 @@
                         "map": "undellabay",
                         "x": 296,
                         "y": 392
-                    }
-                ]
-            },
-            {
-                "name": "​​Abyssal Ruins",
-                "sections": [
-                    {
-                        "name": "1F Center - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
                     },
-                    {
-                        "name": "1F Center - North item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
-                    },
-                    {
-                        "name": "1F East - Item near center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
-                    },
-                    {
-                        "name": "1F East - Kinda south item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
-                    },
-                    {
-                        "name": "1F East - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
-                    },
-                    {
-                        "name": "1F East - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
-                    },
-                    {
-                        "name": "1F East - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
-                    },
-                    {
-                        "name": "1F East - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
-                    },
-                    {
-                        "name": "1F North - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
-                    },
-                    {
-                        "name": "1F North - Item east of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
-                    },
-                    {
-                        "name": "1F North - Item north of center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
-                    },
-                    {
-                        "name": "1F North - Item west of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
-                    },
-                    {
-                        "name": "1F North - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
-                    },
-                    {
-                        "name": "1F South - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
-                    },
-                    {
-                        "name": "1F South - Item near entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
-                    },
-                    {
-                        "name": "1F South - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
-                    },
-                    {
-                        "name": "1F South - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
-                    },
-                    {
-                        "name": "1F South - North west item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
-                    },
-                    {
-                        "name": "1F South - North west item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
-                    },
-                    {
-                        "name": "1F South - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
-                    },
-                    {
-                        "name": "1F West - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
-                    },
-                    {
-                        "name": "1F West - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
-                    },
-                    {
-                        "name": "1F West - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
-                    },
-                    {
-                        "name": "1F West - South east item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
-                    },
-                    {
-                        "name": "1F West - South east item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
-                    },
-                    {
-                        "name": "1F West - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
-                    },
-                    {
-                        "name": "2F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
-                    },
-                    {
-                        "name": "2F - Item north east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
-                    },
-                    {
-                        "name": "2F - Item south east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
-                    },
-                    {
-                        "name": "2F - Item west of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
-                    },
-                    {
-                        "name": "2F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
-                    },
-                    {
-                        "name": "2F - Kinda north item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
-                    },
-                    {
-                        "name": "2F - Kinda north west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
-                    },
-                    {
-                        "name": "2F - Kinda south west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
-                    },
-                    {
-                        "name": "2F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
-                    },
-                    {
-                        "name": "2F - South east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
-                    },
-                    {
-                        "name": "2F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
-                    },
-                    {
-                        "name": "3F - Center item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
-                    },
-                    {
-                        "name": "3F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
-                    },
-                    {
-                        "name": "3F - Item south of center",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
-                    },
-                    {
-                        "name": "3F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
-                    },
-                    {
-                        "name": "3F - North east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
-                    },
-                    {
-                        "name": "3F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
-                    },
-                    {
-                        "name": "3F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
-                    },
-                    {
-                        "name": "3F - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
-                    },
-                    {
-                        "name": "4F - Item",
-                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
-                    }
-			    ],
-                "map_locations": [
                     {
                         "map": "undellabay",
                         "x": 776,
                         "y": 392
-                    }
-                ]
-            },
-            {
-                "name": "​​​Abyssal Ruins",
-                "sections": [
-                    {
-                        "name": "1F Center - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
                     },
-                    {
-                        "name": "1F Center - North item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
-                    },
-                    {
-                        "name": "1F East - Item near center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
-                    },
-                    {
-                        "name": "1F East - Kinda south item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
-                    },
-                    {
-                        "name": "1F East - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
-                    },
-                    {
-                        "name": "1F East - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
-                    },
-                    {
-                        "name": "1F East - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
-                    },
-                    {
-                        "name": "1F East - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
-                    },
-                    {
-                        "name": "1F North - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
-                    },
-                    {
-                        "name": "1F North - Item east of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
-                    },
-                    {
-                        "name": "1F North - Item north of center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
-                    },
-                    {
-                        "name": "1F North - Item west of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
-                    },
-                    {
-                        "name": "1F North - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
-                    },
-                    {
-                        "name": "1F South - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
-                    },
-                    {
-                        "name": "1F South - Item near entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
-                    },
-                    {
-                        "name": "1F South - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
-                    },
-                    {
-                        "name": "1F South - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
-                    },
-                    {
-                        "name": "1F South - North west item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
-                    },
-                    {
-                        "name": "1F South - North west item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
-                    },
-                    {
-                        "name": "1F South - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
-                    },
-                    {
-                        "name": "1F West - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
-                    },
-                    {
-                        "name": "1F West - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
-                    },
-                    {
-                        "name": "1F West - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
-                    },
-                    {
-                        "name": "1F West - South east item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
-                    },
-                    {
-                        "name": "1F West - South east item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
-                    },
-                    {
-                        "name": "1F West - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
-                    },
-                    {
-                        "name": "2F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
-                    },
-                    {
-                        "name": "2F - Item north east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
-                    },
-                    {
-                        "name": "2F - Item south east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
-                    },
-                    {
-                        "name": "2F - Item west of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
-                    },
-                    {
-                        "name": "2F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
-                    },
-                    {
-                        "name": "2F - Kinda north item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
-                    },
-                    {
-                        "name": "2F - Kinda north west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
-                    },
-                    {
-                        "name": "2F - Kinda south west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
-                    },
-                    {
-                        "name": "2F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
-                    },
-                    {
-                        "name": "2F - South east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
-                    },
-                    {
-                        "name": "2F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
-                    },
-                    {
-                        "name": "3F - Center item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
-                    },
-                    {
-                        "name": "3F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
-                    },
-                    {
-                        "name": "3F - Item south of center",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
-                    },
-                    {
-                        "name": "3F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
-                    },
-                    {
-                        "name": "3F - North east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
-                    },
-                    {
-                        "name": "3F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
-                    },
-                    {
-                        "name": "3F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
-                    },
-                    {
-                        "name": "3F - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
-                    },
-                    {
-                        "name": "4F - Item",
-                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
-                    }
-			    ],
-                "map_locations": [
                     {
                         "map": "undellabay",
                         "x": 536,
                         "y": 168
-                    }
-                ]
-            },
-            {
-                "name": "​​​​Abyssal Ruins",
-                "sections": [
-                    {
-                        "name": "1F Center - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - East item"
                     },
-                    {
-                        "name": "1F Center - North item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F Center - North item"
-                    },
-                    {
-                        "name": "1F East - Item near center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Item near center"
-                    },
-                    {
-                        "name": "1F East - Kinda south item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - Kinda south item"
-                    },
-                    {
-                        "name": "1F East - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #1"
-                    },
-                    {
-                        "name": "1F East - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - North item #2"
-                    },
-                    {
-                        "name": "1F East - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - South item"
-                    },
-                    {
-                        "name": "1F East - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F East - West item"
-                    },
-                    {
-                        "name": "1F North - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - East item"
-                    },
-                    {
-                        "name": "1F North - Item east of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item east of entrance"
-                    },
-                    {
-                        "name": "1F North - Item north of center",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item north of center"
-                    },
-                    {
-                        "name": "1F North - Item west of entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - Item west of entrance"
-                    },
-                    {
-                        "name": "1F North - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F North - West item"
-                    },
-                    {
-                        "name": "1F South - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - East item"
-                    },
-                    {
-                        "name": "1F South - Item near entrance",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - Item near entrance"
-                    },
-                    {
-                        "name": "1F South - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #1"
-                    },
-                    {
-                        "name": "1F South - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North item #2"
-                    },
-                    {
-                        "name": "1F South - North west item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #1"
-                    },
-                    {
-                        "name": "1F South - North west item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - North west item #2"
-                    },
-                    {
-                        "name": "1F South - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F South - West item"
-                    },
-                    {
-                        "name": "1F West - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - East item"
-                    },
-                    {
-                        "name": "1F West - North item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #1"
-                    },
-                    {
-                        "name": "1F West - North item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - North item #2"
-                    },
-                    {
-                        "name": "1F West - South east item #1",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #1"
-                    },
-                    {
-                        "name": "1F West - South east item #2",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South east item #2"
-                    },
-                    {
-                        "name": "1F West - South item",
-                        "ref": "Unova Locations/Abyssal Ruins/1F West - South item"
-                    },
-                    {
-                        "name": "2F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - East item"
-                    },
-                    {
-                        "name": "2F - Item north east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item north east of center"
-                    },
-                    {
-                        "name": "2F - Item south east of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item south east of center"
-                    },
-                    {
-                        "name": "2F - Item west of center",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Item west of center"
-                    },
-                    {
-                        "name": "2F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north east item"
-                    },
-                    {
-                        "name": "2F - Kinda north item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north item"
-                    },
-                    {
-                        "name": "2F - Kinda north west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda north west item"
-                    },
-                    {
-                        "name": "2F - Kinda south west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - Kinda south west item"
-                    },
-                    {
-                        "name": "2F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - North west item"
-                    },
-                    {
-                        "name": "2F - South east item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South east item"
-                    },
-                    {
-                        "name": "2F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/2F - South west item"
-                    },
-                    {
-                        "name": "3F - Center item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Center item"
-                    },
-                    {
-                        "name": "3F - East item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - East item"
-                    },
-                    {
-                        "name": "3F - Item south of center",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Item south of center"
-                    },
-                    {
-                        "name": "3F - Kinda north east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - Kinda north east item"
-                    },
-                    {
-                        "name": "3F - North east item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North east item"
-                    },
-                    {
-                        "name": "3F - North west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - North west item"
-                    },
-                    {
-                        "name": "3F - South west item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - South west item"
-                    },
-                    {
-                        "name": "3F - West item",
-                        "ref": "Unova Locations/Abyssal Ruins/3F - West item"
-                    },
-                    {
-                        "name": "4F - Item",
-                        "ref": "Unova Locations/Abyssal Ruins/4F - Item"
-                    }
-			    ],
-                "map_locations": [
                     {
                         "map": "undellabay",
                         "x": 536,
@@ -14745,8 +14172,8 @@
                 "map_locations": [
                     {
                         "map": "undellabay",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
                         "size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -15700,8 +15127,8 @@
                 "map_locations": [
                     {
                         "map": "abundantshrine",
-                        "x": 20,
-                        "y": 20,
+                        "x": 26,
+                        "y": 26,
 						"size": 35,
                         "border_thickness": 5,
 						"shape": "diamond"
@@ -15871,8 +15298,8 @@
                 "map_locations": [
                     {
                         "map": "villagebridge",
-                        "x": 24,
-                        "y": 24,
+                        "x": 32,
+                        "y": 32,
 						"size": 42,
                         "border_thickness": 6,
 						"shape": "diamond"
@@ -15946,8 +15373,8 @@
                 "map_locations": [
                     {
                         "map": "marvelousbridge",
-                        "x": 28,
-                        "y": 28,
+                        "x": 36,
+                        "y": 36,
 						"size": 49,
                         "border_thickness": 7,
 						"shape": "diamond"
