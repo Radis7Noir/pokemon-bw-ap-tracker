@@ -5,6 +5,14 @@ ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
+REGION_ENCOUNTERS = {}
+CUR_INDEX = -1
+PLAYER_ID = -1
+TEAM_NUMBER = 0
+SLOT_DATA = nil
+LOCAL_ITEMS = {}
+GLOBAL_ITEMS = {}
+HINT_ID = {}
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -25,15 +33,6 @@ HIGHLIGHT_PRIORITY =  {
     [1] = 4,
     [0] = 5
 }
-
-REGION_ENCOUNTERS = {}
-CUR_INDEX = -1
-PLAYER_ID = -1
-TEAM_NUMBER = 0
-SLOT_DATA = nil
-LOCAL_ITEMS = {}
-GLOBAL_ITEMS = {}
-HINT_ID = {}
 
 function onClear(slot_data)
     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
@@ -74,7 +73,7 @@ function onClear(slot_data)
 		Lileep_Fossil = 345,
 		Anorith_Fossil = 347,
 		Cranidos_Fossil = 408,
-		Sieldon_Fossil = 410,
+		Shieldon_Fossil = 410,
 		Tirtouga_Fossil = 564,
 		Archen_Fossil = 566,
 		Munchlax_Trade = 446,
@@ -215,30 +214,25 @@ function onClear(slot_data)
             end
         end
     end
-    
+
     -- Datastorage Watches
     if PLAYER_ID>-1 then
         updateEvents(0)
-  
-        EVENT_ID = "pokemon_bw_events_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({EVENT_ID})
-        Archipelago:Get({EVENT_ID})
 
-        POKE_CAUGHT_ID="pokemon_bw_caught_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({POKE_CAUGHT_ID})
-        Archipelago:Get({POKE_CAUGHT_ID})
-        
-        POKE_SEEN_ID="pokemon_bw_seen_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({POKE_SEEN_ID})
-        Archipelago:Get({POKE_SEEN_ID})
-		
-		MAP_ID= "pokemon_bw_map_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({MAP_ID})
-        Archipelago:Get({MAP_ID})
-		
-        HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        Archipelago:SetNotify({HINT_ID})
-        Archipelago:Get({HINT_ID})
+        local suffix = TEAM_NUMBER .. "_" .. PLAYER_ID
+        local function makeID(s) return "pokemon_bw_" .. s .. suffix end
+
+        IDs = {
+            EVENT      = makeID("events_"),
+            CAUGHT     = makeID("caught_"),
+            SEEN       = makeID("seen_"),
+            MAP      = makeID("map_"),
+            HINT       = "_read_hints_" .. suffix,
+        }
+        for _, id in pairs(IDs) do
+            Archipelago:SetNotify({id})
+            Archipelago:Get({id})
+        end
     end
 end
 
@@ -360,41 +354,25 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
-    if value ~= nil and value ~= 0 then
-        if key == EVENT_ID then
-            updateEvents(value)
-        elseif key == POKE_CAUGHT_ID then
-            CAUGHT = value
-            updatePokemon()
-        elseif key == POKE_SEEN_ID then
-            SEEN = value
-            Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
-            updatePokemon()
-        elseif key == MAP_ID then
-            updateMap(value)
-        elseif key == HINT_ID then
-            SAVED_HINTS = value
-            toggleHints()
-        end
+    if IDs == nil then
+        return
     end
-end
 
-function onNotifyLaunch(key, value)
     if value ~= nil and value ~= 0 then
-        if key == EVENT_ID then
+        if key == IDs.EVENT then
             updateEvents(value)
-        elseif key == POKE_CAUGHT_ID then
+        elseif key == IDs.CAUGHT then
             CAUGHT = value
             updatePokemon()
-        elseif key == POKE_SEEN_ID then
+        elseif key == IDs.SEEN then
             SEEN = value
-            Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #value
             updatePokemon()
-        elseif key == MAP_ID then
+        elseif key == IDs.MAP then
             updateMap(value)
-        elseif key == HINT_ID then
+        elseif key == IDs.HINT then
             SAVED_HINTS = value
-            toggleHints()
+            updateHints()
+            updatePokemon()
         end
     end
 end
@@ -463,7 +441,7 @@ function updatePokemon()
         if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
             local padded_dex_number = 600000 + dex_number
                 
-            for _, hint in pairs(SAVED_HINTS) do
+            for _, hint in ipairs(SAVED_HINTS or {}) do
                 if hint.finding_player == PLAYER_ID then
                     if padded_dex_number == hint.location then
                         if hint.item_flags ~= 1 and hint.item_flags ~= 3 and hint.item_flags ~= 5 then
@@ -521,7 +499,7 @@ end
 
 function resetHints()
     CLEARED_HINTS = {}
-    for _, hint in ipairs(SAVED_HINTS) do
+    for _, hint in ipairs(SAVED_HINTS or {}) do
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
             local locations = (type(mapped) == "table") and mapped or { mapped }
@@ -574,6 +552,7 @@ function updateHints()
             end
         end
     else
+	
         for _, location in ipairs(PRIORITY_LOCATIONS) do
             Tracker:FindObjectForCode(location).Highlight = 0
         end
@@ -664,4 +643,4 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
-Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotify)

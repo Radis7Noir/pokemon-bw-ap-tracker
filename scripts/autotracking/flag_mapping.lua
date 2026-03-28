@@ -20,21 +20,3 @@ FLAG_EVENT_CODES = {
     "defeatbrycen",
     "helpdaycareman"
 }
-
-PRIORITY_LOCATIONS = {
-  "@Unova Locations/Striaton City/Gym - Badge reward",
-  "@Unova Locations/Nacrene City/Gym - Badge reward",
-  "@Unova Locations/Castelia City/Gym - Badge reward",
-  "@Unova Locations/Nimbasa City/Gym - Badge reward",
-  "@Unova Locations/Driftveil City/Gym - Badge reward",
-  "@Unova Locations/Mistralton City/Gym - Badge reward",
-  "@Unova Locations/Icirrus City/Gym - Badge reward",
-  "@Unova Locations/Opelucid City/Gym - Badge reward",
-  "@Unova Locations/Opelucid City/Gym - Badge reward​",
-  "@Unova Locations/Nuvema Town/Item from Looker after beating Ghetsis",
-  "@Unova Locations/Nacrene City/Item from Lenora after Relic Castle",
-  "@Unova Locations/Nacrene City/Item from Lenora after Relic Castle",
-  "@Unova Locations/Pinwheel Forest/Inside - Stolen item from Plasma grunt",
-  "@Unova Locations/Route 13/Item from old man",
-  "@Unova Locations/Route 13/Item from parasol lady",
-}
