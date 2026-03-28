@@ -533,6 +533,23 @@ function updateHints()
 
     local tracking_plus = has("hint_tracking_on_plus")
 
+    ---- We are leaving this here for now to test this later on: https://discord.com/channels/937157230963339364/1487592945703063562
+    --if has("keyitem_priority_true") then
+    --    for _, location in ipairs(PRIORITY_LOCATIONS) do
+    --        loc = Tracker:FindObjectForCode(location)
+    --        if loc.AvailableChestCount == 0 then
+    --            loc.Highlight = 0
+    --        else
+    --            loc.Highlight = 3
+    --        end
+    --    end
+    --else
+	--
+    --    for _, location in ipairs(PRIORITY_LOCATIONS) do
+    --        Tracker:FindObjectForCode(location).Highlight = 0
+    --    end
+    --end
+    
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
