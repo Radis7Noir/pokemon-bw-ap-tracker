@@ -132,12 +132,6 @@
                 "inherit_codes": false
             },
             {
-                "name": "Shuffle Badges - Any Badge",
-                "img": "/images/settings/badge_anybadge.png",
-                "codes": "shuffle_badges,shuffle_badges_any_badge",
-                "inherit_codes": false
-            },
-            {
                 "name": "Shuffle Badges - Anything",
                 "img": "/images/settings/badge_anything.png",
                 "codes": "shuffle_badges,shuffle_badges_anything",

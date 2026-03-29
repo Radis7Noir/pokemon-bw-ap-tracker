@@ -157,10 +157,8 @@ function onClear(slot_data)
                 item.CurrentStage = 0
             elseif v == "shuffle" then
                 item.CurrentStage = 1
-            elseif v == "any_badge" then
-                item.CurrentStage = 2
             elseif v == "anything" then
-                item.CurrentStage = 3
+                item.CurrentStage = 2
             end
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
