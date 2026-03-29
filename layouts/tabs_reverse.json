@@ -11,7 +11,7 @@
                             "type": "tabbed",
                             "tabs": [
                                 {
-                                    "title": "Overworld",
+                                    "title": "Unova",
                                     "content": {
                                         "type": "map",
                                         "maps": [
