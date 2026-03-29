@@ -16,7 +16,7 @@
 * Pokésearch
 
 ## Split Mode
-This tool allows you to either display one singular map at a time or the overworld map and a submap at the same time. Click on he `SPLT` icon to change the tracker the following modes:
+This tool allows you to either display one singular map at a time or the overworld map and a submap at the same time. Click on the `SPLT` icon to change the tracker to the following modes:
 - `Split Map - OFF`: The tracker only displays one tab.
 - `Split Map - ON`: The tracker displays the submaps on the left and the Overworld/Pokédex tabs on the right.
 - `Split Map - Reverse`: The tracker displays the Overworld/Pokédex tabs on the left and the submaps on the right.
