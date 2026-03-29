@@ -15,21 +15,20 @@
 * Evolution Logic Display
 * Pokésearch
 
-## Seen Species Logic
-The following locations will turn blue as soon as you can physically access them. They will turn green once you have seen enough species to complete them. The tracker cannot know exactly when there are enough species in the world to be seen. Use Universal Tracker to find out if the locations are currently accessible.
+## Split Mode
+This tool allows you to either display one singular map at a time or the otherworld map and a submap at the same time. Click on he `SPLT` icon to change the tracker the following modes:
+- `Split Map - OFF`: The tracker only displays one tab.
+- `Split Map - ON`: The tracker displays the submaps on the left and the Overworld/Pokédex tabs on the right.
+- `Split Map - Reverse`: The tracker displays the Overworld/Pokédex tabs on the left and the submaps on the right.
 
-```
-    - "Castelia City - Item from scientist in building in northern street"
-    - "Driftveil City - Item from man for seeing more than 50 pokémon"
-    - "Nuvema Town - TM from Professor Juniper for seeing 115 species"
-    - "Nuvema Town - TM from Professor Juniper for seeing 25 species"
-    - "Nuvema Town - TM from Professor Juniper for seeing 60 species"
-```
+## Auto-Tabbing
+When enabled, the tracker will change the displayed map to match the state of the game. With `Split Map - ON` and `Split Map - Reverse`, only the submap tab will be switched. Click on the `AUTO` icon located in the Tools grid to turn on/off auto-tabbing. 
 
-## Deerling Forms Logic
-Due to PopTracker limitations, the logic for `"Route 6 - Item from scientist for all Deerling forms"` will not follow the apworld. Instead, the location will remain blue at all times.
-
-Use Universal Tracker to find out if the location is currently accessible and use Pokésearch or the in-game Pokédex to check Deerling's locations.
+## Hint Tracking
+This pack features a hint tracking system with three different modes: `ON`, `Advanced` and `OFF`. You can change the mode in the Tools grid by clicking on the `HINT` icon.
+- `ON`: Hinted locations will appear on the overwold map and the submaps with a colored glow that corresponds to the priority of the items they hold.
+- `Advanced`: Hinted progression locations will appear on the overworld map and the submaps with a golden glow. Other hinted items will be marked as cleared.
+- `OFF`: Turns off the hint tracking feature.
 
 ## Pokésearch
 While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking on the Enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Adjust the Encounter Tracking and Locations options in the Tools grid to cancel a search.
@@ -43,8 +42,22 @@ Some useful IDs:
 - `243, 244, 245` (Raikou, Entei, Suicune)
 - `132` (Ditto)
 - `641, 642` (Tornadus, Thundurus)
+
+## Seen Species Logic
+The following locations will turn blue as soon as you can physically access them. They will turn green once you have seen enough species to complete them. The tracker cannot know exactly when there are enough species in the world to be seen. Use Universal Tracker to find out if the locations are currently accessible.
+
+```
+    - "Castelia City - Item from scientist in building in northern street"
+    - "Driftveil City - Item from man for seeing more than 50 pokémon"
+    - "Nuvema Town - TM from Professor Juniper for seeing 115 species"
+    - "Nuvema Town - TM from Professor Juniper for seeing 25 species"
+    - "Nuvema Town - TM from Professor Juniper for seeing 60 species"
+```
+
+## Deerling Forms Logic
+Due to PopTracker limitations, the logic for `Route 6 - Item from scientist for all Deerling forms` can't exactly reflect the apworld's. In PopTracker, the location will turn blue when it becomes physically reachable and remain blue until it is cleared. Use Universal Tracker to find out if the location is currently accessible and use Pokésearch or the in-game Pokédex to check Deerling's locations.
  
-## Locations Visibility Lists
+## Location Visibility Lists
 You can manually show or hide the following groups of locations by clicking on their corresponding icon in the settings pop-up. You should only consider hiding a location if you excluded it in your YAML.
 
 - Show/Hide Abyssal Ruins Locations (46 locations)
