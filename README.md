@@ -26,7 +26,7 @@ When enabled, the tracker will change the displayed map to match the state of th
 
 ## Hint Tracking
 This pack features a hint tracking system with three different modes: `ON`, `Advanced` and `OFF`. You can change the mode in the Tools grid by clicking on the `HINT` icon.
-- `ON`: Hinted locations will appear on the overwold map and the submaps with a colored glow that corresponds to the priority of the items they hold.
+- `ON`: Hinted locations will appear on the overworld map and the submaps with a colored glow that corresponds to the priority of the items they hold.
 - `Advanced`: Hinted progression locations will appear on the overworld map and the submaps with a golden glow. Other hinted items will be marked as cleared.
 - `OFF`: Turns off the hint tracking feature.
 
