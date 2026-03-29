@@ -240,29 +240,8 @@
                         ]
                     },
                     {
-                        "name": "Trainers' School - Item from Cheren #1",
-                        "chest_unopened_img": "images/locations/cheren_oranberry.png",
-                        "chest_opened_img": "images/locations/cheren_oranberry_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Trainers' School - Item from Cheren #2",
-                        "chest_unopened_img": "images/locations/cheren_oranberry.png",
-                        "chest_opened_img": "images/locations/cheren_oranberry_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Trainers' School - Item from Cheren #3",
+                        "name": "Trainers' School - Items from Cheren",
+                        "item_count": 3,
                         "chest_unopened_img": "images/locations/cheren_oranberry.png",
                         "chest_opened_img": "images/locations/cheren_oranberry_grayscale.png",
                         "access_rules": [
@@ -439,29 +418,8 @@
                         ]
                     },
                     {
-                        "name": "Item from Cheren #1",
-                        "chest_unopened_img": "images/locations/cheren_chestoberry.png",
-                        "chest_opened_img": "images/locations/cheren_chestoberry_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Cheren #2",
-                        "chest_unopened_img": "images/locations/cheren_chestoberry.png",
-                        "chest_opened_img": "images/locations/cheren_chestoberry_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Cheren #3",
+                        "name": "Items from Cheren",
+                        "item_count": 3,
                         "chest_unopened_img": "images/locations/cheren_chestoberry.png",
                         "chest_opened_img": "images/locations/cheren_chestoberry_grayscale.png",
                         "access_rules": [
@@ -717,64 +675,10 @@
                         ]
                     },
                     {
-                        "name": "Battle Company 47F - Item from clerk #1",
+                        "name": "Battle Company 47F - Items from clerk",
+                        "item_count": 6,
                         "chest_unopened_img": "images/locations/clerk_quickball.png",
                         "chest_opened_img": "images/locations/clerk_quickball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from clerk #2",
-                        "chest_unopened_img": "images/locations/clerk_quickball.png",
-                        "chest_opened_img": "images/locations/clerk_quickball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from clerk #3",
-                        "chest_unopened_img": "images/locations/clerk_quickball.png",
-                        "chest_opened_img": "images/locations/clerk_quickball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from clerk #4",
-                        "chest_unopened_img": "images/locations/clerk_timerball.png",
-                        "chest_opened_img": "images/locations/clerk_timerball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from clerk #5",
-                        "chest_unopened_img": "images/locations/clerk_timerball.png",
-                        "chest_opened_img": "images/locations/clerk_timerball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from clerk #6",
-                        "chest_unopened_img": "images/locations/clerk_timerball.png",
-                        "chest_opened_img": "images/locations/clerk_timerball_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -1206,39 +1110,6 @@
                         ]
                     },
                     {
-                        "name": "Item from girl in pokémon center #1",
-                        "chest_unopened_img": "images/locations/woman_repeatball.png",
-                        "chest_opened_img": "images/locations/woman_repeatball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from girl in pokémon center #2",
-                        "chest_unopened_img": "images/locations/woman_repeatball.png",
-                        "chest_opened_img": "images/locations/woman_repeatball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from girl in pokémon center #3",
-                        "chest_unopened_img": "images/locations/woman_repeatball.png",
-                        "chest_opened_img": "images/locations/woman_repeatball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Item from man for seeing more than 50 pokémon",
                         "chest_unopened_img": "images/locations/oldman_shellbell.png",
                         "chest_opened_img": "images/locations/oldman_shellbell_grayscale.png",
@@ -1255,6 +1126,18 @@
                         "name": "TM from Bianca",
                         "chest_unopened_img": "images/locations/bianca_hm02fly.png",
                         "chest_opened_img": "images/locations/bianca_hm02fly_grayscale.png",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Pokémon Center - Items from girl",
+                        "item_count": 3,
+                        "chest_unopened_img": "images/locations/woman_repeatball.png",
+                        "chest_opened_img": "images/locations/woman_repeatball_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -2170,9 +2053,9 @@
                         ]
                     },
                     {
-                        "name": "Item from man in Pokémon Center",
-                        "chest_unopened_img": "images/locations/man_prismscale.png",
-                        "chest_opened_img": "images/locations/man_prismscale_grayscale.png",
+                        "name": "TM from girl",
+                        "chest_unopened_img": "images/locations/lady_hm06dive.png",
+                        "chest_opened_img": "images/locations/lady_hm06dive_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -2181,9 +2064,9 @@
                         ]
                     },
                     {
-                        "name": "TM from girl",
-                        "chest_unopened_img": "images/locations/lady_hm06dive.png",
-                        "chest_opened_img": "images/locations/lady_hm06dive_grayscale.png",
+                        "name": "Pokémon Center - Item from man",
+                        "chest_unopened_img": "images/locations/man_prismscale.png",
+                        "chest_opened_img": "images/locations/man_prismscale_grayscale.png",
                         "access_rules": [
                             ""
                         ],
@@ -2282,51 +2165,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item after catching tutorial #1",
-                        "chest_unopened_img": "images/locations/profjuniper_pokeball.png",
-                        "chest_opened_img": "images/locations/profjuniper_pokeball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item after catching tutorial #2",
-                        "chest_unopened_img": "images/locations/profjuniper_pokeball.png",
-                        "chest_opened_img": "images/locations/profjuniper_pokeball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item after catching tutorial #3",
-                        "chest_unopened_img": "images/locations/profjuniper_pokeball.png",
-                        "chest_opened_img": "images/locations/profjuniper_pokeball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item after catching tutorial #4",
-                        "chest_unopened_img": "images/locations/profjuniper_pokeball.png",
-                        "chest_opened_img": "images/locations/profjuniper_pokeball_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item after catching tutorial #5",
+                        "name": "Items after catching tutorial",
+                        "item_count": 5,
                         "chest_unopened_img": "images/locations/profjuniper_pokeball.png",
                         "chest_opened_img": "images/locations/profjuniper_pokeball_grayscale.png",
                         "access_rules": [
@@ -2640,29 +2480,8 @@
                         ]
                     },
                     {
-                        "name": "North - Item from girl after Wellspring Cave #1",
-                        "chest_unopened_img": "images/locations/littlegirl_healball.png",
-                        "chest_opened_img": "images/locations/littlegirl_healball_grayscale.png",
-                        "access_rules": [
-                            "@Route 3 South Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from girl after Wellspring Cave #2",
-                        "chest_unopened_img": "images/locations/littlegirl_healball.png",
-                        "chest_opened_img": "images/locations/littlegirl_healball_grayscale.png",
-                        "access_rules": [
-                            "@Route 3 South Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from girl after Wellspring Cave #3",
+                        "name": "North - Items from girl after Wellspring Cave",
+                        "item_count": 3,
                         "chest_unopened_img": "images/locations/littlegirl_healball.png",
                         "chest_opened_img": "images/locations/littlegirl_healball_grayscale.png",
                         "access_rules": [
@@ -2997,106 +2816,8 @@
                         ]
                     },
                     {
-                        "name": "North - Item from Professor Juniper #1",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #2",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #3",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #4",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #5",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #6",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #7",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #8",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #9",
-                        "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
-                        "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
-                        "access_rules": [
-                            "@Route 4 North Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #10",
+                        "name": "North Gate - Items from Professor Juniper",
+                        "item_count": 10,
                         "chest_unopened_img": "images/locations/prof_juniper_ultraball.png",
                         "chest_opened_img": "images/locations/prof_juniper_ultraball_grayscale.png",
                         "access_rules": [
@@ -4610,18 +4331,8 @@
                         ]
                     },
                     {
-                        "name": "Item from Bianca #1",
-                        "chest_unopened_img": "images/locations/bianca_maxrevive.png",
-                        "chest_opened_img": "images/locations/bianca_maxrevive_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Bianca #2",
+                        "name": "Items from Bianca",
+                        "item_count": 2,
                         "chest_unopened_img": "images/locations/bianca_maxrevive.png",
                         "chest_opened_img": "images/locations/bianca_maxrevive_grayscale.png",
                         "access_rules": [
@@ -5205,20 +4916,10 @@
                         ]
                     },
                     {
-                        "name": "Item from veteran in western house #1",
+                        "name": "Items from veteran in western house",
+                        "item_count": 2,
                         "chest_unopened_img": "images/locations/veteranm_splashplate.png",
                         "chest_opened_img": "images/locations/veteranm_splashplate_grayscale.png",
-                        "access_rules": [
-                            "hm03surf"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from veteran in western house #2",
-                        "chest_unopened_img": "images/locations/veteranm_dracoplate.png",
-                        "chest_opened_img": "images/locations/veteranm_dracoplate_grayscale.png",
                         "access_rules": [
                             "hm03surf"
                         ],
@@ -8377,18 +8078,8 @@
                         ]
                     },
                     {
-                        "name": "B1F - Item from nugget brothers #1",
-                        "chest_unopened_img": "images/locations/man_nugget.png",
-                        "chest_opened_img": "images/locations/man_nugget_grayscale.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "B1F - Item from nugget brothers #2",
+                        "name": "B1F - Items from nugget brothers",
+                        "item_count": 2,
                         "chest_unopened_img": "images/locations/man_nugget.png",
                         "chest_opened_img": "images/locations/man_nugget_grayscale.png",
                         "access_rules": [

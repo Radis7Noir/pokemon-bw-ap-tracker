@@ -140,16 +140,8 @@
                         "ref": "Unova Locations/Striaton City/Trainers' School - Item from boy"
                     },
                     {
-                        "name": "Item from Cheren #1",
-                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #1"
-                    },
-                    {
-                        "name": "Item from Cheren #2",
-                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #2"
-                    },
-                    {
-                        "name": "Item from Cheren #3",
-                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from Cheren #3"
+                        "name": "Items from Cheren",
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Items from Cheren"
                     }
                 ],
                 "map_locations": [
@@ -411,17 +403,9 @@
                 "name": "Nacrene City​​",
                 "sections": [
                     {
-                        "name": "Item from Cheren #1",
-                        "ref": "Unova Locations/Nacrene City/Item from Cheren #1"
+                        "name": "Items from Cheren",
+                        "ref": "Unova Locations/Nacrene City/Items from Cheren"
                     },
-                    {
-                        "name": "Item from Cheren #2",
-                        "ref": "Unova Locations/Nacrene City/Item from Cheren #2"
-                    },
-                    {
-                        "name": "Item from Cheren #3",
-                        "ref": "Unova Locations/Nacrene City/Item from Cheren #3"
-                    }
                 ],
                 "map_locations": [
                     {
@@ -591,28 +575,8 @@
                         "ref": "Unova Locations/Castelia City/Battle Company 47F - Item in lower-left corner"
                     },
                     {
-                        "name": "47F - Item from clerk #1",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #1"
-                    },
-                    {
-                        "name": "47F - Item from clerk #2",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #2"
-                    },
-                    {
-                        "name": "47F - Item from clerk #3",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #3"
-                    },
-                    {
-                        "name": "47F - Item from clerk #4",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #4"
-                    },
-                    {
-                        "name": "47F - Item from clerk #5",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #5"
-                    },
-                    {
-                        "name": "47F - Item from clerk #6",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from clerk #6"
+                        "name": "47F - Items from clerk",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Items from clerk"
                     },
                     {
                         "name": "47F - Item from scientist",
@@ -915,44 +879,8 @@
                         "ref": "Unova Locations/Route 4/North - TM from worker in northern building"
                     },
                     {
-                        "name": "North - Item from Professor Juniper #1",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #1"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #2",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #2"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #3",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #3"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #4",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #4"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #5",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #5"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #6",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #6"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #7",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #7"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #8",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #8"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #9",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #9"
-                    },
-                    {
-                        "name": "North - Item from Professor Juniper #10",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #10"
+                        "name": "North Gate - Items from Professor Juniper",
+                        "ref": "Unova Locations/Route 4/North Gate - Items from Professor Juniper"
                     },
                     {
                         "name": "Land Encounters",
@@ -1203,16 +1131,8 @@
                 "name": "Driftveil Pokémon Center",
                 "sections": [
                     {
-                        "name": "Item from girl #1",
-                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #1"
-                    },
-                    {
-                        "name": "Item from girl #2",
-                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #2"
-                    },
-                    {
-                        "name": "Item from girl #3",
-                        "ref": "Unova Locations/Driftveil City/Item from girl in pokémon center #3"
+                        "name": "Items from girl",
+                        "ref": "Unova Locations/Driftveil City/Pokémon Center - Items from girl"
                     }
 			    ],
                 "map_locations": [
@@ -1565,12 +1485,8 @@
                         "ref": "Unova Locations/Chargestone Cave/B1F - West hidden item"
                     },
                     {
-                        "name": "B1F - Item from nugget brothers #1",
-                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #1"
-                    },
-                    {
-                        "name": "B1F - Item from nugget brothers #2",
-                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #2"
+                        "name": "B1F - Items from nugget brothers",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Items from nugget brothers"
                     },
                     {
                         "name": "B2F - North east item",
@@ -2371,7 +2287,7 @@
                 "sections": [
                     {
                         "name": "Item from man",
-                        "ref": "Unova Locations/Undella Town/Item from man in Pokémon Center"
+                        "ref": "Unova Locations/Undella Town/Pokémon Center - Item from man"
                     }
                 ],
                 "map_locations": [
@@ -2465,24 +2381,8 @@
                 "name": "Route 1​",
                 "sections": [
                     {
-                        "name": "Item after catching tutorial #1",
-                        "ref": "Unova Locations/Route 1/Item after catching tutorial #1"
-                    },
-                    {
-                        "name": "Item after catching tutorial #2",
-                        "ref": "Unova Locations/Route 1/Item after catching tutorial #2"
-                    },
-                    {
-                        "name": "Item after catching tutorial #3",
-                        "ref": "Unova Locations/Route 1/Item after catching tutorial #3"
-                    },
-                    {
-                        "name": "Item after catching tutorial #4",
-                        "ref": "Unova Locations/Route 1/Item after catching tutorial #4"
-                    },
-                    {
-                        "name": "Item after catching tutorial #5",
-                        "ref": "Unova Locations/Route 1/Item after catching tutorial #5"
+                        "name": "Items after catching tutorial",
+                        "ref": "Unova Locations/Route 1/Items after catching tutorial"
                     }
                 ],
                 "map_locations": [
@@ -2819,17 +2719,9 @@
                 "name": "Route 3 North​​​​",
                 "sections": [
                     {
-                        "name": "Item from girl after Wellspring Cave #1",
-                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #1"
+                        "name": "Items from girl after Wellspring Cave",
+                        "ref": "Unova Locations/Route 3/North - Items from girl after Wellspring Cave"
                     },
-                    {
-                        "name": "Item from girl after Wellspring Cave #2",
-                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #2"
-                    },
-                    {
-                        "name": "Item from girl after Wellspring Cave #3",
-                        "ref": "Unova Locations/Route 3/North - Item from girl after Wellspring Cave #3"
-                    }
                 ],
                 "map_locations": [
                     {
@@ -3350,45 +3242,9 @@
                 "name": "Route 4 North Gate",
                 "sections": [
                     {
-                        "name": "Item from Professor Juniper #1",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #1"
+                        "name": "Items from Professor Juniper",
+                        "ref": "Unova Locations/Route 4/North Gate - Items from Professor Juniper"
                     },
-                    {
-                        "name": "Item from Professor Juniper #2",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #2"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #3",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #3"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #4",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #4"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #5",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #5"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #6",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #6"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #7",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #7"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #8",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #8"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #9",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #9"
-                    },
-                    {
-                        "name": "Item from Professor Juniper #10",
-                        "ref": "Unova Locations/Route 4/North - Item from Professor Juniper #10"
-                    }
                 ],
                 "map_locations": [
                     {
@@ -4987,12 +4843,8 @@
                 "name": "Route 10​​​​​​​",
                 "sections": [
                     {
-                        "name": "Item from Bianca #1",
-                        "ref": "Unova Locations/Route 10/Item from Bianca #1"
-                    },
-                    {
-                        "name": "Item from Bianca #2",
-                        "ref": "Unova Locations/Route 10/Item from Bianca #2"
+                        "name": "Items from Bianca",
+                        "ref": "Unova Locations/Route 10/Items from Bianca"
                     }
 			    ],
                 "map_locations": [
@@ -5965,13 +5817,9 @@
                 "name": "Route 13​​​​​​​​​​​​​​​​​",
                 "sections": [
                     {
-                        "name": "Item from veteran in western house #1",
-                        "ref": "Unova Locations/Route 13/Item from veteran in western house #1"
+                        "name": "Items from veteran in western house",
+                        "ref": "Unova Locations/Route 13/Items from veteran in western house"
                     },
-                    {
-                        "name": "Item from veteran in western house #2",
-                        "ref": "Unova Locations/Route 13/Item from veteran in western house #2"
-                    }
 			    ],
                 "map_locations": [
                     {
@@ -10500,12 +10348,8 @@
                 "name": "Chargestone Cave B1F​​​​",
                 "sections": [
                     {
-                        "name": "Item from nugget brothers #1",
-                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #1"
-                    },
-                    {
-                        "name": "Item from nugget brothers #2",
-                        "ref": "Unova Locations/Chargestone Cave/B1F - Item from nugget brothers #2"
+                        "name": "Items from nugget brothers",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Items from nugget brothers"
                     }
 			    ],
                 "map_locations": [
