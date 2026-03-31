@@ -591,7 +591,6 @@ function updateHints()
             end
 
             local locations = (type(mapped) == "table") and mapped or { mapped }
-
             if hint.found == false then
                 for _, location in ipairs(locations) do
                     if location:sub(1, 1) == "@" then
