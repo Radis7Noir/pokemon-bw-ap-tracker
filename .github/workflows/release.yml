@@ -11,10 +11,18 @@ jobs:
       - uses: actions/checkout@v5
         with:
           ref: versions
-      - name: Download source archive
-        run: curl -L -o source.zip "https://github.com/${{ github.repository }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip"
+      - name: Download and repack source archive
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          curl -L -o raw_source.zip "https://github.com/${{ github.repository }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip"
+          unzip raw_source.zip
+          EXTRACTED_DIR=$(unzip -Z1 raw_source.zip | head -1 | cut -d/ -f1)
+          cd "$EXTRACTED_DIR"
+          zip -r "../${REPO_NAME}.zip" .
+          cd ..
+          rm -rf raw_source.zip "$EXTRACTED_DIR"
       - name: Get checksum
-        run: echo "sha256sum=$(sha256sum source.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
+        run: echo "sha256sum=$(sha256sum ${{ github.event.repository.name }}.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
         id: checksum
       - name: Git config
         run: git config user.name "Automation" && git config user.email "automation@localhost"
@@ -22,12 +30,16 @@ jobs:
         run: |-
           jq '.versions |= [{
             "package_version": "${{ github.event.release.tag_name }}",
-            "download_url": "https://github.com/${{ github.repository }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip",
+            "download_url": "https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/${{ github.event.repository.name }}.zip",
             "sha256": "${{ steps.checksum.outputs.sha256sum }}",
             "changelog": ["Check release notes"]
           }] + .' versions.json > new_versions.json
       - name: Move new versions in
         run: mv new_versions.json versions.json
+      - name: Upload zip to release
+        run: gh release upload "${{ github.event.release.tag_name }}" "${{ github.event.repository.name }}.zip"
+        env:
+          GH_TOKEN: ${{ github.token }}
       - name: Commit
         run: git commit -am "Release ${{ github.event.release.tag_name }}"
       - name: Push
