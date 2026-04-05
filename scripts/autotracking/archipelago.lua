@@ -550,10 +550,12 @@ function updateHints()
 
     CLEARED_HINTS = {}
 
-    for _, location in pairs(LOCATION_MAPPING) do
-        if location:sub(1, 1) == "@" then
-            local obj = Tracker:FindObjectForCode(location)
-            obj.Highlight = 0
+    for _, locations in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(locations) do
+            if location:sub(1, 1) == "@" then
+                local obj = Tracker:FindObjectForCode(location)
+                obj.Highlight = 0
+            end
         end
     end
     for _, location in pairs(ENCOUNTER_MAPPING) do
@@ -608,8 +610,6 @@ function updateHints()
                                 if hint.found == false then
                                     if incoming_val == Highlight.Priority then
                                         obj.Highlight = incoming_val
-                                    else
-                                        CLEARED_ENC_HINTS[mapped_location] = 1
                                     end
                                 end
                             else
