@@ -364,10 +364,10 @@ function onNotify(key, value, old_value)
             updateEvents(value)
         elseif key == IDs.CAUGHT then
             CAUGHT = value
-            updatePokemon()
+            updateCaught()
         elseif key == IDs.SEEN then
             SEEN = value
-            updatePokemon()
+            updateSeen()
         elseif key == IDs.MAP and old_value ~= nil then
             updateMap(value)
         elseif key == IDs.HINT then
@@ -391,10 +391,12 @@ function updateEvents(value)
     end
 end
 
-function updatePokemon()
-    Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
-    CAUGHT = CAUGHT or {}
-    SEEN = SEEN or {}
+function updateSeen()
+    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #SEEN
+    updatePokemon()
+end
+
+function updateCaught()
     for i = 1, 649 do
         if table_contains(CAUGHT, i) then
             Tracker:FindObjectForCode("caught_"..i).Active = true
@@ -402,7 +404,14 @@ function updatePokemon()
             Tracker:FindObjectForCode("caught_"..i).Active = false
         end
     end
-    
+    updatePokemon()
+end
+
+function updatePokemon()
+    Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
+    CAUGHT = CAUGHT or {}
+    SEEN = SEEN or {}
+
     if has("encounter_tracking_off") then
         return
     end
