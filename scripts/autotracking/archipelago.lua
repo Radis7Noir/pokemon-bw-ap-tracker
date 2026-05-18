@@ -66,6 +66,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
     end
 
+    -- reset wild battle indicator
+    Tracker:FindObjectForCode("wild_slot_1").CurrentStage = 3
+    Tracker:FindObjectForCode("wild_slot_2").CurrentStage = 3
+
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Static Encounters etc. added manually
     local newEncounters = {
@@ -227,8 +231,9 @@ function onClear(slot_data)
             EVENT      = makeID("events_"),
             CAUGHT     = makeID("caught_"),
             SEEN       = makeID("seen_"),
-            MAP      = makeID("map_"),
+            MAP        = makeID("map_"),
             HINT       = "_read_hints_" .. suffix,
+            WILD_IDS   = makeID("wild_ids_"),
         }
         for _, id in pairs(IDs) do
             Archipelago:SetNotify({id})
@@ -374,6 +379,8 @@ function onNotify(key, value, old_value)
             SAVED_HINTS = value
             updateHints()
             updatePokemon()
+        elseif key == IDs.WILD_IDS then
+            updateWildBattle(value)
         end
     end
 end
@@ -405,6 +412,25 @@ function updateCaught()
         end
     end
     updatePokemon()
+end
+
+function updateWildBattle(value)
+    for i = 1, 2 do
+        local id = value[i] or 0
+        local stage = 3
+        if id ~= 0 then
+            if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+                stage = 2
+            elseif not Tracker:FindObjectForCode("dexsanity_visibility_"..id).Active then
+                stage = 2
+            elseif Tracker:FindObjectForCode("dexsanity_sent_"..id).Active then
+                stage = 1
+            else
+                stage = 0
+            end
+        end
+        Tracker:FindObjectForCode("wild_slot_"..i).CurrentStage = stage
+    end
 end
 
 function updatePokemon()
