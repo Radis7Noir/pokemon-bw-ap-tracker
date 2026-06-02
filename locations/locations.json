@@ -9479,7 +9479,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9492,7 +9492,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,triobadge,hm03surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9505,7 +9505,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9518,7 +9518,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,triobadge,superrod,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9596,7 +9596,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9609,7 +9609,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,triobadge,hm03surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9622,7 +9622,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9635,7 +9635,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,triobadge,superrod,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9713,7 +9713,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9726,7 +9726,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,triobadge,hm03surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9739,7 +9739,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9752,7 +9752,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,triobadge,superrod,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9843,7 +9843,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,hm03surf,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9856,7 +9856,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,hm03surf,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,triobadge,hm03surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9869,7 +9869,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,superrod,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9882,7 +9882,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,superrod,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,triobadge,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
