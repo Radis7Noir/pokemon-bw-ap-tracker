@@ -66,10 +66,6 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
     end
 
-    -- reset wild battle indicator
-    Tracker:FindObjectForCode("wild_slot_1").CurrentStage = 3
-    Tracker:FindObjectForCode("wild_slot_2").CurrentStage = 3
-
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Static Encounters etc. added manually
     local newEncounters = {
@@ -374,7 +370,8 @@ function onNotify(key, value, old_value)
             SEEN = value
             updateSeen()
         elseif key == IDs.MAP and old_value ~= nil then
-            updateMap(value)
+            MAP_ID = value
+            updateMap()
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()
@@ -415,21 +412,43 @@ function updateCaught()
 end
 
 function updateWildBattle(value)
-    for i = 1, 2 do
-        local id = value[i] or 0
-        local stage = 3
-        if id ~= 0 then
-            if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
-                stage = 2
-            elseif not Tracker:FindObjectForCode("dexsanity_visibility_"..id).Active then
-                stage = 2
-            elseif Tracker:FindObjectForCode("dexsanity_sent_"..id).Active then
-                stage = 1
-            else
-                stage = 0
-            end
-        end
-        Tracker:FindObjectForCode("wild_slot_"..i).CurrentStage = stage
+    if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+        return
+    end
+    
+    print(dump_table(value))
+
+    local id1 = value[1]
+    local id2 = value[2]
+
+    local check1 = false
+    if id1 ~= 0 then
+        local visibility1 = Tracker:FindObjectForCode("dexsanity_visibility_" .. id1).Active
+        local sent1 = Tracker:FindObjectForCode("dexsanity_sent_" .. id1).Active
+        local check1 = visibility1 and not sent1
+    end
+
+    local check2 = false
+    if id2 ~= 0 then
+        local visibility2 = Tracker:FindObjectForCode("dexsanity_visibility_" .. id2).Active
+        local sent2 = Tracker:FindObjectForCode("dexsanity_sent_" .. id2).Active
+        check2 = visibility2 and not sent2
+    end
+
+    if check1 and check2 then
+        Tracker:UiHint("ActivateTab", "Battle")
+        Tracker:UiHint("ActivateTab", "Both Mons are Dexsanity")
+    elseif check1 and id2 == 0 then
+        Tracker:UiHint("ActivateTab", "Battle")
+        Tracker:UiHint("ActivateTab", "Mon is Dexsanity")
+    elseif check1 then
+        Tracker:UiHint("ActivateTab", "Battle")
+        Tracker:UiHint("ActivateTab", "Left Mon is Dexsanity")
+    elseif check2 then
+        Tracker:UiHint("ActivateTab", "Battle")
+        Tracker:UiHint("ActivateTab", "Right Mon is Dexsanity")
+    else
+        updateMap()
     end
 end
 
@@ -524,7 +543,8 @@ function updatePokemon()
 end
 
 -- Auto-tabbing
-function updateMap(map_id)
+function updateMap()
+    map_id = MAP_ID or 0
     if has("automap_on") then
         local tabs = MAP_MAPPING[map_id]
         if tabs then

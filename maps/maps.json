@@ -724,5 +724,29 @@
         "location_size": 35,
         "location_border_thickness": 5,
         "img": "images/maps/marvelousbridge.png"
+    },
+    {
+        "name": "fight1dex",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/fight1dex.png"
+    },
+    {
+        "name": "fight2dex",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/fight2dex.png"
+    },
+    {
+        "name": "fight2leftdex",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/fight2leftdex.png"
+    },
+    {
+        "name": "fight2rightdex",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/fight2rightdex.png"
     }
 ]

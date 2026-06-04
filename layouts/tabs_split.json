@@ -59,6 +59,16 @@
                                             "key": "others"
                                         }
                                     }
+                                },
+                                {
+                                    "title": "Battle",
+                                    "content": {
+                                        "type": "dock",
+                                        "content": {
+                                            "type": "layout",
+                                            "key": "battle"
+                                        }
+                                    }
                                 }
                             ]
                         },

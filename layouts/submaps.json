@@ -1307,5 +1307,46 @@
                 }
             }
         ]
+    },
+    "battle": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Mon is Dexsanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fight1dex"
+                    ]
+                }
+            },
+            {
+                "title": "Both Mons are Dexsanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fight2dex"
+                    ]
+                }
+            },
+            {
+                "title": "Left Mon is Dexsanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fight2leftdex"
+                    ]
+                }
+            },
+            {
+                "title": "Right Mon is Dexsanity",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "fight2rightdex"
+                    ]
+                }
+            }
+        ]
     }
 }

@@ -86,23 +86,6 @@
                         "item_size": "0,0"
                     }
                 ]
-            },
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "19,0",
-                "content": [
-                    {
-                        "type": "item",
-                        "item": "wild_slot_1",
-                        "item_size": "43,43"
-                    },
-                    {
-                        "type": "item",
-                        "item": "wild_slot_2",
-                        "item_size": "43,43"
-                    }
-                ]
             }
         ]
     }

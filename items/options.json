@@ -3315,53 +3315,5 @@
         "name": "All Pokemon Seen (Hidden Option)",
         "type": "toggle",
         "codes": "all_pokemon_seen"
-    },
-    {
-        "name": "Wild Slot 1",
-        "type": "progressive",
-        "allow_disabled": false,
-        "codes": "wild_slot_1",
-        "stages": [
-            {
-                "name": "Dexsanity: YES + UNCAUGHT",
-                "img": "/images/settings/overlays/true.png"
-            },
-            {
-                "name": "Dexsanity: YES + CAUGHT",
-                "img": "/images/settings/overlays/false.png"
-            },
-            {
-                "name": "Dexsanity: NO",
-                "img": "/images/settings/overlays/false.png"
-            },
-            {
-                "name": "Dexsanity: You're not in a battle",
-                "img": "/images/settings/overlays/ool.png"
-            }
-        ]
-    },
-    {
-        "name": "Wild Slot 2",
-        "type": "progressive",
-        "allow_disabled": false,
-        "codes": "wild_slot_2",
-        "stages": [
-            {
-                "name": "Dexsanity: YES + UNCAUGHT",
-                "img": "/images/settings/overlays/true.png"
-            },
-            {
-                "name": "Dexsanity: YES + CAUGHT",
-                "img": "/images/settings/overlays/false.png"
-            },
-            {
-                "name": "Dexsanity: NO",
-                "img": "/images/settings/overlays/false.png"
-            },
-            {
-                "name": "Dexsanity: You're not in a battle",
-                "img": "/images/settings/overlays/ool.png"
-            }
-        ]
     }
 ]
