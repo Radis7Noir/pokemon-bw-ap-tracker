@@ -425,7 +425,7 @@ function updateWildBattle(value)
     if id1 ~= 0 then
         local visibility1 = Tracker:FindObjectForCode("dexsanity_visibility_" .. id1).Active
         local sent1 = Tracker:FindObjectForCode("dexsanity_sent_" .. id1).Active
-        local check1 = visibility1 and not sent1
+        check1 = visibility1 and not sent1
     end
 
     local check2 = false
