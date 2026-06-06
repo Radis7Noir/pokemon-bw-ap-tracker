@@ -438,17 +438,21 @@ function updateWildBattle(value)
     end
 
     if check1 and check2 then
-        Tracker:UiHint("ActivateTab", "Battle")
-        Tracker:UiHint("ActivateTab", "Both Mons are Dexsanity")
+        Tracker:UiHint("ActivateTab", "Others")
+        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Double Dexsanity")
     elseif check1 and id2 == 0 then
-        Tracker:UiHint("ActivateTab", "Battle")
-        Tracker:UiHint("ActivateTab", "Mon is Dexsanity")
+        Tracker:UiHint("ActivateTab", "Others")
+        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Single Dexsanity")
     elseif check1 then
-        Tracker:UiHint("ActivateTab", "Battle")
-        Tracker:UiHint("ActivateTab", "Left Mon is Dexsanity")
+        Tracker:UiHint("ActivateTab", "Others")
+        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Left Dexsanity")
     elseif check2 then
-        Tracker:UiHint("ActivateTab", "Battle")
-        Tracker:UiHint("ActivateTab", "Right Mon is Dexsanity")
+        Tracker:UiHint("ActivateTab", "Others")
+        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Right Dexsanity")
     else
         updateMap()
     end

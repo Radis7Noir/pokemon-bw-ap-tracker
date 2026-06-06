@@ -1305,45 +1305,48 @@
                         }
                     ]
                 }
-            }
-        ]
-    },
-    "battle": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Mon is Dexsanity",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "fight1dex"
-                    ]
-                }
             },
             {
-                "title": "Both Mons are Dexsanity",
+                "title": " ",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "fight2dex"
-                    ]
-                }
-            },
-            {
-                "title": "Left Mon is Dexsanity",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "fight2leftdex"
-                    ]
-                }
-            },
-            {
-                "title": "Right Mon is Dexsanity",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "fight2rightdex"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Single Dexsanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "fight1dex"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Double Dexsanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "fight2dex"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Left Dexsanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "fight2leftdex"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Right Dexsanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "fight2rightdex"
+                                ]
+                            }
+                        },
                     ]
                 }
             }
