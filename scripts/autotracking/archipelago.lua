@@ -13,6 +13,7 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 HINT_ID = {}
+STARTUP = TRUE
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -372,6 +373,8 @@ function onNotify(key, value, old_value)
         elseif key == IDs.MAP and old_value ~= nil then
             MAP_ID = value
             updateMap()
+        elseif key == IDs.MAP and old_value == nil then
+            MAP_ID = value
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()
@@ -447,9 +450,11 @@ function updateWildBattle(value)
     elseif check2 then
         Tracker:UiHint("ActivateTab", "Battle")
         Tracker:UiHint("ActivateTab", "Right Mon is Dexsanity")
-    else
+    elseif STARTUP == false then
         updateMap()
     end
+    
+    STARTUP = false
 end
 
 function updatePokemon()
