@@ -448,11 +448,11 @@ function updateWildBattle(value)
     elseif check1 then
         Tracker:UiHint("ActivateTab", "Others")
         Tracker:UiHint("ActivateTab", " ")
-        Tracker:UiHint("ActivateTab", "Left Dexsanity")
+        Tracker:UiHint("ActivateTab", "Right Dexsanity")
     elseif check2 then
         Tracker:UiHint("ActivateTab", "Others")
         Tracker:UiHint("ActivateTab", " ")
-        Tracker:UiHint("ActivateTab", "Right Dexsanity")
+        Tracker:UiHint("ActivateTab", "Left Dexsanity")
     else
         updateMap()
     end
