@@ -3338,4 +3338,26 @@
             }
         ]
     },
+    {
+        "name": "Extra Logic - Rock Smash",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rock Smash Logic - OFF",
+                "img": "/images/items/hms/tm94_rocksmash.png",
+				"img_mods": "@disabled",
+                "codes": "add_rocksmash,add_rocksmash_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rock Smash Logic - ON",
+                "img": "/images/items/hms/tm94_rocksmash.png",
+                "codes": "add_rocksmash,add_rocksmash_true",
+                "inherit_codes": false
+            }
+        ]
+    },
 ]

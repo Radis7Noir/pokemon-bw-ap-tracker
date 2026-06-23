@@ -55,6 +55,7 @@ ScriptHost:AddWatchForCode("season_control_randomized", "season_control_randomiz
 ScriptHost:AddWatchForCode("dexsanity", "dexsanity", toggle_keyitemgrid)
 ScriptHost:AddWatchForCode("game_version2", "game_version", toggle_keyitemgrid)
 ScriptHost:AddWatchForCode("add_ssticket", "add_ssticket", toggle_keyitemgrid)
+ScriptHost:AddWatchForCode("add_rocksmash", "add_rocksmash", toggle_keyitemgrid)
 ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePokemon)
 ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)

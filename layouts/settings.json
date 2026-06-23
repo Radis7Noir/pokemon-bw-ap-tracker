@@ -70,7 +70,8 @@
 				"require_dowsingmchn",
 				"require_flash",
 				"adjustlevels",
-				"add_ssticket"
+				"add_ssticket",
+				"add_rocksmash"
             ]
         ]
     },

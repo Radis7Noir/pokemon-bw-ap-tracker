@@ -49,9 +49,21 @@
     },
     {
         "name": "HM01 Cut",
-        "type": "toggle",
-        "img": "/images/items/hms/hm01_cut.png",
-        "codes": "hm01cut"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "HM01 Cut",
+                "codes": "hm01cut",
+                "img": "images/items/hms/hm01_cut.png"
+            },
+            {
+                "name": "HM01 Cut - Badge Required",
+                "codes": "hm01cut, cut_badge",
+                "img": "/images/items/hms/hm01_cut.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge1.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge1.png"
+            }
+        ]
     },
     {
         "name": "HM02 Fly",
@@ -61,27 +73,75 @@
     },
     {
         "name": "HM03 Surf",
-        "type": "toggle",
-        "img": "/images/items/hms/hm03_surf.png",
-        "codes": "hm03surf"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "HM03 Surf",
+                "codes": "hm03surf",
+                "img": "images/items/hms/hm03_surf.png"
+            },
+            {
+                "name": "HM03 Surf - Badge Required",
+                "codes": "hm03surf, surf_badge",
+                "img": "/images/items/hms/hm03_surf.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge5.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge5.png"
+            }
+        ]
     },
     {
         "name": "HM04 Strength",
-        "type": "toggle",
-        "img": "/images/items/hms/hm04_strength.png",
-        "codes": "hm04strength"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "HM04 Strength",
+                "codes": "hm04strength",
+                "img": "images/items/hms/hm04_strength.png"
+            },
+            {
+                "name": "HM04 Strength - Badge Required",
+                "codes": "hm04strength, strength_badge",
+                "img": "/images/items/hms/hm04_strength.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge4.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge4.png"
+            }
+        ]
     },
     {
         "name": "HM05 Waterfall",
-        "type": "toggle",
-        "img": "/images/items/hms/hm05_waterfall.png",
-        "codes": "hm05waterfall"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "HM05 Waterfall",
+                "codes": "hm05waterfall",
+                "img": "images/items/hms/hm05_waterfall.png"
+            },
+            {
+                "name": "HM05 Waterfall - Badge Required",
+                "codes": "hm05waterfall, waterfall_badge",
+                "img": "/images/items/hms/hm05_waterfall.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge7.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge7.png"
+            }
+        ]
     },
     {
         "name": "HM06 Dive",
-        "type": "toggle",
-        "img": "/images/items/hms/hm06_dive.png",
-        "codes": "hm06dive"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "HM06 Dive",
+                "codes": "hm06dive",
+                "img": "images/items/hms/hm06_dive.png"
+            },
+            {
+                "name": "HM06 Dive - Badge Required",
+                "codes": "hm06dive, dive_badge",
+                "img": "/images/items/hms/hm06_dive.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge8.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge8.png"
+            }
+        ]
     },
     {
         "name": "TM70 Flash",
@@ -89,11 +149,23 @@
         "img": "/images/items/hms/tm70_flash.png",
         "codes": "tm70flash"
     },
-	{
+    {
         "name": "TM94 Rock Smash",
-        "type": "toggle",
-        "img": "/images/items/hms/tm94_rocksmash.png",
-        "codes": "tm94rocksmash"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "name": "TM94 Rock Smash",
+                "codes": "tm94rocksmash",
+                "img": "images/items/hms/tm94_rocksmash.png"
+            },
+            {
+                "name": "TM94 Rock Smash - Badge Required",
+                "codes": "tm94rocksmash, rocksmash_badge",
+                "img": "/images/items/hms/tm94_rocksmash.png",
+                "img_mods": "overlay|images/items/hms/overlays/BW_badge2.png",
+                "disabled_img_mods": "@disabled,overlay|images/items/hms/overlays/BW_badge2.png"
+            }
+        ]
     },
     {
         "name": "Owned TMs",
