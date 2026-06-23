@@ -89,6 +89,12 @@
         "img": "/images/items/hms/tm70_flash.png",
         "codes": "tm70flash"
     },
+	{
+        "name": "TM94 Rock Smash",
+        "type": "toggle",
+        "img": "/images/items/hms/tm94_rocksmash.png",
+        "codes": "tm94rocksmash"
+    },
     {
         "name": "Owned TMs",
         "type": "consumable",

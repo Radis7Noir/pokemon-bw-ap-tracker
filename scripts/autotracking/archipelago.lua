@@ -254,6 +254,9 @@ function resetItem(code, type)
         elseif type == "flash_tm" then
             obj.AcquiredCount = 0
             Tracker:FindObjectForCode("tm70flash").Active = false
+        elseif type == "rocksmash_tm" then
+            obj.AcquiredCount = 0
+            Tracker:FindObjectForCode("tm94rocksmash").Active = false
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onClear: unknown item type %s for code %s", v[2], code))
         end
