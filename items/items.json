@@ -210,6 +210,42 @@
         "codes": "libertypass"
     },
 	{
+        "name": "S.S. Ticket",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/ss_ticket.png",
+        "codes": "ssticket"
+    },
+	{
+		"name": "Tickets - Liberty Pass & S.S. Ticket",
+		"type": "composite_toggle",
+		"codes": "ssticketlibertypass",
+		"item_left": "libertypass",
+		"item_right": "ssticket",
+		"images": [
+			{
+			"left": false,
+			"right": false,
+			"img": "images/items/roadblocks/ss_ticket_liberty_pass.png",
+			"img_mods": "@disabled"
+			},
+			{
+			"left": true,
+			"right": false,
+			"img": "images/items/roadblocks/no_ss_ticket_liberty_pass.png"
+			},
+			{
+			"left": false,
+			"right": true,
+			"img": "images/items/roadblocks/ss_ticket_no_liberty_pass.png"
+			},
+			{
+			"left": true,
+			"right": true,
+			"img": "images/items/roadblocks/ss_ticket_liberty_pass.png"
+			}
+		]
+	},
+	{
         "name": "Helix Fossil",
         "type": "toggle",
         "img": "/images/items/fossils/helixfossil.png",

@@ -3315,5 +3315,27 @@
         "name": "All Pokemon Seen (Hidden Option)",
         "type": "toggle",
         "codes": "all_pokemon_seen"
-    }
+    },
+    {
+        "name": "Extra Logic - S.S. Ticket",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "S.S. Ticket - OFF",
+                "img": "/images/items/roadblocks/ss_ticket.png",
+				"img_mods": "@disabled",
+                "codes": "add_ssticket,add_ssticket_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "S.S. Ticket - ON",
+                "img": "/images/items/roadblocks/ss_ticket.png",
+                "codes": "add_ssticket,add_ssticket_true",
+                "inherit_codes": false
+            }
+        ]
+    },
 ]

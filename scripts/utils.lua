@@ -72,7 +72,11 @@ function toggle_keyitemgrid()
         suffix = suffix .. "_fossils"
         Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
     end
-        
+
+    if has("add_ssticket_true") then
+        suffix = suffix .. "_ticket"
+    end
+
     Tracker:AddLayouts("layouts/items"..suffix..".json")
 end
 

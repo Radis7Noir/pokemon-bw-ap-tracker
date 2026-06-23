@@ -69,7 +69,8 @@
             [
 				"require_dowsingmchn",
 				"require_flash",
-				"adjustlevels"
+				"adjustlevels",
+				"add_ssticket"
             ]
         ]
     },
