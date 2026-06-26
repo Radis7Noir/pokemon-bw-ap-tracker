@@ -1,3 +1,42 @@
+function cut()
+    return has("free_cut")
+    or (has("hm01cut") and has("triobadge"))
+end
+
+function surf()
+    return has("free_surf")
+    or (has("hm03surf") and has("quakebadge"))
+end
+
+function strength()
+    return has("free_strength")
+    or (has("hm04strength") and has("boltbadge"))
+end
+
+function waterfall()
+    return has("free_waterfall")
+    or (has("hm05waterfall") and has("freezebadge"))
+end
+
+function dive()
+    return has("free_dive")
+    or (has("hm06dive") and has("legendbadge"))
+end
+
+function can_rock_smash()
+	return has("free_rocksmash")
+	or (has("tm94rocksmash") and has("basicbadge"))
+end
+
+function rock_smash()
+    if has("add_rocksmash_false") then
+        return AccessibilityLevel.Normal
+	else
+		return has("free_rocksmash")
+		or (has("tm94rocksmash") and has("basicbadge"))
+	end
+end
+
 function flash()
     if has("require_flash_false") then
         return AccessibilityLevel.Normal

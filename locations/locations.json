@@ -222,7 +222,7 @@
                         "chest_unopened_img": "images/locations/amanita_palpad.png",
                         "chest_opened_img": "images/locations/amanita_palpad_grayscale.png",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -265,7 +265,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden",
+                            "$surf,^$hidden",
                             "parcel,^$hidden"
                         ],
                         "visibility_rules": [
@@ -277,7 +277,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -288,7 +288,7 @@
                         "chest_unopened_img": "images/locations/fisherman_bigpearl.png",
                         "chest_opened_img": "images/locations/fisherman_bigpearl_grayscale.png",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -334,7 +334,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -347,7 +347,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1103,7 +1103,7 @@
                     {
                         "name": "Item near lighthouse",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1227,7 +1227,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1240,7 +1240,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1614,7 +1614,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|spring"
+                            "$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1627,7 +1627,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|spring"
+                            "triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1679,7 +1679,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1692,7 +1692,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|summer"
+                            "triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1744,7 +1744,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|autumn"
+                            "$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1757,7 +1757,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|autumn"
+                            "triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1796,7 +1796,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|winter"
+                            "$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1809,7 +1809,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|winter"
+                            "triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2103,7 +2103,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2116,7 +2116,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2190,7 +2190,7 @@
                     {
                         "name": "West - South item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2199,7 +2199,7 @@
                     {
                         "name": "West - West item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2210,7 +2210,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2221,7 +2221,7 @@
                         "chest_unopened_img": "images/locations/rangeress_persimberry.png",
                         "chest_opened_img": "images/locations/rangeress_persimberry_grayscale.png",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -2232,7 +2232,7 @@
                         "chest_unopened_img": "images/locations/ranger_persimberry.png",
                         "chest_opened_img": "images/locations/ranger_persimberry_grayscale.png",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -2258,7 +2258,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2284,7 +2284,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2297,7 +2297,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2374,7 +2374,7 @@
                     {
                         "name": "Item behind boulder",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2383,7 +2383,7 @@
                     {
                         "name": "Item behind cut tree #1",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2392,7 +2392,7 @@
                     {
                         "name": "Item behind cut tree #2",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2532,7 +2532,7 @@
                     {
                         "name": "Pond - Item across water",
                         "access_rules": [
-                            "@Route 3 South Access,hm03surf"
+                            "@Route 3 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2541,7 +2541,7 @@
                     {
                         "name": "Pond - West item #1",
                         "access_rules": [
-                            "@Route 3 South Access,hm03surf"
+                            "@Route 3 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2550,7 +2550,7 @@
                     {
                         "name": "Pond - West item #2",
                         "access_rules": [
-                            "@Route 3 South Access,hm03surf"
+                            "@Route 3 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2561,7 +2561,7 @@
     					"chest_unopened_img": "images/locations/hidden.png",
     					"chest_opened_img": "images/locations/hidden_open.png",
     					"access_rules": [
-        					"@Route 3 South Access,^$hidden, hm03surf"
+        					"@Route 3 South Access,^$hidden, $surf"
     					],
     					"visibility_rules": [
         					"show_items"
@@ -2572,7 +2572,7 @@
                         "chest_unopened_img": "images/locations/breeder_lumberry.png",
                         "chest_opened_img": "images/locations/breeder_lumberry_grayscale.png",
                         "access_rules": [
-                            "@Route 3 South Access,hm03surf"
+                            "@Route 3 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -2626,7 +2626,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 3 South Access,hm03surf"
+                            "@Route 3 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2639,7 +2639,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 3 South Access,triobadge,hm03surf"
+                            "@Route 3 South Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2848,7 +2848,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 4 South Access,hm03surf"
+                            "@Route 4 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -2861,7 +2861,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 4 South Access,triobadge,hm03surf"
+                            "@Route 4 South Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3028,7 +3028,7 @@
                     {
                         "name": "North east item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3037,7 +3037,7 @@
                     {
                         "name": "South item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3048,7 +3048,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3059,7 +3059,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3070,7 +3070,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3177,7 +3177,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|spring"
+                            "$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3190,7 +3190,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|spring"
+                            "triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3268,7 +3268,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3281,7 +3281,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|summer"
+                            "triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3359,7 +3359,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|autumn"
+                            "$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3372,7 +3372,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|autumn"
+                            "triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3450,7 +3450,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|winter"
+                            "$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3463,7 +3463,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|winter"
+                            "triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3896,7 +3896,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,hm03surf,^$season|spring"
+                            "@Route 8 Access,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3909,7 +3909,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,hm03surf,^$season|spring"
+                            "@Route 8 Access,triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3961,7 +3961,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,hm03surf,^$season|summer"
+                            "@Route 8 Access,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3974,7 +3974,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,hm03surf,^$season|summer"
+                            "@Route 8 Access,triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4026,7 +4026,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,hm03surf,^$season|autumn"
+                            "@Route 8 Access,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4039,7 +4039,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,hm03surf,^$season|autumn"
+                            "@Route 8 Access,triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4078,7 +4078,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,hm03surf,^$season|winter"
+                            "@Route 8 Access,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4091,7 +4091,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,hm03surf,^$season|winter"
+                            "@Route 8 Access,triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4430,7 +4430,7 @@
                     {
                         "name": "Item in ravine",
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4439,7 +4439,7 @@
                     {
                         "name": "Item on northern cliff",
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4450,7 +4450,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4461,7 +4461,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,hm05waterfall,^$hidden"
+                            "$surf,$waterfall,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4483,7 +4483,7 @@
                         "chest_unopened_img": "images/locations/rangerm_leppaberry.png",
                         "chest_opened_img": "images/locations/rangerm_leppaberry_grayscale.png",
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -4509,7 +4509,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4535,7 +4535,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4548,7 +4548,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4763,7 +4763,7 @@
                     {
                         "name": "Item near northern ledges",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4772,7 +4772,7 @@
                     {
                         "name": "South item",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4781,7 +4781,7 @@
                     {
                         "name": "Item on cliff behind boulder",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4790,7 +4790,7 @@
                     {
                         "name": "Item near stairs to Giant Chasm",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4799,7 +4799,7 @@
                     {
                         "name": "Item in shallow water",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4843,7 +4843,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4854,7 +4854,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4865,7 +4865,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4876,7 +4876,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4921,7 +4921,7 @@
                         "chest_unopened_img": "images/locations/veteranm_splashplate.png",
                         "chest_opened_img": "images/locations/veteranm_splashplate_grayscale.png",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4958,7 +4958,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4984,7 +4984,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4997,7 +4997,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5047,7 +5047,7 @@
                     {
                         "name": "Item near dark grass",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5056,7 +5056,7 @@
                     {
                         "name": "North item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5067,7 +5067,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5078,7 +5078,7 @@
                         "chest_unopened_img": "images/locations/sagegiallo_tm.png",
                         "chest_opened_img": "images/locations/sagegiallo_tm_grayscale.png",
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5087,7 +5087,7 @@
                     {
                         "name": "Sage Giallo (Event)",
                         "access_rules": [
-                            "@Route 14 Access,hm03surf,hm05waterfall"
+                            "@Route 14 Access,$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt,show_items",
@@ -5141,7 +5141,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5154,7 +5154,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5204,7 +5204,7 @@
                     {
                         "name": "Item in dark grass",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5213,7 +5213,7 @@
                     {
                         "name": "South east item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5294,7 +5294,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5331,7 +5331,7 @@
                     {
                         "name": "Item near dark grass",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5340,7 +5340,7 @@
                     {
                         "name": "Item near eastern gate",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5349,7 +5349,7 @@
                     {
                         "name": "Item near Lostlorn Forest entrance",
                         "access_rules": [
-                            "hm01cut"
+                            "$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5375,7 +5375,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5412,7 +5412,7 @@
                     {
                         "name": "South east item",
                         "access_rules": [
-                            "hm03surf,"
+                            "$surf,"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5421,7 +5421,7 @@
                     {
                         "name": "South west item",
                         "access_rules": [
-                            "hm03surf,"
+                            "$surf,"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5432,7 +5432,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5443,7 +5443,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5454,7 +5454,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5465,7 +5465,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5478,7 +5478,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5491,7 +5491,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5541,7 +5541,7 @@
                     {
                         "name": "East item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5550,7 +5550,7 @@
                     {
                         "name": "North item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5568,7 +5568,7 @@
                     {
                         "name": "Ravine item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5577,7 +5577,7 @@
                     {
                         "name": "South item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5588,7 +5588,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5599,7 +5599,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5610,7 +5610,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5643,7 +5643,7 @@
                         "chest_unopened_img": "images/events/rangerm_larvesta.png",
                         "chest_opened_img": "images/events/rangerm_larvesta_grayscale.png",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5669,7 +5669,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5695,7 +5695,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5708,7 +5708,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5806,7 +5806,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5819,7 +5819,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5926,7 +5926,7 @@
                     {
                         "name": "Ruins - Item behind broken wall",
                         "access_rules": [
-                            "@Dreamyard Access,hm01cut"
+                            "@Dreamyard Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5935,7 +5935,7 @@
                     {
                         "name": "Ruins - North west item",
                         "access_rules": [
-                            "@Dreamyard Access,hm01cut"
+                            "@Dreamyard Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5944,7 +5944,7 @@
                     {
                         "name": "Ruins 2F - East item",
                         "access_rules": [
-                            "@Dreamyard Access,hm01cut"
+                            "@Dreamyard Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5953,7 +5953,7 @@
                     {
                         "name": "Ruins 2F - West item",
                         "access_rules": [
-                            "@Dreamyard Access,hm01cut"
+                            "@Dreamyard Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6079,7 +6079,7 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm01cut",
+                            "$cut",
                             "@Dreamyard Basement Access"
                         ],
                         "visibility_rules": [
@@ -6106,7 +6106,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm01cut",
+                            "triobadge,$cut",
                             "@Dreamyard Basement Access,triobadge"
                         ],
                         "visibility_rules": [
@@ -6155,7 +6155,7 @@
                     {
                         "name": "1F - North east item",
                         "access_rules": [
-                            ""
+                            "$rock_smash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6164,7 +6164,7 @@
                     {
                         "name": "1F - South item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6173,7 +6173,7 @@
                     {
                         "name": "1F - West item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6184,7 +6184,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+							"^$hidden, $rock_smash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6195,7 +6195,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6204,7 +6204,7 @@
                     {
                         "name": "B1F - Item east of trainers",
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6213,7 +6213,7 @@
                     {
                         "name": "B1F - Item south of trainers",
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6222,7 +6222,7 @@
                     {
                         "name": "B1F - North item",
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6231,7 +6231,7 @@
                     {
                         "name": "B1F - South item",
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6242,7 +6242,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$flash,^$hidden"
+                            "$surf,^$flash,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6253,7 +6253,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$flash,^$hidden"
+                            "$surf,^$flash,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6264,7 +6264,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$flash,^$hidden"
+                            "$surf,^$flash,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6275,7 +6275,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$flash,^$hidden"
+                            "$surf,^$flash,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6314,7 +6314,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6327,7 +6327,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6366,7 +6366,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6379,7 +6379,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,triobadge,^$flash"
+                            "$surf,triobadge,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6392,7 +6392,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$flash"
+                            "$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6405,7 +6405,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$flash"
+                            "triobadge,$surf,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6418,7 +6418,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,superrod,^$flash"
+                            "$surf,superrod,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6431,7 +6431,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,triobadge,superrod,^$flash"
+                            "$surf,triobadge,superrod,^$flash"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6726,7 +6726,7 @@
                     {
                         "name": "East Inside - Item near water #2",
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access,hm03surf"
+                            "@Pinwheel Forest Inner East Side Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6839,7 +6839,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,hm03surf"
+                            "@Pinwheel Forest Inner Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6852,7 +6852,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,triobadge,hm03surf"
+                            "@Pinwheel Forest Inner Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8256,7 +8256,7 @@
                     {
                         "name": "1F - North east item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8265,7 +8265,7 @@
                     {
                         "name": "1F - North west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8276,7 +8276,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8287,7 +8287,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8296,7 +8296,7 @@
                     {
                         "name": "2F - Item near stairs to Guidance Chamber",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8305,7 +8305,7 @@
                     {
                         "name": "2F - North west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8314,7 +8314,7 @@
                     {
                         "name": "2F - South item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8325,7 +8325,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8336,7 +8336,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8347,7 +8347,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8356,7 +8356,7 @@
                     {
                         "name": "Guidance Chamber - North east item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8365,7 +8365,7 @@
                     {
                         "name": "Guidance Chamber - North west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8374,7 +8374,7 @@
                     {
                         "name": "Guidance Chamber - South west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8385,7 +8385,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8396,7 +8396,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden"
+                            "$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8405,7 +8405,7 @@
                     {
                         "name": "Guidance Chamber - Cobalion (Event)",
                         "access_rules": [
-                            "@Mistralton Cave Access,hm04strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "goal_cobalion,show_items",
@@ -8446,7 +8446,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8459,7 +8459,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm04strength"
+                            "triobadge,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8470,7 +8470,7 @@
                         "chest_unopened_img": "images/events/goalcobalion.png",
                         "chest_opened_img": "images/events/goalcobalion_grayscale.png",
                         "access_rules": [
-                            "hm04strength, ^$static_encounter"
+                            "$strength, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8483,7 +8483,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8496,7 +8496,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm04strength"
+                            "triobadge,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8642,8 +8642,8 @@
                     },
                     {
                         "name": "Outside - TM from Alder",
-                        "chest_unopened_img": "images/locations/alder_hm03surf.png",
-                        "chest_opened_img": "images/locations/alder_hm03surf_grayscale.png",
+                        "chest_unopened_img": "images/locations/alder_$surf.png",
+                        "chest_opened_img": "images/locations/alder_$surf_grayscale.png",
                         "access_rules": [
                             "@Route 7 Access"
                         ],
@@ -9479,7 +9479,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,hm03surf,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9492,7 +9492,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,hm03surf,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9596,7 +9596,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,hm03surf,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9609,7 +9609,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,hm03surf,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9713,7 +9713,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,hm03surf,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9726,7 +9726,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,hm03surf,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9843,7 +9843,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,hm03surf,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9856,7 +9856,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,hm03surf,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9950,7 +9950,7 @@
                     {
                         "name": "Item behind boulder #1",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9959,7 +9959,7 @@
                     {
                         "name": "Item behind boulder #2",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10014,9 +10014,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm04strength,^$hidden,^$season|spring",
-                            "hm04strength,^$hidden,^$season|summer",
-                            "hm04strength,^$hidden,^$season|autumn"
+                            "$strength,^$hidden,^$season|spring",
+                            "$strength,^$hidden,^$season|summer",
+                            "$strength,^$hidden,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -10064,7 +10064,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|spring"
+                            "$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10077,7 +10077,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|spring"
+                            "triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10129,7 +10129,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10142,7 +10142,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|summer"
+                            "triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10194,7 +10194,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|autumn"
+                            "$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10207,7 +10207,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|autumn"
+                            "triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10246,7 +10246,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|winter"
+                            "$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10259,7 +10259,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|winter"
+                            "triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10272,7 +10272,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,superrod,^$season|winter"
+                            "$surf,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10285,7 +10285,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,superrod,^$season|winter"
+                            "triobadge,$surf,superrod,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10344,7 +10344,7 @@
                     {
                         "name": "B1F - South item",
                         "access_rules": [
-                            ""
+                            "$rock_smash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10375,7 +10375,7 @@
                     {
                         "name": "B2F - Item near eastern ledge",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10384,7 +10384,7 @@
                     {
                         "name": "B2F - Item near stairs #1",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10393,7 +10393,7 @@
                     {
                         "name": "B2F - Item near stairs #2",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10402,7 +10402,7 @@
                     {
                         "name": "B2F - Item on island",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10411,7 +10411,7 @@
                     {
                         "name": "B2F - South east item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10422,7 +10422,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10433,7 +10433,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10444,7 +10444,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10455,7 +10455,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10466,7 +10466,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10557,7 +10557,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10570,7 +10570,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10728,7 +10728,7 @@
                     {
                         "name": "1F - Center cavern item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10737,7 +10737,7 @@
                     {
                         "name": "1F - Eastern cavern item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10895,7 +10895,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10908,7 +10908,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10999,7 +10999,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11012,7 +11012,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11515,7 +11515,7 @@
                     {
                         "name": "Item on northern island",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11524,7 +11524,7 @@
                     {
                         "name": "Item on southern island",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11620,7 +11620,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11633,7 +11633,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11683,7 +11683,7 @@
                     {
                         "name": "Entrance Cave - North east item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11692,7 +11692,7 @@
                     {
                         "name": "Entrance Cave - North west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11701,7 +11701,7 @@
                     {
                         "name": "Entrance Cave - South west item",
                         "access_rules": [
-                            "hm04strength"
+                            "$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11743,7 +11743,7 @@
                     {
                         "name": "Crater - Item near lake",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11752,7 +11752,7 @@
                     {
                         "name": "Crater - Item near northern stairs #1",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11761,7 +11761,7 @@
                     {
                         "name": "Crater - Item near northern stairs #2",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11770,7 +11770,7 @@
                     {
                         "name": "Crater - North west item #1",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11779,7 +11779,7 @@
                     {
                         "name": "Crater - North west item #2",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11788,7 +11788,7 @@
                     {
                         "name": "Crater - South east item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11797,7 +11797,7 @@
                     {
                         "name": "Crater - South west item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11806,7 +11806,7 @@
                     {
                         "name": "Crater - West item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11895,7 +11895,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11908,7 +11908,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12023,7 +12023,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12036,7 +12036,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12110,7 +12110,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12123,7 +12123,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|spring"
+                            "$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12136,7 +12136,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|spring"
+                            "triobadge,$surf,^$season|spring"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12175,7 +12175,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|summer"
+                            "$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12188,7 +12188,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|summer"
+                            "triobadge,$surf,^$season|summer"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12227,7 +12227,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|autumn"
+                            "$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12240,7 +12240,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|autumn"
+                            "triobadge,$surf,^$season|autumn"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12279,7 +12279,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,^$season|winter"
+                            "$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12292,7 +12292,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf,^$season|winter"
+                            "triobadge,$surf,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12747,7 +12747,7 @@
                     {
                         "name": "4F - Item",
                         "access_rules": [
-                            "tm70flash,hm04strength"
+                            "tm70flash,$strength"
                         ],
                         "visibility_rules": [
                             "show_items,show_abyssalruins"
@@ -12798,7 +12798,7 @@
                     {
                         "name": "East item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12807,7 +12807,7 @@
                     {
                         "name": "North east item",
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12851,7 +12851,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12862,7 +12862,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,^$hidden"
+                            "$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12925,7 +12925,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12938,7 +12938,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13080,7 +13080,7 @@
                     {
                         "name": "Item in dark grass",
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -13091,7 +13091,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "hm03surf,hm05waterfall,^$hidden"
+                            "$surf,$waterfall,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -13130,7 +13130,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf,hm05waterfall"
+                            "$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13156,7 +13156,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "hm03surf"
+                            "$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -13169,7 +13169,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,hm03surf"
+                            "triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"

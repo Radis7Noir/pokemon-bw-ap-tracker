@@ -131,6 +131,9 @@ function onClear(slot_data)
     end
 
     -- Main Slot Data Processing
+	local hm_with_badges_found = false
+	local add_rock_smash_found = false
+	local add_ss_ticket_found = false
     for k, v in pairs(slot_data.options) do
         if k == "season_control" then
             local item = Tracker:FindObjectForCode("season_control")
@@ -164,6 +167,45 @@ function onClear(slot_data)
                 item.CurrentStage = 1
             elseif v == "anything" then
                 item.CurrentStage = 2
+            end
+        elseif k == "hm_with_badges" then
+			hm_with_badges_found = true
+            local cut_requirement = Tracker:FindObjectForCode("hm01cut")
+            local surf_requirement = Tracker:FindObjectForCode("hm03surf")
+            local strength_requirement = Tracker:FindObjectForCode("hm04strength")
+            local waterfall_requirement = Tracker:FindObjectForCode("hm05waterfall")
+            local dive_requirement = Tracker:FindObjectForCode("hm06dive")
+            local rock_mash_requirement = Tracker:FindObjectForCode("tm94rocksmash")
+            if v == "true" then
+                cut_requirement.CurrentStage = 0
+                surf_requirement.CurrentStage = 0
+                strength_requirement.CurrentStage = 0
+                waterfall_requirement.CurrentStage = 0
+                dive_requirement.CurrentStage = 0
+                rock_smash_requirement.CurrentStage = 0
+			else
+                cut_requirement.CurrentStage = 1
+                surf_requirement.CurrentStage = 1
+                strength_requirement.CurrentStage = 1
+                waterfall_requirement.CurrentStage = 1
+                dive_requirement.CurrentStage = 1
+                rock_smash_requirement.CurrentStage = 1
+			end
+        elseif k == "add_rock_smash" then
+			add_rocksmash_found = true
+            local item = Tracker:FindObjectForCode("add_rocksmash")
+            if v == "true" then
+                item.CurrentStage = 1
+            else
+                item.CurrentStage = 0
+            end
+        elseif k == "add_ss_ticket" then
+			add_rocksmash_found = true
+            local item = Tracker:FindObjectForCode("add_ssticket")
+            if v == "true" then
+                item.CurrentStage = 1
+            else
+                item.CurrentStage = 0
             end
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
@@ -201,7 +243,24 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
     end
-    
+
+	if not hm_with_badges_found then
+		Tracker:FindObjectForCode("hm01cut").CurrentStage = 1
+		Tracker:FindObjectForCode("hm03surf").CurrentStage = 1
+		Tracker:FindObjectForCode("hm04strength").CurrentStage = 1
+		Tracker:FindObjectForCode("hm05waterfall").CurrentStage = 1
+		Tracker:FindObjectForCode("hm06dive").CurrentStage = 1
+		Tracker:FindObjectForCode("tm94rocksmash").CurrentStage = 1
+	end
+
+	if not add_rocksmash_found then
+		Tracker:FindObjectForCode("add_rocksmash").CurrentStage = 0
+	end
+
+	if not add_ssticket_found then
+		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
+	end
+
     for k, v in pairs(slot_data) do
         if k == "dexsanity_pokemon" then
             local active = {}
@@ -254,7 +313,7 @@ function resetItem(code, type)
         elseif type == "flash_tm" then
             obj.AcquiredCount = 0
             Tracker:FindObjectForCode("tm70flash").Active = false
-        elseif type == "rocksmash_tm" then
+        elseif type == "rock_smash_tm" then
             obj.AcquiredCount = 0
             Tracker:FindObjectForCode("tm94rocksmash").Active = false
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -306,6 +365,9 @@ function onItem(index, item_id, item_name, player_number)
 			elseif v[2] == "flash_tm" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
                 Tracker:FindObjectForCode("tm70flash").Active = true
+			elseif v[2] == "rock_smash_tm" then
+                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+                Tracker:FindObjectForCode("tm94rocksmash").Active = true
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onItem: unknown item type %s for code %s", v[2], code))
             end

@@ -22,27 +22,28 @@
     "access_rules": [
       "@Nuvema Town Access",
 	  "@Accumula Town Access",
-	  "@Route 17 Access,hm03surf"
+	  "@Route 17 Access,$surf"
     ]
   },
   {
     "name": "Route 17 Access",
     "access_rules": [
-      "@Route 1 Access,hm03surf",
-	  "@Route 18 Access,hm03surf",
-	  "@P2 Laboratory Access,hm03surf"
+      "@Route 1 Access,$surf",
+	  "@Route 18 Access,$surf",
+	  "@P2 Laboratory Access,$surf"
     ]
   },
   {
     "name": "Route 18 Access",
     "access_rules": [
-      "@Route 17 Access,hm03surf"
+      "@Route 17 Access,$surf"
     ]
   },
   {
     "name": "P2 Laboratory Access",
     "access_rules": [
-      "@Route 17 Access,hm03surf"
+      "@Route 17 Access,$surf",
+	  "@Liberty Garden Access,add_ssticket_true"
     ]
   },
   {
@@ -90,7 +91,8 @@
   {
     "name": "Wellspring Cave Access",
     "access_rules": [
-      "@Route 3 North Access"
+      "@Route 3 North Access",
+	  "@Challenger's Cave Access, $can_rock_smash"
     ]
   },
   {
@@ -153,7 +155,9 @@
   {
     "name": "Liberty Garden Access",
     "access_rules": [
-      "@Castelia City Access,libertypass"
+      "@Castelia City Access,libertypass",
+	  "@P2 Laboratory Access,add_ssticket_true,libertypass",
+	  "@Undella Town Access,add_ssticket_true,libertypass,ssticket"
     ]
   },
   {
@@ -231,14 +235,14 @@
     "name": "Route 6 Access",
     "access_rules": [
       "@Driftveil City Access",
-      "@Mistralton Cave Access,hm03surf,hm04strength,^$flash",
+      "@Mistralton Cave Access,$surf,hm04strength,^$flash",
       "@Chargestone Cave Access,quakebadge"
     ]
   },
   {
     "name": "Mistralton Cave Access",
     "access_rules": [
-      "@Route 6 Access,hm03surf,^$flash"
+      "@Route 6 Access,$surf,^$flash"
     ]
   },
   {
@@ -296,13 +300,13 @@
     "access_rules": [
       "@Dragonspiral Tower Entrance Access",
       "@Dragonspiral Tower Access,defeatbrycen",
-      "@Dragonspiral Tower Outside East Access,defeatbrycen,hm03surf"
+      "@Dragonspiral Tower Outside East Access,defeatbrycen,$surf"
     ]
   },
   {
     "name": "Dragonspiral Tower Outside East Access",
     "access_rules": [
-      "@Dragonspiral Tower Outside Access,defeatbrycen,hm03surf"
+      "@Dragonspiral Tower Outside Access,defeatbrycen,$surf"
     ]
   },
   {
@@ -325,7 +329,7 @@
 	  "@Route 8 Access,^$season|spring",
 	  "@Route 8 Access,^$season|summer",
 	  "@Route 8 Access,^$season|autumn",
-	  "@Route 8 Access,hm03surf",
+	  "@Route 8 Access,$surf",
       "@Moor of Icirrus Access"
     ]
   },
@@ -353,7 +357,8 @@
   {
     "name": "Challenger's Cave Access",
     "access_rules": [
-      "@Route 9 Access,redchain,^$flash"
+      "@Route 9 Access,redchain,^$flash",
+	  "@Wellspring Cave Access, ^$flash, $can_rock_smash"
     ]
   },
   {
@@ -430,42 +435,43 @@
     "name": "Route 13 Access",
     "access_rules": [
       "@Lacunosa Town Access",
-      "@Giant Chasm Access,hm03surf",
-      "@Undella Town Access"
+      "@Giant Chasm Access,$surf",
+      "@Undella Town Access,$rock_smash"
     ]
   },
   {
     "name": "Giant Chasm Access",
     "access_rules": [
-      "@Route 13 Access,hm03surf"
+      "@Route 13 Access,$surf"
     ]
   },
   {
     "name": "Undella Town Access",
     "access_rules": [
-      "@Route 13 Access",
+      "@Route 13 Access,$rock_smash",
       "@Undella Bay Access",
-      "@Route 14 Access"
+      "@Route 14 Access",
+	  "@Liberty Garden Access,add_ssticket_true,ssticket"
     ]
   },
   {
     "name": "Undella Bay Access",
     "access_rules": [
       "@Undella Town Access",
-      "@Abyssal Ruins Access,hm03surf,hm06dive"
+      "@Abyssal Ruins Access,$surf,$dive"
     ]
   },
   {
     "name": "Abyssal Ruins Access",
     "access_rules": [
-      "@Undella Bay Access,hm03surf,hm06dive"
+      "@Undella Bay Access,$surf,$dive"
     ]
   },
   {
     "name": "Route 14 Access",
     "access_rules": [
       "@Undella Town Access",
-      "@Abundant Shrine Access,hm03surf,hm05waterfall",
+      "@Abundant Shrine Access,$surf,$waterfall",
       "@Black City Access",
 	  "@White Forest Access"
     ]
@@ -473,7 +479,7 @@
   {
     "name": "Abundant Shrine Access",
     "access_rules": [
-      "@Route 14 Access,hm03surf,hm05waterfall"
+      "@Route 14 Access,$surf,$waterfall"
     ]
   },
   {
