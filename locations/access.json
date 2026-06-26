@@ -92,7 +92,7 @@
     "name": "Wellspring Cave Access",
     "access_rules": [
       "@Route 3 North Access",
-	  "@Challenger's Cave Access, $can_rock_smash"
+	  "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_true"
     ]
   },
   {
@@ -358,7 +358,7 @@
     "name": "Challenger's Cave Access",
     "access_rules": [
       "@Route 9 Access,redchain,^$flash",
-	  "@Wellspring Cave Access, ^$flash, $can_rock_smash"
+	  "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_true"
     ]
   },
   {
