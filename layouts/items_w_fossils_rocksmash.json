@@ -42,8 +42,8 @@
                                 "hm05waterfall",
                                 "hm06dive",
                                 "tm70flash",
-                                "ownedtms",
-                                "dowsingmchn"
+								"tm94rocksmash",
+                                "ownedtms"
                             ],
                             [
                                 "parcel",
@@ -54,7 +54,7 @@
                                 "darkstone",
                                 "oaksletter",
                                 "bluecard",
-                                "superrod"
+								"dowsingmchn"
                             ],
                             [
                                 "basementkey",
@@ -64,7 +64,8 @@
                                 "redchain",
                                 "gram",
                                 "ragecandybar",
-                                "oldamber"
+                                "oldamber",
+								"superrod"
                             ],
                             [
                                 "helixfossil",
@@ -125,7 +126,7 @@
                                 "hm05waterfall",
                                 "hm06dive",
                                 "tm70flash",
-                                "ownedtms"
+                                "tm94rocksmash"
                             ],
                             [
                                 "parcel",
@@ -145,9 +146,10 @@
                                 "redchain",
                                 "gram",
                                 "dowsingmchn",
-                                "superrod"
+								"ownedtms"
                             ],
                             [
+                                "superrod",
                                 "ragecandybar",
                                 "helixfossil",
                                 "domefossil",

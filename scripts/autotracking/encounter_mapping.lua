@@ -481,5 +481,8 @@ ENCOUNTER_MAPPING = {
 	["Landorus_Static"] = "@Unova Locations/Abundant Shrine/Landorus (Static)",
 	["Kyurem_Static"] = "@Unova Locations/Giant Chasm/Kyurem's Cave - Kyurem (Static)",
 	["Tornadus_Roamer"] = "@Unova Locations/Roamer/Tornadus (Roamer)",
-	["Thundurus_Roamer"] = "@Unova Locations/Roamer/Thundurus (Roamer)"
+	["Thundurus_Roamer"] = "@Unova Locations/Roamer/Thundurus (Roamer)",
+	["Dwebble_R13"] = "@Unova Locations/Route 13/Rock Smash Dwebble",
+	["Dwebble_WC"] = "@Unova Locations/Wellspring Cave/1F - Rock Smash Dwebble",
+	["Dwebble_CC"] = "@Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble"
 }

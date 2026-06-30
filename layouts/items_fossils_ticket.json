@@ -51,7 +51,7 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "darkstone",
+                                "lightstone",
                                 "oaksletter",
                                 "bluecard",
                                 "superrod"
@@ -59,7 +59,7 @@
                             [
                                 "basementkey",
                                 "lockcapsule",
-                                "libertypass",
+                                "ssticketlibertypass",
                                 "explorerkit",
                                 "redchain",
                                 "gram",
@@ -133,14 +133,14 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "darkstone",
+                                "lightstone",
                                 "oaksletter",
                                 "bluecard"
                             ],
                             [
                                 "basementkey",
                                 "lockcapsule",
-                                "libertypass",
+                                "ssticketlibertypass",
                                 "explorerkit",
                                 "redchain",
                                 "gram",

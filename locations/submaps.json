@@ -2998,6 +2998,10 @@
                         "ref": "Unova Locations/Wellspring Cave/1F - Rod Phenomena"
                     },
                     {
+                        "name": "1F - Rock Smash Dwebble",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rock Smash Dwebble"
+                    },
+                    {
                         "name": "B1F - Land Encounters",
                         "ref": "Unova Locations/Wellspring Cave/B1F - Land Encounters"
                     },
@@ -4695,6 +4699,10 @@
                         "ref": "Unova Locations/Challenger's Cave/B1F - Land Phenomena"
                     },
                     {
+                        "name": "B1F - Rock Smash Dwebble",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble"
+                    },
+                    {
                         "name": "B2F - Land Encounters",
                         "ref": "Unova Locations/Challenger's Cave/B2F - Land Encounters"
                     },
@@ -5875,6 +5883,10 @@
                     {
                         "name": "Rod Phenomena",
                         "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Route 13/Rock Smash Dwebble"
                     }
                 ],
                 "map_locations": [
@@ -7170,6 +7182,10 @@
                     {
                         "name": "Rod Phenomena",
                         "ref": "Unova Locations/Wellspring Cave/1F - Rod Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rock Smash Dwebble"
                     }
                 ],
                 "map_locations": [
@@ -12058,6 +12074,10 @@
                     {
                         "name": "Land Phenomena",
                         "ref": "Unova Locations/Challenger's Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble"
                     }
 			    ],
                 "map_locations": [

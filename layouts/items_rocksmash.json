@@ -11,13 +11,12 @@
                 "content": [
                     {
                         "type": "itemgrid",
-						"margin": "24,0",
                         "item_margin": "2,0",
                         "item_size": "32,48",
                         "h_alignment": "center",
                         "rows": [
                             [
-								"triobadge",
+                                "triobadge",
                                 "basicbadge",
                                 "insectbadge",
                                 "boltbadge",
@@ -42,8 +41,7 @@
                                 "hm05waterfall",
                                 "hm06dive",
                                 "tm70flash",
-                                "ownedtms",
-                                "dowsingmchn"
+                                "tm94rocksmash"
                             ],
                             [
                                 "parcel",
@@ -51,10 +49,9 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "darkstone",
+                                "lightstone",
                                 "oaksletter",
-                                "bluecard",
-                                "superrod"
+                                "bluecard"
                             ],
                             [
                                 "basementkey",
@@ -63,18 +60,8 @@
                                 "explorerkit",
                                 "redchain",
                                 "gram",
-                                "ragecandybar",
-                                "oldamber"
-                            ],
-                            [
-                                "helixfossil",
-                                "domefossil",
-                                "rootfossil",
-                                "clawfossil",
-                                "skullfossil",
-                                "armorfossil",
-                                "coverfossil",
-                                "plumefossil"
+                                "dowsingmchn",
+                                "ownedtms"
                             ]
                         ]
                     }
@@ -94,13 +81,12 @@
                 "content": [
                     {
                         "type": "itemgrid",
-						"margin": "5,0",
                         "item_margin": "2,0",
                         "item_size": "32,48",
                         "h_alignment": "center",
                         "rows": [
                             [
-								"triobadge",
+                                "triobadge",
                                 "basicbadge",
                                 "insectbadge",
                                 "boltbadge",
@@ -125,7 +111,7 @@
                                 "hm05waterfall",
                                 "hm06dive",
                                 "tm70flash",
-                                "ownedtms"
+                                "tm94rocksmash"
                             ],
                             [
                                 "parcel",
@@ -133,7 +119,7 @@
                                 "dragonskull",
                                 "machinepart",
                                 "tidalbell",
-                                "darkstone",
+                                "lightstone",
                                 "oaksletter",
                                 "bluecard"
                             ],
@@ -145,21 +131,7 @@
                                 "redchain",
                                 "gram",
                                 "dowsingmchn",
-                                "superrod"
-                            ],
-                            [
-                                "ragecandybar",
-                                "helixfossil",
-                                "domefossil",
-                                "oldamber",
-                                "rootfossil",
-                                "clawfossil"
-                            ],
-                            [
-                                "skullfossil",
-                                "armorfossil",
-                                "coverfossil",
-                                "plumefossil"
+                                "ownedtms"
                             ]
                         ]
                     }
