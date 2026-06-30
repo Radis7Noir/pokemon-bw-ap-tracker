@@ -300,7 +300,7 @@
         "codes": "ssticket"
     },
 	{
-		"name": "Tickets - Liberty Pass & S.S. Ticket",
+		"name": "Liberty Pass & S.S. Ticket",
 		"type": "composite_toggle",
 		"codes": "ssticketlibertypass",
 		"item_left": "libertypass",
