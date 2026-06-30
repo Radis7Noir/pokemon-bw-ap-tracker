@@ -13056,7 +13056,7 @@
                         "chest_unopened_img": "images/locations/backerf_bigmushroom.png",
                         "chest_opened_img": "images/locations/backerf_bigmushroom_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Village Bridge Access"
                         ],
                         "visibility_rules": [
                             "show_items"
