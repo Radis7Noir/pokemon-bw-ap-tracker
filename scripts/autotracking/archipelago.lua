@@ -104,7 +104,10 @@ function onClear(slot_data)
 		Landorus_Static = 645,
 		Kyurem_Static = 646,
 		Tornadus_Roamer = 641,
-		Thundurus_Roamer = 642
+		Thundurus_Roamer = 642,
+		Dwebble_R13 = 557,
+		Dwebble_WC = 557,
+		Dwebble_CC = 557
 		
     }
     
@@ -168,44 +171,41 @@ function onClear(slot_data)
             elseif v == "anything" then
                 item.CurrentStage = 2
             end
-        elseif k == "hm_with_badges" then
-			hm_with_badges_found = true
-            local cut_requirement = Tracker:FindObjectForCode("hm01cut")
-            local surf_requirement = Tracker:FindObjectForCode("hm03surf")
-            local strength_requirement = Tracker:FindObjectForCode("hm04strength")
-            local waterfall_requirement = Tracker:FindObjectForCode("hm05waterfall")
-            local dive_requirement = Tracker:FindObjectForCode("hm06dive")
-            local rock_mash_requirement = Tracker:FindObjectForCode("tm94rocksmash")
-            if v == "true" then
-                cut_requirement.CurrentStage = 0
-                surf_requirement.CurrentStage = 0
-                strength_requirement.CurrentStage = 0
-                waterfall_requirement.CurrentStage = 0
-                dive_requirement.CurrentStage = 0
-                rock_smash_requirement.CurrentStage = 0
-			else
-                cut_requirement.CurrentStage = 1
-                surf_requirement.CurrentStage = 1
-                strength_requirement.CurrentStage = 1
-                waterfall_requirement.CurrentStage = 1
-                dive_requirement.CurrentStage = 1
-                rock_smash_requirement.CurrentStage = 1
-			end
-        elseif k == "add_rock_smash" then
-			add_rocksmash_found = true
-            local item = Tracker:FindObjectForCode("add_rocksmash")
-            if v == "true" then
-                item.CurrentStage = 1
-            else
-                item.CurrentStage = 0
+        elseif k == "plugin_options" then
+            local extra_logic = v.extra_logic or {}
+            if extra_logic.hm_with_badges ~= nil then
+                hm_with_badges_found = true
+                local cut_requirement = Tracker:FindObjectForCode("hm01cut")
+                local surf_requirement = Tracker:FindObjectForCode("hm03surf")
+                local strength_requirement = Tracker:FindObjectForCode("hm04strength")
+                local waterfall_requirement = Tracker:FindObjectForCode("hm05waterfall")
+                local dive_requirement = Tracker:FindObjectForCode("hm06dive")
+                local rock_smash_requirement = Tracker:FindObjectForCode("tm94rocksmash")
+                if extra_logic.hm_with_badges == true then
+                    cut_requirement.CurrentStage = 0
+                    surf_requirement.CurrentStage = 0
+                    strength_requirement.CurrentStage = 0
+                    waterfall_requirement.CurrentStage = 0
+                    dive_requirement.CurrentStage = 0
+                    rock_smash_requirement.CurrentStage = 0
+                else
+                    cut_requirement.CurrentStage = 1
+                    surf_requirement.CurrentStage = 1
+                    strength_requirement.CurrentStage = 1
+                    waterfall_requirement.CurrentStage = 1
+                    dive_requirement.CurrentStage = 1
+                    rock_smash_requirement.CurrentStage = 1
+                end
             end
-        elseif k == "add_ss_ticket" then
-			add_rocksmash_found = true
-            local item = Tracker:FindObjectForCode("add_ssticket")
-            if v == "true" then
-                item.CurrentStage = 1
-            else
-                item.CurrentStage = 0
+            if extra_logic.add_rock_smash ~= nil then
+                add_rock_smash_found = true
+                local item = Tracker:FindObjectForCode("add_rocksmash")
+                item.CurrentStage = extra_logic.add_rock_smash == true and 1 or 0
+            end
+            if extra_logic.add_ss_ticket ~= nil then
+                add_ss_ticket_found = true
+                local item = Tracker:FindObjectForCode("add_ssticket")
+                item.CurrentStage = extra_logic.add_ss_ticket == true and 1 or 0
             end
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
@@ -253,11 +253,11 @@ function onClear(slot_data)
 		Tracker:FindObjectForCode("tm94rocksmash").CurrentStage = 1
 	end
 
-	if not add_rocksmash_found then
+	if not add_rock_smash_found then
 		Tracker:FindObjectForCode("add_rocksmash").CurrentStage = 0
 	end
 
-	if not add_ssticket_found then
+	if not add_ss_ticket_found then
 		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
 	end
 

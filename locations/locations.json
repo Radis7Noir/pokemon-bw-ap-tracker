@@ -5028,7 +5028,18 @@
                         "visibility_rules": [
                             "show_mons"
                         ]
-                    }
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "chest_unopened_img": "images/events/dwebble.png",
+                        "chest_opened_img": "images/events/dwebble_cleared.png",
+                        "access_rules": [
+                            "$can_rock_smash, ^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "add_rocksmash_true, show_mons"
+                        ]
+                    },
                 ],
                 "map_locations": [
                     {
@@ -6357,6 +6368,17 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
+                        ]
+                    },
+                    {
+                        "name": "1F - Rock Smash Dwebble",
+                        "chest_unopened_img": "images/events/dwebble.png",
+                        "chest_opened_img": "images/events/dwebble_cleared.png",
+                        "access_rules": [
+                            "$can_rock_smash, ^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "add_rocksmash_true, show_mons"
                         ]
                     },
                     {
@@ -10522,6 +10544,17 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Rock Smash Dwebble",
+                        "chest_unopened_img": "images/events/dwebble.png",
+                        "chest_opened_img": "images/events/dwebble_cleared.png",
+                        "access_rules": [
+                            "$can_rock_smash, ^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "add_rocksmash_true, show_mons"
                         ]
                     },
                     {
