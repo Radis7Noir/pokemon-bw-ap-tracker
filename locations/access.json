@@ -113,22 +113,30 @@
     "name": "Pinwheel Forest Outside Access",
     "access_rules": [
       "@Nacrene City Access",
-      "@Pinwheel Forest Inner Access,lootsack"
+      "@Pinwheel Forest Inner Access,lootsack,pi_cut_trees_false",
+      "@Pinwheel Forest Inner Access,pi_cut_trees_true",
+      "@Skyarrow Bridge Access,dragonskull,$cut,pi_cut_trees_true"
     ]
   },
   {
     "name": "Pinwheel Forest Inner Access",
     "access_rules": [
       "@Pinwheel Forest Outside Access,lootsack",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman",
-      "@Skyarrow Bridge Access,dragonskull"
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,pi_cut_trees_false",
+      "@Skyarrow Bridge Access,dragonskull,pi_cut_trees_false",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,pi_cut_trees_true",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,pi_cut_trees_true",
+      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,pi_cut_trees_true"
+
     ]
   },
   {
     "name": "Pinwheel Forest Inner East Side Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,helpdaycareman",
-      "@Rumination Field Access,catchdefeatcobalion"
+      "@Pinwheel Forest Inner Access,helpdaycareman,pi_cut_trees_false",
+      "@Rumination Field Access,catchdefeatcobalion",
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,pi_cut_trees_true",
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,pi_cut_trees_true"
     ]
   },
   {
@@ -141,7 +149,8 @@
     "name": "Skyarrow Bridge Access",
     "access_rules": [
       "@Pinwheel Forest Inner Access,dragonskull",
-      "@Castelia City Access"
+      "@Castelia City Access",
+      "@Pinwheel Forest Outside Access,dragonskull,$cut,pi_cut_trees_true"
     ]
   },
   {

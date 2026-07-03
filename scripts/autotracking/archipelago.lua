@@ -137,6 +137,7 @@ function onClear(slot_data)
 	local hm_with_badges_found = false
 	local add_rock_smash_found = false
 	local add_ss_ticket_found = false
+    local pinwheel_cut_trees_found = false
     for k, v in pairs(slot_data.options) do
         if k == "season_control" then
             local item = Tracker:FindObjectForCode("season_control")
@@ -207,6 +208,11 @@ function onClear(slot_data)
                 local item = Tracker:FindObjectForCode("add_ssticket")
                 item.CurrentStage = extra_logic.add_ss_ticket == true and 1 or 0
             end
+            if extra_logic.pinwheel_cut_trees ~= nil then
+                pinwheel_cut_trees_found = true
+                local item = Tracker:FindObjectForCode("pi_cut_trees")
+                item.CurrentStage = extra_logic.pinwheel_cut_trees == true and 1 or 0
+            end
         elseif k == "modify_logic" then
             local require_flash = Tracker:FindObjectForCode("require_flash")
             local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
@@ -258,6 +264,10 @@ function onClear(slot_data)
 	end
 
 	if not add_ss_ticket_found then
+		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
+	end
+
+	if not pinwheel_cut_trees_found then
 		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
 	end
 

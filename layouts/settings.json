@@ -71,7 +71,8 @@
 				"require_flash",
 				"adjustlevels",
 				"add_ssticket",
-				"add_rocksmash"
+				"add_rocksmash",
+                "pi_cut_trees"
             ]
         ]
     },

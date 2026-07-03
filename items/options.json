@@ -3360,4 +3360,26 @@
             }
         ]
     },
+    {
+        "name": "Extra Logic - Pinwheel Cut trees",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pinwheel Cut Trees - OFF",
+                "img": "/images/settings/cut_tree.png",
+				"img_mods": "@disabled",
+                "codes": "pi_cut_trees,pi_cut_trees_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pinwheel Cut Trees - ON",
+                "img": "/images/settings/cut_tree.png",
+                "codes": "pi_cut_trees,pi_cut_trees_true",
+                "inherit_codes": false
+            }
+        ]
+    }
 ]
