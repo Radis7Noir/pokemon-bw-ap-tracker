@@ -4790,7 +4790,9 @@
                     {
                         "name": "Item near stairs to Giant Chasm",
                         "access_rules": [
-                            "$surf"
+                            "$surf",
+                            "$strength,mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5039,7 +5041,7 @@
                         "visibility_rules": [
                             "add_rocksmash_true, show_mons"
                         ]
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -6129,7 +6131,9 @@
                         "chest_unopened_img": "images/events/musharna.png",
                         "chest_opened_img": "images/events/musharna_grayscale.png",
                         "access_rules": [
-                            "@Dreamyard Basement Access, ^$static_encounter"
+                            "@Dreamyard Basement Access, ^$static_encounter, add_rocksmash_false",
+                            "@Dreamyard Basement Access, ^$static_encounter, add_rocksmash_true",
+                            "@Dreamyard Basement Access, ^$static_encounter, $can_rock_smash, add_rocksmash_musharna"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9360,7 +9364,9 @@
                     {
                         "name": "2F - Item on pillar",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9369,7 +9375,9 @@
                     {
                         "name": "2F - North east item",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9378,7 +9386,9 @@
                     {
                         "name": "3F - Item",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9387,7 +9397,9 @@
                     {
                         "name": "4F - Item",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9396,7 +9408,9 @@
                     {
                         "name": "5F - Item #1",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9405,7 +9419,9 @@
                     {
                         "name": "5F - Item #2",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9414,7 +9430,9 @@
                     {
                         "name": "5F - Item #3",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9423,7 +9441,9 @@
                     {
                         "name": "6F - Item",
                         "access_rules": [
-                            "@Dragonspiral Tower Access"
+                            "@Dragonspiral Tower Access,mo_strength_boulders_false",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_true",
+                            "@Dragonspiral Tower Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10716,7 +10736,9 @@
                     {
                         "name": "Outside - Item #2",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10725,7 +10747,9 @@
                     {
                         "name": "Outside - Item #3",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10734,7 +10758,9 @@
                     {
                         "name": "Outside - Item #4",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10752,7 +10778,9 @@
                     {
                         "name": "Outside - Item #6",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10781,7 +10809,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "mo_strength_boulders_false,^$hidden",
+                            "mo_strength_boulders_true,^$hidden",
+                            "$strength,mo_strength_boulders_vi_road,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10792,7 +10822,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "mo_strength_boulders_false,^$hidden",
+                            "mo_strength_boulders_true,^$hidden",
+                            "$strength,mo_strength_boulders_vi_road,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10812,7 +10844,9 @@
                     {
                         "name": "3F - Western cavern item",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10832,7 +10866,9 @@
                     {
                         "name": "4F - Western cavern item",
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10843,7 +10879,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "mo_strength_boulders_false,^$hidden",
+                            "mo_strength_boulders_true,^$hidden",
+                            "$strength,mo_strength_boulders_vi_road,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10854,7 +10892,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "mo_strength_boulders_false,^$hidden",
+                            "mo_strength_boulders_true,^$hidden",
+                            "$strength,mo_strength_boulders_vi_road,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10865,7 +10905,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "mo_strength_boulders_false,^$hidden",
+                            "mo_strength_boulders_true,^$hidden",
+                            "$strength,mo_strength_boulders_vi_road,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -10980,7 +11022,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10993,7 +11037,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$strength,mo_strength_boulders_vi_road,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11266,7 +11312,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11279,7 +11327,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$strength,mo_strength_boulders_vi_road,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11292,7 +11342,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11305,7 +11357,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$strength,mo_strength_boulders_vi_road,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11318,7 +11372,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11331,7 +11387,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$strength,mo_strength_boulders_vi_road,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11344,7 +11402,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11357,7 +11417,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$strength,mo_strength_boulders_vi_road,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -11776,7 +11838,7 @@
                     {
                         "name": "Crater - Item near lake",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11785,7 +11847,7 @@
                     {
                         "name": "Crater - Item near northern stairs #1",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11794,7 +11856,7 @@
                     {
                         "name": "Crater - Item near northern stairs #2",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11803,7 +11865,7 @@
                     {
                         "name": "Crater - North west item #1",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11812,7 +11874,7 @@
                     {
                         "name": "Crater - North west item #2",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11821,7 +11883,7 @@
                     {
                         "name": "Crater - South east item",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11830,7 +11892,7 @@
                     {
                         "name": "Crater - South west item",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11839,7 +11901,7 @@
                     {
                         "name": "Crater - West item",
                         "access_rules": [
-                            "$surf"
+                            ""
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11848,7 +11910,9 @@
                     {
                         "name": "Kyurem's Cave - Kyurem (Event)",
                         "access_rules": [
-                            "@Giant Chasm Access"
+                            "@Giant Chasm Access,mo_strength_boulders_false",
+                            "@Giant Chasm Access,mo_strength_boulders_true",
+                            "@Giant Chasm Access,$cut,mo_strength_boulders_kyurem"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt,show_items",
@@ -12017,7 +12081,9 @@
                         "chest_unopened_img": "images/events/kyurem.png",
                         "chest_opened_img": "images/events/kyurem_grayscale.png",
                         "access_rules": [
-                            "^$static_encounter"
+                            "mo_strength_boulders_false,^$static_encounter",
+                            "mo_strength_boulders_true,^$static_encounter",
+                            "$cut,mo_strength_boulders_kyurem,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12030,7 +12096,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "mo_strength_boulders_false",
+                            "mo_strength_boulders_true",
+                            "$cut,mo_strength_boulders_kyurem"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12043,7 +12111,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "mo_strength_boulders_false,triobadge",
+                            "mo_strength_boulders_true,triobadge",
+                            "$cut,mo_strength_boulders_kyurem,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12056,7 +12126,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf"
+                            "mo_strength_boulders_false,$surf",
+                            "mo_strength_boulders_true,$surf",
+                            "$cut,mo_strength_boulders_kyurem,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12069,7 +12141,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf"
+                            "mo_strength_boulders_false,triobadge,$surf",
+                            "mo_strength_boulders_true,triobadge,$surf",
+                            "$cut,mo_strength_boulders_kyurem,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12082,7 +12156,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod"
+                            "mo_strength_boulders_false,superrod",
+                            "mo_strength_boulders_true,superrod",
+                            "$cut,mo_strength_boulders_kyurem,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12095,7 +12171,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod"
+                            "mo_strength_boulders_false,triobadge,superrod",
+                            "mo_strength_boulders_true,triobadge,superrod",
+                            "$cut,mo_strength_boulders_kyurem,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"

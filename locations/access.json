@@ -43,7 +43,7 @@
     "name": "P2 Laboratory Access",
     "access_rules": [
       "@Route 17 Access,$surf",
-	  "@Liberty Garden Access,add_ssticket_true"
+	    "@Liberty Garden Access,add_ssticket_true"
     ]
   },
   {
@@ -71,20 +71,22 @@
     "name": "Dreamyard Access",
     "access_rules": [
       "@Striaton City Access",
-	  "@Dreamyard Basement Access,basementbey"
+	    "@Dreamyard Basement Access,basementbey"
     ]
   },
   {
     "name": "Dreamyard Basement Access",
     "access_rules": [
-      "@Dreamyard Access,basementkey"
+      "@Dreamyard Access,basementkey",
+      "@Dreamyard Access,$strength,mo_strength_boulders_true",
+      "@Dreamyard Access,$strength,mo_strength_boulders_vi_road"
     ]
   },
   {
     "name": "Route 3 North Access",
     "access_rules": [
       "@Striaton City Access,parcel",
-	  "@Wellspring Cave Access",
+	    "@Wellspring Cave Access",
       "@Route 3 South Access"
     ]
   },
@@ -92,14 +94,15 @@
     "name": "Wellspring Cave Access",
     "access_rules": [
       "@Route 3 North Access",
-	  "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_true"
+	    "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_true",
+	    "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_musharna"
     ]
   },
   {
     "name": "Route 3 South Access",
     "access_rules": [
       "@Route 3 North Access",
-	  "@Nacrene City Access"
+	    "@Nacrene City Access"
     ]
   },
   {
@@ -113,30 +116,37 @@
     "name": "Pinwheel Forest Outside Access",
     "access_rules": [
       "@Nacrene City Access",
-      "@Pinwheel Forest Inner Access,lootsack,pi_cut_trees_false",
-      "@Pinwheel Forest Inner Access,pi_cut_trees_true",
-      "@Skyarrow Bridge Access,dragonskull,$cut,pi_cut_trees_true"
+      "@Pinwheel Forest Inner Access,lootsack,ex_cut_trees_false",
+      "@Pinwheel Forest Inner Access,ex_cut_trees_true",
+      "@Skyarrow Bridge Access,dragonskull,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest Inner Access,ex_cut_trees_kyurem",
+      "@Skyarrow Bridge Access,dragonskull,$cut,ex_cut_trees_kyurem"
     ]
   },
   {
     "name": "Pinwheel Forest Inner Access",
     "access_rules": [
       "@Pinwheel Forest Outside Access,lootsack",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,pi_cut_trees_false",
-      "@Skyarrow Bridge Access,dragonskull,pi_cut_trees_false",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,pi_cut_trees_true",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,pi_cut_trees_true",
-      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,pi_cut_trees_true"
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,ex_cut_trees_false",
+      "@Skyarrow Bridge Access,dragonskull,ex_cut_trees_false",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
+      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,ex_cut_trees_true",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
+      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem",
+      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,ex_cut_trees_kyurem"
 
     ]
   },
   {
     "name": "Pinwheel Forest Inner East Side Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,helpdaycareman,pi_cut_trees_false",
+      "@Pinwheel Forest Inner Access,helpdaycareman,ex_cut_trees_false",
       "@Rumination Field Access,catchdefeatcobalion",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,pi_cut_trees_true",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,pi_cut_trees_true"
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
+      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem"
     ]
   },
   {
@@ -150,7 +160,8 @@
     "access_rules": [
       "@Pinwheel Forest Inner Access,dragonskull",
       "@Castelia City Access",
-      "@Pinwheel Forest Outside Access,dragonskull,$cut,pi_cut_trees_true"
+      "@Pinwheel Forest Outside Access,dragonskull,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest Outside Access,dragonskull,$cut,ex_cut_trees_kyurem"
     ]
   },
   {
@@ -367,7 +378,8 @@
     "name": "Challenger's Cave Access",
     "access_rules": [
       "@Route 9 Access,redchain,^$flash",
-	  "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_true"
+	    "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_true",
+	    "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_musharna"
     ]
   },
   {
@@ -389,7 +401,8 @@
     "name": "Victory Road Access",
     "access_rules": [
       "@Route 10 Access,@all_badges",
-	  "@Trial Chamber Access,catchdefeatcobalion",
+      "@Route 10 Access,@all_badges",
+	    "@Trial Chamber Access,catchdefeatcobalion",
       "@Pokémon League Access"
     ]
   },
@@ -402,8 +415,10 @@
   {
     "name": "Pokémon League Access",
     "access_rules": [
-      "@Victory Road Access",
-	  "@N's Castle Access"
+      "@Victory Road Access,mo_strength_boulders_false",
+      "@Victory Road Access,mo_strength_boulders_true",
+      "@Victory Road Access,$strength,mo_strength_boulders_vi_road",
+	    "@N's Castle Access"
     ]
   },
   {
@@ -445,13 +460,16 @@
     "access_rules": [
       "@Lacunosa Town Access",
       "@Giant Chasm Access,$surf",
+      "@Giant Chasm Access,$strength,mo_strength_boulders_false",
       "@Undella Town Access,$rock_smash"
     ]
   },
   {
     "name": "Giant Chasm Access",
     "access_rules": [
-      "@Route 13 Access,$surf"
+      "@Route 13 Access,$surf",
+      "@Route 13 Access,$strength,mo_strength_boulders_true",
+      "@Route 13 Access,$strength,mo_strength_boulders_vi_road"
     ]
   },
   {

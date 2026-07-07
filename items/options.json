@@ -3357,27 +3357,70 @@
                 "img": "/images/items/hms/tm94_rocksmash.png",
                 "codes": "add_rocksmash,add_rocksmash_true",
                 "inherit_codes": false
+            },
+            {
+                "name": "Rock Smash Logic - ON + Musharna",
+                "img": "/images/items/hms/tm94_rocksmash.png",
+                "img_mods": "overlay|images/settings/overlays/M.png",
+                "codes": "add_rocksmash,add_rocksmash_musharna",
+                "inherit_codes": false
             }
         ]
     },
     {
-        "name": "Extra Logic - Pinwheel Cut trees",
+        "name": "Extra Logic - Cut",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Pinwheel Cut Trees - OFF",
+                "name": "Extra Cut Trees - OFF",
                 "img": "/images/settings/cut_tree.png",
 				"img_mods": "@disabled",
-                "codes": "pi_cut_trees,pi_cut_trees_false",
+                "codes": "ex_cut_trees,ex_cut_trees_false",
                 "inherit_codes": false
             },
             {
-                "name": "Pinwheel Cut Trees - ON",
+                "name": "Extra Cut Trees - ON",
                 "img": "/images/settings/cut_tree.png",
-                "codes": "pi_cut_trees,pi_cut_trees_true",
+                "codes": "ex_cut_trees,ex_cut_trees_true",
+                "inherit_codes": false
+            },
+            {
+                "name": "Extra Cut Trees - ON + Kyurem",
+                "img": "/images/settings/cut_tree.png",
+                "img_mods": "overlay|images/settings/overlays/K.png",
+                "codes": "ex_cut_trees,ex_cut_trees_kyurem",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Extra Logic - Strength",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Move Strentgh Boulders - OFF",
+                "img": "/images/settings/strength_boulder.png",
+				"img_mods": "@disabled",
+                "codes": "mo_strength_boulders,mo_strength_boulders_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Move Strength Boulders - ON",
+                "img": "/images/settings/strength_boulder.png",
+                "codes": "mo_strength_boulders,mo_strength_boulders_true",
+                "inherit_codes": false
+            },
+            {
+                "name": "Move Strength Boulder - ON + Victory Road",
+                "img": "/images/settings/strength_boulder.png",
+                "img_mods": "overlay|images/settings/overlays/V.png",
+                "codes": "mo_strength_boulders,mo_strength_boulders_vi_road",
                 "inherit_codes": false
             }
         ]

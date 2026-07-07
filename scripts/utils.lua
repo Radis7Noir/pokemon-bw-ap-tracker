@@ -77,7 +77,7 @@ function toggle_keyitemgrid()
         suffix = suffix .. "_ticket"
     end
 
-    if has("add_rocksmash_true") then
+    if has("add_rocksmash_true") or has("add_rocksmash_musharna") then
         suffix = suffix .. "_rocksmash"
     end
 
