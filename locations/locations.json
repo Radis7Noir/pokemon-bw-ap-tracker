@@ -5039,7 +5039,8 @@
                             "$can_rock_smash, ^$static_encounter"
                         ],
                         "visibility_rules": [
-                            "add_rocksmash_true, show_mons"
+                            "add_rocksmash_true, show_mons",
+                            "add_rocksmash_musharna, show_mons"
                         ]
                     }
                 ],
@@ -6037,7 +6038,9 @@
                     {
                         "name": "Basement - North west item",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard Basement Access,add_rocksmash_false",
+                            "@Dreamyard Basement Access,add_rocksmash_true",
+                            "@Dreamyard Basement Access,$can_rock_smash, add_rocksmash_musharna"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6146,10 +6149,23 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard Basement Access,add_rocksmash_false",
+                            "@Dreamyard Basement Access,add_rocksmash_true",
+                            "@Dreamyard Basement Access,$can_rock_smash, add_rocksmash_musharna"
                         ],
                         "visibility_rules": [
                             "show_mons"
+                        ]
+                    },
+                    {
+                        "name": "Basement - Rock Smash Dwebble",
+                        "chest_unopened_img": "images/events/dwebble.png",
+                        "chest_opened_img": "images/events/dwebble_cleared.png",
+                        "access_rules": [
+                            "$can_rock_smash, ^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "add_rocksmash_musharna, show_mons"
                         ]
                     }
                 ],
@@ -6382,7 +6398,8 @@
                             "$can_rock_smash, ^$static_encounter"
                         ],
                         "visibility_rules": [
-                            "add_rocksmash_true, show_mons"
+                            "add_rocksmash_true, show_mons",
+                            "add_rocksmash_musharna, show_mons"
                         ]
                     },
                     {
@@ -10574,7 +10591,8 @@
                             "$can_rock_smash, ^$static_encounter"
                         ],
                         "visibility_rules": [
-                            "add_rocksmash_true, show_mons"
+                            "add_rocksmash_true, show_mons",
+                            "add_rocksmash_musharna, show_mons"
                         ]
                     },
                     {

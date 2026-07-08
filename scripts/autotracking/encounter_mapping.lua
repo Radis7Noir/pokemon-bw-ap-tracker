@@ -484,5 +484,6 @@ ENCOUNTER_MAPPING = {
 	["Thundurus_Roamer"] = "@Unova Locations/Roamer/Thundurus (Roamer)",
 	["Dwebble_R13"] = "@Unova Locations/Route 13/Rock Smash Dwebble",
 	["Dwebble_WC"] = "@Unova Locations/Wellspring Cave/1F - Rock Smash Dwebble",
-	["Dwebble_CC"] = "@Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble"
+	["Dwebble_CC"] = "@Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble",
+	["Dwebble_DY"] = "@Unova Locations/Dreamyard/Basement - Rock Smash Dwebble"
 }

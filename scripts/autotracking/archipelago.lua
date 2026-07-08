@@ -107,7 +107,8 @@ function onClear(slot_data)
 		Thundurus_Roamer = 642,
 		Dwebble_R13 = 557,
 		Dwebble_WC = 557,
-		Dwebble_CC = 557
+		Dwebble_CC = 557,
+    	Dwebble_DY = 557
 		
     }
     
