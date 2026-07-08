@@ -8668,8 +8668,8 @@
                     },
                     {
                         "name": "Outside - TM from Alder",
-                        "chest_unopened_img": "images/locations/alder_$surf.png",
-                        "chest_opened_img": "images/locations/alder_$surf_grayscale.png",
+                        "chest_unopened_img": "images/locations/alder_hm03surf.png",
+                        "chest_opened_img": "images/locations/alder_hm03surf_grayscale.png",
                         "access_rules": [
                             "@Route 7 Access"
                         ],
