@@ -3417,7 +3417,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Move Strength Boulder - ON + Victory Road",
+                "name": "Move Strength Boulders - ON + Victory Road",
                 "img": "/images/settings/strength_boulder.png",
                 "img_mods": "overlay|images/settings/overlays/V.png",
                 "codes": "mo_strength_boulders,mo_strength_boulders_vi_road",
