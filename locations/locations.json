@@ -6162,7 +6162,7 @@
                         "chest_unopened_img": "images/events/dwebble.png",
                         "chest_opened_img": "images/events/dwebble_cleared.png",
                         "access_rules": [
-                            "$can_rock_smash, ^$static_encounter"
+                            "@Dreamyard Basement Access,$can_rock_smash,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "add_rocksmash_musharna, show_mons"

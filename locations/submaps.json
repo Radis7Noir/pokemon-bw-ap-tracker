@@ -357,6 +357,10 @@
                     {
                         "name": "Basement - Dark Grass Encounters",
                         "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Basement - Rock Smash Dwebble",
+                        "ref": "Unova Locations/Dreamyard/Basement - Rock Smash Dwebble"
                     }
                 ],
                 "map_locations": [
@@ -7063,6 +7067,10 @@
                     {
                         "name": "Dark Grass Encounters",
                         "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Dreamyard/Basement - Rock Smash Dwebble"
                     }
                 ],
                 "map_locations": [
