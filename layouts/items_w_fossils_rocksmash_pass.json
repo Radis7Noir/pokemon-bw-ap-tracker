@@ -1,0 +1,172 @@
+{
+    "key_items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+						"margin": "24,0",
+                        "item_margin": "2,0",
+                        "item_size": "32,48",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+								"triobadge",
+                                "basicbadge",
+                                "insectbadge",
+                                "boltbadge",
+                                "quakebadge",
+                                "jetbadge",
+                                "freezebadge",
+                                "legendbadge"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "hm01cut",
+                                "hm02fly",
+                                "hm03surf",
+                                "hm04strength",
+                                "hm05waterfall",
+                                "hm06dive",
+                                "tm70flash",
+								"tm94rocksmash",
+                                "ownedtms"
+                            ],
+                            [
+                                "parcel",
+                                "lootsackdragonskull",
+                                "machinepart",
+                                "tidalbell",
+                                "darkstone",
+                                "oaksletter",
+                                "bluecard",
+                                "pass",
+								"dowsingmchn"
+                            ],
+                            [
+                                "basementkey",
+                                "lockcapsule",
+                                "libertypass",
+                                "explorerkit",
+                                "redchain",
+                                "gram",
+                                "ragecandybar",
+                                "oldamber",
+								"superrod"
+                            ],
+                            [
+                                "helixfossil",
+                                "domefossil",
+                                "rootfossil",
+                                "clawfossil",
+                                "skullfossil",
+                                "armorfossil",
+                                "coverfossil",
+                                "plumefossil"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_key_items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+						"margin": "5,0",
+                        "item_margin": "2,0",
+                        "item_size": "32,48",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+								"triobadge",
+                                "basicbadge",
+                                "insectbadge",
+                                "boltbadge",
+                                "quakebadge",
+                                "jetbadge",
+                                "freezebadge",
+                                "legendbadge"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "hm01cut",
+                                "hm02fly",
+                                "hm03surf",
+                                "hm04strength",
+                                "hm05waterfall",
+                                "hm06dive",
+                                "tm70flash",
+                                "tm94rocksmash"
+                            ],
+                            [
+                                "parcel",
+                                "lootsackdragonskull",
+                                "machinepart",
+                                "tidalbell",
+                                "darkstone",
+                                "oaksletter",
+                                "bluecard",
+                                "pass"
+                            ],
+                            [
+                                "basementkey",
+                                "lockcapsule",
+                                "libertypass",
+                                "explorerkit",
+                                "redchain",
+                                "gram",
+                                "dowsingmchn",
+								"ownedtms"
+                            ],
+                            [
+                                "superrod",
+                                "ragecandybar",
+                                "helixfossil",
+                                "domefossil",
+                                "oldamber",
+                                "rootfossil",
+                                "clawfossil"
+                            ],
+                            [
+                                "skullfossil",
+                                "armorfossil",
+                                "coverfossil",
+                                "plumefossil"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

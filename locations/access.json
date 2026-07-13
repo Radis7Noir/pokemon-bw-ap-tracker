@@ -276,7 +276,8 @@
     "name": "Mistralton City Access",
     "access_rules": [
       "@Chargestone Cave Access",
-      "@Route 7 Access"
+      "@Route 7 Access",
+      "@Village Bridge Access,pass,add_pass_true"
     ]
   },
   {
@@ -438,7 +439,8 @@
     "name": "Village Bridge Access",
     "access_rules": [
       "@Route 11 Access",
-      "@Route 12 Access"
+      "@Route 12 Access",
+      "@Mistralton City Access,pass,add_pass_true"
     ]
   },
   {

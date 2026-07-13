@@ -71,9 +71,10 @@
 				"require_flash",
 				"adjustlevels",
 				"add_ssticket",
-				"add_rocksmash"
+                "add_pass"
             ],
             [
+ 				"add_rocksmash",
                 "ex_cut_trees",
                 "mo_strength_boulders"
             ]

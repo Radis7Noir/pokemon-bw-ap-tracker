@@ -81,6 +81,10 @@ function toggle_keyitemgrid()
         suffix = suffix .. "_rocksmash"
     end
 
+    if has("add_pass_true") then
+        suffix = suffix .. "_pass"
+    end
+
     Tracker:AddLayouts("layouts/items"..suffix..".json")
 end
 

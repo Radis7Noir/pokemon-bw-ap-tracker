@@ -233,6 +233,36 @@
         "img": "/images/items/roadblocks/dragon_skull.png",
         "codes": "dragonskull"
     },
+	{
+		"name": "Loot Sack & Dragon Skull",
+		"type": "composite_toggle",
+		"codes": "lootsackdragonskull",
+		"item_left": "lootsack",
+		"item_right": "dragonskull",
+		"images": [
+			{
+			"left": false,
+			"right": false,
+			"img": "images/items/roadblocks/loot_sack_dragon_skull.png",
+			"img_mods": "@disabled"
+			},
+			{
+			"left": true,
+			"right": false,
+			"img": "images/items/roadblocks/loot_sack_no_dragon_skull.png"
+			},
+			{
+			"left": false,
+			"right": true,
+			"img": "images/items/roadblocks/no_loot_sack_dragon_skull.png"
+			},
+			{
+			"left": true,
+			"right": true,
+			"img": "images/items/roadblocks/loot_sack_dragon_skull.png"
+			}
+		]
+	},
     {
         "name": "Machine Part",
         "type": "toggle",
@@ -292,6 +322,12 @@
         "type": "toggle",
         "img": "/images/items/roadblocks/liberty_pass.png",
         "codes": "libertypass"
+    },
+	{
+        "name": "Pass",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/pass.png",
+        "codes": "pass"
     },
 	{
         "name": "S.S. Ticket",

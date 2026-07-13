@@ -3424,5 +3424,27 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Extra Logic - Pass",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pass - OFF",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "add_pass,add_pass_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pass - ON",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "add_pass,add_pass_true",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

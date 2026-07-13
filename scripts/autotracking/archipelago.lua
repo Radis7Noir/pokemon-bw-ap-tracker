@@ -138,6 +138,7 @@ function onClear(slot_data)
 	local hm_with_badges_found = false
 	local add_rock_smash_found = false
 	local add_ss_ticket_found = false
+	local add_pass_found = false
     local extra_cut_trees_found = false
     local move_strength_boulders_found = false
     for k, v in pairs(slot_data.options) do
@@ -216,6 +217,11 @@ function onClear(slot_data)
                 local item = Tracker:FindObjectForCode("add_ssticket")
                 item.CurrentStage = extra_logic.add_ss_ticket == true and 1 or 0
             end
+            if extra_logic.add_pass ~= nil then
+                add_pass_found = true
+                local item = Tracker:FindObjectForCode("add_pass")
+                item.CurrentStage = extra_logic.add_pass == true and 1 or 0
+            end
             if extra_logic.extra_cut_trees ~= nil or extra_logic.extra_cut_trees_kyurem ~= nil then
                 extra_cut_trees_found = true
                 local item = Tracker:FindObjectForCode("ex_cut_trees")
@@ -287,6 +293,9 @@ function onClear(slot_data)
 		Tracker:FindObjectForCode("add_rocksmash").CurrentStage = 0
 	end
 	if not add_ss_ticket_found then
+		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
+	end
+	if not add_pass_found then
 		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
 	end
 	if not extra_cut_trees_found then
