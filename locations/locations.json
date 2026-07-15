@@ -11930,7 +11930,7 @@
                         "access_rules": [
                             "@Giant Chasm Access,mo_strength_boulders_false",
                             "@Giant Chasm Access,mo_strength_boulders_true",
-                            "@Giant Chasm Access,$cut,mo_strength_boulders_kyurem"
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt,show_items",
@@ -12101,7 +12101,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,^$static_encounter",
                             "mo_strength_boulders_true,^$static_encounter",
-                            "$cut,mo_strength_boulders_kyurem,^$static_encounter"
+                            "$cut,ex_cut_trees_kyurem,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12116,7 +12116,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false",
                             "mo_strength_boulders_true",
-                            "$cut,mo_strength_boulders_kyurem"
+                            "$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12131,7 +12131,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,triobadge",
                             "mo_strength_boulders_true,triobadge",
-                            "$cut,mo_strength_boulders_kyurem,triobadge"
+                            "$cut,ex_cut_trees_kyurem,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12146,7 +12146,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,$surf",
                             "mo_strength_boulders_true,$surf",
-                            "$cut,mo_strength_boulders_kyurem,$surf"
+                            "$cut,ex_cut_trees_kyurem,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12161,7 +12161,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,triobadge,$surf",
                             "mo_strength_boulders_true,triobadge,$surf",
-                            "$cut,mo_strength_boulders_kyurem,triobadge,$surf"
+                            "$cut,ex_cut_trees_kyurem,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12176,7 +12176,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,superrod",
                             "mo_strength_boulders_true,superrod",
-                            "$cut,mo_strength_boulders_kyurem,superrod"
+                            "$cut,ex_cut_trees_kyurem,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12191,7 +12191,7 @@
                         "access_rules": [
                             "mo_strength_boulders_false,triobadge,superrod",
                             "mo_strength_boulders_true,triobadge,superrod",
-                            "$cut,mo_strength_boulders_kyurem,triobadge,superrod"
+                            "$cut,ex_cut_trees_kyurem,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
