@@ -11928,9 +11928,9 @@
                     {
                         "name": "Kyurem's Cave - Kyurem (Event)",
                         "access_rules": [
-                            "@Giant Chasm Access,mo_strength_boulders_false",
-                            "@Giant Chasm Access,mo_strength_boulders_true",
-                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
+                            "ex_cut_trees_false",
+                            "ex_cut_trees_true",
+                            "$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt,show_items",
@@ -12099,8 +12099,8 @@
                         "chest_unopened_img": "images/events/kyurem.png",
                         "chest_opened_img": "images/events/kyurem_grayscale.png",
                         "access_rules": [
-                            "mo_strength_boulders_false,^$static_encounter",
-                            "mo_strength_boulders_true,^$static_encounter",
+                            "ex_cut_trees_false,^$static_encounter",
+                            "ex_cut_trees_true,^$static_encounter",
                             "$cut,ex_cut_trees_kyurem,^$static_encounter"
                         ],
                         "visibility_rules": [
@@ -12114,8 +12114,8 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false",
-                            "mo_strength_boulders_true",
+                            "ex_cut_trees_false",
+                            "ex_cut_trees_true",
                             "$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
@@ -12129,8 +12129,8 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false,triobadge",
-                            "mo_strength_boulders_true,triobadge",
+                            "ex_cut_trees_false,triobadge",
+                            "ex_cut_trees_true,triobadge",
                             "$cut,ex_cut_trees_kyurem,triobadge"
                         ],
                         "visibility_rules": [
@@ -12144,8 +12144,8 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false,$surf",
-                            "mo_strength_boulders_true,$surf",
+                            "ex_cut_trees_false,$surf",
+                            "ex_cut_trees_true,$surf",
                             "$cut,ex_cut_trees_kyurem,$surf"
                         ],
                         "visibility_rules": [
@@ -12159,8 +12159,8 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false,triobadge,$surf",
-                            "mo_strength_boulders_true,triobadge,$surf",
+                            "ex_cut_trees_false,triobadge,$surf",
+                            "ex_cut_trees_true,triobadge,$surf",
                             "$cut,ex_cut_trees_kyurem,triobadge,$surf"
                         ],
                         "visibility_rules": [
@@ -12174,8 +12174,8 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false,superrod",
-                            "mo_strength_boulders_true,superrod",
+                            "ex_cut_trees_false,superrod",
+                            "ex_cut_trees_true,superrod",
                             "$cut,ex_cut_trees_kyurem,superrod"
                         ],
                         "visibility_rules": [
@@ -12189,8 +12189,8 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "mo_strength_boulders_false,triobadge,superrod",
-                            "mo_strength_boulders_true,triobadge,superrod",
+                            "ex_cut_trees_false,triobadge,superrod",
+                            "ex_cut_trees_true,triobadge,superrod",
                             "$cut,ex_cut_trees_kyurem,triobadge,superrod"
                         ],
                         "visibility_rules": [
