@@ -121,6 +121,7 @@ ITEM_MAPPING = {
     [459] = {{"parcel"}, "toggle"},
     [472] = {{"bluecard"}, "toggle"},
     [476] = {{"basementkey"}, "toggle"},
+    [480] = {{"pass"}, "toggle"},
     [481] = {{"machinepart"}, "toggle"},
     [503] = {{"tidalbell"}, "toggle"},
     [533] = {{"lockcapsule"}, "toggle"},

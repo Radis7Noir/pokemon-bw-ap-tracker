@@ -1402,7 +1402,9 @@
                     {
                         "name": "Item west of pokémon center (Winter)",
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1446,7 +1448,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1457,7 +1461,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1468,7 +1474,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1479,7 +1487,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden,^$season|winter"
+                            "^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1534,7 +1544,9 @@
                         "chest_unopened_img": "images/locations/nurseryaide_ragecandybar.png",
                         "chest_opened_img": "images/locations/nurseryaide_ragecandybar_grayscale.png",
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -1601,7 +1613,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1614,7 +1628,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|spring"
+                            "$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1627,7 +1643,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|spring"
+                            "triobadge,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1640,7 +1658,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|spring"
+                            "superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1653,7 +1673,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|spring"
+                            "triobadge,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1666,7 +1688,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1679,7 +1703,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|summer"
+                            "$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1692,7 +1718,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|summer"
+                            "triobadge,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1705,7 +1733,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|summer"
+                            "superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1718,7 +1748,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|summer"
+                            "triobadge,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1731,7 +1763,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1744,7 +1778,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|autumn"
+                            "$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1757,7 +1793,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|autumn"
+                            "triobadge,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1770,7 +1808,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|autumn"
+                            "superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1783,7 +1823,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|autumn"
+                            "triobadge,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1796,7 +1838,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|winter"
+                            "$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1809,7 +1853,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|winter"
+                            "triobadge,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1822,7 +1868,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|winter"
+                            "superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -1835,7 +1883,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|winter"
+                            "triobadge,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3138,7 +3188,9 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3151,7 +3203,9 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3164,7 +3218,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3177,7 +3233,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|spring"
+                            "$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3190,7 +3248,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|spring"
+                            "triobadge,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3203,7 +3263,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|spring"
+                            "superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3216,7 +3278,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|spring"
+                            "triobadge,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3229,7 +3293,9 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3242,7 +3308,9 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3255,7 +3323,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3268,7 +3338,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|summer"
+                            "$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3281,7 +3353,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|summer"
+                            "triobadge,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3294,7 +3368,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|summer"
+                            "superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3307,7 +3383,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|summer"
+                            "triobadge,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3320,7 +3398,9 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3333,7 +3413,9 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3346,7 +3428,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3359,7 +3443,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|autumn"
+                            "$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3372,7 +3458,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|autumn"
+                            "triobadge,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3385,7 +3473,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|autumn"
+                            "superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3398,7 +3488,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|autumn"
+                            "triobadge,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3411,7 +3503,9 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3424,7 +3518,9 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3437,7 +3533,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3450,7 +3548,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|winter"
+                            "$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3463,7 +3563,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|winter"
+                            "triobadge,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3476,7 +3578,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|winter"
+                            "superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3489,7 +3593,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|winter"
+                            "triobadge,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3597,7 +3703,9 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3610,7 +3718,9 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3623,7 +3733,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|spring"
+                            "triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3636,7 +3748,9 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3649,7 +3763,9 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3662,7 +3778,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|summer"
+                            "triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3675,7 +3793,9 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3688,7 +3808,9 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3701,7 +3823,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|autumn"
+                            "triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3714,7 +3838,9 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3727,7 +3853,9 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|winter"
+                            "winter,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3740,7 +3868,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,^$season|winter"
+                            "triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3813,9 +3943,11 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Route 8 Access,^$hidden,^$season|spring",
-                            "@Route 8 Access,^$hidden,^$season|summer",
-                            "@Route 8 Access,^$hidden,^$season|autumn"
+                            "@Route 8 Access,^$hidden,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,^$hidden,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,^$hidden,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -3883,7 +4015,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,^$season|spring"
+                            "@Route 8 Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3896,7 +4030,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,$surf,^$season|spring"
+                            "@Route 8 Access,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3909,7 +4045,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,$surf,^$season|spring"
+                            "@Route 8 Access,triobadge,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3922,7 +4060,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,superrod,^$season|spring"
+                            "@Route 8 Access,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3935,7 +4075,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,superrod,^$season|spring"
+                            "@Route 8 Access,triobadge,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3948,7 +4090,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,^$season|summer"
+                            "@Route 8 Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3961,7 +4105,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,$surf,^$season|summer"
+                            "@Route 8 Access,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3974,7 +4120,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,$surf,^$season|summer"
+                            "@Route 8 Access,triobadge,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -3987,7 +4135,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,superrod,^$season|summer"
+                            "@Route 8 Access,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4000,7 +4150,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,superrod,^$season|summer"
+                            "@Route 8 Access,triobadge,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4013,7 +4165,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,^$season|autumn"
+                            "@Route 8 Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4026,7 +4180,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,$surf,^$season|autumn"
+                            "@Route 8 Access,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4039,7 +4195,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,$surf,^$season|autumn"
+                            "@Route 8 Access,triobadge,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4052,7 +4210,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,superrod,^$season|autumn"
+                            "@Route 8 Access,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4065,7 +4225,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,superrod,^$season|autumn"
+                            "@Route 8 Access,triobadge,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4078,7 +4240,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,$surf,^$season|winter"
+                            "@Route 8 Access,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4091,7 +4255,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,$surf,^$season|winter"
+                            "@Route 8 Access,triobadge,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4104,7 +4270,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,superrod,^$season|winter"
+                            "@Route 8 Access,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -4117,7 +4285,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Route 8 Access,triobadge,superrod,^$season|winter"
+                            "@Route 8 Access,triobadge,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Route 8 Access,triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8735,7 +8905,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Access,^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8746,7 +8918,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Access,^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8757,7 +8931,9 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Access,^$hidden,^$season|winter"
+                            "@Twist Mountain Access,^$hidden,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8815,7 +8991,9 @@
                     {
                         "name": "Middle Level - North cave item (Winter)",
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8857,7 +9035,9 @@
                     {
                         "name": "Lower Level - East cave item (Winter)",
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,,show_winter"
@@ -8866,9 +9046,11 @@
                     {
                         "name": "Lower Level - North west cave item (Spring, Summer, Autumn)",
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|spring",
-                            "@Twist Mountain Access,^$season|summer",
-                            "@Twist Mountain Access,^$season|autumn"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -8879,9 +9061,11 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Access,^$hidden,^$season|spring",
-                            "@Twist Mountain Access,^$hidden,^$season|summer",
-                            "@Twist Mountain Access,^$hidden,^$season|autumn"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -8914,7 +9098,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|spring"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8927,7 +9113,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8940,7 +9128,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|spring"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8953,7 +9143,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8966,7 +9158,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|spring"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8979,7 +9173,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8992,7 +9188,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|spring"
+                            "@Twist Mountain Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9005,7 +9203,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|spring"
+                            "@Twist Mountain Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9018,7 +9218,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|summer"
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9031,7 +9233,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9044,7 +9248,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|summer"
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9057,7 +9263,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9070,7 +9278,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|summer"
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9083,7 +9293,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9096,7 +9308,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|summer"
+                            "@Twist Mountain Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9109,7 +9323,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|summer"
+                            "@Twist Mountain Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9122,7 +9338,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|autumn"
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9135,7 +9353,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9148,7 +9368,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|autumn"
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9161,7 +9383,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9174,7 +9398,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|autumn"
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9187,7 +9413,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9200,7 +9428,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|autumn"
+                            "@Twist Mountain Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9213,7 +9443,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|autumn"
+                            "@Twist Mountain Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9226,7 +9458,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9239,7 +9473,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9252,7 +9488,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9265,7 +9503,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9278,7 +9518,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9291,7 +9533,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9304,7 +9548,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,^$season|winter"
+                            "@Twist Mountain Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9317,7 +9563,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain Access,triobadge,^$season|winter"
+                            "@Twist Mountain Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Twist Mountain Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9341,7 +9589,9 @@
                     {
                         "name": "Icirrus City Part - Item near entrance (Winter)",
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -9473,7 +9723,9 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9486,7 +9738,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|spring"
+                            "@Dragonspiral Tower Entrance Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9499,7 +9753,9 @@
                         "chest_opened_img": "images/locations/grass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|spring"
+                            "@Dragonspiral Tower Outside East Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9512,7 +9768,9 @@
                         "chest_opened_img": "images/locations/darkgrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|spring"
+                            "@Dragonspiral Tower Outside East Access,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9525,7 +9783,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_spring_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|spring"
+                            "@Dragonspiral Tower Outside East Access,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9538,7 +9798,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,$surf,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9551,7 +9813,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9564,7 +9828,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,superrod,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9577,7 +9843,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,superrod,^$season|spring"
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9590,7 +9858,9 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9603,7 +9873,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|summer"
+                            "@Dragonspiral Tower Entrance Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9616,7 +9888,9 @@
                         "chest_opened_img": "images/locations/grass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|summer"
+                            "@Dragonspiral Tower Outside East Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9629,7 +9903,9 @@
                         "chest_opened_img": "images/locations/darkgrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|summer"
+                            "@Dragonspiral Tower Outside East Access,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9642,7 +9918,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_summer_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|summer"
+                            "@Dragonspiral Tower Outside East Access,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9655,7 +9933,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,$surf,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9668,7 +9948,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9681,7 +9963,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,superrod,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9694,7 +9978,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,superrod,^$season|summer"
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9707,7 +9993,9 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9720,7 +10008,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|autumn"
+                            "@Dragonspiral Tower Entrance Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9733,7 +10023,9 @@
                         "chest_opened_img": "images/locations/grass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9746,7 +10038,9 @@
                         "chest_opened_img": "images/locations/darkgrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9759,7 +10053,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_autumn_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|autumn"
+                            "@Dragonspiral Tower Outside East Access,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9772,7 +10068,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,$surf,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9785,7 +10083,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9798,7 +10098,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,superrod,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9811,7 +10113,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,superrod,^$season|autumn"
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9824,7 +10128,9 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9837,7 +10143,9 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9850,7 +10158,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,triobadge,^$season|winter"
+                            "@Dragonspiral Tower Entrance Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Entrance Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9863,7 +10173,9 @@
                         "chest_opened_img": "images/locations/grass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|winter"
+                            "@Dragonspiral Tower Outside East Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9876,7 +10188,9 @@
                         "chest_opened_img": "images/locations/darkgrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,^$season|winter"
+                            "@Dragonspiral Tower Outside East Access,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9889,7 +10203,9 @@
                         "chest_opened_img": "images/locations/rustlinggrass_winter_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside East Access,triobadge,^$season|winter"
+                            "@Dragonspiral Tower Outside East Access,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside East Access,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9902,7 +10218,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,$surf,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9915,7 +10233,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,$surf,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,$surf,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9928,7 +10248,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,superrod,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -9941,7 +10263,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dragonspiral Tower Outside Access,triobadge,superrod,^$season|winter"
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_changeable,[@Nimbasa City Access]",
+                            "@Dragonspiral Tower Outside Access,superrod,triobadge,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10027,9 +10351,11 @@
                     {
                         "name": "South east item (Spring, Summer, Autumn)",
                         "access_rules": [
-                            "^$season|spring",
-                            "^$season|summer",
-                            "^$season|autumn"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -10073,9 +10399,11 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden,^$season|spring",
-                            "$strength,^$hidden,^$season|summer",
-                            "$strength,^$hidden,^$season|autumn"
+                            "$strength,^$hidden,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "$strength,^$hidden,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "$strength,^$hidden,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "$strength,^$hidden,season_control_changeable,[@Nimbasa City Access]",
+                            "$strength,^$hidden,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -10110,7 +10438,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|spring"
+                            "spring,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10123,7 +10453,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|spring"
+                            "$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10136,7 +10468,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|spring"
+                            "triobadge,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10149,7 +10483,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|spring"
+                            "superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10162,7 +10498,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|spring"
+                            "triobadge,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10175,7 +10513,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|summer"
+                            "summer,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10188,7 +10528,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|summer"
+                            "$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10201,7 +10543,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|summer"
+                            "triobadge,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10214,7 +10558,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|summer"
+                            "superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10227,7 +10573,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|summer"
+                            "triobadge,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10240,7 +10588,9 @@
                         "chest_opened_img": "images/locations/puddle_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "^$season|autumn"
+                            "autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "season_control_changeable,[@Nimbasa City Access]",
+                            "season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10253,7 +10603,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|autumn"
+                            "$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10266,7 +10618,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|autumn"
+                            "triobadge,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10279,7 +10633,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|autumn"
+                            "superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10292,7 +10648,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|autumn"
+                            "triobadge,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10305,7 +10663,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|winter"
+                            "$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10318,7 +10678,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|winter"
+                            "triobadge,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10331,7 +10693,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,superrod,^$season|winter"
+                            "superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -10344,7 +10708,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,superrod,^$season|winter"
+                            "triobadge,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12252,7 +12618,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|spring"
+                            "$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12265,7 +12633,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|spring"
+                            "triobadge,$surf,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12278,7 +12648,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|spring"
+                            "superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12291,7 +12663,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|spring"
+                            "triobadge,superrod,spring,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12304,7 +12678,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|summer"
+                            "$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12317,7 +12693,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|summer"
+                            "triobadge,$surf,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12330,7 +12708,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|summer"
+                            "superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12343,7 +12723,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|summer"
+                            "triobadge,superrod,summer,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12356,7 +12738,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|autumn"
+                            "$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12369,7 +12753,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|autumn"
+                            "triobadge,$surf,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12382,7 +12768,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|autumn"
+                            "superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12395,7 +12783,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|autumn"
+                            "triobadge,superrod,autumn,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12408,7 +12798,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$season|winter"
+                            "$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12421,7 +12813,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$season|winter"
+                            "triobadge,$surf,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,$surf,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12434,7 +12828,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod,^$season|winter"
+                            "superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12447,7 +12843,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod,^$season|winter"
+                            "triobadge,superrod,winter,season_control_randomized,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_changeable,[@Nimbasa City Access]",
+                            "triobadge,superrod,season_control_vanilla,[]"
                         ],
                         "visibility_rules": [
                             "show_mons"
