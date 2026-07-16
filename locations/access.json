@@ -347,14 +347,14 @@
   {
     "name": "Route 8 North Access",
     "access_rules": [
-	  "@Route 8 Access,spring,season_control_randomized,[@Nimbasa City Access]",
-	  "@Route 8 Access,summer,season_control_randomized,[@Nimbasa City Access]",
-	  "@Route 8 Access,autumn,season_control_randomized,[@Nimbasa City Access]",
-    "@Route 8 Access,season_control_changeable,@Nimbasa City Access",
-    "@Route 8 Access,season_control_changeable,[]",
-    "@Route 8 Access,season_control_vanilla,[]",
-	  "@Route 8 Access,$surf",
-    "@Moor of Icirrus Access"
+      "@Route 8 Access,spring,season_control_randomized,[@Nimbasa City Access]",
+      "@Route 8 Access,summer,season_control_randomized,[@Nimbasa City Access]",
+      "@Route 8 Access,autumn,season_control_randomized,[@Nimbasa City Access]",
+      "@Route 8 Access,season_control_changeable,@Nimbasa City Access",
+      "@Route 8 Access,season_control_changeable,[]",
+      "@Route 8 Access,season_control_vanilla,[]",
+      "@Route 8 Access,$surf",
+      "@Moor of Icirrus Access"
     ]
   },
   {
