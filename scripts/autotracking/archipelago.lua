@@ -296,7 +296,7 @@ function onClear(slot_data)
 		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
 	end
 	if not add_pass_found then
-		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
+		Tracker:FindObjectForCode("add_pass").CurrentStage = 0
 	end
 	if not extra_cut_trees_found then
 		Tracker:FindObjectForCode("ex_cut_trees").CurrentStage = 0
