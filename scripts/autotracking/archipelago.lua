@@ -141,6 +141,65 @@ function onClear(slot_data)
 	local add_pass_found = false
     local extra_cut_trees_found = false
     local move_strength_boulders_found = false
+    local dark_areas_found = false
+
+    local dark_area_list = {
+        ["Striaton Gym"] = Tracker:FindObjectForCode("dark_areas_striaton_gym"),
+        ["Nacrene Gym"] = Tracker:FindObjectForCode("dark_areas_nacrene_gym"),
+        ["Castelia Gym"] = Tracker:FindObjectForCode("dark_areas_castelia_gym"),
+        ["Nimbasa Gym"] = Tracker:FindObjectForCode("dark_areas_nimbasa_gym"),
+        ["Driftveil Gym"] = Tracker:FindObjectForCode("dark_areas_driftveil_gym"),
+        ["Mistralton Gym"] = Tracker:FindObjectForCode("dark_areas_mistralton_gym"),
+        ["Icirrus Gym"] = Tracker:FindObjectForCode("dark_areas_icirrus_gym"),
+        ["Opelucid Gym"] = Tracker:FindObjectForCode("dark_areas_opelucid_gym"),
+        ["Dreamyard Basement"] = Tracker:FindObjectForCode("dark_areas_dreamyard_basement"),
+        ["Wellspring Cave 1F"] = Tracker:FindObjectForCode("dark_areas_wellspring_cave_1f"),
+        ["Wellspring Cave B1F"] = Tracker:FindObjectForCode("dark_areas_wellspring_cave_b1f"),
+        ["Pinwheel Forest Inside"] = Tracker:FindObjectForCode("dark_areas_pinwheel_forest"),
+        ["Relic Castle Pre-Sand Room"] = Tracker:FindObjectForCode("dark_areas_relic_castle_pre"),
+        ["Relic Castle Post-Sand Room"] = Tracker:FindObjectForCode("dark_areas_relic_castle_post"),
+        ["Cold Storage"] = Tracker:FindObjectForCode("dark_areas_cold_storage"),
+        ["Mistralton Cave"] = Tracker:FindObjectForCode("dark_areas_mistralton_cave"),
+        ["Guidance Chamber"] = Tracker:FindObjectForCode("dark_areas_guidance_chamber"),
+        ["Chargestone Cave"] = Tracker:FindObjectForCode("dark_areas_chargestone_cave"),
+        ["Celestial Tower"] = Tracker:FindObjectForCode("dark_areas_celestial_tower"),
+        ["Twist Mountain"] = Tracker:FindObjectForCode("dark_areas_twist_mountain"),
+        ["Dragonspiral Tower"] = Tracker:FindObjectForCode("dark_areas_dragonspiral_tower"),
+        ["Challengers Cave"] = Tracker:FindObjectForCode("dark_areas_challengers"),
+        ["Victory Road"] = Tracker:FindObjectForCode("dark_areas_victory_road"),
+        ["Giant Chasm"] = Tracker:FindObjectForCode("dark_areas_giant_chasm"),
+        ["Abyssal Ruins"] = Tracker:FindObjectForCode("dark_areas_abyssal_ruins"),
+    }
+
+    local default_dark_areas = {
+        ["Wellspring Cave B1F"] = true,
+        ["Mistralton Cave"] = true,
+        ["Challengers Cave"] = true,
+    }
+
+    for k, v in pairs(slot_data) do
+        if k == "dark_areas" then
+            dark_areas_found = true
+
+            local area_in_list = {}
+            for _, area in ipairs(v) do
+                area_in_list[area] = true
+            end
+
+     -- we only set once this way
+            for area, obj in pairs(dark_area_list) do
+                obj.CurrentStage = area_in_list[area] and 1 or 0
+            end
+        end
+    end
+
+    if not dark_areas_found then
+        for area, obj in pairs(dark_area_list) do
+            obj.CurrentStage = default_dark_areas[area] and 1 or 0
+        end
+    end
+
+
     for k, v in pairs(slot_data.options) do
         if k == "season_control" then
             local item = Tracker:FindObjectForCode("season_control")

@@ -7496,7 +7496,7 @@
                     {
                         "name": "Towerside 1F - Item",
                         "access_rules": [
-                            "@Relic Castle Post-Sand Room Access,defeatghetsis"
+                            "@@Relic Castle Post-Sand Room Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"

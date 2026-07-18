@@ -470,7 +470,7 @@
 {"name": "Magmortar", "access_rules": ["caught_467", "^$evolve_item|323, caught_126"], "sections": [{"hosted_item": "caught_467"}],  "map_locations": [{"map": "sinnohdex", "x": 840, "y": 648, "shape": "rect"}]},
 {"name": "Togekiss", "access_rules": ["caught_468", "^$evolve_item|107, caught_176"], "sections": [{"hosted_item": "caught_468"}],  "map_locations": [{"map": "sinnohdex", "x": 936, "y": 648, "shape": "rect"}]},
 {"name": "Yanmega", "access_rules": ["caught_469", "^$evolve_move|246, caught_193"], "sections": [{"hosted_item": "caught_469"}],  "map_locations": [{"map": "sinnohdex", "x": 1032, "y": 648, "shape": "rect"}]},
-{"name": "Leafeon", "access_rules": ["caught_470", "^$evolve_area|Pinwheel Forest Inner, caught_133"], "sections": [{"hosted_item": "caught_470"}],  "map_locations": [{"map": "sinnohdex", "x": 1128, "y": 648, "shape": "rect"}]},
+{"name": "Leafeon", "access_rules": ["caught_470", "^$evolve_area|Pinwheel Forest West, caught_133"], "sections": [{"hosted_item": "caught_470"}],  "map_locations": [{"map": "sinnohdex", "x": 1128, "y": 648, "shape": "rect"}]},
 {"name": "Glaceon", "access_rules": ["caught_471", "^$evolve_area|Twist Mountain, caught_133"], "sections": [{"hosted_item": "caught_471"}],  "map_locations": [{"map": "sinnohdex", "x": 72, "y": 744, "shape": "rect"}]},
 {"name": "Gliscor", "access_rules": ["caught_472", "^$evolve_item|327, caught_207"], "sections": [{"hosted_item": "caught_472"}],  "map_locations": [{"map": "sinnohdex", "x": 168, "y": 744, "shape": "rect"}]},
 {"name": "Mamoswine", "access_rules": ["caught_473", "^$evolve_move|246, caught_221"], "sections": [{"hosted_item": "caught_473"}],  "map_locations": [{"map": "sinnohdex", "x": 264, "y": 744, "shape": "rect"}]},
