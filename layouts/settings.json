@@ -24,6 +24,14 @@
                 },
 			    {
                     "type": "group",
+                    "header": "Dark Areas",
+                    "content": {
+                        "type": "layout",
+                        "key": "dark_grid"
+                    }
+                },
+			    {
+                    "type": "group",
                     "header": "Dexsanity Logic",
                     "content": {
                         "type": "layout",
@@ -77,6 +85,51 @@
  				"add_rocksmash",
                 "ex_cut_trees",
                 "mo_strength_boulders"
+            ]
+        ]
+    },
+    "dark_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
+				"dark_areas_dreamyard_basement",
+				"dark_areas_wellspring_cave_1f",
+				"dark_areas_wellspring_cave_b1f",
+				"dark_areas_pinwheel_forest",
+                "dark_areas_relic_castle_pre"
+            ],
+            [
+ 				"dark_areas_relic_castle_post",
+                "dark_areas_cold_storage",
+                "dark_areas_mistralton_cave",
+                "dark_areas_guidance_chamber",
+                "dark_areas_chargestone_cave"
+            ],
+            [
+ 				"dark_areas_celestial_tower",
+                "dark_areas_twist_mountain",
+                "dark_areas_dragonspiral_tower",
+                "dark_areas_challengers",
+                "dark_areas_victory_road"
+            ],
+            [
+ 				"dark_areas_giant_chasm",
+                "dark_areas_abyssal_ruins",
+                "dark_areas_striaton_gym",
+                "dark_areas_nacrene_gym",
+                "dark_areas_castelia_gym"
+            ],
+            [
+ 				"dark_areas_nimbasa_gym",
+                "dark_areas_driftveil_gym",
+                "dark_areas_mistralton_gym",
+                "dark_areas_icirrus_gym",
+                "dark_areas_opelucid_gym"
             ]
         ]
     },

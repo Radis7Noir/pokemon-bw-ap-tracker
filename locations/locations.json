@@ -211,7 +211,7 @@
                         "chest_unopened_img": "images/locations/fennel_hm.png",
                         "chest_opened_img": "images/locations/fennel_hm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Striaton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -222,7 +222,7 @@
                         "chest_unopened_img": "images/locations/amanita_palpad.png",
                         "chest_opened_img": "images/locations/amanita_palpad_grayscale.png",
                         "access_rules": [
-                            "$cut"
+                            "@Striaton Gym Access,@Dreamyard North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -299,7 +299,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Striaton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -310,7 +310,7 @@
                         "chest_unopened_img": "images/locations/cilan_badge.png",
                         "chest_opened_img": "images/locations/cilan_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Striaton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -321,7 +321,7 @@
                         "chest_unopened_img": "images/locations/cilan_tm.png",
                         "chest_opened_img": "images/locations/cilan_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Striaton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -467,7 +467,7 @@
                         "chest_unopened_img": "images/locations/lenora_lightstone.png",
                         "chest_opened_img": "images/locations/lenora_lightstone_grayscale.png",
                         "access_rules": [
-                            "@Relic Castle Access,explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_items"
@@ -478,7 +478,7 @@
                         "chest_unopened_img": "images/locations/lenora_darkstone.png",
                         "chest_opened_img": "images/locations/lenora_darkstone_grayscale.png",
                         "access_rules": [
-                            "@Relic Castle Access,explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_items"
@@ -832,7 +832,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Castelia Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -843,7 +843,7 @@
                         "chest_unopened_img": "images/locations/burgh_badge.png",
                         "chest_opened_img": "images/locations/burgh_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Castelia Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -854,7 +854,7 @@
                         "chest_unopened_img": "images/locations/burgh_tm.png",
                         "chest_opened_img": "images/locations/burgh_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Castelia Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1010,7 +1010,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Nimbasa Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1021,7 +1021,7 @@
                         "chest_unopened_img": "images/locations/elesa_badge.png",
                         "chest_opened_img": "images/locations/elesa_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Nimbasa Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1032,7 +1032,7 @@
                         "chest_unopened_img": "images/locations/elesa_tm.png",
                         "chest_opened_img": "images/locations/elesa_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Nimbasa Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1127,7 +1127,7 @@
                         "chest_unopened_img": "images/locations/bianca_hm02fly.png",
                         "chest_opened_img": "images/locations/bianca_hm02fly_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Driftveil Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1181,7 +1181,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Driftveil Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1192,7 +1192,7 @@
                         "chest_unopened_img": "images/locations/clay_badge.png",
                         "chest_opened_img": "images/locations/clay_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Driftveil Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1300,7 +1300,7 @@
                     {
                         "name": "Appearing item at south end of runway",
                         "access_rules": [
-                            ""
+                            "@Mistralton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1355,7 +1355,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Mistralton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1366,7 +1366,7 @@
                         "chest_unopened_img": "images/locations/skyla_badge.png",
                         "chest_opened_img": "images/locations/skyla_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Mistralton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1377,7 +1377,7 @@
                         "chest_unopened_img": "images/locations/skyla_tm.png",
                         "chest_opened_img": "images/locations/skyla_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Mistralton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1568,7 +1568,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Icirrus Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1577,7 +1577,7 @@
                     {
                         "name": "Gym - Defeat Brycen (Event)",
                         "access_rules": [
-                            "@Icirrus City Access"
+                            "@Icirrus Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1589,7 +1589,7 @@
                         "chest_unopened_img": "images/locations/brycen_badge.png",
                         "chest_opened_img": "images/locations/brycen_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Icirrus Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1600,7 +1600,7 @@
                         "chest_unopened_img": "images/locations/brycen_tm.png",
                         "chest_opened_img": "images/locations/brycen_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Icirrus Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1967,7 +1967,7 @@
                         "chest_unopened_img": "images/locations/prof_juniper_masterball.png",
                         "chest_opened_img": "images/locations/prof_juniper_masterball_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1978,7 +1978,7 @@
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/gymguide_freshwater_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1989,7 +1989,7 @@
                         "chest_unopened_img": "images/locations/drayden_badge.png",
                         "chest_opened_img": "images/locations/drayden_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_items"
@@ -2000,7 +2000,7 @@
                         "chest_unopened_img": "images/locations/iris_badge.png",
                         "chest_opened_img": "images/locations/iris_badge_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_items"
@@ -2011,7 +2011,7 @@
                         "chest_unopened_img": "images/locations/drayden_tm.png",
                         "chest_opened_img": "images/locations/drayden_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_items"
@@ -2022,7 +2022,7 @@
                         "chest_unopened_img": "images/locations/iris_tm.png",
                         "chest_opened_img": "images/locations/iris_tm_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_items"
@@ -2535,7 +2535,7 @@
                         "chest_unopened_img": "images/locations/littlegirl_healball.png",
                         "chest_opened_img": "images/locations/littlegirl_healball_grayscale.png",
                         "access_rules": [
-                            "@Route 3 South Access"
+                            "@Route 3 South Access,@Wellspring Cave 1F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -4506,7 +4506,7 @@
                         "chest_unopened_img": "images/locations/bianca_maxrevive.png",
                         "chest_opened_img": "images/locations/bianca_maxrevive_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Opelucid Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6095,7 +6095,7 @@
             {
                 "name": "Dreamyard",
                 "access_rules": [
-                    "@Dreamyard Access"
+                    ""
                 ],
                 "sections": [
                     {
@@ -6110,7 +6110,7 @@
                     {
                         "name": "Ruins - Item behind broken wall",
                         "access_rules": [
-                            "@Dreamyard Access,$cut"
+                            "@Dreamyard North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6119,7 +6119,7 @@
                     {
                         "name": "Ruins - North west item",
                         "access_rules": [
-                            "@Dreamyard Access,$cut"
+                            "@Dreamyard North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6128,7 +6128,7 @@
                     {
                         "name": "Ruins 2F - East item",
                         "access_rules": [
-                            "@Dreamyard Access,$cut"
+                            "@Dreamyard North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6137,7 +6137,7 @@
                     {
                         "name": "Ruins 2F - West item",
                         "access_rules": [
-                            "@Dreamyard Access,$cut"
+                            "@Dreamyard North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6146,7 +6146,7 @@
                     {
                         "name": "Ruins - Item near furnace",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6155,7 +6155,7 @@
                     {
                         "name": "Ruins - South west item",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6166,6 +6166,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
+                            "@Dreamyard Access,^$hidden,basementkey",
                             "@Dreamyard Basement Access,^$hidden"
                         ],
                         "visibility_rules": [
@@ -6177,7 +6178,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Dreamyard Basement Access,^$hidden"
+                            "@Dreamyard South Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6188,7 +6189,7 @@
                         "chest_unopened_img": "images/locations/sagegorm_tm.png",
                         "chest_opened_img": "images/locations/sagegorm_tm_grayscale.png",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6197,7 +6198,7 @@
                     {
                         "name": "Ruins - Sage Gorm (Event)",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt,show_items",
@@ -6265,7 +6266,8 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$cut",
+                            "@Dreamyard North Access",
+                            "@Dreamyard Access,basementkey",
                             "@Dreamyard Basement Access"
                         ],
                         "visibility_rules": [
@@ -6279,7 +6281,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6292,7 +6294,8 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$cut",
+                            "@Dreamyard North Access,triobadge",
+                            "@Dreamyard Access,basementkey,triobadge",
                             "@Dreamyard Basement Access,triobadge"
                         ],
                         "visibility_rules": [
@@ -6321,7 +6324,7 @@
                         "access_rules": [
                             "@Dreamyard Basement Access,add_rocksmash_false",
                             "@Dreamyard Basement Access,add_rocksmash_true",
-                            "@Dreamyard Basement Access,$can_rock_smash, add_rocksmash_musharna"
+                            "@Dreamyard Basement Access,$can_rock_smash,add_rocksmash_musharna"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6350,13 +6353,13 @@
             {
                 "name": "Wellspring Cave",
                 "access_rules": [
-                    "@Wellspring Cave Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "1F - North east item",
                         "access_rules": [
-                            "$rock_smash"
+                            "@Wellspring Cave 1F Access,$rock_smash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6365,7 +6368,7 @@
                     {
                         "name": "1F - South item",
                         "access_rules": [
-                            "$surf"
+                            "@Wellspring Cave 1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6374,7 +6377,7 @@
                     {
                         "name": "1F - West item",
                         "access_rules": [
-                            "$surf"
+                            "@Wellspring Cave 1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6385,7 +6388,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-							"^$hidden, $rock_smash"
+							"@Wellspring Cave 1F Access,^$hidden,$rock_smash"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6396,7 +6399,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$hidden"
+                            "@Wellspring Cave 1F Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6405,7 +6408,7 @@
                     {
                         "name": "B1F - Item east of trainers",
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6414,7 +6417,7 @@
                     {
                         "name": "B1F - Item south of trainers",
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6423,7 +6426,7 @@
                     {
                         "name": "B1F - North item",
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6432,7 +6435,7 @@
                     {
                         "name": "B1F - South item",
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6443,7 +6446,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$flash,^$hidden"
+                            "@Wellspring Cave B1F Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6454,7 +6457,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$flash,^$hidden"
+                            "@Wellspring Cave B1F Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6465,7 +6468,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$flash,^$hidden"
+                            "@Wellspring Cave B1F Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6476,7 +6479,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$flash,^$hidden"
+                            "@Wellspring Cave B1F Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6489,7 +6492,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Wellspring Cave 1F Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6502,7 +6505,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Wellspring Cave 1F Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6515,7 +6518,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf"
+                            "@Wellspring Cave 1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6528,7 +6531,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf"
+                            "@Wellspring Cave 1F Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6541,7 +6544,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod"
+                            "@Wellspring Cave 1F Access,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6554,7 +6557,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod"
+                            "@Wellspring Cave 1F Access,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6565,7 +6568,7 @@
                         "chest_unopened_img": "images/events/dwebble.png",
                         "chest_opened_img": "images/events/dwebble_cleared.png",
                         "access_rules": [
-                            "$can_rock_smash, ^$static_encounter"
+                            "@Wellspring Cave 1F Access,$can_rock_smash,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "add_rocksmash_true, show_mons",
@@ -6579,7 +6582,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6592,7 +6595,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,triobadge,^$flash"
+                            "@Wellspring Cave B1F Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6605,7 +6608,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,^$flash"
+                            "@Wellspring Cave B1F Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6618,7 +6621,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf,^$flash"
+                            "@Wellspring Cave B1F Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6631,7 +6634,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,superrod,^$flash"
+                            "@Wellspring Cave B1F Access,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6644,7 +6647,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf,triobadge,superrod,^$flash"
+                            "@Wellspring Cave B1F Access,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -6779,7 +6782,7 @@
                     {
                         "name": "Inside - Item near water #1",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6788,7 +6791,7 @@
                     {
                         "name": "Inside - North item near ledge",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6797,7 +6800,7 @@
                     {
                         "name": "Inside - North west item inside tree stump",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6806,7 +6809,7 @@
                     {
                         "name": "Inside - South item #1",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6815,7 +6818,7 @@
                     {
                         "name": "Inside - South item #2",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6824,7 +6827,7 @@
                     {
                         "name": "Inside - West item inside tree stump",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6835,7 +6838,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,^$hidden"
+                            "@Pinwheel Forest West Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6846,7 +6849,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,^$hidden"
+                            "@Pinwheel Forest West Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6857,7 +6860,7 @@
                         "chest_unopened_img": "images/locations/rangeress_chestoberry.png",
                         "chest_opened_img": "images/locations/rangeress_chestoberry_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -6868,7 +6871,7 @@
                         "chest_unopened_img": "images/locations/ranger_chestoberry.png",
                         "chest_opened_img": "images/locations/ranger_chestoberry_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -6879,7 +6882,7 @@
                         "chest_unopened_img": "images/locations/rangeress_pechaberry.png",
                         "chest_opened_img": "images/locations/rangeress_pechaberry_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -6890,7 +6893,7 @@
                         "chest_unopened_img": "images/locations/ranger_pechaberry.png",
                         "chest_opened_img": "images/locations/ranger_pechaberry_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items,show_brangers"
@@ -6901,7 +6904,7 @@
                         "chest_unopened_img": "images/locations/plasmagrunt_dragonskull.png",
                         "chest_opened_img": "images/locations/plasmagrunt_dragonskull_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6912,7 +6915,7 @@
                         "chest_unopened_img": "images/locations/lenora_moonstone.png",
                         "chest_opened_img": "images/locations/lenora_moonstone_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6921,7 +6924,7 @@
                     {
                         "name": "East Inside - East item inside tree stump",
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access"
+                            "@Pinwheel Forest East Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6930,7 +6933,7 @@
                     {
                         "name": "East Inside - South east item",
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access"
+                            "@Pinwheel Forest East Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6939,7 +6942,7 @@
                     {
                         "name": "East Inside - Item near water #2",
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access,$surf"
+                            "@Pinwheel Forest East Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -6950,7 +6953,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access,^$hidden"
+                            "@Pinwheel Forest East Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7013,7 +7016,7 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access"
+                            "@Pinwheel Forest West Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7026,7 +7029,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner East Side Access"
+                            "@Pinwheel Forest East Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7039,7 +7042,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,triobadge"
+                            "@Pinwheel Forest West Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7052,7 +7055,8 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,$surf"
+                            "@Pinwheel Forest West Access,$surf",
+                            "@Pinwheel Forest East Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7065,7 +7069,8 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,triobadge,$surf"
+                            "@Pinwheel Forest West Access,triobadge,$surf",
+                            "@Pinwheel Forest East Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7078,7 +7083,8 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,superrod"
+                            "@Pinwheel Forest West Access,superrod",
+                            "@Pinwheel Forest East Access,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7091,7 +7097,8 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Pinwheel Forest Inner Access,triobadge,superrod"
+                            "@Pinwheel Forest West Access,triobadge,superrod",
+                            "@Pinwheel Forest East Access,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7357,7 +7364,8 @@
                         "chest_unopened_img": "images/locations/backpackerf_fossil.png",
                         "chest_opened_img": "images/locations/backpackerf_fossil_grayscale.png",
                         "access_rules": [
-                            ""
+                            "dark_areas_relic_castle_pre_false",
+                            "^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7366,7 +7374,8 @@
                     {
                         "name": "Castleside B1F - Item",
                         "access_rules": [
-                            ""
+                            "dark_areas_relic_castle_pre_false",
+                            "^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7377,7 +7386,8 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "^$hidden,dark_areas_relic_castle_pre_false",
+                            "^$hidden,^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7386,7 +7396,7 @@
                     {
                         "name": "Castleside B2F - Item #1",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7395,7 +7405,7 @@
                     {
                         "name": "Castleside B2F - Item #2",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7404,7 +7414,7 @@
                     {
                         "name": "Castleside B3F - Item #1",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7413,7 +7423,7 @@
                     {
                         "name": "Castleside B3F - Item #2",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7422,7 +7432,7 @@
                     {
                         "name": "Castleside B4F - Item",
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7433,7 +7443,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "explorerkit,^$hidden"
+                            "@Relic Castle Pre-Sand Room Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7444,7 +7454,7 @@
                         "chest_unopened_img": "images/locations/sageryoku_tm.png",
                         "chest_opened_img": "images/locations/sageryoku_tm_grayscale.png",
                         "access_rules": [
-                            "explorerkit,defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7453,7 +7463,7 @@
                     {
                         "name": "B7F Volcarona Entrance - Sage Ryoku (Event)",
                         "access_rules": [
-                            "@Relic Castle Access,defeatghetsis,explorerkit"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt,show_items",
@@ -7464,7 +7474,7 @@
                     {
                         "name": "Volcarona Room - Volcarona (Event)",
                         "access_rules": [
-                            "@Relic Castle Access,defeatghetsis,explorerkit"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt,show_items",
@@ -7477,7 +7487,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "explorerkit,defeatghetsis,^$hidden"
+                            "@Relic Castle Post-Sand Room Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7486,7 +7496,7 @@
                     {
                         "name": "Towerside 1F - Item",
                         "access_rules": [
-                            "explorerkit,defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7499,7 +7509,8 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "dark_areas_relic_castle_pre_false",
+                            "^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7512,7 +7523,8 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "dark_areas_relic_castle_pre_false",
+                            "^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7525,7 +7537,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7538,7 +7550,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7551,7 +7563,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7564,7 +7576,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit"
+                            "@Relic Castle Pre-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7577,7 +7589,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit,defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7590,7 +7602,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7603,7 +7615,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7616,7 +7628,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7629,7 +7641,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7642,7 +7654,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7655,7 +7667,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7668,7 +7680,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7681,7 +7693,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7694,7 +7706,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7707,7 +7719,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7720,7 +7732,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7733,7 +7745,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7746,7 +7758,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7757,7 +7769,7 @@
                         "chest_unopened_img": "images/events/volcarona.png",
                         "chest_opened_img": "images/events/volcarona_grayscale.png",
                         "access_rules": [
-                            "explorerkit, defeatghetsis, ^$static_encounter"
+                            "@Relic Castle Post-Sand Room Access, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7770,7 +7782,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7783,7 +7795,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7796,7 +7808,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7809,7 +7821,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7822,7 +7834,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7835,7 +7847,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7848,7 +7860,7 @@
                         "chest_opened_img": "images/locations/tower_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7861,7 +7873,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7874,7 +7886,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7887,7 +7899,7 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "explorerkit, defeatghetsis"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7900,7 +7912,8 @@
                         "chest_opened_img": "images/locations/sand_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "dark_areas_relic_castle_pre_false",
+                            "^$flash,dark_areas_relic_castle_pre_true"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -7946,13 +7959,13 @@
             {
                 "name": "Cold Storage",
                 "access_rules": [
-                    "@Cold Storage Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Center item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7961,7 +7974,7 @@
                     {
                         "name": "East item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7970,7 +7983,7 @@
                     {
                         "name": "West item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7981,7 +7994,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Cold Storage Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -7992,7 +8005,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Cold Storage Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8003,7 +8016,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Cold Storage Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8014,7 +8027,7 @@
                         "chest_unopened_img": "images/locations/worker_rockyhelmet.png",
                         "chest_opened_img": "images/locations/worker_rockyhelmet_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8023,7 +8036,7 @@
                     {
                         "name": "Building - Item near entrance, up the stairs",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Building Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8032,7 +8045,7 @@
                     {
                         "name": "Building - Item on first ice field",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Building Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8041,7 +8054,7 @@
                     {
                         "name": "Building - North east item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Building Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8050,7 +8063,7 @@
                     {
                         "name": "Building - South east item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Building Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8059,7 +8072,7 @@
                     {
                         "name": "Container - Item",
                         "access_rules": [
-                            ""
+                            "@Cold Storage Building Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8070,7 +8083,7 @@
                         "chest_unopened_img": "images/locations/sagezinzolin_tm.png",
                         "chest_opened_img": "images/locations/sagezinzolin_tm_grayscale.png",
                         "access_rules": [
-                            "defeatghetsis"
+                            "@Cold Storage Building Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8079,7 +8092,7 @@
                     {
                         "name": "Container - Sage Zinzolin (Event)",
                         "access_rules": [
-                            "@Cold Storage Access,defeatghetsis"
+                            "@Cold Storage Building Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt,show_items",
@@ -8094,7 +8107,7 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8107,7 +8120,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Cold Storage Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8120,7 +8133,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Cold Storage Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8138,7 +8151,7 @@
             {
                 "name": "Chargestone Cave",
                 "access_rules": [
-                    "@Chargestone Cave Access"
+                    ""
                 ],
                 "sections": [
                     {
@@ -8146,7 +8159,7 @@
                         "chest_unopened_img": "images/locations/clay_tm.png",
                         "chest_opened_img": "images/locations/clay_tm_grayscale.png",
                         "access_rules": [
-                            "quakebadge"
+                            "@Route 6 Access,quakebadge"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8155,7 +8168,7 @@
                     {
                         "name": "1F - North east item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8164,7 +8177,7 @@
                     {
                         "name": "1F - North west item #1",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8173,7 +8186,7 @@
                     {
                         "name": "1F - North west item #2",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8182,7 +8195,7 @@
                     {
                         "name": "1F - North west item #3",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8191,7 +8204,7 @@
                     {
                         "name": "1F - South east item #1",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8200,7 +8213,7 @@
                     {
                         "name": "1F - South east item #2",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8211,7 +8224,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8222,7 +8235,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8233,7 +8246,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8244,7 +8257,7 @@
                         "chest_unopened_img": "images/locations/prof_juniper_luckyegg.png",
                         "chest_opened_img": "images/locations/prof_juniper_luckyegg_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8253,7 +8266,7 @@
                     {
                         "name": "B1F - Center item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8262,7 +8275,7 @@
                     {
                         "name": "B1F - North item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8273,7 +8286,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8284,7 +8297,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8296,7 +8309,7 @@
                         "chest_unopened_img": "images/locations/man_nugget.png",
                         "chest_opened_img": "images/locations/man_nugget_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8305,7 +8318,7 @@
                     {
                         "name": "B2F - North east item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8314,7 +8327,7 @@
                     {
                         "name": "B2F - South east item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8323,7 +8336,7 @@
                     {
                         "name": "B2F - South west item",
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8334,7 +8347,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8345,7 +8358,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items,disabled"
@@ -8356,7 +8369,7 @@
                         "chest_unopened_img": "images/locations/sagebronius_tm.png",
                         "chest_opened_img": "images/locations/sagebronius_tm_grayscale.png",
                         "access_rules": [
-                            "defeatghetsis"
+                            "@Chargestone Cave Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8380,7 +8393,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8393,7 +8406,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Chargestone Cave Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8406,7 +8419,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8419,7 +8432,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Chargestone Cave Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8432,7 +8445,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Chargestone Cave Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8445,7 +8458,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Chargestone Cave Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8463,13 +8476,13 @@
             {
                 "name": "Mistralton Cave",
                 "access_rules": [
-                    "@Mistralton Cave Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "1F - North east item",
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8478,7 +8491,7 @@
                     {
                         "name": "1F - North west item",
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8489,7 +8502,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Mistralton Cave Access,$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8500,7 +8513,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Mistralton Cave Access,$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8509,7 +8522,7 @@
                     {
                         "name": "2F - Item near stairs to Guidance Chamber",
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8518,7 +8531,7 @@
                     {
                         "name": "2F - North west item",
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8527,7 +8540,7 @@
                     {
                         "name": "2F - South item",
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8538,7 +8551,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Mistralton Cave Access,$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8549,7 +8562,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Mistralton Cave Access,$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8560,7 +8573,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Mistralton Cave Access,$strength,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8569,7 +8582,7 @@
                     {
                         "name": "Guidance Chamber - North east item",
                         "access_rules": [
-                            "$strength"
+                            "@Guidance Chamber Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8578,7 +8591,7 @@
                     {
                         "name": "Guidance Chamber - North west item",
                         "access_rules": [
-                            "$strength"
+                            "@Guidance Chamber Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8587,7 +8600,7 @@
                     {
                         "name": "Guidance Chamber - South west item",
                         "access_rules": [
-                            "$strength"
+                            "@Guidance Chamber Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8598,7 +8611,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Guidance Chamber Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8609,7 +8622,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$strength,^$hidden"
+                            "@Guidance Chamber Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8618,7 +8631,7 @@
                     {
                         "name": "Guidance Chamber - Cobalion (Event)",
                         "access_rules": [
-                            "@Mistralton Cave Access,$strength"
+                            "@Guidance Chamber Access,$strength"
                         ],
                         "visibility_rules": [
                             "goal_cobalion,show_items",
@@ -8633,7 +8646,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Mistralton Cave Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8646,7 +8659,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Mistralton Cave Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8659,7 +8672,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$strength"
+                            "@Mistralton Cave Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8672,7 +8685,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$strength"
+                            "@Mistralton Cave Access,triobadge,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8683,7 +8696,7 @@
                         "chest_unopened_img": "images/events/goalcobalion.png",
                         "chest_opened_img": "images/events/goalcobalion_grayscale.png",
                         "access_rules": [
-                            "$strength, ^$static_encounter"
+                            "@Guidance Chamber Access,$strength, ^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8696,7 +8709,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$strength"
+                            "@Guidance Chamber Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8709,7 +8722,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$strength"
+                            "@Guidance Chamber Access,triobadge,$strength"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -8858,7 +8871,7 @@
                         "chest_unopened_img": "images/locations/alder_hm03surf.png",
                         "chest_opened_img": "images/locations/alder_hm03surf_grayscale.png",
                         "access_rules": [
-                            "@Route 7 Access"
+                            "@Route 7 Access,@Mistralton Gym Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -9602,7 +9615,7 @@
                         "chest_unopened_img": "images/locations/cedricjuniper_oldgateau.png",
                         "chest_opened_img": "images/locations/cedricjuniper_oldgateau_grayscale.png",
                         "access_rules": [
-                            "@Dragonspiral Tower Entrance Access,defeatbrycen"
+                            "@Icirrus Gym Access,@Dragonspiral Tower Entrance Access,defeatbrycen"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12156,13 +12169,13 @@
             {
                 "name": "Giant Chasm",
                 "access_rules": [
-                    "@Giant Chasm Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Entrance Cave - North east item",
                         "access_rules": [
-                            "$strength"
+                            "@Giant Chasm Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12171,7 +12184,7 @@
                     {
                         "name": "Entrance Cave - North west item",
                         "access_rules": [
-                            "$strength"
+                            "@Giant Chasm Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12180,7 +12193,7 @@
                     {
                         "name": "Entrance Cave - South west item",
                         "access_rules": [
-                            "$strength"
+                            "@Giant Chasm Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12191,7 +12204,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Giant Chasm Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12202,7 +12215,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Giant Chasm Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12213,7 +12226,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Giant Chasm Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12222,7 +12235,7 @@
                     {
                         "name": "Crater - Item near lake",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12231,7 +12244,7 @@
                     {
                         "name": "Crater - Item near northern stairs #1",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12240,7 +12253,7 @@
                     {
                         "name": "Crater - Item near northern stairs #2",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12249,7 +12262,7 @@
                     {
                         "name": "Crater - North west item #1",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12258,7 +12271,7 @@
                     {
                         "name": "Crater - North west item #2",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12267,7 +12280,7 @@
                     {
                         "name": "Crater - South east item",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12276,7 +12289,7 @@
                     {
                         "name": "Crater - South west item",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12285,7 +12298,7 @@
                     {
                         "name": "Crater - West item",
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12294,9 +12307,9 @@
                     {
                         "name": "Kyurem's Cave - Kyurem (Event)",
                         "access_rules": [
-                            "ex_cut_trees_false",
-                            "ex_cut_trees_true",
-                            "$cut,ex_cut_trees_kyurem"
+                            "@Giant Chasm Access,ex_cut_trees_false",
+                            "@Giant Chasm Access,ex_cut_trees_true",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt,show_items",
@@ -12311,7 +12324,7 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Outside Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12324,7 +12337,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Outside Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12337,7 +12350,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Giant Chasm Outside Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12350,7 +12363,7 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12363,7 +12376,7 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Giant Chasm Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12376,7 +12389,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf"
+                            "@Giant Chasm Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12389,7 +12402,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf"
+                            "@Giant Chasm Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12402,7 +12415,7 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod"
+                            "@Giant Chasm Access,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12415,7 +12428,7 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod"
+                            "@Giant Chasm Access,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12428,7 +12441,7 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12441,7 +12454,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Giant Chasm Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12454,7 +12467,7 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Giant Chasm Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12465,9 +12478,9 @@
                         "chest_unopened_img": "images/events/kyurem.png",
                         "chest_opened_img": "images/events/kyurem_grayscale.png",
                         "access_rules": [
-                            "ex_cut_trees_false,^$static_encounter",
-                            "ex_cut_trees_true,^$static_encounter",
-                            "$cut,ex_cut_trees_kyurem,^$static_encounter"
+                            "@Giant Chasm Access,ex_cut_trees_false,^$static_encounter",
+                            "@Giant Chasm Access,ex_cut_trees_true,^$static_encounter",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12480,9 +12493,9 @@
                         "chest_opened_img": "images/locations/cave_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false",
-                            "ex_cut_trees_true",
-                            "$cut,ex_cut_trees_kyurem"
+                            "@Giant Chasm Access,ex_cut_trees_false",
+                            "@Giant Chasm Access,ex_cut_trees_true",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12495,9 +12508,9 @@
                         "chest_opened_img": "images/locations/dustcloud_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false,triobadge",
-                            "ex_cut_trees_true,triobadge",
-                            "$cut,ex_cut_trees_kyurem,triobadge"
+                            "@Giant Chasm Access,ex_cut_trees_false,triobadge",
+                            "@Giant Chasm Access,ex_cut_trees_true,triobadge",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12510,9 +12523,9 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false,$surf",
-                            "ex_cut_trees_true,$surf",
-                            "$cut,ex_cut_trees_kyurem,$surf"
+                            "@Giant Chasm Access,ex_cut_trees_false,$surf",
+                            "@Giant Chasm Access,ex_cut_trees_true,$surf",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12525,9 +12538,9 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false,triobadge,$surf",
-                            "ex_cut_trees_true,triobadge,$surf",
-                            "$cut,ex_cut_trees_kyurem,triobadge,$surf"
+                            "@Giant Chasm Access,ex_cut_trees_false,triobadge,$surf",
+                            "@Giant Chasm Access,ex_cut_trees_true,triobadge,$surf",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12540,9 +12553,9 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false,superrod",
-                            "ex_cut_trees_true,superrod",
-                            "$cut,ex_cut_trees_kyurem,superrod"
+                            "@Giant Chasm Access,ex_cut_trees_false,superrod",
+                            "@Giant Chasm Access,ex_cut_trees_true,superrod",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -12555,9 +12568,9 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "ex_cut_trees_false,triobadge,superrod",
-                            "ex_cut_trees_true,triobadge,superrod",
-                            "$cut,ex_cut_trees_kyurem,triobadge,superrod"
+                            "@Giant Chasm Access,ex_cut_trees_false,triobadge,superrod",
+                            "@Giant Chasm Access,ex_cut_trees_true,triobadge,superrod",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"

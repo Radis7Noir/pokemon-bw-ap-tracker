@@ -64,38 +64,73 @@
     "name": "Striaton City Access",
     "access_rules": [
       "@Route 2 Access",
-      "@Route 3 North Access,parcel"
+      "@Route 3 North Access,parcel",
+      "@Striaton Gym Access",
+      "@Dreamyard Access"
+    ]
+  },
+  {
+    "name": "Striaton Gym Access",
+    "access_rules": [
+      "@Striaton City Access,dark_areas_striaton_gym_false",
+      "@Striaton City Access,^$flash,dark_areas_striaton_gym_true"
     ]
   },
   {
     "name": "Dreamyard Access",
     "access_rules": [
       "@Striaton City Access",
-	    "@Dreamyard Basement Access,basementbey"
+	    "@Dreamyard Basement Access,basementkey",
+	    "@Dreamyard South Access,$strength,mo_strength_boulders_false",
+      "@Dreamyard North Access,$cut"
+    ]
+  },
+  {
+    "name": "Dreamyard North Access",
+    "access_rules": [
+      "@Dreamyard Access,$cut"
+    ]
+  },
+  {
+    "name": "Dreamyard South Access",
+    "access_rules": [
+      "@Dreamyard Basement Access",
+      "@Dreamyard Access,$strength,mo_strength_boulders_true",
+      "@Dreamyard Access,$strength,mo_strength_boulders_vi_road"
     ]
   },
   {
     "name": "Dreamyard Basement Access",
     "access_rules": [
-      "@Dreamyard Access,basementkey",
-      "@Dreamyard Access,$strength,mo_strength_boulders_true",
-      "@Dreamyard Access,$strength,mo_strength_boulders_vi_road"
+      "@Dreamyard Access,basementkey,dark_areas_dreamyard_basement_false",
+      "@Dreamyard Access,basementkey,^$flash,dark_areas_dreamyard_basement_true",
+      "@Dreamyard South Access,dark_areas_dreamyard_basement_false",
+      "@Dreamyard South Access,^$flash,dark_areas_dreamyard_basement_true"
     ]
   },
   {
     "name": "Route 3 North Access",
     "access_rules": [
       "@Striaton City Access,parcel",
-	    "@Wellspring Cave Access",
+	    "@Wellspring Cave 1F Access",
       "@Route 3 South Access"
     ]
   },
   {
-    "name": "Wellspring Cave Access",
+    "name": "Wellspring Cave 1F Access",
     "access_rules": [
-      "@Route 3 North Access",
-	    "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_true",
-	    "@Challenger's Cave Access, $can_rock_smash, add_rocksmash_musharna"
+      "@Route 3 North Access,dark_areas_wellspring_cave_1f_false",
+      "@Route 3 North Access,^$flash,dark_areas_wellspring_cave_1f_true",
+	    "@Challenger's Cave Access,$can_rock_smash, add_rocksmash_true",
+	    "@Challenger's Cave Access,$can_rock_smash, add_rocksmash_musharna"
+    ]
+  },
+  {
+    "name": "Wellspring Cave B1F Access",
+    "access_rules": [
+      "@Wellspring Cave 1F Access,$surf,dark_areas_wellspring_cave_1f_false,dark_areas_wellspring_cave_b1f_false",
+      "@Wellspring Cave 1F Access,^$flash,$surf,dark_areas_wellspring_cave_1f_true",
+      "@Wellspring Cave 1F Access,^$flash,$surf,dark_areas_wellspring_cave_b1f_true"
     ]
   },
   {
@@ -115,53 +150,71 @@
   {
     "name": "Pinwheel Forest Outside Access",
     "access_rules": [
-      "@Nacrene City Access",
-      "@Pinwheel Forest Inner Access,lootsack,ex_cut_trees_false",
-      "@Pinwheel Forest Inner Access,ex_cut_trees_true",
-      "@Skyarrow Bridge Access,dragonskull,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest Inner Access,ex_cut_trees_kyurem",
-      "@Skyarrow Bridge Access,dragonskull,$cut,ex_cut_trees_kyurem"
+      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_false",
+      "@Pinwheel Forest Lower Path Access,ex_cut_trees_true",
+      "@Pinwheel Forest Lower Path Access,ex_cut_trees_kyurem",
+      "@Nacrene City Access"
     ]
   },
   {
-    "name": "Pinwheel Forest Inner Access",
+    "name": "Pinwheel Forest Lower Path Access",
     "access_rules": [
-      "@Pinwheel Forest Outside Access,lootsack",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,ex_cut_trees_false",
-      "@Skyarrow Bridge Access,dragonskull,ex_cut_trees_false",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
-      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,ex_cut_trees_true",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
-      "@Pinwheel Forest Inner East Side Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem",
-      "@Skyarrow Bridge Access,dragonskull,$cut,lootsack,ex_cut_trees_kyurem"
+      "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,dark_areas_pinwheel_forest_false",
+      "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,^$flash,dark_areas_pinwheel_forest_true",
+      "@Pinwheel Forest Outside Access,ex_cut_trees_true,dark_areas_pinwheel_forest_false",
+      "@Pinwheel Forest Outside Access,ex_cut_trees_true,^$flash,dark_areas_pinwheel_forest_true",
+      "@Pinwheel Forest Outside Access,ex_cut_trees_kyurem,dark_areas_pinwheel_forest_false",
+      "@Pinwheel Forest Outside Access,ex_cut_trees_kyurem,^$flash,dark_areas_pinwheel_forest_true",
+      "@Pinwheel Forest West Access,ex_cut_trees_false",
+      "@Pinwheel Forest West Access,lootsack,ex_cut_trees_true",
+      "@Pinwheel Forest West Access,lootsack,ex_cut_trees_kyurem",
+      "@Pinwheel Forest Upper Path Access,ex_cut_trees_false",
+      "@Pinwheel Forest Upper Path Access,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest Upper Path Access,$cut,ex_cut_trees_kyurem"
+    ]
+  },
+  {
+    "name": "Pinwheel Forest West Access",
+    "access_rules": [
+      "@Pinwheel Forest Lower Path Access,ex_cut_trees_false",
+      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_true",
+      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_kyurem"
+    ]
+  },
+  {
+    "name": "Pinwheel Forest Upper Path Access",
+    "access_rules": [
 
+      "@Pinwheel Forest Lower Path Access",
+      "@Pinwheel Forest West Access",
+      "@Pinwheel Forest East Access",
+      "@Skyarrow Bridge Access,dragonskull,dark_areas_pinwheel_forest_false",
+      "@Skyarrow Bridge Access,dragonskull,^$flash,dark_areas_pinwheel_forest_true"
     ]
   },
   {
-    "name": "Pinwheel Forest Inner East Side Access",
+    "name": "Pinwheel Forest East Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,helpdaycareman,ex_cut_trees_false",
-      "@Rumination Field Access,catchdefeatcobalion",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
-      "@Pinwheel Forest Inner Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem"
+      "@Pinwheel Forest Upper Path Access,helpdaycareman,ex_cut_trees_false",
+      "@Pinwheel Forest Upper Path Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
+      "@Pinwheel Forest West Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
+      "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem",
+      "@Rumination Field Access,catchdefeatcobalion,dark_areas_pinwheel_forest_false",
+      "@Rumination Field Access,catchdefeatcobalion,^$flash,dark_areas_pinwheel_forest_true"
     ]
   },
   {
     "name": "Rumination Field Access",
     "access_rules": [
-      "@Pinwheel Forest Inner East Side Access,catchdefeatcobalion"
+      "@Pinwheel Forest East Access,catchdefeatcobalion"
     ]
   },
   {
     "name": "Skyarrow Bridge Access",
     "access_rules": [
-      "@Pinwheel Forest Inner Access,dragonskull",
-      "@Castelia City Access",
-      "@Pinwheel Forest Outside Access,dragonskull,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest Outside Access,dragonskull,$cut,ex_cut_trees_kyurem"
+      "@Pinwheel Forest Upper Path Access,dragonskull",
+      "@Castelia City Access"
     ]
   },
   {
@@ -173,11 +226,18 @@
     ]
   },
   {
+    "name": "Castelia Gym Access",
+    "access_rules": [
+      "@Castelia City Access,dark_areas_castelia_gym_false",
+      "@Castelia City Access,^$flash,dark_areas_castelia_gym_true"
+    ]
+  },
+  {
     "name": "Liberty Garden Access",
     "access_rules": [
       "@Castelia City Access,libertypass",
-	  "@P2 Laboratory Access,add_ssticket_true,libertypass",
-	  "@Undella Town Access,add_ssticket_true,libertypass,ssticket"
+	    "@P2 Laboratory Access,add_ssticket_true,libertypass",
+	    "@Undella Town Access,add_ssticket_true,libertypass,ssticket"
     ]
   },
   {
@@ -192,7 +252,7 @@
     "access_rules": [
       "@Route 4 South Access,machinepart",
       "@Desert Resort Access",
-	  "@Nimbasa City Access"
+	    "@Nimbasa City Access"
     ]
   },
   {
@@ -209,12 +269,34 @@
     ]
   },
   {
+    "name": "Relic Castle Pre-Sand Room Access",
+    "access_rules": [
+      "@Relic Castle Access,explorerkit,dark_areas_relic_castle_pre_false",
+      "@Relic Castle Access,explorerkit,^$flash,dark_areas_relic_castle_pre_true"
+    ]
+  },
+  {
+    "name": "Relic Castle Post-Sand Room Access",
+    "access_rules": [
+      "@Relic Castle Pre-Sand Room Access,defeatghetsis,dark_areas_relic_castle_post_false",
+      "@Relic Castle Pre-Sand Room Access,defeatghetsis,^$flash,dark_areas_relic_castle_post_true"
+    ]
+  },
+  {
     "name": "Nimbasa City Access",
     "access_rules": [
       "@Route 4 North Access",
-	  "@Anville Town Access",
+	    "@Anville Town Access",
       "@Route 5 Access",
-      "@Route 16 Access"
+      "@Route 16 Access",
+      "@Nimbasa Gym Access"
+    ]
+  },
+  {
+    "name": "Nimbasa Gym Access",
+    "access_rules": [
+      "@Nimbasa City Access,dark_areas_nimbasa_gym_false",
+      "@Nimbasa City Access,^$flash,dark_areas_nimbasa_gym_true"
     ]
   },
   {
@@ -242,34 +324,61 @@
     "access_rules": [
       "@Driftveil Drawbridge Access",
       "@Cold Storage Access",
-      "@Route 6 Access"
+      "@Route 6 Access",
+      "@Driftveil Gym Access"
+    ]
+  },
+  {
+    "name": "Driftveil Gym Access",
+    "access_rules": [
+      "@Driftveil City Access,@Cold Storage Building Access,dark_areas_driftveil_gym_false",
+      "@Driftveil City Access,@Cold Storage Building Access,^$flash,dark_areas_driftveil_gym_true"
     ]
   },
   {
     "name": "Cold Storage Access",
     "access_rules": [
-      "@Driftveil City Access"
+      "@Driftveil City Access",
+      "@Cold Storage Building Access"
+    ]
+  },
+  {
+    "name": "Cold Storage Building Access",
+    "access_rules": [
+      "@Cold Storage Access,dark_areas_cold_storage_false",
+      "@Cold Storage Access,^$flash,dark_areas_cold_storage_true"
     ]
   },
   {
     "name": "Route 6 Access",
     "access_rules": [
       "@Driftveil City Access",
-      "@Mistralton Cave Access,$surf,hm04strength,^$flash",
+      "@Mistralton Cave Access,$surf,hm04strength,^$flash,dark_areas_mistralton_cave_true",
+      "@Mistralton Cave Access,$surf,hm04strength,dark_areas_mistralton_cave_false",
       "@Chargestone Cave Access,quakebadge"
     ]
   },
   {
     "name": "Mistralton Cave Access",
     "access_rules": [
-      "@Route 6 Access,$surf,^$flash"
+      "@Route 6 Access,$surf,^$flash,dark_areas_mistralton_cave_true",
+      "@Route 6 Access,$surf,dark_areas_mistralton_cave_false"
+    ]
+  },
+  {
+    "name": "Guidance Chamber Access",
+    "access_rules": [
+      "@Mistralton Cave Access,$strength,^$flash,dark_areas_guidance_chamber_true",
+      "@Mistralton Cave Access,$strength,dark_areas_guidance_chamber_false"
     ]
   },
   {
     "name": "Chargestone Cave Access",
     "access_rules": [
-      "@Route 6 Access,quakebadge",
-      "@Mistralton City Access"
+      "@Route 6 Access,quakebadge,dark_areas_chargestone_cave_false",
+      "@Route 6 Access,quakebadge,^$flash,dark_areas_chargestone_cave_true",
+      "@Mistralton City Access,dark_areas_chargestone_cave_false",
+      "@Mistralton City Access,^$flash,dark_areas_chargestone_cave_true"
     ]
   },
   {
@@ -277,7 +386,15 @@
     "access_rules": [
       "@Chargestone Cave Access",
       "@Route 7 Access",
+      "@Mistralton Gym Access",
       "@Village Bridge Access,pass,add_pass_true"
+    ]
+  },
+  {
+    "name": "Mistralton Gym Access",
+    "access_rules": [
+      "@Mistralton City Access,@Celestial Tower Access,dark_areas_mistralton_gym_false",
+      "@Mistralton City Access,@Celestial Tower Access,^$flash,dark_areas_mistralton_gym_true"
     ]
   },
   {
@@ -285,28 +402,39 @@
     "access_rules": [
       "@Mistralton City Access",
       "@Celestial Tower Access",
-	  "@Twist Mountain Access,jetbadge"
+	    "@Twist Mountain Access,jetbadge"
     ]
   },
   {
     "name": "Celestial Tower Access",
     "access_rules": [
-      "@Route 7 Access"
+      "@Route 7 Access,dark_areas_celestial_tower_false",
+      "@Route 7 Access,^$flash,dark_areas_celestial_tower_true"
     ]
   },
   {
     "name": "Twist Mountain Access",
     "access_rules": [
-      "@Route 7 Access,jetbadge",
-      "@Icirrus City Access"
+      "@Route 7 Access,jetbadge,dark_areas_twist_mountain_false",
+      "@Route 7 Access,jetbadge,^$flash,dark_areas_twist_mountain_true",
+      "@Icirrus City Access,dark_areas_twist_mountain_false",
+      "@Icirrus City Access,^$flash,dark_areas_twist_mountain_true"
     ]
   },
   {
     "name": "Icirrus City Access",
     "access_rules": [
       "@Twist Mountain Access",
+      "@Icirrus Gym Access",
       "@Dragonspiral Tower Entrance Access",
       "@Route 8 Access"
+    ]
+  },
+  {
+    "name": "Icirrus Gym Access",
+    "access_rules": [
+      "@Icirrus City Access,dark_areas_icirrus_gym_false",
+      "@Icirrus City Access,^$flash,dark_areas_icirrus_gym_true"
     ]
   },
   {
@@ -320,20 +448,21 @@
     "name": "Dragonspiral Tower Outside Access",
     "access_rules": [
       "@Dragonspiral Tower Entrance Access",
-      "@Dragonspiral Tower Access,defeatbrycen",
-      "@Dragonspiral Tower Outside East Access,defeatbrycen,$surf"
+      "@Icirrus Gym Access,@Dragonspiral Tower Access,defeatbrycen",
+      "@Icirrus Gym Access,@Dragonspiral Tower Outside East Access,defeatbrycen,$surf"
     ]
   },
   {
     "name": "Dragonspiral Tower Outside East Access",
     "access_rules": [
-      "@Dragonspiral Tower Outside Access,defeatbrycen,$surf"
+      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,$surf"
     ]
   },
   {
     "name": "Dragonspiral Tower Access",
     "access_rules": [
-      "@Dragonspiral Tower Outside Access,defeatbrycen"
+      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,dark_areas_dragonspiral_tower_false",
+      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,^$flash,dark_areas_dragonspiral_tower_true"
     ]
   },
   {
@@ -373,38 +502,50 @@
     "name": "Route 9 Access",
     "access_rules": [
       "@Tubeline Bridge Access",
-      "@Challenger's Cave Access,redchain,^$flash",
+      "@Challenger's Cave Access,redchain,^$flash,dark_areas_challengers_true",
+      "@Challenger's Cave Access,redchain,dark_areas_challengers_false",
       "@Opelucid City Access"
     ]
   },
   {
     "name": "Challenger's Cave Access",
     "access_rules": [
-      "@Route 9 Access,redchain,^$flash",
-	    "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_true",
-	    "@Wellspring Cave Access, ^$flash, $can_rock_smash, add_rocksmash_musharna"
+      "@Route 9 Access,redchain,^$flash,dark_areas_challengers_true",
+      "@Route 9 Access,redchain,dark_areas_challengers_false",
+	    "@Wellspring Cave 1F Access,^$flash, $can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
+	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_false",
+	    "@Wellspring Cave 1F Access,^$flash, $can_rock_smash,add_rocksmash_musharna, dark_areas_challengers_true",
+	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_false"
     ]
   },
   {
     "name": "Opelucid City Access",
     "access_rules": [
+      "@Opelucid Gym Access",
       "@Route 9 Access",
       "@Route 10 Access",
       "@Route 11 Access,oaksletter"
     ]
   },
   {
+    "name": "Opelucid Gym Access",
+    "access_rules": [
+      "@Opelucid City Access,dark_areas_opelucid_gym_false",
+      "@Opelucid City Access,^$flash,dark_areas_opelucid_gym_true"
+    ]
+  },
+  {
     "name": "Route 10 Access",
     "access_rules": [
       "@Opelucid City Access",
-	  "@Victory Road Access"
+	    "@Victory Road Access"
     ]
   },
   {
     "name": "Victory Road Access",
     "access_rules": [
-      "@Route 10 Access,@all_badges",
-      "@Route 10 Access,@all_badges",
+      "@Route 10 Access,@all_badges,dark_areas_victory_road_false",
+      "@Route 10 Access,@all_badges,^$flash,dark_areas_victory_road_true",
 	    "@Trial Chamber Access,catchdefeatcobalion",
       "@Pokémon League Access"
     ]
@@ -469,11 +610,19 @@
     ]
   },
   {
-    "name": "Giant Chasm Access",
+    "name": "Giant Chasm Outside Access",
     "access_rules": [
       "@Route 13 Access,$surf",
       "@Route 13 Access,$strength,mo_strength_boulders_true",
-      "@Route 13 Access,$strength,mo_strength_boulders_vi_road"
+      "@Route 13 Access,$strength,mo_strength_boulders_vi_road",
+      "@Giant Chasm Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Access",
+    "access_rules": [
+      "@Giant Chasm Outside Access,dark_areas_giant_chasm_false",
+      "@Giant Chasm Outside Access,^$flash,dark_areas_giant_chasm_true"
     ]
   },
   {
@@ -482,7 +631,7 @@
       "@Route 13 Access,$rock_smash",
       "@Undella Bay Access",
       "@Route 14 Access",
-	  "@Liberty Garden Access,add_ssticket_true,ssticket"
+	    "@Liberty Garden Access,add_ssticket_true,ssticket"
     ]
   },
   {
@@ -495,7 +644,8 @@
   {
     "name": "Abyssal Ruins Access",
     "access_rules": [
-      "@Undella Bay Access,$surf,$dive"
+      "@Undella Bay Access,$surf,$dive,dark_areas_abyssal_ruins_false",
+      "@Undella Bay Access,$surf,$dive,^$flash,dark_areas_abyssal_ruins_true"
     ]
   },
   {
@@ -504,7 +654,7 @@
       "@Undella Town Access",
       "@Abundant Shrine Access,$surf,$waterfall",
       "@Black City Access",
-	  "@White Forest Access"
+	    "@White Forest Access"
     ]
   },
   {

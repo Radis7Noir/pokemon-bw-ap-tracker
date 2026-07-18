@@ -3446,5 +3446,555 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Dark Areas - Wellspring Cave B1F",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wellspring Cave B1F - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_wellspring_cave_b1f,dark_areas_wellspring_cave_b1f_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wellspring Cave B1F - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_wellspring_cave_b1f,dark_areas_wellspring_cave_b1f_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Mistralton Cave",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mistralton Cave - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_mistralton_cave,dark_areas_mistralton_cave_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mistralton Cave - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_mistralton_cave,dark_areas_mistralton_cave_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Challenger's Cave",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Challenger's Cave - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_challengers,dark_areas_challengers_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Challenger's Cave - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_challengers,dark_areas_challengers_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Striaton Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Striaton Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_striaton_gym,dark_areas_striaton_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Striaton Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_striaton_gym,dark_areas_striaton_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Nacrene Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nacrene Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_nacrene_gym,dark_areas_nacrene_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nacrene Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_nacrene_gym,dark_areas_nacrene_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Castelia Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Castelia Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_castelia_gym,dark_areas_castelia_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Castelia Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_castelia_gym,dark_areas_castelia_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Nimbasa Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nimbasa Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_nimbasa_gym,dark_areas_nimbasa_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nimbasa Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_nimbasa_gym,dark_areas_nimbasa_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Driftveil Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Driftveil Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_driftveil_gym,dark_areas_driftveil_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Driftveil Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_driftveil_gym,dark_areas_driftveil_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Mistralton Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mistralton Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_mistralton_gym,dark_areas_mistralton_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mistralton Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_mistralton_gym,dark_areas_mistralton_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Icirrus Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Icirrus Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_icirrus_gym,dark_areas_icirrus_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Icirrus Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_icirrus_gym,dark_areas_icirrus_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Opelucid Gym",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Opelucid Gym - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_opelucid_gym,dark_areas_opelucid_gym_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Opelucid Gym - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_opelucid_gym,dark_areas_opelucid_gym_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Dreamyard Basement",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dreamyard Basement - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_dreamyard_basement,dark_areas_dreamyard_basement_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dreamyard Basement - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_dreamyard_basement,dark_areas_dreamyard_basement_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Wellspring Cave 1F",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wellspring Cave 1F - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_wellspring_cave_1f,dark_areas_wellspring_cave_1f_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wellspring Cave 1F - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_wellspring_cave_1f,dark_areas_wellspring_cave_1f_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Pinwheel Forest Inside",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pinwheel Forest Inside - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_pinwheel_forest,dark_areas_pinwheel_forest_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pinwheel Forest Inside - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_pinwheel_forest,dark_areas_pinwheel_forest_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Relic Castle Pre-Sand Room",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Relic Castle Pre-Sand Room - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_relic_castle_pre,dark_areas_relic_castle_pre_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Relic Castle Pre-Sand Room - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_relic_castle_pre,dark_areas_relic_castle_pre_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Relic Castle Post-Sand Room",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Relic Castle Post-Sand Room - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_relic_castle_post,dark_areas_relic_castle_post_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Relic Castle Post-Sand Room - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_relic_castle_post,dark_areas_relic_castle_post_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Cold Storage",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cold Storage - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_cold_storage,dark_areas_cold_storage_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cold Storage - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_cold_storage,dark_areas_cold_storage_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Guidance Chamber",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Guidance Chamber - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_guidance_chamber,dark_areas_guidance_chamber_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Guidance Chamber - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_guidance_chamber,dark_areas_guidance_chamber_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Chargestone Cave",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Chargestone Cave - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_chargestone_cave,dark_areas_chargestone_cave_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chargestone Cave - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_chargestone_cave,dark_areas_chargestone_cave_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Celestial Tower",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Celestial Tower - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_celestial_tower,dark_areas_celestial_tower_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Celestial Tower - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_celestial_tower,dark_areas_celestial_tower_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Twist Mountain",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Twist Mountain - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_twist_mountain,dark_areas_twist_mountain_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Twist Mountain - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_twist_mountain,dark_areas_twist_mountain_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Dragonspiral Tower",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dragonspiral Tower - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_dragonspiral_tower,dark_areas_dragonspiral_tower_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dragonspiral Tower - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_dragonspiral_tower,dark_areas_dragonspiral_tower_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Victory Road",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Victory Road - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_victory_road,dark_areas_victory_road_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Victory Road - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_victory_road,dark_areas_victory_road_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Giant Chasm",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Giant Chasm - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_giant_chasm,dark_areas_giant_chasm_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Giant Chasm - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_giant_chasm,dark_areas_giant_chasm_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Areas - Abyssal Ruins",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Abyssal Ruins - LIT",
+                "img": "/images/items/roadblocks/pass.png",
+				"img_mods": "@disabled",
+                "codes": "dark_areas_abyssal_ruins,dark_areas_abyssal_ruins_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Abyssal Ruins - DARK",
+                "img": "/images/items/roadblocks/pass.png",
+                "codes": "dark_areas_abyssal_ruins,dark_areas_abyssal_ruins_true",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
