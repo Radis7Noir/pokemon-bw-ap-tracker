@@ -409,7 +409,7 @@
                     {
                         "name": "Items from Cheren",
                         "ref": "Unova Locations/Nacrene City/Items from Cheren"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -2725,7 +2725,7 @@
                     {
                         "name": "Items from girl after Wellspring Cave",
                         "ref": "Unova Locations/Route 3/North - Items from girl after Wellspring Cave"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -3252,7 +3252,7 @@
                     {
                         "name": "Items from Professor Juniper",
                         "ref": "Unova Locations/Route 4/North Gate - Items from Professor Juniper"
-                    },
+                    }
                 ],
                 "map_locations": [
                     {
@@ -5831,7 +5831,7 @@
                     {
                         "name": "Items from veteran in western house",
                         "ref": "Unova Locations/Route 13/Items from veteran in western house"
-                    },
+                    }
 			    ],
                 "map_locations": [
                     {
@@ -9522,6 +9522,70 @@
                 ]
             },
             {
+                "name": "​Cold Storage Building",
+                "sections": [
+                    {
+                        "name": "Item near entrance, up the stairs",
+                        "ref": "Unova Locations/Cold Storage/Building - Item near entrance, up the stairs"
+                    },
+                    {
+                        "name": "Item on first ice field",
+                        "ref": "Unova Locations/Cold Storage/Building - Item on first ice field"
+                    },
+                    {
+                        "name": "South east item",
+                        "ref": "Unova Locations/Cold Storage/Building - South east item"
+                    },
+                    {
+                        "name": "North east item",
+                        "ref": "Unova Locations/Cold Storage/Building - North east item"
+                    },
+                    {
+                        "name": "Container - Item",
+                        "ref": "Unova Locations/Cold Storage/Container - Item"
+                    },
+                    {
+                        "name": "Container - TM from sage Zinzolin",
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
+                    },
+                    {
+                        "name": "Container - Sage Zinzolin (Event)",
+                        "ref": "Unova Locations/Cold Storage/Container - Sage Zinzolin (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "coldstorageoutside",
+                        "x": 72,
+                        "y": 394
+                    }
+                ]
+            },
+            {
+                "name": "​Cold Storage Container",
+                "sections": [
+                    {
+                        "name": "Item",
+                        "ref": "Unova Locations/Cold Storage/Container - Item"
+                    },
+                    {
+                        "name": "TM from sage Zinzolin",
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
+                    },
+                    {
+                        "name": "Sage Zinzolin (Event)",
+                        "ref": "Unova Locations/Cold Storage/Container - Sage Zinzolin (Event)"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 78,
+                        "y": 96
+                    }
+                ]
+            },
+            {
                 "name": "Cold Storage",
                 "sections": [
                     {
@@ -10056,7 +10120,7 @@
                     {
                         "name": "Cobalion (Static)",
                         "ref": "Unova Locations/Mistralton Cave/Guidance Chamber - Cobalion (Static)"
-                    },
+                    }
 			    ],
                 "map_locations": [
                     {
@@ -11415,7 +11479,7 @@
                     {
                         "name": "2F - Land Encounters",
                         "ref": "Unova Locations/Dragonspiral Tower/2F - Land Encounters"
-                    },
+                    }
 			    ],
                 "map_locations": [
                     {
@@ -13642,7 +13706,7 @@
                     {
                         "name": "Crater - Land Phenomena",
                         "ref": "Unova Locations/Giant Chasm/Crater - Land Phenomena"
-                    },
+                    }
 			    ],
                 "map_locations": [
                     {
