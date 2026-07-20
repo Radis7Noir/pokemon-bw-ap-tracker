@@ -13287,7 +13287,7 @@
                     {
                         "name": "4F - Item",
                         "access_rules": [
-                            "tm70flash,$strength"
+                            "tm70flash,hm04strength"
                         ],
                         "visibility_rules": [
                             "show_items,show_abyssalruins"

@@ -168,7 +168,6 @@ function onClear(slot_data)
         ["Challengers Cave"] = Tracker:FindObjectForCode("dark_areas_challengers"),
         ["Victory Road"] = Tracker:FindObjectForCode("dark_areas_victory_road"),
         ["Giant Chasm"] = Tracker:FindObjectForCode("dark_areas_giant_chasm"),
-        ["Abyssal Ruins"] = Tracker:FindObjectForCode("dark_areas_abyssal_ruins"),
     }
 
     local default_dark_areas = {

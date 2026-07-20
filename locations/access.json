@@ -185,7 +185,9 @@
     "name": "Pinwheel Forest Upper Path Access",
     "access_rules": [
 
-      "@Pinwheel Forest Lower Path Access",
+      "@Pinwheel Forest Lower Path Access,ex_cut_trees_false",
+      "@Pinwheel Forest Lower Path Access,$cut,ex_cut_trees_true",
+      "@Pinwheel Forest Lower Path Access,$cut,ex_cut_trees_kyurem",
       "@Pinwheel Forest West Access",
       "@Pinwheel Forest East Access",
       "@Skyarrow Bridge Access,dragonskull,dark_areas_pinwheel_forest_false",
@@ -197,7 +199,7 @@
     "access_rules": [
       "@Pinwheel Forest Upper Path Access,helpdaycareman,ex_cut_trees_false",
       "@Pinwheel Forest Upper Path Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
-      "@Pinwheel Forest West Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
+      "@Pinwheel Forest Upper Path Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
       "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
       "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem",
       "@Rumination Field Access,catchdefeatcobalion,dark_areas_pinwheel_forest_false",
@@ -644,8 +646,7 @@
   {
     "name": "Abyssal Ruins Access",
     "access_rules": [
-      "@Undella Bay Access,$surf,$dive,dark_areas_abyssal_ruins_false",
-      "@Undella Bay Access,$surf,$dive,^$flash,dark_areas_abyssal_ruins_true"
+      "@Undella Bay Access,$surf,$dive"
     ]
   },
   {
