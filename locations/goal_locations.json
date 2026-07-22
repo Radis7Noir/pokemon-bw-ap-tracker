@@ -8,7 +8,7 @@
                     {
                         "name": "Defeat Ghetsis",
                         "access_rules": [
-                            "@Victory Road Access"
+                            "@N's Castle Access"
                         ],
                         "visibility_rules": [
                             "goal_ghetsis",
@@ -34,7 +34,7 @@
                     {
                         "name": "Defeat Champion Alder",
                         "access_rules": [
-                            "defeatghetsis"
+                            "@Pokémon Leagu Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_champion",
@@ -80,7 +80,7 @@
                     {
                         "name": "Catch or defeat Cobalion",
                         "access_rules": [
-                            "@Mistralton Cave Access,hm04strength"
+                            "@Guidance Chamber Access, $strength"
                         ],
                         "visibility_rules": [
                             "goal_cobalion",
@@ -127,7 +127,7 @@
                     {
                         "name": "Arrest Sage Giallo on Route 14",
                         "access_rules": [
-                            "@Route 14 Access,hm03surf,hm05waterfall"
+                            "@Route 14 Access,$surf,$waterfall"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -150,7 +150,7 @@
                     {
                         "name": "Arrest Sage Gorm at the Dreamyard",
                         "access_rules": [
-                            "@Dreamyard Basement Access"
+                            "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -219,7 +219,7 @@
                     {
                         "name": "Arrest Sage Ryoku in Relic Castle",
                         "access_rules": [
-                            "@Relic Castle Access,defeatghetsis,explorerkit"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
@@ -288,7 +288,7 @@
                     {
                         "name": "Catch or defeat Volcarona",
                         "access_rules": [
-                            "@Relic Castle Access,defeatghetsis,explorerkit"
+                            "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
@@ -380,7 +380,9 @@
                     {
                         "name": "Catch or defeat Kyurem",
                         "access_rules": [
-                            "@Giant Chasm Access"
+                            "@Giant Chasm Access,ex_cut_trees_false",
+                            "@Giant Chasm Access,ex_cut_trees_true",
+                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
                             "goal_legendary_hunt",
