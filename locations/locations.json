@@ -11966,7 +11966,7 @@
                     {
                         "name": "N's Castle Throne Room - Ghetsis (Event)",
                         "access_rules": [
-                            "@Victory Road Access"
+                            "@N's Castle Access"
                         ],
                         "visibility_rules": [
                             "goal_ghetsis,show_items",
