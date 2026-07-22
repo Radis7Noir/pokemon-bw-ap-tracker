@@ -34,7 +34,7 @@
                     {
                         "name": "Defeat Champion Alder",
                         "access_rules": [
-                            "@Pokémon Leagu Access,defeatghetsis"
+                            "@Pokémon League Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_champion",
