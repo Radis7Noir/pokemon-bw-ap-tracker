@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "3.7.1",
+      "download_url": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/download/3.7.1/pokemon-bw-ap-tracker.zip",
+      "sha256": "ced40efc86bba9c4fd9cdc089ee94835aad96b59061aaf04788102ff0d9e0688",
+      "changelog": [
+        "Check release notes"
+      ]
+    },
+    {
       "package_version": "3.7.0",
       "download_url": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/download/3.7.0/pokemon-bw-ap-tracker.zip",
       "sha256": "3c0328997f1eafd2365d202f3748ec83e6d85432e5f3b72f397731cea2d514b0",
