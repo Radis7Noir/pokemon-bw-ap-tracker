@@ -197,6 +197,20 @@ function searchMon()
     Tracker:FindObjectForCode("go").CurrentStage = 0
 end
 
+function searchReset()
+    searchMon(000)
+    Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 0
+    Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage = 0
+    Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = 0
+    Tracker:FindObjectForCode("search_ID_result").CurrentStage = 0
+    Tracker:FindObjectForCode("search_reset").CurrentStage = 0
+    if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+    else
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    end
+end
+
 function static_encounter()
     if has("consider_statics_true") then
         return AccessibilityLevel.Normal

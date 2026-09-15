@@ -606,13 +606,32 @@
         "stages": [
             {
                 "name": "Click here to search",
-                "img": "/images/settings/go.png",
+                "img": "/images/settings/go2.png",
                 "codes": "go"
             },
             {
                 "name": "Click here to search",
-                "img": "/images/settings/go.png",
+                "img": "/images/settings/go2.png",
                 "codes": "search_active",
+                "inherit_codes": "false",
+                "img_mods": "@disabled"
+            }
+        ]
+    },
+    {
+        "name": "Click here to reset",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Click here to reset",
+                "img": "/images/settings/reset2.png",
+                "codes": "search_reset"
+            },
+            {
+                "name": "Click here to reset",
+                "img": "/images/settings/reset2.png",
+                "codes": "search_reset_complete",
                 "inherit_codes": "false",
                 "img_mods": "@disabled"
             }
