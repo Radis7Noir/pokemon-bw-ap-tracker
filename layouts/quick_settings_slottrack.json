@@ -1,0 +1,80 @@
+{
+    "quick_settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "auto_switch",
+                                ""
+                            ],
+                            [
+                                "split",
+                                "slotdigit_1"
+                            ],
+                            [
+                                "location_visibility",
+                                "slotdigit_2"
+                            ],
+                            [
+                                "encounter_tracking",
+                                "slotdigit_3"
+                            ],
+                            [
+                                "hint_tracking",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "v_quick_settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2,2",
+                        "item_size": "32,32",
+                        "h_alignment": "center",
+                        "rows": [
+                            [
+                                "auto_switch",
+                                "split",
+                                "location_visibility",
+                                "encounter_tracking",
+                                "hint_tracking"
+                            ],
+                            [
+                                "",
+                                "slotdigit_1",
+                                "slotdigit_2",
+                                "slotdigit_3",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

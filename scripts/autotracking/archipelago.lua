@@ -13,6 +13,8 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 HINT_ID = {}
+EVENT_BITS = {}
+MAP_ID = {}
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -47,6 +49,8 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     CAUGHT = {}
     SEEN = {}
+    EVENT_BITS = {}
+    MAP_ID = {}
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
@@ -425,11 +429,32 @@ function onClear(slot_data)
             MAP        = makeID("map_"),
             HINT       = "_read_hints_" .. suffix,
             WILD_IDS   = makeID("wild_ids_"),
+            SLOT_UNLOCK= makeID("tracker_slots_enabled_"),
         }
         for _, id in pairs(IDs) do
             Archipelago:SetNotify({id})
             Archipelago:Get({id})
         end
+    end
+end
+
+function forSlot(value)
+    return value[tostring(getDigits("slotdigit_1", "slotdigit_2", "slotdigit_3"))]
+end
+
+function updateSlot()
+    updateEvents(forSlot(EVENT_BITS) or 0)
+    updateMap()
+end
+
+function toggleSlots(value)
+    if tonumber(value) == 1 then
+        Tracker:AddLayouts("layouts/quick_settings_slottrack.json")
+    else
+        Tracker:AddLayouts("layouts/quick_settings.json")
+        Tracker:FindObjectForCode("slotdigit_1").CurrentStage = 0
+        Tracker:FindObjectForCode("slotdigit_2").CurrentStage = 0
+        Tracker:FindObjectForCode("slotdigit_3").CurrentStage = 0
     end
 end
 
@@ -561,26 +586,32 @@ function onNotify(key, value, old_value)
         return
     end
 
+    if key == IDs.SLOT_UNLOCK then
+        toggleSlots(value)
+        return
+    end
+
     if value ~= nil and value ~= 0 then
         if key == IDs.EVENT then
-            updateEvents(value)
+            EVENT_BITS = value
+            updateEvents(forSlot(value) or 0)
         elseif key == IDs.CAUGHT then
             CAUGHT = value
             updateCaught()
         elseif key == IDs.SEEN then
             SEEN = value
             updateSeen()
-        elseif key == IDs.MAP and old_value ~= nil then
+        elseif key == IDs.MAP then
             MAP_ID = value
-            updateMap()
-        elseif key == IDs.MAP and old_value == nil then
-            MAP_ID = value
+            if old_value ~= nil and forSlot(value) ~= forSlot(old_value) then
+                updateMap()
+            end
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()
             updatePokemon()
         elseif key == IDs.WILD_IDS and old_value ~= nil then
-            updateWildBattle(value)
+            updateWildBattle(forSlot(value), forSlot(old_value))
         end
     end
 end
@@ -614,8 +645,11 @@ function updateCaught()
     updatePokemon()
 end
 
-function updateWildBattle(value)
-    if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+function updateWildBattle(value, old_value)
+    if value == nil or Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
+        return
+    end
+    if old_value ~= nil and value[1] == old_value[1] and value[2] == old_value[2] then
         return
     end
     
@@ -751,7 +785,7 @@ end
 
 -- Auto-tabbing
 function updateMap()
-    map_id = MAP_ID or 0
+    local map_id = forSlot(MAP_ID) or 0
     if has("automap_on") then
         local tabs = MAP_MAPPING[map_id]
         if tabs then

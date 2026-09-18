@@ -61,3 +61,6 @@ ScriptHost:AddWatchForCode("encounter_tracking", "encounter_tracking", updatePok
 ScriptHost:AddWatchForCode("search_active", "search_active", searchMon)
 ScriptHost:AddWatchForCode("search_reset_complete", "search_reset_complete", searchReset)
 ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)
+ScriptHost:AddWatchForCode("slotdigit_1", "slotdigit_1", updateSlot)
+ScriptHost:AddWatchForCode("slotdigit_2", "slotdigit_2", updateSlot)
+ScriptHost:AddWatchForCode("slotdigit_3", "slotdigit_3", updateSlot)

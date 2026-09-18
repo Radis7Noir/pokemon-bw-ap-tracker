@@ -140,3 +140,9 @@ function toggle_splitmap()
         Tracker:AddLayouts("layouts/tabs_reverse.json")
     end
 end
+
+function getDigits(code1, code2, code3)
+    return (Tracker:FindObjectForCode(code1).CurrentStage or 0) * 100
+         + (Tracker:FindObjectForCode(code2).CurrentStage or 0) * 10
+         + (Tracker:FindObjectForCode(code3).CurrentStage or 0)
+end
