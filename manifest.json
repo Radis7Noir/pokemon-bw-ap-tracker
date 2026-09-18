@@ -1,9 +1,9 @@
 {
-    "name": "Pokémon Black and White Archipelago",
-    "game_name": "Pokémon Black and White",
-    "package_version": "3.7.2",
+    "name": "Pokémon Black and White Archipelago Pre-Release",
+    "game_name": "Pokémon Black and White Pre-Release",
+    "package_version": "1.0.0",
     "min_poptracker_version": "0.34.0",
-    "package_uid": "ap_pokemon_bw",
+    "package_uid": "ap_pokemon_bw_pre_release",
     "author": "RadisNoir & palex00",
     "variants": {
         "standard": {
