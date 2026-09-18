@@ -6088,7 +6088,7 @@
                     {
                         "name": "Item from scientist #1",
                         "access_rules": [
-                            "{}",
+                            "randomize_wild_on,{}",
                             "caught_649,randomize_wild_off,[]",
                             "caught_649,randomize_wild_on"
                         ],
