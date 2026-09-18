@@ -13,28 +13,53 @@
                     "content": [
                         {
                             "type": "group",
+                            "margin": "100,100",
                             "background": "#171717",
-                            "header": "Items  ",
                             "dock": "left",
-                            "margin": "0,0,0,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "key_items_grid"
-                            }
+                            "content": [
+                                {
+                                    "type": "array",
+                                    "margin": "2,-28, 2, 2",
+                                    "content": [
+                                        {
+                                            "type": "tabbed",
+                                            "h_alignment": "center",
+                                            "dock": "left",
+                                            "tabs": [
+                                                {
+                                                    "title": "Key Items",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "key_items_grid"
+                                                    }
+                                                },
+                                                {
+                                                    "title": "Encounter Items",
+                                                    "content": {
+                                                        "type": "layout",
+                                                        "key": "key_enc_evo_grid"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "type": "group",
                             "background": "#171717",
-                            "header": "Events ",
+                            "header": "Events",
                             "dock": "left",
-                            "margin": "0,0,0,0",
                             "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "event_grid"
+                                "type": "array",
+                                "margin": "0,-3,0,0",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "key": "event_grid"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -42,11 +67,8 @@
                             "background": "#171717",
                             "header": "Tools  ",
                             "dock": "left",
-                            "margin": "0,0,0,0",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
                                 "key": "quick_settings_grid"
                             }
                         },
@@ -67,10 +89,12 @@
                 },
                 {
                     "type": "dock",
-                    "content": {
-                        "type": "layout",
-                        "key": "tabbed_maps"
-                    }
+                    "content": [
+                        {
+                            "type": "layout",
+                            "key": "tabbed_maps"
+                        }
+                    ]
                 }
             ]
         }

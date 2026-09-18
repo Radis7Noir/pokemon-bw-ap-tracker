@@ -1,0 +1,44 @@
+{
+    "key_enc_evo_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "16,0,0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "5, 5",
+                        "h_alignment": "center",
+                        "item_height": 32,
+                        "item_width": 32,
+                        "rows": [
+                            [
+                                "",
+                                "superrod",
+                                "ragecandybar",
+                                "helixfossil",
+                                "domefossil",
+                                ""
+                            ],
+                            [
+                                "oldamber",
+                                "rootfossil",
+                                "clawfossil",
+                                "skullfossil"
+                            ],
+                            [
+                                "armorfossil",
+                                "coverfossil",
+                                "plumefossil"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }    
+}

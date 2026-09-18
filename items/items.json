@@ -311,11 +311,53 @@
         "img": "/images/items/roadblocks/explorer_kit.png",
         "codes": "explorerkit"
     },
+	{
+        "name": "Silver Wing",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/silver_wing.png",
+        "codes": "silverwing"
+    },
+	{
+		"name": "Explorer Kit & Silver Wing",
+		"type": "composite_toggle",
+		"codes": "explorerkitsilverwing",
+		"item_left": "explorerkit",
+		"item_right": "silverwing",
+		"images": [
+			{
+			"left": false,
+			"right": false,
+			"img": "images/items/roadblocks/explorer_kit_silver_wing.png",
+			"img_mods": "@disabled"
+			},
+			{
+			"left": true,
+			"right": false,
+			"img": "images/items/roadblocks/explorer_kit_no_silver_wing.png"
+			},
+			{
+			"left": false,
+			"right": true,
+			"img": "images/items/roadblocks/no_explorer_kit_silver_wing.png"
+			},
+			{
+			"left": true,
+			"right": true,
+			"img": "images/items/roadblocks/explorer_kit_silver_wing.png"
+			}
+		]
+	},
     {
         "name": "Red Chain",
         "type": "toggle",
         "img": "/images/items/roadblocks/red_chain.png",
         "codes": "redchain"
+    },
+	{
+        "name": "GB Sounds",
+        "type": "toggle",
+        "img": "/images/items/roadblocks/gb_sounds.png",
+        "codes": "gbsounds"
     },
 	{
         "name": "Liberty Pass",

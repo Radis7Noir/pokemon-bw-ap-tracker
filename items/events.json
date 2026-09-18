@@ -114,10 +114,63 @@
         "codes": "catchdefeatvolcarona"
     },
     {
+        "name": "Defeat Striaton Gym Leader",
+        "type": "toggle",
+        "img": "/images/events/leaderstriaton.png",
+        "codes": "defeatstriatongym"
+    },
+    {
+        "name": "Defeat Gym Leader Lenora in Icirrus City",
+        "type": "toggle",
+        "img": "/images/events/leaderlenora.png",
+        "codes": "defeatlenora"
+    },
+    {
+        "name": "Defeat Gym Leader Burgh in Castelia City",
+        "type": "toggle",
+        "img": "/images/events/leaderburgh.png",
+        "codes": "defeatburgh"
+    },
+    {
+        "name": "Defeat Gym Leader Elesa in Nimbasa City",
+        "type": "toggle",
+        "img": "/images/events/leaderelesa.png",
+        "codes": "defeatelesa"
+    },
+    {
+        "name": "Defeat Gym Leader Clay in Driftveil City",
+        "type": "toggle",
+        "img": "/images/events/leaderclay.png",
+        "codes": "defeatclay"
+    },
+    {
+        "name": "Defeat Gym Leader Skyla in Mistralton City",
+        "type": "toggle",
+        "img": "/images/events/leaderskyla.png",
+        "codes": "defearskyla"
+    },
+    {
         "name": "Defeat Gym Leader Brycen in Icirrus City",
         "type": "toggle",
-        "img": "/images/events/brycen.png",
+        "img": "/images/events/leaderbrycen.png",
         "codes": "defeatbrycen"
+    },
+        {
+        "name": "Defeat Opelucid Gym",
+        "type": "toggle",
+        "codes": "defeatopelucidgym"
+    },
+    {
+        "name": "Defeat Gym Leader Iris in Opelucid City",
+        "type": "toggle",
+        "img": "/images/events/leaderiris.png",
+        "codes": "defeatiris"
+    },
+    {
+        "name": "Defeat Gym Leader Drayden in Opelucid City",
+        "type": "toggle",
+        "img": "/images/events/leaderdrayden.png",
+        "codes": "defeatdrayden"
     },
     {
         "name": "Help the Day-Care man in Nimbasa City",

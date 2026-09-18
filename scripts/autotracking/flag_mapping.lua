@@ -18,5 +18,12 @@ FLAG_EVENT_CODES = {
     "defeatchampionalder",
     "showalltmhms",
     "defeatbrycen",
-    "helpdaycareman"
+    "helpdaycareman",
+    "defeatstriatongym",
+    "defeatlenora",
+    "defeatburgh",
+    "defeatelesa",
+    "defeatclay",
+    "defeatskyla",
+    "defeatopelucidgym"
 }
