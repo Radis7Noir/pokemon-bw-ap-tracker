@@ -15,5 +15,5 @@
             "flags": ["ap"]
         }
     }
-    , "versions_url": "https://raw.githubusercontent.com/Radis7Noir/pokemon-bw-ap-tracker/versions/versions.json"
+    , "versions_url": "https://raw.githubusercontent.com/Radis7Noir/pokemon-bw-ap-tracker/versions/beta_versions.json"
 }
