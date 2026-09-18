@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Defeat Ghetsis in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/goalghetsis.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatghetsis_hosted"
+    },
+    {
+        "name": "Defeat Champion Alder at the Pokémon League",
+        "type": "toggle",
+        "img": "/images/events/goalchampion.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatchampionalder_hosted"
+    },
+    {
+        "name": "Defeat Cynthia in Undella Town",
+        "type": "toggle",
+        "img": "/images/events/goalcynthia.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatcynthia_hosted"
+    },
+    {
+        "name": "Catch or defeat Cobalion in Guidance Chamber",
+        "type": "toggle",
+        "img": "/images/events/goalcobalion.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatcobalion_hosted"
+    },
+    {
+        "name": "Show all TMs and HMs to the scientist in Castelia City",
+        "type": "toggle",
+        "img": "/images/events/goaltmhms.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "showalltmhms_hosted"
+    },
+    {
+        "name": "Arrest Sage Gorm at the Dreamyard",
+        "type": "toggle",
+        "img": "/images/events/sage_gorm.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsagegorm_hosted"
+    },
+    {
+        "name": "Arrest Sage Giallo on Route 14",
+        "type": "toggle",
+        "img": "/images/events/sage_giallo.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsagegiallo_hosted"
+    },
+    {
+        "name": "Arrest Sage Zinzolin in Cold Storage",
+        "type": "toggle",
+        "img": "/images/events/sage_zinzolin.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsagezinzolin_hosted"
+    },
+    {
+        "name": "Arrest Sage Ryoku in Relic Castle",
+        "type": "toggle",
+        "img": "/images/events/sage_ryoku.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsageryoku_hosted"
+    },
+    {
+        "name": "Arrest Sage Rood on Route 18",
+        "type": "toggle",
+        "img": "/images/events/sage_rood.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsagerood_hosted"
+    },
+    {
+        "name": "Arrest Sage Bronius in Chargestone Cave",
+        "type": "toggle",
+        "img": "/images/events/sage_bronius.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "arrestsagebronius_hosted"
+    },
+    {
+        "name": "Catch or defeat Victini at Liberty Garden",
+        "type": "toggle",
+        "img": "/images/events/victini.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatvictini_hosted"
+    },
+    {
+        "name": "Catch Reshiram or Zekrom in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/zeshiram.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchreshiramzekrom_hosted"
+    },
+    {
+        "name": "Catch Reshiram in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/reshiram.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchreshiram_hosted"
+    },
+    {
+        "name": "Catch Zekrom in N's Castle",
+        "type": "toggle",
+        "img": "/images/events/zekrom.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchzekrom_hosted"
+    },
+    {
+        "name": "Catch or defeat Terrakion in Trial Chamber",
+        "type": "toggle",
+        "img": "/images/events/terrakion.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatterrakion_hosted"
+    },
+    {
+        "name": "Catch or defeat Virizion in Rumination Field",
+        "type": "toggle",
+        "img": "/images/events/virizion.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatvirizion_hosted"
+    },
+    {
+        "name": "Catch or deafeat Kyurem at the Giant Chasm",
+        "type": "toggle",
+        "img": "/images/events/kyurem.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatkyurem_hosted"
+    },
+    {
+        "name": "Catch or defeat Volcarona in Relic Castle",
+        "type": "toggle",
+        "img": "/images/events/volcarona.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "catchdefeatvolcarona_hosted"
+    },
+    {
+        "name": "Defeat Striaton Gym Leader",
+        "type": "toggle",
+        "img": "/images/events/leaderstriaton.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatstriatongym_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Lenora in Icirrus City",
+        "type": "toggle",
+        "img": "/images/events/leaderlenora.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatlenora_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Burgh in Castelia City",
+        "type": "toggle",
+        "img": "/images/events/leaderburgh.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatburgh_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Elesa in Nimbasa City",
+        "type": "toggle",
+        "img": "/images/events/leaderelesa.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatelesa_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Clay in Driftveil City",
+        "type": "toggle",
+        "img": "/images/events/leaderclay.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatclay_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Skyla in Mistralton City",
+        "type": "toggle",
+        "img": "/images/events/leaderskyla.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatskyla_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Brycen in Icirrus City",
+        "type": "toggle",
+        "img": "/images/events/leaderbrycen.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatbrycen_hosted"
+    },
+        {
+        "name": "Defeat Opelucid Gym",
+        "type": "toggle",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatopelucidgym_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Iris in Opelucid City",
+        "type": "toggle",
+        "img": "/images/events/leaderiris.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatiris_hosted"
+    },
+    {
+        "name": "Defeat Gym Leader Drayden in Opelucid City",
+        "type": "toggle",
+        "img": "/images/events/leaderdrayden.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "defeatdrayden_hosted"
+    },
+    {
+        "name": "Help the Day-Care man in Nimbasa City",
+        "type": "toggle",
+        "img": "/images/events/oldman.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
+        "codes": "helpdaycareman_hosted"
+    }
+]

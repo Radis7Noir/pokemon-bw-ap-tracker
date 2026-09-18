@@ -378,6 +378,26 @@
         ]
     },
     {
+        "name": "Randomize Wilds",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_wild",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wild encounters are vanilla",
+                "codes": "randomize_wild_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wild encounters are randomized",
+                "codes": "randomize_wild_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Brangers Visibility",
         "type": "progressive",
         "loop": true,

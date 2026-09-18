@@ -147,7 +147,7 @@
         "name": "Defeat Gym Leader Skyla in Mistralton City",
         "type": "toggle",
         "img": "/images/events/leaderskyla.png",
-        "codes": "defearskyla"
+        "codes": "defeatskyla"
     },
     {
         "name": "Defeat Gym Leader Brycen in Icirrus City",

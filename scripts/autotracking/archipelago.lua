@@ -348,6 +348,9 @@ function onClear(slot_data)
             consider_evolutions.CurrentStage = table_contains(v, "consider evolutions") and 1 or 0
             consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
             consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
+        elseif k == "randomize_wild_pokemon" then
+            local randomize_wild = Tracker:FindObjectForCode("randomize_wild")
+            randomize_wild.CurrentStage = table_contains(v, "randomize") and 1 or 0
         elseif k == "adjust_levels" then
             local adjustlevels = Tracker:FindObjectForCode("adjustlevels")
             if table_contains(v, "wild") and table_contains(v, "trainer") then
@@ -368,6 +371,11 @@ function onClear(slot_data)
             end
         elseif k == "dexsanity" then
             Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
+            if #v == 0 then
+                Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+            else
+                Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+            end
         elseif k == "all_pokemon_seen" then
             Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
@@ -625,6 +633,10 @@ function updateEvents(value)
         if has("catchreshiramzekrom") then
             Tracker:FindObjectForCode("catchreshiram").Active = true
             Tracker:FindObjectForCode("catchzekrom").Active = true
+        end
+        if has("defeatopelucidgym") then
+            Tracker:FindObjectForCode("defeatdrayden").Active = true
+            Tracker:FindObjectForCode("defeatiris").Active = true
         end
     end
 end

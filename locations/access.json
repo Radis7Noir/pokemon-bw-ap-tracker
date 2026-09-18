@@ -176,6 +176,8 @@
     "access_rules": [
       "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,dark_areas_pinwheel_forest_false",
       "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,^$flash,dark_areas_pinwheel_forest_true",
+      "@Pinwheel Forest Outside Access,defeatlenora,ex_cut_trees_false,dark_areas_pinwheel_forest_false",
+      "@Pinwheel Forest Outside Access,defeatlenora,ex_cut_trees_false,^$flash,dark_areas_pinwheel_forest_true",
       "@Pinwheel Forest Outside Access,ex_cut_trees_true,dark_areas_pinwheel_forest_false",
       "@Pinwheel Forest Outside Access,ex_cut_trees_true,^$flash,dark_areas_pinwheel_forest_true",
       "@Pinwheel Forest Outside Access,ex_cut_trees_kyurem,dark_areas_pinwheel_forest_false",
@@ -296,8 +298,8 @@
   {
     "name": "Relic Castle Post-Sand Room Access",
     "access_rules": [
-      "@Relic Castle Pre-Sand Room Access,defeatghetsis,dark_areas_relic_castle_post_false",
-      "@Relic Castle Pre-Sand Room Access,defeatghetsis,^$flash,dark_areas_relic_castle_post_true"
+      "@Relic Castle Pre-Sand Room Access,silverwing,dark_areas_relic_castle_post_false",
+      "@Relic Castle Pre-Sand Room Access,silverwing,^$flash,dark_areas_relic_castle_post_true"
     ]
   },
   {
@@ -679,8 +681,8 @@
     "access_rules": [
       "@Undella Town Access",
       "@Abundant Shrine Access,$surf,$waterfall",
-      "@Black City Access",
-	    "@White Forest Access"
+      "@Black City Access,gbsounds",
+	    "@White Forest Access,gbsounds"
     ]
   },
   {
@@ -692,8 +694,8 @@
   {
     "name": "Black City Access",
     "access_rules": [
-      "@Route 14 Access",
-      "@Route 15 Access"
+      "@Route 14 Access,gbsounds",
+      "@Route 15 Access,gbsounds"
     ]
   },
   {
@@ -708,7 +710,7 @@
     "access_rules": [
       "@Black City Access",
       "@White Forest Access",
-	  "@Marvelous Bridge Access"
+	    "@Marvelous Bridge Access"
     ]
   },
   {

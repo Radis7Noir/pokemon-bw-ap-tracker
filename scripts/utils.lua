@@ -67,11 +67,6 @@ function toggle_keyitemgrid()
     if has("pokemon_white") then
         suffix = suffix .. "_w"
 	end
-	
-    if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
-        suffix = suffix .. "_fossils"
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
-    end
 
     if has("add_ssticket_true") then
         suffix = suffix .. "_ticket"
@@ -85,7 +80,7 @@ function toggle_keyitemgrid()
         suffix = suffix .. "_pass"
     end
 
-    Tracker:AddLayouts("layouts/items"..suffix..".json")
+    Tracker:AddLayouts("layouts/items/items"..suffix..".json")
 end
 
 function toggle_goal()
@@ -119,7 +114,7 @@ function toggle_goal()
 	end
 	
     Tracker:AddMaps("maps/goal"..suffix..".json")
-	Tracker:AddLayouts("layouts/events"..suffix..".json")
+	Tracker:AddLayouts("layouts/events/events"..suffix..".json")
 end
 
 function toggle_seasongrid()   
@@ -145,4 +140,13 @@ function getDigits(code1, code2, code3)
     return (Tracker:FindObjectForCode(code1).CurrentStage or 0) * 100
          + (Tracker:FindObjectForCode(code2).CurrentStage or 0) * 10
          + (Tracker:FindObjectForCode(code3).CurrentStage or 0)
+end
+
+function syncHostedFromBase(code)
+    Tracker:FindObjectForCode(code.."_hosted").Active = Tracker:FindObjectForCode(code).Active
+end
+
+function syncBaseFromHosted(code)
+    local base = code:gsub("_hosted", "")
+    Tracker:FindObjectForCode(base).Active = Tracker:FindObjectForCode(code).Active
 end

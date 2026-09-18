@@ -84,6 +84,15 @@
                         ]
                     },
                     {
+                        "name": "Item #2 from Mom",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "TM from Professor Juniper for seeing 25 species",
                         "chest_unopened_img": "images/locations/profjuniper_tm.png",
                         "chest_opened_img": "images/locations/profjuniper_tm_grayscale.png",
@@ -211,7 +220,7 @@
                         "chest_unopened_img": "images/locations/fennel_hm.png",
                         "chest_opened_img": "images/locations/fennel_hm_grayscale.png",
                         "access_rules": [
-                            "@Striaton Gym Access"
+                            "defeatstriatongym"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -222,7 +231,7 @@
                         "chest_unopened_img": "images/locations/amanita_palpad.png",
                         "chest_opened_img": "images/locations/amanita_palpad_grayscale.png",
                         "access_rules": [
-                            "@Striaton Gym Access,@Dreamyard North Access"
+                            "@Dreamyard North Access,defeatstriatongym"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -304,6 +313,16 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Gym - Defeat Cilan, Chili or Cress (Event)",
+                        "access_rules": [
+                            "@Striaton Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatstriatongym_hosted"
                     },
                     {
                         "name": "Gym - Badge reward",
@@ -494,6 +513,16 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Gym - Defeat Lenora (Event)",
+                        "access_rules": [
+                            "@Nacrene Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatlenora_hosted"
                     },
                     {
                         "name": "Gym - Badge reward",
@@ -751,6 +780,15 @@
                         ]
                     },
                     {
+                        "name": "Mode Street - Item from harlequin in Studio Castelia",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Gym Street - Item in Plasma hideout",
                         "access_rules": [
                             ""
@@ -790,7 +828,7 @@
                             "goal_tmhm_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "showalltmhms"
+                        "hosted_item": "showalltmhms_hosted"
                     },
                     {
                         "name": "Northern Street - Item from scientist for seeing 20 species",
@@ -839,6 +877,16 @@
                         ]
                     },
                     {
+                        "name": "Gym - Defeat Burgh (Event)",
+                        "access_rules": [
+                            "@Castelia Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatburgh_hosted"
+                    },
+                    {
                         "name": "Gym - Badge reward",
                         "chest_unopened_img": "images/locations/burgh_badge.png",
                         "chest_opened_img": "images/locations/burgh_badge_grayscale.png",
@@ -855,6 +903,15 @@
                         "chest_opened_img": "images/locations/burgh_tm_grayscale.png",
                         "access_rules": [
                             "@Castelia Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Royal Unova - Item for defeating every trainer",
+                        "access_rules": [
+                            "defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -906,7 +963,7 @@
                         "visibility_rules": [
                             "show_items"
                         ],
-                        "hosted_item": "helpdaycareman"
+                        "hosted_item": "helpdaycareman_hosted"
                     },
                     {
                         "name": "Item from ace trainer exiting battle subway",
@@ -1017,6 +1074,16 @@
                         ]
                     },
                     {
+                        "name": "Gym - Defeat Elesa (Event)",
+                        "access_rules": [
+                            "@Nimbasa Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatelesa_hosted"
+                    },
+                    {
                         "name": "Gym - Badge reward",
                         "chest_unopened_img": "images/locations/elesa_badge.png",
                         "chest_opened_img": "images/locations/elesa_badge_grayscale.png",
@@ -1123,11 +1190,20 @@
                         ]
                     },
                     {
+                        "name": "Item from lady asking for a pokémon knowing a certain TM move",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "TM from Bianca",
                         "chest_unopened_img": "images/locations/bianca_hm02fly.png",
                         "chest_opened_img": "images/locations/bianca_hm02fly_grayscale.png",
                         "access_rules": [
-                            "@Driftveil Gym Access"
+                            "defeatclay"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1186,6 +1262,16 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Gym - Defeat Clay (Event)",
+                        "access_rules": [
+                            "@Driftveil Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatclay_hosted"
                     },
                     {
                         "name": "Gym - Badge reward",
@@ -1300,7 +1386,7 @@
                     {
                         "name": "Appearing item at south end of runway",
                         "access_rules": [
-                            "@Mistralton Gym Access"
+                            "defeatskyla"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1360,6 +1446,16 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Gym - Defeat Skyla (Event)",
+                        "access_rules": [
+                            "@Mistralton Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ],
+                        "hosted_item": "defeatskyla_hosted"
                     },
                     {
                         "name": "Gym - Badge reward",
@@ -1582,7 +1678,7 @@
                         "visibility_rules": [
                             "show_items"
                         ],
-                        "hosted_item": "defeatbrycen"
+                        "hosted_item": "defeatbrycen_hosted"
                     },
                     {
                         "name": "Gym - Badge reward",
@@ -1967,7 +2063,8 @@
                         "chest_unopened_img": "images/locations/prof_juniper_masterball.png",
                         "chest_opened_img": "images/locations/prof_juniper_masterball_grayscale.png",
                         "access_rules": [
-                            "@Opelucid Gym Access"
+                            "defeatdrayden",
+                            "defeatiris"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2005,6 +2102,26 @@
                         "visibility_rules": [
                             "pokemon_white,show_items"
                         ]
+                    },
+                    {
+                        "name": "Gym - Defeat Drayden (Event)",
+                        "access_rules": [
+                            "@Opelucid Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items,pokemon_black"
+                        ],
+                        "hosted_item": "defeatdrayden_hosted"
+                    },
+                    {
+                        "name": "Gym - Defeat Iris (Event)",
+                        "access_rules": [
+                            "@Opelucid Gym Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items,pokemon_white"
+                        ],
+                        "hosted_item": "defeatiris_hosted"
                     },
                     {
                         "name": "Gym - TM reward",
@@ -2076,6 +2193,17 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Item from girl for showing a Shaymin",
+                        "access_rules": [
+                            "randomize_wild_on,{}",
+                            "caught_492,randomize_wild_off,[]",
+                            "caught_492,randomize_wild_on"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2133,7 +2261,7 @@
                             "goal_cynthia,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "defeatcynthia"
+                        "hosted_item": "defeatcynthia_hosted"
                     },
                     {
                         "name": "Backer requesting a Cinccino (Trade)",
@@ -5277,7 +5405,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsagegiallo"
+                        "hosted_item": "arrestsagegiallo_hosted"
                     },
                     {
                         "name": "Land Encounters",
@@ -5820,7 +5948,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsagerood"
+                        "hosted_item": "arrestsagerood_hosted"
                     },
                     {
                         "name": "Larvesta Egg (Gift)",
@@ -5958,6 +6086,28 @@
                         ]
                     },
                     {
+                        "name": "Item from scientist #1",
+                        "access_rules": [
+                            "{}",
+                            "caught_649,randomize_wild_off,[]",
+                            "caught_649,randomize_wild_on"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from scientist #2",
+                        "access_rules": [
+                            "randomize_wild_on,{}",
+                            "caught_649,randomize_wild_off,[]",
+                            "caught_649,randomize_wild_on"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass.png",
@@ -6081,7 +6231,7 @@
                             "goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatvictini"
+                        "hosted_item": "catchdefeatvictini_hosted"
                     }
                 ],
                 "map_locations": [
@@ -6204,7 +6354,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsagegorm"
+                        "hosted_item": "arrestsagegorm_hosted"
                     },
                     {
                         "name": "Basement - North west item",
@@ -6968,7 +7118,7 @@
                             "goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatvirizion"
+                        "hosted_item": "catchdefeatvirizion_hosted"
                     },
                     {
                         "name": "Outside - Land Encounters",
@@ -7469,7 +7619,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsageryoku"
+                        "hosted_item": "arrestsageryoku_hosted"
                     },
                     {
                         "name": "Volcarona Room - Volcarona (Event)",
@@ -7480,7 +7630,7 @@
                             "goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatvolcarona"
+                        "hosted_item": "catchdefeatvolcarona_hosted"
                     },
                     {
                         "name": "Towerside B3F - Hidden item",
@@ -8098,7 +8248,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsagezinzolin"
+                        "hosted_item": "arrestsagezinzolin_hosted"
                     },
                     {
                         "name": "Land Encounters",
@@ -8361,7 +8511,7 @@
                             "@Chargestone Cave Access,^$hidden"
                         ],
                         "visibility_rules": [
-                            "show_items,disabled"
+                            "show_items"
                         ]
                     },
                     {
@@ -8384,7 +8534,7 @@
                             "goal_seven_sages_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "arrestsagebronius"
+                        "hosted_item": "arrestsagebronius_hosted"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -8638,7 +8788,7 @@
 							"goal_legendary_hunt,show_items",
                             "goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatcobalion"
+                        "hosted_item": "catchdefeatcobalion_hosted"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -8872,7 +9022,7 @@
                         "chest_unopened_img": "images/locations/alder_hm03surf.png",
                         "chest_opened_img": "images/locations/alder_hm03surf_grayscale.png",
                         "access_rules": [
-                            "@Route 7 Access,@Mistralton Gym Access"
+                            "@Route 7 Access,defeatskyla"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -11320,7 +11470,7 @@
                             "goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatterrakion"
+                        "hosted_item": "catchdefeatterrakion_hosted"
                     },
                     {
                         "name": "Outside - Land Encounters",
@@ -11952,7 +12102,7 @@
                         "visibility_rules": [
                             "pokemon_black,show_items"
                         ],
-                        "hosted_item": "catchreshiram"
+                        "hosted_item": "catchreshiram_hosted"
                     },
                     {
                         "name": "N's Castle Throne Room - Zekrom (Event)",
@@ -11962,7 +12112,7 @@
                         "visibility_rules": [
                             "pokemon_white,show_items"
                         ],
-                        "hosted_item": "catchzekrom"
+                        "hosted_item": "catchzekrom_hosted"
                     },
                     {
                         "name": "N's Castle Throne Room - Ghetsis (Event)",
@@ -11976,7 +12126,7 @@
 							"goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "defeatghetsis"
+                        "hosted_item": "defeatghetsis_hosted"
                     },
                     {
                         "name": "Champion's Room - Alder (Event)",
@@ -11987,7 +12137,7 @@
                             "goal_champion,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "defeatchampionalder"
+                        "hosted_item": "defeatchampionalder_hosted"
                     }
                 ],
                 "map_locations": [
@@ -12062,6 +12212,51 @@
                         "chest_opened_img": "images/locations/baker_lumberry_grayscale.png",
                         "access_rules": [
                             ""
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #1",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #2",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #3",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #4",
+                        "access_rules": [
+                            "{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #5",
+                        "access_rules": [
+                            "{}"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -12316,7 +12511,7 @@
                             "goal_legendary_hunt,show_items",
 							"goal_pokemon_master,show_items"
                         ],
-                        "hosted_item": "catchdefeatkyurem"
+                        "hosted_item": "catchdefeatkyurem_hosted"
                     },
                     {
                         "name": "Outside Entrance - Land Encounters",

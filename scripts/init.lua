@@ -3,6 +3,7 @@ Tracker.AllowDeferredLogicUpdate = true
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
+Tracker:AddItems("items/events_hosted.json")
 Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokemon.json")
 Tracker:AddItems("items/dexsanity_visibility.json")
@@ -65,3 +66,9 @@ ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)
 ScriptHost:AddWatchForCode("slotdigit_1", "slotdigit_1", updateSlot)
 ScriptHost:AddWatchForCode("slotdigit_2", "slotdigit_2", updateSlot)
 ScriptHost:AddWatchForCode("slotdigit_3", "slotdigit_3", updateSlot)
+
+-- Event Location Syncs
+for _, code in ipairs(FLAG_EVENT_CODES) do
+    ScriptHost:AddWatchForCode(code, code, syncHostedFromBase)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
+end
