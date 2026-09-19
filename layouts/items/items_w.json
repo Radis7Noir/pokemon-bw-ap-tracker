@@ -45,19 +45,19 @@
                             ],
                             [
                                 "parcel",
-                                "lootsack",
-                                "dragonskull",
+                                "lootsackdragonskull",
                                 "machinepart",
                                 "tidalbell",
                                 "darkstone",
                                 "oaksletter",
+                                "gbsounds",
                                 "bluecard"
                             ],
                             [
                                 "basementkey",
                                 "lockcapsule",
                                 "libertypass",
-                                "explorerkit",
+                                "explorerkitsilverwing",
                                 "redchain",
                                 "gram",
                                 "dowsingmchn",

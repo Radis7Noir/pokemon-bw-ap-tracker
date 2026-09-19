@@ -8773,8 +8773,7 @@
                             "@Guidance Chamber Access,$strength"
                         ],
                         "visibility_rules": [
-                            "goal_cobalion_on,show_items",
-							"goal_legendary_hunt_on,show_items"
+                            "show_items"
                         ],
                         "hosted_item": "catchdefeatcobalion_hosted"
                     },

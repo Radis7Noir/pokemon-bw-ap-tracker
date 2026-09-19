@@ -85,30 +85,10 @@ end
 
 function toggle_goal()
     local suffix = ""
-    if has("goal_ghetsis") then
+    if has("goal_ghetsis_on") then
         suffix = suffix .. "_ghetsis"
 	end
-    if has("goal_champion") then
-        suffix = suffix .. "_champion"
-	end
-	if has("goal_cynthia") then
-        suffix = suffix .. "_cynthia"
-	end
-	if has("goal_cobalion") then
-        suffix = suffix .. "_cobalion"
-	end
-	if has("goal_tmhm_hunt") then
-        suffix = suffix .. "_tmhm_hunt"
-	end
-	if has("goal_seven_sages_hunt") then
-        suffix = suffix .. "_seven_sages_hunt"
-	end
-	if has("goal_legendary_hunt") then
-        suffix = suffix .. "_legendary_hunt"
-	end
-	if has("goal_pokemon_master") then
-        suffix = suffix .. "_pokemon_master"
-	end
+
     if has("pokemon_white") then
         suffix = suffix .. "_w"
 	end
