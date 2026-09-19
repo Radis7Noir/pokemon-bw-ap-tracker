@@ -35,6 +35,10 @@
                         "type": "item",
                         "item": "dexentryright",
                         "item_size": "11, 64"
+                    },
+                    {
+                        "type": "layout",
+                        "key": "dexsearch_form"
                     }
                 ]
             },

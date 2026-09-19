@@ -165,32 +165,42 @@ function searchMon()
         local dex2 = Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage
         local dex3 = Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage
         local dexID = dex1 * 100 + dex2 * 10 + dex3
+        -- stage 0 is all forms
+        local form = -1
+        local form_item = Tracker:FindObjectForCode("dexsearch_form_" .. dexID)
+        if form_item then
+            form = form_item.CurrentStage - 1
+        end
         
         Tracker:FindObjectForCode("search_ID_result").CurrentStage = dexID
         
-        local locations = POKEMON_TO_LOCATIONS[dexID]
+        local found = false
+        for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
+            if (pokemon_id & 0x7FF) == dexID and (form == -1 or (pokemon_id >> 11) == form) then
+                found = true
+                for _, location in ipairs(locations) do
+                    local object_name = ENCOUNTER_MAPPING[location]
+                    print(object_name)
+                    if object_name then
+                        local object = Tracker:FindObjectForCode(object_name)
+                        if object then
+                            object.AvailableChestCount = object.AvailableChestCount + 1
+                        end
+                    end
+                end
+            end
+        end
         
-        if not locations then
+        if not found then
             if dexID == 0 then
                 updatePokemon()
                 Tracker:FindObjectForCode("go").CurrentStage = 0
                 return
             else
-                print("The Pokemon with the ID "..dexID.." cannot be caught in the wild!")
+                print("The Pokemon with the ID "..dexID.." (form "..form..") cannot be caught in the wild!")
                 Tracker:FindObjectForCode("go").CurrentStage = 0
                 Tracker:FindObjectForCode("no_wild_encounters_found").Active = true
                 return
-            end
-        end
-    
-        for _, location in ipairs(locations) do
-            local object_name = ENCOUNTER_MAPPING[location]
-            print(object_name)
-            if object_name then
-                local object = Tracker:FindObjectForCode(object_name)
-                if object then
-                    object.AvailableChestCount = object.AvailableChestCount + 1
-                end
             end
         end
     end
@@ -200,6 +210,10 @@ end
 
 function searchReset()
     searchMon(000)
+    local form_item = Tracker:FindObjectForCode("dexsearch_form_" .. getDigits("dexsearch_digit1", "dexsearch_digit2", "dexsearch_digit3"))
+    if form_item then
+        form_item.CurrentStage = 0
+    end
     Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 0
     Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage = 0
     Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = 0

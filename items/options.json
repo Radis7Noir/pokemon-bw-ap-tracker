@@ -3413,6 +3413,502 @@
         ]
     },
     {
+        "name": "Unown Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_201",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Unown (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Unown (A)",
+                "img": "/images/pokemon/201.png"
+            },
+            {
+                "name": "Unown (B)",
+                "img": "/images/pokemon/forms/201-2.png"
+            },
+            {
+                "name": "Unown (C)",
+                "img": "/images/pokemon/forms/201-3.png"
+            },
+            {
+                "name": "Unown (D)",
+                "img": "/images/pokemon/forms/201-4.png"
+            },
+            {
+                "name": "Unown (E)",
+                "img": "/images/pokemon/forms/201-5.png"
+            },
+            {
+                "name": "Unown (F)",
+                "img": "/images/pokemon/forms/201-6.png"
+            },
+            {
+                "name": "Unown (G)",
+                "img": "/images/pokemon/forms/201-7.png"
+            },
+            {
+                "name": "Unown (H)",
+                "img": "/images/pokemon/forms/201-8.png"
+            },
+            {
+                "name": "Unown (I)",
+                "img": "/images/pokemon/forms/201-9.png"
+            },
+            {
+                "name": "Unown (J)",
+                "img": "/images/pokemon/forms/201-10.png"
+            },
+            {
+                "name": "Unown (K)",
+                "img": "/images/pokemon/forms/201-11.png"
+            },
+            {
+                "name": "Unown (L)",
+                "img": "/images/pokemon/forms/201-12.png"
+            },
+            {
+                "name": "Unown (M)",
+                "img": "/images/pokemon/forms/201-13.png"
+            },
+            {
+                "name": "Unown (N)",
+                "img": "/images/pokemon/forms/201-14.png"
+            },
+            {
+                "name": "Unown (O)",
+                "img": "/images/pokemon/forms/201-15.png"
+            },
+            {
+                "name": "Unown (P)",
+                "img": "/images/pokemon/forms/201-16.png"
+            },
+            {
+                "name": "Unown (Q)",
+                "img": "/images/pokemon/forms/201-17.png"
+            },
+            {
+                "name": "Unown (R)",
+                "img": "/images/pokemon/forms/201-18.png"
+            },
+            {
+                "name": "Unown (S)",
+                "img": "/images/pokemon/forms/201-19.png"
+            },
+            {
+                "name": "Unown (T)",
+                "img": "/images/pokemon/forms/201-20.png"
+            },
+            {
+                "name": "Unown (U)",
+                "img": "/images/pokemon/forms/201-21.png"
+            },
+            {
+                "name": "Unown (V)",
+                "img": "/images/pokemon/forms/201-22.png"
+            },
+            {
+                "name": "Unown (W)",
+                "img": "/images/pokemon/forms/201-23.png"
+            },
+            {
+                "name": "Unown (X)",
+                "img": "/images/pokemon/forms/201-24.png"
+            },
+            {
+                "name": "Unown (Y)",
+                "img": "/images/pokemon/forms/201-25.png"
+            },
+            {
+                "name": "Unown (Z)",
+                "img": "/images/pokemon/forms/201-26.png"
+            },
+            {
+                "name": "Unown (Exclamation Mark)",
+                "img": "/images/pokemon/forms/201-27.png"
+            },
+            {
+                "name": "Unown (Question Mark)",
+                "img": "/images/pokemon/forms/201-28.png"
+            }
+        ]
+    },
+    {
+        "name": "Castform Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_351",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Castform (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Castform (Normal)",
+                "img": "/images/pokemon/351.png"
+            },
+            {
+                "name": "Castform (Sunny)",
+                "img": "/images/pokemon/forms/351-2.png"
+            },
+            {
+                "name": "Castform (Rainy)",
+                "img": "/images/pokemon/forms/351-3.png"
+            },
+            {
+                "name": "Castform (Snowy)",
+                "img": "/images/pokemon/forms/351-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Deoxys Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_386",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Deoxys (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Deoxys (Normal)",
+                "img": "/images/pokemon/386.png"
+            },
+            {
+                "name": "Deoxys (Attack)",
+                "img": "/images/pokemon/forms/386-2.png"
+            },
+            {
+                "name": "Deoxys (Defense)",
+                "img": "/images/pokemon/forms/386-3.png"
+            },
+            {
+                "name": "Deoxys (Speed)",
+                "img": "/images/pokemon/forms/386-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Burmy Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_412",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Burmy (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Burmy (Plant)",
+                "img": "/images/pokemon/412.png"
+            },
+            {
+                "name": "Burmy (Sandy)",
+                "img": "/images/pokemon/forms/412-2.png"
+            },
+            {
+                "name": "Burmy (Trash)",
+                "img": "/images/pokemon/forms/412-3.png"
+            }
+        ]
+    },
+    {
+        "name": "Wormadam Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_413",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wormadam (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Wormadam (Plant)",
+                "img": "/images/pokemon/413.png"
+            },
+            {
+                "name": "Wormadam (Sandy)",
+                "img": "/images/pokemon/forms/413-2.png"
+            },
+            {
+                "name": "Wormadam (Trash)",
+                "img": "/images/pokemon/forms/413-3.png"
+            }
+        ]
+    },
+    {
+        "name": "Cherrim Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_421",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cherrim (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Cherrim (Overcast)",
+                "img": "/images/pokemon/421.png"
+            },
+            {
+                "name": "Cherrim (Sunshine)",
+                "img": "/images/pokemon/forms/421-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Shellos Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_422",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shellos (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Shellos (West)",
+                "img": "/images/pokemon/422.png"
+            },
+            {
+                "name": "Shellos (East)",
+                "img": "/images/pokemon/forms/422-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Gastrodon Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_423",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gastrodon (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Gastrodon (West)",
+                "img": "/images/pokemon/423.png"
+            },
+            {
+                "name": "Gastrodon (East)",
+                "img": "/images/pokemon/forms/423-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Rotom Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_479",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rotom (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Rotom (Normal)",
+                "img": "/images/pokemon/479.png"
+            },
+            {
+                "name": "Rotom (Heat)",
+                "img": "/images/pokemon/forms/479-2.png"
+            },
+            {
+                "name": "Rotom (Wash)",
+                "img": "/images/pokemon/forms/479-3.png"
+            },
+            {
+                "name": "Rotom (Frost)",
+                "img": "/images/pokemon/forms/479-4.png"
+            },
+            {
+                "name": "Rotom (Fan)",
+                "img": "/images/pokemon/forms/479-5.png"
+            },
+            {
+                "name": "Rotom (Mow)",
+                "img": "/images/pokemon/forms/479-6.png"
+            }
+        ]
+    },
+    {
+        "name": "Giratina Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_487",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Giratina (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Giratina (Altered)",
+                "img": "/images/pokemon/487.png"
+            },
+            {
+                "name": "Giratina (Origin)",
+                "img": "/images/pokemon/forms/487-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Shaymin Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_492",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shaymin (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Shaymin (Land)",
+                "img": "/images/pokemon/492.png"
+            },
+            {
+                "name": "Shaymin (Sky)",
+                "img": "/images/pokemon/forms/492-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Basculin Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_550",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Basculin (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Basculin (Red-Striped)",
+                "img": "/images/pokemon/550.png"
+            },
+            {
+                "name": "Basculin (Blue-Striped)",
+                "img": "/images/pokemon/forms/550-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Darmanitan Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_555",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Darmanitan (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Darmanitan (Standard)",
+                "img": "/images/pokemon/555.png"
+            },
+            {
+                "name": "Darmanitan (Zen)",
+                "img": "/images/pokemon/forms/555-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Deerling Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_585",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Deerling (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Deerling (Spring)",
+                "img": "/images/pokemon/585.png"
+            },
+            {
+                "name": "Deerling (Summer)",
+                "img": "/images/pokemon/forms/585-2.png"
+            },
+            {
+                "name": "Deerling (Autumn)",
+                "img": "/images/pokemon/forms/585-3.png"
+            },
+            {
+                "name": "Deerling (Winter)",
+                "img": "/images/pokemon/forms/585-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Sawsbuck Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_586",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sawsbuck (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Sawsbuck (Spring)",
+                "img": "/images/pokemon/586.png"
+            },
+            {
+                "name": "Sawsbuck (Summer)",
+                "img": "/images/pokemon/forms/586-2.png"
+            },
+            {
+                "name": "Sawsbuck (Autumn)",
+                "img": "/images/pokemon/forms/586-3.png"
+            },
+            {
+                "name": "Sawsbuck (Winter)",
+                "img": "/images/pokemon/forms/586-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Meloetta Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_648",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Meloetta (All Forms)",
+                "img": "/images/pokemon/0.png"
+            },
+            {
+                "name": "Meloetta (Aria)",
+                "img": "/images/pokemon/648.png"
+            },
+            {
+                "name": "Meloetta (Pirouette)",
+                "img": "/images/pokemon/forms/648-2.png"
+            }
+        ]
+    },
+    {
         "name": "Seen Pokemon",
         "codes": "seen_pokemon",
         "type": "consumable",

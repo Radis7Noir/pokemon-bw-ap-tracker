@@ -131,6 +131,21 @@ function toggle_splitmap()
     end
 end
 
+-- only swap when it changes, re-adding every time lags
+DEXSEARCH_FORM_LAYOUT = "layouts/dexsearch/dexsearch_form.json"
+
+function toggle_dexsearch_form()
+    local dex = getDigits("dexsearch_digit1", "dexsearch_digit2", "dexsearch_digit3")
+    local layout = "layouts/dexsearch/dexsearch_form.json"
+    if Tracker:FindObjectForCode("dexsearch_form_" .. dex) then
+        layout = "layouts/dexsearch/dexsearch_form_" .. dex .. ".json"
+    end
+    if layout ~= DEXSEARCH_FORM_LAYOUT then
+        DEXSEARCH_FORM_LAYOUT = layout
+        Tracker:AddLayouts(layout)
+    end
+end
+
 function getDigits(code1, code2, code3)
     return (Tracker:FindObjectForCode(code1).CurrentStage or 0) * 100
          + (Tracker:FindObjectForCode(code2).CurrentStage or 0) * 10

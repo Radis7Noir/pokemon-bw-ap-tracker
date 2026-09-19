@@ -89,8 +89,7 @@ function onClear(slot_data)
 		Rotom_Trade = 479,
 		Cottonee_Trade = 546,
 		Petilil_Trade = 548,
-		BasculinBlue_Trade = 550,
-		BasculinRed_Trade = 550,
+		Basculin_Trade = slot_data.options.version == "white" and 550 + (1 << 11) or 550,
 		Emolga_Trade = 587,
 		Foongus_Trap6 = 590,
 		Foongus_Trap10 = 590,
@@ -116,19 +115,19 @@ function onClear(slot_data)
 		
     }
     
-    for name, dexID in pairs(newEncounters) do
-        REGION_ENCOUNTERS[name] = { dexID }
+    for name, pokemon_id in pairs(newEncounters) do
+        REGION_ENCOUNTERS[name] = { pokemon_id }
     end
     --print(dump_table(REGION_ENCOUNTERS))
     
     -- so we can access the mapping later
     POKEMON_TO_LOCATIONS = {}
-    for location, dex_list in pairs(REGION_ENCOUNTERS) do
-        for _, dex_number in pairs(dex_list) do
-            if POKEMON_TO_LOCATIONS[dex_number] == nil then
-                POKEMON_TO_LOCATIONS[dex_number] = {}
+    for location, pokemon_list in pairs(REGION_ENCOUNTERS) do
+        for _, pokemon_id in pairs(pokemon_list) do
+            if POKEMON_TO_LOCATIONS[pokemon_id] == nil then
+                POKEMON_TO_LOCATIONS[pokemon_id] = {}
             end
-            table.insert(POKEMON_TO_LOCATIONS[dex_number], location)
+            table.insert(POKEMON_TO_LOCATIONS[pokemon_id], location)
         end
     end
     
@@ -612,6 +611,7 @@ function onNotify(key, value, old_value)
             CAUGHT = value
             updateCaught()
         elseif key == IDs.SEEN then
+            print(dump_table(value))
             SEEN = value
             updateSeen()
         elseif key == IDs.MAP then
@@ -647,7 +647,17 @@ function updateEvents(value)
 end
 
 function updateSeen()
-    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = #SEEN
+    -- count species, not forms
+    local seen_dex = {}
+    local seen_count = 0
+    for _, pokemon_id in ipairs(SEEN) do
+        local dex_number = pokemon_id & 0x7FF
+        if not seen_dex[dex_number] then
+            seen_dex[dex_number] = true
+            seen_count = seen_count + 1
+        end
+    end
+    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = seen_count
     updatePokemon()
 end
 
@@ -672,8 +682,9 @@ function updateWildBattle(value, old_value)
     
     print(dump_table(value))
 
-    local id1 = value[1]
-    local id2 = value[2]
+    -- wild IDs include the form
+    local id1 = value[1] & 0x7FF
+    local id2 = value[2] & 0x7FF
 
     local check1 = false
     if id1 ~= 0 then
@@ -729,7 +740,8 @@ function updatePokemon()
         pendingDecrements[region_key] = 0
     end
     
-    for dex_number, locations in pairs(POKEMON_TO_LOCATIONS) do
+    for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
+        local dex_number = pokemon_id & 0x7FF
         local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number).Active
         local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number).Active
         
@@ -739,7 +751,7 @@ function updatePokemon()
         if has("all_pokemon_seen") then
             is_seen = true
         else
-            is_seen = table_contains(SEEN, dex_number)
+            is_seen = table_contains(SEEN, pokemon_id)
         end
         
         local should_decrement = false
@@ -910,25 +922,27 @@ function updateHints()
 
             -- Special handling for Pokémon locations (600001–600649)
             if hint.location >= 600001 and hint.location <= 600649 then
-                local poke_id = hint.location - 600000
-                local poke_locations = POKEMON_TO_LOCATIONS[poke_id]
+                local dex_number = hint.location - 600000
 
-                if poke_locations then
-                    for _, encounter_key in pairs(poke_locations) do
-                        local mapped_location = ENCOUNTER_MAPPING[encounter_key]
-                        if mapped_location and mapped_location:sub(1, 1) == "@" then
-                            local obj = Tracker:FindObjectForCode(mapped_location)
+                -- any form counts for dexsanity
+                for pokemon_id, poke_locations in pairs(POKEMON_TO_LOCATIONS) do
+                    if (pokemon_id & 0x7FF) == dex_number then
+                        for _, encounter_key in pairs(poke_locations) do
+                            local mapped_location = ENCOUNTER_MAPPING[encounter_key]
+                            if mapped_location and mapped_location:sub(1, 1) == "@" then
+                                local obj = Tracker:FindObjectForCode(mapped_location)
     
-                            if tracking_plus then
-                                if hint.found == false then
-                                    if incoming_val == Highlight.Priority then
+                                if tracking_plus then
+                                    if hint.found == false then
+                                        if incoming_val == Highlight.Priority then
+                                            obj.Highlight = incoming_val
+                                        end
+                                    end
+                                else
+                                    local current_val = obj.Highlight
+                                    if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
                                         obj.Highlight = incoming_val
                                     end
-                                end
-                            else
-                                local current_val = obj.Highlight
-                                if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
-                                    obj.Highlight = incoming_val
                                 end
                             end
                         end
