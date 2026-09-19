@@ -5035,13 +5035,13 @@
             {
                 "name": "Route 13",
                 "access_rules": [
-                    "@Route 13 Access"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Item on cliff near bridges #1",
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5050,7 +5050,7 @@
                     {
                         "name": "Item on cliff near bridges #2",
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5059,7 +5059,7 @@
                     {
                         "name": "Item near northern ledges",
                         "access_rules": [
-                            "$cut"
+                            "@Route 13 North Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5068,7 +5068,7 @@
                     {
                         "name": "South item",
                         "access_rules": [
-                            "$cut"
+                            "@Route 13 South Access,$cut"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5077,7 +5077,7 @@
                     {
                         "name": "Item on cliff behind boulder",
                         "access_rules": [
-                            "$strength"
+                            "@Route 13 South Access,$strength"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5086,9 +5086,9 @@
                     {
                         "name": "Item near stairs to Giant Chasm",
                         "access_rules": [
-                            "$surf",
-                            "$strength,mo_strength_boulders_true",
-                            "$strength,mo_strength_boulders_vi_road"
+                            "@Route 13 North Access,$surf",
+                            "@Route 13 North Access,$strength,mo_strength_boulders_true",
+                            "@Route 13 North Access,$strength,mo_strength_boulders_vi_road"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5097,7 +5097,7 @@
                     {
                         "name": "Item in shallow water",
                         "access_rules": [
-                            "$surf"
+                            "@Route 13 North Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5108,7 +5108,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Route 13 South Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5119,7 +5119,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Route 13 South Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5130,7 +5130,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "^$hidden"
+                            "@Route 13 South Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5141,7 +5141,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$hidden"
+                            "@Route 13 South Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5152,7 +5152,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$hidden"
+                            "@Route 13 South Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5163,7 +5163,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$hidden"
+                            "@Route 13 North Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5174,7 +5174,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "$surf,^$hidden"
+                            "@Route 13 North Access,$surf,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5185,7 +5185,7 @@
                         "chest_unopened_img": "images/locations/oldman_gram.png",
                         "chest_opened_img": "images/locations/oldman_gram_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5196,7 +5196,7 @@
                         "chest_unopened_img": "images/locations/parasollady_gram.png",
                         "chest_opened_img": "images/locations/parasollady_gram_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access,@Route 13 South Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5207,7 +5207,7 @@
                         "chest_unopened_img": "images/locations/maninblack_blueflute.png",
                         "chest_opened_img": "images/locations/maninblack_blueflute_grayscale.png",
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5219,7 +5219,7 @@
                         "chest_unopened_img": "images/locations/veteranm_splashplate.png",
                         "chest_opened_img": "images/locations/veteranm_splashplate_grayscale.png",
                         "access_rules": [
-                            "$surf"
+                            "@Route 13 North Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5230,7 +5230,7 @@
                         "chest_unopened_img": "images/locations/wingull_tm.png",
                         "chest_opened_img": "images/locations/wingull_tm_grayscale.png",
                         "access_rules": [
-                            "gram:3"
+                            "@Route 13 North Access,gram:3"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5243,7 +5243,8 @@
                         "chest_opened_img": "images/locations/grass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            ""
+                            "@Route 13 North Access",
+                            "@Route 13 South Access"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5256,7 +5257,7 @@
                         "chest_opened_img": "images/locations/darkgrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf"
+                            "@Route 13 South Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5269,7 +5270,8 @@
                         "chest_opened_img": "images/locations/rustlinggrass_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge"
+                            "@Route 13 North Access,triobadge",
+                            "@Route 13 South Access,triobadge"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5282,7 +5284,7 @@
                         "chest_opened_img": "images/locations/surf_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "$surf"
+                            "@Route 13 North Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5295,7 +5297,7 @@
                         "chest_opened_img": "images/locations/surf_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,$surf"
+                            "@Route 13 North Access,triobadge,$surf"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5308,7 +5310,8 @@
                         "chest_opened_img": "images/locations/rod_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "superrod"
+                            "@Route 13 North Access,superrod",
+                            "@Route 13 South Access,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"
@@ -5321,7 +5324,8 @@
                         "chest_opened_img": "images/locations/rod_ripple_grayscale.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "triobadge,superrod"
+                            "@Route 13 North Access,triobadge,superrod",
+                            "@Route 13 South Access,triobadge,superrod"
                         ],
                         "visibility_rules": [
                             "show_mons"

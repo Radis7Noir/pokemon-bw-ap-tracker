@@ -625,24 +625,31 @@
     "access_rules": [
       "starting_town_lacunosa",
       "@Route 12 Access",
-      "@Route 13 Access"
+      "@Route 13 North Access"
     ]
   },
   {
-    "name": "Route 13 Access",
+    "name": "Route 13 North Access",
     "access_rules": [
       "@Lacunosa Town Access",
       "@Giant Chasm Access,$surf",
       "@Giant Chasm Access,$strength,mo_strength_boulders_false",
+      "@Route 13 South Access,$surf"
+    ]
+  },
+  {
+    "name": "Route 13 South Access",
+    "access_rules": [
+      "@Route 13 North Access,$surf",
       "@Undella Town Access,$rock_smash"
     ]
   },
   {
     "name": "Giant Chasm Outside Access",
     "access_rules": [
-      "@Route 13 Access,$surf",
-      "@Route 13 Access,$strength,mo_strength_boulders_true",
-      "@Route 13 Access,$strength,mo_strength_boulders_vi_road",
+      "@Route 13 North Access,$surf",
+      "@Route 13 North Access,$strength,mo_strength_boulders_true",
+      "@Route 13 North Access,$strength,mo_strength_boulders_vi_road",
       "@Giant Chasm Access"
     ]
   },
@@ -657,7 +664,7 @@
     "name": "Undella Town Access",
     "access_rules": [
       "starting_town_undella",
-      "@Route 13 Access,$rock_smash",
+      "@Route 13 South Access,$rock_smash",
       "@Undella Bay Access",
       "@Route 14 Access",
 	    "@Liberty Garden Access,add_ssticket_true,ssticket"

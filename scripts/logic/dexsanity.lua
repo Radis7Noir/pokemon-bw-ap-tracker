@@ -15,7 +15,8 @@ function levelup(value)
             Tracker:FindObjectForCode("@Mistralton Cave Access").AccessibilityLevel,
             Tracker:FindObjectForCode("@Chargestone Cave Access").AccessibilityLevel) 
     local region_7 =  math.max(
-            Tracker:FindObjectForCode("@Route 13 Access").AccessibilityLevel,
+            Tracker:FindObjectForCode("@Route 13 North Access").AccessibilityLevel,
+            Tracker:FindObjectForCode("@Route 13 South Access").AccessibilityLevel,
             Tracker:FindObjectForCode("@Twist Mountain Access").AccessibilityLevel)
     local region_8 =  math.max(
             Tracker:FindObjectForCode("@Opelucid City Access").AccessibilityLevel,
