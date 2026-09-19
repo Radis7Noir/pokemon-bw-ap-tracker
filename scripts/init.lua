@@ -78,3 +78,9 @@ for _, code in ipairs(FLAG_EVENT_CODES) do
     ScriptHost:AddWatchForCode(code, code, syncHostedFromBase)
     ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
 end
+
+-- Maual Event Syncs
+for _, code in ipairs(MANUAL_EVENT_CODES) do
+    ScriptHost:AddWatchForCode(code, code, syncHostedFromBase)
+    ScriptHost:AddWatchForCode(code.."_hosted", code.."_hosted", syncBaseFromHosted)
+end

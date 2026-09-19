@@ -27,3 +27,9 @@ FLAG_EVENT_CODES = {
     "defeatskyla",
     "defeatopelucidgym"
 }
+MANUAL_EVENT_CODES = {
+    "catchreshiramzekrom",
+    "catchzekrom",
+    "defeatdrayden",
+    "defeatiris"
+}
