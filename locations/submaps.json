@@ -29,7 +29,23 @@
                 ]
             },
             {
-                "name": "Player's house",
+                "name": "Nuvema Town",
+                "sections": [
+                    {
+                        "name": "Item #2 from Mom",
+                        "ref": "Unova Locations/Nuvema Town/Item #2 from Mom"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nuvematown",
+                        "x": 152,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Player's House",
                 "sections": [
                     {
                         "name": "Item from Mom after first fight",
@@ -222,6 +238,10 @@
                     {
                         "name": "Guide item",
                         "ref": "Unova Locations/Striaton City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Defeat Cilan, Chili or Cress (Event)",
+                        "ref": "Unova Locations/Striaton City/Gym - Defeat Cilan, Chili or Cress (Event)"
                     },
                     {
                         "name": "Badge reward",
@@ -487,6 +507,10 @@
                         "ref": "Unova Locations/Nacrene City/Gym - Badge reward"
                     },
                     {
+                        "name": "Gym - Defeat Lenora (Event)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Defeat Lenora (Event)"
+                    },
+                    {
                         "name": "Gym - TM reward",
                         "ref": "Unova Locations/Nacrene City/Gym - TM reward"
                     },
@@ -672,6 +696,22 @@
                 ]
             },
             {
+                "name": "Mode Street",
+                "sections": [
+                    {
+                        "name": "Item from harlequin in Studio Castelia",
+                        "ref": "Unova Locations/Castelia City/Mode Street - Item from harlequin in Studio Castelia"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 638,
+                        "y": 632
+                    }
+                ]
+            },
+            {
                 "name": "Central Plaza",
                 "sections": [
                     {
@@ -700,6 +740,22 @@
                         "map": "casteliacity",
                         "x": 442,
                         "y": 414
+                    }
+                ]
+            },
+            {
+                "name": "Royal Unova",
+                "sections": [
+                    {
+                        "name": "Item for defeating every trainer",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Item for defeating every trainer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 942,
+                        "y": 798
                     }
                 ]
             },
@@ -757,6 +813,10 @@
                     {
                         "name": "Guide item",
                         "ref": "Unova Locations/Castelia City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Defeat Burgh (Event)",
+                        "ref": "Unova Locations/Castelia City/Gym - Defeat Burgh (Event)"
                     },
                     {
                         "name": "Badge reward",
@@ -1083,6 +1143,10 @@
                         "ref": "Unova Locations/Nimbasa City/Gym - Guide item"
                     },
                     {
+                        "name": "Defeat Elesa (Event)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Defeat Elesa (Event)"
+                    },
+                    {
                         "name": "Badge reward",
                         "ref": "Unova Locations/Nimbasa City/Gym - Badge reward"
                     },
@@ -1128,6 +1192,22 @@
                         "map": "driftveilcity",
                         "x": 920,
                         "y": 488
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City​​​",
+                "sections": [
+                    {
+                        "name": "Item from lady asking for a pokémon knowing a certain TM move",
+                        "ref": "Unova Locations/Driftveil City/Item from lady asking for a pokémon knowing a certain TM move"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity",
+                        "x": 216,
+                        "y": 432
                     }
                 ]
             },
@@ -1241,6 +1321,10 @@
                     {
                         "name": "Guide item",
                         "ref": "Unova Locations/Driftveil City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Defeat Clay (Event)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Defeat Clay (Event)"
                     },
                     {
                         "name": "Badge reward",
@@ -1411,6 +1495,10 @@
                     {
                         "name": "Guide item",
                         "ref": "Unova Locations/Mistralton City/Gym - Guide item"
+                    },
+                    {
+                        "name": "Defeat Skyla (Event)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Defeat Skyla (Event)"
                     },
                     {
                         "name": "Badge reward",
@@ -2198,12 +2286,20 @@
                         "ref": "Unova Locations/Opelucid City/Gym - Guide item"
                     },
                     {
+                        "name": "Defeat Drayden (Event)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Defeat Drayden (Event)"
+                    },
+                    {
                         "name": "Badge reward",
                         "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
                     },
                     {
                         "name": "TM reward",
                         "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                    },
+                    {
+                        "name": "Defeat Iris (Event)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Defeat Iris (Event)"
                     },
                     {
                         "name": "Badge reward​",
@@ -2267,6 +2363,22 @@
                         "map": "lacunosatown",
                         "x": 440,
                         "y": 88
+                    }
+                ]
+            },
+            {
+                "name": "Lacunosa Town​​​",
+                "sections": [
+                    {
+                        "name": "Item from girl for showing a Shaymin",
+                        "ref": "Unova Locations/Lacunosa Town/Item from girl for showing a Shaymin"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lacunosatown",
+                        "x": 328,
+                        "y": 392
                     }
                 ]
             },
@@ -6709,6 +6821,14 @@
                     {
                         "name": "Item inside",
                         "ref": "Unova Locations/P2 Laboratory/Item inside"
+                    },
+                    {
+                        "name": "Item from scientist #1",
+                        "ref": "Unova Locations/P2 Laboratory/Item from scientist #1"
+                    },
+                    {
+                        "name": "Item from scientist #2",
+                        "ref": "Unova Locations/P2 Laboratory/Item from scientist #2"
                     }
 			    ],
                 "map_locations": [
@@ -15196,6 +15316,38 @@
                         "map": "villagebridge",
                         "x": 1240,
                         "y": 652
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge​​​​​​",
+                "sections": [
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #1",
+                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon #1"
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #2",
+                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon #2"
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #3",
+                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon #3"
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #4",
+                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon #4"
+                    },
+                    {
+                        "name": "Item from fisherman for showing a certain pokémon #5",
+                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon #5"
+                    }
+			    ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 1096,
+                        "y": 328
                     }
                 ]
             },
