@@ -20,57 +20,155 @@
         ]
     },
     {
-        "name": "Goal",
+        "name": "Goal - Ghetsis",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Goal - Ghetsis",
+                "name": "Ghetsis is not a goal",
                 "img": "/images/events/goalghetsis.png",
-                "codes": "goal,goal_ghetsis",
+                "img_mods": "@disabled",
+                "codes": "goal_ghetsis,goal_ghetsis_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Champion Alder",
+                "name": "Ghetsis is a goal",
+                "img": "/images/events/goalghetsis.png",
+                "codes": "goal_ghetsis,goal_ghetsis_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Champion",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Champion is not a goal",
                 "img": "/images/events/goalchampion.png",
-                "codes": "goal,goal_champion",
+                "img_mods": "@disabled",
+                "codes": "goal_champion,goal_champion_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Cynthia",
+                "name": "Champion is a goal",
+                "img": "/images/events/goalchampion.png",
+                "codes": "goal_champion,goal_champion_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Cynthia",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cynthia is not a goal",
                 "img": "/images/events/goalcynthia.png",
-                "codes": "goal,goal_cynthia",
+                "img_mods": "@disabled",
+                "codes": "goal_cynthia,goal_cynthia_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Cobalion",
+                "name": "Cynthia is a goal",
+                "img": "/images/events/goalcynthia.png",
+                "codes": "goal_cynthia,goal_cynthia_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Cobalion",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cobalion is not a goal",
                 "img": "/images/events/goalcobalion.png",
-                "codes": "goal,goal_cobalion",
+                "img_mods": "@disabled",
+                "codes": "goal_cobalion,goal_cobalion_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - TM/HM Hunt",
+                "name": "Cobalion is a goal",
+                "img": "/images/events/goalcobalion.png",
+                "codes": "goal_cobalion,goal_cobalion_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - TM/MH Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "TM/MH Hunt is not a goal",
                 "img": "/images/events/goaltmhms.png",
-                "codes": "goal,goal_tmhm_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_tmhm_hunt,goal_tmhm_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Seven Sages Hunt",
+                "name": "TM/MH Hunt is a goal",
+                "img": "/images/events/goaltmhms.png",
+                "codes": "goal_tmhm_hunt,goal_tmhm_hunt_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Seven Sages Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seven Sages Hunt is not a goal",
                 "img": "/images/events/goal7sages.png",
-                "codes": "goal,goal_seven_sages_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_seven_sages_hunt,goal_seven_sages_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Legendary Hunt",
+                "name": "Seven Sages Hunt is a goal",
+                "img": "/images/events/goal7sages.png",
+                "codes": "goal_seven_sages_hunt,goal_seven_sages_hunt_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Legendary Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Legendary Hunt is not a goal",
                 "img": "/images/events/victini.png",
-                "codes": "goal,goal_legendary_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_legendary_hunt,goal_legendary_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Pokemon Master",
-                "img": "/images/events/goalmaster.png",
-                "codes": "goal,goal_pokemon_master",
+                "name": "Legendary Hunt is a goal",
+                "img": "/images/events/victini.png",
+                "codes": "goal_legendary_hunt,goal_legendary_hunt_on",
                 "inherit_codes": false
             }
         ]

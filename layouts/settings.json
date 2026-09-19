@@ -8,6 +8,14 @@
             "content": [
                 {
                     "type": "group",
+                    "header": "Goal",
+                    "content": {
+                        "type": "layout",
+                        "key": "goal_grid"
+                    }
+                },
+                {
+                    "type": "group",
                     "header": "Options",
                     "content": {
                         "type": "layout",
@@ -57,6 +65,25 @@
             ]
         }
     },
+    "goal_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "goal_ghetsis",
+                "goal_champion",
+                "goal_cynthia",
+                "goal_cobalion",
+                "goal_tmhm_hunt",
+                "goal_seven_sages_hunt",
+                "goal_legendary_hunt"
+            ]
+        ]
+    },
     "options_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
@@ -67,7 +94,6 @@
         "rows": [
             [
                 "game_version",
-				"goal",
 				"dexsanity",
                 "season_control",
 				"shuffle_badges"

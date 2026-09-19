@@ -244,19 +244,39 @@ function onClear(slot_data)
                 item.CurrentStage = 2
             end
         elseif k == "goal" then
-            local item = Tracker:FindObjectForCode("goal")
-            local mapping = {
-                ghetsis = 0,
-                champion = 1,
-                cynthia = 2,
-                cobalion = 3,
-                tmhm_hunt = 4,
-                seven_sages_hunt = 5,
-                legendary_hunt = 6,
-                pokemon_master = 7
+            if slot_data["combined_goals"] == nil then
+                local pokemon_master = (v == "pokemon_master")
+                local goals = {
+                    "ghetsis",
+                    "champion",
+                    "cynthia",
+                    "cobalion",
+                    "tmhm_hunt",
+                    "seven_sages_hunt",
+                    "legendary_hunt",
+                }
+                for _, name in ipairs(goals) do
+                    local obj = Tracker:FindObjectForCode("goal_" .. name)
+                    if obj then
+                        obj.CurrentStage = (pokemon_master or name == v) and 1 or 0
+                    end
+                end
+            end
+        elseif k == "combined_goals" then
+            local goals = {
+                "ghetsis",
+                "champion",
+                "cynthia",
+                "cobalion",
+                "tmhm_hunt",
+                "seven_sages_hunt",
+                "legendary_hunt",
             }
-            if mapping[v] ~= nil then
-                item.CurrentStage = mapping[v]
+            for _, name in ipairs(goals) do
+                local obj = Tracker:FindObjectForCode("goal_" .. name)
+                if obj then
+                    obj.CurrentStage = table_contains(v, name) and 1 or 0
+                end
             end
         elseif k == "shuffle_badges" then
             local item = Tracker:FindObjectForCode("shuffle_badges")

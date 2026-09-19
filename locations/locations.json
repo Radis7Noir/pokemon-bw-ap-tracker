@@ -825,8 +825,7 @@
                             "@Castelia City Access,@all_hms,ownedtms:95"
                         ],
                         "visibility_rules": [
-                            "goal_tmhm_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_tmhm_hunt_on,show_items"
                         ],
                         "hosted_item": "showalltmhms_hosted"
                     },
@@ -2258,8 +2257,7 @@
                             "@Undella Town Access"
                         ],
                         "visibility_rules": [
-                            "goal_cynthia,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_cynthia_on,show_items"
                         ],
                         "hosted_item": "defeatcynthia_hosted"
                     },
@@ -5402,8 +5400,7 @@
                             "@Route 14 Access,$surf,$waterfall"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsagegiallo_hosted"
                     },
@@ -5945,8 +5942,7 @@
                             "@Route 18 Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsagerood_hosted"
                     },
@@ -6228,8 +6224,7 @@
                             "@Liberty Garden Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatvictini_hosted"
                     }
@@ -6351,8 +6346,7 @@
                             "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsagegorm_hosted"
                     },
@@ -7115,8 +7109,7 @@
                             "@Rumination Field Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatvirizion_hosted"
                     },
@@ -7616,8 +7609,7 @@
                             "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsageryoku_hosted"
                     },
@@ -7627,8 +7619,7 @@
                             "@Relic Castle Post-Sand Room Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatvolcarona_hosted"
                     },
@@ -8245,8 +8236,7 @@
                             "@Cold Storage Building Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsagezinzolin_hosted"
                     },
@@ -8531,8 +8521,7 @@
                             "@Chargestone Cave Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "arrestsagebronius_hosted"
                     },
@@ -8784,9 +8773,8 @@
                             "@Guidance Chamber Access,$strength"
                         ],
                         "visibility_rules": [
-                            "goal_cobalion,show_items",
-							"goal_legendary_hunt,show_items",
-                            "goal_pokemon_master,show_items"
+                            "goal_cobalion_on,show_items",
+							"goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatcobalion_hosted"
                     },
@@ -11467,8 +11455,7 @@
                             "@Trial Chamber Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatterrakion_hosted"
                     },
@@ -12120,11 +12107,9 @@
                             "@N's Castle Access"
                         ],
                         "visibility_rules": [
-                            "goal_ghetsis,show_items",
-							"goal_champion,show_items",
-							"goal_seven_sages_hunt,show_items",
-							"goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_ghetsis_on,show_items",
+							"goal_champion_on,show_items",
+							"goal_seven_sages_hunt_on,show_items"
                         ],
                         "hosted_item": "defeatghetsis_hosted"
                     },
@@ -12134,8 +12119,7 @@
                             "defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_champion,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_champion_on,show_items"
                         ],
                         "hosted_item": "defeatchampionalder_hosted"
                     }
@@ -12508,8 +12492,7 @@
                             "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt,show_items",
-							"goal_pokemon_master,show_items"
+                            "goal_legendary_hunt_on,show_items"
                         ],
                         "hosted_item": "catchdefeatkyurem_hosted"
                     },
