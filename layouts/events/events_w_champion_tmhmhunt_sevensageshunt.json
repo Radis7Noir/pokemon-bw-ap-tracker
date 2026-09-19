@@ -23,14 +23,23 @@
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatdrayden"
+                                "defeatiris"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
-                                "catchreshiram",
+                                "catchzekrom",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "defeatchampionalder",
+                                "showalltmhms",
+                                "arrestsagegorm"
+                            ],
+                            [
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin",
+                                "arrestsageryoku",
+                                "arrestsagerood",
+                                "arrestsagebronius"
                             ]
                         ]
                     }
@@ -55,14 +64,23 @@
                         "defeatclay",
                         "defeatskyla",
                         "defeatbrycen",
-                        "defeatdrayden"
+                        "defeatiris"
                     ],
                     [
                         "helpdaycareman",
                         "catchdefeatcobalion",
-                        "catchreshiram",
+                        "catchzekrom",
                         "defeatghetsis",
-                        "defeatchampionalder"
+                        "defeatchampionalder",
+                        "showalltmhms",
+                        "arrestsagegorm"
+                    ],
+                    [
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin",
+                        "arrestsageryoku",
+                        "arrestsagerood",
+                        "arrestsagebronius"
                     ]
                 ]
             }

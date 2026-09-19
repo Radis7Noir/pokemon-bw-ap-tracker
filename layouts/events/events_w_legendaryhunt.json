@@ -23,14 +23,22 @@
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatdrayden"
+                                "defeatiris"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
-                                "catchreshiram",
-                                "defeatghetsis",
-                                "defeatchampionalder"
+                                "catchzekrom",
+                                "defeatghetsis"
+                            ],
+                            [
+                                "catchdefeatvictini"
+                            ],
+                            [
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion",
+                                "catchdefeatkyurem"
                             ]
                         ]
                     }
@@ -55,14 +63,22 @@
                         "defeatclay",
                         "defeatskyla",
                         "defeatbrycen",
-                        "defeatdrayden"
+                        "defeatiris"
                     ],
                     [
                         "helpdaycareman",
                         "catchdefeatcobalion",
-                        "catchreshiram",
-                        "defeatghetsis",
-                        "defeatchampionalder"
+                        "catchzekrom",
+                        "defeatghetsis"
+                    ],
+                    [
+                        "catchdefeatvictini"
+                    ],
+                    [
+                        "catchdefeatvolcarona",
+                        "catchdefeatterrakion",
+                        "catchdefeatvirizion",
+                        "catchdefeatkyurem"
                     ]
                 ]
             }

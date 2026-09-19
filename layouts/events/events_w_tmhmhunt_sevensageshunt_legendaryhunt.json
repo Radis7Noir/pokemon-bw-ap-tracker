@@ -23,14 +23,29 @@
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatdrayden"
+                                "defeatiris"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
-                                "catchreshiram",
+                                "catchzekrom",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "showalltmhms",
+                                "arrestsagegorm"
+                            ],
+                            [
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin",
+                                "arrestsageryoku",
+                                "arrestsagerood",
+                                "arrestsagebronius",
+                                "catchdefeatvictini"
+                            ],
+                            [
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion",
+                                "catchdefeatkyurem"
                             ]
                         ]
                     }
@@ -55,14 +70,29 @@
                         "defeatclay",
                         "defeatskyla",
                         "defeatbrycen",
-                        "defeatdrayden"
+                        "defeatiris"
                     ],
                     [
                         "helpdaycareman",
                         "catchdefeatcobalion",
-                        "catchreshiram",
+                        "catchzekrom",
                         "defeatghetsis",
-                        "defeatchampionalder"
+                        "showalltmhms",
+                        "arrestsagegorm"
+                    ],
+                    [
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin",
+                        "arrestsageryoku",
+                        "arrestsagerood",
+                        "arrestsagebronius",
+                        "catchdefeatvictini"
+                    ],
+                    [
+                        "catchdefeatvolcarona",
+                        "catchdefeatterrakion",
+                        "catchdefeatvirizion",
+                        "catchdefeatkyurem"
                     ]
                 ]
             }

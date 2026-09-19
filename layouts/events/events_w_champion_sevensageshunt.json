@@ -23,14 +23,22 @@
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatdrayden"
+                                "defeatiris"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
-                                "catchreshiram",
+                                "catchzekrom",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "defeatchampionalder",
+                                "arrestsagegorm"
+                            ],
+                            [
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin",
+                                "arrestsageryoku",
+                                "arrestsagerood",
+                                "arrestsagebronius"
                             ]
                         ]
                     }
@@ -55,14 +63,22 @@
                         "defeatclay",
                         "defeatskyla",
                         "defeatbrycen",
-                        "defeatdrayden"
+                        "defeatiris"
                     ],
                     [
                         "helpdaycareman",
                         "catchdefeatcobalion",
-                        "catchreshiram",
+                        "catchzekrom",
                         "defeatghetsis",
-                        "defeatchampionalder"
+                        "defeatchampionalder",
+                        "arrestsagegorm"
+                    ],
+                    [
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin",
+                        "arrestsageryoku",
+                        "arrestsagerood",
+                        "arrestsagebronius"
                     ]
                 ]
             }

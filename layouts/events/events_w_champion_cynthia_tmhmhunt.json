@@ -19,20 +19,20 @@
                                 "defeatstriatongym",
                                 "defeatlenora",
                                 "defeatburgh",
-                                "defeatelesa"
-
-                            ],
-                            [
+                                "defeatelesa",
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatdrayden"
+                                "defeatiris"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
-                                "catchreshiram",
-                                "defeatghetsis"
+                                "catchzekrom",
+                                "defeatghetsis",
+                                "defeatchampionalder",
+                                "defeatcynthia",
+                                "showalltmhms"
                             ]
                         ]
                     }
@@ -50,10 +50,23 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "helpdaycareman",
+                        "defeatstriatongym",
+                        "defeatlenora",
+                        "defeatburgh",
+                        "defeatelesa",
+                        "defeatclay",
+                        "defeatskyla",
                         "defeatbrycen",
-                        "catchreshiram",
-                        "defeatghetsis"
+                        "defeatiris"
+                    ],
+                    [
+                        "helpdaycareman",
+                        "catchdefeatcobalion",
+                        "catchzekrom",
+                        "defeatghetsis",
+                        "defeatchampionalder",
+                        "defeatcynthia",
+                        "showalltmhms"
                     ]
                 ]
             }

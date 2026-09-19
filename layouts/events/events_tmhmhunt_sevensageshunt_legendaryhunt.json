@@ -30,7 +30,22 @@
                                 "catchdefeatcobalion",
                                 "catchreshiram",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "showalltmhms",
+                                "arrestsagegorm"
+                            ],
+                            [
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin",
+                                "arrestsageryoku",
+                                "arrestsagerood",
+                                "arrestsagebronius",
+                                "catchdefeatvictini"
+                            ],
+                            [
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion",
+                                "catchdefeatkyurem"
                             ]
                         ]
                     }
@@ -62,7 +77,22 @@
                         "catchdefeatcobalion",
                         "catchreshiram",
                         "defeatghetsis",
-                        "defeatchampionalder"
+                        "showalltmhms",
+                        "arrestsagegorm"
+                    ],
+                    [
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin",
+                        "arrestsageryoku",
+                        "arrestsagerood",
+                        "arrestsagebronius",
+                        "catchdefeatvictini"
+                    ],
+                    [
+                        "catchdefeatvolcarona",
+                        "catchdefeatterrakion",
+                        "catchdefeatvirizion",
+                        "catchdefeatkyurem"
                     ]
                 ]
             }

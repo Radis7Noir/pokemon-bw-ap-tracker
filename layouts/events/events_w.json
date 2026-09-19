@@ -16,19 +16,20 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "helpdaycareman"
+                                "defeatstriatongym",
+                                "defeatlenora",
+                                "defeatburgh",
+                                "defeatelesa",
+                                "defeatclay",
+                                "defeatskyla",
+                                "defeatbrycen",
+                                "defeatiris"
                             ],
                             [
-                                "defeatbrycen"
-                            ],
-                            [
-                                "catchzekrom"
-                            ],
-                            [
+                                "helpdaycareman",
+                                "catchdefeatcobalion",
+                                "catchzekrom",
                                 "defeatghetsis"
-                            ],
-                            [
-                                "defeatchampionalder"
                             ]
                         ]
                     }
@@ -46,11 +47,20 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "helpdaycareman",
+                        "defeatstriatongym",
+                        "defeatlenora",
+                        "defeatburgh",
+                        "defeatelesa",
+                        "defeatclay",
+                        "defeatskyla",
                         "defeatbrycen",
+                        "defeatiris"
+                    ],
+                    [
+                        "helpdaycareman",
+                        "catchdefeatcobalion",
                         "catchzekrom",
-                        "defeatghetsis",
-						"defeatchampionalder"
+                        "defeatghetsis"
                     ]
                 ]
             }

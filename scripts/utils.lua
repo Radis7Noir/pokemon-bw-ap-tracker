@@ -85,15 +85,30 @@ end
 
 function toggle_goal()
     local suffix = ""
-    if has("goal_ghetsis_on") then
-        suffix = suffix .. "_ghetsis"
-	end
-
     if has("pokemon_white") then
         suffix = suffix .. "_w"
 	end
-	
-    Tracker:AddMaps("maps/goal"..suffix..".json")
+
+    if has("goal_champion_on") then
+        suffix = suffix .. "_champion"
+	end
+
+    if has("goal_cynthia_on") then
+        suffix = suffix .. "_cynthia"
+	end
+
+    if has("goal_tmhm_hunt_on") then
+        suffix = suffix .. "_tmhmhunt"
+	end
+
+    if has("goal_seven_sages_hunt_on") then
+        suffix = suffix .. "_sevensageshunt"
+	end
+
+    if has("goal_legendary_hunt_on") then
+        suffix = suffix .. "_legendaryhunt"
+	end
+
 	Tracker:AddLayouts("layouts/events/events"..suffix..".json")
 end
 

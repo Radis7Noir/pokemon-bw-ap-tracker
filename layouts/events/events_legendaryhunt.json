@@ -19,20 +19,26 @@
                                 "defeatstriatongym",
                                 "defeatlenora",
                                 "defeatburgh",
-                                "defeatelesa"
-
-                            ],
-                            [
+                                "defeatelesa",
                                 "defeatclay",
                                 "defeatskyla",
                                 "defeatbrycen",
-                                "defeatiris"
+                                "defeatdrayden"
                             ],
                             [
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
                                 "catchreshiram",
                                 "defeatghetsis"
+                            ],
+                            [
+                                "catchdefeatvictini"
+                            ],
+                            [
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion",
+                                "catchdefeatkyurem"
                             ]
                         ]
                     }
@@ -50,10 +56,29 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "helpdaycareman",
+                        "defeatstriatongym",
+                        "defeatlenora",
+                        "defeatburgh",
+                        "defeatelesa",
+                        "defeatclay",
+                        "defeatskyla",
                         "defeatbrycen",
-                        "catchzekrom",
+                        "defeatdrayden"
+                    ],
+                    [
+                        "helpdaycareman",
+                        "catchdefeatcobalion",
+                        "catchreshiram",
                         "defeatghetsis"
+                    ],
+                    [
+                        "catchdefeatvictini"
+                    ],
+                    [
+                        "catchdefeatvolcarona",
+                        "catchdefeatterrakion",
+                        "catchdefeatvirizion",
+                        "catchdefeatkyurem"
                     ]
                 ]
             }

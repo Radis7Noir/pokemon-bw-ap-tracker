@@ -30,7 +30,16 @@
                                 "catchdefeatcobalion",
                                 "catchreshiram",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "defeatcynthia",
+                                "showalltmhms",
+                                "arrestsagegorm"
+                            ],
+                            [
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin",
+                                "arrestsageryoku",
+                                "arrestsagerood",
+                                "arrestsagebronius"
                             ]
                         ]
                     }
@@ -62,7 +71,16 @@
                         "catchdefeatcobalion",
                         "catchreshiram",
                         "defeatghetsis",
-                        "defeatchampionalder"
+                        "defeatcynthia",
+                        "showalltmhms",
+                        "arrestsagegorm"
+                    ],
+                    [
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin",
+                        "arrestsageryoku",
+                        "arrestsagerood",
+                        "arrestsagebronius"
                     ]
                 ]
             }

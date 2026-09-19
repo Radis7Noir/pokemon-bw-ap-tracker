@@ -16,18 +16,21 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "helpdaycareman"
+                                "defeatstriatongym",
+                                "defeatlenora",
+                                "defeatburgh",
+                                "defeatelesa",
+                                "defeatclay",
+                                "defeatskyla",
+                                "defeatbrycen",
+                                "defeatiris"
                             ],
                             [
-                                "defeatbrycen"
-                            ],
-                            [
-                                "catchzekrom"
-                            ],
-                            [
-                                "defeatghetsis"
-                            ],
-                            [
+                                "helpdaycareman",
+                                "catchdefeatcobalion",
+                                "catchzekrom",
+                                "defeatghetsis",
+                                "defeatchampionalder",
                                 "defeatcynthia"
                             ]
                         ]
@@ -46,11 +49,22 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "helpdaycareman",
+                        "defeatstriatongym",
+                        "defeatlenora",
+                        "defeatburgh",
+                        "defeatelesa",
+                        "defeatclay",
+                        "defeatskyla",
                         "defeatbrycen",
+                        "defeatiris"
+                    ],
+                    [
+                        "helpdaycareman",
+                        "catchdefeatcobalion",
                         "catchzekrom",
                         "defeatghetsis",
-						"defeatcynthia"
+                        "defeatchampionalder",
+                        "defeatcynthia"
                     ]
                 ]
             }

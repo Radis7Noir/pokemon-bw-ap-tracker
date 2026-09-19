@@ -16,19 +16,22 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "helpdaycareman"
+                                "defeatstriatongym",
+                                "defeatlenora",
+                                "defeatburgh",
+                                "defeatelesa",
+                                "defeatclay",
+                                "defeatskyla",
+                                "defeatbrycen",
+                                "defeatdrayden"
                             ],
                             [
-                                "defeatbrycen"
-                            ],
-                            [
-                                "catchreshiram"
-                            ],
-                            [
-                                "defeatghetsis"
-                            ],
-                            [
-                                "showalltmhms"
+                                "helpdaycareman",
+                                "catchdefeatcobalion",
+                                "catchreshiram",
+                                "defeatghetsis",
+                                "defeatchampionalder",
+                                "defeatcynthia"
                             ]
                         ]
                     }
@@ -46,11 +49,22 @@
                 "h_alignment": "center",
                 "rows": [
                     [
-                        "helpdaycareman",
+                        "defeatstriatongym",
+                        "defeatlenora",
+                        "defeatburgh",
+                        "defeatelesa",
+                        "defeatclay",
+                        "defeatskyla",
                         "defeatbrycen",
+                        "defeatdrayden"
+                    ],
+                    [
+                        "helpdaycareman",
+                        "catchdefeatcobalion",
                         "catchreshiram",
                         "defeatghetsis",
-						"showalltmhms"
+                        "defeatchampionalder",
+                        "defeatcynthia"
                     ]
                 ]
             }
