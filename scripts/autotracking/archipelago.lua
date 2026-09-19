@@ -244,25 +244,6 @@ function onClear(slot_data)
                 item.CurrentStage = 2
             end
         elseif k == "goal" then
-            if slot_data["combined_goals"] == nil then
-                local pokemon_master = (v == "pokemon_master")
-                local goals = {
-                    "ghetsis",
-                    "champion",
-                    "cynthia",
-                    "cobalion",
-                    "tmhm_hunt",
-                    "seven_sages_hunt",
-                    "legendary_hunt",
-                }
-                for _, name in ipairs(goals) do
-                    local obj = Tracker:FindObjectForCode("goal_" .. name)
-                    if obj then
-                        obj.CurrentStage = (pokemon_master or name == v) and 1 or 0
-                    end
-                end
-            end
-        elseif k == "combined_goals" then
             local goals = {
                 "ghetsis",
                 "champion",
@@ -272,10 +253,14 @@ function onClear(slot_data)
                 "seven_sages_hunt",
                 "legendary_hunt",
             }
+            -- v is a string if solo goal and a table if combined goals, so we force v as a table
+            local force_table_v = type(v) == "table" and v or { v }
+            local pokemon_master = table_contains(force_table_v, "pokemon_master") -- so that we don't require an item for it
+
             for _, name in ipairs(goals) do
                 local obj = Tracker:FindObjectForCode("goal_" .. name)
                 if obj then
-                    obj.CurrentStage = table_contains(v, name) and 1 or 0
+                    obj.CurrentStage = (pokemon_master or table_contains(force_table_v, name)) and 1 or 0
                 end
             end
         elseif k == "shuffle_badges" then
@@ -391,7 +376,7 @@ function onClear(slot_data)
             end
         elseif k == "dexsanity" then
             Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
-            if #v == 0 then
+            if v == 0 then
                 Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
             else
                 Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
