@@ -635,14 +635,12 @@ function updateEvents(value)
             local bit = (value >> (i - 1)) & 1
             Tracker:FindObjectForCode(code).Active = (bit == 1)
         end
-        if has("catchreshiramzekrom") then
-            Tracker:FindObjectForCode("catchreshiram").Active = true
-            Tracker:FindObjectForCode("catchzekrom").Active = true
-        end
-        if has("defeatopelucidgym") then
-            Tracker:FindObjectForCode("defeatdrayden").Active = true
-            Tracker:FindObjectForCode("defeatiris").Active = true
-        end
+        local opelucid_gym = has("defeatopelucidgym")
+        Tracker:FindObjectForCode("defeatdrayden").Active = opelucid_gym
+        Tracker:FindObjectForCode("defeatiris").Active = opelucid_gym
+        local box_legendary = has("catchreshiramzekrom")
+        Tracker:FindObjectForCode("catchreshiram").Active = box_legendary
+        Tracker:FindObjectForCode("catchzekrom").Active = box_legendary
     end
 end
 
