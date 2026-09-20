@@ -802,22 +802,6 @@
         ]
     },
     {
-        "name": "Static Visibility",
-        "type": "progressive",
-        "codes": "static_visibility",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "codes": "static_visibility_false",
-                "inherit_codes": false
-            },
-            {
-                "codes": "static_visibility_true",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "",
         "type": "static",
         "img": "/images/settings/dexentrytop.png",
