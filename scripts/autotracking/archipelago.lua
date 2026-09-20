@@ -722,7 +722,6 @@ function updateWildBattle(value, old_value)
 end
 
 function updatePokemon()
-    Tracker:FindObjectForCode("static_visibility").CurrentStage = 1
     CAUGHT = CAUGHT or {}
     SEEN = SEEN or {}
 

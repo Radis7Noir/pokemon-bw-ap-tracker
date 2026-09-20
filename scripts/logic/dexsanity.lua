@@ -150,10 +150,39 @@ function evolve_move()
     end
 end
 
+
+SEARCH_VISIBILITY_STAGES = {
+    static_visibility = 0,
+    trade_visibility = 0, -- we still want statics and trades even if they're not in logic because why not :D
+    location_visibility = 2, -- encounters are set to ONLY during a search
+}
+-- we track the stages before the search
+VISIBILITY_BEFORE_SEARCH = nil
+
+function showSearchVisibility() -- helper that sets the correct stages for the search
+    if VISIBILITY_BEFORE_SEARCH == nil then
+        VISIBILITY_BEFORE_SEARCH = {}
+        for code in pairs(SEARCH_VISIBILITY_STAGES) do
+            VISIBILITY_BEFORE_SEARCH[code] = Tracker:FindObjectForCode(code).CurrentStage
+        end
+    end
+    for code, stage in pairs(SEARCH_VISIBILITY_STAGES) do
+        Tracker:FindObjectForCode(code).CurrentStage = stage
+    end
+end
+
+function restoreSearchVisibility() -- helper that sets the visibilities back to what they were before the search
+    if VISIBILITY_BEFORE_SEARCH ~= nil then
+        for code, stage in pairs(VISIBILITY_BEFORE_SEARCH) do
+            Tracker:FindObjectForCode(code).CurrentStage = stage
+        end
+        VISIBILITY_BEFORE_SEARCH = nil
+    end
+end
+
 function searchMon()
     if POKEMON_TO_LOCATIONS ~= nil then
-	    Tracker:FindObjectForCode("location_visibility").CurrentStage = 2
-        Tracker:FindObjectForCode("static_visibility").CurrentStage = 0
+        showSearchVisibility()
         Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
         
         for region_key, location in pairs(ENCOUNTER_MAPPING) do
@@ -193,6 +222,7 @@ function searchMon()
         
         if not found then
             if dexID == 0 then
+                restoreSearchVisibility()
                 updatePokemon()
                 Tracker:FindObjectForCode("go").CurrentStage = 0
                 return
@@ -209,7 +239,6 @@ function searchMon()
 end
 
 function searchReset()
-    searchMon(000)
     local form_item = Tracker:FindObjectForCode("dexsearch_form_" .. getDigits("dexsearch_digit1", "dexsearch_digit2", "dexsearch_digit3"))
     if form_item then
         form_item.CurrentStage = 0
@@ -217,13 +246,10 @@ function searchReset()
     Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage = 0
     Tracker:FindObjectForCode("dexsearch_digit2").CurrentStage = 0
     Tracker:FindObjectForCode("dexsearch_digit3").CurrentStage = 0
+    searchMon()
+    restoreSearchVisibility()
     Tracker:FindObjectForCode("search_ID_result").CurrentStage = 0
     Tracker:FindObjectForCode("search_reset").CurrentStage = 0
-    if Tracker:FindObjectForCode("dexsanity").AcquiredCount == 0 then
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
-    else
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
-    end
 end
 
 function static_encounter()
