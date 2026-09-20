@@ -6730,7 +6730,7 @@
                         "chest_unopened_img": "images/locations/challengerock_starpiece.png",
                         "chest_opened_img": "images/locations/challengerock_starpiece_grayscale.png",
                         "access_rules": [
-                            "@Pinwheel Forest Outside Access"
+                            "@Pinwheel Forest Outside Access,{}"
                         ],
                         "visibility_rules": [
                             "show_items"
