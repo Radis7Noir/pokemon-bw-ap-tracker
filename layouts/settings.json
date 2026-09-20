@@ -207,7 +207,9 @@
                 "abyssalruins_visibility",
 				"dexappraisal_visibility",
 				"brangers_visibility",
-				"seasonitems_visibility"
+				"seasonitems_visibility",
+                "static_visibility",
+                "trade_visibility"
             ]
         ]
     }

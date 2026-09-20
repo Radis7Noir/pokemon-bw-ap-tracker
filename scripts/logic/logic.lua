@@ -54,14 +54,17 @@ function hidden()
 end
 
 function season(season)
-    local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
     if has("season_control_vanilla") then
         return AccessibilityLevel.SequenceBreak
-    elseif has("season_control_changeable") and nimbasa then
-        return nimbasa
-    elseif has("season_control_randomized") and nimbasa and has(season) then
-        return nimbasa
     end
+    if has("season_control_randomized") and not has(season) then
+        return AccessibilityLevel.None
+    end
+    local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
+    if nimbasa >= AccessibilityLevel.Normal then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.SequenceBreak
 end
 
 function badges_req(count)

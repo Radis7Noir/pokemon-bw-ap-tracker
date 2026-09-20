@@ -352,6 +352,8 @@ function onClear(slot_data)
             consider_evolutions.CurrentStage = table_contains(v, "consider evolutions") and 1 or 0
             consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
             consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
+            Tracker:FindObjectForCode("statics_visibility").CurrentStage = table_contains(v, "consider static pokemon") and 0 or 1
+            Tracker:FindObjectForCode("trade_visibility").CurrentStage = table_contains(v, "consider trades") and 0 or 1
         elseif k == "randomize_wild_pokemon" then
             local randomize_wild = Tracker:FindObjectForCode("randomize_wild")
             randomize_wild.CurrentStage = table_contains(v, "randomize") and 1 or 0

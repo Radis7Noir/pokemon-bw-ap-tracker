@@ -233,3 +233,11 @@ function static_encounter()
         return AccessibilityLevel.SequenceBreak
     end
 end
+
+function trade(id)
+    local caught = has("caught_"..id)
+    if has("consider_trades_true") then
+        return (caught and AccessibilityLevel.Normal) or AccessibilityLevel.Inspect
+    end
+    return (caught and AccessibilityLevel.SequenceBreak) or AccessibilityLevel.None
+end

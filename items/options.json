@@ -359,6 +359,29 @@
         ]
     },
     {
+        "name": "Show Statics",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show Static Pokémon",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "static_visibility,show_statics",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Static Pokémon",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/false.png",
+                "codes": "static_visibility,hide_statics",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Consider Trades",
         "type": "progressive",
         "loop": true,
@@ -377,6 +400,29 @@
                 "img": "/images/settings/consider_trades.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_trades,consider_trades_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Show Trades",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Show Trade Pokémon",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "trade_visibility,show_trades",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hide Trade Pokémon",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/false.png",
+                "codes": "trade_visibility,hide_trades",
                 "inherit_codes": false
             }
         ]
