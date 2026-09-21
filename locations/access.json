@@ -1845,7 +1845,7 @@
     "name": "Twist Mountain Outside 3F North Footbridge Access",
     "access_rules": [
       "@Twist Mountain 3F North West Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
@@ -1853,7 +1853,7 @@
     "access_rules": [
       "@Twist Mountain 3F South West Access",
       "@Twist Mountain 3F South East Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
@@ -1873,18 +1873,16 @@
     "name": "Twist Mountain Outside 2F North East Footbridge Access",
     "access_rules": [
       "@Twist Mountain 2F North East Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
     "name": "Twist Mountain Outside 2F North West Footbridge Access",
     "access_rules": [
       "@Twist Mountain 2F North Dead End Access",
-      "@Twist Mountain Near 2F North West Door Access,^$season|spring",
-      "@Twist Mountain Near 2F North West Door Access,^$season|summer",
-      "@Twist Mountain Near 2F North West Door Access,^$season|autumn",
+      "@Twist Mountain Near 2F North West Door Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain 2F South West Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
@@ -1892,84 +1890,68 @@
     "access_rules": [
       "@Twist Mountain 2F South West Access",
       "@Twist Mountain 2F South East Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
     "name": "Twist Mountain Outside 1F East Access",
     "access_rules": [
       "@Twist Mountain 1F South East Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {
     "name": "Twist Mountain Outside 1F Access",
     "access_rules": [
-      "@Twist Mountain Outside 1F East Access,^$season|spring",
-      "@Twist Mountain Outside 1F East Access,^$season|summer",
-      "@Twist Mountain Outside 1F East Access,^$season|autumn",
-      "@Twist Mountain Near 1F South West Door Access,^$season|spring",
-      "@Twist Mountain Near 1F South West Door Access,^$season|summer",
-      "@Twist Mountain Near 1F South West Door Access,^$season|autumn",
-      "@Twist Mountain Near 1F North West Door Access,^$season|spring",
-      "@Twist Mountain Near 1F North West Door Access,^$season|summer",
-      "@Twist Mountain Near 1F North West Door Access,^$season|autumn",
-      "@Twist Mountain Near 1F North East Door Access,^$season|spring",
-      "@Twist Mountain Near 1F North East Door Access,^$season|summer",
-      "@Twist Mountain Near 1F North East Door Access,^$season|autumn",
+      "@Twist Mountain Outside 1F East Access,^$season_region|spring|summer|autumn",
+      "@Twist Mountain Near 1F South West Door Access,^$season_region|spring|summer|autumn",
+      "@Twist Mountain Near 1F North West Door Access,^$season_region|spring|summer|autumn",
+      "@Twist Mountain Near 1F North East Door Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain Near House Access"
     ]
   },
   {
     "name": "Twist Mountain Outside Snow Access",
     "access_rules": [
-      "@Twist Mountain Outside 3F North Footbridge Access,^$season|winter",
-      "@Twist Mountain Outside 3F West Footbridge Access,^$season|winter",
-      "@Twist Mountain Outside 2F North East Footbridge Access,^$season|winter",
-      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|winter",
-      "@Twist Mountain Outside 2F South Footbridge Access,^$season|winter",
-      "@Twist Mountain Outside 1F East Access,^$season|winter",
-      "@Twist Mountain Near 1F South West Door Access,^$season|winter",
-      "@Twist Mountain Near 2F North West Door Access,^$season|winter",
-      "@Twist Mountain Near 1F North West Door Access,^$season|winter",
-      "@Twist Mountain Near 1F North East Door Access,^$season|winter"
+      "@Twist Mountain Outside 3F North Footbridge Access,^$season_region|winter",
+      "@Twist Mountain Outside 3F West Footbridge Access,^$season_region|winter",
+      "@Twist Mountain Outside 2F North East Footbridge Access,^$season_region|winter",
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season_region|winter",
+      "@Twist Mountain Outside 2F South Footbridge Access,^$season_region|winter",
+      "@Twist Mountain Outside 1F East Access,^$season_region|winter",
+      "@Twist Mountain Near 1F South West Door Access,^$season_region|winter",
+      "@Twist Mountain Near 2F North West Door Access,^$season_region|winter",
+      "@Twist Mountain Near 1F North West Door Access,^$season_region|winter",
+      "@Twist Mountain Near 1F North East Door Access,^$season_region|winter"
     ]
   },
   {
     "name": "Twist Mountain Near 2F North West Door Access",
     "access_rules": [
-      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|spring",
-      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|summer",
-      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|autumn",
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain 2F North West Access"
     ]
   },
   {
     "name": "Twist Mountain Near 1F North West Door Access",
     "access_rules": [
-      "@Twist Mountain Outside 1F Access,^$season|spring",
-      "@Twist Mountain Outside 1F Access,^$season|summer",
-      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain Outside 1F Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain 1F North West Access"
     ]
   },
   {
     "name": "Twist Mountain Near 1F North East Door Access",
     "access_rules": [
-      "@Twist Mountain Outside 1F Access,^$season|spring",
-      "@Twist Mountain Outside 1F Access,^$season|summer",
-      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain Outside 1F Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain 1F North East Access"
     ]
   },
   {
     "name": "Twist Mountain Near 1F South West Door Access",
     "access_rules": [
-      "@Twist Mountain Outside 1F Access,^$season|spring",
-      "@Twist Mountain Outside 1F Access,^$season|summer",
-      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain Outside 1F Access,^$season_region|spring|summer|autumn",
       "@Twist Mountain 1F South West Access",
-      "@Twist Mountain Outside Snow Access,^$season|winter"
+      "@Twist Mountain Outside Snow Access,^$season_region|winter"
     ]
   },
   {

@@ -55,24 +55,38 @@ end
 
 function season(season)
     if has("season_control_vanilla") then
-        return AccessibilityLevel.Normal
-    end
-    if has("season_control_changeable") then
         return AccessibilityLevel.SequenceBreak
     end
     if has("season_control_randomized") and not has(season) then
         return AccessibilityLevel.None
     end
-    return Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
+    if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.SequenceBreak
+end
+
+function season_region(season)
+    if has("season_control_vanilla") then
+        return AccessibilityLevel.Normal
+    end
+    if has("season_control_randomized") and not has(season) then
+        return AccessibilityLevel.None
+    end
+    if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.SequenceBreak
 end
 
 function winter()
-    return not has("season_control_randomized") or has("winter")
+    return (has("season_control_randomized") and has("winter"))
+    or has("season_control_changeable")
 end
 
 function not_winter()
-    return not has("season_control_randomized")
-        or has("spring") or has("summer") or has("autumn")
+    return (has("season_control_randomized") and (has("spring") or has("summer") or has("autumn")))
+    or has("season_control_changeable")
 end
 
 function badges_req(count)
