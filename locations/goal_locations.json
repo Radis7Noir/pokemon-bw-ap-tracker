@@ -173,7 +173,7 @@
                     {
                         "name": "Arrest Sage Bronius in Chargestone Cave",
                         "access_rules": [
-                            "@Chargestone Cave Access,defeatghetsis"
+                            "@Chargestone Cave B2F Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "goal_seven_sages_hunt",
