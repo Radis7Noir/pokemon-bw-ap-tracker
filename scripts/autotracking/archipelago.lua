@@ -137,6 +137,16 @@ function onClear(slot_data)
         object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
     end
 
+    for bucket = 0, 20 do
+        LEVEL_REGIONS[bucket] = {}
+    end
+    for region, level in pairs(slot_data.level_by_region) do
+        local code = ENCOUNTER_MAPPING[region] or "@" .. region .. " Access"
+        if Tracker:FindObjectForCode(code) then
+            table.insert(LEVEL_REGIONS[level // 5], code)
+        end
+    end
+
     -- Main Slot Data Processing
 	local hm_with_badges_found = false
 	local add_rock_smash_found = false

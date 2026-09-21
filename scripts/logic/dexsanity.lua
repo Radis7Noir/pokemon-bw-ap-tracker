@@ -1,63 +1,18 @@
-function levelup(value)
+LEVEL_REGIONS = {}
+for bucket = 0, 20 do
+    LEVEL_REGIONS[bucket] = {}
+end
+
+function levelup(level)
     if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
     end
-
-    local in_vanilla_east = 0
-    if not has("adjustlevels_wilds") then
-        in_vanilla_east = Tracker:FindObjectForCode("@Route 15 Access").AccessibilityLevel
+    for _, code in ipairs(LEVEL_REGIONS[tonumber(level) // 5]) do
+        if Tracker:FindObjectForCode(code).AccessibilityLevel == AccessibilityLevel.Normal then
+            return AccessibilityLevel.Normal
+        end
     end
-    local region_3 = Tracker:FindObjectForCode("@Pinwheel Forest Outside Access").AccessibilityLevel
-    local region_4 = Tracker:FindObjectForCode("@Castelia City Access").AccessibilityLevel
-    local region_5 = Tracker:FindObjectForCode("@Desert Resort Access").AccessibilityLevel
-    local region_6 = math.max(
-            Tracker:FindObjectForCode("@Undella Town Access").AccessibilityLevel,
-            Tracker:FindObjectForCode("@Mistralton Cave Entrance Access").AccessibilityLevel,
-            Tracker:FindObjectForCode("@Chargestone Cave 1F Access").AccessibilityLevel) 
-    local region_7 =  math.max(
-            Tracker:FindObjectForCode("@Route 13 North Access").AccessibilityLevel,
-            Tracker:FindObjectForCode("@Route 13 South Access").AccessibilityLevel,
-            Tracker:FindObjectForCode("@Twist Mountain 3F South West Access").AccessibilityLevel,
-            Tracker:FindObjectForCode("@Twist Mountain 1F North East Access").AccessibilityLevel)
-    local region_8 =  math.max(
-            Tracker:FindObjectForCode("@Opelucid City Access").AccessibilityLevel,
-            in_vanilla_east)
-    local region_9 =  math.max(
-            Tracker:FindObjectForCode("@Victory Road Outside 1F Center Access").AccessibilityLevel,
-            in_vanilla_east)
-    local region_10 =  math.max(
-            Tracker:FindObjectForCode("@Pokémon League Outside Access").AccessibilityLevel,
-            in_vanilla_east)
-    local region_post = Tracker:FindObjectForCode("@Victory Road Outside 1F Center Access").AccessibilityLevel
-    local region_alder = Tracker:FindObjectForCode("@Victory Road Outside 1F Center Access").AccessibilityLevel
-    
-    local index = math.floor(value / 5)
-    
-    if index < 3 then
-        return AccessibilityLevel.Normal
-    elseif index == 3 then
-        return math.max(region_3, AccessibilityLevel.SequenceBreak)
-    elseif index == 4 then
-        return math.max(region_4, AccessibilityLevel.SequenceBreak)
-    elseif index == 5 then
-        return math.max(region_5, AccessibilityLevel.SequenceBreak)
-    elseif index == 6 then
-        return math.max(region_6, AccessibilityLevel.SequenceBreak)
-    elseif index == 7 then
-        return math.max(region_7, AccessibilityLevel.SequenceBreak)
-    elseif index == 8 then
-        return math.max(region_8, AccessibilityLevel.SequenceBreak)
-    elseif index == 9 then
-        return math.max(region_9, AccessibilityLevel.SequenceBreak)
-    elseif index == 10 then
-        return math.max(region_10, AccessibilityLevel.SequenceBreak)
-    elseif index >= 11 and index <= 14 then
-        return math.max(region_post, AccessibilityLevel.SequenceBreak)
-    elseif index >= 15 and index <= 19 then
-        return math.max(region_alder, AccessibilityLevel.SequenceBreak)
-    else
-        print("The value "..value.." is not expected for level_up. Please contact palex00")
-    end
+    return AccessibilityLevel.SequenceBreak
 end
 
 function evolve_item(value)

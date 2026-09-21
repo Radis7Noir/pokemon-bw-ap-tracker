@@ -3697,5 +3697,151 @@
     "access_rules": [
       "@Abyssal Ruins 1F Access"
     ]
+  },
+  {
+    "name": "levelup_100",
+    "access_rules": [
+      "^$levelup|100"
+    ]
+  },
+  {
+    "name": "levelup_95",
+    "access_rules": [
+      "@levelup_100",
+      "^$levelup|95"
+    ]
+  },
+  {
+    "name": "levelup_90",
+    "access_rules": [
+      "@levelup_95",
+      "^$levelup|90"
+    ]
+  },
+  {
+    "name": "levelup_85",
+    "access_rules": [
+      "@levelup_90",
+      "^$levelup|85"
+    ]
+  },
+  {
+    "name": "levelup_80",
+    "access_rules": [
+      "@levelup_85",
+      "^$levelup|80"
+    ]
+  },
+  {
+    "name": "levelup_75",
+    "access_rules": [
+      "@levelup_80",
+      "^$levelup|75"
+    ]
+  },
+  {
+    "name": "levelup_70",
+    "access_rules": [
+      "@levelup_75",
+      "^$levelup|70"
+    ]
+  },
+  {
+    "name": "levelup_65",
+    "access_rules": [
+      "@levelup_70",
+      "^$levelup|65"
+    ]
+  },
+  {
+    "name": "levelup_60",
+    "access_rules": [
+      "@levelup_65",
+      "^$levelup|60"
+    ]
+  },
+  {
+    "name": "levelup_55",
+    "access_rules": [
+      "@levelup_60",
+      "^$levelup|55"
+    ]
+  },
+  {
+    "name": "levelup_50",
+    "access_rules": [
+      "@levelup_55",
+      "^$levelup|50"
+    ]
+  },
+  {
+    "name": "levelup_45",
+    "access_rules": [
+      "@levelup_50",
+      "^$levelup|45"
+    ]
+  },
+  {
+    "name": "levelup_40",
+    "access_rules": [
+      "@levelup_45",
+      "^$levelup|40"
+    ]
+  },
+  {
+    "name": "levelup_35",
+    "access_rules": [
+      "@levelup_40",
+      "^$levelup|35"
+    ]
+  },
+  {
+    "name": "levelup_30",
+    "access_rules": [
+      "@levelup_35",
+      "^$levelup|30"
+    ]
+  },
+  {
+    "name": "levelup_25",
+    "access_rules": [
+      "@levelup_30",
+      "^$levelup|25"
+    ]
+  },
+  {
+    "name": "levelup_20",
+    "access_rules": [
+      "@levelup_25",
+      "^$levelup|20"
+    ]
+  },
+  {
+    "name": "levelup_15",
+    "access_rules": [
+      "@levelup_20",
+      "^$levelup|15"
+    ]
+  },
+  {
+    "name": "levelup_10",
+    "access_rules": [
+      "@levelup_15",
+      "^$levelup|10"
+    ]
+  },
+  {
+    "name": "levelup_5",
+    "access_rules": [
+      "@levelup_10",
+      "^$levelup|5"
+    ]
+  },
+  {
+    "name": "levelup_0",
+    "access_rules": [
+      "@levelup_5",
+      "^$levelup|0"
+    ]
   }
 ]
