@@ -17,23 +17,18 @@
                         "rows": [
                             [
                                 "auto_switch",
-                                ""
-                            ],
-                            [
                                 "split",
                                 "slotdigit_1"
                             ],
                             [
                                 "location_visibility",
+                                "encounter_tracking",
                                 "slotdigit_2"
                             ],
                             [
-                                "encounter_tracking",
-                                "slotdigit_3"
-                            ],
-                            [
+                                "",
                                 "hint_tracking",
-                                ""
+                                "slotdigit_3"
                             ]
                         ]
                     }

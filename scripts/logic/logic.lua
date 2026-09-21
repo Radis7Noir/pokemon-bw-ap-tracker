@@ -91,6 +91,10 @@ function badges()
     Tracker:ProviderCountForCode("legendbadge")
 end
 
+function not_starting_town(town)
+    return not has("starting_town_"..town)
+end
+
 --function deerling()
 --    if not has("caught_585") then
 --        return AccessibilityLevel.Inspect

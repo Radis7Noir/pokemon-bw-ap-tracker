@@ -16,18 +16,15 @@
                         "h_alignment": "center",
                         "rows": [
                             [
-                                "auto_switch"
-                            ],
-                            [
+                                "auto_switch",
                                 "split"
                             ],
                             [
-                                "location_visibility"
-                            ],
-                            [
+                                "location_visibility",
 								"encounter_tracking"
                             ],
                             [
+                                "",
                                 "hint_tracking"
                             ]
                         ]

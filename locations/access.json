@@ -2,359 +2,1541 @@
   {
     "name": "all_badges",
     "access_rules": [
-	  "triobadge,basicbadge,insectbadge,boltbadge,quakebadge,jetbadge,freezebadge,legendbadge"
+      "triobadge,basicbadge,insectbadge,boltbadge,quakebadge,jetbadge,freezebadge,legendbadge"
     ]
   },
   {
     "name": "all_hms",
     "access_rules": [
-	  "hm01cut,hm02fly,hm03surf,hm04strength,hm05waterfall,hm06dive"
+      "hm01cut,hm02fly,hm03surf,hm04strength,hm05waterfall,hm06dive"
     ]
   },
   {
     "name": "Nuvema Town Access",
     "access_rules": [
-      "starting_town_nuvema",
-      "@Route 1 Access"
+      "@Cheren's House Access",
+      "@Bianca's House Access",
+      "@Nuvema Town Near Lab Access",
+      "@Route 1 East Access",
+      "@Player's House Access,starting_town_nuvema",
+      "@Accumula Town North East House Access,starting_town_accumula",
+      "@Striaton City South West House 1F Access,starting_town_striaton",
+      "@Nacrene City South East Left House Access,starting_town_nacrene",
+      "@Passerby Analytics HQ Access,starting_town_castelia",
+      "@Battle Institute Access,starting_town_nimbasa",
+      "@Driftveil City Lower Left House East of Market Access,starting_town_driftveil",
+      "@Mistralton City East House Access,starting_town_mistralton",
+      "@Icirrus City House North of Pokemon Center Access,starting_town_icirrus",
+      "@Opelucid City West House 1F Access,starting_town_opelucid",
+      "@Lacunosa Town South West House Access,starting_town_lacunosa",
+      "@Undella Town Middle Small Villa Access,starting_town_undella"
     ]
   },
   {
-    "name": "Route 1 Access",
+    "name": "Nuvema Town Near Lab Access",
     "access_rules": [
       "@Nuvema Town Access",
-	  "@Accumula Town Access",
-	  "@Route 17 Access,$surf"
+      "@Juniper's Lab Access"
     ]
   },
   {
-    "name": "Route 17 Access",
+    "name": "Player's House Access",
     "access_rules": [
-      "@Route 1 Access,$surf",
-	  "@Route 18 Access,$surf",
-	  "@P2 Laboratory Access,$surf"
+      "@Player's Bedroom Access",
+      "@Nuvema Town Access,starting_town_nuvema",
+      "@Accumula Town Access,starting_town_accumula",
+      "@Striaton City Access,starting_town_striaton",
+      "@Nacrene City Access,starting_town_nacrene",
+      "@Castelia City Access,starting_town_castelia",
+      "@Nimbasa City Access,starting_town_nimbasa",
+      "@Driftveil City Access,starting_town_driftveil",
+      "@Mistralton City Access,starting_town_mistralton",
+      "@Icirrus City Access,starting_town_icirrus",
+      "@Opelucid City Access,starting_town_opelucid",
+      "@Lacunosa Town Access,starting_town_lacunosa",
+      "@Undella Town Access,starting_town_undella"
+    ]
+  },
+  {
+    "name": "Player's Bedroom Access",
+    "access_rules": [
+      "",
+      "@Player's House Access"
+    ]
+  },
+  {
+    "name": "Cheren's House Access",
+    "access_rules": [
+      "@Nuvema Town Access",
+      "@Cheren's Bedroom Access"
+    ]
+  },
+  {
+    "name": "Cheren's Bedroom Access",
+    "access_rules": [
+      "@Cheren's House Access"
+    ]
+  },
+  {
+    "name": "Bianca's House Access",
+    "access_rules": [
+      "@Nuvema Town Access",
+      "@Bianca's Bedroom Access"
+    ]
+  },
+  {
+    "name": "Bianca's Bedroom Access",
+    "access_rules": [
+      "@Bianca's House Access"
+    ]
+  },
+  {
+    "name": "Juniper's Lab Access",
+    "access_rules": [
+      "@Nuvema Town Near Lab Access"
+    ]
+  },
+  {
+    "name": "Route 1 East Access",
+    "access_rules": [
+      "@Nuvema Town Access",
+      "@Route 1 West Access,$surf",
+      "@Accumula Town Access"
+    ]
+  },
+  {
+    "name": "Route 1 West Access",
+    "access_rules": [
+      "@Route 1 East Access,$surf",
+      "@Route 1 Gate Access"
+    ]
+  },
+  {
+    "name": "Route 1 Gate Access",
+    "access_rules": [
+      "@Route 1 West Access",
+      "@Route 17 Shore Access"
+    ]
+  },
+  {
+    "name": "Route 17 Shore Access",
+    "access_rules": [
+      "@Route 1 Gate Access",
+      "@Route 17 South Access"
+    ]
+  },
+  {
+    "name": "Route 17 South Access",
+    "access_rules": [
+      "@Route 17 Shore Access,$surf",
+      "@Route 18 Access,$surf",
+      "@Route 17 North Access"
+    ]
+  },
+  {
+    "name": "Route 17 North Access",
+    "access_rules": [
+      "@Route 18 Access",
+      "@P2 Laboratory Outside Access,$surf"
     ]
   },
   {
     "name": "Route 18 Access",
     "access_rules": [
-      "@Route 17 Access,$surf"
+      "@Route 17 South Access",
+      "@Route 18 House Access",
+      "@Route 17 North Access"
+    ]
+  },
+  {
+    "name": "Route 18 Coast Access",
+    "access_rules": [
+      "@Route 17 North Access"
+    ]
+  },
+  {
+    "name": "Route 18 House Access",
+    "access_rules": [
+      "@Route 18 Access"
+    ]
+  },
+  {
+    "name": "P2 Laboratory Outside Access",
+    "access_rules": [
+      "@Route 17 North Access",
+      "@P2 Laboratory Access"
     ]
   },
   {
     "name": "P2 Laboratory Access",
     "access_rules": [
-      "@Route 17 Access,$surf",
-	    "@Liberty Garden Access,add_ssticket_true"
+      "@P2 Laboratory Outside Access"
     ]
   },
   {
     "name": "Accumula Town Access",
     "access_rules": [
-      "starting_town_accumula",
-      "@Route 1 Access",
+      "@Route 1 East Access",
+      "@Accumula Town Pokemon Center Access",
+      "@Accumula Town South West House 1F Access",
+      "@Accumula Town North East House Access,$not_starting_town|accumula",
+      "@Player's House Access,starting_town_accumula",
+      "@Accumula Town North Left House 1F Access",
+      "@Accumula Town North Right House 1F Access",
+      "@Accumula Town Near Gate Access"
+    ]
+  },
+  {
+    "name": "Accumula Town Near Gate Access",
+    "access_rules": [
+      "@Accumula Town Access",
+      "@Accumula Gate Access"
+    ]
+  },
+  {
+    "name": "Accumula Town Pokemon Center Access",
+    "access_rules": [
+      "@Accumula Town Access"
+    ]
+  },
+  {
+    "name": "Accumula Town South West House 1F Access",
+    "access_rules": [
+      "@Accumula Town Access",
+      "@Accumula Town South West House 2F Access"
+    ]
+  },
+  {
+    "name": "Accumula Town South West House 2F Access",
+    "access_rules": [
+      "@Accumula Town South West House 1F Access"
+    ]
+  },
+  {
+    "name": "Accumula Town North East House Access",
+    "access_rules": [
+      "@Accumula Town Access,$not_starting_town|accumula",
+      "@Nuvema Town Access,starting_town_accumula"
+    ]
+  },
+  {
+    "name": "Accumula Town North Left House 1F Access",
+    "access_rules": [
+      "@Accumula Town Access",
+      "@Accumula Town North Left House 2F Access"
+    ]
+  },
+  {
+    "name": "Accumula Town North Left House 2F Access",
+    "access_rules": [
+      "@Accumula Town North Left House 1F Access"
+    ]
+  },
+  {
+    "name": "Accumula Town North Right House 1F Access",
+    "access_rules": [
+      "@Accumula Town Access",
+      "@Accumula Town North Right House 2F Access"
+    ]
+  },
+  {
+    "name": "Accumula Town North Right House 2F Access",
+    "access_rules": [
+      "@Accumula Town North Right House 1F Access"
+    ]
+  },
+  {
+    "name": "Accumula Gate Access",
+    "access_rules": [
+      "@Accumula Town Near Gate Access",
       "@Route 2 Access"
     ]
   },
   {
     "name": "Route 2 Access",
     "access_rules": [
-      "@Accumula Town Access",
+      "@Accumula Gate Access",
       "@Striaton City Access"
     ]
   },
   {
     "name": "Striaton City Access",
     "access_rules": [
-      "starting_town_striaton",
       "@Route 2 Access",
-      "@Route 3 North Access,parcel",
-      "@Striaton Gym Access",
-      "@Dreamyard Access"
+      "@Striaton City Pokemon Center Access",
+      "@Striaton City Near Gym Access",
+      "@Striaton City Trainers' School Access",
+      "@Striaton City South West House 1F Access,$not_starting_town|striaton",
+      "@Player's House Access,starting_town_striaton",
+      "@Striaton City East Lower House 1F Access",
+      "@Striaton City East Upper House 1F Access",
+      "@Dreamyard Entrance Access",
+      "@Route 3 North Access,parcel"
+    ]
+  },
+  {
+    "name": "Striaton City Near Gym Access",
+    "access_rules": [
+      "@Striaton City Access",
+      "@Striaton Gym Access"
+    ]
+  },
+  {
+    "name": "Striaton City Pokemon Center Access",
+    "access_rules": [
+      "@Striaton City Access"
     ]
   },
   {
     "name": "Striaton Gym Access",
     "access_rules": [
-      "@Striaton City Access,dark_areas_striaton_gym_false",
-      "@Striaton City Access,^$flash,dark_areas_striaton_gym_true"
+      "@Striaton City Near Gym Access"
     ]
   },
   {
-    "name": "Dreamyard Access",
+    "name": "Striaton City Trainers' School Access",
+    "access_rules": [
+      "@Striaton City Access"
+    ]
+  },
+  {
+    "name": "Striaton City South West House 1F Access",
+    "access_rules": [
+      "@Striaton City South West House 2F Access",
+      "@Nuvema Town Access,starting_town_striaton",
+      "@Striaton City Access,$not_starting_town|striaton"
+    ]
+  },
+  {
+    "name": "Striaton City South West House 2F Access",
+    "access_rules": [
+      "@Striaton City South West House 1F Access"
+    ]
+  },
+  {
+    "name": "Striaton City East Lower House 1F Access",
     "access_rules": [
       "@Striaton City Access",
-	    "@Dreamyard Basement Access,basementkey",
-	    "@Dreamyard South Access,$strength,mo_strength_boulders_false",
-      "@Dreamyard North Access,$cut"
+      "@Striaton City East Lower House 2F Access"
     ]
   },
   {
-    "name": "Dreamyard North Access",
+    "name": "Striaton City East Lower House 2F Access",
     "access_rules": [
-      "@Dreamyard Access,$cut"
+      "@Striaton City East Lower House 1F Access"
+    ]
+  },
+  {
+    "name": "Striaton City East Upper House 1F Access",
+    "access_rules": [
+      "@Striaton City Access"
+    ]
+  },
+  {
+    "name": "Striaton City East Upper House 2F Access",
+    "access_rules": [
+      "@Striaton City East Upper House 1F Access"
+    ]
+  },
+  {
+    "name": "Dreamyard Entrance Access",
+    "access_rules": [
+      "@Striaton City Access",
+      "@Dreamyard North East Access,basementkey",
+      "@Dreamyard South Access,$strength"
+    ]
+  },
+  {
+    "name": "Dreamyard North West Access",
+    "access_rules": [
+      "@Dreamyard Entrance Access,$cut"
+    ]
+  },
+  {
+    "name": "Dreamyard North East Access",
+    "access_rules": [
+      "@Dreamyard Entrance Access,basementkey",
+      "@Dreamyard Basement Access"
+    ]
+  },
+  {
+    "name": "Dreamyard Basement Access",
+    "access_rules": [
+      "@Dreamyard North East Access",
+      "@Dreamyard South Access"
+    ]
+  },
+  {
+    "name": "Dreamyard Basement North West Access",
+    "access_rules": [
+      "@Dreamyard South Access"
     ]
   },
   {
     "name": "Dreamyard South Access",
     "access_rules": [
       "@Dreamyard Basement Access",
-      "@Dreamyard Access,$strength,mo_strength_boulders_true",
-      "@Dreamyard Access,$strength,mo_strength_boulders_vi_road"
-    ]
-  },
-  {
-    "name": "Dreamyard Basement Access",
-    "access_rules": [
-      "@Dreamyard Access,basementkey,dark_areas_dreamyard_basement_false",
-      "@Dreamyard Access,basementkey,^$flash,dark_areas_dreamyard_basement_true",
-      "@Dreamyard South Access,dark_areas_dreamyard_basement_false",
-      "@Dreamyard South Access,^$flash,dark_areas_dreamyard_basement_true"
+      "@Dreamyard Basement North West Access"
     ]
   },
   {
     "name": "Route 3 North Access",
     "access_rules": [
       "@Striaton City Access,parcel",
-	    "@Wellspring Cave 1F Access",
-      "@Route 3 South Access"
-    ]
-  },
-  {
-    "name": "Wellspring Cave 1F Access",
-    "access_rules": [
-      "@Route 3 North Access,dark_areas_wellspring_cave_1f_false",
-      "@Route 3 North Access,^$flash,dark_areas_wellspring_cave_1f_true",
-	    "@Challenger's Cave Access,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
-	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_true",
-	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
-	    "@Challenger's Cave Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
-	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_true",
-	    "@Challenger's Cave Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_true"
-    ]
-  },
-  {
-    "name": "Wellspring Cave B1F Access",
-    "access_rules": [
-      "@Wellspring Cave 1F Access,$surf,dark_areas_wellspring_cave_1f_false,dark_areas_wellspring_cave_b1f_false",
-      "@Wellspring Cave 1F Access,^$flash,$surf,dark_areas_wellspring_cave_1f_true",
-      "@Wellspring Cave 1F Access,^$flash,$surf,dark_areas_wellspring_cave_b1f_true"
+      "@Route 3 South Access",
+      "@Route 3 Pokémon Day Care Access",
+      "@Route 3 Kindergarten Access",
+      "@Wellspring Cave Entrance Access"
     ]
   },
   {
     "name": "Route 3 South Access",
     "access_rules": [
       "@Route 3 North Access",
-	    "@Nacrene City Access"
+      "@Nacrene Gate Access"
+    ]
+  },
+  {
+    "name": "Route 3 South or Dreamyard North East Access",
+    "access_rules": [
+      "@Dreamyard North East Access",
+      "@Route 3 South Access"
+    ]
+  },
+  {
+    "name": "Route 3 Pokémon Day Care Access",
+    "access_rules": [
+      "@Route 3 North Access"
+    ]
+  },
+  {
+    "name": "Route 3 Kindergarten Access",
+    "access_rules": [
+      "@Route 3 North Access"
+    ]
+  },
+  {
+    "name": "Wellspring Cave Entrance Access",
+    "access_rules": [
+      "@Route 3 North Access",
+      "@Wellspring Cave Inner Access,$surf"
+    ]
+  },
+  {
+    "name": "Wellspring Cave Inner Access",
+    "access_rules": [
+      "@Wellspring Cave Entrance Access,$surf",
+      "@Wellspring Cave B1F Entrance Access"
+    ]
+  },
+  {
+    "name": "Wellspring Cave B1F Entrance Access",
+    "access_rules": [
+      "@Wellspring Cave Inner Access"
+    ]
+  },
+  {
+    "name": "Wellspring Cave B1F Access",
+    "access_rules": [
+      "@Wellspring Cave B1F Entrance Access,^$flash"
     ]
   },
   {
     "name": "Nacrene City Access",
     "access_rules": [
-      "starting_town_nacrene",
-      "@Route 3 South Access",
-      "@Pinwheel Forest Outside Access"
+      "@Nacrene Gate Access",
+      "@Nacrene City Pokemon Center Access",
+      "@Nacrene Museum Access",
+      "@Café Warehouse Access",
+      "@Pinwheel Forest Outside Access",
+      "@Nacrene City South East Left House Access,$not_starting_town|nacrene",
+      "@Player's House Access,starting_town_nacrene",
+      "@Nacrene City South East Right House Access",
+      "@Nacrene City South West Left House Access",
+      "@Nacrene City South West Right House Access",
+      "@Nacrene City North East House Access"
+    ]
+  },
+  {
+    "name": "Nacrene City Pokemon Center Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene Museum Access",
+    "access_rules": [
+      "@Nacrene City Access",
+      "@Nacrene Gym Access"
     ]
   },
   {
     "name": "Nacrene Gym Access",
     "access_rules": [
-      "@Nacrene City Access,dark_areas_nacrene_gym_false",
-      "@Nacrene City Access,^$flash,dark_areas_nacrene_gym_true"
+      "@Nacrene Museum Access"
+    ]
+  },
+  {
+    "name": "Café Warehouse Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene City South East Left House Access",
+    "access_rules": [
+      "@Nacrene City Access,$not_starting_town|nacrene",
+      "@Nuvema Town Access,starting_town_nacrene"
+    ]
+  },
+  {
+    "name": "Nacrene City South East Right House Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene City South West Left House Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene City South West Right House Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene City North East House Access",
+    "access_rules": [
+      "@Nacrene City Access"
+    ]
+  },
+  {
+    "name": "Nacrene Gate Access",
+    "access_rules": [
+      "@Route 3 South Access",
+      "@Nacrene City Access"
     ]
   },
   {
     "name": "Pinwheel Forest Outside Access",
     "access_rules": [
-      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_false",
-      "@Pinwheel Forest Lower Path Access,ex_cut_trees_true",
-      "@Pinwheel Forest Lower Path Access,ex_cut_trees_kyurem",
-      "@Nacrene City Access"
+      "@Nacrene City Access",
+      "@Pinwheel Forest South Access"
     ]
   },
   {
-    "name": "Pinwheel Forest Lower Path Access",
+    "name": "Pinwheel Forest South Access",
     "access_rules": [
-      "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,dark_areas_pinwheel_forest_false",
-      "@Pinwheel Forest Outside Access,lootsack,ex_cut_trees_false,^$flash,dark_areas_pinwheel_forest_true",
-      "@Pinwheel Forest Outside Access,defeatlenora,ex_cut_trees_false,dark_areas_pinwheel_forest_false",
-      "@Pinwheel Forest Outside Access,defeatlenora,ex_cut_trees_false,^$flash,dark_areas_pinwheel_forest_true",
-      "@Pinwheel Forest Outside Access,ex_cut_trees_true,dark_areas_pinwheel_forest_false",
-      "@Pinwheel Forest Outside Access,ex_cut_trees_true,^$flash,dark_areas_pinwheel_forest_true",
-      "@Pinwheel Forest Outside Access,ex_cut_trees_kyurem,dark_areas_pinwheel_forest_false",
-      "@Pinwheel Forest Outside Access,ex_cut_trees_kyurem,^$flash,dark_areas_pinwheel_forest_true",
-      "@Pinwheel Forest West Access,ex_cut_trees_false",
-      "@Pinwheel Forest West Access,lootsack,ex_cut_trees_true",
-      "@Pinwheel Forest West Access,lootsack,ex_cut_trees_kyurem",
-      "@Pinwheel Forest Upper Path Access,ex_cut_trees_false",
-      "@Pinwheel Forest Upper Path Access,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest Upper Path Access,$cut,ex_cut_trees_kyurem"
+      "@Pinwheel Forest Outside Access",
+      "@Pinwheel Forest West Access,lootsack",
+      "@Pinwheel Forest West Access,defeatlenora"
     ]
   },
   {
     "name": "Pinwheel Forest West Access",
     "access_rules": [
-      "@Pinwheel Forest Lower Path Access,ex_cut_trees_false",
-      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_true",
-      "@Pinwheel Forest Lower Path Access,lootsack,ex_cut_trees_kyurem"
+      "@Pinwheel Forest South Access,lootsack",
+      "@Pinwheel Forest South Access,defeatlenora",
+      "@Pinwheel Forest North Access,dragonskull",
+      "@Pinwheel Forest East Access,helpdaycareman",
+      "@Pinwheel Forest East Access,$surf"
     ]
   },
   {
-    "name": "Pinwheel Forest Upper Path Access",
+    "name": "Pinwheel Forest North Access",
     "access_rules": [
-
-      "@Pinwheel Forest Lower Path Access,ex_cut_trees_false",
-      "@Pinwheel Forest Lower Path Access,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest Lower Path Access,$cut,ex_cut_trees_kyurem",
-      "@Pinwheel Forest West Access",
-      "@Pinwheel Forest East Access",
-      "@Skyarrow Bridge Access,dragonskull,dark_areas_pinwheel_forest_false",
-      "@Skyarrow Bridge Access,dragonskull,^$flash,dark_areas_pinwheel_forest_true"
+      "@Pinwheel Forest West Access,dragonskull",
+      "@Skyarrow Bridge Entrance Access"
     ]
   },
   {
     "name": "Pinwheel Forest East Access",
     "access_rules": [
-      "@Pinwheel Forest Upper Path Access,helpdaycareman,ex_cut_trees_false",
-      "@Pinwheel Forest Upper Path Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_true",
-      "@Pinwheel Forest Upper Path Access,helpdaycareman,lootsack,@Nacrene City Access,ex_cut_trees_kyurem",
-      "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_true",
-      "@Pinwheel Forest West Access,helpdaycareman,lootsack,$cut,ex_cut_trees_kyurem",
-      "@Rumination Field Access,catchdefeatcobalion,dark_areas_pinwheel_forest_false",
-      "@Rumination Field Access,catchdefeatcobalion,^$flash,dark_areas_pinwheel_forest_true"
+      "@Pinwheel Forest West Access,helpdaycareman",
+      "@Pinwheel Forest North East Access,catchdefeatcobalion"
+    ]
+  },
+  {
+    "name": "Pinwheel Forest North East Access",
+    "access_rules": [
+      "@Pinwheel Forest East Access,catchdefeatcobalion",
+      "@Rumination Field Access"
     ]
   },
   {
     "name": "Rumination Field Access",
     "access_rules": [
-      "@Pinwheel Forest East Access,catchdefeatcobalion"
+      "@Pinwheel Forest North East Access"
+    ]
+  },
+  {
+    "name": "Skyarrow Bridge Entrance Access",
+    "access_rules": [
+      "@Pinwheel Forest North Access",
+      "@Skyarrow Bridge South Gate Access"
+    ]
+  },
+  {
+    "name": "Skyarrow Bridge South Gate Access",
+    "access_rules": [
+      "@Skyarrow Bridge Entrance Access",
+      "@Skyarrow Bridge Access"
     ]
   },
   {
     "name": "Skyarrow Bridge Access",
     "access_rules": [
-      "@Pinwheel Forest Upper Path Access,dragonskull",
+      "@Skyarrow Bridge South Gate Access",
+      "@Skyarrow Bridge North Gate Access"
+    ]
+  },
+  {
+    "name": "Skyarrow Bridge North Gate Access",
+    "access_rules": [
+      "@Skyarrow Bridge Access",
       "@Castelia City Access"
     ]
   },
   {
     "name": "Castelia City Access",
     "access_rules": [
-      "starting_town_castelia",
-      "@Skyarrow Bridge Access",
-      "@Route 4 South Access",
-      "@Liberty Garden Access,libertypass"
+      "@Skyarrow Bridge North Gate Access",
+      "@Castelia Pokemon Center Access",
+      "@Castelia City Castelia Street Access",
+      "@Castelia City Mode Street Access",
+      "@Castelia City Narrow Street Access",
+      "@Castelia City Gym Street Access",
+      "@Castelia City Liberty Pier Access",
+      "@Castelia City Unity Pier Access",
+      "@Castelia City Prime Pier Access",
+      "@Castelia City Cruise Dock Access",
+      "@Castelia City Thumb Pier Access",
+      "@Passerby Analytics HQ Access,$not_starting_town|castelia",
+      "@Player's House Access,starting_town_castelia",
+      "@Battle Company 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia Pokemon Center Access",
+    "access_rules": [
+      "@Castelia City Access"
+    ]
+  },
+  {
+    "name": "Castelia Gym Entrance Access",
+    "access_rules": [
+      "@Castelia City Gym Street Access"
     ]
   },
   {
     "name": "Castelia Gym Access",
     "access_rules": [
-      "@Castelia City Access,dark_areas_castelia_gym_false",
-      "@Castelia City Access,^$flash,dark_areas_castelia_gym_true"
+      "@Castelia Gym Entrance Access"
+    ]
+  },
+  {
+    "name": "Castelia City Central Plaza Access",
+    "access_rules": [
+      "@Castelia City Gym Street Access",
+      "@Castelia City Mode Street Access",
+      "@Castelia City Castelia Street Access",
+      "@Castelia City Narrow Street Access",
+      "@Castelia City Northern Street Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street Access",
+    "access_rules": [
+      "@Castelia City Central Plaza Access",
+      "@Castelia City Northern Street West Building 1F Access",
+      "@Castelia City Northern Street East Upper Building 1F Access",
+      "@Castelia City Northern Street East Lower Building 1F Access",
+      "@Castelia Gate Access"
+    ]
+  },
+  {
+    "name": "Castelia City Castelia Street Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Castelia City Castelia Street East Building 1F Access",
+      "@Castelia City Castelia Street West Building 1F Access",
+      "@Castelia City Central Plaza Access"
+    ]
+  },
+  {
+    "name": "Castelia City Mode Street Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Studio Castelia Access",
+      "@Castelia City Central Plaza Access"
+    ]
+  },
+  {
+    "name": "Castelia City Narrow Street Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Café Sonata Access",
+      "@Castelia City Central Plaza Access"
+    ]
+  },
+  {
+    "name": "Castelia City Gym Street Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Castelia Gym Entrance Access",
+      "@Castelia City Plasma Hideout 1F Access",
+      "@Castelia City Central Plaza Access"
+    ]
+  },
+  {
+    "name": "Castelia City Liberty Pier Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Liberty Garden Access,libertypass"
+    ]
+  },
+  {
+    "name": "Castelia City Unity Pier Access",
+    "access_rules": [
+      "@Castelia City Access"
+    ]
+  },
+  {
+    "name": "Castelia City Prime Pier Access",
+    "access_rules": [
+      "@Castelia City Access"
+    ]
+  },
+  {
+    "name": "Castelia City Cruise Dock Access",
+    "access_rules": [
+      "@Castelia City Access"
+    ]
+  },
+  {
+    "name": "Castelia City Thumb Pier Access",
+    "access_rules": [
+      "@Castelia City Access"
+    ]
+  },
+  {
+    "name": "Passerby Analytics HQ Access",
+    "access_rules": [
+      "@Castelia City Access,$not_starting_town|castelia",
+      "@Nuvema Town Access,starting_town_castelia"
+    ]
+  },
+  {
+    "name": "Studio Castelia Access",
+    "access_rules": [
+      "@Castelia City Mode Street Access"
+    ]
+  },
+  {
+    "name": "Battle Company 1F Access",
+    "access_rules": [
+      "@Castelia City Access",
+      "@Battle Company 47F Access",
+      "@Battle Company 55F Access"
+    ]
+  },
+  {
+    "name": "Battle Company 47F Access",
+    "access_rules": [
+      "@Battle Company 1F Access",
+      "@Battle Company 55F Access"
+    ]
+  },
+  {
+    "name": "Battle Company 55F Access",
+    "access_rules": [
+      "@Battle Company 1F Access",
+      "@Battle Company 47F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Castelia Street East Building 1F Access",
+    "access_rules": [
+      "@Castelia City Castelia Street Access",
+      "@Game Freak Headquarters Access"
+    ]
+  },
+  {
+    "name": "Game Freak Headquarters Access",
+    "access_rules": [
+      "@Castelia City Castelia Street East Building 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street West Building 1F Access",
+    "access_rules": [
+      "@Castelia City Northern Street Access",
+      "@Castelia City Northern Street West Building 11F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street West Building 11F Access",
+    "access_rules": [
+      "@Castelia City Northern Street West Building 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia Gate Access",
+    "access_rules": [
+      "@Castelia City Northern Street Access",
+      "@Route 4 South Access"
+    ]
+  },
+  {
+    "name": "Royal Unova Access",
+    "access_rules": [
+      "@Castelia City Cruise Dock Access,defeatghetsis"
+    ]
+  },
+  {
+    "name": "Café Sonata Access",
+    "access_rules": [
+      "@Castelia City Narrow Street Access"
+    ]
+  },
+  {
+    "name": "Castelia City Castelia Street West Building 1F Access",
+    "access_rules": [
+      "@Castelia City Castelia Street Access",
+      "@Castelia City Castelia Street West Building 11F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Castelia Street West Building 11F Access",
+    "access_rules": [
+      "@Castelia City Castelia Street West Building 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Plasma Hideout 1F Access",
+    "access_rules": [
+      "@Castelia City Gym Street Access",
+      "@Castelia City Plasma Hideout 2F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Plasma Hideout 2F Access",
+    "access_rules": [
+      "@Castelia City Plasma Hideout 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street East Upper Building 1F Access",
+    "access_rules": [
+      "@Castelia City Northern Street Access",
+      "@Castelia City Northern Street East Upper Building 47F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street East Upper Building 47F Access",
+    "access_rules": [
+      "@Castelia City Northern Street East Upper Building 1F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street East Lower Building 1F Access",
+    "access_rules": [
+      "@Castelia City Northern Street Access",
+      "@Castelia City Northern Street East Lower Building 47F Access"
+    ]
+  },
+  {
+    "name": "Castelia City Northern Street East Lower Building 47F Access",
+    "access_rules": [
+      "@Castelia City Northern Street East Lower Building 1F Access"
     ]
   },
   {
     "name": "Liberty Garden Access",
     "access_rules": [
-      "@Castelia City Access,libertypass",
-	    "@P2 Laboratory Access,add_ssticket_true,libertypass",
-	    "@Undella Town Access,add_ssticket_true,libertypass,ssticket"
+      "@Castelia City Liberty Pier Access,libertypass",
+      "@Liberty Garden Hallway Access"
+    ]
+  },
+  {
+    "name": "Liberty Garden Hallway Access",
+    "access_rules": [
+      "@Liberty Garden Access",
+      "@Liberty Garden Basement Access"
+    ]
+  },
+  {
+    "name": "Liberty Garden Basement Access",
+    "access_rules": [
+      "@Liberty Garden Hallway Access"
     ]
   },
   {
     "name": "Route 4 South Access",
     "access_rules": [
-      "@Castelia City Access",
+      "@Castelia Gate Access",
+      "@Route 4 South House Access",
       "@Route 4 North Access,machinepart"
+    ]
+  },
+  {
+    "name": "Route 4 South House Access",
+    "access_rules": [
+      "@Route 4 South Access"
     ]
   },
   {
     "name": "Route 4 North Access",
     "access_rules": [
       "@Route 4 South Access,machinepart",
-      "@Desert Resort Access",
-	    "@Nimbasa City Access"
+      "@Route 4 North House Access",
+      "@Desert Resort Outside Access",
+      "@Nimbasa South Gate Access"
+    ]
+  },
+  {
+    "name": "Route 4 North House Access",
+    "access_rules": [
+      "@Route 4 North Access"
     ]
   },
   {
     "name": "Desert Resort Access",
     "access_rules": [
-      "@Route 4 North Access",
-      "@Relic Castle Access"
+      "@Desert Resort Gate Access",
+      "@Relic Castle Towerside 1F Access",
+      "@Relic Castle Castleside 1F Access"
     ]
   },
   {
-    "name": "Relic Castle Access",
+    "name": "Desert Resort Gate Access",
     "access_rules": [
+      "@Desert Resort Outside Access",
       "@Desert Resort Access"
     ]
   },
   {
-    "name": "Relic Castle Pre-Sand Room Access",
+    "name": "Desert Resort Outside Access",
     "access_rules": [
-      "@Relic Castle Access,explorerkit,dark_areas_relic_castle_pre_false",
-      "@Relic Castle Access,explorerkit,^$flash,dark_areas_relic_castle_pre_true"
+      "@Route 4 North Access",
+      "@Desert Resort Gate Access"
     ]
   },
   {
-    "name": "Relic Castle Post-Sand Room Access",
+    "name": "Relic Castle Castleside 1F Access",
     "access_rules": [
-      "@Relic Castle Pre-Sand Room Access,silverwing,dark_areas_relic_castle_post_false",
-      "@Relic Castle Pre-Sand Room Access,silverwing,^$flash,dark_areas_relic_castle_post_true"
+      "@Desert Resort Access",
+      "@Relic Castle Castleside 1F South West Access,explorerkit",
+      "@Relic Castle Castleside 1F North Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside 1F North Access",
+    "access_rules": [
+      "@Relic Castle Castleside B1F North Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside 1F South West Access",
+    "access_rules": [
+      "@Relic Castle Castleside 1F Access,explorerkit",
+      "@Relic Castle Castleside B1F South Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B1F North Access",
+    "access_rules": [
+      "@Relic Castle Castleside 1F Access",
+      "@Relic Castle Castleside 1F North Access",
+      "@Relic Castle Castleside B1F North West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B1F North West Access",
+    "access_rules": [
+      "@Relic Castle Castleside B2F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B1F South Access",
+    "access_rules": [
+      "@Relic Castle Castleside 1F South West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B2F Access",
+    "access_rules": [
+      "@Relic Castle Castleside B1F South Access",
+      "@Relic Castle Castleside B1F North West Access",
+      "@Relic Castle Castleside B2F North West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B2F North West Access",
+    "access_rules": [
+      "@Relic Castle Castleside B3F North East Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B3F South Access",
+    "access_rules": [
+      "@Relic Castle Castleside B2F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B3F North West Access",
+    "access_rules": [
+      "@Relic Castle Castleside B4F East Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B3F North East Access",
+    "access_rules": [
+      "@Relic Castle Castleside B2F Access",
+      "@Relic Castle Castleside B3F North West Access",
+      "@Relic Castle Castleside B2F North West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B4F East Access",
+    "access_rules": [
+      "@Relic Castle Castleside B3F South Access",
+      "@Relic Castle Castleside B3F North West Access",
+      "@Relic Castle Castleside B4F North West Access",
+      "@Relic Castle Castleside B4F South West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B4F North West Access",
+    "access_rules": [
+      "@Relic Castle Castleside Sand Filled Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside B4F South West Access",
+    "access_rules": [
+      "@Relic Castle Castleside B3F South Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside Sand Filled Room Access",
+    "access_rules": [
+      "@Relic Castle Castleside B4F South West Access",
+      "@Relic Castle Castleside B4F North West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Castleside Back Room Access",
+    "access_rules": [
+      "@Relic Castle Castleside Sand Filled Room Access,silverwing",
+      "@Relic Castle Basement Top Right Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Top Right Room Access",
+    "access_rules": [
+      "@Relic Castle Castleside Back Room Access",
+      "@Relic Castle Basement Below Top Right Room Access",
+      "@Relic Castle Basement Right of Top Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Top Left Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Left of Top Center Room Access",
+      "@Relic Castle Towerside Front Room Access",
+      "@Relic Castle Basement Below Top Left Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Left of Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Below Top Left Room Access",
+      "@Relic Castle Basement Bottom Left Room Access",
+      "@Relic Castle Basement Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Right of Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Center Room Access",
+      "@Relic Castle Basement Below Top Right Room Access",
+      "@Relic Castle Basement Bottom Right Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Right of Top Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Top Right Room Access",
+      "@Relic Castle Basement Top Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Top Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Right of Top Center Room Access",
+      "@Relic Castle Basement Left of Top Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Left of Top Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Top Center Room Access",
+      "@Relic Castle Basement Top Left Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Center Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Right of Center Room Access",
+      "@Relic Castle Basement Left of Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Left of Volcarona Entrance Access",
+    "access_rules": [
+      "@Relic Castle Basement Volcarona Entrance Access",
+      "@Relic Castle Basement Bottom Left Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Right of Volcarona Entrance Access",
+    "access_rules": [
+      "@Relic Castle Basement Volcarona Entrance Access",
+      "@Relic Castle Basement Bottom Right Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Below Top Right Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Top Right Room Access",
+      "@Relic Castle Basement Right of Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Bottom Right Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Right of Center Room Access",
+      "@Relic Castle Basement Right of Volcarona Entrance Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Below Top Left Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Top Left Room Access",
+      "@Relic Castle Basement Left of Center Room Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Bottom Left Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Left of Center Room Access",
+      "@Relic Castle Basement Left of Volcarona Entrance Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Volcarona Entrance Access",
+    "access_rules": [
+      "@Relic Castle Basement Volcarona Room Access",
+      "@Relic Castle Basement Left of Volcarona Entrance Access",
+      "@Relic Castle Basement Right of Volcarona Entrance Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Basement Volcarona Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Volcarona Entrance Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside Front Room Access",
+    "access_rules": [
+      "@Relic Castle Basement Top Left Room Access",
+      "@Relic Castle Towerside B6F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B6F Access",
+    "access_rules": [
+      "@Relic Castle Towerside Front Room Access",
+      "@Relic Castle Towerside B5F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B5F Access",
+    "access_rules": [
+      "@Relic Castle Towerside B6F Access",
+      "@Relic Castle Towerside B4F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B4F Access",
+    "access_rules": [
+      "@Relic Castle Towerside B5F Access",
+      "@Relic Castle Towerside B3F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B3F Access",
+    "access_rules": [
+      "@Relic Castle Towerside B4F Access",
+      "@Relic Castle Towerside B2F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B2F Access",
+    "access_rules": [
+      "@Relic Castle Towerside B3F Access",
+      "@Relic Castle Towerside B1F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside B1F Access",
+    "access_rules": [
+      "@Relic Castle Towerside B2F Access",
+      "@Relic Castle Towerside 1F East Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside 1F East Access",
+    "access_rules": [
+      "@Relic Castle Towerside B1F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Towerside 1F Access",
+    "access_rules": [
+      "@Desert Resort Access",
+      "@Relic Castle Towerside 1F East Access"
     ]
   },
   {
     "name": "Nimbasa City Access",
     "access_rules": [
-      "starting_town_nimbasa",
-      "@Route 4 North Access",
-	    "@Anville Town Access",
-      "@Route 5 Access",
-      "@Route 16 Access",
+      "@Nimbasa South Gate Access",
+      "@Nimbasa City Park Access",
+      "@Nimbasa City Pokemon Center Access",
+      "@Nimbasa City North West House 1F Access",
+      "@Nimbasa City North East House 1F Access",
+      "@Battle Institute Access,$not_starting_town|nimbasa",
+      "@Player's House Access,starting_town_nimbasa",
+      "@Musical Theater Access",
+      "@Big Stadium Entrance Access",
+      "@Small Court Entrance Access",
+      "@Nimbasa West Gate Access",
+      "@Nimbasa East Gate Access",
+      "@Gear Station Access"
+    ]
+  },
+  {
+    "name": "Nimbasa City Park Access",
+    "access_rules": [
+      "@Nimbasa City Access",
       "@Nimbasa Gym Access"
     ]
   },
   {
-    "name": "Nimbasa Gym Access",
-    "access_rules": [
-      "@Nimbasa City Access,dark_areas_nimbasa_gym_false",
-      "@Nimbasa City Access,^$flash,dark_areas_nimbasa_gym_true"
-    ]
-  },
-  {
-    "name": "Anville Town Access",
+    "name": "Nimbasa City Pokemon Center Access",
     "access_rules": [
       "@Nimbasa City Access"
     ]
   },
   {
-    "name": "Route 5 Access",
+    "name": "Nimbasa Gym Access",
+    "access_rules": [
+      "@Nimbasa City Park Access"
+    ]
+  },
+  {
+    "name": "Gear Station Access",
     "access_rules": [
       "@Nimbasa City Access",
+      "@Anville Town Access"
+    ]
+  },
+  {
+    "name": "Musical Theater Access",
+    "access_rules": [
+      "@Nimbasa City Access"
+    ]
+  },
+  {
+    "name": "Big Stadium Entrance Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Big Stadium Stand Access",
+      "@Big Stadium Football Field Access",
+      "@Big Stadium Baseball Field Access",
+      "@Big Stadium Soccer Field Access"
+    ]
+  },
+  {
+    "name": "Big Stadium Stand Access",
+    "access_rules": [
+      "@Big Stadium Entrance Access"
+    ]
+  },
+  {
+    "name": "Big Stadium Football Field Access",
+    "access_rules": [
+      "@Big Stadium Entrance Access"
+    ]
+  },
+  {
+    "name": "Big Stadium Baseball Field Access",
+    "access_rules": [
+      "@Big Stadium Entrance Access"
+    ]
+  },
+  {
+    "name": "Big Stadium Soccer Field Access",
+    "access_rules": [
+      "@Big Stadium Entrance Access"
+    ]
+  },
+  {
+    "name": "Small Court Entrance Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Small Court Stand Access",
+      "@Small Court Tennis Court Access",
+      "@Small Court Basketball Court Access"
+    ]
+  },
+  {
+    "name": "Small Court Stand Access",
+    "access_rules": [
+      "@Small Court Entrance Access"
+    ]
+  },
+  {
+    "name": "Small Court Tennis Court Access",
+    "access_rules": [
+      "@Small Court Entrance Access"
+    ]
+  },
+  {
+    "name": "Small Court Basketball Court Access",
+    "access_rules": [
+      "@Small Court Entrance Access"
+    ]
+  },
+  {
+    "name": "Any Big Stadium or Small Court Access",
+    "access_rules": [
+      "@Big Stadium Football Field Access",
+      "@Big Stadium Baseball Field Access",
+      "@Big Stadium Soccer Field Access",
+      "@Small Court Tennis Court Access",
+      "@Small Court Basketball Court Access"
+    ]
+  },
+  {
+    "name": "Nimbasa City North West House 1F Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Nimbasa City North West House 2F Access"
+    ]
+  },
+  {
+    "name": "Nimbasa City North West House 2F Access",
+    "access_rules": [
+      "@Nimbasa City North West House 1F Access"
+    ]
+  },
+  {
+    "name": "Nimbasa South Gate Access",
+    "access_rules": [
+      "@Route 4 North Access",
+      "@Nimbasa City Access"
+    ]
+  },
+  {
+    "name": "Nimbasa West Gate Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Route 5 Access"
+    ]
+  },
+  {
+    "name": "Nimbasa East Gate Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Route 16 Access"
+    ]
+  },
+  {
+    "name": "Battle Institute Access",
+    "access_rules": [
+      "@Nimbasa City Access,$not_starting_town|nimbasa",
+      "@Nuvema Town Access,starting_town_nimbasa"
+    ]
+  },
+  {
+    "name": "Nimbasa City North East House 1F Access",
+    "access_rules": [
+      "@Nimbasa City Access",
+      "@Nimbasa City North East House 2F Access"
+    ]
+  },
+  {
+    "name": "Nimbasa City North East House 2F Access",
+    "access_rules": [
+      "@Nimbasa City North East House 1F Access"
+    ]
+  },
+  {
+    "name": "Anville Town Access",
+    "access_rules": [
+      "@Gear Station Access",
+      "@Anville Town North House Access",
+      "@Anville Town South West House Access",
+      "@Anville Town South East House Access"
+    ]
+  },
+  {
+    "name": "Anville Town North House Access",
+    "access_rules": [
+      "@Anville Town Access"
+    ]
+  },
+  {
+    "name": "Anville Town South West House Access",
+    "access_rules": [
+      "@Anville Town Access"
+    ]
+  },
+  {
+    "name": "Anville Town South East House Access",
+    "access_rules": [
+      "@Anville Town Access"
+    ]
+  },
+  {
+    "name": "Route 5 Access",
+    "access_rules": [
+      "@Nimbasa West Gate Access",
+      "@Route 5 Caravan Access",
+      "@Route 5 Near Bridge Access,tidalbell"
+    ]
+  },
+  {
+    "name": "Route 5 Near Bridge Access",
+    "access_rules": [
+      "@Route 5 Access,tidalbell",
       "@Driftveil Drawbridge Access"
+    ]
+  },
+  {
+    "name": "Route 5 Caravan Access",
+    "access_rules": [
+      "@Route 5 Access"
     ]
   },
   {
     "name": "Driftveil Drawbridge Access",
     "access_rules": [
-      "@Route 5 Access,tidalbell",
-      "@Driftveil City Access,tidalbell"
+      "@Route 5 Near Bridge Access",
+      "@Driftveil City Near Bridge Access"
     ]
   },
   {
     "name": "Driftveil City Access",
     "access_rules": [
-      "starting_town_driftveil",
-      "@Driftveil Drawbridge Access",
-      "@Cold Storage Access",
+      "@Driftveil City Near Bridge Access,tidalbell",
+      "@Driftveil City Near Bridge Access,hm02fly",
+      "@Driftveil City Pokemon Center Access",
+      "@Driftveil City Near Gym Access,@Cold Storage Container Access",
+      "@Driftveil City Near Gym Access,hm02fly",
       "@Route 6 Access",
+      "@Driftveil City Safehouse Access",
+      "@Driftveil City House North of Market Access",
+      "@Driftveil Market Access",
+      "@Driftveil Market Behind Counter Access",
+      "@Driftveil City Upper Left House East of Market Access",
+      "@Driftveil City Upper Right House East of Market Access",
+      "@Driftveil City Lower Left House East of Market Access,$not_starting_town|driftveil",
+      "@Player's House Access,starting_town_driftveil",
+      "@Driftveil City Lower Right House East of Market Access",
+      "@Cold Storage Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Near Bridge Access",
+    "access_rules": [
+      "@Driftveil Drawbridge Access",
+      "@Driftveil City Access,tidalbell"
+    ]
+  },
+  {
+    "name": "Driftveil City Near Gym Access",
+    "access_rules": [
+      "@Driftveil City Access,@Cold Storage Container Access",
       "@Driftveil Gym Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Pokemon Center Access",
+    "access_rules": [
+      "@Driftveil City Access"
     ]
   },
   {
     "name": "Driftveil Gym Access",
     "access_rules": [
-      "@Driftveil City Access,@Cold Storage Building Access,dark_areas_driftveil_gym_false",
-      "@Driftveil City Access,@Cold Storage Building Access,^$flash,dark_areas_driftveil_gym_true"
+      "@Driftveil City Near Gym Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Safehouse Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil City House North of Market Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil Market Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil Market Behind Counter Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Upper Left House East of Market Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Upper Right House East of Market Access",
+    "access_rules": [
+      "@Driftveil City Access"
+    ]
+  },
+  {
+    "name": "Driftveil City Lower Left House East of Market Access",
+    "access_rules": [
+      "@Driftveil City Access,$not_starting_town|driftveil",
+      "@Nuvema Town Access,starting_town_driftveil"
+    ]
+  },
+  {
+    "name": "Driftveil City Lower Right House East of Market Access",
+    "access_rules": [
+      "@Driftveil City Access"
     ]
   },
   {
@@ -367,271 +1549,963 @@
   {
     "name": "Cold Storage Building Access",
     "access_rules": [
-      "@Cold Storage Access,dark_areas_cold_storage_false",
-      "@Cold Storage Access,^$flash,dark_areas_cold_storage_true"
+      "@Cold Storage Access",
+      "@Cold Storage Container Access"
+    ]
+  },
+  {
+    "name": "Cold Storage Container Access",
+    "access_rules": [
+      "@Cold Storage Building Access"
     ]
   },
   {
     "name": "Route 6 Access",
     "access_rules": [
       "@Driftveil City Access",
-      "@Mistralton Cave Access,$surf,hm04strength,^$flash,dark_areas_mistralton_cave_true",
-      "@Mistralton Cave Access,$surf,hm04strength,dark_areas_mistralton_cave_false",
-      "@Chargestone Cave Access,quakebadge"
+      "@Route 6 North East Access,$surf",
+      "@Season Research Lab Access",
+      "@Route 6 North House Access",
+      "@Chargestone Cave Entrance Access"
     ]
   },
   {
-    "name": "Mistralton Cave Access",
+    "name": "Route 6 North East Access",
     "access_rules": [
-      "@Route 6 Access,$surf,^$flash,dark_areas_mistralton_cave_true",
-      "@Route 6 Access,$surf,dark_areas_mistralton_cave_false"
+      "@Route 6 Access,$surf",
+      "@Mistralton Cave Very Close Entrance Access"
+    ]
+  },
+  {
+    "name": "Season Research Lab Access",
+    "access_rules": [
+      "@Route 6 Access"
+    ]
+  },
+  {
+    "name": "Route 6 North House Access",
+    "access_rules": [
+      "@Route 6 Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave Very Close Entrance Access",
+    "access_rules": [
+      "@Route 6 North East Access",
+      "@Mistralton Cave Entrance Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave Entrance Access",
+    "access_rules": [
+      "@Mistralton Cave Very Close Entrance Access,^$flash",
+      "@Mistralton Cave 1F Access,$strength"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 1F Access",
+    "access_rules": [
+      "@Mistralton Cave 1F South Access",
+      "@Mistralton Cave 1F Center Access,^$flash"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 1F South Access",
+    "access_rules": [
+      "@Mistralton Cave Entrance Access,$strength"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 1F Center Access",
+    "access_rules": [
+      "@Mistralton Cave 1F Access",
+      "@Mistralton Cave 2F West Near Stairs Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 2F Access",
+    "access_rules": [
+      "@Mistralton Cave 2F West Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 2F West Access",
+    "access_rules": [
+      "@Mistralton Cave 2F West Near Stairs Access",
+      "@Mistralton Cave 2F Access",
+      "@Mistralton Cave 2F Center Access,$strength"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 2F West Near Stairs Access",
+    "access_rules": [
+      "@Mistralton Cave 1F Center Access",
+      "@Mistralton Cave 2F West Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 2F Center Access",
+    "access_rules": [
+      "@Mistralton Cave 2F Access",
+      "@Mistralton Cave 2F Center Near Stairs Access,^$flash"
+    ]
+  },
+  {
+    "name": "Mistralton Cave 2F Center Near Stairs Access",
+    "access_rules": [
+      "@Mistralton Cave 2F Center Access",
+      "@Guidance Chamber Near Stairs Access"
     ]
   },
   {
     "name": "Guidance Chamber Access",
     "access_rules": [
-      "@Mistralton Cave Access,$strength,^$flash,dark_areas_guidance_chamber_true",
-      "@Mistralton Cave Access,$strength,dark_areas_guidance_chamber_false"
+      "@Guidance Chamber Near Stairs Access"
     ]
   },
   {
-    "name": "Chargestone Cave Access",
+    "name": "Guidance Chamber Near Stairs Access",
     "access_rules": [
-      "@Route 6 Access,quakebadge,dark_areas_chargestone_cave_false",
-      "@Route 6 Access,quakebadge,^$flash,dark_areas_chargestone_cave_true",
-      "@Mistralton City Access,dark_areas_chargestone_cave_false",
-      "@Mistralton City Access,^$flash,dark_areas_chargestone_cave_true"
+      "@Mistralton Cave 2F Center Near Stairs Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave Entrance Access",
+    "access_rules": [
+      "@Route 6 Access",
+      "@Chargestone Cave Entrance North Access,quakebadge"
+    ]
+  },
+  {
+    "name": "Chargestone Cave Entrance North Access",
+    "access_rules": [
+      "@Chargestone Cave Entrance Access,quakebadge",
+      "@Chargestone Cave 1F Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave 1F Access",
+    "access_rules": [
+      "@Chargestone Cave Entrance North Access",
+      "@Chargestone Cave B1F Access",
+      "@Chargestone Cave 1F North East Access",
+      "@Chargestone Cave 1F South Shortcut Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave 1F North East Access",
+    "access_rules": [
+      "@Chargestone Cave B1F Access",
+      "@Mistralton City Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave 1F South Shortcut Access",
+    "access_rules": [
+      "@Chargestone Cave B1F Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave B1F Access",
+    "access_rules": [
+      "@Chargestone Cave 1F Access",
+      "@Chargestone Cave 1F North East Access",
+      "@Chargestone Cave 1F South Shortcut Access",
+      "@Chargestone Cave B2F Access"
+    ]
+  },
+  {
+    "name": "Chargestone Cave B2F Access",
+    "access_rules": [
+      "@Chargestone Cave B1F Access"
     ]
   },
   {
     "name": "Mistralton City Access",
     "access_rules": [
-      "starting_town_mistralton",
-      "@Chargestone Cave Access",
-      "@Route 7 Access",
-      "@Mistralton Gym Access",
-      "@Village Bridge Access,pass,add_pass_true"
+      "@Chargestone Cave 1F North East Access",
+      "@Mistralton City Pokemon Center Access",
+      "@Mistralton City Near Gym Access,@Celestial Tower 5F Access",
+      "@Mistralton Cargo Service Access",
+      "@Mistralton City North House Access",
+      "@Mistralton City East House Access,$not_starting_town|mistralton",
+      "@Player's House Access,starting_town_mistralton",
+      "@Route 7 Access"
+    ]
+  },
+  {
+    "name": "Mistralton City Near Gym Access",
+    "access_rules": [
+      "@Mistralton City Access,@Celestial Tower 5F Access",
+      "@Mistralton Gym Access"
+    ]
+  },
+  {
+    "name": "Mistralton City Pokemon Center Access",
+    "access_rules": [
+      "@Mistralton City Access"
     ]
   },
   {
     "name": "Mistralton Gym Access",
     "access_rules": [
-      "@Mistralton City Access,@Celestial Tower Access,dark_areas_mistralton_gym_false",
-      "@Mistralton City Access,@Celestial Tower Access,^$flash,dark_areas_mistralton_gym_true"
+      "@Mistralton City Near Gym Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cargo Service Access",
+    "access_rules": [
+      "@Mistralton City Access"
+    ]
+  },
+  {
+    "name": "Mistralton City North House Access",
+    "access_rules": [
+      "@Mistralton City Access"
+    ]
+  },
+  {
+    "name": "Mistralton City East House Access",
+    "access_rules": [
+      "@Mistralton City Access,$not_starting_town|mistralton",
+      "@Nuvema Town Access,starting_town_mistralton"
     ]
   },
   {
     "name": "Route 7 Access",
     "access_rules": [
       "@Mistralton City Access",
-      "@Celestial Tower Access",
-	    "@Twist Mountain Access,jetbadge"
+      "@Route 7 West House Access",
+      "@Route 7 North House Access",
+      "@Celestial Tower 1F Access",
+      "@Twist Mountain Entrance Access"
     ]
   },
   {
-    "name": "Celestial Tower Access",
+    "name": "Route 7 West House Access",
     "access_rules": [
-      "@Route 7 Access,dark_areas_celestial_tower_false",
-      "@Route 7 Access,^$flash,dark_areas_celestial_tower_true"
+      "@Route 7 Access"
     ]
   },
   {
-    "name": "Twist Mountain Access",
+    "name": "Route 7 North House Access",
     "access_rules": [
-      "@Route 7 Access,jetbadge,dark_areas_twist_mountain_false",
-      "@Route 7 Access,jetbadge,^$flash,dark_areas_twist_mountain_true",
-      "@Icirrus City Access,dark_areas_twist_mountain_false",
-      "@Icirrus City Access,^$flash,dark_areas_twist_mountain_true"
+      "@Route 7 Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower 1F Access",
+    "access_rules": [
+      "@Route 7 Access",
+      "@Celestial Tower 2F Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower 2F Access",
+    "access_rules": [
+      "@Celestial Tower 1F Access",
+      "@Celestial Tower 3F Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower 3F Access",
+    "access_rules": [
+      "@Celestial Tower 2F Access",
+      "@Celestial Tower 4F Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower 4F Access",
+    "access_rules": [
+      "@Celestial Tower 3F Access",
+      "@Celestial Tower 5F Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower 5F Access",
+    "access_rules": [
+      "@Celestial Tower 4F Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Entrance Access",
+    "access_rules": [
+      "@Route 7 Access",
+      "@Twist Mountain Entrance Near Cave Access,jetbadge"
+    ]
+  },
+  {
+    "name": "Twist Mountain Entrance Near Cave Access",
+    "access_rules": [
+      "@Twist Mountain Entrance Access,jetbadge",
+      "@Twist Mountain 3F South West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 3F North Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 3F North West Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 3F West Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 3F South West Access",
+      "@Twist Mountain 3F South East Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 3F South East Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 3F South East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 3F East Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 3F South East Access",
+      "@Twist Mountain 3F North East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 2F North East Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 2F North East Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 2F North West Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 2F North Dead End Access",
+      "@Twist Mountain Near 2F North West Door Access,^$season|spring",
+      "@Twist Mountain Near 2F North West Door Access,^$season|summer",
+      "@Twist Mountain Near 2F North West Door Access,^$season|autumn",
+      "@Twist Mountain 2F South West Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 2F South Footbridge Access",
+    "access_rules": [
+      "@Twist Mountain 2F South West Access",
+      "@Twist Mountain 2F South East Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 1F East Access",
+    "access_rules": [
+      "@Twist Mountain 1F South East Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside 1F Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F East Access,^$season|spring",
+      "@Twist Mountain Outside 1F East Access,^$season|summer",
+      "@Twist Mountain Outside 1F East Access,^$season|autumn",
+      "@Twist Mountain Near 1F South West Door Access,^$season|spring",
+      "@Twist Mountain Near 1F South West Door Access,^$season|summer",
+      "@Twist Mountain Near 1F South West Door Access,^$season|autumn",
+      "@Twist Mountain Near 1F North West Door Access,^$season|spring",
+      "@Twist Mountain Near 1F North West Door Access,^$season|summer",
+      "@Twist Mountain Near 1F North West Door Access,^$season|autumn",
+      "@Twist Mountain Near 1F North East Door Access,^$season|spring",
+      "@Twist Mountain Near 1F North East Door Access,^$season|summer",
+      "@Twist Mountain Near 1F North East Door Access,^$season|autumn",
+      "@Twist Mountain Near House Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside Snow Access",
+    "access_rules": [
+      "@Twist Mountain Outside 3F North Footbridge Access,^$season|winter",
+      "@Twist Mountain Outside 3F West Footbridge Access,^$season|winter",
+      "@Twist Mountain Outside 2F North East Footbridge Access,^$season|winter",
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|winter",
+      "@Twist Mountain Outside 2F South Footbridge Access,^$season|winter",
+      "@Twist Mountain Outside 1F East Access,^$season|winter",
+      "@Twist Mountain Near 1F South West Door Access,^$season|winter",
+      "@Twist Mountain Near 2F North West Door Access,^$season|winter",
+      "@Twist Mountain Near 1F North West Door Access,^$season|winter",
+      "@Twist Mountain Near 1F North East Door Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Near 2F North West Door Access",
+    "access_rules": [
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|spring",
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|summer",
+      "@Twist Mountain Outside 2F North West Footbridge Access,^$season|autumn",
+      "@Twist Mountain 2F North West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Near 1F North West Door Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F Access,^$season|spring",
+      "@Twist Mountain Outside 1F Access,^$season|summer",
+      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain 1F North West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Near 1F North East Door Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F Access,^$season|spring",
+      "@Twist Mountain Outside 1F Access,^$season|summer",
+      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain 1F North East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Near 1F South West Door Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F Access,^$season|spring",
+      "@Twist Mountain Outside 1F Access,^$season|summer",
+      "@Twist Mountain Outside 1F Access,^$season|autumn",
+      "@Twist Mountain 1F South West Access",
+      "@Twist Mountain Outside Snow Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Twist Mountain Near House Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F Access",
+      "@Twist Mountain Outside House Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 3F North West Access",
+    "access_rules": [
+      "@Twist Mountain Outside 3F North Footbridge Access",
+      "@Twist Mountain 2F North Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 3F North East Access",
+    "access_rules": [
+      "@Twist Mountain Outside 3F East Footbridge Access",
+      "@Twist Mountain 2F South East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 3F South West Access",
+    "access_rules": [
+      "@Twist Mountain Entrance Near Cave Access",
+      "@Twist Mountain Outside 3F West Footbridge Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 3F South East Access",
+    "access_rules": [
+      "@Twist Mountain Outside 3F West Footbridge Access",
+      "@Twist Mountain Outside 3F South East Footbridge Access",
+      "@Twist Mountain Outside 3F East Footbridge Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F North West Access",
+    "access_rules": [
+      "@Twist Mountain Near 2F North West Door Access",
+      "@Twist Mountain 1F North West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F North Access",
+    "access_rules": [
+      "@Twist Mountain 3F North West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F North East Access",
+    "access_rules": [
+      "@Twist Mountain Outside 2F North East Footbridge Access",
+      "@Twist Mountain 2F North Access",
+      "@Twist Mountain 1F North East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F North Dead End Access",
+    "access_rules": [
+      "@Twist Mountain Outside 2F North West Footbridge Access",
+      "@Twist Mountain 2F North West Access",
+      "@Twist Mountain 2F North Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F South West Access",
+    "access_rules": [
+      "@Twist Mountain Outside 2F North West Footbridge Access",
+      "@Twist Mountain Outside 2F South Footbridge Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 2F South East Access",
+    "access_rules": [
+      "@Twist Mountain Outside 2F South Footbridge Access",
+      "@Twist Mountain 3F North East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 1F North West Access",
+    "access_rules": [
+      "@Twist Mountain Near 1F North West Door Access",
+      "@Twist Mountain 2F North West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 1F North East Access",
+    "access_rules": [
+      "@Twist Mountain Near 1F North East Door Access",
+      "@Twist Mountain 2F North East Access",
+      "@Icirrus City Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 1F South West Access",
+    "access_rules": [
+      "@Twist Mountain Near 1F South West Door Access",
+      "@Twist Mountain Ice Cave Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain 1F South East Access",
+    "access_rules": [
+      "@Twist Mountain Outside 1F East Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Ice Cave Access",
+    "access_rules": [
+      "@Twist Mountain 1F South West Access"
+    ]
+  },
+  {
+    "name": "Twist Mountain Outside House Access",
+    "access_rules": [
+      "@Twist Mountain Near House Access"
     ]
   },
   {
     "name": "Icirrus City Access",
     "access_rules": [
-      "starting_town_icirrus",
-      "@Twist Mountain Access",
+      "@Twist Mountain 1F North East Access",
+      "@Icirrus City South Access",
+      "@Icirrus City Pokemon Center Access",
       "@Icirrus Gym Access",
+      "@Icirrus City Pokémon Fan Club Access",
+      "@Icirrus City Aha's House Access",
+      "@Icirrus City House North of Pokemon Center Access,$not_starting_town|icirrus",
+      "@Player's House Access,starting_town_icirrus",
       "@Dragonspiral Tower Entrance Access",
       "@Route 8 Access"
     ]
   },
   {
+    "name": "Icirrus City South Access",
+    "access_rules": [
+      "@Icirrus City Access,^$season|winter",
+      "@Icirrus City South House Access"
+    ]
+  },
+  {
+    "name": "Icirrus City Pokemon Center Access",
+    "access_rules": [
+      "@Icirrus City Access"
+    ]
+  },
+  {
     "name": "Icirrus Gym Access",
     "access_rules": [
-      "@Icirrus City Access,dark_areas_icirrus_gym_false",
-      "@Icirrus City Access,^$flash,dark_areas_icirrus_gym_true"
+      "@Icirrus City Access"
+    ]
+  },
+  {
+    "name": "Icirrus City South House Access",
+    "access_rules": [
+      "@Icirrus City South Access"
+    ]
+  },
+  {
+    "name": "Icirrus City Pokémon Fan Club Access",
+    "access_rules": [
+      "@Icirrus City Access"
+    ]
+  },
+  {
+    "name": "Icirrus City Aha's House Access",
+    "access_rules": [
+      "@Icirrus City Access"
+    ]
+  },
+  {
+    "name": "Icirrus City House North of Pokemon Center Access",
+    "access_rules": [
+      "@Icirrus City Access,$not_starting_town|icirrus",
+      "@Nuvema Town Access,starting_town_icirrus"
     ]
   },
   {
     "name": "Dragonspiral Tower Entrance Access",
     "access_rules": [
       "@Icirrus City Access",
-      "@Dragonspiral Tower Outside Access"
+      "@Dragonspiral Tower Outside West Access"
     ]
   },
   {
-    "name": "Dragonspiral Tower Outside Access",
+    "name": "Dragonspiral Tower Entrance Upper Platform Access",
+    "access_rules": [
+      "@Icirrus City Access,^$season|winter"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower Outside West Access",
     "access_rules": [
       "@Dragonspiral Tower Entrance Access",
-      "@Icirrus Gym Access,@Dragonspiral Tower Access,defeatbrycen",
-      "@Icirrus Gym Access,@Dragonspiral Tower Outside East Access,defeatbrycen,$surf"
+      "@Dragonspiral Tower 1F Access,defeatbrycen"
     ]
   },
   {
     "name": "Dragonspiral Tower Outside East Access",
     "access_rules": [
-      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,$surf"
+      "@Dragonspiral Tower Outside West Access,defeatbrycen,$surf"
     ]
   },
   {
-    "name": "Dragonspiral Tower Access",
+    "name": "Dragonspiral Tower 1F Access",
     "access_rules": [
-      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,dark_areas_dragonspiral_tower_false",
-      "@Icirrus Gym Access,@Dragonspiral Tower Outside Access,defeatbrycen,^$flash,dark_areas_dragonspiral_tower_true"
+      "@Dragonspiral Tower Outside West Access,defeatbrycen",
+      "@Dragonspiral Tower 2F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 2F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 1F Access",
+      "@Dragonspiral Tower 3F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 3F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 2F Access",
+      "@Dragonspiral Tower 4F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 4F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 3F Access",
+      "@Dragonspiral Tower 5F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 5F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 4F Access",
+      "@Dragonspiral Tower 6F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 6F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 5F Access",
+      "@Dragonspiral Tower 7F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower 7F Access",
+    "access_rules": [
+      "@Dragonspiral Tower 6F Access"
     ]
   },
   {
     "name": "Route 8 Access",
     "access_rules": [
       "@Icirrus City Access",
-      "@Moor of Icirrus Access",
-      "@Tubeline Bridge Access,light-darkstone"
+      "@Route 8 North East Access",
+      "@Route 8 Near Gate Access,light-darkstone"
     ]
   },
   {
-    "name": "Route 8 North Access",
+    "name": "Route 8 North East Access",
     "access_rules": [
+      "@Route 8 Access,$surf",
       "@Route 8 Access,^$season|spring",
       "@Route 8 Access,^$season|summer",
       "@Route 8 Access,^$season|autumn",
-      "@Route 8 Access,$surf",
       "@Moor of Icirrus Access"
+    ]
+  },
+  {
+    "name": "Route 8 Near Gate Access",
+    "access_rules": [
+      "@Route 8 Access,light-darkstone",
+      "@Tubeline Bridge West Gate Access"
     ]
   },
   {
     "name": "Moor of Icirrus Access",
     "access_rules": [
-      "@Route 8 North Access"
+      "@Route 8 North East Access"
+    ]
+  },
+  {
+    "name": "Moor of Icirrus West Access",
+    "access_rules": [
+      "@Moor of Icirrus Access,$strength"
     ]
   },
   {
     "name": "Tubeline Bridge Access",
     "access_rules": [
-      "@Route 8 Access,light-darkstone",
+      "@Tubeline Bridge West Gate Access",
+      "@Tubeline Bridge East Gate Access"
+    ]
+  },
+  {
+    "name": "Tubeline Bridge West Gate Access",
+    "access_rules": [
+      "@Route 8 Near Gate Access",
+      "@Tubeline Bridge Access"
+    ]
+  },
+  {
+    "name": "Tubeline Bridge East Gate Access",
+    "access_rules": [
+      "@Tubeline Bridge Access",
       "@Route 9 Access"
     ]
   },
   {
     "name": "Route 9 Access",
     "access_rules": [
-      "@Tubeline Bridge Access",
-      "@Challenger's Cave Access,redchain,^$flash,dark_areas_challengers_true",
-      "@Challenger's Cave Access,redchain,dark_areas_challengers_false",
-      "@Opelucid City Access"
+      "@Tubeline Bridge East Gate Access",
+      "@Shopping Mall Nine Access",
+      "@Route 9 Near Challenger's cave Access,redchain",
+      "@Opelucid City West Gate Access"
     ]
   },
   {
-    "name": "Challenger's Cave Access",
+    "name": "Route 9 Near Challenger's cave Access",
     "access_rules": [
-      "@Route 9 Access,redchain,^$flash,dark_areas_challengers_true",
-      "@Route 9 Access,redchain,dark_areas_challengers_false",
-	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
-	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_wellspring_cave_1f_true",
-	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_true,dark_areas_challengers_true",
-	    "@Wellspring Cave 1F Access,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_false,dark_areas_challengers_false",
-	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_wellspring_cave_1f_true",
-	    "@Wellspring Cave 1F Access,^$flash,$can_rock_smash,add_rocksmash_musharna,dark_areas_challengers_true"
+      "@Route 9 Access,redchain",
+      "@Challenger's Cave 1F Access"
     ]
   },
   {
-    "name": "Opelucid City Access",
+    "name": "Shopping Mall Nine Access",
     "access_rules": [
-      "starting_town_opelucid",
-      "@Opelucid Gym Access",
       "@Route 9 Access",
-      "@Route 10 Access",
-      "@Route 11 Access,oaksletter"
+      "@Shopping Mall Nine Back Room Access"
     ]
   },
   {
-    "name": "Opelucid Gym Access",
+    "name": "Shopping Mall Nine Back Room Access",
     "access_rules": [
-      "@Opelucid City Access,dark_areas_opelucid_gym_false",
-      "@Opelucid City Access,^$flash,dark_areas_opelucid_gym_true"
+      "@Shopping Mall Nine Access"
     ]
   },
   {
-    "name": "Route 10 Access",
+    "name": "Challenger's Cave 1F Access",
     "access_rules": [
-      "@Opelucid City Access",
-	    "@Victory Road Access"
+      "@Route 9 Near Challenger's cave Access",
+      "@Challenger's Cave B1F Near South Stairs Access"
     ]
   },
   {
-    "name": "Victory Road Access",
+    "name": "Challenger's Cave B1F Access",
     "access_rules": [
-      "@Route 10 Access,@all_badges,dark_areas_victory_road_false",
-      "@Route 10 Access,@all_badges,^$flash,dark_areas_victory_road_true",
-	    "@Trial Chamber Access,catchdefeatcobalion",
-      "@Pokémon League Access"
+      "@Challenger's Cave B1F Near South Stairs Access,^$flash",
+      "@Challenger's Cave B1F Near North Stairs Access,^$flash"
     ]
   },
   {
-    "name": "Trial Chamber Access",
+    "name": "Challenger's Cave B1F Near South Stairs Access",
     "access_rules": [
-      "@Victory Road Access,hm04strength,catchdefeatcobalion"
+      "@Challenger's Cave 1F Access",
+      "@Challenger's Cave B1F Access"
     ]
   },
   {
-    "name": "Pokémon League Access",
+    "name": "Challenger's Cave B1F Near North Stairs Access",
     "access_rules": [
-      "@Victory Road Access,mo_strength_boulders_false",
-      "@Victory Road Access,mo_strength_boulders_true",
-      "@Victory Road Access,$strength,mo_strength_boulders_vi_road",
-	    "@N's Castle Access"
+      "@Challenger's Cave B1F Access",
+      "@Challenger's Cave B2F Very Close Entrance Access"
     ]
   },
   {
-    "name": "N's Castle Access",
+    "name": "Challenger's Cave B2F Very Close Entrance Access",
     "access_rules": [
-      "@Pokémon League Access"
+      "@Challenger's Cave B1F Near North Stairs Access"
+    ]
+  },
+  {
+    "name": "Challenger's Cave B2F Entrance Access",
+    "access_rules": [
+      "@Challenger's Cave B2F Very Close Entrance Access"
+    ]
+  },
+  {
+    "name": "Challenger's Cave B2F Access",
+    "access_rules": [
+      "@Challenger's Cave B2F Entrance Access,$surf"
     ]
   },
   {
     "name": "Route 11 Access",
     "access_rules": [
-      "@Opelucid City Access,oaksletter",
+      "@Opelucid City East Gate Right Side Access",
+      "@Route 11 Caravan Access",
+      "@Village Bridge West Gate Access"
+    ]
+  },
+  {
+    "name": "Route 11 Ravine Access",
+    "access_rules": [
+      "@Route 11 Access,$surf,$waterfall"
+    ]
+  },
+  {
+    "name": "Route 11 Caravan Access",
+    "access_rules": [
+      "@Route 11 Access"
+    ]
+  },
+  {
+    "name": "Village Bridge West Gate Access",
+    "access_rules": [
+      "@Route 11 Access",
       "@Village Bridge Access"
     ]
   },
   {
     "name": "Village Bridge Access",
     "access_rules": [
-      "@Route 11 Access",
-      "@Route 12 Access",
-      "@Mistralton City Access,pass,add_pass_true"
+      "@Village Bridge West Gate Access",
+      "@Village Bridge Caravan Access",
+      "@Village Bridge Left House on Left Side Access",
+      "@Village Bridge Middle House on Left Side Access",
+      "@Village Bridge Right House on Left Side Access",
+      "@Village Bridge Left House on Right Side Access",
+      "@Village Bridge Middle House on Right Side Access",
+      "@Village Bridge Right House on Right Side Access",
+      "@Village Bridge East Gate Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Caravan Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Left House on Left Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Middle House on Left Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Right House on Left Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Left House on Right Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Middle House on Right Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge Right House on Right Side Access",
+    "access_rules": [
+      "@Village Bridge Access"
+    ]
+  },
+  {
+    "name": "Village Bridge East Gate Access",
+    "access_rules": [
+      "@Village Bridge Access",
+      "@Route 12 Access"
     ]
   },
   {
     "name": "Route 12 Access",
     "access_rules": [
-      "@Village Bridge Access",
+      "@Village Bridge East Gate Access",
       "@Lacunosa Town Access"
     ]
   },
   {
     "name": "Lacunosa Town Access",
     "access_rules": [
-      "starting_town_lacunosa",
       "@Route 12 Access",
+      "@Lacunosa Town Pokemon Center Access",
+      "@Lacunosa Town South West House Access,$not_starting_town|lacunosa",
+      "@Player's House Access,starting_town_lacunosa",
+      "@Lacunosa Town North East House Access",
+      "@Lacunosa Town Big North House Access",
+      "@Lacunosa Town Small North House Access",
       "@Route 13 North Access"
+    ]
+  },
+  {
+    "name": "Lacunosa Town Pokemon Center Access",
+    "access_rules": [
+      "@Lacunosa Town Access"
+    ]
+  },
+  {
+    "name": "Lacunosa Town South West House Access",
+    "access_rules": [
+      "@Lacunosa Town Access,$not_starting_town|lacunosa",
+      "@Nuvema Town Access,starting_town_lacunosa"
+    ]
+  },
+  {
+    "name": "Lacunosa Town North East House Access",
+    "access_rules": [
+      "@Lacunosa Town Access"
+    ]
+  },
+  {
+    "name": "Lacunosa Town Big North House Access",
+    "access_rules": [
+      "@Lacunosa Town Access"
+    ]
+  },
+  {
+    "name": "Lacunosa Town Small North House Access",
+    "access_rules": [
+      "@Lacunosa Town Access"
     ]
   },
   {
     "name": "Route 13 North Access",
     "access_rules": [
       "@Lacunosa Town Access",
-      "@Giant Chasm Access,$surf",
-      "@Giant Chasm Access,$strength,mo_strength_boulders_false",
+      "@Route 13 North East Access,$surf",
+      "@Route 13 North East Access,$strength",
+      "@Route 13 West Access,$surf",
+      "@Route 13 Center House Access",
       "@Route 13 South Access,$surf"
     ]
   },
@@ -639,104 +2513,1189 @@
     "name": "Route 13 South Access",
     "access_rules": [
       "@Route 13 North Access,$surf",
-      "@Undella Town Access,$rock_smash"
+      "@Undella Town Gate Access"
     ]
   },
   {
-    "name": "Giant Chasm Outside Access",
+    "name": "Route 13 North East Access",
     "access_rules": [
       "@Route 13 North Access,$surf",
-      "@Route 13 North Access,$strength,mo_strength_boulders_true",
-      "@Route 13 North Access,$strength,mo_strength_boulders_vi_road",
-      "@Giant Chasm Access"
+      "@Giant Chasm Outer Access"
     ]
   },
   {
-    "name": "Giant Chasm Access",
+    "name": "Route 13 West Access",
     "access_rules": [
-      "@Giant Chasm Outside Access,dark_areas_giant_chasm_false",
-      "@Giant Chasm Outside Access,^$flash,dark_areas_giant_chasm_true"
+      "@Route 13 North Access,$surf",
+      "@Route 13 West House Access"
+    ]
+  },
+  {
+    "name": "Route 13 Island Access",
+    "access_rules": [
+      "@Route 13 North Access,$surf"
+    ]
+  },
+  {
+    "name": "Route 13 West House Access",
+    "access_rules": [
+      "@Route 13 West Access"
+    ]
+  },
+  {
+    "name": "Route 13 Center House Access",
+    "access_rules": [
+      "@Route 13 North Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Outer Access",
+    "access_rules": [
+      "@Route 13 North East Access",
+      "@Giant Chasm Entrance Cave Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Entrance Cave Access",
+    "access_rules": [
+      "@Giant Chasm Outer Access",
+      "@Giant Chasm Entrance Cave Inner Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Entrance Cave Inner Access",
+    "access_rules": [
+      "@Giant Chasm Entrance Cave Access,$surf",
+      "@Giant Chasm Entrance Cave Access,$strength",
+      "@Giant Chasm Crater Access",
+      "@Giant Chasm Crater Snow Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Crater Access",
+    "access_rules": [
+      "@Giant Chasm Entrance Cave Inner Access",
+      "@Giant Chasm Crater North East Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Crater North East Access",
+    "access_rules": [
+      "@Giant Chasm Inner Cave Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Crater Snow Access",
+    "access_rules": [
+      "@Giant Chasm Crater Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Inner Cave Access",
+    "access_rules": [
+      "@Giant Chasm Crater North East Access",
+      "@Giant Chasm Crater Snow Access"
     ]
   },
   {
     "name": "Undella Town Access",
     "access_rules": [
-      "starting_town_undella",
-      "@Route 13 South Access,$rock_smash",
-      "@Undella Bay Access",
-      "@Route 14 Access",
-	    "@Liberty Garden Access,add_ssticket_true,ssticket"
+      "@Undella Town Gate Access",
+      "@Undella Town Pokemon Center Access",
+      "@Undella Town Caitlin's Villa Access",
+      "@Undella Town Middle Small Villa Access,$not_starting_town|undella",
+      "@Player's House Access,starting_town_undella",
+      "@Undella Town Left Small Villa Access",
+      "@The Riches' Villa Access",
+      "@Undella Bay Shore Access",
+      "@Route 14 Access"
+    ]
+  },
+  {
+    "name": "Undella Town Pokemon Center Access",
+    "access_rules": [
+      "@Undella Town Access"
+    ]
+  },
+  {
+    "name": "Undella Town Gate Access",
+    "access_rules": [
+      "@Route 13 South Access",
+      "@Undella Town Access"
+    ]
+  },
+  {
+    "name": "Undella Town Caitlin's Villa Access",
+    "access_rules": [
+      "@Undella Town Access"
+    ]
+  },
+  {
+    "name": "Undella Town Middle Small Villa Access",
+    "access_rules": [
+      "@Undella Town Access,$not_starting_town|undella",
+      "@Nuvema Town Access,starting_town_undella"
+    ]
+  },
+  {
+    "name": "Undella Town Left Small Villa Access",
+    "access_rules": [
+      "@Undella Town Access"
+    ]
+  },
+  {
+    "name": "The Riches' Villa Access",
+    "access_rules": [
+      "@Undella Town Access"
+    ]
+  },
+  {
+    "name": "Undella Bay Shore Access",
+    "access_rules": [
+      "@Undella Town Access"
     ]
   },
   {
     "name": "Undella Bay Access",
     "access_rules": [
-      "@Undella Town Access",
-      "@Abyssal Ruins Access,$surf,$dive"
+      "@Undella Bay Shore Access,$surf"
     ]
   },
   {
-    "name": "Abyssal Ruins Access",
+    "name": "Abyssal Ruins Outside North Access",
     "access_rules": [
       "@Undella Bay Access,$surf,$dive"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins Outside South Access",
+    "access_rules": [
+      "@Undella Bay Access,$surf,$dive"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins Outside West Access",
+    "access_rules": [
+      "@Undella Bay Access,$surf,$dive"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins Outside East Access",
+    "access_rules": [
+      "@Undella Bay Access,$surf,$dive"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins 1F Access",
+    "access_rules": [
+      "@Abyssal Ruins Outside North Access",
+      "@Abyssal Ruins Outside South Access",
+      "@Abyssal Ruins Outside West Access",
+      "@Abyssal Ruins Outside East Access"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins 2F Access",
+    "access_rules": [
+      "@Abyssal Ruins 1F Access"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins 3F Access",
+    "access_rules": [
+      "@Abyssal Ruins 2F Access,tm70flash"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins 4F Access",
+    "access_rules": [
+      "@Abyssal Ruins 3F Access,$strength"
     ]
   },
   {
     "name": "Route 14 Access",
     "access_rules": [
       "@Undella Town Access",
-      "@Abundant Shrine Access,$surf,$waterfall",
-      "@Black City Access,gbsounds",
-	    "@White Forest Access,gbsounds"
+      "@Black City/White Forest North Gate Upper Side Access",
+      "@Route 14 Top Platform Access,$surf,$waterfall",
+      "@Route 14 West Access,$surf"
+    ]
+  },
+  {
+    "name": "Route 14 West Access",
+    "access_rules": [
+      "@Route 14 Top Platform Access",
+      "@Abundant Shrine Access"
+    ]
+  },
+  {
+    "name": "Route 14 Top Platform Access",
+    "access_rules": [
+      "@Route 14 Access,$surf,$waterfall",
+      "@Route 14 West Access"
     ]
   },
   {
     "name": "Abundant Shrine Access",
     "access_rules": [
-      "@Route 14 Access,$surf,$waterfall"
+      "@Route 14 West Access",
+      "@Abundant Shrine House Access"
+    ]
+  },
+  {
+    "name": "Abundant Shrine House Access",
+    "access_rules": [
+      "@Abundant Shrine Access"
+    ]
+  },
+  {
+    "name": "Black City/White Forest North Gate Upper Side Access",
+    "access_rules": [
+      "@Route 14 Access",
+      "@Black City/White Forest North Gate Lower Side Access,gbsounds"
+    ]
+  },
+  {
+    "name": "Black City/White Forest North Gate Lower Side Access",
+    "access_rules": [
+      "@Black City/White Forest North Gate Upper Side Access,gbsounds",
+      "@Black City Access",
+      "@White Forest Access"
     ]
   },
   {
     "name": "Black City Access",
     "access_rules": [
-      "@Route 14 Access,gbsounds",
-      "@Route 15 Access,gbsounds"
+      "@Black City/White Forest North Gate Lower Side Access",
+      "@Black City/White Forest West Gate Access"
     ]
   },
   {
     "name": "White Forest Access",
     "access_rules": [
-      "@Route 14 Access",
+      "@Black City/White Forest North Gate Lower Side Access",
+      "@Black City/White Forest West Gate Access"
+    ]
+  },
+  {
+    "name": "Black City/White Forest West Gate Access",
+    "access_rules": [
+      "@Black City Access",
+      "@White Forest Access",
       "@Route 15 Access"
     ]
   },
   {
     "name": "Route 15 Access",
     "access_rules": [
-      "@Black City Access",
-      "@White Forest Access",
-	    "@Marvelous Bridge Access"
+      "@Black City/White Forest West Gate Access",
+      "@Poké Transfer Lab Access",
+      "@Route 15 Caravan Access",
+      "@Marvelous Bridge East Gate Access"
+    ]
+  },
+  {
+    "name": "Route 15 Below East Bridge Access",
+    "access_rules": [
+      "@Route 15 Access,$strength"
+    ]
+  },
+  {
+    "name": "Poké Transfer Lab Access",
+    "access_rules": [
+      "@Route 15 Access"
+    ]
+  },
+  {
+    "name": "Route 15 Caravan Access",
+    "access_rules": [
+      "@Route 15 Access"
     ]
   },
   {
     "name": "Marvelous Bridge Access",
     "access_rules": [
+      "@Marvelous Bridge East Gate Access",
+      "@Marvelous Bridge West Gate Access"
+    ]
+  },
+  {
+    "name": "Marvelous Bridge West Gate Access",
+    "access_rules": [
+      "@Marvelous Bridge Access",
+      "@Route 16 Near East Gate Access"
+    ]
+  },
+  {
+    "name": "Marvelous Bridge East Gate Access",
+    "access_rules": [
       "@Route 15 Access",
-      "@Route 16 Access,bluecard"
+      "@Marvelous Bridge Access"
     ]
   },
   {
     "name": "Route 16 Access",
     "access_rules": [
-      "@Marvelous Bridge Access,bluecard",
-      "@Nimbasa City Access",
-	  "@Lostlorn Forest Access"
+      "@Route 16 Near East Gate Access,bluecard",
+      "@Nimbasa East Gate Access",
+      "@Lostlorn Forest Access"
+    ]
+  },
+  {
+    "name": "Route 16 Behind Boulder Access",
+    "access_rules": [
+      "@Route 16 Access,$strength"
+    ]
+  },
+  {
+    "name": "Route 16 Near East Gate Access",
+    "access_rules": [
+      "@Marvelous Bridge West Gate Access",
+      "@Route 16 Access,bluecard"
     ]
   },
   {
     "name": "Lostlorn Forest Access",
     "access_rules": [
-      "@Route 16 Access"
+      "@Route 16 Access",
+      "@Lostlorn Forest Caravan Access"
+    ]
+  },
+  {
+    "name": "Lostlorn Forest Upper Platform Access",
+    "access_rules": [
+      "@Lostlorn Forest Access,$surf,$waterfall"
+    ]
+  },
+  {
+    "name": "Lostlorn Forest Caravan Access",
+    "access_rules": [
+      "@Lostlorn Forest Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Access",
+    "access_rules": [
+      "@Opelucid City West Gate Access",
+      "@Opelucid City East Gate Left Side Access",
+      "@Opelucid City Pokemon Center Access",
+      "@Opelucid City West House 1F Access,$not_starting_town|opelucid",
+      "@Player's House Access,starting_town_opelucid",
+      "@Opelucid City Drayden's House 1F Access",
+      "@Opelucid City House Next to Drayden's House 1F Access",
+      "@Opelucid City Near Gym Access,@Opelucid City Drayden's House 1F Access",
+      "@Opelucid City Near Gym Access,hm02fly",
+      "@Opelucid City House Next to Gym 1F Access",
+      "@Opelucid City Battle House 1F Access",
+      "@Opelucid City North Gate Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Near Gym Access",
+    "access_rules": [
+      "@Opelucid City Access,@Opelucid City Drayden's House 1F Access",
+      "@Opelucid Gym Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Pokemon Center Access",
+    "access_rules": [
+      "@Opelucid City Access"
+    ]
+  },
+  {
+    "name": "Opelucid Gym Access",
+    "access_rules": [
+      "@Opelucid City Near Gym Access"
+    ]
+  },
+  {
+    "name": "Opelucid City West House 1F Access",
+    "access_rules": [
+      "@Opelucid City West House 2F Access",
+      "@Opelucid City Access,$not_starting_town|opelucid",
+      "@Nuvema Town Access,starting_town_opelucid"
+    ]
+  },
+  {
+    "name": "Opelucid City West House 2F Access",
+    "access_rules": [
+      "@Opelucid City West House 1F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City House Next to Gym 1F Access",
+    "access_rules": [
+      "@Opelucid City Access",
+      "@Opelucid City House Next to Gym 2F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City House Next to Gym 2F Access",
+    "access_rules": [
+      "@Opelucid City House Next to Gym 1F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Battle House 1F Access",
+    "access_rules": [
+      "@Opelucid City Access",
+      "@Opelucid City Battle House 2F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Battle House 2F Access",
+    "access_rules": [
+      "@Opelucid City Battle House 1F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Drayden's House 1F Access",
+    "access_rules": [
+      "@Opelucid City Access",
+      "@Opelucid City Drayden's House 2F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City Drayden's House 2F Access",
+    "access_rules": [
+      "@Opelucid City Drayden's House 1F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City House Next to Drayden's House 1F Access",
+    "access_rules": [
+      "@Opelucid City Access",
+      "@Opelucid City House Next to Drayden's House 2F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City House Next to Drayden's House 2F Access",
+    "access_rules": [
+      "@Opelucid City House Next to Drayden's House 1F Access"
+    ]
+  },
+  {
+    "name": "Opelucid City West Gate Access",
+    "access_rules": [
+      "@Route 9 Access",
+      "@Opelucid City Access"
+    ]
+  },
+  {
+    "name": "Opelucid City East Gate Left Side Access",
+    "access_rules": [
+      "@Opelucid City East Gate Right Side Access,oaksletter",
+      "@Opelucid City Access"
+    ]
+  },
+  {
+    "name": "Opelucid City East Gate Right Side Access",
+    "access_rules": [
+      "@Opelucid City East Gate Left Side Access,oaksletter",
+      "@Route 11 Access"
+    ]
+  },
+  {
+    "name": "Opelucid City North Gate Access",
+    "access_rules": [
+      "@Opelucid City Access",
+      "@Route 10 Access"
+    ]
+  },
+  {
+    "name": "Route 10 Access",
+    "access_rules": [
+      "@Opelucid City North Gate Access",
+      "@Badge Gate 1 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 1 Access",
+    "access_rules": [
+      "@Route 10 Access",
+      "@Behind Badge Gate 1 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 1 Access",
+    "access_rules": [
+      "@Badge Gate 1 Access,triobadge",
+      "@Badge Gate 2 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 2 Access",
+    "access_rules": [
+      "@Behind Badge Gate 1 Access",
+      "@Behind Badge Gate 2 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 2 Access",
+    "access_rules": [
+      "@Badge Gate 2 Access,basicbadge",
+      "@Badge Gate 3 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 3 Access",
+    "access_rules": [
+      "@Behind Badge Gate 2 Access",
+      "@Behind Badge Gate 3 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 3 Access",
+    "access_rules": [
+      "@Badge Gate 3 Access,insectbadge",
+      "@Badge Gate 4 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 4 Access",
+    "access_rules": [
+      "@Behind Badge Gate 3 Access",
+      "@Behind Badge Gate 4 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 4 Access",
+    "access_rules": [
+      "@Badge Gate 4 Access,boltbadge",
+      "@Badge Gate 5 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 5 Access",
+    "access_rules": [
+      "@Behind Badge Gate 4 Access",
+      "@Behind Badge Gate 5 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 5 Access",
+    "access_rules": [
+      "@Badge Gate 5 Access,quakebadge",
+      "@Badge Gate 6 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 6 Access",
+    "access_rules": [
+      "@Behind Badge Gate 5 Access",
+      "@Behind Badge Gate 6 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 6 Access",
+    "access_rules": [
+      "@Badge Gate 6 Access,jetbadge",
+      "@Badge Gate 7 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 7 Access",
+    "access_rules": [
+      "@Behind Badge Gate 6 Access",
+      "@Behind Badge Gate 7 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 7 Access",
+    "access_rules": [
+      "@Badge Gate 7 Access,freezebadge",
+      "@Badge Gate 8 Access"
+    ]
+  },
+  {
+    "name": "Badge Gate 8 Access",
+    "access_rules": [
+      "@Behind Badge Gate 7 Access",
+      "@Behind Badge Gate 8 Access"
+    ]
+  },
+  {
+    "name": "Behind Badge Gate 8 Access",
+    "access_rules": [
+      "@Badge Gate 8 Access,legendbadge",
+      "@Victory Road Entrance Access"
+    ]
+  },
+  {
+    "name": "Victory Road Entrance Access",
+    "access_rules": [
+      "@Behind Badge Gate 8 Access",
+      "@Victory Road Outside 1F Center Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 1F Center Access",
+    "access_rules": [
+      "@Victory Road Entrance Access",
+      "@Victory Road 1F Middle Cave Access",
+      "@Victory Road Outside 1F West Access",
+      "@Victory Road Outside 1F East Access",
+      "@Victory Road Outside 1F Back Access,hm02fly",
+      "@Victory Road Outside 4F Center Access,hm02fly",
+      "@Victory Road Outside 4F East Access,hm02fly",
+      "@Victory Road Outside 6F West Access,hm02fly"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 1F West Access",
+    "access_rules": [
+      "@Victory Road Outside 4F West Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 1F East Access",
+    "access_rules": [
+      "@Victory Road 1F Right Cave Access",
+      "@Victory Road Outside 2F Center Access",
+      "@Victory Road Outside 2F Small Passage Access",
+      "@Victory Road Outside 2F East Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 1F Back Access",
+    "access_rules": [
+      "@Victory Road 1F Left Cave Access",
+      "@Victory Road Outside 7F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 2F Center Access",
+    "access_rules": [
+      "@Victory Road 2F Left Cave South Access",
+      "@Victory Road Outside 3F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 2F Small Passage Access",
+    "access_rules": [
+      "@Victory Road 2F Right Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 2F East Access",
+    "access_rules": [
+      "@Victory Road Outside 3F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 3F Access",
+    "access_rules": [
+      "@Victory Road 3F Middle Cave Access",
+      "@Victory Road 3F Right Cave Access",
+      "@Victory Road 3F Left Cave South Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 4F West Access",
+    "access_rules": [
+      "@Victory Road 4F Left Cave East Access",
+      "@Victory Road Outside 5F West Access",
+      "@Victory Road Outside 5F Center Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 4F Center Access",
+    "access_rules": [
+      "@Victory Road 4F Middle Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 4F East Access",
+    "access_rules": [
+      "@Victory Road 4F Right Cave Access",
+      "@Victory Road Outside 6F East Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 5F West Access",
+    "access_rules": [
+      "@Victory Road Outside 7F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 5F Center Access",
+    "access_rules": [
+      "@Victory Road 5F Cave Access",
+      "@Victory Road Outside 6F East Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 6F West Access",
+    "access_rules": [
+      "@Victory Road 6F Cave South Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 6F East Access",
+    "access_rules": [
+      "@Victory Road 6F Cave South Access",
+      "@Victory Road Outside 7F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Outside 7F Access",
+    "access_rules": [
+      "@Victory Road 7F Cave Access",
+      "@Pokémon League Outside Access"
+    ]
+  },
+  {
+    "name": "Victory Road 1F Middle Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 1F Center Access",
+      "@Victory Road 2F Left Cave South Access"
+    ]
+  },
+  {
+    "name": "Victory Road 2F Left Cave North Access",
+    "access_rules": [
+      "@Victory Road 3F Middle Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 2F Left Cave South Access",
+    "access_rules": [
+      "@Victory Road Outside 2F Center Access",
+      "@Victory Road 1F Middle Cave Access",
+      "@Victory Road 2F Left Cave North Access,$strength"
+    ]
+  },
+  {
+    "name": "Victory Road 3F Middle Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 3F Access",
+      "@Victory Road 2F Left Cave North Access",
+      "@Victory Road 4F Middle Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 4F Middle Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 4F Center Access",
+      "@Victory Road 3F Middle Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 2F Right Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 2F Small Passage Access",
+      "@Victory Road 1F Right Cave Access",
+      "@Victory Road 3F Right Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 1F Right Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 1F East Access",
+      "@Victory Road 2F Right Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 3F Right Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 3F Access",
+      "@Victory Road 2F Right Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 1F Left Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 1F Back Access",
+      "@Victory Road 3F Left Cave North Access"
+    ]
+  },
+  {
+    "name": "Victory Road 3F Left Cave North Access",
+    "access_rules": [
+      "@Victory Road 1F Left Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 3F Left Cave South Access",
+    "access_rules": [
+      "@Victory Road Outside 3F Access",
+      "@Victory Road 3F Left Cave North Access",
+      "@Victory Road 4F Left Cave West Access"
+    ]
+  },
+  {
+    "name": "Victory Road 4F Left Cave West Access",
+    "access_rules": [
+      "@Victory Road 3F Left Cave South Access",
+      "@Victory Road 5F Cave Access",
+      "@Victory Road 4F Left Cave East Access"
+    ]
+  },
+  {
+    "name": "Victory Road 4F Left Cave East Access",
+    "access_rules": [
+      "@Victory Road Outside 4F West Access"
+    ]
+  },
+  {
+    "name": "Victory Road 5F Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 5F Center Access",
+      "@Victory Road 4F Left Cave West Access",
+      "@Victory Road 6F Cave South Access"
+    ]
+  },
+  {
+    "name": "Victory Road 6F Cave North Access",
+    "access_rules": [
+      "@Victory Road 7F Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 6F Cave East Access",
+    "access_rules": [
+      "@Victory Road 6F Cave North Access,$strength,catchdefeatcobalion",
+      "@Trial Chamber Access"
+    ]
+  },
+  {
+    "name": "Victory Road 6F Cave South Access",
+    "access_rules": [
+      "@Victory Road Outside 6F West Access",
+      "@Victory Road Outside 6F East Access",
+      "@Victory Road 5F Cave Access",
+      "@Victory Road 6F Cave North Access,$strength"
+    ]
+  },
+  {
+    "name": "Victory Road 4F Right Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 4F East Access",
+      "@Victory Road 7F Cave Access"
+    ]
+  },
+  {
+    "name": "Victory Road 7F Cave Access",
+    "access_rules": [
+      "@Victory Road Outside 7F Access",
+      "@Victory Road 6F Cave North Access",
+      "@Victory Road 4F Right Cave Access"
+    ]
+  },
+  {
+    "name": "Trial Chamber Access",
+    "access_rules": [
+      "@Victory Road 6F Cave East Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Outside Access",
+    "access_rules": [
+      "@Victory Road Outside 7F Access",
+      "@Pokémon League Pokemon Center Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Pokemon Center Access",
+    "access_rules": [
+      "@Pokémon League Outside Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Main Hall Access",
+    "access_rules": [
+      "@Pokémon League Outside Access",
+      "@Pokémon League Shauntal's Room Access",
+      "@Pokémon League Marshal's Room Access",
+      "@Pokémon League Grimsley's Room Access",
+      "@Pokémon League Caitlin's Room Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Shauntal's Room Access",
+    "access_rules": [
+      "@Pokémon League Main Hall Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Marshal's Room Access",
+    "access_rules": [
+      "@Pokémon League Main Hall Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Grimsley's Room Access",
+    "access_rules": [
+      "@Pokémon League Main Hall Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Caitlin's Room Access",
+    "access_rules": [
+      "@Pokémon League Main Hall Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Staircase Access",
+    "access_rules": [
+      "@Pokémon League Main Hall Access,@Pokémon League Shauntal's Room Access,@Pokémon League Marshal's Room Access,@Pokémon League Grimsley's Room Access,@Pokémon League Caitlin's Room Access",
+      "@Pokémon League Champion's Room Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Champion's Room Access",
+    "access_rules": [
+      "@Pokémon League Staircase Access"
+    ]
+  },
+  {
+    "name": "Hall of Fame Access",
+    "access_rules": [
+      "@Pokémon League Champion's Room Access,defeatghetsis"
+    ]
+  },
+  {
+    "name": "Landing Stage to N's Castle Access",
+    "access_rules": [
+      "@Pokémon League Champion's Room Access",
+      "@N's Castle 1F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 1F Access",
+    "access_rules": [
+      "@Landing Stage to N's Castle Access",
+      "@N's Castle 2F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 2F Access",
+    "access_rules": [
+      "@N's Castle 1F Access",
+      "@N's Castle 2F Left Room Access",
+      "@N's Castle 2F Middle Room Access",
+      "@N's Castle 2F Right Room Access",
+      "@N's Castle 3F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 2F Left Room Access",
+    "access_rules": [
+      "@N's Castle 2F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 2F Middle Room Access",
+    "access_rules": [
+      "@N's Castle 2F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 2F Right Room Access",
+    "access_rules": [
+      "@N's Castle 2F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 3F Access",
+    "access_rules": [
+      "@N's Castle 2F Access",
+      "@N's Castle 3F Left Room Access",
+      "@N's Castle 3F Middle Room Access",
+      "@N's Castle 3F Right Room Access",
+      "@N's Castle 4F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 3F Left Room Access",
+    "access_rules": [
+      "@N's Castle 3F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 3F Middle Room Access",
+    "access_rules": [
+      "@N's Castle 3F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 3F Right Room Access",
+    "access_rules": [
+      "@N's Castle 3F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 4F Access",
+    "access_rules": [
+      "@N's Castle 3F Access",
+      "@N's Castle 4F Left Room Access",
+      "@N's Castle 4F Middle Room Access",
+      "@N's Castle 4F Right Room Access",
+      "@N's Castle 5F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 4F Left Room Access",
+    "access_rules": [
+      "@N's Castle 4F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 4F Middle Room Access",
+    "access_rules": [
+      "@N's Castle 4F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 4F Right Room Access",
+    "access_rules": [
+      "@N's Castle 4F Access"
+    ]
+  },
+  {
+    "name": "N's Castle 5F Access",
+    "access_rules": [
+      "@N's Castle 4F Access",
+      "@N's Castle Throne Room Access"
+    ]
+  },
+  {
+    "name": "N's Castle Throne Room Access",
+    "access_rules": [
+      "@N's Castle 5F Access"
+    ]
+  },
+  {
+    "name": "Route 1 Access",
+    "access_rules": [
+      "@Route 1 East Access"
+    ]
+  },
+  {
+    "name": "Route 17 Access",
+    "access_rules": [
+      "@Route 17 South Access"
+    ]
+  },
+  {
+    "name": "Dreamyard Access",
+    "access_rules": [
+      "@Dreamyard Entrance Access"
+    ]
+  },
+  {
+    "name": "Dreamyard North Access",
+    "access_rules": [
+      "@Dreamyard North West Access"
+    ]
+  },
+  {
+    "name": "Wellspring Cave 1F Access",
+    "access_rules": [
+      "@Wellspring Cave Entrance Access"
+    ]
+  },
+  {
+    "name": "Pinwheel Forest Lower Path Access",
+    "access_rules": [
+      "@Pinwheel Forest South Access"
+    ]
+  },
+  {
+    "name": "Pinwheel Forest Upper Path Access",
+    "access_rules": [
+      "@Pinwheel Forest West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Access",
+    "access_rules": [
+      "@Relic Castle Castleside 1F Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Pre-Sand Room Access",
+    "access_rules": [
+      "@Relic Castle Castleside 1F South West Access"
+    ]
+  },
+  {
+    "name": "Relic Castle Post-Sand Room Access",
+    "access_rules": [
+      "@Relic Castle Castleside Back Room Access"
+    ]
+  },
+  {
+    "name": "Mistralton Cave Access",
+    "access_rules": [
+      "@Mistralton Cave Entrance Access"
+    ]
+  },
+  {
+    "name": "Celestial Tower Access",
+    "access_rules": [
+      "@Celestial Tower 1F Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower Outside Access",
+    "access_rules": [
+      "@Dragonspiral Tower Outside West Access"
+    ]
+  },
+  {
+    "name": "Dragonspiral Tower Access",
+    "access_rules": [
+      "@Dragonspiral Tower 1F Access"
+    ]
+  },
+  {
+    "name": "Route 8 North Access",
+    "access_rules": [
+      "@Route 8 North East Access"
+    ]
+  },
+  {
+    "name": "Challenger's Cave Access",
+    "access_rules": [
+      "@Challenger's Cave 1F Access"
+    ]
+  },
+  {
+    "name": "Victory Road Access",
+    "access_rules": [
+      "@Victory Road Outside 1F Center Access"
+    ]
+  },
+  {
+    "name": "Pokémon League Access",
+    "access_rules": [
+      "@Pokémon League Outside Access"
+    ]
+  },
+  {
+    "name": "N's Castle Access",
+    "access_rules": [
+      "@N's Castle 1F Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Outside Access",
+    "access_rules": [
+      "@Giant Chasm Outer Access"
+    ]
+  },
+  {
+    "name": "Giant Chasm Access",
+    "access_rules": [
+      "@Giant Chasm Entrance Cave Access"
+    ]
+  },
+  {
+    "name": "Abyssal Ruins Access",
+    "access_rules": [
+      "@Abyssal Ruins 1F Access"
     ]
   }
 ]
