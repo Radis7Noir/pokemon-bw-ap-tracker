@@ -1,7 +1,7 @@
 {
     "dexsearch_form": {
         "type": "array",
-        "margin": "2,16,0,16",
+        "margin": "5,2,0,0",
         "content": [
             {
                 "type": "item",

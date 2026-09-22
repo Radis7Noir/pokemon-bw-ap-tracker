@@ -810,6 +810,12 @@
     {
         "name": "",
         "type": "static",
+        "img": "/images/settings/dexentrytopr.png",
+        "codes": "dexentrytopr"
+    },
+    {
+        "name": "",
+        "type": "static",
         "img": "/images/settings/dexentryleft.png",
         "codes": "dexentryleft"
     },
@@ -3451,7 +3457,7 @@
         "stages": [
             {
                 "name": "Unown (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/201-1.png"
             },
             {
                 "name": "Unown (A)",
@@ -3576,7 +3582,7 @@
         "stages": [
             {
                 "name": "Castform (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/351-1.png"
             },
             {
                 "name": "Castform (Normal)",
@@ -3605,7 +3611,7 @@
         "stages": [
             {
                 "name": "Deoxys (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/386-1.png"
             },
             {
                 "name": "Deoxys (Normal)",
@@ -3634,7 +3640,7 @@
         "stages": [
             {
                 "name": "Burmy (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/412-1.png"
             },
             {
                 "name": "Burmy (Plant)",
@@ -3659,7 +3665,7 @@
         "stages": [
             {
                 "name": "Wormadam (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/413-1.png"
             },
             {
                 "name": "Wormadam (Plant)",
@@ -3684,7 +3690,7 @@
         "stages": [
             {
                 "name": "Cherrim (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/421-1.png"
             },
             {
                 "name": "Cherrim (Overcast)",
@@ -3705,7 +3711,7 @@
         "stages": [
             {
                 "name": "Shellos (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/422-1.png"
             },
             {
                 "name": "Shellos (West)",
@@ -3726,7 +3732,7 @@
         "stages": [
             {
                 "name": "Gastrodon (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/423-1.png"
             },
             {
                 "name": "Gastrodon (West)",
@@ -3747,7 +3753,7 @@
         "stages": [
             {
                 "name": "Rotom (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/479-1.png"
             },
             {
                 "name": "Rotom (Normal)",
@@ -3784,7 +3790,7 @@
         "stages": [
             {
                 "name": "Giratina (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/487-1.png"
             },
             {
                 "name": "Giratina (Altered)",
@@ -3805,7 +3811,7 @@
         "stages": [
             {
                 "name": "Shaymin (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/492-1.png"
             },
             {
                 "name": "Shaymin (Land)",
@@ -3826,7 +3832,7 @@
         "stages": [
             {
                 "name": "Basculin (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/550-1.png"
             },
             {
                 "name": "Basculin (Red-Striped)",
@@ -3847,7 +3853,7 @@
         "stages": [
             {
                 "name": "Darmanitan (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/555-1.png"
             },
             {
                 "name": "Darmanitan (Standard)",
@@ -3868,7 +3874,7 @@
         "stages": [
             {
                 "name": "Deerling (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/585-1.png"
             },
             {
                 "name": "Deerling (Spring)",
@@ -3897,7 +3903,7 @@
         "stages": [
             {
                 "name": "Sawsbuck (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/586-1.png"
             },
             {
                 "name": "Sawsbuck (Spring)",
@@ -3926,7 +3932,7 @@
         "stages": [
             {
                 "name": "Meloetta (All Forms)",
-                "img": "/images/pokemon/0.png"
+                "img": "/images/pokemon/forms/648-1.png"
             },
             {
                 "name": "Meloetta (Aria)",

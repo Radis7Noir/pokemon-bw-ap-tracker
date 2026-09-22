@@ -1,12 +1,58 @@
 {
     "dexsearch_form": {
         "type": "array",
-        "margin": "2,16,0,16",
+        "margin": "-10,2,0,0",
         "content": [
             {
-                "type": "item",
-                "item": "dexsearch_form_648",
-                "item_size": "32, 32"
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "dexentrytopr",
+                        "item_size": "86,15"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "dexentryleft",
+                        "item_size": "11, 64"
+                    },
+                    {
+                        "type": "item",
+                        "item": "dexsearch_form_648",
+                        "item_size": "64, 64"
+                    },
+                    {
+                        "type": "item",
+                        "item": "dexentryright",
+                        "item_size": "11, 64"
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "2,0",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "dexentrybottom",
+                        "item_size": "86,10"
+                    },
+                    {
+                        "type": "item",
+                        "item": "dummy",
+                        "item_size": "0,0"
+                    }
+                ]
             }
         ]
     }

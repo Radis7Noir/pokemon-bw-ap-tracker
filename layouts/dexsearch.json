@@ -35,10 +35,6 @@
                         "type": "item",
                         "item": "dexentryright",
                         "item_size": "11, 64"
-                    },
-                    {
-                        "type": "layout",
-                        "key": "dexsearch_form"
                     }
                 ]
             },
@@ -77,7 +73,7 @@
                     {
                         "type": "item",
                         "item": "dexsearch_digit3",
-                        "item_size": "24, 64"
+                        "item_size": "24, 44"
                     },
                     {
                         "type": "itemgrid",

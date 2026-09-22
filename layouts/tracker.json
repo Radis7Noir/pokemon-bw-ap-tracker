@@ -84,6 +84,19 @@
                                 "v_alignment": "center",
                                 "key": "dexsearch_grid"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "background": "#171717",
+                            "header": "",
+                            "dock": "left",
+                            "margin": "0,0,0,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "dexsearch_form"
+                            }
                         }
                     ]
                 },

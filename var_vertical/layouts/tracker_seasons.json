@@ -58,8 +58,22 @@
                             "header": "Pokésearch",
                             "dock": "top",
                             "content": {
-                                "type": "layout",
-                                "key": "dexsearch_grid"
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "h_alignment": "left",
+                                "v_alignment": "top",
+                                "content": [
+                                    {
+                                        "type": "layout",
+                                        "v_alignment": "top",
+                                        "key": "dexsearch_grid"
+                                    },
+                                    {
+                                        "type": "layout",
+                                        "v_alignment": "top",
+                                        "key": "dexsearch_form"
+                                    }
+                                ]
                             }
                         }
                     ]
