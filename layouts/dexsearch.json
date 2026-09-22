@@ -82,7 +82,8 @@
                     {
                         "type": "itemgrid",
                         "margin": "0,0,0,0",
-                        "item_margin": "0,-4",
+                        "item_margin": "0,0",
+                        "item_size": "34, 22",
                         "rows": [
                             [
                                 "search_reset"

@@ -924,7 +924,8 @@
                         "chest_unopened_img": "images/events/zorua.png",
                         "chest_opened_img": "images/events/zorua_grayscale.png",
                         "access_rules": [
-                            "@Castelia City Castelia Street East Building 1F Access,{caught_251},^$static_encounter"
+                            "@Castelia City Castelia Street East Building 1F Access,{}",
+                            "@Castelia City Castelia Street East Building 1F Access,caught_251,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "randomize_wild_on,show_mons,show_statics"
@@ -2138,7 +2139,8 @@
                     {
                         "name": "Item from girl for showing a Shaymin",
                         "access_rules": [
-                            "@Lacunosa Town Pokemon Center Access,{caught_492},randomize_wild_on",
+                            "@Lacunosa Town Pokemon Center Access,{}",
+                            "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_on",
                             "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_off,[]"
                         ],
                         "visibility_rules": [
@@ -5929,8 +5931,9 @@
                     {
                         "name": "Item from scientist #1",
                         "access_rules": [
+                            "@P2 Laboratory Access,{}",
                             "@P2 Laboratory Access,caught_649,randomize_wild_off,[]",
-                            "@P2 Laboratory Access,{caught_649},randomize_wild_on"
+                            "@P2 Laboratory Access,caught_649,randomize_wild_on"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -5939,8 +5942,9 @@
                     {
                         "name": "Item from scientist #2",
                         "access_rules": [
+                            "@P2 Laboratory Access,{}",
                             "@P2 Laboratory Access,caught_649,randomize_wild_off,[]",
-                            "@P2 Laboratory Access,{caught_649},randomize_wild_on"
+                            "@P2 Laboratory Access,caught_649,randomize_wild_on"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -8895,7 +8899,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Outside Snow Access,^$hidden"
+                            "@Twist Mountain Outside Snow Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8906,7 +8910,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Outside Snow Access,^$hidden"
+                            "@Twist Mountain Outside Snow Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8917,7 +8921,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain Outside 3F North Footbridge Access,^$hidden"
+                            "@Twist Mountain Outside 3F North Footbridge Access,^$hidden,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -8975,7 +8979,7 @@
                     {
                         "name": "Middle Floor - North cave item (Winter)",
                         "access_rules": [
-                            "@Twist Mountain 2F North Access"
+                            "@Twist Mountain 2F North Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_winter"
@@ -9017,7 +9021,7 @@
                     {
                         "name": "Lower Floor - Little east cave item (Winter)",
                         "access_rules": [
-                            "@Twist Mountain 1F South East Access"
+                            "@Twist Mountain 1F South East Access,^$season|winter"
                         ],
                         "visibility_rules": [
                             "show_items,,show_winter"
@@ -9026,7 +9030,7 @@
                     {
                         "name": "Lower Floor - North west cave item (Spring, Summer, Autumn)",
                         "access_rules": [
-                            "@Twist Mountain 1F North West Access"
+                            "@Twist Mountain 1F North West Access,^$season|spring|summer|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -9037,7 +9041,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain 1F North West Access,^$hidden"
+                            "@Twist Mountain 1F North West Access,^$hidden,^$season|spring|summer|autumn"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -13206,7 +13210,8 @@
                         "chest_unopened_img": "images/events/landorus.png",
                         "chest_opened_img": "images/events/landorus_grayscale.png",
                         "access_rules": [
-                            "@Abundant Shrine Access,{caught_641,caught_642},^$static_encounter"
+                            "@Abundant Shrine Access,{}",
+                            "@Abundant Shrine Access,caught_641,caught_642,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "randomize_wild_on,show_mons,show_statics"
@@ -13435,9 +13440,10 @@
                         "chest_unopened_img": "images/events/zoroark.png",
                         "chest_opened_img": "images/events/zoroark_grayscale.png",
                         "access_rules": [
-                            "@Lostlorn Forest Access,{caught_243},^$static_encounter",
-                            "@Lostlorn Forest Access,{caught_244},^$static_encounter",
-                            "@Lostlorn Forest Access,{caught_245},^$static_encounter"
+                            "@Lostlorn Forest Access,{}",
+                            "@Lostlorn Forest Access,caught_243,^$static_encounter",
+                            "@Lostlorn Forest Access,caught_244,^$static_encounter",
+                            "@Lostlorn Forest Access,caught_245,^$static_encounter"
                         ],
                         "visibility_rules": [
                             "randomize_wild_on,show_mons,show_statics"
