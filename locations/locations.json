@@ -825,7 +825,7 @@
                     {
                         "name": "Central Plaza - Show all TMs and HMs to the scientist (Event)",
                         "access_rules": [
-                            "@Castelia City Central Plaza Access,ownedtms:95"
+                            "@Castelia City Central Plaza Access,@all_hms,ownedtms:95"
                         ],
                         "visibility_rules": [
                             "goal_tmhm_hunt_on,show_items"

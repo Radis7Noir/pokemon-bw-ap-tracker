@@ -1,0 +1,26 @@
+[
+    {
+        "name": "goal",
+        "location_size": 28,
+        "location_border_thickness": 4,
+        "img": "images/maps/goal/goal_w.png"
+    },
+    {
+        "name": "mistraltoncity",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/mistraltoncity_w.png"
+    },
+    {
+        "name": "opelucidcity",
+        "location_size": 28,
+        "location_border_thickness": 4,
+        "img": "images/maps/opelucidcity_w.png"
+    },
+    {
+        "name": "nscastlethroneroom",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/nscastlethroneroom_w.png"
+    }
+]

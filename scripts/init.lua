@@ -16,12 +16,9 @@ ScriptHost:LoadScript("scripts/logic/dexsanity.lua")
 
 -- Maps
 Tracker:AddMaps("maps/overworld.json")
-Tracker:AddMaps("maps/goal_ghetsis.json")
+Tracker:AddMaps("maps/version.json")
 Tracker:AddMaps("maps/pokedex.json")
 Tracker:AddMaps("maps/maps.json")
-Tracker:AddMaps("maps/mistralton_city_b.json")
-Tracker:AddMaps("maps/opelucid_city_b.json")
-Tracker:AddMaps("maps/nscastlethroneroom_b.json")
 
 -- Locations
 Tracker:AddLocations("locations/goal_locations.json")

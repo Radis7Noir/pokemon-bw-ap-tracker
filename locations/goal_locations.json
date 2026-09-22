@@ -8,23 +8,21 @@
                     {
                         "name": "Defeat Ghetsis",
                         "access_rules": [
-                            "@N's Castle Access"
+                            "@N's Castle Throne Room Access"
                         ],
                         "visibility_rules": [
-                            "goal_ghetsis",
-							"goal_champion",
-							"goal_seven_sages_hunt",
-							"goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_ghetsis_on",
+                            "goal_champion_on",
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "defeatghetsis"
+                        "hosted_item": "defeatghetsis_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 78,
-                        "y": 64
+                        "x": 45,
+                        "y": 66
                     }
                 ]
             },
@@ -34,20 +32,19 @@
                     {
                         "name": "Defeat Champion Alder",
                         "access_rules": [
-                            "@Pokémon League Access,defeatghetsis"
+                            "@Pokémon League Champion's Room Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_champion",
-							"goal_pokemon_master"
+                            "goal_champion_on"
                         ],
-                        "hosted_item": "defeatchampionalder"
+                        "hosted_item": "defeatchampionalder_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 78,
-                        "y": 160
+                        "x": 45,
+                        "y": 162
                     }
                 ]
             },
@@ -57,20 +54,19 @@
                     {
                         "name": "Defeat Cynthia",
                         "access_rules": [
-                            "@Undella Town Access"
+                            "@Undella Town Caitlin's Villa Access"
                         ],
                         "visibility_rules": [
-                            "goal_cynthia",
-							"goal_pokemon_master"
+                            "goal_cynthia_on"
                         ],
-                        "hosted_item": "defeatcynthia"
+                        "hosted_item": "defeatcynthia_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 78,
-                        "y": 256
+                        "x": 45,
+                        "y": 258
                     }
                 ]
             },
@@ -80,21 +76,20 @@
                     {
                         "name": "Catch or defeat Cobalion",
                         "access_rules": [
-                            "@Guidance Chamber Access, $strength"
+                            "@Guidance Chamber Access"
                         ],
                         "visibility_rules": [
-                            "goal_cobalion",
-							"goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_cobalion_on",
+							"goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatcobalion"
+                        "hosted_item": "catchdefeatcobalion_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 270,
-                        "y": 454
+                        "x": 278,
+                        "y": 457
                     }
                 ]
             },
@@ -104,20 +99,19 @@
                     {
                         "name": "Show all TMs and HMs to the scientist in Castelia City",
                         "access_rules": [
-                            "@Castelia City Access,@all_hms,ownedtms:95"
+                            "@Castelia City Central Plaza Access,@all_hms,ownedtms:95"
                         ],
                         "visibility_rules": [
-                            "goal_tmhm_hunt",
-							"goal_pokemon_master"
+                            "goal_tmhm_hunt_on"
                         ],
-                        "hosted_item": "showalltmhms"
+                        "hosted_item": "showalltmhms_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 381,
-                        "y": 187
+                        "x": 345,
+                        "y": 189
                     }
                 ]
             },
@@ -127,20 +121,19 @@
                     {
                         "name": "Arrest Sage Giallo on Route 14",
                         "access_rules": [
-                            "@Route 14 Access,$surf,$waterfall"
+                            "@Route 14 Top Platform Access"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsagegiallo"
+                        "hosted_item": "arrestsagegiallo_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 613,
-                        "y": 123
+                        "x": 575,
+                        "y": 125
                     }
                 ]
             },
@@ -153,17 +146,16 @@
                             "@Dreamyard South Access"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsagegorm"
+                        "hosted_item": "arrestsagegorm_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 681,
-                        "y": 123
+                        "x": 645,
+                        "y": 125
                     }
                 ]
             },
@@ -176,17 +168,16 @@
                             "@Chargestone Cave B2F Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsagebronius"
+                        "hosted_item": "arrestsagebronius_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 545,
-                        "y": 251
+                        "x": 505,
+                        "y": 253
                     }
                 ]
             },
@@ -199,17 +190,16 @@
                             "@Route 18 Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsagerood"
+                        "hosted_item": "arrestsagerood_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 613,
-                        "y": 251
+                        "x": 575,
+                        "y": 253
                     }
                 ]
             },
@@ -219,20 +209,19 @@
                     {
                         "name": "Arrest Sage Ryoku in Relic Castle",
                         "access_rules": [
-                            "@Relic Castle Post-Sand Room Access"
+                            "@Relic Castle Basement Volcarona Entrance Access"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsageryoku"
+                        "hosted_item": "arrestsageryoku_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 681,
-                        "y": 251
+                        "x": 645,
+                        "y": 253
                     }
                 ]
             },
@@ -242,20 +231,19 @@
                     {
                         "name": "Arrest Sage Zinzolin in Cold Storage",
                         "access_rules": [
-                            "@Cold Storage Access,defeatghetsis"
+                            "@Cold Storage Container Access,defeatghetsis"
                         ],
                         "visibility_rules": [
-                            "goal_seven_sages_hunt",
-							"goal_pokemon_master"
+                            "goal_seven_sages_hunt_on"
                         ],
-                        "hosted_item": "arrestsagezinzolin"
+                        "hosted_item": "arrestsagezinzolin_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 749,
-                        "y": 251
+                        "x": 715,
+                        "y": 253
                     }
                 ]
             },
@@ -265,20 +253,19 @@
                     {
                         "name": "Catch or defeat Victini",
                         "access_rules": [
-                            "@Liberty Garden Access"
+                            "@Liberty Garden Basement Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatvictini"
+                        "hosted_item": "catchdefeatvictini_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 70,
-                        "y": 454
+                        "x": 68,
+                        "y": 457
                     }
                 ]
             },
@@ -288,20 +275,19 @@
                     {
                         "name": "Catch or defeat Volcarona",
                         "access_rules": [
-                            "@Relic Castle Post-Sand Room Access"
+                            "@Relic Castle Basement Volcarona Entrance Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatvolcarona"
+                        "hosted_item": "catchdefeatvolcarona_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 170,
-                        "y": 454
+                        "x": 173,
+                        "y": 457
                     }
                 ]
             },
@@ -314,17 +300,16 @@
                             "@Trial Chamber Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatterrakion"
+                        "hosted_item": "catchdefeatterrakion_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 370,
-                        "y": 454
+                        "x": 383,
+                        "y": 457
                     }
                 ]
             },
@@ -337,40 +322,60 @@
                             "@Rumination Field Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatvirizion"
+                        "hosted_item": "catchdefeatvirizion_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 470,
-                        "y": 454
+                        "x": 488,
+                        "y": 457
                     }
                 ]
             },
             {
-                "name": "Reshiram or Zekrom",
+                "name": "Reshiram",
                 "sections": [
                     {
-                        "name": "Catch Reshiram or Zekrom",
+                        "name": "Catch Reshiram",
                         "access_rules": [
-                            "@N's Castle Access"
+                            "@N's Castle Throne Room Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on,pokemon_black"
                         ],
-                        "hosted_item": "catchreshiramzekrom"
+                        "hosted_item": "catchreshiram_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 620,
-                        "y": 454
+                        "x": 593,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Zekrom",
+                "sections": [
+                    {
+                        "name": "Catch Zekrom",
+                        "access_rules": [
+                            "@N's Castle Throne Room Access"
+                        ],
+                        "visibility_rules": [
+                            "goal_legendary_hunt_on,pokemon_white"
+                        ],
+                        "hosted_item": "catchzekrom_hosted"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "goal",
+                        "x": 593,
+                        "y": 457
                     }
                 ]
             },
@@ -380,22 +385,19 @@
                     {
                         "name": "Catch or defeat Kyurem",
                         "access_rules": [
-                            "@Giant Chasm Access,ex_cut_trees_false",
-                            "@Giant Chasm Access,ex_cut_trees_true",
-                            "@Giant Chasm Access,$cut,ex_cut_trees_kyurem"
+                            "@Giant Chasm Inner Cave Access"
                         ],
                         "visibility_rules": [
-                            "goal_legendary_hunt",
-							"goal_pokemon_master"
+                            "goal_legendary_hunt_on"
                         ],
-                        "hosted_item": "catchdefeatkyurem"
+                        "hosted_item": "catchdefeatkyurem_hosted"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 770,
-                        "y": 454
+                        "x": 698,
+                        "y": 457
                     }
                 ]
             }

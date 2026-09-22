@@ -52,13 +52,9 @@ end
 
 function toggle_versionmaps()
     if has("pokemon_black") then
-        Tracker:AddMaps("maps/mistralton_city_b.json")
-        Tracker:AddMaps("maps/nscastlethroneroom_b.json")
-        Tracker:AddMaps("maps/opelucid_city_b.json")
+        Tracker:AddMaps("maps/version.json")
     elseif has("pokemon_white") then
-        Tracker:AddMaps("maps/mistralton_city_w.json")
-        Tracker:AddMaps("maps/nscastlethroneroom_w.json")
-        Tracker:AddMaps("maps/opelucid_city_w.json")
+        Tracker:AddMaps("maps/version_w.json")
 	end
 end
 
