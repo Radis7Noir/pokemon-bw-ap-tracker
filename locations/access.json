@@ -335,7 +335,7 @@
   {
     "name": "Striaton City East Upper House 2F Access",
     "access_rules": [
-      "@Striaton City East Upper House 1F Access"
+      "@Striaton City East Upper House 1F Access,defeatstriatongym"
     ]
   },
   {
