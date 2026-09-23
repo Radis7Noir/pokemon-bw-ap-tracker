@@ -63,7 +63,10 @@ function season(season)
     if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
         return AccessibilityLevel.Normal
     end
-    return AccessibilityLevel.SequenceBreak
+    if has("starting_season_" .. season) then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
 end
 
 function season_region(season)
@@ -76,7 +79,10 @@ function season_region(season)
     if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
         return AccessibilityLevel.Normal
     end
-    return AccessibilityLevel.SequenceBreak
+    if has("starting_season_" .. season) then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
 end
 
 function winter()

@@ -185,6 +185,39 @@
         "initial_quantity": 0
     },
     {
+        "name": "Seensanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "seensanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Shinysanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "shinysanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Formsanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "formsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 72,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
         "name": "Season Control",
         "type": "progressive",
         "loop": true,
@@ -207,6 +240,34 @@
                 "name": "Season Control - Randomized",
                 "img": "/images/settings/seasons_randomized.png",
                 "codes": "season_control,season_control_randomized",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Starting Season",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Starting Season - Spring",
+                "codes": "starting_season,starting_season_spring",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Summer",
+                "codes": "starting_season,starting_season_summer",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Autumn",
+                "codes": "starting_season,starting_season_autumn",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Winter",
+                "codes": "starting_season,starting_season_winter",
                 "inherit_codes": false
             }
         ]
@@ -280,34 +341,57 @@
         ]
     },
     {
-        "name": "Adjust Levels",
+        "name": "Adjust Levels - Wilds",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Adjust Levels - OFF",
+                "name": "Adjust Wilds - OFF",
                 "img": "/images/settings/adjustlevels_off.png",
-                "codes": "adjustlevels, adjustlevels_off",
+                "img_mods": "@disabled",
+                "codes": "adjust_wilds, adjust_wilds_off",
                 "inherit_codes": false
             },
             {
-                "name": "Adjust Levels - Wilds & Trainers",
+                "name": "Adjust Wilds - By Distance",
                 "img": "/images/settings/adjustlevels_wilds_trainers.png",
-                "codes": "adjustlevels, adjustlevels_wilds, adjustlevels_trainers",
+                "codes": "adjust_wilds,adjust_wilds_distance",
                 "inherit_codes": false
             },
             {
-                "name": "Adjust Levels - Wilds",
+                "name": "Adjust Wilds - By Sphere",
                 "img": "/images/settings/adjustlevels_wilds.png",
-                "codes": "adjustlevels, adjustlevels_wilds",
+                "codes": "adjust_wilds,adjust_wilds_sphere",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Adjust Levels - Trainers",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Adjust Trainers - OFF",
+                "img": "/images/settings/adjustlevels_off.png",
+                "img_mods": "@disabled",
+                "codes": "adjust_trainers, adjust_trainers_off",
                 "inherit_codes": false
             },
             {
-                "name": "Adjust Levels - Trainers",
+                "name": "Adjust Trainers - By Distance",
                 "img": "/images/settings/adjustlevels_trainers.png",
-                "codes": "adjustlevels, adjustlevels_trainers",
+                "codes": "adjust_trainers, adjust_trainers_distance",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Trainers - By Sphere",
+                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "codes": "adjust_trainers, adjust_trainers_sphere",
                 "inherit_codes": false
             }
         ]
@@ -362,21 +446,21 @@
         "name": "Show Statics",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
-            {
-                "name": "Show Static Pokémon",
-                "img": "/images/settings/consider_statics.png",
-                "img_mods": "overlay|images/settings/overlays/true.png",
-                "codes": "static_visibility,show_statics",
-                "inherit_codes": false
-            },
             {
                 "name": "Hide Static Pokémon",
                 "img": "/images/settings/consider_statics.png",
                 "img_mods": "overlay|images/settings/overlays/false.png",
                 "codes": "static_visibility,hide_statics",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show Static Pokémon",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "static_visibility,show_statics",
                 "inherit_codes": false
             }
         ]
@@ -389,17 +473,17 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Trading with NPCs is NOT in logic",
-                "img": "/images/settings/consider_trades.png",
-                "img_mods": "overlay|images/settings/overlays/ool.png",
-                "codes": "consider_trades,consider_trades_false",
-                "inherit_codes": false
-            },
-            {
                 "name": "Trading with NPCs IS in logic",
                 "img": "/images/settings/consider_trades.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_trades,consider_trades_true",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trading with NPCs is NOT in logic",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "codes": "consider_trades,consider_trades_false",
                 "inherit_codes": false
             }
         ]
@@ -408,21 +492,21 @@
         "name": "Show Trades",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
-            {
-                "name": "Show Trade Pokémon",
-                "img": "/images/settings/consider_trades.png",
-                "img_mods": "overlay|images/settings/overlays/true.png",
-                "codes": "trade_visibility,show_trades",
-                "inherit_codes": false
-            },
             {
                 "name": "Hide Trade Pokémon",
                 "img": "/images/settings/consider_trades.png",
                 "img_mods": "overlay|images/settings/overlays/false.png",
                 "codes": "trade_visibility,hide_trades",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show Trade Pokémon",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "trade_visibility,show_trades",
                 "inherit_codes": false
             }
         ]

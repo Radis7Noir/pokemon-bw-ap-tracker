@@ -94,9 +94,12 @@
         "rows": [
             [
                 "game_version",
-				"dexsanity",
                 "season_control",
-				"shuffle_badges"
+				"shuffle_badges",
+				"dexsanity",
+                "seensanity",
+                "shinysanity",
+                "formsanity"
             ]
         ]
     },
@@ -111,7 +114,8 @@
             [
 				"require_dowsingmchn",
 				"require_flash",
-				"adjustlevels",
+				"adjust_wilds",
+				"adjust_trainers",
 				"add_ssticket",
                 "add_pass",
  				"add_rocksmash"

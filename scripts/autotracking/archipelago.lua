@@ -4,6 +4,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/option_mapping.lua")
 
 REGION_ENCOUNTERS = {}
 CUR_INDEX = -1
@@ -41,6 +42,36 @@ HIGHLIGHT_PRIORITY =  {
     [Highlight.None] = 5 -- none
 }
 
+function applyCodes(tbl) -- helper for slot data processing. we can't do a clean mapping like Pt because some slot data are nested and some are not, plus tables everywhere :D
+    for k, v in pairs(tbl) do
+        if SLOT_CODES[k] then
+            local stage = (SLOT_CODES[k].mapping and SLOT_CODES[k].mapping[v] or v)
+            Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = stage
+        elseif LIST_CODES[k] then
+            local list = type(v) == "table" and v or { v } -- solo goal is string, combined is table ,so we need both
+            local content = {}
+            for _, name in ipairs(list) do
+                content[name] = true
+            end
+            local pokemon_master = LIST_CODES[k].master ~= nil and content[LIST_CODES[k].master] -- master is for all goals in table or pokemon_master string
+            for name, codes in pairs(LIST_CODES[k].values or {}) do -- only two stages
+                local stage = (pokemon_master or content[name]) and 1 or 0
+                for _, code in ipairs(type(codes) == "table" and codes or { codes }) do
+                    Tracker:FindObjectForCode(code).CurrentStage = stage
+                end
+            end
+            local stages = {}
+            for name, entry in pairs(LIST_CODES[k].stages or {}) do -- more than two stages, basically just for adjust levels lol
+                local code, stage = entry[1], entry[2]
+                stages[code] = math.max(stages[code] or 0, content[name] and stage or 0)
+            end
+            for code, stage in pairs(stages) do
+                Tracker:FindObjectForCode(code).CurrentStage = stage
+            end
+        end
+    end
+end
+
 function onClear(slot_data)
     print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
     SLOT_DATA = slot_data
@@ -62,8 +93,8 @@ function onClear(slot_data)
             end
         end
     end
-	
-	resetLocations()
+
+    resetLocations()
 
     -- reset dexsanity items
     for i = 1, 649 do
@@ -73,53 +104,52 @@ function onClear(slot_data)
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Static Encounters etc. added manually
     local newEncounters = {
-	    Magikarp_Gift = 129,
-		Zorua_Gift = 570,
-		Larvesta_Egg = 636,
-		Omanyte_Fossil = 138,
-		Kabuto_Fossil = 140,
-		Aerodactyl_Fossil = 142,
-		Lileep_Fossil = 345,
-		Anorith_Fossil = 347,
-		Cranidos_Fossil = 408,
-		Shieldon_Fossil = 410,
-		Tirtouga_Fossil = 564,
-		Archen_Fossil = 566,
-		Munchlax_Trade = 446,
-		Rotom_Trade = 479,
-		Cottonee_Trade = 546,
-		Petilil_Trade = 548,
-		Basculin_Trade = slot_data.options.version == "white" and 550 + (1 << 11) or 550,
-		Emolga_Trade = 587,
-		Foongus_Trap6 = 590,
-		Foongus_Trap10 = 590,
-		Amoonguss_Trap = 591,
-		Victini_Static = 494,
-		Musharna_Static = 518,
-		Darmanitan_Static = 555,
-		Zoroark_Static = 571,
+        Magikarp_Gift = 129,
+        Zorua_Gift = 570,
+        Larvesta_Egg = 636,
+        Omanyte_Fossil = 138,
+        Kabuto_Fossil = 140,
+        Aerodactyl_Fossil = 142,
+        Lileep_Fossil = 345,
+        Anorith_Fossil = 347,
+        Cranidos_Fossil = 408,
+        Shieldon_Fossil = 410,
+        Tirtouga_Fossil = 564,
+        Archen_Fossil = 566,
+        Munchlax_Trade = 446,
+        Rotom_Trade = 479,
+        Cottonee_Trade = 546,
+        Petilil_Trade = 548,
+        Basculin_Trade = slot_data.options.version == "white" and 550 + (1 << 11) or 550,
+        Emolga_Trade = 587,
+        Foongus_Trap6 = 590,
+        Foongus_Trap10 = 590,
+        Amoonguss_Trap = 591,
+        Victini_Static = 494,
+        Musharna_Static = 518,
+        Darmanitan_Static = 555,
+        Zoroark_Static = 571,
         Volcarona_Static = 637,
-		Cobalion_Static = 638,
-		Terrakion_Static = 639,
-		Virizion_Static = 640,
-		Reshiram_Static = 643,
-		Zekrom_Static = 644,
-		Landorus_Static = 645,
-		Kyurem_Static = 646,
-		Tornadus_Roamer = 641,
-		Thundurus_Roamer = 642,
-		Dwebble_R13 = 557,
-		Dwebble_WC = 557,
-		Dwebble_CC = 557,
-    	Dwebble_DY = 557
-		
+        Cobalion_Static = 638,
+        Terrakion_Static = 639,
+        Virizion_Static = 640,
+        Reshiram_Static = 643,
+        Zekrom_Static = 644,
+        Landorus_Static = 645,
+        Kyurem_Static = 646,
+        Tornadus_Roamer = 641,
+        Thundurus_Roamer = 642,
+        Dwebble_R13 = 557,
+        Dwebble_WC = 557,
+        Dwebble_CC = 557,
+        Dwebble_DY = 557
     }
-    
+
     for name, pokemon_id in pairs(newEncounters) do
         REGION_ENCOUNTERS[name] = { pokemon_id }
     end
     --print(dump_table(REGION_ENCOUNTERS))
-    
+
     -- so we can access the mapping later
     POKEMON_TO_LOCATIONS = {}
     for location, pokemon_list in pairs(REGION_ENCOUNTERS) do
@@ -130,7 +160,7 @@ function onClear(slot_data)
             table.insert(POKEMON_TO_LOCATIONS[pokemon_id], location)
         end
     end
-    
+
     -- This sets each Encounter location to however many unique encounters there are in it
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         local object = Tracker:FindObjectForCode(location)
@@ -148,140 +178,30 @@ function onClear(slot_data)
     end
 
     -- Main Slot Data Processing
-	local hm_with_badges_found = false
-	local add_rock_smash_found = false
-	local add_ss_ticket_found = false
-	local add_pass_found = false
+    applyCodes(slot_data) -- top level
+    applyCodes(slot_data.options)  -- nested
+
+    -- Weird Slot Data Processing
+    local hm_with_badges_found = false
+    local add_rock_smash_found = false
+    local add_ss_ticket_found = false
+    local add_pass_found = false
     local extra_cut_trees_found = false
     local move_strength_boulders_found = false
-    local dark_areas_found = false
-    local starting_town_found = false
 
-    local dark_area_list = {
-        ["Striaton Gym"] = Tracker:FindObjectForCode("dark_areas_striaton_gym"),
-        ["Nacrene Gym"] = Tracker:FindObjectForCode("dark_areas_nacrene_gym"),
-        ["Castelia Gym"] = Tracker:FindObjectForCode("dark_areas_castelia_gym"),
-        ["Nimbasa Gym"] = Tracker:FindObjectForCode("dark_areas_nimbasa_gym"),
-        ["Driftveil Gym"] = Tracker:FindObjectForCode("dark_areas_driftveil_gym"),
-        ["Mistralton Gym"] = Tracker:FindObjectForCode("dark_areas_mistralton_gym"),
-        ["Icirrus Gym"] = Tracker:FindObjectForCode("dark_areas_icirrus_gym"),
-        ["Opelucid Gym"] = Tracker:FindObjectForCode("dark_areas_opelucid_gym"),
-        ["Dreamyard Basement"] = Tracker:FindObjectForCode("dark_areas_dreamyard_basement"),
-        ["Wellspring Cave 1F"] = Tracker:FindObjectForCode("dark_areas_wellspring_cave_1f"),
-        ["Wellspring Cave B1F"] = Tracker:FindObjectForCode("dark_areas_wellspring_cave_b1f"),
-        ["Pinwheel Forest Inside"] = Tracker:FindObjectForCode("dark_areas_pinwheel_forest"),
-        ["Relic Castle Pre-Sand Room"] = Tracker:FindObjectForCode("dark_areas_relic_castle_pre"),
-        ["Relic Castle Post-Sand Room"] = Tracker:FindObjectForCode("dark_areas_relic_castle_post"),
-        ["Cold Storage"] = Tracker:FindObjectForCode("dark_areas_cold_storage"),
-        ["Mistralton Cave"] = Tracker:FindObjectForCode("dark_areas_mistralton_cave"),
-        ["Guidance Chamber"] = Tracker:FindObjectForCode("dark_areas_guidance_chamber"),
-        ["Chargestone Cave"] = Tracker:FindObjectForCode("dark_areas_chargestone_cave"),
-        ["Celestial Tower"] = Tracker:FindObjectForCode("dark_areas_celestial_tower"),
-        ["Twist Mountain"] = Tracker:FindObjectForCode("dark_areas_twist_mountain"),
-        ["Dragonspiral Tower"] = Tracker:FindObjectForCode("dark_areas_dragonspiral_tower"),
-        ["Challengers Cave"] = Tracker:FindObjectForCode("dark_areas_challengers"),
-        ["Victory Road"] = Tracker:FindObjectForCode("dark_areas_victory_road"),
-        ["Giant Chasm"] = Tracker:FindObjectForCode("dark_areas_giant_chasm"),
-    }
-
-    local default_dark_areas = {
-        ["Wellspring Cave B1F"] = true,
-        ["Mistralton Cave"] = true,
-        ["Challengers Cave"] = true,
-    }
-
-    for k, v in pairs(slot_data) do
-        if k == "starting_town" then
-            starting_town_found = true
-            local item = Tracker:FindObjectForCode("starting_town")
-            if v == "Nuvema Town" then
-                item.CurrentStage = 0
-            elseif v == "Accumula Town" then
-                item.CurrentStage = 1
-            elseif v == "Striaton City" then
-                item.CurrentStage = 2
-            elseif v == "Nacrene City" then
-                item.CurrentStage = 3
-            elseif v == "Castelia City" then
-                item.CurrentStage = 4
-            elseif v == "Nimbasa City" then
-                item.CurrentStage = 5
-            elseif v == "Driftveil City" then
-                item.CurrentStage = 6
-            elseif v == "Mistralton City" then
-                item.CurrentStage = 7
-            elseif v == "Icirrus City" then
-                item.CurrentStage = 8
-            elseif v == "Opelucid City" then
-                item.CurrentStage = 9
-            elseif v == "Lacunosa Town" then
-                item.CurrentStage = 10
-            elseif v == "Undella Town" then
-                item.CurrentStage = 11
-            end
-        end
-        if k == "dark_areas" then
-            dark_areas_found = true
-
-            local area_in_list = {}
-            for _, area in ipairs(v) do
-                area_in_list[area] = true
-            end
-
-     -- we only set once this way
-            for area, obj in pairs(dark_area_list) do
-                obj.CurrentStage = area_in_list[area] and 1 or 0
-            end
+    -- defaults for missing keys (extra logic)
+    if slot_data.starting_town == nil then
+        Tracker:FindObjectForCode("starting_town").CurrentStage = 0
+    end
+    if slot_data.dark_areas == nil then
+        for area, code in pairs(LIST_CODES.dark_areas.values) do
+            Tracker:FindObjectForCode(code).CurrentStage = DEFAULT_DARK_AREAS[area] and 1 or 0
         end
     end
 
-    if not dark_areas_found then
-        for area, obj in pairs(dark_area_list) do
-            obj.CurrentStage = default_dark_areas[area] and 1 or 0
-        end
-    end
-
-
+    -- I don't know how to map these differently :D
     for k, v in pairs(slot_data.options) do
-        if k == "season_control" then
-            local item = Tracker:FindObjectForCode("season_control")
-            if v == "vanilla" then
-                item.CurrentStage = 0
-            elseif v == "changeable" then
-                item.CurrentStage = 1
-            elseif v == "randomized" then
-                item.CurrentStage = 2
-            end
-        elseif k == "goal" then
-            local goals = {
-                "ghetsis",
-                "champion",
-                "cynthia",
-                "cobalion",
-                "tmhm_hunt",
-                "seven_sages_hunt",
-                "legendary_hunt",
-            }
-            -- v is a string if solo goal and a table if combined goals, so we force v as a table
-            local force_table_v = type(v) == "table" and v or { v }
-            local pokemon_master = table_contains(force_table_v, "pokemon_master") -- so that we don't require an item for it
-
-            for _, name in ipairs(goals) do
-                local obj = Tracker:FindObjectForCode("goal_" .. name)
-                if obj then
-                    obj.CurrentStage = (pokemon_master or table_contains(force_table_v, name)) and 1 or 0
-                end
-            end
-        elseif k == "shuffle_badges" then
-            local item = Tracker:FindObjectForCode("shuffle_badges")
-            if v == "vanilla" then
-                item.CurrentStage = 0
-            elseif v == "shuffle" then
-                item.CurrentStage = 1
-            elseif v == "anything" then
-                item.CurrentStage = 2
-            end
-        elseif k == "plugin_options" then
+        if k == "plugin_options" then
             local extra_logic = v.extra_logic or {}
             if extra_logic.hm_with_badges ~= nil then
                 hm_with_badges_found = true
@@ -350,89 +270,61 @@ function onClear(slot_data)
                     item.CurrentStage = 0
                 end
             end
-        elseif k == "modify_logic" then
-            local require_flash = Tracker:FindObjectForCode("require_flash")
-            local require_dowsingmchn = Tracker:FindObjectForCode("require_dowsingmchn")
-            local consider_evolutions = Tracker:FindObjectForCode("consider_evolutions")
-            local consider_statics = Tracker:FindObjectForCode("consider_statics")
-            local consider_trades = Tracker:FindObjectForCode("consider_trades")
-
-            require_flash.CurrentStage = table_contains(v, "require flash") and 1 or 0
-            require_dowsingmchn.CurrentStage = table_contains(v, "require dowsing machine") and 1 or 0
-            consider_evolutions.CurrentStage = table_contains(v, "consider evolutions") and 1 or 0
-            consider_statics.CurrentStage = table_contains(v, "consider static pokemon") and 1 or 0
-            consider_trades.CurrentStage = table_contains(v, "consider trades") and 1 or 0
-            Tracker:FindObjectForCode("static_visibility").CurrentStage = table_contains(v, "consider static pokemon") and 0 or 1
-            Tracker:FindObjectForCode("trade_visibility").CurrentStage = table_contains(v, "consider trades") and 0 or 1
-        elseif k == "randomize_wild_pokemon" then
-            local randomize_wild = Tracker:FindObjectForCode("randomize_wild")
-            randomize_wild.CurrentStage = table_contains(v, "randomize") and 1 or 0
-        elseif k == "adjust_levels" then
-            local adjustlevels = Tracker:FindObjectForCode("adjustlevels")
-            if table_contains(v, "wild") and table_contains(v, "trainer") then
-                adjustlevels.CurrentStage = 1
-		    elseif table_contains(v, "wild") then
-                adjustlevels.CurrentStage = 2
-			elseif table_contains(v, "trainer") then
-                adjustlevels.CurrentStage = 3
-            else
-                adjustlevels.CurrentStage = 0
-            end
-        elseif k == "version" then
-            local game_version = Tracker:FindObjectForCode("game_version")
-            if v == "white" then
-                game_version.CurrentStage = 1
-            else
-                game_version.CurrentStage = 0
-            end
         elseif k == "dexsanity" then
             Tracker:FindObjectForCode("dexsanity").AcquiredCount = v
-            if v == 0 then
-                Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
-            else
-                Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
-            end
+        elseif k == "seensanity" then
+            Tracker:FindObjectForCode("seensanity").AcquiredCount = v
+        elseif k == "shinysanity" then
+            Tracker:FindObjectForCode("shinysanity").AcquiredCount = v
+        elseif k == "formsanity" then
+            Tracker:FindObjectForCode("formsanity").AcquiredCount = v
         elseif k == "all_pokemon_seen" then
             Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
     end
 
-	if not starting_town_found then
-		Tracker:FindObjectForCode("starting_town").CurrentStage = 0
-	end
+    local dexsanity = Tracker:FindObjectForCode("dexsanity").AcquiredCount
+    local seensanity = Tracker:FindObjectForCode("seensanity").AcquiredCount
+    local shinysanity = Tracker:FindObjectForCode("shinysanity").AcquiredCount
+    local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
+    if dexsanity > 0 or seensanity > 0 or shinysanity > 0 or formsanity > 0 then
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+    end
 
-	if not hm_with_badges_found then
-		Tracker:FindObjectForCode("hm01cut").CurrentStage = 1
-		Tracker:FindObjectForCode("hm03surf").CurrentStage = 1
-		Tracker:FindObjectForCode("hm04strength").CurrentStage = 1
-		Tracker:FindObjectForCode("hm05waterfall").CurrentStage = 1
-		Tracker:FindObjectForCode("hm06dive").CurrentStage = 1
-		Tracker:FindObjectForCode("tm94rocksmash").CurrentStage = 1
-	end
-	if not add_rock_smash_found then
-		Tracker:FindObjectForCode("add_rocksmash").CurrentStage = 0
-	end
-	if not add_ss_ticket_found then
-		Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
-	end
-	if not add_pass_found then
-		Tracker:FindObjectForCode("add_pass").CurrentStage = 0
-	end
-	if not extra_cut_trees_found then
-		Tracker:FindObjectForCode("ex_cut_trees").CurrentStage = 0
-	end
-	if not move_strength_boulders_found then
-		Tracker:FindObjectForCode("mo_strength_boulders").CurrentStage = 0
-	end
+    if not hm_with_badges_found then
+        Tracker:FindObjectForCode("hm01cut").CurrentStage = 1
+        Tracker:FindObjectForCode("hm03surf").CurrentStage = 1
+        Tracker:FindObjectForCode("hm04strength").CurrentStage = 1
+        Tracker:FindObjectForCode("hm05waterfall").CurrentStage = 1
+        Tracker:FindObjectForCode("hm06dive").CurrentStage = 1
+        Tracker:FindObjectForCode("tm94rocksmash").CurrentStage = 1
+    end
+    if not add_rock_smash_found then
+        Tracker:FindObjectForCode("add_rocksmash").CurrentStage = 0
+    end
+    if not add_ss_ticket_found then
+        Tracker:FindObjectForCode("add_ssticket").CurrentStage = 0
+    end
+    if not add_pass_found then
+        Tracker:FindObjectForCode("add_pass").CurrentStage = 0
+    end
+    if not extra_cut_trees_found then
+        Tracker:FindObjectForCode("ex_cut_trees").CurrentStage = 0
+    end
+    if not move_strength_boulders_found then
+        Tracker:FindObjectForCode("mo_strength_boulders").CurrentStage = 0
+    end
 
     for k, v in pairs(slot_data) do
         if k == "dexsanity_pokemon" then
             local active = {}
-    
+
             for _, pokeID in ipairs(v) do
                 active[pokeID] = true
             end
-    
+
             for i = 1, 649 do
                 Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = active[i] or false
             end
@@ -547,10 +439,10 @@ function onItem(index, item_id, item_name, player_number)
                 end
             elseif v[2] == "consumable" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-			elseif v[2] == "flash_tm" then
+            elseif v[2] == "flash_tm" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
                 Tracker:FindObjectForCode("tm70flash").Active = true
-			elseif v[2] == "rock_smash_tm" then
+            elseif v[2] == "rock_smash_tm" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
                 Tracker:FindObjectForCode("tm94rocksmash").Active = true
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -689,7 +581,7 @@ function updateWildBattle(value, old_value)
     if old_value ~= nil and value[1] == old_value[1] and value[2] == old_value[2] then
         return
     end
-    
+
     print(dump_table(value))
 
     -- wild IDs include the form
@@ -738,31 +630,31 @@ function updatePokemon()
     if has("encounter_tracking_off") then
         return
     end
-    
+
     local regionObjects = {}
     local baseCounts = {}
     local pendingDecrements = {}
-    
+
     for region_key, location in pairs(ENCOUNTER_MAPPING) do
         regionObjects[region_key] = Tracker:FindObjectForCode(location)
         baseCounts[region_key] = #REGION_ENCOUNTERS[region_key]
         pendingDecrements[region_key] = 0
     end
-    
+
     for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
         local dex_number = pokemon_id & 0x7FF
         local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number).Active
         local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number).Active
-        
+
         local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = false
-        
+
         if has("all_pokemon_seen") then
             is_seen = true
         else
             is_seen = table_contains(SEEN, pokemon_id)
         end
-        
+
         local should_decrement = false
         if is_caught then
             should_decrement = true
@@ -771,7 +663,7 @@ function updatePokemon()
         elseif has("encounter_tracking_seen") and not dexVisibilityCode and is_seen then
             should_decrement = true
         end
-        
+
         if should_decrement == false then
             if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
                 local padded_dex_number = 600000 + dex_number
@@ -794,7 +686,7 @@ function updatePokemon()
                 end
             end
         end
-        
+
         if should_decrement then
             for _, location in pairs(locations) do
                 local object_name = ENCOUNTER_MAPPING[location]
@@ -854,7 +746,7 @@ function resetHints()
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
             local locations = (type(mapped) == "table") and mapped or { mapped }
-    
+
             for _, location in ipairs(locations) do
                 -- Only sections (items don't support Highlight)
                 if location:sub(1, 1) == "@" then
@@ -868,7 +760,7 @@ function resetHints()
             end
         end
     end
-    
+
     for _, location in pairs(ENCOUNTER_MAPPING) do
         if location and location:sub(1, 1) == "@" then
             local obj = Tracker:FindObjectForCode(location)
@@ -912,17 +804,17 @@ function updateHints()
     --        end
     --    end
     --else
-	--
+    --
     --    for _, location in ipairs(PRIORITY_LOCATIONS) do
     --        Tracker:FindObjectForCode(location).Highlight = 0
     --    end
     --end
-    
+
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
             local incoming_val = 0
-            
+
             if hint.status == 0 then
                 incoming_val = HIGHLIGHT_LEVEL[100 + hint.item_flags]
             else
@@ -940,7 +832,7 @@ function updateHints()
                             local mapped_location = ENCOUNTER_MAPPING[encounter_key]
                             if mapped_location and mapped_location:sub(1, 1) == "@" then
                                 local obj = Tracker:FindObjectForCode(mapped_location)
-    
+
                                 if tracking_plus then
                                     if hint.found == false then
                                         if incoming_val == Highlight.Priority then
@@ -966,7 +858,7 @@ function updateHints()
             for _, location in ipairs(locations) do
                 if location:sub(1, 1) == "@" then
                     local obj = Tracker:FindObjectForCode(location)
-    
+
                     if tracking_plus then
                         if hint.found == false then
                             if incoming_val == Highlight.Priority then
