@@ -1,11 +1,11 @@
 SLOT_CODES = {
-    version = {
-        code = "game_version",
-        mapping = {
-            ["black"] = 0,
-            ["white"] = 1,
-        }
-    },
+--    version = {
+--        code = "game_version",
+--        mapping = {
+--            ["black"] = 0,
+--            ["white"] = 1,
+--        }
+--    },
     shuffle_badges = {
         code = "shuffle_badges",
         mapping = {

@@ -3,7 +3,7 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Kanto Pokémon (001-151)",
+                "title": "Kanto (001-151)",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -12,7 +12,7 @@
                 }
             },
             {
-                "title": "Johto Pokémon (152-251)",
+                "title": "Johto (152-251)",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -21,7 +21,7 @@
                 }
             },
             {
-                "title": "Hoenn Pokémon (252-386)",
+                "title": "Hoenn (252-386)",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -30,7 +30,7 @@
                 }
             },
             {
-                "title": "Sinnoh Pokémon (387-493)",
+                "title": "Sinnoh (387-493)",
                 "content": {
                     "type": "map",
                     "maps": [
@@ -39,11 +39,20 @@
                 }
             },
             {
-                "title": "Unova Pokémon (494-649)",
+                "title": "Unova (494-649)",
                 "content": {
                     "type": "map",
                     "maps": [
                         "unovadex"
+                    ]
+                }
+            },
+            {
+                "title": "Forms",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "formdex"
                     ]
                 }
             }

@@ -28,5 +28,11 @@
         "location_size": 21,
         "location_border_thickness": 3,
         "img": "images/maps/unovadex.png"
+    },
+    {
+        "name": "formdex",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/formdex.png"
     }
 ]
