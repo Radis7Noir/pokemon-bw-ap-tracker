@@ -37,8 +37,7 @@
                         "chest_unopened_img": "images/events/tornadus.png",
                         "chest_opened_img": "images/events/tornadus_grayscale.png",
                         "access_rules": [
-                            "@Route 7 Access,^$static_encounter,defeatdrayden,@Opelucid City North Gate Access,@Route 7 North House Access",
-                            "@Route 7 Access,^$static_encounter,defeatiris,@Opelucid City North Gate Access,@Route 7 North House Access"
+                            "defeatdrayden,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons,show_statics"
@@ -49,8 +48,7 @@
                         "chest_unopened_img": "images/events/thundurus.png",
                         "chest_opened_img": "images/events/thundurus_grayscale.png",
                         "access_rules": [
-                            "@Route 7 Access,^$static_encounter,defeatdrayden,@Opelucid City North Gate Access,@Route 7 North House Access",
-                            "@Route 7 Access,^$static_encounter,defeatiris,@Opelucid City North Gate Access,@Route 7 North House Access"
+                            "defeatiris,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons,show_statics"
@@ -554,7 +552,7 @@
                         "chest_unopened_img": "images/events/lass_lillil.png",
                         "chest_opened_img": "images/events/lass_lillil_grayscale.png",
                         "access_rules": [
-                            "@Nacrene City South East Left House Access,^$trade|546"
+                            "@Nacrene City South East Left House Access,caught_546,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons,show_trades"
@@ -565,7 +563,7 @@
                         "chest_unopened_img": "images/events/lass_fluffee.png",
                         "chest_opened_img": "images/events/lass_fluffee_grayscale.png",
                         "access_rules": [
-                            "@Nacrene City South East Left House Access,^$trade|548"
+                            "@Nacrene City South East Left House Access,caught_548,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons,show_trades"
@@ -1292,7 +1290,7 @@
                         "chest_unopened_img": "images/events/youngster_redeye.png",
                         "chest_opened_img": "images/events/youngster_redeye_grayscale.png",
                         "access_rules": [
-                            "@Driftveil City Upper Right House East of Market Access,^$trade|572"
+                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons,show_trades"
@@ -1303,7 +1301,7 @@
                         "chest_unopened_img": "images/events/youngster_blueye.png",
                         "chest_opened_img": "images/events/youngster_blueye_grayscale.png",
                         "access_rules": [
-                            "@Driftveil City Upper Right House East of Market Access,^$trade|572"
+                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons,show_trades"
@@ -11730,7 +11728,7 @@
                         "chest_unopened_img": "images/events/reshiram.png",
                         "chest_opened_img": "images/events/reshiram_grayscale.png",
                         "access_rules": [
-                            "@N's Castle Throne Room Access,^$static_encounter"
+                            "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons,show_statics"
@@ -11741,7 +11739,7 @@
                         "chest_unopened_img": "images/events/zekrom.png",
                         "chest_opened_img": "images/events/zekrom_grayscale.png",
                         "access_rules": [
-                            "@N's Castle Throne Room Access,^$static_encounter"
+                            "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons,show_statics"
