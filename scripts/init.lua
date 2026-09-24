@@ -17,6 +17,8 @@ Tracker:AddItems("items/sanities/shinysanity_visibility.json")
 Tracker:AddItems("items/sanities/shinysanity_sent.json")
 Tracker:AddItems("items/sanities/formsanity_visibility.json")
 Tracker:AddItems("items/sanities/formsanity_sent.json")
+Tracker:AddItems("items/sanities/shinyformsanity_visibility.json")
+Tracker:AddItems("items/sanities/shinyformsanity_sent.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")

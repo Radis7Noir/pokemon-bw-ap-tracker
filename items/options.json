@@ -16,6 +16,12 @@
                 "img": "/images/settings/pokemonwhite.png",
                 "codes": "game_version,pokemon_white",
                 "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Dynamic Version",
+                "img": "/images/settings/pokemonwhite.png",
+                "codes": "game_version,dynamic,pokemon_black",
+                "inherit_codes": false
             }
         ]
     },
@@ -210,6 +216,17 @@
         "name": "Formsanity",
         "img": "/images/settings/pokedex.png",
         "codes": "formsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 72,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Shinyformsanity",
+        "img": "/images/settings/pokedex.png",
+        "codes": "shinyformsanity",
         "type": "consumable",
         "allow_disabled": true,
         "min_quantity": 0,

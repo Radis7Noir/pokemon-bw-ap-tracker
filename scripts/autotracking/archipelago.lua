@@ -317,16 +317,33 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("mo_strength_boulders").CurrentStage = 0
     end
 
-    for k, v in pairs(slot_data) do
-        if k == "dexsanity_pokemon" then
-            local active = {}
+    -- pokémon sanities processing
+    local dexsanity_numbers = slot_data["all_dexsanity_numbers"] or {} -- new key in 0.4.0, breaks compat with previous versions
 
-            for _, pokeID in ipairs(v) do
-                active[pokeID] = true
+    -- dexsanity variants that use dex IDs
+    for _, sanity in ipairs({"dexsanity", "seensanity", "shinysanity"}) do
+        local active = {}
+        for _, pokeID in ipairs(dexsanity_numbers[sanity] or {}) do
+            active[pokeID] = true
+        end
+        for i = 1, 649 do
+            local obj = Tracker:FindObjectForCode(sanity .. "_visibility_" .. i)
+            if obj then
+                obj.Active = active[i] or false
             end
+        end
+    end
 
-            for i = 1, 649 do
-                Tracker:FindObjectForCode("dexsanity_visibility_" .. i).Active = active[i] or false
+    -- dexsanity variants that use flag IDs
+    for _, sanity in ipairs({"formsanity", "shinyformsanity"}) do
+        local active = {}
+        for _, flagID in ipairs(dexsanity_numbers[sanity] or {}) do
+            active[flagID] = true
+        end
+        for flagID, formID in pairs(FORM_FLAG_MAPPING) do
+            local obj = Tracker:FindObjectForCode(sanity .. "_visibility_" .. formID)
+            if obj then
+                obj.Active = active[flagID] or false
             end
         end
     end
