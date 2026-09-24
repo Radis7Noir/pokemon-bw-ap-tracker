@@ -66,9 +66,9 @@
 {"name": "Deerling (Autumn)", "type": "toggle", "img": "/images/pokemon/forms/585-2.png", "codes": "form_585_2"},
 {"name": "Deerling (Winter)", "type": "toggle", "img": "/images/pokemon/forms/585-3.png", "codes": "form_585_3"},
 {"name": "Sawsbuck (Spring)", "type": "toggle", "img": "/images/pokemon/586.png", "codes": "form_586_0"},
-{"name": "Sawsbuck (Summer)", "type": "toggle", "img": "/images/pokemon/forms/586-2.png", "codes": "form_586_0"},
-{"name": "Sawsbuck (Autumn)", "type": "toggle", "img": "/images/pokemon/forms/586-3.png", "codes": "form_586_0"},
-{"name": "Sawsbuck (Winter)", "type": "toggle", "img": "/images/pokemon/forms/586-4.png", "codes": "form_586_0"},
+{"name": "Sawsbuck (Summer)", "type": "toggle", "img": "/images/pokemon/forms/586-2.png", "codes": "form_586_1"},
+{"name": "Sawsbuck (Autumn)", "type": "toggle", "img": "/images/pokemon/forms/586-3.png", "codes": "form_586_2"},
+{"name": "Sawsbuck (Winter)", "type": "toggle", "img": "/images/pokemon/forms/586-4.png", "codes": "form_586_3"},
 {"name": "Meloetta (Aria)", "type": "toggle", "img": "/images/pokemon/648.png", "codes": "form_648_0"},
 {"name": "Meloetta (Pirouette)", "type": "toggle", "img": "/images/pokemon/forms/648-2.png", "codes": "form_648_1"}
 ]
