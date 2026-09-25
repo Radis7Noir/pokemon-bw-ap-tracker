@@ -95,11 +95,6 @@ function onClear(slot_data)
 
     resetLocations()
 
-    -- reset dexsanity items
-    for i = 1, 649 do
-        Tracker:FindObjectForCode("dexsanity_sent_" .. i).Active = false
-    end
-
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Static Encounters etc. added manually
     local newEncounters = {
@@ -326,10 +321,7 @@ function onClear(slot_data)
             active[pokeID] = true
         end
         for i = 1, 649 do
-            local obj = Tracker:FindObjectForCode(sanity .. "_visibility_" .. i)
-            if obj then
-                obj.Active = active[i] or false
-            end
+            SANITY_VISIBLE[sanity][tostring(i)] = active[i] or false
         end
     end
 
@@ -340,10 +332,7 @@ function onClear(slot_data)
             active[flagID] = true
         end
         for flagID, formID in pairs(FORM_FLAG_MAPPING) do
-            local obj = Tracker:FindObjectForCode(sanity .. "_visibility_" .. formID)
-            if obj then
-                obj.Active = active[flagID] or false
-            end
+            SANITY_VISIBLE[sanity][formID] = active[flagID] or false
         end
     end
 
@@ -606,15 +595,15 @@ function updateWildBattle(value, old_value)
 
     local check1 = false
     if id1 ~= 0 then
-        local visibility1 = Tracker:FindObjectForCode("dexsanity_visibility_" .. id1).Active
-        local sent1 = Tracker:FindObjectForCode("dexsanity_sent_" .. id1).Active
+        local visibility1 = SANITY_VISIBLE.dexsanity[tostring(id1)]
+        local sent1 = Tracker:FindObjectForCode(LOCATION_MAPPING[600000 + id1][1]).AvailableChestCount == 0
         check1 = visibility1 and not sent1
     end
 
     local check2 = false
     if id2 ~= 0 then
-        local visibility2 = Tracker:FindObjectForCode("dexsanity_visibility_" .. id2).Active
-        local sent2 = Tracker:FindObjectForCode("dexsanity_sent_" .. id2).Active
+        local visibility2 = SANITY_VISIBLE.dexsanity[tostring(id2)]
+        local sent2 = Tracker:FindObjectForCode(LOCATION_MAPPING[600000 + id2][1]).AvailableChestCount == 0
         check2 = visibility2 and not sent2
     end
 
@@ -659,8 +648,8 @@ function updatePokemon()
 
     for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
         local dex_number = pokemon_id & 0x7FF
-        local dexVisibilityCode = Tracker:FindObjectForCode("dexsanity_visibility_" .. dex_number).Active
-        local dexSentCode = Tracker:FindObjectForCode("dexsanity_sent_" .. dex_number).Active
+        local dexVisibilityCode = SANITY_VISIBLE.dexsanity[tostring(dex_number)]
+        local dexSentCode = Tracker:FindObjectForCode(LOCATION_MAPPING[600000 + dex_number][1]).AvailableChestCount == 0
 
         local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = false

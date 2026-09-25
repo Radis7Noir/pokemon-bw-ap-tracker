@@ -3,6 +3,18 @@ for bucket = 0, 20 do
     LEVEL_REGIONS[bucket] = {}
 end
 
+SANITY_VISIBLE = {
+    dexsanity = {},
+    seensanity = {},
+    shinysanity = {},
+    formsanity = {},
+    shinyformsanity = {},
+}
+
+function sanity_visible(sanity, id)
+    return SANITY_VISIBLE[sanity][id] == true
+end
+
 function levelup(level)
     if has("consider_evolutions_false") then
         return AccessibilityLevel.SequenceBreak
