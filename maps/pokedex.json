@@ -1,32 +1,32 @@
 [
     {
         "name": "kantodex",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 30,
+        "location_border_thickness": 4,
         "img": "images/maps/kantodex.png"
     },
     {
         "name": "johtodex",
-        "location_size": 16,
-        "location_border_thickness": 2,
+        "location_size": 23,
+        "location_border_thickness": 3,
         "img": "images/maps/johtodex.png"
     },
     {
         "name": "hoenndex",
-        "location_size": 20,
-        "location_border_thickness": 2,
+        "location_size": 28,
+        "location_border_thickness": 4,
         "img": "images/maps/hoenndex.png"
     },
     {
         "name": "sinnohdex",
-        "location_size": 16,
-        "location_border_thickness": 2,
+        "location_size": 24,
+        "location_border_thickness": 4,
         "img": "images/maps/sinnohdex.png"
     },
     {
         "name": "unovadex",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 30,
+        "location_border_thickness": 4,
         "img": "images/maps/unovadex.png"
     },
     {

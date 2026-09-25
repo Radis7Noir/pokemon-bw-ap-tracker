@@ -272,6 +272,8 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("shinysanity").AcquiredCount = v
         elseif k == "formsanity" then
             Tracker:FindObjectForCode("formsanity").AcquiredCount = v
+        elseif k == "shinyformsanity" then
+            Tracker:FindObjectForCode("shinyformsanity").AcquiredCount = v
         elseif k == "all_pokemon_seen" then
             Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
@@ -281,7 +283,8 @@ function onClear(slot_data)
     local seensanity = Tracker:FindObjectForCode("seensanity").AcquiredCount
     local shinysanity = Tracker:FindObjectForCode("shinysanity").AcquiredCount
     local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
-    if dexsanity > 0 or seensanity > 0 or shinysanity > 0 or formsanity > 0 then
+    local shinyformsanity = Tracker:FindObjectForCode("shinyformsanity").AcquiredCount
+    if dexsanity > 0 or seensanity > 0 or shinysanity > 0 or formsanity > 0 or shinyformsanity > 0 then
         Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
     else
         Tracker:FindObjectForCode("location_visibility").CurrentStage = 0

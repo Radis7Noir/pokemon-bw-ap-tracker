@@ -46,15 +46,6 @@
                         "unovadex"
                     ]
                 }
-            },
-            {
-                "title": "Forms",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "formdex"
-                    ]
-                }
             }
         ]
     }

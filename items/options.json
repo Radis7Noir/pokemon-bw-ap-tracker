@@ -20,7 +20,7 @@
             {
                 "name": "Game Version - Dynamic Version",
                 "img": "/images/settings/pokemonwhite.png",
-                "codes": "game_version,dynamic,pokemon_black",
+                "codes": "game_version,dynamic",
                 "inherit_codes": false
             }
         ]
@@ -366,7 +366,7 @@
         "stages": [
             {
                 "name": "Adjust Wilds - OFF",
-                "img": "/images/settings/adjustlevels_off.png",
+                "img": "/images/settings/adjustlevels_wilds.png",
                 "img_mods": "@disabled",
                 "codes": "adjust_wilds, adjust_wilds_off",
                 "inherit_codes": false
@@ -394,7 +394,7 @@
         "stages": [
             {
                 "name": "Adjust Trainers - OFF",
-                "img": "/images/settings/adjustlevels_off.png",
+                "img": "/images/settings/adjustlevels_trainers.png",
                 "img_mods": "@disabled",
                 "codes": "adjust_trainers, adjust_trainers_off",
                 "inherit_codes": false
@@ -576,20 +576,21 @@
         "name": "Auto-Tab",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "codes": "auto_switch",
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Auto-Tab Map - ON",
-                "img": "/images/settings/autoswitch_on.png",
-                "codes": "automap, automap_on",
+                "name": "Auto-Tab Map - OFF",
+                "img": "/images/settings/autoswitch.png",
+                "img_mods": "@disabled",
+                "codes": "automap, automap_off",
                 "inherit_codes": false
             },
             {
-                "name": "Auto-Tab Map - OFF",
-                "img": "/images/settings/autoswitch_off.png",
-                "img_mods": "@disabled",
-                "codes": "automap, automap_off",
+                "name": "Auto-Tab Map - ON",
+                "img": "/images/settings/autoswitch.png",
+                "codes": "automap, automap_on",
                 "inherit_codes": false
             }
         ]
@@ -603,7 +604,7 @@
         "stages": [
             {
                 "name": "Split Map - OFF",
-                "img": "/images/settings/map_single.png",
+                "img": "/images/settings/map_split.png",
                 "img_mods": "@disabled",
                 "codes": "splitmap, splitmap_off",
                 "inherit_codes": false
@@ -686,7 +687,8 @@
             },
             {
                 "name": "Hide All Season Items Locations",
-                "img": "/images/settings/show_noseasons.png",
+                "img": "/images/settings/show_seasons.png",
+                "img_mods": "@disabled",
                 "codes": "show_noseason",
                 "inherit_codes": false
             }
@@ -702,14 +704,14 @@
         "stages": [
             {
                 "name": "Encounter Locations - OFF",
-                "img": "/images/settings/show_encounters_off.png",
+                "img": "/images/settings/show_encounters.png",
                 "img_mods": "@disabled",
                 "codes": "show_items",
                 "inherit_codes": false
             },
             {
                 "name": "Encounter Locations - ON",
-                "img": "/images/settings/show_encounters_on.png",
+                "img": "/images/settings/show_encounters.png",
                 "codes": "show_items,show_mons",
                 "inherit_codes": false
             },

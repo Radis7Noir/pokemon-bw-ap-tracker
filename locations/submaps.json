@@ -1,8 +1,8 @@
 [
     {
         "name": "Submaps",
-        "chest_unopened_img": "/images/items/pokeball.png",
-        "chest_opened_img": "/images/items/pokeball_open.png",
+        "chest_unopened_img": "images/locations/pokeball.png",
+        "chest_opened_img": "images/locations/cleared/pokeball_cleared.png",
         "children": [
             {
                 "name": "Juniper Pokémon Lab",

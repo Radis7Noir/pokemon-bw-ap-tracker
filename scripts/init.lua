@@ -1,14 +1,14 @@
 Tracker.AllowDeferredLogicUpdate = true
 
 -- Items
-Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/events_hosted.json")
-Tracker:AddItems("items/options.json")
 Tracker:AddItems("items/pokemon_caught.json")
 Tracker:AddItems("items/pokemon_seen.json")
 Tracker:AddItems("items/pokemon_shiny.json")
 Tracker:AddItems("items/pokemon_form.json")
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/options.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
@@ -55,6 +55,8 @@ ScriptHost:AddWatchForCode("goal4", "goal_seven_sages_hunt", toggle_goal)
 ScriptHost:AddWatchForCode("goal5", "goal_legendary_hunt", toggle_goal)
 ScriptHost:AddWatchForCode("game_version3", "game_version", toggle_goal)
 ScriptHost:AddWatchForCode("game_version", "game_version", toggle_versionmaps)
+ScriptHost:AddWatchForCode("formsanity", "formsanity", toggle_versionmaps)
+ScriptHost:AddWatchForCode("shinyformsanity", "shinyformsanity", toggle_versionmaps)
 ScriptHost:AddWatchForCode("splitmap", "splitmap", toggle_splitmap)
 ScriptHost:AddWatchForCode("season_control_randomized", "season_control_randomized", toggle_seasongrid)
 ScriptHost:AddWatchForCode("dexsanity", "dexsanity", toggle_keyitemgrid)

@@ -56,6 +56,13 @@ function toggle_versionmaps()
     elseif has("pokemon_white") then
         Tracker:AddMaps("maps/version_w.json")
 	end
+    local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
+    local shinyformsanity = Tracker:FindObjectForCode("shinyformsanity").AcquiredCount
+    if formsanity > 0  or shinyformsanity > 0 then
+        Tracker:AddLayouts("layouts/pokedex_form.json")
+    else
+        Tracker:AddLayouts("layouts/pokedex.json")
+    end
 end
 
 function toggle_keyitemgrid()    
