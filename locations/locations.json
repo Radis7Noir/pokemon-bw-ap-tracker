@@ -9028,7 +9028,7 @@
                     {
                         "name": "Lower Floor - North west cave item (Spring, Summer, Autumn)",
                         "access_rules": [
-                            "@Twist Mountain 1F North West Access,^$season|spring|summer|autumn"
+                            "@Twist Mountain 1F North West Access,^$season|not_winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
@@ -9039,7 +9039,7 @@
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Twist Mountain 1F North West Access,^$hidden,^$season|spring|summer|autumn"
+                            "@Twist Mountain 1F North West Access,^$hidden,^$season|not_winter"
                         ],
                         "visibility_rules": [
                             "show_items,show_spring"
