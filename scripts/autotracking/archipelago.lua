@@ -354,6 +354,7 @@ function onClear(slot_data)
             HINT       = "_read_hints_" .. suffix,
             WILD_IDS   = makeID("wild_ids_"),
             SLOT_UNLOCK= makeID("tracker_slots_enabled_"),
+            VERSION    = makeID("game_version_"),
         }
         for _, id in pairs(IDs) do
             Archipelago:SetNotify({id})
@@ -512,6 +513,14 @@ function onNotify(key, value, old_value)
 
     if key == IDs.SLOT_UNLOCK then
         toggleSlots(value)
+        return
+    end
+
+    if key == IDs.VERSION then
+        local version = tonumber(value)
+        if SLOT_DATA.options.version == "dynamic" and (version == 0 or version == 1) then
+            Tracker:FindObjectForCode("game_version").CurrentStage = version + 2 -- dynamic_black = 0, dynamic_white = 1
+        end
         return
     end
 

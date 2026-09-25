@@ -4,7 +4,7 @@ SLOT_CODES = {
         mapping = {
             ["black"] = 0,
             ["white"] = 1,
-            ["dynamic"] = 0,
+            ["dynamic"] = 2,
         }
     },
     shuffle_badges = {

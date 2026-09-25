@@ -18,9 +18,15 @@
                 "inherit_codes": false
             },
             {
-                "name": "Game Version - Dynamic Version",
+                "name": "Game Version - Dynamic Black",
                 "img": "/images/settings/pokemonwhite.png",
-                "codes": "game_version,dynamic",
+                "codes": "game_version,pokemon_black,dynamic_black",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Dynamic White",
+                "img": "/images/settings/pokemonwhite.png",
+                "codes": "game_version,pokemon_white,dynamic_white",
                 "inherit_codes": false
             }
         ]
