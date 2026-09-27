@@ -1384,6 +1384,11 @@
                         "map": "driftveilcity",
                         "x": 184,
                         "y": 608
+                    },
+                    {
+                        "map": "driftveilmarket",
+                        "x": 38,
+                        "y": 236
                     }
                 ]
             },
@@ -1400,6 +1405,11 @@
                         "map": "driftveilcity",
                         "x": 218,
                         "y": 640
+                    },
+                    {
+                        "map": "driftveilmarket",
+                        "x": 118,
+                        "y": 200
                     }
                 ]
             },
@@ -1416,6 +1426,11 @@
                         "map": "driftveilcity",
                         "x": 280,
                         "y": 584
+                    },
+                    {
+                        "map": "driftveilmarket",
+                        "x": 246,
+                        "y": 106
                     }
                 ]
             },
