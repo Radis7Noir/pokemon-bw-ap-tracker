@@ -914,11 +914,24 @@
                     },
                     {
                         "name": "Royal Unova - Item for defeating every trainer",
+                        "chest_unopened_img": "images/locations/receptionistf_rarecandy.png",
+                        "chest_opened_img": "images/locations/cleared/receptionistf_rarecandy_cleared.png",
                         "access_rules": [
                             "@Castelia City Cruise Dock Access,defeatghetsis"
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Castelia Street - See a Zorua",
+                        "chest_unopened_img": "images/locations/mart_woman.png",
+                        "chest_opened_img": "images/locations/cleared/mart_woman_cleared.png",
+                        "access_rules": [
+                            "@Castelia City Castelia Street East Building 1F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,$sanity_visible|seensanity|570"
                         ]
                     },
                     {
@@ -2140,6 +2153,8 @@
                     },
                     {
                         "name": "Item from girl for showing a Shaymin",
+                        "chest_unopened_img": "images/locations/lass_gracidea.png",
+                        "chest_opened_img": "images/locations/cleared/lass_gracidea_cleared.png",
                         "access_rules": [
                             "@Lacunosa Town Pokemon Center Access,{}",
                             "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_on",
@@ -5931,18 +5946,10 @@
                         ]
                     },
                     {
-                        "name": "Item from scientist #1",
-                        "access_rules": [
-                            "@P2 Laboratory Access,{}",
-                            "@P2 Laboratory Access,caught_649,randomize_wild_off,[]",
-                            "@P2 Laboratory Access,caught_649,randomize_wild_on"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from scientist #2",
+                        "name": "Items from scientist",
+                        "chest_unopened_img": "images/locations/scientist_shockdrive.png",
+                        "chest_opened_img": "images/locations/cleared/scientist_shockdrive_cleared.png",
+                        "item_count": 2,
                         "access_rules": [
                             "@P2 Laboratory Access,{}",
                             "@P2 Laboratory Access,caught_649,randomize_wild_off,[]",
@@ -11870,43 +11877,10 @@
                         ]
                     },
                     {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #1",
-                        "access_rules": [
-                            "@Village Bridge Left House on Right Side Access,{}"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #2",
-                        "access_rules": [
-                            "@Village Bridge Left House on Right Side Access,{}"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #3",
-                        "access_rules": [
-                            "@Village Bridge Left House on Right Side Access,{}"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #4",
-                        "access_rules": [
-                            "@Village Bridge Left House on Right Side Access,{}"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #5",
+                        "name": "Items from fisherman for showing a certain pokémon caught today",
+                        "item_count": 5,
+                        "chest_unopened_img": "images/locations/fisherman_diveball.png",
+                        "chest_opened_img": "images/locations/cleared/fisherman_diveball_cleared.png",
                         "access_rules": [
                             "@Village Bridge Left House on Right Side Access,{}"
                         ],

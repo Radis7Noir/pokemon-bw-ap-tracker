@@ -23,9 +23,43 @@
             {
                 "title": "Striaton City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "striatoncity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "City",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "striatoncity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fennel's House",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "fennelshouse1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "fennelshouse2f"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -41,9 +75,52 @@
             {
                 "title": "Castelia City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "casteliacity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "City",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "casteliacity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Battle Company",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "47F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany47f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "55F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany55f"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -76,9 +153,26 @@
             {
                 "title": "Driftveil City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "driftveilcity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "City",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "driftveilcity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Market",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "driftveilmarket"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -1346,7 +1440,7 @@
                                     "fight2rightdex"
                                 ]
                             }
-                        },
+                        }
                     ]
                 }
             }

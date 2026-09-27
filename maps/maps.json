@@ -18,6 +18,18 @@
         "img": "images/maps/striatoncity.png"
     },
     {
+        "name": "fennelshouse1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fennelshouse1f.png"
+    },
+    {
+        "name": "fennelshouse2f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/fennelshouse2f.png"
+    },
+    {
         "name": "nacrenecity",
         "location_size": 21,
         "location_border_thickness": 3,
@@ -28,6 +40,24 @@
         "location_size": 28,
         "location_border_thickness": 4,
         "img": "images/maps/casteliacity.png"
+    },
+    {
+        "name": "casteliabattlecompany1f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/casteliabattlecompany1f.png"
+    },
+    {
+        "name": "casteliabattlecompany47f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/casteliabattlecompany47f.png"
+    },
+    {
+        "name": "casteliabattlecompany55f",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/casteliabattlecompany55f.png"
     },
     {
         "name": "nimbasacity",
@@ -46,6 +76,12 @@
         "location_size": 28,
         "location_border_thickness": 4,
         "img": "images/maps/driftveilcity.png"
+    },
+    {
+        "name": "driftveilmarket",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/driftveilmarket.png"
     },
     {
         "name": "icirruscity",

@@ -129,7 +129,7 @@
                 ]
             },
             {
-                "name": "Striaton City",
+                "name": "Fennel's House",
                 "sections": [
                     {
                         "name": "TM from Fennel",
@@ -145,6 +145,26 @@
                         "map": "striatoncity",
                         "x": 862,
                         "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Fennel's House 2F",
+                "sections": [
+                    {
+                        "name": "TM from Fennel",
+                        "ref": "Unova Locations/Striaton City/TM from Fennel"
+                    },
+                    {
+                        "name": "Item from Amanita",
+                        "ref": "Unova Locations/Striaton City/Item from Amanita"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "fennelshouse2f",
+                        "x": 190,
+                        "y": 132
                     }
                 ]
             },
@@ -628,6 +648,86 @@
                 ]
             },
             {
+                "name": "Battle Company 47F",
+                "sections": [
+                    {
+                        "name": "Item in lower-left corner",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item in lower-left corner"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 51,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Battle Company 47F\u200b",
+                "sections": [
+                    {
+                        "name": "Items from clerk",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Items from clerk"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 227,
+                        "y": 148
+                    }
+                ]
+            },
+            {
+                "name": "Battle Company 47F\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Item from scientist",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from scientist"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 227,
+                        "y": 201
+                    }
+                ]
+            },
+            {
+                "name": "Battle Company 55F",
+                "sections": [
+                    {
+                        "name": "Center item",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Center item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 99,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Battle Company 55F\u200b",
+                "sections": [
+                    {
+                        "name": "Item from President Geoff",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Item from President Geoff"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 211,
+                        "y": 86
+                    }
+                ]
+            },
+            {
                 "name": "Castelia Street",
                 "sections": [
                     {
@@ -838,6 +938,10 @@
             {
                 "name": "Castelia Street\u200b",
                 "sections": [
+                    {
+                        "name": "See a Zorua",
+                        "ref": "Unova Locations/Castelia City/Castelia Street - See a Zorua"
+                    },
                     {
                         "name": "Zorua (Gift)",
                         "ref": "Unova Locations/Castelia City/Castelia Street - Zorua (Gift)"
@@ -6819,12 +6923,8 @@
                         "ref": "Unova Locations/P2 Laboratory/Item inside"
                     },
                     {
-                        "name": "Item from scientist #1",
-                        "ref": "Unova Locations/P2 Laboratory/Item from scientist #1"
-                    },
-                    {
-                        "name": "Item from scientist #2",
-                        "ref": "Unova Locations/P2 Laboratory/Item from scientist #2"
+                        "name": "Items from scientist",
+                        "ref": "Unova Locations/P2 Laboratory/Items from scientist"
                     }
                 ],
                 "map_locations": [
@@ -15319,24 +15419,8 @@
                 "name": "Village Bridge\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #1",
-                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon caught today #1"
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #2",
-                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon caught today #2"
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #3",
-                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon caught today #3"
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #4",
-                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon caught today #4"
-                    },
-                    {
-                        "name": "Item from fisherman for showing a certain pokémon caught today #5",
-                        "ref": "Unova Locations/Village Bridge/Item from fisherman for showing a certain pokémon caught today #5"
+                        "name": "Items from fisherman for showing a certain pokémon caught today",
+                        "ref": "Unova Locations/Village Bridge/Items from fisherman for showing a certain pokémon caught today"
                     }
                 ],
                 "map_locations": [
