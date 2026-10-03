@@ -474,9 +474,26 @@
             {
                 "title": "Desert Resort",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "desertresort"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresortoutside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Resort",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresort"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
