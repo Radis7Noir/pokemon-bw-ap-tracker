@@ -736,9 +736,9 @@ function onMap(mapBounce)
 
     if xz_split then
         print("This works")
-        local matrixX = mapBounce.data.matrixX
-        local matrixZ = mapBounce.data.matrixZ
-        local tabs = xz_split[matrixX] and xz_split[matrixX][matrixZ]
+        local matrixX = mapBounce.data.matrix32X
+        local matrixZ = mapBounce.data.matrix32Z
+        local tabs = MAP_SPLIT_MAPPING[mapID] and MAP_SPLIT_MAPPING[mapID][matrixX] and MAP_SPLIT_MAPPING[mapID][matrixX][matrixZ]
         if tabs then
         print("Still working")
             for _, tab in ipairs(tabs) do
