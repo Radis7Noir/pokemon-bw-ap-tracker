@@ -108,10 +108,16 @@
         "img": "images/maps/anvilletown.png"
     },
     {
-        "name": "route1",
+        "name": "route1_w",
         "location_size": 35,
         "location_border_thickness": 5,
-        "img": "images/maps/route1.png"
+        "img": "images/maps/route1_w.png"
+    },
+    {
+        "name": "route1_e",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/route1_e.png"
     },
     {
         "name": "route2",

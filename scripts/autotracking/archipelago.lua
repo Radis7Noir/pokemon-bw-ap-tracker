@@ -350,7 +350,6 @@ function onClear(slot_data)
             EVENT      = makeID("events_"),
             CAUGHT     = makeID("caught_"),
             SEEN       = makeID("seen_"),
-            MAP        = makeID("map_"),
             HINT       = "_read_hints_" .. suffix,
             WILD_IDS   = makeID("wild_ids_"),
             SLOT_UNLOCK= makeID("tracker_slots_enabled_"),
@@ -369,7 +368,6 @@ end
 
 function updateSlot()
     updateEvents(forSlot(EVENT_BITS) or 0)
-    updateMap()
 end
 
 function toggleSlots(value)
@@ -535,11 +533,6 @@ function onNotify(key, value, old_value)
             print(dump_table(value))
             SEEN = value
             updateSeen()
-        elseif key == IDs.MAP then
-            MAP_ID = value
-            if old_value ~= nil and forSlot(value) ~= forSlot(old_value) then
-                updateMap()
-            end
         elseif key == IDs.HINT then
             SAVED_HINTS = value
             updateHints()
@@ -636,7 +629,7 @@ function updateWildBattle(value, old_value)
         Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Left Dexsanity")
     else
-        updateMap()
+        onMap(CACHED_MAP)
     end
 end
 
@@ -730,16 +723,41 @@ function updatePokemon()
     end
 end
 
--- Auto-tabbing
-function updateMap()
-    local map_id = forSlot(MAP_ID) or 0
-    if has("automap_on") then
-        local tabs = MAP_MAPPING[map_id]
+CACHED_MAP = nil
+
+function onMap(mapBounce)
+    if not (has("automap_on") and mapBounce and mapBounce.data) then
+        return
+    end
+
+    CACHED_MAP = mapBounce
+    local mapID = mapBounce.data.mapNumber
+    local xz_split = MAP_SPLIT_MAPPING and MAP_SPLIT_MAPPING[mapID]
+
+    if xz_split then
+        print("This works")
+        local matrixX = mapBounce.data.matrixX
+        local matrixZ = mapBounce.data.matrixZ
+        local tabs = xz_split[matrixX] and xz_split[matrixX][matrixZ]
+        if tabs then
+        print("Still working")
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+                print("Hey!")
+            end
+        print("Guten Tag")
+        end
+    print("Bonsoir")
+    elseif MAP_MAPPING and MAP_MAPPING[mapID] then    
+        local tabs = MAP_MAPPING[mapID]
         if tabs then
             for _, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
             end
         end
+    else
+        print("No Mapping found for:")
+        print(dump_table(mapBounce))
     end
 end
 
@@ -916,3 +934,4 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotify)
+Archipelago:AddBouncedHandler("map bounce handler", onMap)

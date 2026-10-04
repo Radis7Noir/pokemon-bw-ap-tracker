@@ -226,12 +226,30 @@
     "routes": {
         "type": "tabbed",
         "tabs": [
+
             {
                 "title": "Route 1",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route1"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route1_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route1_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },

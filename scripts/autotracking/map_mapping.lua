@@ -1,5 +1,4 @@
 MAP_MAPPING =  {
-  [317] = {"Routes", "Route 1"},
   [319] = {"Routes", "Route 2"},
   [321] = {"Routes", "Route 3"},
   [326] = {"Routes", "Route 4"},
@@ -176,4 +175,18 @@ MAP_MAPPING =  {
   [255] = {"Others", "Village Bridge"},
   [324] = {"Dungeons A", "Wellspring Cave", "1F"},
   [325] = {"Dungeons A", "Wellspring Cave", "B1F"}
+}
+
+MAP_SPLIT_MAPPING = {
+  -- XZ Split Maps
+  [317] = {
+    [23] = {
+      [22] = {"Routes", "Route 1", "West"}, --317: "route_1",
+      [23] = {"Routes", "Route 1", "West"}, --317: "route_1",
+    },
+    [24] = {
+      [21] = {"Routes", "Route 1", "East"}, --317: "route_1",
+      [22] = {"Routes", "Route 1", "East"}, --317: "route_1",
+    }
+  }
 }
