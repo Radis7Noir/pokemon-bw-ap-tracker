@@ -91,7 +91,7 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 616,
+                        "x": 104,
                         "y": 376
                     }
                 ]
@@ -107,8 +107,8 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 864,
-                        "y": 292
+                        "x": 350,
+                        "y": 290
                     }
                 ]
             },
@@ -123,7 +123,7 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 952,
+                        "x": 440,
                         "y": 324
                     }
                 ]
@@ -143,8 +143,8 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 864,
-                        "y": 228
+                        "x": 350,
+                        "y": 226
                     }
                 ]
             },
@@ -183,8 +183,8 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 616,
-                        "y": 122
+                        "x": 104,
+                        "y": 116
                     }
                 ]
             },
@@ -198,7 +198,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "striatoncity",
+                        "map": "striatongarden",
                         "x": 200,
                         "y": 351
                     }
@@ -214,9 +214,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "striatoncity",
+                        "map": "striatongarden",
                         "x": 136,
-                        "y": 44
+                        "y": 42
                     }
                 ]
             },
@@ -230,9 +230,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "striatoncity",
+                        "map": "striatongarden",
                         "x": 424,
-                        "y": 86
+                        "y": 80
                     }
                 ]
             },
@@ -246,9 +246,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "striatoncity",
+                        "map": "striatongarden",
                         "x": 72,
-                        "y": 73
+                        "y": 79
                     }
                 ]
             },
@@ -275,8 +275,8 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 840,
-                        "y": 122
+                        "x": 328,
+                        "y": 116
                     }
                 ]
             },
@@ -302,11 +302,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "striatoncity",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "map": "striatongarden",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -406,7 +406,7 @@
                 "map_locations": [
                     {
                         "map": "striatoncity",
-                        "x": 1112,
+                        "x": 608,
                         "y": 68
                     }
                 ]
@@ -423,7 +423,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 392,
-                        "y": 125
+                        "y": 134
                     }
                 ]
             },
@@ -471,7 +471,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 216,
-                        "y": 315
+                        "y": 303
                     }
                 ]
             },
@@ -487,7 +487,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 264,
-                        "y": 147
+                        "y": 134
                     }
                 ]
             },
@@ -575,7 +575,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 584,
-                        "y": 109
+                        "y": 98
                     }
                 ]
             },
@@ -595,7 +595,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 648,
-                        "y": 309
+                        "y": 303
                     }
                 ]
             },
@@ -659,7 +659,7 @@
                     {
                         "map": "casteliabattlecompany47f",
                         "x": 56,
-                        "y": 239
+                        "y": 243
                     }
                 ]
             },
@@ -707,7 +707,7 @@
                     {
                         "map": "casteliabattlecompany55f",
                         "x": 104,
-                        "y": 167
+                        "y": 174
                     }
                 ]
             },
@@ -1111,7 +1111,7 @@
                     {
                         "map": "nimbasacity",
                         "x": 616,
-                        "y": 592
+                        "y": 613
                     }
                 ]
             },
@@ -1126,8 +1126,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacity",
-                        "x": 1007,
-                        "y": 337
+                        "x": 1014,
+                        "y": 341
                     }
                 ]
             },
@@ -1142,8 +1142,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacity",
-                        "x": 361,
-                        "y": 558
+                        "x": 360,
+                        "y": 547
                     }
                 ]
             },
@@ -1162,8 +1162,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacity",
-                        "x": 249,
-                        "y": 507
+                        "x": 248,
+                        "y": 547
                     }
                 ]
             },
@@ -1183,12 +1183,12 @@
                     {
                         "map": "nimbasacity",
                         "x": 792,
-                        "y": 281
+                        "y": 261
                     }
                 ]
             },
             {
-                "name": "\u200bAnville Town",
+                "name": "\u200bAnville Town (Brown Line)",
                 "sections": [
                     {
                         "name": "North hidden item",
@@ -1203,7 +1203,7 @@
                     {
                         "map": "nimbasacity",
                         "x": 616,
-                        "y": 495
+                        "y": 541
                     }
                 ]
             },
@@ -1218,8 +1218,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacitypark",
-                        "x": 676,
-                        "y": 386
+                        "x": 504,
+                        "y": 362
                     }
                 ]
             },
@@ -1234,8 +1234,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacitypark",
-                        "x": 852,
-                        "y": 386
+                        "x": 680,
+                        "y": 362
                     }
                 ]
             },
@@ -1262,8 +1262,8 @@
                 "map_locations": [
                     {
                         "map": "nimbasacitypark",
-                        "x": 514,
-                        "y": 152
+                        "x": 344,
+                        "y": 163
                     }
                 ]
             },
@@ -1277,7 +1277,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
+                        "map": "driftveilcity_w",
                         "x": 136,
                         "y": 149
                     }
@@ -1293,9 +1293,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 921,
-                        "y": 393
+                        "map": "driftveilcity_w",
+                        "x": 920,
+                        "y": 391
                     }
                 ]
             },
@@ -1309,9 +1309,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 215,
-                        "y": 314
+                        "map": "driftveilcity_w",
+                        "x": 216,
+                        "y": 339
                     }
                 ]
             },
@@ -1325,9 +1325,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 441,
-                        "y": 364
+                        "map": "driftveilcity_w",
+                        "x": 440,
+                        "y": 355
                     }
                 ]
             },
@@ -1349,9 +1349,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
+                        "map": "driftveilcity_w",
                         "x": 552,
-                        "y": 429
+                        "y": 454
                     }
                 ]
             },
@@ -1365,9 +1365,45 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 81,
+                        "map": "driftveilcity_w",
+                        "x": 88,
                         "y": 275
+                    }
+                ]
+            },
+            {
+                "name": "\u200bDriftveil Market",
+                "sections": [
+                    {
+                        "name": "Item in market",
+                        "ref": "Unova Locations/Driftveil City/Item in market"
+                    },
+                    {
+                        "name": "Item from man in black in market",
+                        "ref": "Unova Locations/Driftveil City/Item from man in black in market"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity_w",
+                        "x": 232,
+                        "y": 517
+                    }
+                ]
+            },
+            {
+                "name": "\u200b\u200bDriftveil Market",
+                "sections": [
+                    {
+                        "name": "Hidden item in market",
+                        "ref": "Unova Locations/Driftveil City/Hidden item in market"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity_w",
+                        "x": 184,
+                        "y": 480
                     }
                 ]
             },
@@ -1381,14 +1417,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 185,
-                        "y": 442
-                    },
-                    {
                         "map": "driftveilmarket",
                         "x": 58,
-                        "y": 246
+                        "y": 252
                     }
                 ]
             },
@@ -1402,14 +1433,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 219,
-                        "y": 471
-                    },
-                    {
                         "map": "driftveilmarket",
                         "x": 138,
-                        "y": 210
+                        "y": 212
                     }
                 ]
             },
@@ -1422,11 +1448,6 @@
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "driftveilcity",
-                        "x": 281,
-                        "y": 425
-                    },
                     {
                         "map": "driftveilmarket",
                         "x": 266,
@@ -1452,9 +1473,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 841,
-                        "y": 189
+                        "map": "driftveilcity_w",
+                        "x": 840,
+                        "y": 204
                     }
                 ]
             },
@@ -1480,11 +1501,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "driftveilcity_w",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -1499,15 +1520,19 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "driftveilcity",
-                        "x": 1496,
-                        "y": 620,
+                        "map": "driftveilcity_e",
+                        "x": 464,
+                        "y": 193,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     },
                     {
                         "map": "route5",
-                        "x": 14,
+                        "x": 20,
                         "y": 240,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -1522,9 +1547,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
-                        "x": 504,
-                        "y": 674
+                        "map": "mistraltoncity_c",
+                        "x": 120,
+                        "y": 262
+                    },
+                    {
+                        "map": "mistraltoncity_n",
+                        "x": 500,
+                        "y": 672
                     }
                 ]
             },
@@ -1538,9 +1568,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
+                        "map": "mistraltoncity_s",
                         "x": 88,
-                        "y": 943
+                        "y": 121
                     }
                 ]
             },
@@ -1554,9 +1584,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
+                        "map": "mistraltoncity_s",
                         "x": 136,
-                        "y": 1044
+                        "y": 222
                     }
                 ]
             },
@@ -1570,9 +1600,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
+                        "map": "mistraltoncity_s",
                         "x": 360,
-                        "y": 1069
+                        "y": 249
                     }
                 ]
             },
@@ -1586,9 +1616,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
+                        "map": "mistraltoncity_s",
                         "x": 296,
-                        "y": 1147
+                        "y": 318
                     }
                 ]
             },
@@ -1602,9 +1632,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
+                        "map": "mistraltoncity_c",
+                        "x": 72,
+                        "y": 83
+                    },
+                    {
+                        "map": "mistraltoncity_n",
                         "x": 456,
-                        "y": 505
+                        "y": 493
                     }
                 ]
             },
@@ -1630,9 +1665,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
-                        "x": 233,
-                        "y": 110
+                        "map": "mistraltoncity_n",
+                        "x": 232,
+                        "y": 147
                     }
                 ]
             },
@@ -1754,9 +1789,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "mistraltoncity",
-                        "x": 634,
-                        "y": 713
+                        "map": "mistraltoncity_c",
+                        "x": 248,
+                        "y": 298
                     },
                     {
                         "map": "chargestonecaveoutside",
@@ -1775,9 +1810,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 136,
-                        "y": 392
+                        "y": 390
                     }
                 ]
             },
@@ -1791,9 +1826,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 968,
-                        "y": 453
+                        "map": "icirruscity_e",
+                        "x": 472,
+                        "y": 52
                     }
                 ]
             },
@@ -1807,9 +1842,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 1000,
-                        "y": 469
+                        "map": "icirruscity_e",
+                        "x": 504,
+                        "y": 66
                     }
                 ]
             },
@@ -1823,9 +1858,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 504,
-                        "y": 637
+                        "y": 631
+                    },
+                    {
+                        "map": "icirruscity_e",
+                        "x": 10,
+                        "y": 232
                     }
                 ]
             },
@@ -1839,9 +1879,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 216,
-                        "y": 389
+                        "y": 390
                     }
                 ]
             },
@@ -1855,9 +1895,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 552,
-                        "y": 828
+                        "map": "icirruscity_e",
+                        "x": 56,
+                        "y": 438
                     }
                 ]
             },
@@ -1871,9 +1911,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 600,
-                        "y": 828
+                        "map": "icirruscity_e",
+                        "x": 104,
+                        "y": 438
                     }
                 ]
             },
@@ -1887,9 +1927,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 632,
-                        "y": 828
+                        "map": "icirruscity_e",
+                        "x": 136,
+                        "y": 438
                     }
                 ]
             },
@@ -1903,9 +1943,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 375,
-                        "y": 102
+                        "y": 81
                     }
                 ]
             },
@@ -1923,9 +1963,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 152,
-                        "y": 276
+                        "y": 261
                     }
                 ]
             },
@@ -1939,9 +1979,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 808,
-                        "y": 764
+                        "map": "icirruscity_e",
+                        "x": 312,
+                        "y": 352
                     }
                 ]
             },
@@ -1955,9 +1995,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 392,
-                        "y": 454
+                        "y": 445
                     }
                 ]
             },
@@ -1983,14 +2023,73 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 200,
-                        "y": 67
+                        "y": 93
                     }
                 ]
             },
             {
                 "name": "Icirrus City Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity_w",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters (Spring)",
@@ -2071,11 +2170,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "icirruscity_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -2298,9 +2397,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "icirruscity",
+                        "map": "icirruscity_w",
                         "x": 168,
-                        "y": 649
+                        "y": 644
                     },
                     {
                         "map": "twistmountainoutside",
@@ -2321,7 +2420,7 @@
                     {
                         "map": "opelucidcity",
                         "x": 712,
-                        "y": 658
+                        "y": 657
                     }
                 ]
             },
@@ -2337,7 +2436,7 @@
                     {
                         "map": "opelucidcity",
                         "x": 568,
-                        "y": 267
+                        "y": 266
                     }
                 ]
             },
@@ -2357,7 +2456,7 @@
                     {
                         "map": "opelucidcity",
                         "x": 552,
-                        "y": 404
+                        "y": 392
                     }
                 ]
             },
@@ -2373,7 +2472,7 @@
                     {
                         "map": "opelucidcity",
                         "x": 504,
-                        "y": 216
+                        "y": 199
                     }
                 ]
             },
@@ -2429,7 +2528,7 @@
                     {
                         "map": "opelucidcity",
                         "x": 344,
-                        "y": 211
+                        "y": 199
                     }
                 ]
             },
@@ -2445,7 +2544,7 @@
                     {
                         "map": "lacunosatown",
                         "x": 104,
-                        "y": 232
+                        "y": 230
                     }
                 ]
             },
@@ -2461,7 +2560,7 @@
                     {
                         "map": "lacunosatown",
                         "x": 392,
-                        "y": 144
+                        "y": 180
                     }
                 ]
             },
@@ -2477,7 +2576,7 @@
                     {
                         "map": "lacunosatown",
                         "x": 440,
-                        "y": 93
+                        "y": 82
                     }
                 ]
             },
@@ -2493,7 +2592,7 @@
                     {
                         "map": "lacunosatown",
                         "x": 328,
-                        "y": 386
+                        "y": 376
                     }
                 ]
             },
@@ -2509,7 +2608,7 @@
                     {
                         "map": "undellatown",
                         "x": 344,
-                        "y": 84
+                        "y": 82
                     }
                 ]
             },
@@ -2525,7 +2624,7 @@
                     {
                         "map": "undellatown",
                         "x": 904,
-                        "y": 148
+                        "y": 185
                     }
                 ]
             },
@@ -2541,7 +2640,7 @@
                     {
                         "map": "undellatown",
                         "x": 680,
-                        "y": 235
+                        "y": 244
                     }
                 ]
             },
