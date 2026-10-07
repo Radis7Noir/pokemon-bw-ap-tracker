@@ -735,19 +735,14 @@ function onMap(mapBounce)
     local xz_split = MAP_SPLIT_MAPPING and MAP_SPLIT_MAPPING[mapID]
 
     if xz_split then
-        print("This works")
         local matrixX = mapBounce.data.matrix32X
         local matrixZ = mapBounce.data.matrix32Z
         local tabs = MAP_SPLIT_MAPPING[mapID] and MAP_SPLIT_MAPPING[mapID][matrixX] and MAP_SPLIT_MAPPING[mapID][matrixX][matrixZ]
         if tabs then
-        print("Still working")
             for _, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
-                print("Hey!")
             end
-        print("Guten Tag")
         end
-    print("Bonsoir")
     elseif MAP_MAPPING and MAP_MAPPING[mapID] then    
         local tabs = MAP_MAPPING[mapID]
         if tabs then
@@ -756,8 +751,8 @@ function onMap(mapBounce)
             end
         end
     else
-        print("No Mapping found for:")
-        print(dump_table(mapBounce))
+        --print("No Mapping found for:")
+        --print(dump_table(mapBounce))
     end
 end
 

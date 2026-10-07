@@ -6,15 +6,27 @@
         "img": "images/maps/goal/goal.png"
     },
     {
-        "name": "mistraltoncity",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "images/maps/mistraltoncity_b.png"
+        "name": "mistraltoncity_c",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mistraltoncity_b_c.png"
+    },
+    {
+        "name": "mistraltoncity_n",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mistraltoncity_b_n.png"
+    },
+    {
+        "name": "mistraltoncity_s",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mistraltoncity_b_s.png"
     },
     {
         "name": "opelucidcity",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/opelucidcity_b.png"
     },
     {

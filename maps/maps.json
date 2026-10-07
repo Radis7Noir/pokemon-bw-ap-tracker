@@ -13,9 +13,15 @@
     },
     {
         "name": "striatoncity",
-        "location_size": 21,
-        "location_border_thickness": 3,
-        "img": "images/maps/striatoncity.png"
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/striatoncity_e.png"
+    },
+    {
+        "name": "striatongarden",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/striatoncity_w.png"
     },
     {
         "name": "fennelshouse1f",
@@ -61,21 +67,27 @@
     },
     {
         "name": "nimbasacity",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nimbasacity.png"
     },
     {
-        "name": "nimbasacityeast",
-        "location_size": 21,
-        "location_border_thickness": 3,
-        "img": "images/maps/nimbasacityeast.png"
+        "name": "nimbasacitypark",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/nimbasacitypark.png"
     },
     {
-        "name": "driftveilcity",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/driftveilcity.png"
+        "name": "driftveilcity_e",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/driftveilcity_e.png"
+    },
+    {
+        "name": "driftveilcity_w",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/driftveilcity_w.png"
     },
     {
         "name": "driftveilmarket",
@@ -84,10 +96,16 @@
         "img": "images/maps/driftveilmarket.png"
     },
     {
-        "name": "icirruscity",
+        "name": "icirruscity_w",
         "location_size": 21,
         "location_border_thickness": 3,
-        "img": "images/maps/icirruscity.png"
+        "img": "images/maps/icirruscity_w.png"
+    },
+    {
+        "name": "icirruscity_e",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/icirruscity_e.png"
     },
     {
         "name": "lacunosatown",
@@ -120,22 +138,52 @@
         "img": "images/maps/route1_e.png"
     },
     {
-        "name": "route2",
-        "location_size": 21,
-        "location_border_thickness": 3,
-        "img": "images/maps/route2.png"
+        "name": "route2_s",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route2_s.png"
     },
     {
-        "name": "route3",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/route3.png"
+        "name": "route2_n",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route2_n.png"
     },
     {
-        "name": "route4",
+        "name": "route3_e",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route3_e.png"
+    },
+    {
+        "name": "route3_w",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route3_w.png"
+    },
+    {
+        "name": "route4_se",
         "location_size": 35,
         "location_border_thickness": 5,
-        "img": "images/maps/route4.png"
+        "img": "images/maps/route4_se.png"
+    },
+    {
+        "name": "route4_sw",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/route4_sw.png"
+    },
+    {
+        "name": "route4_ne",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/route4_ne.png"
+    },
+    {
+        "name": "route4_nw",
+        "location_size": 35,
+        "location_border_thickness": 5,
+        "img": "images/maps/route4_nw.png"
     },
     {
         "name": "route5",
@@ -144,16 +192,28 @@
         "img": "images/maps/route5.png"
     },
     {
-        "name": "route6",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/route6.png"
+        "name": "route6_n",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/route6_n.png"
     },
     {
-        "name": "route7",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/route7.png"
+        "name": "route6_s",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route6_s.png"
+    },
+    {
+        "name": "route7_w",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/route7_w.png"
+    },
+    {
+        "name": "route7_e",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route7_e.png"
     },
     {
         "name": "route8",
@@ -168,10 +228,28 @@
         "img": "images/maps/route9.png"
     },
     {
-        "name": "route10",
-        "location_size": 21,
-        "location_border_thickness": 3,
-        "img": "images/maps/route10.png"
+        "name": "shoppingmallnine",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/shoppingmallnine.png"
+    },
+    {
+        "name": "shoppingmallninestorageroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/shoppingmallninestorageroom.png"
+    },
+    {
+        "name": "route10_w",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route10_w.png"
+    },
+    {
+        "name": "route10_e",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route10_e.png"
     },
     {
         "name": "route11",
@@ -186,16 +264,40 @@
         "img": "images/maps/route12.png"
     },
     {
-        "name": "route13",
-        "location_size": 35,
-        "location_border_thickness": 5,
-        "img": "images/maps/route13.png"
+        "name": "route13_n",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route13_n.png"
     },
     {
-        "name": "route14",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/route14.png"
+        "name": "route13_c",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route13_c.png"
+    },
+    {
+        "name": "route13_sw",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route13_sw_wingull.png"
+    },
+    {
+        "name": "route13_se",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route13_se.png"
+    },
+    {
+        "name": "route14_e",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/route14_e.png"
+    },
+    {
+        "name": "route14_w",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/route14_w.png"
     },
     {
         "name": "route15",
@@ -210,10 +312,16 @@
         "img": "images/maps/route16.png"
     },
     {
-        "name": "routes_17_18_p2lab",
-        "location_size": 28,
-        "location_border_thickness": 4,
-        "img": "images/maps/routes_17_18_p2lab.png"
+        "name": "route17_p2lab",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/route17_p2lab.png"
+    },
+    {
+        "name": "route18",
+        "location_size": 21,
+        "location_border_thickness": 3,
+        "img": "images/maps/route18.png"
     },
     {
         "name": "dreamyard",
@@ -240,10 +348,16 @@
         "img": "images/maps/wellspringcaveb1f.png"
     },
     {
-        "name": "pinwheelforestoutside",
-        "location_size": 21,
-        "location_border_thickness": 3,
-        "img": "images/maps/pinwheelforestoutside.png"
+        "name": "pinwheelforestentrance_n",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pinwheelforestentrance_n.png"
+    },
+    {
+        "name": "pinwheelforestentrance_s",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/pinwheelforestentrance_s.png"
     },
     {
         "name": "pinwheelforest",

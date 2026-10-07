@@ -1208,7 +1208,7 @@
                 ]
             },
             {
-                "name": "Nimbasa City East\u200b",
+                "name": "Nimbasa City Park\u200b",
                 "sections": [
                     {
                         "name": "Item near ferris wheel",
@@ -1217,14 +1217,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "nimbasacityeast",
+                        "map": "nimbasacitypark",
                         "x": 676,
                         "y": 386
                     }
                 ]
             },
             {
-                "name": "Nimbasa City East\u200b\u200b",
+                "name": "Nimbasa City Park\u200b\u200b",
                 "sections": [
                     {
                         "name": "Hidden item near ferris wheel",
@@ -1233,7 +1233,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "nimbasacityeast",
+                        "map": "nimbasacitypark",
                         "x": 852,
                         "y": 386
                     }
@@ -1261,7 +1261,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "nimbasacityeast",
+                        "map": "nimbasacitypark",
                         "x": 514,
                         "y": 152
                     }
