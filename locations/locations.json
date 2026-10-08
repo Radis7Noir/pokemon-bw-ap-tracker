@@ -37,6 +37,7 @@
                         "chest_unopened_img": "images/events/tornadus.png",
                         "chest_opened_img": "images/events/cleared/tornadus_cleared.png",
                         "access_rules": [
+                            "defeatdrayden,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,not_dynamic,^$static_encounter",
                             "defeatdrayden,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,[]"
                         ],
                         "visibility_rules": [
@@ -48,6 +49,7 @@
                         "chest_unopened_img": "images/events/thundurus.png",
                         "chest_opened_img": "images/events/cleared/thundurus_cleared.png",
                         "access_rules": [
+                            "defeatiris,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,not_dynamic,^$static_encounter",
                             "defeatiris,@Opelucid City North Gate Access,@Route 7 Access,@Route 7 North House Access,[]"
                         ],
                         "visibility_rules": [
@@ -551,6 +553,7 @@
                         "chest_unopened_img": "images/events/lass_lillil.png",
                         "chest_opened_img": "images/events/cleared/lass_lillil_cleared.png",
                         "access_rules": [
+                            "@Nacrene City South East Left House Access,not_dynamic,^$trade|546",
                             "@Nacrene City South East Left House Access,caught_546,[]"
                         ],
                         "visibility_rules": [
@@ -562,6 +565,7 @@
                         "chest_unopened_img": "images/events/lass_fluffee.png",
                         "chest_opened_img": "images/events/cleared/lass_fluffee_cleared.png",
                         "access_rules": [
+                            "@Nacrene City South East Left House Access,not_dynamic,^$trade|548",
                             "@Nacrene City South East Left House Access,caught_548,[]"
                         ],
                         "visibility_rules": [
@@ -1302,6 +1306,7 @@
                         "chest_unopened_img": "images/events/youngster_redeye.png",
                         "chest_opened_img": "images/events/cleared/youngster_redeye_cleared.png",
                         "access_rules": [
+                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
                             "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
@@ -1313,6 +1318,7 @@
                         "chest_unopened_img": "images/events/youngster_blueye.png",
                         "chest_opened_img": "images/events/cleared/youngster_blueye_cleared.png",
                         "access_rules": [
+                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
                             "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
@@ -11734,6 +11740,7 @@
                         "chest_unopened_img": "images/events/reshiram.png",
                         "chest_opened_img": "images/events/cleared/reshiram_cleared.png",
                         "access_rules": [
+                            "@N's Castle Throne Room Access,not_dynamic,^$static_encounter",
                             "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
@@ -11745,6 +11752,7 @@
                         "chest_unopened_img": "images/events/zekrom.png",
                         "chest_opened_img": "images/events/cleared/zekrom_cleared.png",
                         "access_rules": [
+                            "@N's Castle Throne Room Access,not_dynamic,^$static_encounter",
                             "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
