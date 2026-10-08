@@ -715,8 +715,8 @@
     },
     {
         "name": "challengerscaveb2f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/challengerscaveb2f.png"
     },
     {
@@ -829,14 +829,14 @@
     },
     {
         "name": "giantchasmcave",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/giantchasmcave.png"
     },
     {
         "name": "giantchasmcrater",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/giantchasmcrater.png"
     },
     {

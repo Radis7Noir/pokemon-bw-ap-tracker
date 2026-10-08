@@ -388,6 +388,12 @@
                 "img": "/images/settings/adjustlevels_wilds.png",
                 "codes": "adjust_wilds,adjust_wilds_sphere",
                 "inherit_codes": false
+            },
+            {
+                "name": "Adjust Wilds - By Distance & Sphere",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "codes": "adjust_wilds,adjust_wilds_distance_sphere",
+                "inherit_codes": false
             }
         ]
     },
@@ -415,6 +421,12 @@
                 "name": "Adjust Trainers - By Sphere",
                 "img": "/images/settings/adjustlevels_wilds_trainers.png",
                 "codes": "adjust_trainers, adjust_trainers_sphere",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Trainers - By Distance & Sphere",
+                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "codes": "adjust_trainers, adjust_trainers_distance_sphere",
                 "inherit_codes": false
             }
         ]
@@ -4088,11 +4100,6 @@
                 "inherit_codes": false
             }
         ]
-    },
-    {
-        "name": "All Pokemon Seen (Hidden Option)",
-        "type": "toggle",
-        "codes": "all_pokemon_seen"
     },
     {
         "name": "Extra Logic - S.S. Ticket",

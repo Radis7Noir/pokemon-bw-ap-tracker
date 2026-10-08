@@ -62,7 +62,7 @@ function applyCodes(tbl) -- helper for slot data processing. we can't do a clean
             local stages = {}
             for name, entry in pairs(LIST_CODES[k].stages or {}) do -- more than two stages, basically just for adjust levels lol
                 local code, stage = entry[1], entry[2]
-                stages[code] = math.max(stages[code] or 0, content[name] and stage or 0)
+                stages[code] = (stages[code] or 0) + (content[name] and stage or 0)
             end
             for code, stage in pairs(stages) do
                 Tracker:FindObjectForCode(code).CurrentStage = stage
@@ -274,8 +274,6 @@ function onClear(slot_data)
             Tracker:FindObjectForCode("formsanity").AcquiredCount = v
         elseif k == "shinyformsanity" then
             Tracker:FindObjectForCode("shinyformsanity").AcquiredCount = v
-        elseif k == "all_pokemon_seen" then
-            Tracker:FindObjectForCode("all_pokemon_seen").Active = (v == 1)
         end
     end
 
@@ -313,6 +311,24 @@ function onClear(slot_data)
     if not move_strength_boulders_found then
         Tracker:FindObjectForCode("mo_strength_boulders").CurrentStage = 0
     end
+
+    -- all_pokemon_seen and disallowed_all_seen processing
+    AUTO_SEEN = {}
+    -- all_pokemon_seen can be nerfed because of seensanity and seencountsanity variants
+    local all_seen = slot_data.options and slot_data.options["all_pokemon_seen"] -- getting the all_pokemon_seen option
+    if all_seen == 1 or all_seen == true then
+        local disallowed = {}
+        for _, dex in ipairs(slot_data["disallowed_all_seen"] or {}) do -- getting the disallowed list
+            disallowed[dex] = true
+        end
+        for i = 1, 649 do
+            if not disallowed[i] then AUTO_SEEN[i] = true end
+        end
+    end
+    -- now we actually build the counter (and then it will be updated by the updateSeen function)
+    local base_seen = 0
+    for _ in pairs(AUTO_SEEN) do base_seen = base_seen + 1 end
+    Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = base_seen
 
     -- pokémon sanities processing
     local dexsanity_numbers = slot_data["all_dexsanity_numbers"] or {} -- new key in 0.4.0, breaks compat with previous versions
@@ -562,6 +578,10 @@ function updateSeen()
     -- count species, not forms
     local seen_dex = {}
     local seen_count = 0
+    for dex_number in pairs(AUTO_SEEN or {}) do
+        seen_dex[dex_number] = true
+        seen_count = seen_count + 1
+    end
     for _, pokemon_id in ipairs(SEEN) do
         local dex_number = pokemon_id & 0x7FF
         if not seen_dex[dex_number] then
@@ -659,7 +679,7 @@ function updatePokemon()
         local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = false
 
-        if has("all_pokemon_seen") then
+        if (AUTO_SEEN or {})[dex_number] then
             is_seen = true
         else
             is_seen = table_contains(SEEN, pokemon_id)
