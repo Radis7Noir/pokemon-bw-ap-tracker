@@ -931,7 +931,7 @@
                             "@Castelia City Castelia Street East Building 1F Access"
                         ],
                         "visibility_rules": [
-                            "show_mons,$sanity_visible|seensanity|570"
+                            "show_items,show_mons,$sanity_visible|seensanity|570"
                         ]
                     },
                     {
