@@ -37,8 +37,8 @@
     },
     {
         "name": "nacrenecity",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nacrenecity.png"
     },
     {
@@ -67,8 +67,8 @@
     },
     {
         "name": "nimbasacity",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nimbasacity.png"
     },
     {
@@ -85,8 +85,8 @@
     },
     {
         "name": "driftveilcity_w",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/driftveilcity_w.png"
     },
     {
@@ -97,8 +97,8 @@
     },
     {
         "name": "icirruscity_w",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/icirruscity_w.png"
     },
     {
@@ -115,26 +115,26 @@
     },
     {
         "name": "undellatown",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/undellatown.png"
     },
     {
         "name": "anvilletown",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/anvilletown.png"
     },
     {
         "name": "route1_w",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route1_w.png"
     },
     {
         "name": "route1_e",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route1_e.png"
     },
     {
@@ -163,38 +163,38 @@
     },
     {
         "name": "route4_se",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route4_se.png"
     },
     {
         "name": "route4_sw",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route4_sw.png"
     },
     {
         "name": "route4_ne",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route4_ne.png"
     },
     {
         "name": "route4_nw",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route4_nw.png"
     },
     {
         "name": "route5",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route5.png"
     },
     {
         "name": "route6_n",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route6_n.png"
     },
     {
@@ -205,8 +205,8 @@
     },
     {
         "name": "route7_w",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route7_w.png"
     },
     {
@@ -217,8 +217,8 @@
     },
     {
         "name": "route8",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route8.png"
     },
     {
@@ -253,14 +253,14 @@
     },
     {
         "name": "route11",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route11.png"
     },
     {
         "name": "route12",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route12.png"
     },
     {
@@ -289,8 +289,8 @@
     },
     {
         "name": "route14_e",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route14_e.png"
     },
     {
@@ -313,20 +313,20 @@
     },
     {
         "name": "route17_p2lab",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route17_p2lab.png"
     },
     {
         "name": "route18",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/route18.png"
     },
     {
         "name": "dreamyard",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/dreamyard.png"
     },
     {
@@ -343,8 +343,8 @@
     },
     {
         "name": "wellspringcaveb1f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/wellspringcaveb1f.png"
     },
     {
@@ -361,8 +361,8 @@
     },
     {
         "name": "pinwheelforest",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/pinwheelforest.png"
     },
     {
@@ -373,14 +373,14 @@
     },
     {
         "name": "skyarrowbridge",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/skyarrowbridge.png"
     },
     {
         "name": "libertygarden",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/libertygarden.png"
     },
     {
@@ -397,8 +397,8 @@
     },
     {
         "name": "desertresort",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/desertresort.png"
     },
     {
@@ -505,14 +505,14 @@
     },
     {
         "name": "lostlornforest",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/lostlornforest.png"
     },
     {
         "name": "coldstorageoutside",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/coldstorageoutside.png"
     },
     {
@@ -553,20 +553,20 @@
     },
     {
         "name": "chargestonecave1f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/chargestonecave1f.png"
     },
     {
         "name": "chargestonecaveb1f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/chargestonecaveb1f.png"
     },
     {
         "name": "chargestonecaveb2f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/chargestonecaveb2f.png"
     },
     {
@@ -607,26 +607,26 @@
     },
     {
         "name": "twistmountainupperlevel",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/twistmountainupperlevel.png"
     },
     {
         "name": "twistmountain",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/twistmountain.png"
     },
     {
         "name": "twistmountainmiddlelevel",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/twistmountainmiddlelevel.png"
     },
     {
         "name": "twistmountainlowerlevel",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/twistmountainlowerlevel.png"
     },
     {
@@ -643,8 +643,8 @@
     },
     {
         "name": "dragonspiraltoweroutside",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/dragonspiraltoweroutside.png"
     },
     {
@@ -691,8 +691,8 @@
     },
     {
         "name": "mooroficirrus",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/mooroficirrus.png"
     },
     {
@@ -715,20 +715,20 @@
     },
     {
         "name": "challengerscaveb2f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/challengerscaveb2f.png"
     },
     {
         "name": "victoryroadoutside",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/victoryroadoutside.png"
     },
     {
         "name": "victoryroad1f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/victoryroad1f.png"
     },
     {
@@ -739,14 +739,14 @@
     },
     {
         "name": "victoryroad3f",
-        "location_size": 18,
+        "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/victoryroad3f.png"
     },
     {
         "name": "victoryroad4f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/victoryroad4f.png"
     },
     {
@@ -787,38 +787,38 @@
     },
     {
         "name": "nscastle1f",
-        "location_size": 14,
-        "location_border_thickness": 2,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastle1f.png"
     },
     {
         "name": "nscastle2f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastle2f.png"
     },
     {
         "name": "nscastle3f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastle3f.png"
     },
     {
         "name": "nscastle4f",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastle4f.png"
     },
     {
         "name": "nscastle5f",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/nscastle5f.png"
     },
     {
         "name": "villagebridge",
-        "location_size": 28,
-        "location_border_thickness": 4,
+        "location_size": 21,
+        "location_border_thickness": 3,
         "img": "images/maps/villagebridge.png"
     },
     {
@@ -829,14 +829,14 @@
     },
     {
         "name": "giantchasmcave",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/giantchasmcave.png"
     },
     {
         "name": "giantchasmcrater",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/giantchasmcrater.png"
     },
     {
@@ -847,8 +847,8 @@
     },
     {
         "name": "undellabay",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/undellabay.png"
     },
     {
@@ -877,14 +877,14 @@
     },
     {
         "name": "abundantshrine",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/abundantshrine.png"
     },
     {
         "name": "marvelousbridge",
-        "location_size": 35,
-        "location_border_thickness": 5,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/marvelousbridge.png"
     },
     {

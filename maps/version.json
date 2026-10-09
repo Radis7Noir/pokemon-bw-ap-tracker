@@ -13,8 +13,8 @@
     },
     {
         "name": "mistraltoncity_n",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/mistraltoncity_b_n.png"
     },
     {
@@ -25,8 +25,8 @@
     },
     {
         "name": "opelucidcity",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/opelucidcity_b.png"
     },
     {

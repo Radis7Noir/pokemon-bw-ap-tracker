@@ -24,7 +24,7 @@
                     {
                         "map": "nuvematown",
                         "x": 152,
-                        "y": 93
+                        "y": 98
                     }
                 ]
             },
@@ -1533,10 +1533,10 @@
                     },
                     {
                         "map": "route5",
-                        "x": 20,
+                        "x": 16,
                         "y": 240,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -1557,7 +1557,7 @@
                     },
                     {
                         "map": "mistraltoncity_n",
-                        "x": 500,
+                        "x": 504,
                         "y": 672
                     }
                 ]
@@ -2712,7 +2712,7 @@
                 ]
             },
             {
-                "name": "Route 1\u200b",
+                "name": "Route 1 East\u200b",
                 "sections": [
                     {
                         "name": "Items after catching tutorial",
@@ -2721,14 +2721,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
-                        "x": 840,
+                        "map": "route1_e",
+                        "x": 328,
                         "y": 711
                     }
                 ]
             },
             {
-                "name": "Route 1\u200b\u200b",
+                "name": "Route 1 East\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from woman",
@@ -2737,9 +2737,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
-                        "x": 936,
-                        "y": 392
+                        "map": "route1_e",
+                        "x": 424,
+                        "y": 400
                     }
                 ]
             },
@@ -2753,9 +2753,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
+                        "map": "route1_w",
                         "x": 376,
-                        "y": 1123
+                        "y": 698
                     }
                 ]
             },
@@ -2769,9 +2769,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
+                        "map": "route1_w",
                         "x": 120,
-                        "y": 632
+                        "y": 208
                     }
                 ]
             },
@@ -2785,9 +2785,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
+                        "map": "route1_w",
                         "x": 392,
-                        "y": 1080
+                        "y": 655
                     }
                 ]
             },
@@ -2801,9 +2801,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
+                        "map": "route1_w",
                         "x": 472,
-                        "y": 650
+                        "y": 234
                     }
                 ]
             },
@@ -2817,9 +2817,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
+                        "map": "route1_w",
                         "x": 344,
-                        "y": 970
+                        "y": 553
                     }
                 ]
             },
@@ -2827,12 +2827,43 @@
                 "name": "Route 1 Encounters",
                 "sections": [
                     {
-                        "name": "Land Encounters",
-                        "ref": "Unova Locations/Route 1/Land Encounters"
-                    },
-                    {
                         "name": "Dark Grass Encounters",
                         "ref": "Unova Locations/Route 1/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 1/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 1/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 1/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 1/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 1/Land Encounters"
                     },
                     {
                         "name": "Land Phenomena",
@@ -2857,17 +2888,17 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route1",
-                        "x": 96,
-                        "y": 449,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "map": "route1_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b",
+                "name": "Route 2 North\u200b",
                 "sections": [
                     {
                         "name": "East item #1",
@@ -2876,14 +2907,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
-                        "x": 968,
-                        "y": 309
+                        "map": "route2_n",
+                        "x": 840,
+                        "y": 307
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b\u200b",
+                "name": "Route 2 North\u200b\u200b",
                 "sections": [
                     {
                         "name": "East item #2",
@@ -2892,14 +2923,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
-                        "x": 936,
-                        "y": 296
+                        "map": "route2_n",
+                        "x": 808,
+                        "y": 294
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b\u200b\u200b",
+                "name": "Route 2 South\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South west item",
@@ -2908,14 +2939,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
+                        "map": "route2_s",
                         "x": 200,
-                        "y": 433
+                        "y": 18
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b\u200b\u200b\u200b",
+                "name": "Route 2 South\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item behind boulder",
@@ -2924,14 +2955,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
+                        "map": "route2_s",
                         "x": 184,
-                        "y": 610
+                        "y": 198
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b\u200b\u200b\u200b\u200b",
+                "name": "Route 2 North\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item behind cut tree #1",
@@ -2940,14 +2971,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
-                        "x": 456,
-                        "y": 238
+                        "map": "route2_n",
+                        "x": 328,
+                        "y": 236
                     }
                 ]
             },
             {
-                "name": "Route 2\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "Route 2 North\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item behind cut tree #2",
@@ -2956,9 +2987,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
-                        "x": 280,
-                        "y": 136
+                        "map": "route2_n",
+                        "x": 152,
+                        "y": 134
                     }
                 ]
             },
@@ -2976,17 +3007,25 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route2",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "map": "route2_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route2_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
             },
             {
-                "name": "Route 3 North",
+                "name": "Route 3",
                 "sections": [
                     {
                         "name": "Hidden item in sandbox",
@@ -2995,14 +3034,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 856,
-                        "y": 175
+                        "y": 173
                     }
                 ]
             },
             {
-                "name": "Route 3 North\u200b",
+                "name": "Route 3\u200b",
                 "sections": [
                     {
                         "name": "North item",
@@ -3011,14 +3050,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 696,
                         "y": 191
                     }
                 ]
             },
             {
-                "name": "Route 3 North\u200b\u200b",
+                "name": "Route 3\u200b\u200b",
                 "sections": [
                     {
                         "name": "North west item",
@@ -3027,14 +3066,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 408,
                         "y": 178
                     }
                 ]
             },
             {
-                "name": "Route 3 North\u200b\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from pokémon breeder Adelaide",
@@ -3043,14 +3082,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 424,
                         "y": 102
                     }
                 ]
             },
             {
-                "name": "Route 3 North\u200b\u200b\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Items from girl after Wellspring Cave",
@@ -3059,14 +3098,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 712,
                         "y": 289
                     }
                 ]
             },
             {
-                "name": "Route 3 South",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Center item",
@@ -3075,14 +3114,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 808,
                         "y": 447
                     }
                 ]
             },
             {
-                "name": "Route 3 South\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South item",
@@ -3091,14 +3130,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 552,
                         "y": 726
                     }
                 ]
             },
             {
-                "name": "Route 3 South\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South west item",
@@ -3107,14 +3146,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 328,
                         "y": 713
                     }
                 ]
             },
             {
-                "name": "Route 3 South\u200b\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South east hidden item",
@@ -3123,14 +3162,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 936,
                         "y": 583
                     }
                 ]
             },
             {
-                "name": "Route 3 Pond",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West hidden item",
@@ -3139,14 +3178,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 297,
                         "y": 433
                     }
                 ]
             },
             {
-                "name": "Route 3 Pond\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item across water",
@@ -3155,14 +3194,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 504,
                         "y": 418
                     }
                 ]
             },
             {
-                "name": "Route 3 Pond\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West item #1",
@@ -3171,14 +3210,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 152,
                         "y": 495
                     }
                 ]
             },
             {
-                "name": "Route 3 Pond\u200b\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West item #2",
@@ -3187,14 +3226,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 296,
                         "y": 345
                     }
                 ]
             },
             {
-                "name": "Route 3 Pond\u200b\u200b\u200b\u200b",
+                "name": "Route 3\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from pokémon breeder Galen",
@@ -3203,7 +3242,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
+                        "map": "route3_w",
                         "x": 232,
                         "y": 384
                     }
@@ -3243,11 +3282,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route3_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -3362,9 +3401,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route3",
-                        "x": 118,
-                        "y": 131
+                        "map": "route3_w",
+                        "x": 120,
+                        "y": 125
                     }
                 ]
             },
@@ -3378,9 +3417,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 376,
-                        "y": 1102
+                        "y": 347
                     }
                 ]
             },
@@ -3394,9 +3433,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 168,
-                        "y": 1226
+                        "y": 471
                     }
                 ]
             },
@@ -3410,9 +3449,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_nw",
                         "x": 344,
-                        "y": 764
+                        "y": 351
+                    },
+                    {
+                        "map": "route4_sw",
+                        "x": 344,
+                        "y": 9
                     }
                 ]
             },
@@ -3426,9 +3470,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 600,
-                        "y": 1422
+                        "map": "route4_se",
+                        "x": 88,
+                        "y": 625
                     }
                 ]
             },
@@ -3442,9 +3486,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 488,
-                        "y": 1151
+                        "y": 395
                     }
                 ]
             },
@@ -3458,9 +3502,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 232,
-                        "y": 930
+                        "y": 174
                     }
                 ]
             },
@@ -3474,9 +3518,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 360,
-                        "y": 826
+                        "y": 76
                     }
                 ]
             },
@@ -3490,9 +3534,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
+                        "map": "route4_sw",
                         "x": 296,
-                        "y": 1524
+                        "y": 794
                     }
                 ]
             },
@@ -3506,9 +3550,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 776,
-                        "y": 764
+                        "map": "route4_ne",
+                        "x": 264,
+                        "y": 762
                     }
                 ]
             },
@@ -3522,9 +3566,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 824,
-                        "y": 995
+                        "map": "route4_se",
+                        "x": 312,
+                        "y": 198
                     }
                 ]
             },
@@ -3538,9 +3582,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 520,
-                        "y": 944
+                        "map": "route4_se",
+                        "x": 8,
+                        "y": 147
                     }
                 ]
             },
@@ -3554,9 +3598,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 824,
-                        "y": 696
+                        "map": "route4_ne",
+                        "x": 312,
+                        "y": 698
                     }
                 ]
             },
@@ -3570,9 +3614,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 170,
-                        "y": 717
+                        "map": "route4_nw",
+                        "x": 168,
+                        "y": 300
                     }
                 ]
             },
@@ -3586,14 +3630,49 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 744,
-                        "y": 131
+                        "map": "route4_ne",
+                        "x": 232,
+                        "y": 115
                     }
                 ]
             },
             {
                 "name": "Route 4 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 4/Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route4_nw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route4_ne",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route4_se",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 4 Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -3618,11 +3697,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route4",
-                        "x": 584,
-                        "y": 87,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "map": "route4_sw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -3729,10 +3808,10 @@
                 "map_locations": [
                     {
                         "map": "route5",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -3747,9 +3826,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 536,
-                        "y": 200
+                        "y": 198
                     }
                 ]
             },
@@ -3763,9 +3842,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 648,
-                        "y": 341
+                        "y": 339
                     }
                 ]
             },
@@ -3779,9 +3858,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 200,
-                        "y": 280
+                        "y": 275
                     }
                 ]
             },
@@ -3795,9 +3874,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 920,
-                        "y": 187
+                        "y": 185
                     }
                 ]
             },
@@ -3811,9 +3890,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
-                        "x": 744,
-                        "y": 597
+                        "map": "route6_s",
+                        "x": 232,
+                        "y": 185
                     }
                 ]
             },
@@ -3827,9 +3906,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
-                        "x": 873,
-                        "y": 208
+                        "map": "route6_n",
+                        "x": 872,
+                        "y": 117
                     }
                 ]
             },
@@ -3843,9 +3922,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 520,
-                        "y": 124
+                        "y": 134
                     }
                 ]
             },
@@ -3859,9 +3938,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 568,
-                        "y": 124
+                        "y": 134
                     }
                 ]
             },
@@ -3875,9 +3954,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 328,
-                        "y": 121
+                        "y": 108
                     }
                 ]
             },
@@ -3891,9 +3970,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
-                        "x": 87,
-                        "y": 226
+                        "map": "route6_n",
+                        "x": 88,
+                        "y": 233
                     }
                 ]
             },
@@ -3907,9 +3986,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 904,
-                        "y": 393
+                        "y": 399
                     }
                 ]
             },
@@ -3923,9 +4002,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 632,
-                        "y": 204
+                        "y": 211
                     }
                 ]
             },
@@ -3939,9 +4018,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 280,
-                        "y": 254
+                        "y": 249
                     }
                 ]
             },
@@ -3955,9 +4034,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
+                        "map": "route6_n",
                         "x": 136,
-                        "y": 318
+                        "y": 314
                     }
                 ]
             },
@@ -4079,11 +4158,123 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route6_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 6 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Spring)"
+                    },
+
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route6_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -4186,9 +4377,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route6",
-                        "x": 969,
-                        "y": 125
+                        "map": "route6_n",
+                        "x": 970,
+                        "y": 122
                     }
                 ]
             },
@@ -4202,9 +4393,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
-                        "x": 952,
-                        "y": 264
+                        "map": "route7_e",
+                        "x": 440,
+                        "y": 262
                     }
                 ]
             },
@@ -4218,7 +4409,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 424,
                         "y": 214
                     }
@@ -4234,7 +4425,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 152,
                         "y": 290
                     }
@@ -4250,7 +4441,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 328,
                         "y": 572
                     }
@@ -4266,7 +4457,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 216,
                         "y": 276
                     }
@@ -4282,7 +4473,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 312,
                         "y": 227
                     }
@@ -4298,7 +4489,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 168,
                         "y": 717
                     }
@@ -4314,14 +4505,61 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
+                        "map": "route7_w",
                         "x": 104,
-                        "y": 464
+                        "y": 457
                     }
                 ]
             },
             {
                 "name": "Route 7 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route7_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 7 Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters (Spring)",
@@ -4374,11 +4612,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route7_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -4425,9 +4663,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route7",
-                        "x": 184,
-                        "y": 109
+                        "map": "route7_w",
+                        "x": 185,
+                        "y": 98
                     }
                 ]
             },
@@ -4459,7 +4697,7 @@
                     {
                         "map": "route8",
                         "x": 792,
-                        "y": 84
+                        "y": 81
                     }
                 ]
             },
@@ -4507,7 +4745,7 @@
                     {
                         "map": "route8",
                         "x": 520,
-                        "y": 70
+                        "y": 81
                     }
                 ]
             },
@@ -4523,7 +4761,7 @@
                     {
                         "map": "route8",
                         "x": 184,
-                        "y": 300
+                        "y": 313
                     }
                 ]
             },
@@ -4690,10 +4928,10 @@
                 "map_locations": [
                     {
                         "map": "route8",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -4826,7 +5064,7 @@
                     {
                         "map": "route8",
                         "x": 672,
-                        "y": 81
+                        "y": 70
                     }
                 ]
             },
@@ -4842,7 +5080,7 @@
                     {
                         "map": "route9",
                         "x": 248,
-                        "y": 368
+                        "y": 365
                     }
                 ]
             },
@@ -4874,7 +5112,7 @@
                     {
                         "map": "route9",
                         "x": 168,
-                        "y": 340
+                        "y": 351
                     }
                 ]
             },
@@ -4926,7 +5164,39 @@
                     {
                         "map": "route9",
                         "x": 416,
-                        "y": 120
+                        "y": 163
+                    }
+                ]
+            },
+            {
+                "name": "Shopping Mall Nine\u200b",
+                "sections": [
+                    {
+                        "name": "Item in storage room",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item in storage room"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoppingmallnine",
+                        "x": 312,
+                        "y": 284
+                    }
+                ]
+            },
+            {
+                "name": "Shopping Mall Nine\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Item from worker",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item from worker"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoppingmallnine",
+                        "x": 152,
+                        "y": 79
                     }
                 ]
             },
@@ -4949,10 +5219,10 @@
                 "map_locations": [
                     {
                         "map": "route9",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -5065,7 +5335,7 @@
                     {
                         "map": "route9",
                         "x": 232,
-                        "y": 422
+                        "y": 414
                     }
                 ]
             },
@@ -5079,9 +5349,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 456,
-                        "y": 251
+                        "y": 271
                     }
                 ]
             },
@@ -5095,9 +5365,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 424,
-                        "y": 67
+                        "y": 90
                     }
                 ]
             },
@@ -5111,9 +5381,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 472,
-                        "y": 81
+                        "y": 104
                     }
                 ]
             },
@@ -5127,9 +5397,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
-                        "x": 1032,
-                        "y": 351
+                        "map": "route10_e",
+                        "x": 200,
+                        "y": 373
                     }
                 ]
             },
@@ -5143,9 +5413,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 152,
-                        "y": 311
+                        "y": 341
                     }
                 ]
             },
@@ -5159,9 +5429,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 88,
-                        "y": 266
+                        "y": 269
                     }
                 ]
             },
@@ -5175,9 +5445,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 232,
-                        "y": 210
+                        "y": 230
                     }
                 ]
             },
@@ -5191,9 +5461,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 792,
-                        "y": 307
+                        "y": 336
                     }
                 ]
             },
@@ -5207,9 +5477,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 40,
-                        "y": 311
+                        "y": 341
                     }
                 ]
             },
@@ -5223,9 +5493,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 120,
-                        "y": 322
+                        "y": 352
                     }
                 ]
             },
@@ -5239,9 +5509,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 568,
-                        "y": 80
+                        "y": 104
                     }
                 ]
             },
@@ -5255,9 +5525,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
+                        "map": "route10_w",
                         "x": 664,
-                        "y": 143
+                        "y": 155
                     }
                 ]
             },
@@ -5279,11 +5549,34 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "map": "route10_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 10 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 10/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 10/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route10_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -5526,8 +5819,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
-                        "x": 1128,
+                        "map": "route10_e",
+                        "x": 296,
                         "y": 175
                     }
                 ]
@@ -5550,9 +5843,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route10",
-                        "x": 1128,
-                        "y": 195,
+                        "map": "route10_e",
+                        "x": 296,
+                        "y": 152,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -5568,7 +5863,7 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 134,
+                        "x": 136,
                         "y": 132
                     }
                 ]
@@ -5600,7 +5895,7 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 567,
+                        "x": 568,
                         "y": 60
                     }
                 ]
@@ -5616,8 +5911,8 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 247,
-                        "y": 274
+                        "x": 248,
+                        "y": 270
                     }
                 ]
             },
@@ -5632,8 +5927,8 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 279,
-                        "y": 110
+                        "x": 278,
+                        "y": 82
                     }
                 ]
             },
@@ -5648,8 +5943,8 @@
                 "map_locations": [
                     {
                         "map": "route11",
-                        "x": 439,
-                        "y": 237
+                        "x": 440,
+                        "y": 242
                     }
                 ]
             },
@@ -5665,7 +5960,7 @@
                     {
                         "map": "route11",
                         "x": 776,
-                        "y": 222
+                        "y": 267
                     }
                 ]
             },
@@ -5788,7 +6083,7 @@
                     {
                         "map": "route12",
                         "x": 376,
-                        "y": 120
+                        "y": 131
                     }
                 ]
             },
@@ -5875,10 +6170,10 @@
                 "map_locations": [
                     {
                         "map": "route12",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -5893,9 +6188,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 776,
-                        "y": 929
+                        "map": "route13_sw",
+                        "x": 264,
+                        "y": 120
                     }
                 ]
             },
@@ -5909,9 +6204,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 824,
-                        "y": 942
+                        "map": "route13_sw",
+                        "x": 312,
+                        "y": 134
                     }
                 ]
             },
@@ -5925,9 +6220,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 680,
-                        "y": 404
+                        "map": "route13_n",
+                        "x": 168,
+                        "y": 401
                     }
                 ]
             },
@@ -5941,9 +6236,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1016,
-                        "y": 1544
+                        "map": "route13_sw",
+                        "x": 504,
+                        "y": 735
                     }
                 ]
             },
@@ -5957,9 +6252,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 840,
-                        "y": 1096
+                        "map": "route13_sw",
+                        "x": 328,
+                        "y": 287
                     }
                 ]
             },
@@ -5973,9 +6268,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 968,
-                        "y": 272
+                        "map": "route13_n",
+                        "x": 456,
+                        "y": 269
                     }
                 ]
             },
@@ -5989,9 +6284,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1352,
-                        "y": 995
+                        "map": "route13_sw",
+                        "x": 840,
+                        "y": 187
                     }
                 ]
             },
@@ -6005,9 +6300,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1624,
-                        "y": 1372
+                        "map": "route13_se",
+                        "x": 88,
+                        "y": 141
                     }
                 ]
             },
@@ -6021,9 +6316,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1688,
-                        "y": 1414
+                        "map": "route13_se",
+                        "x": 24,
+                        "y": 168
                     }
                 ]
             },
@@ -6037,9 +6332,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1560,
-                        "y": 1386
+                        "map": "route13_se",
+                        "x": 152,
+                        "y": 193
                     }
                 ]
             },
@@ -6053,9 +6348,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1224,
-                        "y": 1093
+                        "map": "route13_sw",
+                        "x": 712,
+                        "y": 283
                     }
                 ]
             },
@@ -6069,9 +6364,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 1224,
-                        "y": 1180
+                        "map": "route13_sw",
+                        "x": 712,
+                        "y": 371
                     }
                 ]
             },
@@ -6085,9 +6380,14 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
+                        "map": "route13_c",
                         "x": 712,
-                        "y": 876
+                        "y": 458
+                    },
+                    {
+                        "map": "route13_sw",
+                        "x": 200,
+                        "y": 62
                     }
                 ]
             },
@@ -6101,9 +6401,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
+                        "map": "route13_c",
                         "x": 72,
-                        "y": 757
+                        "y": 347
                     }
                 ]
             },
@@ -6117,9 +6417,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
+                        "map": "route13_c",
                         "x": 840,
-                        "y": 632
+                        "y": 228
                     }
                 ]
             },
@@ -6133,9 +6433,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 952,
-                        "y": 1132
+                        "map": "route13_sw",
+                        "x": 440,
+                        "y": 331
                     }
                 ]
             },
@@ -6149,9 +6449,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 712,
-                        "y": 1055
+                        "map": "route13_sw",
+                        "x": 200,
+                        "y": 254
                     }
                 ]
             },
@@ -6165,9 +6465,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
+                        "map": "route13_c",
                         "x": 72,
-                        "y": 607
+                        "y": 234
                     }
                 ]
             },
@@ -6181,14 +6481,61 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
+                        "map": "route13_c",
                         "x": 696,
-                        "y": 661
+                        "y": 257
                     }
                 ]
             },
             {
                 "name": "Route 13 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route13_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route13_c",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13 Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -6217,6 +6564,45 @@
                     {
                         "name": "Rod Phenomena",
                         "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route13_sw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13 Encounters\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
                     },
                     {
                         "name": "Rock Smash Dwebble",
@@ -6225,11 +6611,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route13",
-                        "x": 38,
-                        "y": 442,
-                        "size": 50,
-                        "border_thickness": 8,
+                        "map": "route13_se",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -6244,9 +6630,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
-                        "x": 696,
-                        "y": 408
+                        "map": "route14_e",
+                        "x": 200,
+                        "y": 405
                     }
                 ]
             },
@@ -6260,9 +6646,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
-                        "x": 840,
-                        "y": 178
+                        "map": "route14_e",
+                        "x": 344,
+                        "y": 175
                     }
                 ]
             },
@@ -6276,9 +6662,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
-                        "x": 1367,
-                        "y": 204
+                        "map": "route14_e",
+                        "x": 872,
+                        "y": 211
                     }
                 ]
             },
@@ -6296,14 +6682,58 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
+                        "map": "route14_w",
                         "x": 552,
-                        "y": 298
+                        "y": 158
+                    },
+                    {
+                        "map": "route14_e",
+                        "x": 56,
+                        "y": 293
                     }
                 ]
             },
             {
                 "name": "Route 14 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 14/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 14/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 14/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 14/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 14/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 14/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route14_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 14 Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -6336,11 +6766,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
-                        "x": 538,
-                        "y": 8,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route14_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -6423,9 +6853,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "route14",
-                        "x": 95,
-                        "y": 444
+                        "map": "route14_w",
+                        "x": 96,
+                        "y": 296
                     }
                 ]
             },
@@ -6473,7 +6903,7 @@
                     {
                         "map": "route15",
                         "x": 488,
-                        "y": 403
+                        "y": 404
                     }
                 ]
             },
@@ -6489,7 +6919,7 @@
                     {
                         "map": "route15",
                         "x": 360,
-                        "y": 34
+                        "y": 104
                     }
                 ]
             },
@@ -6505,7 +6935,7 @@
                     {
                         "map": "route15",
                         "x": 776,
-                        "y": 381
+                        "y": 389
                     }
                 ]
             },
@@ -6521,7 +6951,7 @@
                     {
                         "map": "route15",
                         "x": 408,
-                        "y": 393
+                        "y": 401
                     }
                 ]
             },
@@ -6537,7 +6967,7 @@
                     {
                         "map": "route15",
                         "x": 232,
-                        "y": 248
+                        "y": 234
                     }
                 ]
             },
@@ -6596,7 +7026,7 @@
                     {
                         "map": "route16",
                         "x": 872,
-                        "y": 158
+                        "y": 183
                     }
                 ]
             },
@@ -6695,7 +7125,7 @@
                     {
                         "map": "route16",
                         "x": 576,
-                        "y": 68
+                        "y": 58
                     }
                 ]
             },
@@ -6709,9 +7139,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1640,
-                        "y": 571
+                        "map": "route17_p2lab",
+                        "x": 616,
+                        "y": 568
                     }
                 ]
             },
@@ -6725,9 +7155,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1336,
-                        "y": 584
+                        "map": "route17_p2lab",
+                        "x": 312,
+                        "y": 581
                     }
                 ]
             },
@@ -6741,9 +7171,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1560,
-                        "y": 455
+                        "map": "route17_p2lab",
+                        "x": 540,
+                        "y": 454
                     }
                 ]
             },
@@ -6757,9 +7187,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1528,
-                        "y": 82
+                        "map": "route17_p2lab",
+                        "x": 504,
+                        "y": 80
                     }
                 ]
             },
@@ -6773,9 +7203,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1208,
-                        "y": 274
+                        "map": "route17_p2lab",
+                        "x": 184,
+                        "y": 278
                     }
                 ]
             },
@@ -6789,8 +7219,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1048,
+                        "map": "route17_p2lab",
+                        "x": 24,
                         "y": 298
                     }
                 ]
@@ -6817,11 +7247,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route17_p2lab",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -6836,7 +7266,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 776,
                         "y": 518
                     }
@@ -6852,9 +7282,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 424,
-                        "y": 94
+                        "y": 80
                     }
                 ]
             },
@@ -6868,7 +7298,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 88,
                         "y": 634
                     }
@@ -6884,7 +7314,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 552,
                         "y": 489
                     }
@@ -6900,7 +7330,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 552,
                         "y": 688
                     }
@@ -6916,9 +7346,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 712,
-                        "y": 326
+                        "y": 333
                     }
                 ]
             },
@@ -6932,9 +7362,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 696,
-                        "y": 275
+                        "y": 282
                     }
                 ]
             },
@@ -6948,7 +7378,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 552,
                         "y": 512
                     }
@@ -6968,9 +7398,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 136,
-                        "y": 702
+                        "y": 709
                     }
                 ]
             },
@@ -6984,9 +7414,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
+                        "map": "route18",
                         "x": 456,
-                        "y": 379
+                        "y": 366
                     }
                 ]
             },
@@ -7024,11 +7454,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 92,
-                        "y": 65,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route18",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -7047,9 +7477,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1880,
-                        "y": 94
+                        "map": "route17_p2lab",
+                        "x": 856,
+                        "y": 85
                     }
                 ]
             },
@@ -7063,9 +7493,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 1720,
-                        "y": 301
+                        "map": "route17_p2lab",
+                        "x": 696,
+                        "y": 298
                     }
                 ]
             },
@@ -7099,11 +7529,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "routes_17_18_p2lab",
-                        "x": 142,
-                        "y": 65,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "route17_p2lab",
+                        "x": 44,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -7307,10 +7737,10 @@
                 "map_locations": [
                     {
                         "map": "dreamyard",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -7716,10 +8146,10 @@
                 "map_locations": [
                     {
                         "map": "wellspringcaveb1f",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -7734,9 +8164,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 456,
-                        "y": 547
+                        "map": "pinwheelforestentrance_s",
+                        "x": 360,
+                        "y": 94
                     }
                 ]
             },
@@ -7750,7 +8180,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
+                        "map": "pinwheelforestentrance_n",
                         "x": 440,
                         "y": 329
                     }
@@ -7766,7 +8196,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
+                        "map": "pinwheelforestentrance_n",
                         "x": 344,
                         "y": 186
                     }
@@ -7782,9 +8212,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 376,
-                        "y": 714
+                        "map": "pinwheelforestentrance_s",
+                        "x": 280,
+                        "y": 261
                     }
                 ]
             },
@@ -7798,9 +8228,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 152,
-                        "y": 804
+                        "map": "pinwheelforestentrance_s",
+                        "x": 56,
+                        "y": 351
                     }
                 ]
             },
@@ -7814,9 +8244,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 232,
-                        "y": 595
+                        "map": "pinwheelforestentrance_s",
+                        "x": 136,
+                        "y": 146
                     }
                 ]
             },
@@ -7830,7 +8260,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
+                        "map": "pinwheelforestentrance_n",
                         "x": 440,
                         "y": 114
                     }
@@ -7846,9 +8276,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 840,
-                        "y": 560
+                        "map": "pinwheelforestentrance_s",
+                        "x": 744,
+                        "y": 112
                     }
                 ]
             },
@@ -7862,9 +8292,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 344,
-                        "y": 799
+                        "map": "pinwheelforestentrance_s",
+                        "x": 248,
+                        "y": 347
                     }
                 ]
             },
@@ -7878,9 +8308,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 784,
-                        "y": 582
+                        "map": "pinwheelforestentrance_s",
+                        "x": 688,
+                        "y": 129
                     }
                 ]
             },
@@ -7894,7 +8324,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
+                        "map": "pinwheelforestentrance_n",
                         "x": 328,
                         "y": 125
                     }
@@ -7902,6 +8332,29 @@
             },
             {
                 "name": "Pinwheel Forest Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside Encounters\u200b",
                 "sections": [
                     {
                         "name": "Land Encounters",
@@ -7918,11 +8371,11 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "pinwheelforestoutside",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "map": "pinwheelforestentrance_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -8617,10 +9070,10 @@
                 "map_locations": [
                     {
                         "map": "desertresort",
-                        "x": 48,
-                        "y": 172,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -9776,7 +10229,7 @@
                     {
                         "map": "lostlornforest",
                         "x": 200,
-                        "y": 482
+                        "y": 478
                     }
                 ]
             },
@@ -9808,7 +10261,7 @@
                     {
                         "map": "lostlornforest",
                         "x": 376,
-                        "y": 593
+                        "y": 327
                     }
                 ]
             },
@@ -9906,8 +10359,8 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 73,
-                        "y": 314
+                        "x": 72,
+                        "y": 304
                     }
                 ]
             },
@@ -9931,7 +10384,7 @@
                     {
                         "map": "coldstorage",
                         "x": 88,
-                        "y": 124
+                        "y": 150
                     }
                 ]
             },
@@ -9947,7 +10400,7 @@
                     {
                         "map": "coldstorageoutside",
                         "x": 360,
-                        "y": 277
+                        "y": 272
                     }
                 ]
             },
@@ -10026,8 +10479,8 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 678,
-                        "y": 252
+                        "x": 680,
+                        "y": 272
                     }
                 ]
             },
@@ -10066,10 +10519,10 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -10102,7 +10555,7 @@
                     {
                         "map": "coldstorage",
                         "x": 200,
-                        "y": 318
+                        "y": 340
                     }
                 ]
             },
@@ -11112,7 +11565,7 @@
                     {
                         "map": "twistmountainoutside",
                         "x": 360,
-                        "y": 258
+                        "y": 274
                     }
                 ]
             },
@@ -11351,7 +11804,7 @@
                     {
                         "map": "twistmountain",
                         "x": 536,
-                        "y": 75
+                        "y": 83
                     }
                 ]
             },
@@ -11366,8 +11819,8 @@
                 "map_locations": [
                     {
                         "map": "twistmountainmiddlelevel",
-                        "x": 268,
-                        "y": 628
+                        "x": 264,
+                        "y": 624
                     }
                 ]
             },
@@ -11430,7 +11883,7 @@
                 "map_locations": [
                     {
                         "map": "twistmountainmiddlelevel",
-                        "x": 244,
+                        "x": 248,
                         "y": 624
                     }
                 ]
@@ -11958,10 +12411,10 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltoweroutside",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -11977,10 +12430,10 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltower1f",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -12028,10 +12481,10 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltower2f",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -12095,8 +12548,8 @@
                 "map_locations": [
                     {
                         "map": "dragonspiraltower5f",
-                        "x": 152,
-                        "y": 470
+                        "x": 141,
+                        "y": 423
                     }
                 ]
             },
@@ -12819,10 +13272,10 @@
                 "map_locations": [
                     {
                         "map": "victoryroadoutside",
-                        "x": 349,
-                        "y": 53,
-                        "size": 49,
-                        "border_thickness": 7,
+                        "x": 28,
+                        "y": 28,
+                        "size": 35,
+                        "border_thickness": 5,
                         "shape": "diamond"
                     }
                 ]
@@ -14140,7 +14593,7 @@
                     {
                         "map": "undellabay",
                         "x": 72,
-                        "y": 455
+                        "y": 488
                     }
                 ]
             },
@@ -14156,7 +14609,7 @@
                     {
                         "map": "undellabay",
                         "x": 88,
-                        "y": 515
+                        "y": 554
                     }
                 ]
             },
@@ -14172,7 +14625,7 @@
                     {
                         "map": "undellabay",
                         "x": 392,
-                        "y": 213
+                        "y": 207
                     }
                 ]
             },
@@ -14458,10 +14911,10 @@
                 "map_locations": [
                     {
                         "map": "undellabay",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -15342,7 +15795,7 @@
                     {
                         "map": "abundantshrine",
                         "x": 520,
-                        "y": 112
+                        "y": 121
                     }
                 ]
             },
@@ -15358,7 +15811,7 @@
                     {
                         "map": "abundantshrine",
                         "x": 440,
-                        "y": 577
+                        "y": 570
                     }
                 ]
             },
@@ -15374,7 +15827,7 @@
                     {
                         "map": "abundantshrine",
                         "x": 360,
-                        "y": 132
+                        "y": 119
                     }
                 ]
             },
@@ -15413,10 +15866,10 @@
                 "map_locations": [
                     {
                         "map": "abundantshrine",
-                        "x": 26,
-                        "y": 26,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -15600,10 +16053,10 @@
                 "map_locations": [
                     {
                         "map": "villagebridge",
-                        "x": 34,
-                        "y": 40,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -15627,8 +16080,8 @@
                 "map_locations": [
                     {
                         "map": "marvelousbridge",
-                        "x": 896,
-                        "y": 208
+                        "x": 608,
+                        "y": 202
                     }
                 ]
             },
@@ -15643,8 +16096,8 @@
                 "map_locations": [
                     {
                         "map": "marvelousbridge",
-                        "x": 1520,
-                        "y": 164
+                        "x": 777,
+                        "y": 169
                     }
                 ]
             },
@@ -15659,8 +16112,8 @@
                 "map_locations": [
                     {
                         "map": "marvelousbridge",
-                        "x": 476,
-                        "y": 164
+                        "x": 488,
+                        "y": 168
                     }
                 ]
             },
@@ -15675,10 +16128,10 @@
                 "map_locations": [
                     {
                         "map": "marvelousbridge",
-                        "x": 36,
-                        "y": 36,
-                        "size": 49,
-                        "border_thickness": 7,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -15695,7 +16148,7 @@
                     {
                         "map": "anvilletown",
                         "x": 632,
-                        "y": 144
+                        "y": 141
                     }
                 ]
             },
@@ -15711,7 +16164,7 @@
                     {
                         "map": "anvilletown",
                         "x": 584,
-                        "y": 539
+                        "y": 529
                     }
                 ]
             },
@@ -15727,7 +16180,7 @@
                     {
                         "map": "libertygarden",
                         "x": 136,
-                        "y": 349
+                        "y": 333
                     }
                 ]
             },
@@ -15746,24 +16199,9 @@
                 "map_locations": [
                     {
                         "map": "libertygarden",
-                        "x": 356,
-                        "y": 294
-                    }
-                ]
-            },
-            {
-                "name": "Liberty Garden Lighthouse\u200b",
-                "sections": [
-                    {
-                        "name": "Lighthouse Basement - Victini (Event)",
-                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
+                        "x": 361,
+                        "y": 279
                     },
-                    {
-                        "name": "Lighthouse Basement - Victini (Static)",
-                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Static)"
-                    }
-                ],
-                "map_locations": [
                     {
                         "map": "libertygardenlighthouse",
                         "x": 264,
