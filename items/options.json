@@ -21,14 +21,14 @@
                 "name": "Game Version - Dynamic Black",
                 "img": "/images/settings/pokemonblack.png",
                 "img_mods": "overlay|images/settings/overlays/ool.png",
-                "codes": "game_version,pokemon_black,dynamic_black",
+                "codes": "game_version,pokemon_black,dynamic_version,dynamic_black",
                 "inherit_codes": false
             },
             {
                 "name": "Game Version - Dynamic White",
                 "img": "/images/settings/pokemonwhite.png",
                 "img_mods": "overlay|images/settings/overlays/ool.png",
-                "codes": "game_version,pokemon_white,dynamic_white",
+                "codes": "game_version,pokemon_white,dynamic_version,dynamic_white",
                 "inherit_codes": false
             }
         ]
@@ -659,6 +659,46 @@
             {
                 "name": "Wild encounters are randomized",
                 "codes": "randomize_wild_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Statics",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_static",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Static encounters are vanilla",
+                "codes": "randomize_static_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Static encounters are randomized",
+                "codes": "randomize_static_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Legendaries",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_legendary",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Legendary encounters are vanilla",
+                "codes": "randomize_legendary_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Legendary encounters are randomized",
+                "codes": "randomize_legendary_on",
                 "inherit_codes": false
             }
         ]

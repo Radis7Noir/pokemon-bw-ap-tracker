@@ -86,6 +86,16 @@ LIST_CODES = {
             ["randomize"] = "randomize_wild",
         }
     },
+    randomize_static_pokemon = {
+        values = {
+            ["randomize"] = "randomize_static",
+        }
+    },
+    randomize_legendary_pokemon = {
+        values = {
+            ["randomize"] = "randomize_legendary",
+        }
+    },
     dark_areas = {
         values = {
             ["Striaton Gym"]                = "dark_areas_striaton_gym",

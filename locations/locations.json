@@ -11829,6 +11829,7 @@
                         "chest_opened_img": "images/events/cleared/reshiram_cleared.png",
                         "access_rules": [
                             "@N's Castle Throne Room Access,not_dynamic,^$static_encounter",
+                            "@N's Castle Throne Room Access,dynamic_version,randomize_legendary_on,^$static_encounter",
                             "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
@@ -11841,6 +11842,7 @@
                         "chest_opened_img": "images/events/cleared/zekrom_cleared.png",
                         "access_rules": [
                             "@N's Castle Throne Room Access,not_dynamic,^$static_encounter",
+                            "@N's Castle Throne Room Access,dynamic_version,randomize_legendary_on,^$static_encounter",
                             "@N's Castle Throne Room Access,[]"
                         ],
                         "visibility_rules": [
