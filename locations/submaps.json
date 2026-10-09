@@ -387,6 +387,10 @@
                         "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
                     },
                     {
+                        "name": "Ruins - Monkey (Gift)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Monkey (Gift)"
+                    },
+                    {
                         "name": "Ruins - Land Phenomena",
                         "ref": "Unova Locations/Dreamyard/Ruins - Land Phenomena"
                     },
@@ -3929,8 +3933,8 @@
                 "name": "Route 6\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Foongus Trap",
-                        "ref": "Unova Locations/Route 6/Foongus Trap"
+                        "name": "Foongus Trap 1",
+                        "ref": "Unova Locations/Route 6/Foongus Trap 1"
                     }
                 ],
                 "map_locations": [
@@ -3945,8 +3949,8 @@
                 "name": "Route 6\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Foongus Trap",
-                        "ref": "Unova Locations/Route 6/Foongus Trap"
+                        "name": "Foongus Trap 2",
+                        "ref": "Unova Locations/Route 6/Foongus Trap 2"
                     }
                 ],
                 "map_locations": [
@@ -5197,8 +5201,8 @@
                 "name": "Route 10\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Foongus Trap",
-                        "ref": "Unova Locations/Route 10/Foongus Trap"
+                        "name": "Foongus Trap 1",
+                        "ref": "Unova Locations/Route 10/Foongus Trap 1"
                     }
                 ],
                 "map_locations": [
@@ -5213,8 +5217,8 @@
                 "name": "Route 10\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Foongus Trap",
-                        "ref": "Unova Locations/Route 10/Foongus Trap"
+                        "name": "Foongus Trap 2",
+                        "ref": "Unova Locations/Route 10/Foongus Trap 2"
                     }
                 ],
                 "map_locations": [
@@ -5229,8 +5233,8 @@
                 "name": "Route 10\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Amoonguss Trap",
-                        "ref": "Unova Locations/Route 10/Amoonguss Trap"
+                        "name": "Amoonguss Trap 1",
+                        "ref": "Unova Locations/Route 10/Amoonguss Trap 1"
                     }
                 ],
                 "map_locations": [
@@ -5245,8 +5249,8 @@
                 "name": "Route 10\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Amoonguss Trap",
-                        "ref": "Unova Locations/Route 10/Amoonguss Trap"
+                        "name": "Amoonguss Trap 2",
+                        "ref": "Unova Locations/Route 10/Amoonguss Trap 2"
                     }
                 ],
                 "map_locations": [
@@ -7269,6 +7273,22 @@
                 ]
             },
             {
+                "name": "Dreamyard Ruins\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Monkey (Gift)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Monkey (Gift)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 456,
+                        "y": 348
+                    }
+                ]
+            },
+            {
                 "name": "Dreamyard Ruins Encounters",
                 "sections": [
                     {
@@ -8510,8 +8530,8 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                        "name": "Inside - Darmanitan Statue 1 (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 1 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -8526,8 +8546,8 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                        "name": "Inside - Darmanitan Statue 2 (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 2 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -8542,8 +8562,8 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                        "name": "Inside - Darmanitan Statue 3 (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 3 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -8558,8 +8578,8 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                        "name": "Inside - Darmanitan Statue 4 (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 4 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -8574,8 +8594,8 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue (Static)"
+                        "name": "Inside - Darmanitan Statue 5 (Static)",
+                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 5 (Static)"
                     }
                 ],
                 "map_locations": [

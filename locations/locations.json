@@ -3260,7 +3260,18 @@
                         ]
                     },
                     {
-                        "name": "Foongus Trap",
+                        "name": "Foongus Trap 1",
+                        "chest_unopened_img": "images/events/foongus.png",
+                        "chest_opened_img": "images/events/cleared/foongus_cleared.png",
+                        "access_rules": [
+                            "@Route 6 Access,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Foongus Trap 2",
                         "chest_unopened_img": "images/events/foongus.png",
                         "chest_opened_img": "images/events/cleared/foongus_cleared.png",
                         "access_rules": [
@@ -4494,7 +4505,7 @@
                         "item_count": 2
                     },
                     {
-                        "name": "Foongus Trap",
+                        "name": "Foongus Trap 1",
                         "chest_unopened_img": "images/events/foongus.png",
                         "chest_opened_img": "images/events/cleared/foongus_cleared.png",
                         "access_rules": [
@@ -4505,7 +4516,29 @@
                         ]
                     },
                     {
-                        "name": "Amoonguss Trap",
+                        "name": "Foongus Trap 2",
+                        "chest_unopened_img": "images/events/foongus.png",
+                        "chest_opened_img": "images/events/cleared/foongus_cleared.png",
+                        "access_rules": [
+                            "@Route 10 Access,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Amoonguss Trap 1",
+                        "chest_unopened_img": "images/events/amoonguss.png",
+                        "chest_opened_img": "images/events/cleared/amoonguss_cleared.png",
+                        "access_rules": [
+                            "@Route 10 Access,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Amoonguss Trap 2",
                         "chest_unopened_img": "images/events/amoonguss.png",
                         "chest_opened_img": "images/events/cleared/amoonguss_cleared.png",
                         "access_rules": [
@@ -6258,6 +6291,17 @@
                         ]
                     },
                     {
+                        "name": "Ruins - Monkey (Gift)",
+                        "chest_unopened_img": "images/pokemon/511.png",
+                        "chest_opened_img": "images/pokemon/cleared/511_cleared.png",
+                        "access_rules": [
+                            "@Dreamyard Entrance Access,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics,$monkeys_not_split"
+                        ]
+                    },
+                    {
                         "name": "Ruins - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/grass.png",
@@ -7316,7 +7360,51 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue (Static)",
+                        "name": "Inside - Darmanitan Statue 1 (Static)",
+                        "chest_unopened_img": "images/events/zendarmanitan.png",
+                        "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
+                        "access_rules": [
+                            "@Desert Resort Access,ragecandybar,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Darmanitan Statue 2 (Static)",
+                        "chest_unopened_img": "images/events/zendarmanitan.png",
+                        "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
+                        "access_rules": [
+                            "@Desert Resort Access,ragecandybar,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Darmanitan Statue 3 (Static)",
+                        "chest_unopened_img": "images/events/zendarmanitan.png",
+                        "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
+                        "access_rules": [
+                            "@Desert Resort Access,ragecandybar,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Darmanitan Statue 4 (Static)",
+                        "chest_unopened_img": "images/events/zendarmanitan.png",
+                        "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
+                        "access_rules": [
+                            "@Desert Resort Access,ragecandybar,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Darmanitan Statue 5 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [

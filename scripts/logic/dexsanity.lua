@@ -150,9 +150,10 @@ function searchMon()
         showSearchVisibility()
         Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
         
-        for region_key, location in pairs(ENCOUNTER_MAPPING) do
-            local object = Tracker:FindObjectForCode(location)
-            object.AvailableChestCount = 0
+        for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+            for _, location in ipairs(locations) do
+                Tracker:FindObjectForCode(location).AvailableChestCount = 0
+            end
         end
         
         local dex1 = Tracker:FindObjectForCode("dexsearch_digit1").CurrentStage
@@ -173,9 +174,7 @@ function searchMon()
             if (pokemon_id & 0x7FF) == dexID and (form == -1 or (pokemon_id >> 11) == form) then
                 found = true
                 for _, location in ipairs(locations) do
-                    local object_name = ENCOUNTER_MAPPING[location]
-                    print(object_name)
-                    if object_name then
+                    for _, object_name in ipairs(ENCOUNTER_MAPPING[location] or {}) do
                         local object = Tracker:FindObjectForCode(object_name)
                         if object then
                             object.AvailableChestCount = object.AvailableChestCount + 1
@@ -223,6 +222,10 @@ function static_encounter()
     else
         return AccessibilityLevel.SequenceBreak
     end
+end
+
+function monkeys_not_split()
+    return MONKEYS_SAME == true
 end
 
 function trade(id)

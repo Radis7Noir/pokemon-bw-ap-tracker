@@ -96,43 +96,14 @@ function onClear(slot_data)
     resetLocations()
 
     REGION_ENCOUNTERS = slot_data.encounter_by_method
-    -- Static Encounters etc. added manually
+    -- Trades + Rock Smash can't be randomized
     local newEncounters = {
-        Magikarp_Gift = 129,
-        Zorua_Gift = 570,
-        Larvesta_Egg = 636,
-        Omanyte_Fossil = 138,
-        Kabuto_Fossil = 140,
-        Aerodactyl_Fossil = 142,
-        Lileep_Fossil = 345,
-        Anorith_Fossil = 347,
-        Cranidos_Fossil = 408,
-        Shieldon_Fossil = 410,
-        Tirtouga_Fossil = 564,
-        Archen_Fossil = 566,
         Munchlax_Trade = 446,
         Rotom_Trade = 479,
         Cottonee_Trade = 546,
         Petilil_Trade = 548,
         Basculin_Trade = slot_data.options.version == "white" and 550 + (1 << 11) or 550,
         Emolga_Trade = 587,
-        Foongus_Trap6 = 590,
-        Foongus_Trap10 = 590,
-        Amoonguss_Trap = 591,
-        Victini_Static = 494,
-        Musharna_Static = 518,
-        Darmanitan_Static = 555,
-        Zoroark_Static = 571,
-        Volcarona_Static = 637,
-        Cobalion_Static = 638,
-        Terrakion_Static = 639,
-        Virizion_Static = 640,
-        Reshiram_Static = 643,
-        Zekrom_Static = 644,
-        Landorus_Static = 645,
-        Kyurem_Static = 646,
-        Tornadus_Roamer = 641,
-        Thundurus_Roamer = 642,
         Dwebble_R13 = 557,
         Dwebble_WC = 557,
         Dwebble_CC = 557,
@@ -142,6 +113,16 @@ function onClear(slot_data)
     for name, pokemon_id in pairs(newEncounters) do
         REGION_ENCOUNTERS[name] = { pokemon_id }
     end
+
+    -- Monkeys are only in logic if the 3 are the same Pokémon
+    local left = (REGION_ENCOUNTERS["Dreamyard Gift Encounter (Left Starter)"] or {})[1]
+    local middle = (REGION_ENCOUNTERS["Dreamyard Gift Encounter (Middle Starter)"] or {})[1]
+    local right = (REGION_ENCOUNTERS["Dreamyard Gift Encounter (Right Starter)"] or {})[1]
+    MONKEYS_SAME = left == middle and left == right
+    if not MONKEYS_SAME then
+        REGION_ENCOUNTERS["Dreamyard Gift Encounter (Left Starter)"] = {}
+    end
+
     --print(dump_table(REGION_ENCOUNTERS))
 
     -- so we can access the mapping later
@@ -156,18 +137,21 @@ function onClear(slot_data)
     end
 
     -- This sets each Encounter location to however many unique encounters there are in it
-    for region_key, location in pairs(ENCOUNTER_MAPPING) do
-        local object = Tracker:FindObjectForCode(location)
-        object.AvailableChestCount = #REGION_ENCOUNTERS[region_key]
+    for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            Tracker:FindObjectForCode(location).AvailableChestCount = #REGION_ENCOUNTERS[region_key]
+        end
     end
 
     for bucket = 0, 20 do
         LEVEL_REGIONS[bucket] = {}
     end
     for region, level in pairs(slot_data.level_by_region) do
-        local code = ENCOUNTER_MAPPING[region] or "@" .. region .. " Access"
-        if Tracker:FindObjectForCode(code) then
-            table.insert(LEVEL_REGIONS[level // 5], code)
+        local codes = ENCOUNTER_MAPPING[region] or { "@" .. region .. " Access" }
+        for _, code in ipairs(codes) do
+            if Tracker:FindObjectForCode(code) then
+                table.insert(LEVEL_REGIONS[level // 5], code)
+            end
         end
     end
 
@@ -665,8 +649,11 @@ function updatePokemon()
     local baseCounts = {}
     local pendingDecrements = {}
 
-    for region_key, location in pairs(ENCOUNTER_MAPPING) do
-        regionObjects[region_key] = Tracker:FindObjectForCode(location)
+    for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        regionObjects[region_key] = {}
+        for _, location in ipairs(locations) do
+            table.insert(regionObjects[region_key], Tracker:FindObjectForCode(location))
+        end
         baseCounts[region_key] = #REGION_ENCOUNTERS[region_key]
         pendingDecrements[region_key] = 0
     end
@@ -719,25 +706,25 @@ function updatePokemon()
 
         if should_decrement then
             for _, location in pairs(locations) do
-                local object_name = ENCOUNTER_MAPPING[location]
-                if object_name ~= nil then
-                    local object = Tracker:FindObjectForCode(object_name)
-                    if object then
-                        pendingDecrements[location] = pendingDecrements[location] + 1
-                    end
+                if ENCOUNTER_MAPPING[location] ~= nil then
+                    pendingDecrements[location] = pendingDecrements[location] + 1
                 end
             end
         end
     end
-    for region_key, object in pairs(regionObjects) do
-        object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+    for region_key, objects in pairs(regionObjects) do
+        for _, object in ipairs(objects) do
+            object.AvailableChestCount = baseCounts[region_key] - pendingDecrements[region_key]
+        end
     end
 
-    for _, location in pairs(ENCOUNTER_MAPPING) do
-        if location and location:sub(1, 1) == "@" then
-            local obj = Tracker:FindObjectForCode(location)
-            if obj and obj.AvailableChestCount == 0 then
-                obj.Highlight = 0
+    for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                local obj = Tracker:FindObjectForCode(location)
+                if obj and obj.AvailableChestCount == 0 then
+                    obj.Highlight = 0
+                end
             end
         end
     end
@@ -811,10 +798,11 @@ function resetHints()
         end
     end
 
-    for _, location in pairs(ENCOUNTER_MAPPING) do
-        if location and location:sub(1, 1) == "@" then
-            local obj = Tracker:FindObjectForCode(location)
-            obj.Highlight = 0
+    for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                Tracker:FindObjectForCode(location).Highlight = 0
+            end
         end
     end
 end
@@ -834,10 +822,11 @@ function updateHints()
             end
         end
     end
-    for _, location in pairs(ENCOUNTER_MAPPING) do
-        if location:sub(1, 1) == "@" then
-            local obj = Tracker:FindObjectForCode(location)
-            obj.Highlight = 0
+    for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                Tracker:FindObjectForCode(location).Highlight = 0
+            end
         end
     end
 
@@ -879,20 +868,21 @@ function updateHints()
                 for pokemon_id, poke_locations in pairs(POKEMON_TO_LOCATIONS) do
                     if (pokemon_id & 0x7FF) == dex_number then
                         for _, encounter_key in pairs(poke_locations) do
-                            local mapped_location = ENCOUNTER_MAPPING[encounter_key]
-                            if mapped_location and mapped_location:sub(1, 1) == "@" then
-                                local obj = Tracker:FindObjectForCode(mapped_location)
+                            for _, mapped_location in ipairs(ENCOUNTER_MAPPING[encounter_key] or {}) do
+                                if mapped_location:sub(1, 1) == "@" then
+                                    local obj = Tracker:FindObjectForCode(mapped_location)
 
-                                if tracking_plus then
-                                    if hint.found == false then
-                                        if incoming_val == Highlight.Priority then
+                                    if tracking_plus then
+                                        if hint.found == false then
+                                            if incoming_val == Highlight.Priority then
+                                                obj.Highlight = incoming_val
+                                            end
+                                        end
+                                    else
+                                        local current_val = obj.Highlight
+                                        if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
                                             obj.Highlight = incoming_val
                                         end
-                                    end
-                                else
-                                    local current_val = obj.Highlight
-                                    if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
-                                        obj.Highlight = incoming_val
                                     end
                                 end
                             end
