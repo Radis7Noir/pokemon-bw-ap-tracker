@@ -14,7 +14,7 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 HINT_ID = {}
 EVENT_BITS = {}
-MAP_ID = {}
+CACHED_MAPS = {}
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -80,7 +80,7 @@ function onClear(slot_data)
     CAUGHT = {}
     SEEN = {}
     EVENT_BITS = {}
-    MAP_ID = {}
+    CACHED_MAPS = {}
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
@@ -369,6 +369,7 @@ end
 
 function updateSlot()
     updateEvents(forSlot(EVENT_BITS) or 0)
+    updateMap()
 end
 
 function toggleSlots(value)
@@ -634,7 +635,7 @@ function updateWildBattle(value, old_value)
         Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Left Dexsanity")
     else
-        onMap(CACHED_MAP)
+        updateMap()
     end
 end
 
@@ -731,14 +732,23 @@ function updatePokemon()
     end
 end
 
-CACHED_MAP = nil
-
 function onMap(mapBounce)
-    if not (has("automap_on") and mapBounce and mapBounce.data) then
+    if not (mapBounce and mapBounce.data) then
         return
     end
 
-    CACHED_MAP = mapBounce
+    CACHED_MAPS[tostring(mapBounce.data.coop_id)] = mapBounce
+    if forSlot(CACHED_MAPS) == mapBounce then
+        updateMap()
+    end
+end
+
+function updateMap()
+    local mapBounce = forSlot(CACHED_MAPS)
+    if not (has("automap_on") and mapBounce) then
+        return
+    end
+
     local mapID = mapBounce.data.mapNumber
     local xz_split = MAP_SPLIT_MAPPING and MAP_SPLIT_MAPPING[mapID]
 
