@@ -15,7 +15,11 @@ function dump_table(o, depth)
     end
 
     local ignore_keys = {
-
+        encounter_by_method = true,
+        dexsanity_pokemon = true,
+        ut_compatibility = true,
+        trade_data = true,
+        seed = true,
     }
 
     if type(o) == 'table' then
