@@ -26,20 +26,37 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
+                            "title": "Exterior",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "striatoncity"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "striatoncity"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Garden",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "striatongarden"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "Garden",
+                            "title": "Gym",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "striatongarden"
+                                    "striatongym"
                                 ]
                             }
                         },
@@ -75,9 +92,43 @@
             {
                 "title": "Nacrene City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "nacrenecity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nacrenecity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Library",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nacrenegym"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Basement",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nacrenegymlenorasroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -87,11 +138,20 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
+                            "title": "Exterior",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "casteliacity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "casteliagym"
                                 ]
                             }
                         },
@@ -139,20 +199,37 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
+                            "title": "Exterior",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nimbasacity"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nimbasacity"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Park",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nimbasacitypark"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "Park",
+                            "title": "Gym",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "nimbasacitypark"
+                                    "nimbasagym"
                                 ]
                             }
                         }
@@ -165,20 +242,54 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
+                            "title": "Exterior",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "driftveilcity_w"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilcity_w"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Drawbridge Entrance",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilcity_e"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "Drawbridge Entrance",
+                            "title": "Gym",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "driftveilcity_e"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Entrance",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilgymentrance"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gym",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilgym"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
@@ -200,21 +311,21 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "mistraltoncity_c"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Runway",
+                            "title": "Exterior",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                        "title": "North",
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mistraltoncity_c"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Runway",
                                         "content": {
                                             "type": "map",
                                             "maps": [
@@ -223,7 +334,7 @@
                                         }
                                     },
                                     {
-                                        "title": "South",
+                                        "title": "Vegetable Farm",
                                         "content": {
                                             "type": "map",
                                             "maps": [
@@ -231,6 +342,15 @@
                                             ]
                                         }
                                     }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "mistraltongym"
                                 ]
                             }
                         }
@@ -243,20 +363,37 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "West",
+                            "title": "Exterior",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "icirruscity_w"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "West",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "icirruscity_w"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "East",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "icirruscity_e"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "East",
+                            "title": "Gym",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "icirruscity_e"
+                                    "icirrusgym"
                                 ]
                             }
                         }
@@ -266,9 +403,26 @@
             {
                 "title": "Opelucid City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "opelucidcity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "opelucidcity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "opelucidgym"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -493,7 +647,7 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Route",
+                            "title": "Exterior",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -504,9 +658,26 @@
                         {
                             "title": "Shopping Mall Nine",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "shoppingmallnine"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mall",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "shoppingmallnine"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Storage Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "shoppingmallninestorageroom"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         }

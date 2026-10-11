@@ -18,6 +18,12 @@
         "img": "images/maps/striatoncity_e.png"
     },
     {
+        "name": "striatongym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/striatongym.png"
+    },
+    {
         "name": "striatongarden",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -42,10 +48,28 @@
         "img": "images/maps/nacrenecity.png"
     },
     {
+        "name": "nacrenegym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/nacrenegym.png"
+    },
+    {
+        "name": "nacrenegymlenorasroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/nacrenegymlenora.png"
+    },
+    {
         "name": "casteliacity",
         "location_size": 28,
         "location_border_thickness": 4,
         "img": "images/maps/casteliacity.png"
+    },
+    {
+        "name": "casteliagym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/casteliagym.png"
     },
     {
         "name": "casteliabattlecompany1f",
@@ -72,6 +96,12 @@
         "img": "images/maps/nimbasacity.png"
     },
     {
+        "name": "nimbasagym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/nimbasagym.png"
+    },
+    {
         "name": "nimbasacitypark",
         "location_size": 14,
         "location_border_thickness": 2,
@@ -90,10 +120,28 @@
         "img": "images/maps/driftveilcity_w.png"
     },
     {
+        "name": "driftveilgymentrance",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/driftveilgymentrance.png"
+    },
+    {
+        "name": "driftveilgym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/driftveilgym.png"
+    },
+    {
         "name": "driftveilmarket",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/driftveilmarket.png"
+    },
+    {
+        "name": "mistraltongym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/mistraltongym.png"
     },
     {
         "name": "icirruscity_w",
@@ -106,6 +154,12 @@
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/icirruscity_e.png"
+    },
+    {
+        "name": "icirrusgym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/icirrusgym.png"
     },
     {
         "name": "lacunosatown",
@@ -237,7 +291,7 @@
         "name": "shoppingmallninestorageroom",
         "location_size": 14,
         "location_border_thickness": 2,
-        "img": "images/maps/shoppingmallninestorageroom.png"
+        "img": "images/maps/shoppingmallstorageroom.png"
     },
     {
         "name": "route10_w",

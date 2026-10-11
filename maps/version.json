@@ -30,6 +30,12 @@
         "img": "images/maps/opelucidcity_b.png"
     },
     {
+        "name": "opelucidgym",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/opelucidgym_b.png"
+    },
+    {
         "name": "nscastlethroneroom",
         "location_size": 21,
         "location_border_thickness": 3,
