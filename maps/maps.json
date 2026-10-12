@@ -6,10 +6,28 @@
         "img": "images/maps/nuvematown.png"
     },
     {
+        "name": "playershouse",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/playershouse.png"
+    },
+    {
+        "name": "playersroom",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/playersroom.png"
+    },
+    {
         "name": "accumulatown",
         "location_size": 14,
         "location_border_thickness": 2,
         "img": "images/maps/accumulatown.png"
+    },
+    {
+        "name": "accumulacenter",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/accumulacenter.png"
     },
     {
         "name": "striatoncity",

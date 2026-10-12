@@ -5,18 +5,78 @@
             {
                 "title": "Nuvema Town",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "nuvematown"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nuvematown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Player's House",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "playershouse"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "playersroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bianca's House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "biancashouse"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Accumula Town",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "accumulatown"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "accumulatown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pokémon Center",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "accumulacenter"
+                                ]
+                            }
+                        }
                     ]
                 }
             },

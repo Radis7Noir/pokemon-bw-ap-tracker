@@ -751,7 +751,8 @@ function updateMap()
 
     local mapID = mapBounce.data.mapNumber
     local xz_split = MAP_SPLIT_MAPPING and MAP_SPLIT_MAPPING[mapID]
-
+        print("No Mapping found for:")
+        print(dump_table(mapBounce))
     if xz_split then
         local matrixX = mapBounce.data.matrix32X
         local matrixZ = mapBounce.data.matrix32Z

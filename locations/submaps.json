@@ -13161,10 +13161,10 @@
                 "map_locations": [
                     {
                         "map": "challengerscaveb2f",
-                        "x": 57,
-                        "y": 21,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]

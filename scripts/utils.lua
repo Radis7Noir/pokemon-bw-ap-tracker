@@ -51,6 +51,11 @@ function table_contains(table, element)
 end
 
 function toggle_versionmaps()
+    if has("season_control_vanilla") then
+        Tracker:AddMaps("maps/seasons.json")
+    else
+        Tracker:AddMaps("maps/seasons_notvanilla.json")
+	end
     if has("pokemon_black") then
         Tracker:AddMaps("maps/version.json")
     elseif has("pokemon_white") then
