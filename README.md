@@ -123,3 +123,13 @@ You can manually show or hide the following groups of locations by clicking on t
     - "Twist Mountain - Lower floor north west cave hidden item (Spring/Summer/Autumn)"
     - "Twist Mountain - Lower floor north west cave item (Spring/Summer/Autumn)"
 ```
+
+## AI Usage Disclosure
+This project does not contain AI generated art or assets.
+Claude (an LLM) was used to:
+- Generate a small amount of code to fix a performance issue
+- Complete tedious tasks
+- Debug code
+- Explain MIT code from other trackers
+This should not represent more than 5% of the work done for the entire project.
+Everything was reviewed and tested by the team.
