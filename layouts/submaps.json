@@ -647,7 +647,7 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Exterior",
+                            "title": "Route",
                             "content": {
                                 "type": "map",
                                 "maps": [
