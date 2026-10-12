@@ -131,5 +131,5 @@ Claude (an LLM) was used to:
 - Complete tedious tasks
 - Debug code
 - Explain MIT code from other trackers
-This should not represent more than 5% of the work done for the entire project.
-Everything was reviewed and tested by the team.
+
+This should not represent more than 5% of the work done for the entire project. Everything was reviewed and tested by the team.
