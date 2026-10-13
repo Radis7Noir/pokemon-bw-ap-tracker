@@ -15,6 +15,14 @@ SLOT_CODES = {
             ["anything"] = 2,
         }
     },
+    shuffle_tm_hm = {
+        code = "shuffle_tms",
+        mapping = {
+            ["shuffle"]  = 0,
+            ["hm_with_badge"]  = 1,
+            ["anything"] = 2,
+        }
+    },
     season_control = {
         code = "season_control",
         mapping = {
@@ -71,6 +79,7 @@ LIST_CODES = {
             ["consider evolutions"]     = "consider_evolutions",
             ["consider static pokemon"] = { "consider_statics", "static_visibility" },
             ["consider trades"]         = { "consider_trades", "trade_visibility" },
+            ["consider trainers"]       = "consider_trainers",
         }
     },
     adjust_levels = {

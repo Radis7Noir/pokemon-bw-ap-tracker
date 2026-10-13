@@ -96,12 +96,13 @@
                 "game_version",
                 "season_control",
 				"shuffle_badges",
+                "shuffle_tms",
 				"dexsanity",
                 "seensanity",
-                "shinysanity",
-                "formsanity"
+                "shinysanity"
             ],
             [
+                "formsanity",
                 "shinyformsanity"
             ]
         ]
@@ -198,7 +199,8 @@
             [
                 "consider_evolutions",
 				"consider_statics",
-				"consider_trades"
+				"consider_trades",
+                "consider_trainers"
             ]
         ]
     },

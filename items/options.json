@@ -20,14 +20,14 @@
             {
                 "name": "Game Version - Dynamic Black",
                 "img": "/images/settings/pokemonblack.png",
-                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "img_mods": "overlay|images/settings/overlays/d.png",
                 "codes": "game_version,pokemon_black,dynamic_version,dynamic_black",
                 "inherit_codes": false
             },
             {
                 "name": "Game Version - Dynamic White",
                 "img": "/images/settings/pokemonwhite.png",
-                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "img_mods": "overlay|images/settings/overlays/d.png",
                 "codes": "game_version,pokemon_white,dynamic_version,dynamic_white",
                 "inherit_codes": false
             }
@@ -190,6 +190,7 @@
     {
         "name": "Dexsanity",
         "img": "/images/settings/pokedex.png",
+        "img_mods": "overlay|images/settings/overlays/caught.png",
         "codes": "dexsanity",
         "type": "consumable",
         "allow_disabled": true,
@@ -200,7 +201,8 @@
     },
     {
         "name": "Seensanity",
-        "img": "/images/settings/pokedex.png",
+        "img": "/images/settings/pokedex_pi.png",
+        "img_mods": "overlay|images/settings/overlays/seen.png",
         "codes": "seensanity",
         "type": "consumable",
         "allow_disabled": true,
@@ -211,7 +213,8 @@
     },
     {
         "name": "Shinysanity",
-        "img": "/images/settings/pokedex.png",
+        "img": "/images/settings/pokedex_y.png",
+        "img_mods": "overlay|images/settings/overlays/shiny.png",
         "codes": "shinysanity",
         "type": "consumable",
         "allow_disabled": true,
@@ -222,7 +225,8 @@
     },
     {
         "name": "Formsanity",
-        "img": "/images/settings/pokedex.png",
+        "img": "/images/settings/pokedex_pu.png",
+        "img_mods": "overlay|images/settings/overlays/form.png",
         "codes": "formsanity",
         "type": "consumable",
         "allow_disabled": true,
@@ -233,7 +237,8 @@
     },
     {
         "name": "Shinyformsanity",
-        "img": "/images/settings/pokedex.png",
+        "img": "/images/settings/pokedex_b.png",
+        "img_mods": "overlay|images/settings/overlays/shinyform.png",
         "codes": "shinyformsanity",
         "type": "consumable",
         "allow_disabled": true,
@@ -319,6 +324,32 @@
                 "name": "Shuffle Badges - Anything",
                 "img": "/images/settings/badge_anything.png",
                 "codes": "shuffle_badges,shuffle_badges_anything",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "TM Shuffling",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuffle TMs - Shuffle",
+                "img": "/images/settings/tm_shuffle.png",
+                "codes": "shuffle_tms,shuffle_tms_shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle TMs - HMs With Badges",
+                "img": "/images/settings/tm_badge.png",
+                "codes": "shuffle_tms,shuffle_tms_badges",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle TMs - Anything",
+                "img": "/images/settings/tm_anything.png",
+                "codes": "shuffle_tms,shuffle_tms_anything",
                 "inherit_codes": false
             }
         ]
@@ -544,6 +575,29 @@
                 "img": "/images/settings/consider_trades.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "trade_visibility,show_trades",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consider Trainers",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seeing Pokémon from Trainers is NOT in logic",
+                "img": "/images/settings/consider_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "codes": "consider_trainers,consider_trainers_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seeing Pokémon from Trainers IS in logic",
+                "img": "/images/settings/consider_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "consider_trainers,consider_trainers_true",
                 "inherit_codes": false
             }
         ]
