@@ -35,7 +35,9 @@
                             [
                                 "arrestsagegiallo",
                                 "arrestsagezinzolin",
-                                "arrestsageryoku",
+                                "arrestsageryoku"
+                            ],
+                            [
                                 "arrestsagerood",
                                 "arrestsagebronius"
                             ]
@@ -69,12 +71,12 @@
                         "catchdefeatcobalion",
                         "catchreshiram",
                         "defeatghetsis",
-                        "arrestsagegorm"
-                    ],
-                    [
+                        "arrestsagegorm",
                         "arrestsagegiallo",
                         "arrestsagezinzolin",
-                        "arrestsageryoku",
+                        "arrestsageryoku"
+                    ],
+                    [
                         "arrestsagerood",
                         "arrestsagebronius"
                     ]

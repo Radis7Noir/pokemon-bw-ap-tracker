@@ -30,15 +30,15 @@
                                 "catchdefeatcobalion",
                                 "catchzekrom",
                                 "defeatghetsis",
-                                "defeatchampionalder",
-                                "showalltmhms"
+                                "defeatchampionalder"
                             ],
                             [
-                                "catchdefeatvictini"
-                            ],
-                            [
+                                "showalltmhms",
+                                "catchdefeatvictini",
                                 "catchdefeatvolcarona",
-                                "catchdefeatterrakion",
+                                "catchdefeatterrakion"
+                            ],
+                            [
                                 "catchdefeatvirizion",
                                 "catchdefeatkyurem"
                             ]
@@ -73,13 +73,11 @@
                         "catchzekrom",
                         "defeatghetsis",
                         "defeatchampionalder",
-                        "showalltmhms"
+                        "showalltmhms",
+                        "catchdefeatvictini",
+                        "catchdefeatvolcarona"
                     ],
                     [
-                        "catchdefeatvictini"
-                    ],
-                    [
-                        "catchdefeatvolcarona",
                         "catchdefeatterrakion",
                         "catchdefeatvirizion",
                         "catchdefeatkyurem"

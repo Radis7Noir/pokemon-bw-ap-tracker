@@ -30,13 +30,15 @@
                                 "catchdefeatcobalion",
                                 "catchreshiram",
                                 "defeatghetsis",
-                                "defeatchampionalder",
-                                "defeatcynthia"
+                                "defeatchampionalder"
                             ],
                             [
+                                "defeatcynthia",
                                 "catchdefeatvictini",
                                 "catchdefeatvolcarona",
-                                "catchdefeatterrakion",
+                                "catchdefeatterrakion"
+                            ],
+                            [
                                 "catchdefeatvirizion",
                                 "catchdefeatkyurem"
                             ]
@@ -71,11 +73,11 @@
                                 "catchreshiram",
                                 "defeatghetsis",
                                 "defeatchampionalder",
-                                "defeatcynthia"
+                                "defeatcynthia",
+                                "catchdefeatvictini",
+                                "catchdefeatvolcarona"
                             ],
                             [
-                                "catchdefeatvictini",
-                                "catchdefeatvolcarona",
                                 "catchdefeatterrakion",
                                 "catchdefeatvirizion",
                                 "catchdefeatkyurem"

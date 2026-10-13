@@ -33,11 +33,11 @@
                                 "showalltmhms"
                             ],
                             [
-                                "catchdefeatvictini"
+                                "catchdefeatvictini",
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion"
                             ],
                             [
-                                "catchdefeatvolcarona",
-                                "catchdefeatterrakion",
                                 "catchdefeatvirizion",
                                 "catchdefeatkyurem"
                             ]
@@ -71,14 +71,12 @@
                         "catchdefeatcobalion",
                         "catchzekrom",
                         "defeatghetsis",
-                        "showalltmhms"
-                    ],
-                    [
-                        "catchdefeatvictini"
-                    ],
-                    [
+                        "showalltmhms",
+                        "catchdefeatvictini",
                         "catchdefeatvolcarona",
-                        "catchdefeatterrakion",
+                        "catchdefeatterrakion"
+                    ],
+                    [
                         "catchdefeatvirizion",
                         "catchdefeatkyurem"
                     ]

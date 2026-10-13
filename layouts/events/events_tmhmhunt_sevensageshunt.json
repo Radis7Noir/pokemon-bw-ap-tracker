@@ -30,13 +30,15 @@
                                 "catchdefeatcobalion",
                                 "catchreshiram",
                                 "defeatghetsis",
-                                "showalltmhms",
-                                "arrestsagegorm"
+                                "showalltmhms"
                             ],
                             [
+                                "arrestsagegorm",
                                 "arrestsagegiallo",
                                 "arrestsagezinzolin",
-                                "arrestsageryoku",
+                                "arrestsageryoku"
+                            ],
+                            [
                                 "arrestsagerood",
                                 "arrestsagebronius"
                             ]
@@ -71,11 +73,11 @@
                         "catchreshiram",
                         "defeatghetsis",
                         "showalltmhms",
-                        "arrestsagegorm"
+                        "arrestsagegorm",
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin"
                     ],
                     [
-                        "arrestsagegiallo",
-                        "arrestsagezinzolin",
                         "arrestsageryoku",
                         "arrestsagerood",
                         "arrestsagebronius"

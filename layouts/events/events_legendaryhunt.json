@@ -32,11 +32,11 @@
                                 "defeatghetsis"
                             ],
                             [
-                                "catchdefeatvictini"
+                                "catchdefeatvictini",
+                                "catchdefeatvolcarona",
+                                "catchdefeatterrakion"
                             ],
                             [
-                                "catchdefeatvolcarona",
-                                "catchdefeatterrakion",
                                 "catchdefeatvirizion",
                                 "catchdefeatkyurem"
                             ]
@@ -69,13 +69,11 @@
                         "helpdaycareman",
                         "catchdefeatcobalion",
                         "catchreshiram",
-                        "defeatghetsis"
+                        "defeatghetsis",
+                        "catchdefeatvictini",
+                        "catchdefeatvolcarona"
                     ],
                     [
-                        "catchdefeatvictini"
-                    ],
-                    [
-                        "catchdefeatvolcarona",
                         "catchdefeatterrakion",
                         "catchdefeatvirizion",
                         "catchdefeatkyurem"

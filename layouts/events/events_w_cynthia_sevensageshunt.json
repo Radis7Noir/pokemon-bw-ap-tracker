@@ -30,13 +30,15 @@
                                 "catchdefeatcobalion",
                                 "catchzekrom",
                                 "defeatghetsis",
-                                "defeatcynthia",
-                                "arrestsagegorm"
+                                "defeatcynthia"
                             ],
                             [
+                                "arrestsagegorm",
                                 "arrestsagegiallo",
                                 "arrestsagezinzolin",
-                                "arrestsageryoku",
+                                "arrestsageryoku"
+                            ],
+                            [
                                 "arrestsagerood",
                                 "arrestsagebronius"
                             ]
@@ -71,11 +73,11 @@
                         "catchzekrom",
                         "defeatghetsis",
                         "defeatcynthia",
-                        "arrestsagegorm"
+                        "arrestsagegorm",
+                        "arrestsagegiallo",
+                        "arrestsagezinzolin"
                     ],
                     [
-                        "arrestsagegiallo",
-                        "arrestsagezinzolin",
                         "arrestsageryoku",
                         "arrestsagerood",
                         "arrestsagebronius"
