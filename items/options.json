@@ -412,19 +412,22 @@
             },
             {
                 "name": "Adjust Wilds - By Distance",
-                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/dist.png",
                 "codes": "adjust_wilds,adjust_wilds_distance",
                 "inherit_codes": false
             },
             {
                 "name": "Adjust Wilds - By Sphere",
                 "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/sph.png",
                 "codes": "adjust_wilds,adjust_wilds_sphere",
                 "inherit_codes": false
             },
             {
                 "name": "Adjust Wilds - By Distance & Sphere",
                 "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/ds.png",
                 "codes": "adjust_wilds,adjust_wilds_distance_sphere",
                 "inherit_codes": false
             }
@@ -447,18 +450,21 @@
             {
                 "name": "Adjust Trainers - By Distance",
                 "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/dist.png",
                 "codes": "adjust_trainers, adjust_trainers_distance",
                 "inherit_codes": false
             },
             {
                 "name": "Adjust Trainers - By Sphere",
-                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/sph.png",
                 "codes": "adjust_trainers, adjust_trainers_sphere",
                 "inherit_codes": false
             },
             {
                 "name": "Adjust Trainers - By Distance & Sphere",
-                "img": "/images/settings/adjustlevels_wilds_trainers.png",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/ds.png",
                 "codes": "adjust_trainers, adjust_trainers_distance_sphere",
                 "inherit_codes": false
             }

@@ -32,22 +32,6 @@
                 },
 			    {
                     "type": "group",
-                    "header": "Dark Areas",
-                    "content": {
-                        "type": "layout",
-                        "key": "dark_grid"
-                    }
-                },
-			    {
-                    "type": "group",
-                    "header": "Starting Town",
-                    "content": {
-                        "type": "layout",
-                        "key": "start_town_grid"
-                    }
-                },
-			    {
-                    "type": "group",
                     "header": "Dexsanity Logic",
                     "content": {
                         "type": "layout",
@@ -119,14 +103,7 @@
 				"require_dowsingmchn",
 				"require_flash",
 				"adjust_wilds",
-				"adjust_trainers",
-				"add_ssticket",
-                "add_pass",
- 				"add_rocksmash"
-            ],
-            [
-                "ex_cut_trees",
-                "mo_strength_boulders"
+				"adjust_trainers"
             ]
         ]
     },
