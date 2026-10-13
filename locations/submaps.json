@@ -65,6 +65,26 @@
                 ]
             },
             {
+                "name": "Player's House\u200b",
+                "sections": [
+                    {
+                        "name": "Item from Mom after first fight",
+                        "ref": "Unova Locations/Nuvema Town/Item from Mom after first fight"
+                    },
+                    {
+                        "name": "Item from Looker after beating Ghetsis",
+                        "ref": "Unova Locations/Nuvema Town/Item from Looker after beating Ghetsis"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "playershouse",
+                        "x": 146,
+                        "y": 94
+                    }
+                ]
+            },
+            {
                 "name": "Accumula Town",
                 "sections": [
                     {
@@ -277,6 +297,46 @@
                         "map": "striatoncity",
                         "x": 328,
                         "y": 116
+                    }
+                ]
+            },
+            {
+                "name": "Striaton Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Striaton City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatongym",
+                        "x": 280,
+                        "y": 591
+                    }
+                ]
+            },
+            {
+                "name": "Leader Cilan, Chili or Cress",
+                "sections": [
+                    {
+                        "name": "Defeat Cilan, Chili or Cress (Event)",
+                        "ref": "Unova Locations/Striaton City/Gym - Defeat Cilan, Chili or Cress (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Striaton City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Striaton City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatongym",
+                        "x": 232,
+                        "y": 120
                     }
                 ]
             },
@@ -531,12 +591,12 @@
                         "ref": "Unova Locations/Nacrene City/Gym - Gym guide item"
                     },
                     {
-                        "name": "Gym - Badge reward",
-                        "ref": "Unova Locations/Nacrene City/Gym - Badge reward"
-                    },
-                    {
                         "name": "Gym - Defeat Lenora (Event)",
                         "ref": "Unova Locations/Nacrene City/Gym - Defeat Lenora (Event)"
+                    },
+                    {
+                        "name": "Gym - Badge reward",
+                        "ref": "Unova Locations/Nacrene City/Gym - Badge reward"
                     },
                     {
                         "name": "Gym - TM reward",
@@ -584,6 +644,46 @@
                         "map": "nacrenecity",
                         "x": 584,
                         "y": 98
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene Gym",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Nacrene City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenegym",
+                        "x": 200,
+                        "y": 476
+                    }
+                ]
+            },
+            {
+                "name": "Leader Lenora",
+                "sections": [
+                    {
+                        "name": "Defeat Lenora (Event)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Defeat Lenora (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Nacrene City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Nacrene City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenegymlenorasroom",
+                        "x": 88,
+                        "y": 179
                     }
                 ]
             },
@@ -944,6 +1044,46 @@
                 ]
             },
             {
+                "name": "Castelia Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Castelia City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 312,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Leader Burgh",
+                "sections": [
+                    {
+                        "name": "Defeat Burgh (Event)",
+                        "ref": "Unova Locations/Castelia City/Gym - Defeat Burgh (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Castelia City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Castelia City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 280,
+                        "y": 36
+                    }
+                ]
+            },
+            {
                 "name": "Castelia Street\u200b",
                 "sections": [
                     {
@@ -1276,6 +1416,46 @@
                 ]
             },
             {
+                "name": "Nimbasa Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 280,
+                        "y": 645
+                    }
+                ]
+            },
+            {
+                "name": "Leader Elesa",
+                "sections": [
+                    {
+                        "name": "Defeat Elesa (Event)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Defeat Elesa (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Nimbasa City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 488,
+                        "y": 144
+                    }
+                ]
+            },
+            {
                 "name": "Driftveil City",
                 "sections": [
                     {
@@ -1488,6 +1668,42 @@
                 ]
             },
             {
+                "name": "Driftveil Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Driftveil City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgymentrance",
+                        "x": 168,
+                        "y": 210
+                    }
+                ]
+            },
+            {
+                "name": "Leader Clay",
+                "sections": [
+                    {
+                        "name": "Defeat Clay (Event)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Defeat Clay (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Driftveil City/Gym - Badge reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 536,
+                        "y": 245
+                    }
+                ]
+            },
+            {
                 "name": "Driftveil City Encounters",
                 "sections": [
                     {
@@ -1676,6 +1892,46 @@
                         "map": "mistraltoncity_n",
                         "x": 232,
                         "y": 147
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Mistralton City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 280,
+                        "y": 707
+                    }
+                ]
+            },
+            {
+                "name": "Leader Skyla",
+                "sections": [
+                    {
+                        "name": "Defeat Skyla (Event)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Defeat Skyla (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Mistralton City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Mistralton City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 248,
+                        "y": 201
                     }
                 ]
             },
@@ -2034,6 +2290,46 @@
                         "map": "icirruscity_w",
                         "x": 200,
                         "y": 93
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Icirrus City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 296,
+                        "y": 777
+                    }
+                ]
+            },
+            {
+                "name": "Leader Brycen",
+                "sections": [
+                    {
+                        "name": "Defeat Brycen (Event)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Icirrus City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Icirrus City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 280,
+                        "y": 107
                     }
                 ]
             },
@@ -2537,6 +2833,70 @@
                         "map": "opelucidcity",
                         "x": 344,
                         "y": 199
+                    }
+                ]
+            },
+            {
+                "name": "Opelucid Gym\u200b",
+                "sections": [
+                    {
+                        "name": "Gym guide item",
+                        "ref": "Unova Locations/Opelucid City/Gym - Gym guide item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 456,
+                        "y": 843
+                    }
+                ]
+            },
+            {
+                "name": "Leader Drayden",
+                "sections": [
+                    {
+                        "name": "Defeat Drayden (Event)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Defeat Drayden (Event)"
+                    },
+                    {
+                        "name": "Badge reward",
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward"
+                    },
+                    {
+                        "name": "TM reward",
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 440,
+                        "y": 117
+                    }
+                ]
+            },
+            {
+                "name": "Leader Iris",
+                "sections": [
+                    {
+                        "name": "Defeat Iris (Event)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Defeat Iris (Event)"
+                    },
+                    {
+                        "name": "Badge reward\u200b",
+                        "ref": "Unova Locations/Opelucid City/Gym - Badge reward\u200b"
+                    },
+                    {
+                        "name": "TM reward\u200b",
+                        "ref": "Unova Locations/Opelucid City/Gym - TM reward\u200b"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 440,
+                        "y": 117
                     }
                 ]
             },
@@ -5185,6 +5545,11 @@
                         "map": "shoppingmallnine",
                         "x": 312,
                         "y": 284
+                    },
+                                        {
+                        "map": "shoppingmallninestorageroom",
+                        "x": 186,
+                        "y": 54
                     }
                 ]
             },
