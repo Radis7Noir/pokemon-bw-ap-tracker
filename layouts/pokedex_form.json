@@ -1,0 +1,61 @@
+{
+    "pokedex_grid": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Kanto (001-151)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "kantodex"
+                    ]
+                }
+            },
+            {
+                "title": "Johto (152-251)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "johtodex"
+                    ]
+                }
+            },
+            {
+                "title": "Hoenn (252-386)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "hoenndex"
+                    ]
+                }
+            },
+            {
+                "title": "Sinnoh (387-493)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "sinnohdex"
+                    ]
+                }
+            },
+            {
+                "title": "Unova (494-649)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "unovadex"
+                    ]
+                }
+            },
+            {
+                "title": "Forms",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "formdex"
+                    ]
+                }
+            }
+        ]
+    }
+}

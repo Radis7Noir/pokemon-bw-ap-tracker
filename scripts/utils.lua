@@ -51,15 +51,23 @@ function table_contains(table, element)
 end
 
 function toggle_versionmaps()
-    if has("pokemon_black") then
-        Tracker:AddMaps("maps/mistralton_city_b.json")
-        Tracker:AddMaps("maps/nscastlethroneroom_b.json")
-        Tracker:AddMaps("maps/opelucid_city_b.json")
-    elseif has("pokemon_white") then
-        Tracker:AddMaps("maps/mistralton_city_w.json")
-        Tracker:AddMaps("maps/nscastlethroneroom_w.json")
-        Tracker:AddMaps("maps/opelucid_city_w.json")
+    if has("season_control_vanilla") then
+        Tracker:AddMaps("maps/seasons.json")
+    else
+        Tracker:AddMaps("maps/seasons_notvanilla.json")
 	end
+    if has("pokemon_black") then
+        Tracker:AddMaps("maps/version.json")
+    elseif has("pokemon_white") then
+        Tracker:AddMaps("maps/version_w.json")
+	end
+    local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
+    local shinyformsanity = Tracker:FindObjectForCode("shinyformsanity").AcquiredCount
+    if formsanity > 0  or shinyformsanity > 0 then
+        Tracker:AddLayouts("layouts/pokedex_form.json")
+    else
+        Tracker:AddLayouts("layouts/pokedex.json")
+    end
 end
 
 function toggle_keyitemgrid()    
@@ -67,59 +75,41 @@ function toggle_keyitemgrid()
     if has("pokemon_white") then
         suffix = suffix .. "_w"
 	end
-	
-    if Tracker:FindObjectForCode("dexsanity").AcquiredCount ~= 0 then
-        suffix = suffix .. "_fossils"
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+
+    if has("dynamic_version") then
+        suffix = suffix .. "_dynamic"
     end
 
-    if has("add_ssticket_true") then
-        suffix = suffix .. "_ticket"
-    end
-
-    if has("add_rocksmash_true") or has("add_rocksmash_musharna") then
-        suffix = suffix .. "_rocksmash"
-    end
-
-    if has("add_pass_true") then
-        suffix = suffix .. "_pass"
-    end
-
-    Tracker:AddLayouts("layouts/items"..suffix..".json")
+    Tracker:AddLayouts("layouts/items/items"..suffix..".json")
 end
 
 function toggle_goal()
     local suffix = ""
-    if has("goal_ghetsis") then
-        suffix = suffix .. "_ghetsis"
-	end
-    if has("goal_champion") then
-        suffix = suffix .. "_champion"
-	end
-	if has("goal_cynthia") then
-        suffix = suffix .. "_cynthia"
-	end
-	if has("goal_cobalion") then
-        suffix = suffix .. "_cobalion"
-	end
-	if has("goal_tmhm_hunt") then
-        suffix = suffix .. "_tmhm_hunt"
-	end
-	if has("goal_seven_sages_hunt") then
-        suffix = suffix .. "_seven_sages_hunt"
-	end
-	if has("goal_legendary_hunt") then
-        suffix = suffix .. "_legendary_hunt"
-	end
-	if has("goal_pokemon_master") then
-        suffix = suffix .. "_pokemon_master"
-	end
     if has("pokemon_white") then
         suffix = suffix .. "_w"
 	end
-	
-    Tracker:AddMaps("maps/goal"..suffix..".json")
-	Tracker:AddLayouts("layouts/events"..suffix..".json")
+
+    if has("goal_champion_on") then
+        suffix = suffix .. "_champion"
+	end
+
+    if has("goal_cynthia_on") then
+        suffix = suffix .. "_cynthia"
+	end
+
+    if has("goal_tmhm_hunt_on") then
+        suffix = suffix .. "_tmhmhunt"
+	end
+
+    if has("goal_seven_sages_hunt_on") then
+        suffix = suffix .. "_sevensageshunt"
+	end
+
+    if has("goal_legendary_hunt_on") then
+        suffix = suffix .. "_legendaryhunt"
+	end
+
+	Tracker:AddLayouts("layouts/events/events"..suffix..".json")
 end
 
 function toggle_seasongrid()   
@@ -139,4 +129,34 @@ function toggle_splitmap()
     elseif has("splitmap_reverse") then
         Tracker:AddLayouts("layouts/tabs_reverse.json")
     end
+end
+
+-- only swap when it changes, re-adding every time lags
+DEXSEARCH_FORM_LAYOUT = "layouts/dexsearch/dexsearch_form.json"
+
+function toggle_dexsearch_form()
+    local dex = getDigits("dexsearch_digit1", "dexsearch_digit2", "dexsearch_digit3")
+    local layout = "layouts/dexsearch/dexsearch_form.json"
+    if Tracker:FindObjectForCode("dexsearch_form_" .. dex) then
+        layout = "layouts/dexsearch/dexsearch_form_" .. dex .. ".json"
+    end
+    if layout ~= DEXSEARCH_FORM_LAYOUT then
+        DEXSEARCH_FORM_LAYOUT = layout
+        Tracker:AddLayouts(layout)
+    end
+end
+
+function getDigits(code1, code2, code3)
+    return (Tracker:FindObjectForCode(code1).CurrentStage or 0) * 100
+         + (Tracker:FindObjectForCode(code2).CurrentStage or 0) * 10
+         + (Tracker:FindObjectForCode(code3).CurrentStage or 0)
+end
+
+function syncHostedFromBase(code)
+    Tracker:FindObjectForCode(code.."_hosted").Active = Tracker:FindObjectForCode(code).Active
+end
+
+function syncBaseFromHosted(code)
+    local base = code:gsub("_hosted", "")
+    Tracker:FindObjectForCode(base).Active = Tracker:FindObjectForCode(code).Active
 end

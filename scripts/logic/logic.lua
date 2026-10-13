@@ -54,14 +54,54 @@ function hidden()
 end
 
 function season(season)
-    local nimbasa = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
     if has("season_control_vanilla") then
         return AccessibilityLevel.SequenceBreak
-    elseif has("season_control_changeable") and nimbasa then
-        return nimbasa
-    elseif has("season_control_randomized") and nimbasa and has(season) then
-        return nimbasa
     end
+    if season == "not_winter" then
+        if has("season_control_randomized") and not (has("spring") or has("summer") or has("autumn")) then
+            return AccessibilityLevel.None
+        end
+    elseif has("season_control_randomized") and not has(season) then
+        return AccessibilityLevel.None
+    end
+    if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
+        return AccessibilityLevel.Normal
+    end
+    if season == "not_winter" and not has("starting_season_winter") then
+        return AccessibilityLevel.SequenceBreak
+    end
+    if has("starting_season_" .. season) then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
+
+function season_region(season)
+    if has("season_control_vanilla") then
+        return AccessibilityLevel.Normal
+    end
+    if season == "not_winter" then
+        if has("season_control_randomized") and not (has("spring") or has("summer") or has("autumn")) then
+            return AccessibilityLevel.None
+        end
+    elseif has("season_control_randomized") and not has(season) then
+        return AccessibilityLevel.None
+    end
+    if Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel == AccessibilityLevel.Normal then
+        return AccessibilityLevel.Normal
+    end
+    if season == "not_winter" and not has("starting_season_winter") then
+        return AccessibilityLevel.SequenceBreak
+    end
+    if has("starting_season_" .. season) then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
+
+function winter()
+    return (has("season_control_randomized") and has("winter"))
+    or has("season_control_changeable")
 end
 
 function badges_req(count)
@@ -86,6 +126,10 @@ function badges()
     Tracker:ProviderCountForCode("jetbadge") +
     Tracker:ProviderCountForCode("freezebadge") +
     Tracker:ProviderCountForCode("legendbadge")
+end
+
+function not_starting_town(town)
+    return not has("starting_town_"..town)
 end
 
 --function deerling()

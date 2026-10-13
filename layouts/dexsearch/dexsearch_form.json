@@ -1,0 +1,13 @@
+{
+    "dexsearch_form": {
+        "type": "array",
+        "margin": "5,2,0,0",
+        "content": [
+            {
+                "type": "item",
+                "item": "dummy",
+                "item_size": "32, 32"
+            }
+        ]
+    }
+}

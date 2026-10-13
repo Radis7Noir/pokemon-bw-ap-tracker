@@ -1,50 +1,73 @@
 MAP_MAPPING =  {
-  [317] = {"Routes", "Route 1"},
-  [319] = {"Routes", "Route 2"},
-  [321] = {"Routes", "Route 3"},
-  [326] = {"Routes", "Route 4"},
+--  [319] = {"Routes", "Route 2"},
+--  [321] = {"Routes", "Route 3"},
+--  [326] = {"Routes", "Route 4"},
   [329] = {"Routes", "Route 5"},
-  [331] = {"Routes", "Route 6"},
-  [337] = {"Routes", "Route 7"},
+--  [331] = {"Routes", "Route 6"},
+--  [337] = {"Routes", "Route 7"},
   [345] = {"Routes", "Route 8"},
-  [348] = {"Routes", "Route 9"},
-  [355] = {"Routes", "Route 10"},
+  [348] = {"Routes", "Route 9", "Route"},
+  [350] = {"Routes", "Route 9", "Shopping Mall Nine", "Mall"},
+  [351] = {"Routes", "Route 9", "Shopping Mall Nine", "Storage Room"},
+--  [355] = {"Routes", "Route 10"},
   [365] = {"Routes", "Route 11"},
   [368] = {"Routes", "Route 12"},
-  [370] = {"Routes", "Route 13"},
-  [374] = {"Routes", "Route 14"},
+--  [370] = {"Routes", "Route 13"},
+--  [374] = {"Routes", "Route 14"},
   [378] = {"Routes", "Route 15"},
   [383] = {"Routes", "Route 16"},
-  [423] = {"Routes", "Routes 17-18"}, -- Route 17
-  [387] = {"Routes", "Routes 17-18"}, -- Route 18
-  [238] = {"Routes", "Routes 17-18"}, -- P2 Lab
-  [397] = {"Cities", "Accumula Town"},
+  [423] = {"Routes", "Route 17 & P2 Lab"}, -- Route 17
+  [387] = {"Routes", "Route 18"}, -- Route 18
+  [238] = {"Routes", "Route 17 & P2 Lab"}, -- P2 Lab
+  [397] = {"Cities", "Accumula Town", "Exterior"},
+  [398] = {"Cities", "Accumula Town", "Pokémon Center"},
   [418] = {"Others", "Anville Town"},
-  [28] = {"Cities", "Castelia City"},
-  [30] = {"Cities", "Castelia City"},
-  [31] = {"Cities", "Castelia City"},
-  [32] = {"Cities", "Castelia City"},
-  [33] = {"Cities", "Castelia City"},
-  [34] = {"Cities", "Castelia City"},
-  [35] = {"Cities", "Castelia City"},
-  [36] = {"Cities", "Castelia City"},
-  [37] = {"Cities", "Castelia City"},
-  [38] = {"Cities", "Castelia City"},
-  [39] = {"Cities", "Castelia City"},
-  [40] = {"Cities", "Castelia City"},
-  [96] = {"Cities", "Driftveil City"},
-  [113] = {"Cities", "Icirrus City"},
+  [28] = {"Cities", "Castelia City", "Exterior"},
+  [29] = {"Cities", "Castelia City", "Gym"},
+  [30] = {"Cities", "Castelia City", "Exterior"},
+  [31] = {"Cities", "Castelia City", "Exterior"},
+  [32] = {"Cities", "Castelia City", "Exterior"},
+  [33] = {"Cities", "Castelia City", "Exterior"},
+  [34] = {"Cities", "Castelia City", "Exterior"},
+  [35] = {"Cities", "Castelia City", "Exterior"},
+  [36] = {"Cities", "Castelia City", "Exterior"},
+  [37] = {"Cities", "Castelia City", "Exterior"},
+  [38] = {"Cities", "Castelia City", "Exterior"},
+  [39] = {"Cities", "Castelia City", "Exterior"},
+  [40] = {"Cities", "Castelia City", "Exterior"},
+  [44] = {"Cities", "Castelia City", "Battle Company", "1F"},
+  [45] = {"Cities", "Castelia City", "Battle Company", "47F"},
+  [46] = {"Cities", "Castelia City", "Battle Company", "55F"},
+--  [96] = {"Cities", "Driftveil City", "City"},
+  [97] = {"Cities", "Driftveil City", "Gym", "Gym"},
+  [98] = {"Cities", "Driftveil City", "Gym", "Entrance"},
+  [105] = {"Cities", "Driftveil City", "Market"},
+--  [113] = {"Cities", "Icirrus City"},
+  [114] = {"Cities", "Icirrus City", "Gym"},
   [406] = {"Cities", "Lacunosa Town"},
-  [107] = {"Cities", "Mistralton City"},
-  [107 + 1024] = {"Cities", "Mistralton City"},
-  [16] = {"Cities", "Nacrene City"},
-  [62] = {"Cities", "Nimbasa City", "City"},
-  [64] = {"Cities", "Nimbasasa City", "East"},
-  [389] = {"Cities", "Nuvema Town"},
-  [391] = {"Cities", "Nuvema Town"}, -- Player's House 2F
-  [120] = {"Cities", "Opelucid City"},
-  [120 + 1024] = {"Cities", "Opelucid City"},
-  [6] = {"Cities", "Striaton City"},
+--  [107] = {"Cities", "Mistralton City"},
+--  [107 + 1024] = {"Cities", "Mistralton City"},
+  [108] = {"Cities", "Mistralton City", "Gym"},
+  [108 + 1024] = {"Cities", "Mistralton City", "Gym"},
+  [16] = {"Cities", "Nacrene City", "Exterior"},
+  [18] = {"Cities", "Nacrene City", "Gym", "Library"},
+  [19] = {"Cities", "Nacrene City", "Gym", "Basement"},
+  [62] = {"Cities", "Nimbasa City", "Exterior", "City"},
+  [63] = {"Cities", "Nimbasa City", "Gym"},
+  [64] = {"Cities", "Nimbasasa City", "Exterior", "Park"},
+  [389] = {"Cities", "Nuvema Town", "Exterior"},
+  [390] = {"Cities", "Nuvema Town", "Player's House", "1F"}, -- Player's House 1F
+  [391] = {"Cities", "Nuvema Town", "Player's House", "2F"}, -- Player's House 2F
+  [0] = {"Cities", "Nuvema Town", "Player's House", "2F"}, -- Player's House 2F
+  [392] = {"Cities", "Nuvema Town", "Bianca's House"}, -- Bianca's House 1F
+  [120] = {"Cities", "Opelucid City", "Exterior"},
+  [120 + 1024] = {"Cities", "Opelucid City", "Exterior"},
+  [121] = {"Cities", "Opelucid City", "Gym"},
+  [121 + 1024] = {"Cities", "Opelucid City", "Gym"},
+--  [6] = {"Cities", "Striaton City", "City"},
+  [7] = {"Cities", "Striaton City", "Gym"},
+  [9] = {"Cities", "Striaton City", "Fennel's House", "1F"},
+  [10] = {"Cities", "Striaton City", "Fennel's House", "2F"},
   [412] = {"Cities", "Undella Town"},
   [376] = {"Dungeons B", "Abundant Shrine"},
   [245] = {"Dungeons B", "Abyssal Ruins", "1F"},
@@ -66,8 +89,8 @@ MAP_MAPPING =  {
   [191] = {"Dungeons A", "Cold Storage", "Outside"},
   [192] = {"Dungeons A", "Cold Storage", "Building"},
   [193] = {"Dungeons A", "Cold Storage", "Container"},
-  [157] = {"Routes", "Route 4"}, -- Desert Resort Outside
-  [158] = {"Dungeons A", "Desert Resort"},
+  [157] = {"Dungeons A", "Desert Resort", "Entrance"},
+  [158] = {"Dungeons A", "Desert Resort", "Resort"},
   [205] = {"Dungeons B", "Dragonspiral Tower", "Icirrus City Part"},
   [206] = {"Dungeons B", "Dragonspiral Tower", "Outside"},
   [207] = {"Dungeons B", "Dragonspiral Tower", "1F"},
@@ -105,8 +128,8 @@ MAP_MAPPING =  {
   [275] = {"Dungeons B", "N's Castle", "4F"}, -- nscastle4fcenterroom
   [277] = {"Dungeons B", "N's Castle", "5F"},
   [278] = {"Dungeons B", "N's Castle", "Throne Room"},
-  [154] = {"Dungeons A", "Pinwheel Forest", "Outside"},
-  [155] = {"Dungeons A", "Pinwheel Forest", "Inside"},
+--  [154] = {"Dungeons A", "Pinwheel Forest", "Outside"},
+  [155] = {"Dungeons A", "Pinwheel Forest", "Forest"},
   [156] = {"Dungeons A", "Pinwheel Forest", "Rumination Field"},
   [160] = {"Dungeons A", "Relic Castle", "Castleside", "1F"},
   [161] = {"Dungeons A", "Relic Castle", "Castleside", "B1F"},
@@ -170,4 +193,175 @@ MAP_MAPPING =  {
   [255] = {"Others", "Village Bridge"},
   [324] = {"Dungeons A", "Wellspring Cave", "1F"},
   [325] = {"Dungeons A", "Wellspring Cave", "B1F"}
+}
+
+MAP_SPLIT_MAPPING = {
+  -- XZ Split Maps
+  [6] = {
+    [23] = {
+      [18] = {"Cities", "Striaton City", "Exterior", "Garden"}, --6: "striatoncity",
+    },
+    [24] = {
+      [18] = {"Cities", "Striaton City", "Exterior", "City"}, --6: "striatoncity",
+    },
+    [25] = {
+      [18] = {"Cities", "Striaton City", "Exterior", "City"}, --6: "striatoncity",
+    }
+  },
+  [96] = {
+    [5] = {
+      [12] = {"Cities", "Driftveil City", "Exterior", "City"}, --96: "driftveilcity",
+      [13] = {"Cities", "Driftveil City", "Exterior", "City"}, --96: "driftveilcity",
+    },
+    [6] = {
+      [12] = {"Cities", "Driftveil City", "Exterior", "City"}, --96: "driftveilcity",
+      [13] = {"Cities", "Driftveil City", "Exterior", "City"}, --96: "driftveilcity",
+    },
+    [7] = {
+      [13] = {"Cities", "Driftveil City", "Exterior", "Drawbridge Entrance"}, --96: "driftveilcity",
+    }
+  },
+  [107] = {
+    [2] = {
+      [8] = {"Cities", "Mistralton City", "Exterior", "Runway"}, --107: "mistraltoncity_b",
+      [9] = {"Cities", "Mistralton City",  "Exterior", "Runway"}, --107: "mistraltoncity_b",
+      [10] = {"Cities", "Mistralton City", "Exterior", "Vegetable Farm"}, --107: "mistraltoncity_b",
+    },
+    [3] = {
+      [9] = {"Cities", "Mistralton City", "Exterior", "City"}, --107: "mistraltoncity_b",
+    }
+  },
+  [107 + 1024] = {
+    [2] = {
+      [8] = {"Cities", "Mistralton City", "Exterior", "Runway"}, --107: "mistraltoncity_w",
+      [9] = {"Cities", "Mistralton City", "Exterior", "Runway"}, --107: "mistraltoncity_w",
+      [10] = {"Cities", "Mistralton City", "Exterior", "Vegetable Farm"}, --107: "mistraltoncity_w",
+    },
+    [3] = {
+      [9] = {"Cities", "Mistralton City", "Exterior", "City"}, --107: "mistraltoncity_w",
+    }
+  },
+  [113] = {
+    [5] = {
+      [5] = {"Cities", "Icirrus City", "Exterior", "West"}, --113: "icirruscity",
+      [6] = {"Cities", "Icirrus City", "Exterior", "West"}, --113: "icirruscity",
+    },
+    [6] = {
+      [6] = {"Cities", "Icirrus City", "Exterior", "East"}, --113: "icirruscity",
+    }
+  },
+  [317] = {
+    [23] = {
+      [22] = {"Routes", "Route 1", "West"}, --317: "route_1",
+      [23] = {"Routes", "Route 1", "West"}, --317: "route_1",
+    },
+    [24] = {
+      [21] = {"Routes", "Route 1", "East"}, --317: "route_1",
+      [22] = {"Routes", "Route 1", "East"}, --317: "route_1",
+    }
+  },
+  [319] = {
+    [23] = {
+      [19] = {"Routes", "Route 2", "North"}, --319: "route_2",
+      [20] = {"Routes", "Route 2", "South"}, --319: "route_2",
+    },
+    [24] = {
+      [19] = {"Routes", "Route 2", "North"}, --319: "route_2",
+    }
+  },
+  [321] = {
+    [21] = {
+      [17] = {"Routes", "Route 3", "West"}, --321: "route_3",
+      [18] = {"Routes", "Route 3", "West"}, --321: "route_3",
+    },
+    [22] = {
+      [17] = {"Routes", "Route 3", "West"}, --321: "route_3",
+      [18] = {"Routes", "Route 3", "West"}, --321: "route_3",
+    },
+    [23] = {
+      [17] = {"Routes", "Route 3", "East"}, --321: "route_3",
+    }
+  },
+  [326] = {
+    [12] = {
+      [16] = {"Routes", "Route 4", "Northwest"}, --326: "route_4",
+      [17] = {"Routes", "Route 4", "Southwest"}, --326: "route_4",
+      [18] = {"Routes", "Route 4", "Southwest"}, --326: "route_4",
+    },
+    [13] = {
+      [15] = {"Routes", "Route 4", "Northeast"}, --326: "route_4",
+      [16] = {"Routes", "Route 4", "Northeast"}, --326: "route_4",
+      [17] = {"Routes", "Route 4", "Southeast"}, --326: "route_4",
+      [18] = {"Routes", "Route 4", "Southeast"}, --326: "route_4",
+    }
+  },
+  [331] = {
+    [3] = {
+      [11] = {"Routes", "Route 6", "North"}, --331: "route6",
+    },
+    [4] = {
+      [11] = {"Routes", "Route 6", "North"}, --331: "route6",
+      [12] = {"Routes", "Route 6", "South"}, --331: "route6",
+    }
+  },
+  [337] = {
+    [3] = {
+      [7] = {"Routes", "Route 7", "West"}, --337: "route7",
+      [8] = {"Routes", "Route 7", "West"}, --337: "route7",
+    },
+    [4] = {
+      [7] = {"Routes", "Route 7", "East"}, --337: "route7",
+    }
+  },
+  [355] = {
+    [13] = {
+      [3] = {"Routes", "Route 10", "West"}, --355: "route_10",
+    },
+    [14] = {
+      [3] = {"Routes", "Route 10", "West"}, --355: "route_10",
+    },
+    [15] = {
+      [3] = {"Routes", "Route 10", "East"}, --355: "route_10",
+    },
+  },
+  [370] = {
+    [20] = {
+      [6] = {"Routes", "Route 13", "Center"}, --370: "route_13"
+    },
+    [21] = {
+      [5] = {"Routes", "Route 13", "North"}, --370: "route_13"
+      [6] = {"Routes", "Route 13", "Center"}, --370: "route_13"
+      [7] = {"Routes", "Route 13", "Southwest"}, --370: "route_13"
+      [8] = {"Routes", "Route 13", "Southwest"}, --370: "route_13"
+    },
+    [22] = {
+      [7] = {"Routes", "Route 13", "Southwest"}, --370: "route_13"
+      [8] = {"Routes", "Route 13", "Southwest"}, --370: "route_13"
+    },
+    [23] = {
+      [8] = {"Routes", "Route 13", "Southeast"}, --370: "route_13"
+    }
+  },
+  [374] = {
+    [21] = {
+      [11] = {"Routes", "Route 14", "West"}, --374: "route14"
+    },
+    [22] = {
+      [10] = {"Routes", "Route 14", "East"}, --374: "route14"
+      [11] = {"Routes", "Route 14", "East"}, --374: "route14"
+    },
+    [23] = {
+      [10] = {"Routes", "Route 14", "East"}, --374: "route14"
+      [11] = {"Routes", "Route 14", "East"}, --374: "route14"
+    }
+  },
+  [154] = {
+    [18] = {
+      [18] = {"Dungeons A", "Pinwheel Forest", "Entrance", "North"}, --154: "pinwheelforestentrance",
+      [19] = {"Dungeons A", "Pinwheel Forest", "Entrance", "South"}, --154: "pinwheelforestentrance",
+    },
+    [19] = {
+      [19] = {"Dungeons A", "Pinwheel Forest", "Entrance", "South"}, --154: "pinwheelforestentrance",
+    }
+  },
 }

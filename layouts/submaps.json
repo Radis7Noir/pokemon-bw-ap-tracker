@@ -5,45 +5,251 @@
             {
                 "title": "Nuvema Town",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "nuvematown"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nuvematown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Player's House",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "playershouse"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "playersroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bianca's House",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "biancashouse"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Accumula Town",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "accumulatown"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "accumulatown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pokémon Center",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "accumulacenter"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Striaton City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "striatoncity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "striatoncity"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Garden",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "striatongarden"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "striatongym"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Fennel's House",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "fennelshouse1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "fennelshouse2f"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Nacrene City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "nacrenecity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "nacrenecity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Library",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nacrenegym"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Basement",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nacrenegymlenorasroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Castelia City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "casteliacity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "casteliacity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "casteliagym"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Battle Company",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "47F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany47f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "55F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "casteliabattlecompany55f"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -53,20 +259,37 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "City",
+                            "title": "Exterior",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nimbasacity"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nimbasacity"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Park",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nimbasacitypark"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "East",
+                            "title": "Gym",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "nimbasacityeast"
+                                    "nimbasagym"
                                 ]
                             }
                         }
@@ -76,36 +299,190 @@
             {
                 "title": "Driftveil City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "driftveilcity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilcity_w"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Drawbridge Entrance",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilcity_e"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Entrance",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilgymentrance"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Gym",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "driftveilgym"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Market",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "driftveilmarket"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Mistralton City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "mistraltoncity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "City",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mistraltoncity_c"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Runway",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mistraltoncity_n"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Vegetable Farm",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "mistraltoncity_s"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "mistraltongym"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Icirrus City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "icirruscity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "West",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "icirruscity_w"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "East",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "icirruscity_e"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "icirrusgym"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Opelucid City",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "opelucidcity"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "opelucidcity"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gym",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "opelucidgym"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -135,36 +512,122 @@
             {
                 "title": "Route 1",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route1"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route1_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route1_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 2",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route2"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "North",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route2_n"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "South",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route2_s"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 3",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route3"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route3_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route3_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 4",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route4"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Northwest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route4_nw"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Northeast",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route4_ne"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Southwest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route4_sw"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Southeast",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route4_se"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -180,18 +643,52 @@
             {
                 "title": "Route 6",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route6"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "North",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route6_n"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "South",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route6_s"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 7",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route7"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route7_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route7_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -207,18 +704,69 @@
             {
                 "title": "Route 9",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route9"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Route",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route9"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shopping Mall Nine",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Mall",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "shoppingmallnine"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Storage Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "shoppingmallninestorageroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 10",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route10"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route10_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route10_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -243,18 +791,70 @@
             {
                 "title": "Route 13",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route13"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "North",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route13_n"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Center",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route13_c"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Southwest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route13_sw"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Southeast",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route13_se"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
                 "title": "Route 14",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "route14"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "West",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route14_w"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "East",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "route14_e"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -277,11 +877,20 @@
                 }
             },
             {
-                "title": "Routes 17-18",
+                "title": "Route 17 & P2 Lab",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "routes_17_18_p2lab"
+                        "route17_p2lab"
+                    ]
+                }
+            },
+            {
+                "title": "Route 18",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "route18"
                     ]
                 }
             }
@@ -348,16 +957,33 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Outside",
+                            "title": "Entrance",
                             "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pinwheelforestoutside"
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "North",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "pinwheelforestentrance_n"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "South",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "pinwheelforestentrance_s"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         },
                         {
-                            "title": "Inside",
+                            "title": "Forest",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -380,9 +1006,26 @@
             {
                 "title": "Desert Resort",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "desertresort"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Entrance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresortoutside"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Resort",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "desertresort"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -1346,7 +1989,7 @@
                                     "fight2rightdex"
                                 ]
                             }
-                        },
+                        }
                     ]
                 }
             }

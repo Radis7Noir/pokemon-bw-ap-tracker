@@ -8,69 +8,181 @@
             {
                 "name": "Game Version - Pokémon Black",
                 "img": "/images/settings/pokemonblack.png",
-                "codes": "game_version,pokemon_black",
+                "codes": "game_version,pokemon_black,not_dynamic",
                 "inherit_codes": false
             },
             {
                 "name": "Game Version - Pokémon White",
                 "img": "/images/settings/pokemonwhite.png",
-                "codes": "game_version,pokemon_white",
+                "codes": "game_version,pokemon_white,not_dynamic",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Dynamic Black",
+                "img": "/images/settings/pokemonblack.png",
+                "img_mods": "overlay|images/settings/overlays/d.png",
+                "codes": "game_version,pokemon_black,dynamic_version,dynamic_black",
+                "inherit_codes": false
+            },
+            {
+                "name": "Game Version - Dynamic White",
+                "img": "/images/settings/pokemonwhite.png",
+                "img_mods": "overlay|images/settings/overlays/d.png",
+                "codes": "game_version,pokemon_white,dynamic_version,dynamic_white",
                 "inherit_codes": false
             }
         ]
     },
     {
-        "name": "Goal",
+        "name": "Goal - Ghetsis",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Goal - Ghetsis",
+                "name": "Ghetsis is not a goal",
                 "img": "/images/events/goalghetsis.png",
-                "codes": "goal,goal_ghetsis",
+                "img_mods": "@disabled",
+                "codes": "goal_ghetsis,goal_ghetsis_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Champion Alder",
+                "name": "Ghetsis is a goal",
+                "img": "/images/events/goalghetsis.png",
+                "codes": "goal_ghetsis,goal_ghetsis_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Champion",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Champion is not a goal",
                 "img": "/images/events/goalchampion.png",
-                "codes": "goal,goal_champion",
+                "img_mods": "@disabled",
+                "codes": "goal_champion,goal_champion_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Cynthia",
+                "name": "Champion is a goal",
+                "img": "/images/events/goalchampion.png",
+                "codes": "goal_champion,goal_champion_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Cynthia",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cynthia is not a goal",
                 "img": "/images/events/goalcynthia.png",
-                "codes": "goal,goal_cynthia",
+                "img_mods": "@disabled",
+                "codes": "goal_cynthia,goal_cynthia_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Cobalion",
+                "name": "Cynthia is a goal",
+                "img": "/images/events/goalcynthia.png",
+                "codes": "goal_cynthia,goal_cynthia_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Cobalion",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cobalion is not a goal",
                 "img": "/images/events/goalcobalion.png",
-                "codes": "goal,goal_cobalion",
+                "img_mods": "@disabled",
+                "codes": "goal_cobalion,goal_cobalion_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - TM/HM Hunt",
+                "name": "Cobalion is a goal",
+                "img": "/images/events/goalcobalion.png",
+                "codes": "goal_cobalion,goal_cobalion_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - TM/MH Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "TM/MH Hunt is not a goal",
                 "img": "/images/events/goaltmhms.png",
-                "codes": "goal,goal_tmhm_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_tmhm_hunt,goal_tmhm_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Seven Sages Hunt",
+                "name": "TM/MH Hunt is a goal",
+                "img": "/images/events/goaltmhms.png",
+                "codes": "goal_tmhm_hunt,goal_tmhm_hunt_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Seven Sages Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seven Sages Hunt is not a goal",
                 "img": "/images/events/goal7sages.png",
-                "codes": "goal,goal_seven_sages_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_seven_sages_hunt,goal_seven_sages_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Legendary Hunt",
+                "name": "Seven Sages Hunt is a goal",
+                "img": "/images/events/goal7sages.png",
+                "codes": "goal_seven_sages_hunt,goal_seven_sages_hunt_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goal - Legendary Hunt",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Legendary Hunt is not a goal",
                 "img": "/images/events/victini.png",
-                "codes": "goal,goal_legendary_hunt",
+                "img_mods": "@disabled",
+                "codes": "goal_legendary_hunt,goal_legendary_hunt_off",
                 "inherit_codes": false
             },
             {
-                "name": "Goal - Pokemon Master",
-                "img": "/images/events/goalmaster.png",
-                "codes": "goal,goal_pokemon_master",
+                "name": "Legendary Hunt is a goal",
+                "img": "/images/events/victini.png",
+                "codes": "goal_legendary_hunt,goal_legendary_hunt_on",
                 "inherit_codes": false
             }
         ]
@@ -78,11 +190,60 @@
     {
         "name": "Dexsanity",
         "img": "/images/settings/pokedex.png",
+        "img_mods": "overlay|images/settings/overlays/caught.png",
         "codes": "dexsanity",
         "type": "consumable",
         "allow_disabled": true,
         "min_quantity": 0,
         "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Seensanity",
+        "img": "/images/settings/pokedex_pi.png",
+        "img_mods": "overlay|images/settings/overlays/seen.png",
+        "codes": "seensanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Shinysanity",
+        "img": "/images/settings/pokedex_y.png",
+        "img_mods": "overlay|images/settings/overlays/shiny.png",
+        "codes": "shinysanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 649,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Formsanity",
+        "img": "/images/settings/pokedex_pu.png",
+        "img_mods": "overlay|images/settings/overlays/form.png",
+        "codes": "formsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 72,
+        "overlay_background": "000000",
+        "initial_quantity": 0
+    },
+    {
+        "name": "Shinyformsanity",
+        "img": "/images/settings/pokedex_b.png",
+        "img_mods": "overlay|images/settings/overlays/shinyform.png",
+        "codes": "shinyformsanity",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 72,
         "overlay_background": "000000",
         "initial_quantity": 0
     },
@@ -114,6 +275,34 @@
         ]
     },
     {
+        "name": "Starting Season",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Starting Season - Spring",
+                "codes": "starting_season,starting_season_spring",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Summer",
+                "codes": "starting_season,starting_season_summer",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Autumn",
+                "codes": "starting_season,starting_season_autumn",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starting Season - Winter",
+                "codes": "starting_season,starting_season_winter",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Badge Shuffling",
         "type": "progressive",
         "loop": true,
@@ -135,6 +324,32 @@
                 "name": "Shuffle Badges - Anything",
                 "img": "/images/settings/badge_anything.png",
                 "codes": "shuffle_badges,shuffle_badges_anything",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "TM Shuffling",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuffle TMs - Shuffle",
+                "img": "/images/settings/tm_shuffle.png",
+                "codes": "shuffle_tms,shuffle_tms_shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle TMs - HMs With Badges",
+                "img": "/images/settings/tm_badge.png",
+                "codes": "shuffle_tms,shuffle_tms_badges",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuffle TMs - Anything",
+                "img": "/images/settings/tm_anything.png",
+                "codes": "shuffle_tms,shuffle_tms_anything",
                 "inherit_codes": false
             }
         ]
@@ -182,34 +397,75 @@
         ]
     },
     {
-        "name": "Adjust Levels",
+        "name": "Adjust Levels - Wilds",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Adjust Levels - OFF",
-                "img": "/images/settings/adjustlevels_off.png",
-                "codes": "adjustlevels, adjustlevels_off",
-                "inherit_codes": false
-            },
-            {
-                "name": "Adjust Levels - Wilds & Trainers",
-                "img": "/images/settings/adjustlevels_wilds_trainers.png",
-                "codes": "adjustlevels, adjustlevels_wilds, adjustlevels_trainers",
-                "inherit_codes": false
-            },
-            {
-                "name": "Adjust Levels - Wilds",
+                "name": "Adjust Wilds - OFF",
                 "img": "/images/settings/adjustlevels_wilds.png",
-                "codes": "adjustlevels, adjustlevels_wilds",
+                "img_mods": "@disabled",
+                "codes": "adjust_wilds, adjust_wilds_off",
                 "inherit_codes": false
             },
             {
-                "name": "Adjust Levels - Trainers",
+                "name": "Adjust Wilds - By Distance",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/dist.png",
+                "codes": "adjust_wilds,adjust_wilds_distance",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Wilds - By Sphere",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/sph.png",
+                "codes": "adjust_wilds,adjust_wilds_sphere",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Wilds - By Distance & Sphere",
+                "img": "/images/settings/adjustlevels_wilds.png",
+                "img_mods": "overlay|images/settings/overlays/ds.png",
+                "codes": "adjust_wilds,adjust_wilds_distance_sphere",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Adjust Levels - Trainers",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Adjust Trainers - OFF",
                 "img": "/images/settings/adjustlevels_trainers.png",
-                "codes": "adjustlevels, adjustlevels_trainers",
+                "img_mods": "@disabled",
+                "codes": "adjust_trainers, adjust_trainers_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Trainers - By Distance",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/dist.png",
+                "codes": "adjust_trainers, adjust_trainers_distance",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Trainers - By Sphere",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/sph.png",
+                "codes": "adjust_trainers, adjust_trainers_sphere",
+                "inherit_codes": false
+            },
+            {
+                "name": "Adjust Trainers - By Distance & Sphere",
+                "img": "/images/settings/adjustlevels_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/ds.png",
+                "codes": "adjust_trainers, adjust_trainers_distance_sphere",
                 "inherit_codes": false
             }
         ]
@@ -261,10 +517,33 @@
         ]
     },
     {
-        "name": "Consider Trades",
+        "name": "Show Statics",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hide Static Pokémon",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/false.png",
+                "codes": "static_visibility,hide_statics",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show Static Pokémon",
+                "img": "/images/settings/consider_statics.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "static_visibility,show_statics",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consider Trades",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -279,6 +558,52 @@
                 "img": "/images/settings/consider_trades.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_trades,consider_trades_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Show Trades",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hide Trade Pokémon",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/false.png",
+                "codes": "trade_visibility,hide_trades",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show Trade Pokémon",
+                "img": "/images/settings/consider_trades.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "trade_visibility,show_trades",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consider Trainers",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seeing Pokémon from Trainers is NOT in logic",
+                "img": "/images/settings/consider_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "codes": "consider_trainers,consider_trainers_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seeing Pokémon from Trainers IS in logic",
+                "img": "/images/settings/consider_trainers.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "consider_trainers,consider_trainers_true",
                 "inherit_codes": false
             }
         ]
@@ -331,20 +656,21 @@
         "name": "Auto-Tab",
         "type": "progressive",
         "loop": true,
+        "initial_stage_idx": 1,
         "codes": "auto_switch",
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Auto-Tab Map - ON",
-                "img": "/images/settings/autoswitch_on.png",
-                "codes": "automap, automap_on",
+                "name": "Auto-Tab Map - OFF",
+                "img": "/images/settings/autoswitch.png",
+                "img_mods": "@disabled",
+                "codes": "automap, automap_off",
                 "inherit_codes": false
             },
             {
-                "name": "Auto-Tab Map - OFF",
-                "img": "/images/settings/autoswitch_off.png",
-                "img_mods": "@disabled",
-                "codes": "automap, automap_off",
+                "name": "Auto-Tab Map - ON",
+                "img": "/images/settings/autoswitch.png",
+                "codes": "automap, automap_on",
                 "inherit_codes": false
             }
         ]
@@ -358,7 +684,7 @@
         "stages": [
             {
                 "name": "Split Map - OFF",
-                "img": "/images/settings/map_single.png",
+                "img": "/images/settings/map_split.png",
                 "img_mods": "@disabled",
                 "codes": "splitmap, splitmap_off",
                 "inherit_codes": false
@@ -373,6 +699,66 @@
                 "name": "Split Map - Reverse",
                 "img": "/images/settings/map_reverse.png",
                 "codes": "splitmap, splitmap_reverse",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Wilds",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_wild",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wild encounters are vanilla",
+                "codes": "randomize_wild_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wild encounters are randomized",
+                "codes": "randomize_wild_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Statics",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_static",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Static encounters are vanilla",
+                "codes": "randomize_static_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Static encounters are randomized",
+                "codes": "randomize_static_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Randomize Legendaries",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "randomize_legendary",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Legendary encounters are vanilla",
+                "codes": "randomize_legendary_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Legendary encounters are randomized",
+                "codes": "randomize_legendary_on",
                 "inherit_codes": false
             }
         ]
@@ -421,7 +807,8 @@
             },
             {
                 "name": "Hide All Season Items Locations",
-                "img": "/images/settings/show_noseasons.png",
+                "img": "/images/settings/show_seasons.png",
+                "img_mods": "@disabled",
                 "codes": "show_noseason",
                 "inherit_codes": false
             }
@@ -437,14 +824,14 @@
         "stages": [
             {
                 "name": "Encounter Locations - OFF",
-                "img": "/images/settings/show_encounters_off.png",
+                "img": "/images/settings/show_encounters.png",
                 "img_mods": "@disabled",
                 "codes": "show_items",
                 "inherit_codes": false
             },
             {
                 "name": "Encounter Locations - ON",
-                "img": "/images/settings/show_encounters_on.png",
+                "img": "/images/settings/show_encounters.png",
                 "codes": "show_items,show_mons",
                 "inherit_codes": false
             },
@@ -638,26 +1025,16 @@
         ]
     },
     {
-        "name": "Static Visibility",
-        "type": "progressive",
-        "codes": "static_visibility",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "codes": "static_visibility_false",
-                "inherit_codes": false
-            },
-            {
-                "codes": "static_visibility_true",
-                "inherit_codes": false
-            }
-        ]
-    },
-    {
         "name": "",
         "type": "static",
         "img": "/images/settings/dexentrytop.png",
         "codes": "dexentrytop"
+    },
+    {
+        "name": "",
+        "type": "static",
+        "img": "/images/settings/dexentrytopr.png",
+        "codes": "dexentrytopr"
     },
     {
         "name": "",
@@ -3295,6 +3672,502 @@
         ]
     },
     {
+        "name": "Unown Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_201",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Unown (All Forms)",
+                "img": "/images/pokemon/forms/201-1.png"
+            },
+            {
+                "name": "Unown (A)",
+                "img": "/images/pokemon/201.png"
+            },
+            {
+                "name": "Unown (B)",
+                "img": "/images/pokemon/forms/201-2.png"
+            },
+            {
+                "name": "Unown (C)",
+                "img": "/images/pokemon/forms/201-3.png"
+            },
+            {
+                "name": "Unown (D)",
+                "img": "/images/pokemon/forms/201-4.png"
+            },
+            {
+                "name": "Unown (E)",
+                "img": "/images/pokemon/forms/201-5.png"
+            },
+            {
+                "name": "Unown (F)",
+                "img": "/images/pokemon/forms/201-6.png"
+            },
+            {
+                "name": "Unown (G)",
+                "img": "/images/pokemon/forms/201-7.png"
+            },
+            {
+                "name": "Unown (H)",
+                "img": "/images/pokemon/forms/201-8.png"
+            },
+            {
+                "name": "Unown (I)",
+                "img": "/images/pokemon/forms/201-9.png"
+            },
+            {
+                "name": "Unown (J)",
+                "img": "/images/pokemon/forms/201-10.png"
+            },
+            {
+                "name": "Unown (K)",
+                "img": "/images/pokemon/forms/201-11.png"
+            },
+            {
+                "name": "Unown (L)",
+                "img": "/images/pokemon/forms/201-12.png"
+            },
+            {
+                "name": "Unown (M)",
+                "img": "/images/pokemon/forms/201-13.png"
+            },
+            {
+                "name": "Unown (N)",
+                "img": "/images/pokemon/forms/201-14.png"
+            },
+            {
+                "name": "Unown (O)",
+                "img": "/images/pokemon/forms/201-15.png"
+            },
+            {
+                "name": "Unown (P)",
+                "img": "/images/pokemon/forms/201-16.png"
+            },
+            {
+                "name": "Unown (Q)",
+                "img": "/images/pokemon/forms/201-17.png"
+            },
+            {
+                "name": "Unown (R)",
+                "img": "/images/pokemon/forms/201-18.png"
+            },
+            {
+                "name": "Unown (S)",
+                "img": "/images/pokemon/forms/201-19.png"
+            },
+            {
+                "name": "Unown (T)",
+                "img": "/images/pokemon/forms/201-20.png"
+            },
+            {
+                "name": "Unown (U)",
+                "img": "/images/pokemon/forms/201-21.png"
+            },
+            {
+                "name": "Unown (V)",
+                "img": "/images/pokemon/forms/201-22.png"
+            },
+            {
+                "name": "Unown (W)",
+                "img": "/images/pokemon/forms/201-23.png"
+            },
+            {
+                "name": "Unown (X)",
+                "img": "/images/pokemon/forms/201-24.png"
+            },
+            {
+                "name": "Unown (Y)",
+                "img": "/images/pokemon/forms/201-25.png"
+            },
+            {
+                "name": "Unown (Z)",
+                "img": "/images/pokemon/forms/201-26.png"
+            },
+            {
+                "name": "Unown (Exclamation Mark)",
+                "img": "/images/pokemon/forms/201-27.png"
+            },
+            {
+                "name": "Unown (Question Mark)",
+                "img": "/images/pokemon/forms/201-28.png"
+            }
+        ]
+    },
+    {
+        "name": "Castform Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_351",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Castform (All Forms)",
+                "img": "/images/pokemon/forms/351-1.png"
+            },
+            {
+                "name": "Castform (Normal)",
+                "img": "/images/pokemon/351.png"
+            },
+            {
+                "name": "Castform (Sunny)",
+                "img": "/images/pokemon/forms/351-2.png"
+            },
+            {
+                "name": "Castform (Rainy)",
+                "img": "/images/pokemon/forms/351-3.png"
+            },
+            {
+                "name": "Castform (Snowy)",
+                "img": "/images/pokemon/forms/351-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Deoxys Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_386",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Deoxys (All Forms)",
+                "img": "/images/pokemon/forms/386-1.png"
+            },
+            {
+                "name": "Deoxys (Normal)",
+                "img": "/images/pokemon/386.png"
+            },
+            {
+                "name": "Deoxys (Attack)",
+                "img": "/images/pokemon/forms/386-2.png"
+            },
+            {
+                "name": "Deoxys (Defense)",
+                "img": "/images/pokemon/forms/386-3.png"
+            },
+            {
+                "name": "Deoxys (Speed)",
+                "img": "/images/pokemon/forms/386-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Burmy Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_412",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Burmy (All Forms)",
+                "img": "/images/pokemon/forms/412-1.png"
+            },
+            {
+                "name": "Burmy (Plant)",
+                "img": "/images/pokemon/412.png"
+            },
+            {
+                "name": "Burmy (Sandy)",
+                "img": "/images/pokemon/forms/412-2.png"
+            },
+            {
+                "name": "Burmy (Trash)",
+                "img": "/images/pokemon/forms/412-3.png"
+            }
+        ]
+    },
+    {
+        "name": "Wormadam Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_413",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wormadam (All Forms)",
+                "img": "/images/pokemon/forms/413-1.png"
+            },
+            {
+                "name": "Wormadam (Plant)",
+                "img": "/images/pokemon/413.png"
+            },
+            {
+                "name": "Wormadam (Sandy)",
+                "img": "/images/pokemon/forms/413-2.png"
+            },
+            {
+                "name": "Wormadam (Trash)",
+                "img": "/images/pokemon/forms/413-3.png"
+            }
+        ]
+    },
+    {
+        "name": "Cherrim Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_421",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cherrim (All Forms)",
+                "img": "/images/pokemon/forms/421-1.png"
+            },
+            {
+                "name": "Cherrim (Overcast)",
+                "img": "/images/pokemon/421.png"
+            },
+            {
+                "name": "Cherrim (Sunshine)",
+                "img": "/images/pokemon/forms/421-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Shellos Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_422",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shellos (All Forms)",
+                "img": "/images/pokemon/forms/422-1.png"
+            },
+            {
+                "name": "Shellos (West)",
+                "img": "/images/pokemon/422.png"
+            },
+            {
+                "name": "Shellos (East)",
+                "img": "/images/pokemon/forms/422-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Gastrodon Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_423",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gastrodon (All Forms)",
+                "img": "/images/pokemon/forms/423-1.png"
+            },
+            {
+                "name": "Gastrodon (West)",
+                "img": "/images/pokemon/423.png"
+            },
+            {
+                "name": "Gastrodon (East)",
+                "img": "/images/pokemon/forms/423-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Rotom Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_479",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rotom (All Forms)",
+                "img": "/images/pokemon/forms/479-1.png"
+            },
+            {
+                "name": "Rotom (Normal)",
+                "img": "/images/pokemon/479.png"
+            },
+            {
+                "name": "Rotom (Heat)",
+                "img": "/images/pokemon/forms/479-2.png"
+            },
+            {
+                "name": "Rotom (Wash)",
+                "img": "/images/pokemon/forms/479-3.png"
+            },
+            {
+                "name": "Rotom (Frost)",
+                "img": "/images/pokemon/forms/479-4.png"
+            },
+            {
+                "name": "Rotom (Fan)",
+                "img": "/images/pokemon/forms/479-5.png"
+            },
+            {
+                "name": "Rotom (Mow)",
+                "img": "/images/pokemon/forms/479-6.png"
+            }
+        ]
+    },
+    {
+        "name": "Giratina Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_487",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Giratina (All Forms)",
+                "img": "/images/pokemon/forms/487-1.png"
+            },
+            {
+                "name": "Giratina (Altered)",
+                "img": "/images/pokemon/487.png"
+            },
+            {
+                "name": "Giratina (Origin)",
+                "img": "/images/pokemon/forms/487-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Shaymin Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_492",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shaymin (All Forms)",
+                "img": "/images/pokemon/forms/492-1.png"
+            },
+            {
+                "name": "Shaymin (Land)",
+                "img": "/images/pokemon/492.png"
+            },
+            {
+                "name": "Shaymin (Sky)",
+                "img": "/images/pokemon/forms/492-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Basculin Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_550",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Basculin (All Forms)",
+                "img": "/images/pokemon/forms/550-1.png"
+            },
+            {
+                "name": "Basculin (Red-Striped)",
+                "img": "/images/pokemon/550.png"
+            },
+            {
+                "name": "Basculin (Blue-Striped)",
+                "img": "/images/pokemon/forms/550-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Darmanitan Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_555",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Darmanitan (All Forms)",
+                "img": "/images/pokemon/forms/555-1.png"
+            },
+            {
+                "name": "Darmanitan (Standard)",
+                "img": "/images/pokemon/555.png"
+            },
+            {
+                "name": "Darmanitan (Zen)",
+                "img": "/images/pokemon/forms/555-2.png"
+            }
+        ]
+    },
+    {
+        "name": "Deerling Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_585",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Deerling (All Forms)",
+                "img": "/images/pokemon/forms/585-1.png"
+            },
+            {
+                "name": "Deerling (Spring)",
+                "img": "/images/pokemon/585.png"
+            },
+            {
+                "name": "Deerling (Summer)",
+                "img": "/images/pokemon/forms/585-2.png"
+            },
+            {
+                "name": "Deerling (Autumn)",
+                "img": "/images/pokemon/forms/585-3.png"
+            },
+            {
+                "name": "Deerling (Winter)",
+                "img": "/images/pokemon/forms/585-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Sawsbuck Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_586",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sawsbuck (All Forms)",
+                "img": "/images/pokemon/forms/586-1.png"
+            },
+            {
+                "name": "Sawsbuck (Spring)",
+                "img": "/images/pokemon/586.png"
+            },
+            {
+                "name": "Sawsbuck (Summer)",
+                "img": "/images/pokemon/forms/586-2.png"
+            },
+            {
+                "name": "Sawsbuck (Autumn)",
+                "img": "/images/pokemon/forms/586-3.png"
+            },
+            {
+                "name": "Sawsbuck (Winter)",
+                "img": "/images/pokemon/forms/586-4.png"
+            }
+        ]
+    },
+    {
+        "name": "Meloetta Form",
+        "type": "progressive",
+        "codes": "dexsearch_form_648",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Meloetta (All Forms)",
+                "img": "/images/pokemon/forms/648-1.png"
+            },
+            {
+                "name": "Meloetta (Aria)",
+                "img": "/images/pokemon/648.png"
+            },
+            {
+                "name": "Meloetta (Pirouette)",
+                "img": "/images/pokemon/forms/648-2.png"
+            }
+        ]
+    },
+    {
         "name": "Seen Pokemon",
         "codes": "seen_pokemon",
         "type": "consumable",
@@ -3329,11 +4202,6 @@
                 "inherit_codes": false
             }
         ]
-    },
-    {
-        "name": "All Pokemon Seen (Hidden Option)",
-        "type": "toggle",
-        "codes": "all_pokemon_seen"
     },
     {
         "name": "Extra Logic - S.S. Ticket",
@@ -4072,6 +4940,99 @@
                 "img": "/images/settings/starting_town/undella_town.png",
                 "codes": "starting_town,starting_town_undella",
                 "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "slotdigit_1",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/digits/d0.png"
+            },
+            {
+                "img": "/images/settings/digits/d1.png"
+            },
+            {
+                "img": "/images/settings/digits/d2.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "slotdigit_2",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/digits/d0.png"
+            },
+            {
+                "img": "/images/settings/digits/d1.png"
+            },
+            {
+                "img": "/images/settings/digits/d2.png"
+            },
+            {
+                "img": "/images/settings/digits/d3.png"
+            },
+            {
+                "img": "/images/settings/digits/d4.png"
+            },
+            {
+                "img": "/images/settings/digits/d5.png"
+            },
+            {
+                "img": "/images/settings/digits/d6.png"
+            },
+            {
+                "img": "/images/settings/digits/d7.png"
+            },
+            {
+                "img": "/images/settings/digits/d8.png"
+            },
+            {
+                "img": "/images/settings/digits/d9.png"
+            }
+        ]
+    },
+    {
+        "name": "",
+        "type": "progressive",
+        "codes": "slotdigit_3",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "/images/settings/digits/d0.png"
+            },
+            {
+                "img": "/images/settings/digits/d1.png"
+            },
+            {
+                "img": "/images/settings/digits/d2.png"
+            },
+            {
+                "img": "/images/settings/digits/d3.png"
+            },
+            {
+                "img": "/images/settings/digits/d4.png"
+            },
+            {
+                "img": "/images/settings/digits/d5.png"
+            },
+            {
+                "img": "/images/settings/digits/d6.png"
+            },
+            {
+                "img": "/images/settings/digits/d7.png"
+            },
+            {
+                "img": "/images/settings/digits/d8.png"
+            },
+            {
+                "img": "/images/settings/digits/d9.png"
             }
         ]
     }

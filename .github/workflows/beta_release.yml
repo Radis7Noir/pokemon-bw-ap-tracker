@@ -1,0 +1,55 @@
+name: Update beta_versions.json on manifest change
+on:
+  push:
+    branches: ['*-beta']
+    paths: [manifest.json]
+jobs:
+  autoupdate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Get last commit that changed manifest.json
+        id: sha
+        run: echo "sha=$(git log -1 --format=%H -- manifest.json)" >> "$GITHUB_OUTPUT"
+      - name: Get package_version from manifest
+        id: version
+        run: echo "version=$(git show ${{ steps.sha.outputs.sha }}:manifest.json | jq -r .package_version)" >> "$GITHUB_OUTPUT"
+      - name: Repack source archive
+        run: git archive --format=zip -o "${{ github.event.repository.name }}.zip" "${{ steps.sha.outputs.sha }}"
+      - name: Get checksum
+        id: checksum
+        run: echo "sha256sum=$(sha256sum ${{ github.event.repository.name }}.zip | awk '{print $1}')" >> "$GITHUB_OUTPUT"
+      - name: Checkout versions branch
+        uses: actions/checkout@v5
+        with:
+          ref: versions
+          path: versions-branch
+      - name: Git config
+        run: cd versions-branch && git config user.name "Automation" && git config user.email "automation@localhost"
+      - name: Commit zip
+        id: zip
+        run: |-
+          cd versions-branch
+          mkdir -p beta
+          mv "../${{ github.event.repository.name }}.zip" beta/
+          git add beta
+          git commit -m "Beta ${{ steps.version.outputs.version }} zip (${{ steps.sha.outputs.sha }})"
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Update beta_versions.json
+        run: |-
+          cd versions-branch
+          [ -f beta_versions.json ] || echo '{"versions": []}' > beta_versions.json
+          jq --arg v "${{ steps.version.outputs.version }}" \
+             --arg url "https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.zip.outputs.commit }}/beta/${{ github.event.repository.name }}.zip" \
+             --arg sha "${{ steps.checksum.outputs.sha256sum }}" \
+             '.versions |= ([{package_version:$v, download_url:$url, sha256:$sha, changelog:["Beta build"]}] + map(select(.package_version != $v)))' \
+             beta_versions.json > new_versions.json
+          mv new_versions.json beta_versions.json
+      - name: Commit
+        run: cd versions-branch && git add beta_versions.json && git commit -m "Beta ${{ steps.version.outputs.version }} (${{ steps.sha.outputs.sha }})"
+      - name: Push
+        run: cd versions-branch && git push origin HEAD:versions

@@ -8,6 +8,14 @@
             "content": [
                 {
                     "type": "group",
+                    "header": "Goal",
+                    "content": {
+                        "type": "layout",
+                        "key": "goal_grid"
+                    }
+                },
+                {
+                    "type": "group",
                     "header": "Options",
                     "content": {
                         "type": "layout",
@@ -20,22 +28,6 @@
                     "content": {
                         "type": "layout",
                         "key": "logic_grid"
-                    }
-                },
-			    {
-                    "type": "group",
-                    "header": "Dark Areas",
-                    "content": {
-                        "type": "layout",
-                        "key": "dark_grid"
-                    }
-                },
-			    {
-                    "type": "group",
-                    "header": "Starting Town",
-                    "content": {
-                        "type": "layout",
-                        "key": "start_town_grid"
                     }
                 },
 			    {
@@ -57,7 +49,7 @@
             ]
         }
     },
-    "options_grid": {
+    "goal_grid": {
         "type": "itemgrid",
         "item_margin": "2, 2",
         "item_size": "32,32",
@@ -66,11 +58,36 @@
         "h_alignment": "left",
         "rows": [
             [
+                "goal_ghetsis",
+                "goal_champion",
+                "goal_cynthia",
+                "goal_cobalion",
+                "goal_tmhm_hunt",
+                "goal_seven_sages_hunt",
+                "goal_legendary_hunt"
+            ]
+        ]
+    },
+    "options_grid": {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": "32,32",
+        "item_h_alignment": "center",
+        "item_v_alignment": "center",
+        "h_alignment": "center",
+        "rows": [
+            [
                 "game_version",
-				"goal",
-				"dexsanity",
                 "season_control",
-				"shuffle_badges"
+				"shuffle_badges",
+                "shuffle_tms",
+				"dexsanity",
+                "seensanity",
+                "shinysanity"
+            ],
+            [
+                "formsanity",
+                "shinyformsanity"
             ]
         ]
     },
@@ -85,14 +102,8 @@
             [
 				"require_dowsingmchn",
 				"require_flash",
-				"adjustlevels",
-				"add_ssticket",
-                "add_pass",
- 				"add_rocksmash"
-            ],
-            [
-                "ex_cut_trees",
-                "mo_strength_boulders"
+				"adjust_wilds",
+				"adjust_trainers"
             ]
         ]
     },
@@ -165,7 +176,8 @@
             [
                 "consider_evolutions",
 				"consider_statics",
-				"consider_trades"
+				"consider_trades",
+                "consider_trainers"
             ]
         ]
     },
@@ -181,7 +193,9 @@
                 "abyssalruins_visibility",
 				"dexappraisal_visibility",
 				"brangers_visibility",
-				"seasonitems_visibility"
+				"seasonitems_visibility",
+                "static_visibility",
+                "trade_visibility"
             ]
         ]
     }
