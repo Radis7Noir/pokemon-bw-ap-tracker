@@ -317,6 +317,32 @@
                         ]
                     },
                     {
+                        "name": "Gym - Waiter Maxwell (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Waitress Tia (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Gym - Defeat Cilan, Chili or Cress (Event)",
                         "access_rules": [
                             "@Striaton Gym Access"
@@ -525,6 +551,19 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Leader Lenora (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -892,6 +931,19 @@
                         ]
                     },
                     {
+                        "name": "Gym - Leader Burgh (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Gym - Defeat Burgh (Event)",
                         "access_rules": [
                             "@Castelia Gym Access"
@@ -1103,6 +1155,19 @@
                         ]
                     },
                     {
+                        "name": "Gym - Leader Elesa (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Gym - Defeat Elesa (Event)",
                         "access_rules": [
                             "@Nimbasa Gym Access"
@@ -1292,6 +1357,19 @@
                         ]
                     },
                     {
+                        "name": "Gym - Leader Clay (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Gym - Defeat Clay (Event)",
                         "access_rules": [
                             "@Driftveil Gym Access"
@@ -1475,6 +1553,19 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Leader Skyla (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -2573,6 +2664,32 @@
                         "visibility_rules": [
                             "show_mons"
                         ]
+                    },
+                    {
+                        "name": "Youngster Jimmy (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/youngster_seensanity.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/youngster_seensanity_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Lass Mali (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2820,6 +2937,123 @@
                         "visibility_rules": [
                             "show_mons"
                         ]
+                    },
+                    {
+                        "name": "School Kid Al (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "School Kid Marsha (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Nursery Aide Autumn (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Preschooler Wendy (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Preschooler Doyle (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Preschooler Tully (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Twins Kumi & Amy (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "PkMn Breeder Galen (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "PkMn Breeder Adelaide (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -3041,6 +3275,97 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
+                        ]
+                    },
+                    {
+                        "name": "Worker Scott (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 North Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Worker Shelby (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 South Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Worker Zack (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 North Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Backpacker Waylon (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 North Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Backpacker Jill (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 North Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Fisherman Hubert (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 South Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Fisherman Andrew (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Route 4 South Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     }
                 ],
@@ -6387,6 +6712,32 @@
                         "visibility_rules": [
                             "add_rocksmash_musharna,show_mons,show_statics"
                         ]
+                    },
+                    {
+                        "name": "Youngster Joey (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Lass Eri (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -7163,6 +7514,123 @@
                         ],
                         "visibility_rules": [
                             "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Inside - PkMn Ranger Forrest (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - PkMn Ranger Irene (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - PkMn Ranger Miguel (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - PkMn Ranger Audra (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - School Kid Sammy (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - School Kid Millie (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Twins Mayo & May (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Youngster Nicholas (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Inside - Lass Eva (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Pinwheel Forest West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     }
                 ],
@@ -9662,6 +10130,19 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
+                        ]
+                    },
+                    {
+                        "name": "Middle Floor - Worker Cairn (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 2F South West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     }
                 ],
