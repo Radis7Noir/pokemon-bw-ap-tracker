@@ -935,19 +935,6 @@
                         ]
                     },
                     {
-                        "name": "Clerk ♀ Trisha (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
-                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            ""
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
                         "name": "Waiter Bert (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
