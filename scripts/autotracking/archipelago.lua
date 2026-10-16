@@ -802,7 +802,6 @@ function updatePokemon()
         local formSentCode = form_flag ~= nil and Tracker:FindObjectForCode(LOCATION_MAPPING[606000 + form_flag][1]).AvailableChestCount == 0
         local form_needed = formVisibilityCode and not formSentCode
 
-        local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = false
 
         if form_needed then
@@ -815,18 +814,22 @@ function updatePokemon()
             is_seen = seenSpecies[dex_number] == true
         end
 
+        -- for each encounter_tracking method
+        local seen_pending = seenVisibilityCode and not seenSentCode and not seenSpecies[dex_number]
+        local form_pending = form_needed and not table_contains(SEEN, pokemon_id)
         local should_decrement = false
         if is_seen then
             should_decrement = true
-        elseif is_caught and not form_needed then
-            should_decrement = true
-        elseif has("encounter_tracking_minimal") and not form_needed and (seenSentCode or not seenVisibilityCode) then
+        elseif has("encounter_tracking_caught") then
+            -- we keep all unseen pokémon
+        elseif not seen_pending and not form_pending then
+            -- we decrement to the number of checks
             should_decrement = true
         end
 
         if should_decrement == false then
             if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
-                local padded_location = form_needed and (606000 + form_flag) or (604000 + dex_number)
+                local padded_location = form_pending and (606000 + form_flag) or (604000 + dex_number)
                 for _, hint in pairs(SAVED_HINTS) do
                     if hint.finding_player == PLAYER_ID and hint.found == false then
                         if padded_location == hint.location then

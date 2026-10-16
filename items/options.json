@@ -844,6 +844,29 @@
         ]
     },
     {
+        "name": "Trainer Team Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 0,
+        "codes": "trainer_teams_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Trainer Team Locations - OFF",
+                "img": "/images/settings/show_encounters.png",
+                "img_mods": "@disabled",
+                "codes": "hide_trainer_teams",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trainer Team Locations - ON",
+                "img": "/images/settings/show_encounters.png",
+                "codes": "show_trainer_teams",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Encounter Tracking",
         "type": "progressive",
         "loop": true,

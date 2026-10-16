@@ -24,7 +24,7 @@
 								"encounter_tracking"
                             ],
                             [
-                                "",
+                                "trainer_teams_visibility",
                                 "hint_tracking"
                             ]
                         ]
@@ -54,6 +54,7 @@
 								"split",
 								"location_visibility",
 								"encounter_tracking",
+                                "trainer_teams_visibility",
                                 "hint_tracking"
                             ]
                         ]
