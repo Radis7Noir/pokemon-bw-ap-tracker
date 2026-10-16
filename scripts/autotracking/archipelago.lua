@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/trainer_teams_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/option_mapping.lua")
@@ -95,6 +96,22 @@ function onClear(slot_data)
 
     resetLocations()
 
+    -- trainer_teams is a list indexed by trainer ID
+    TRAINER_TEAMS = {}
+    POKEMON_TO_TRAINERS = {}
+    for trainer_key, _ in pairs(TRAINER_TEAMS_MAPPING) do
+        local team = {}
+        for _, pokemon_id in ipairs(slot_data.trainer_teams[tonumber(trainer_key) + 1] or {}) do -- 0 is a placeholder, so +1
+            if not table_contains(team, pokemon_id) then -- skips duplicates, each form counts separately
+                table.insert(team, pokemon_id)
+                POKEMON_TO_TRAINERS[pokemon_id] = POKEMON_TO_TRAINERS[pokemon_id] or {}
+                table.insert(POKEMON_TO_TRAINERS[pokemon_id], trainer_key)
+            end
+        end
+        TRAINER_TEAMS[trainer_key] = team
+    end
+
+    -- encounter_by_method uses dicts
     REGION_ENCOUNTERS = slot_data.encounter_by_method
     -- Trades + Rock Smash can't be randomized
     local newEncounters = {
@@ -141,6 +158,13 @@ function onClear(slot_data)
     for region_key, locations in pairs(ENCOUNTER_MAPPING) do
         for _, location in ipairs(locations) do
             Tracker:FindObjectForCode(location).AvailableChestCount = #REGION_ENCOUNTERS[region_key]
+        end
+    end
+
+    -- This sets each Trainer X (Seensanity) location to however many unique species (including forms) the trainer has
+    for trainer_key, locations in pairs(TRAINER_TEAMS_MAPPING) do
+        for _, location in ipairs(locations) do
+            Tracker:FindObjectForCode(location).AvailableChestCount = #TRAINER_TEAMS[trainer_key]
         end
     end
 
@@ -330,6 +354,7 @@ function onClear(slot_data)
     end
 
     -- dexsanity variants that use flag IDs
+    FORM_KEY_TO_FLAG = {}
     for _, sanity in ipairs({"formsanity", "shinyformsanity"}) do
         local active = {}
         for _, flagID in ipairs(dexsanity_numbers[sanity] or {}) do
@@ -337,6 +362,7 @@ function onClear(slot_data)
         end
         for flagID, formID in pairs(FORM_FLAG_MAPPING) do
             SANITY_VISIBLE[sanity][formID] = active[flagID] or false
+            FORM_KEY_TO_FLAG[formID] = flagID -- to build form locations from the flags in updatePokemon
         end
     end
 
@@ -647,6 +673,13 @@ function updatePokemon()
         return
     end
 
+    -- species seen in any form, we decide later if we clear other forms or not
+    local seenSpecies = {}
+    for _, seen_id in ipairs(SEEN) do
+        seenSpecies[seen_id & 0x7FF] = true
+    end
+
+    -- for encounters
     local regionObjects = {}
     local baseCounts = {}
     local pendingDecrements = {}
@@ -665,17 +698,30 @@ function updatePokemon()
         local dexVisibilityCode = SANITY_VISIBLE.dexsanity[tostring(dex_number)]
         local dexSentCode = Tracker:FindObjectForCode(LOCATION_MAPPING[600000 + dex_number][1]).AvailableChestCount == 0
 
+        -- these locals are needed to differentiate unique forms when they are formsanity checks
+        local form_key = dex_number .. "_" .. (pokemon_id >> 11)
+        local form_flag = FORM_KEY_TO_FLAG[form_key]
+        local formVisibilityCode = form_flag ~= nil and SANITY_VISIBLE.formsanity[form_key]
+        local formSentCode = form_flag ~= nil and Tracker:FindObjectForCode(LOCATION_MAPPING[606000 + form_flag][1]).AvailableChestCount == 0
+        local form_needed = formVisibilityCode and not formSentCode
+
         local is_caught = table_contains(CAUGHT, dex_number)
         local is_seen = false
 
-        if (AUTO_SEEN or {})[dex_number] then
+        if form_needed then
+            -- if required by formsanity
+            is_seen = table_contains(SEEN, pokemon_id)
+        elseif (AUTO_SEEN or {})[dex_number] then
             is_seen = true
         else
-            is_seen = table_contains(SEEN, pokemon_id)
+            -- if not required by formsanity
+            is_seen = seenSpecies[dex_number] == true
         end
 
         local should_decrement = false
-        if is_caught then
+        if form_needed and not is_seen then
+            -- formsanity still needs this exact form, catching any form of the species doesn't clear it
+        elseif is_caught then
             should_decrement = true
         elseif has("encounter_tracking_minimal") and (dexSentCode or not dexVisibilityCode) then
             should_decrement = true
@@ -685,7 +731,7 @@ function updatePokemon()
 
         if should_decrement == false then
             if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
-                local padded_dex_number = 600000 + dex_number
+                local padded_dex_number = form_needed and (606000 + form_flag) or (600000 + dex_number)
                 for _, hint in pairs(SAVED_HINTS) do
                     if hint.finding_player == PLAYER_ID and hint.found == false then
                         if padded_dex_number == hint.location then
@@ -721,6 +767,101 @@ function updatePokemon()
     end
 
     for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                local obj = Tracker:FindObjectForCode(location)
+                if obj and obj.AvailableChestCount == 0 then
+                    obj.Highlight = 0
+                end
+            end
+        end
+    end
+
+    -- for trainers (only seensanity and formsanity matter here, trainers can't have shinies)
+    local trainerObjects = {}
+    local trainerBaseCounts = {}
+    local pendingTrainerDecrements = {}
+
+    for trainer_key, locations in pairs(TRAINER_TEAMS_MAPPING) do
+        trainerObjects[trainer_key] = {}
+        for _, location in ipairs(locations) do
+            table.insert(trainerObjects[trainer_key], Tracker:FindObjectForCode(location))
+        end
+        trainerBaseCounts[trainer_key] = #TRAINER_TEAMS[trainer_key]
+        pendingTrainerDecrements[trainer_key] = 0
+    end
+
+    for pokemon_id, trainers in pairs(POKEMON_TO_TRAINERS) do
+        local dex_number = pokemon_id & 0x7FF
+        local seenVisibilityCode = SANITY_VISIBLE.seensanity[tostring(dex_number)]
+        local seenSentCode = Tracker:FindObjectForCode(LOCATION_MAPPING[604000 + dex_number][1]).AvailableChestCount == 0
+        -- these locals are needed to differentiate unique forms when they are formsanity checks
+        local form_key = dex_number .. "_" .. (pokemon_id >> 11)
+        local form_flag = FORM_KEY_TO_FLAG[form_key]
+        local formVisibilityCode = form_flag ~= nil and SANITY_VISIBLE.formsanity[form_key]
+        local formSentCode = form_flag ~= nil and Tracker:FindObjectForCode(LOCATION_MAPPING[606000 + form_flag][1]).AvailableChestCount == 0
+        local form_needed = formVisibilityCode and not formSentCode
+
+        local is_caught = table_contains(CAUGHT, dex_number)
+        local is_seen = false
+
+        if form_needed then
+            -- if required by formsanity
+            is_seen = table_contains(SEEN, pokemon_id)
+        elseif (AUTO_SEEN or {})[dex_number] then
+            is_seen = true
+        else
+            -- if not required by formsanity
+            is_seen = seenSpecies[dex_number] == true
+        end
+
+        local should_decrement = false
+        if is_seen then
+            should_decrement = true
+        elseif is_caught and not form_needed then
+            should_decrement = true
+        elseif has("encounter_tracking_minimal") and not form_needed and (seenSentCode or not seenVisibilityCode) then
+            should_decrement = true
+        end
+
+        if should_decrement == false then
+            if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
+                local padded_location = form_needed and (606000 + form_flag) or (604000 + dex_number)
+                for _, hint in pairs(SAVED_HINTS) do
+                    if hint.finding_player == PLAYER_ID and hint.found == false then
+                        if padded_location == hint.location then
+                            local level = 0
+                            if hint.status == 0 then
+                                level = HIGHLIGHT_LEVEL[100 + hint.item_flags]
+                            else
+                                level = HIGHLIGHT_LEVEL[hint.status]
+                            end
+                            if level ~= Highlight.Priority then
+                                should_decrement = true
+                                break
+                            end
+                        end
+                    end
+                    if should_decrement then break end
+                end
+            end
+        end
+
+        if should_decrement then
+            for _, trainer_key in pairs(trainers) do
+                if TRAINER_TEAMS_MAPPING[trainer_key] ~= nil then
+                    pendingTrainerDecrements[trainer_key] = pendingTrainerDecrements[trainer_key] + 1
+                end
+            end
+        end
+    end
+    for trainer_key, objects in pairs(trainerObjects) do
+        for _, object in ipairs(objects) do
+            object.AvailableChestCount = trainerBaseCounts[trainer_key] - pendingTrainerDecrements[trainer_key]
+        end
+    end
+
+    for trainer_key, locations in pairs(TRAINER_TEAMS_MAPPING) do
         for _, location in ipairs(locations) do
             if location:sub(1, 1) == "@" then
                 local obj = Tracker:FindObjectForCode(location)
