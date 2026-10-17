@@ -101,6 +101,22 @@
                 ]
             },
             {
+                "name": "PkMn Trainer N",
+                "sections": [
+                    {
+                        "name": "PkMn Trainer N (Seensanity)",
+                        "ref": "Unova Locations/Accumula Town/PkMn Trainer N (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "accumulatown",
+                        "x": 296,
+                        "y": 272
+                    }
+                ]
+            },
+            {
                 "name": "Striaton City\u200b\u200b\u200b",
                 "sections": [
                     {
@@ -280,6 +296,14 @@
                         "ref": "Unova Locations/Striaton City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Waiter Maxwell (Seensanity)",
+                        "ref": "Unova Locations/Striaton City/Gym - Waiter Maxwell (Seensanity)"
+                    },
+                    {
+                        "name": "Waitress Tia (Seensanity)",
+                        "ref": "Unova Locations/Striaton City/Gym - Waitress Tia (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Cilan, Chili or Cress (Event)",
                         "ref": "Unova Locations/Striaton City/Gym - Defeat Cilan, Chili or Cress (Event)"
                     },
@@ -313,6 +337,38 @@
                         "map": "striatongym",
                         "x": 280,
                         "y": 591
+                    }
+                ]
+            },
+            {
+                "name": "Waiter Maxwell",
+                "sections": [
+                    {
+                        "name": "Waiter Maxwell (Seensanity)",
+                        "ref": "Unova Locations/Striaton City/Gym - Waiter Maxwell (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatongym",
+                        "x": 184,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "Waitress Tia",
+                "sections": [
+                    {
+                        "name": "Waitress Tia (Seensanity)",
+                        "ref": "Unova Locations/Striaton City/Gym - Waitress Tia (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatongym",
+                        "x": 280,
+                        "y": 322
                     }
                 ]
             },
@@ -535,7 +591,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 216,
-                        "y": 303
+                        "y": 302
                     }
                 ]
             },
@@ -552,6 +608,22 @@
                         "map": "nacrenecity",
                         "x": 264,
                         "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "PkMn Trainer N",
+                "sections": [
+                    {
+                        "name": "PkMn Trainer N (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/PkMn Trainer N (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenecity",
+                        "x": 584,
+                        "y": 114
                     }
                 ]
             },
@@ -589,6 +661,22 @@
                     {
                         "name": "Gym - Gym guide item",
                         "ref": "Unova Locations/Nacrene City/Gym - Gym guide item"
+                    },
+                    {
+                        "name": "Gym - School Kid Carter (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - School Kid Carter (Seensanity)"
+                    },
+                    {
+                        "name": "Gym - Scientist Satomi (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Scientist Satomi (Seensanity)"
+                    },
+                    {
+                        "name": "Gym - School Kid Lydia (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - School Kid Lydia (Seensanity)"
+                    },
+                    {
+                        "name": "Gym - Leader Lenora (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Leader Lenora (Seensanity)"
                     },
                     {
                         "name": "Gym - Defeat Lenora (Event)",
@@ -659,13 +747,65 @@
                     {
                         "map": "nacrenegym",
                         "x": 200,
-                        "y": 476
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "School Kid Carter",
+                "sections": [
+                    {
+                        "name": "School Kid Carter (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - School Kid Carter (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenegym",
+                        "x": 120,
+                        "y": 449
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Satomi",
+                "sections": [
+                    {
+                        "name": "Scientist Satomi (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Scientist Satomi (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenegym",
+                        "x": 136,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "School Kid Lydia",
+                "sections": [
+                    {
+                        "name": "School Kid Lydia (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - School Kid Lydia (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenegym",
+                        "x": 248,
+                        "y": 296
                     }
                 ]
             },
             {
                 "name": "Leader Lenora",
                 "sections": [
+                    {
+                        "name": "Leader Lenora (Seensanity)",
+                        "ref": "Unova Locations/Nacrene City/Gym - Leader Lenora (Seensanity)"
+                    },
                     {
                         "name": "Defeat Lenora (Event)",
                         "ref": "Unova Locations/Nacrene City/Gym - Defeat Lenora (Event)"
@@ -703,7 +843,7 @@
                     {
                         "map": "nacrenecity",
                         "x": 648,
-                        "y": 303
+                        "y": 302
                     }
                 ]
             },
@@ -739,8 +879,48 @@
                         "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from scientist"
                     },
                     {
+                        "name": "47F - Clerk ♀ Ingrid (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Ingrid (Seensanity)"
+                    },
+                    {
+                        "name": "47F - Clerk ♀ Alberta (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Alberta (Seensanity)"
+                    },
+                    {
+                        "name": "47F - Scientist Randall (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Scientist Randall (Seensanity)"
+                    },
+                    {
+                        "name": "47F - Clerk ♂ Clemens (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Clemens (Seensanity)"
+                    },
+                    {
+                        "name": "47F - Clerk ♂ Warren (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Warren (Seensanity)"
+                    },
+                    {
                         "name": "55F - Center item",
                         "ref": "Unova Locations/Castelia City/Battle Company 55F - Center item"
+                    },
+                    {
+                        "name": "55F - Scientist Steve (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Steve (Seensanity)"
+                    },
+                    {
+                        "name": "55F - Scientist Samantha (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Samantha (Seensanity)"
+                    },
+                    {
+                        "name": "55F - Clerk ♂ Ivan (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Ivan (Seensanity)"
+                    },
+                    {
+                        "name": "55F - Clerk ♂ Wade (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Wade (Seensanity)"
+                    },
+                    {
+                        "name": "55F - Janitor Geoff (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Janitor Geoff (Seensanity)"
                     },
                     {
                         "name": "55F - Item from President Geoff",
@@ -804,6 +984,86 @@
                 ]
             },
             {
+                "name": "Clerk ♀ Ingrid",
+                "sections": [
+                    {
+                        "name": "Clerk ♀ Ingrid (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Ingrid (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 168,
+                        "y": 123
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♀ Alberta",
+                "sections": [
+                    {
+                        "name": "Clerk ♀ Alberta (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Alberta (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 56,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Randall",
+                "sections": [
+                    {
+                        "name": "Scientist Randall (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Scientist Randall (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 120,
+                        "y": 187
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♂ Clemens",
+                "sections": [
+                    {
+                        "name": "Clerk ♂ Clemens (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Clemens (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 104,
+                        "y": 149
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♂ Warren",
+                "sections": [
+                    {
+                        "name": "Clerk ♂ Warren (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Warren (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany47f",
+                        "x": 184,
+                        "y": 225
+                    }
+                ]
+            },
+            {
                 "name": "Battle Company 55F",
                 "sections": [
                     {
@@ -820,8 +1080,12 @@
                 ]
             },
             {
-                "name": "Battle Company 55F\u200b",
+                "name": "Janitor Geoff",
                 "sections": [
+                    {
+                        "name": "Janitor Geoff (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Janitor Geoff (Seensanity)"
+                    },
                     {
                         "name": "Item from President Geoff",
                         "ref": "Unova Locations/Castelia City/Battle Company 55F - Item from President Geoff"
@@ -832,6 +1096,70 @@
                         "map": "casteliabattlecompany55f",
                         "x": 216,
                         "y": 79
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Steve",
+                "sections": [
+                    {
+                        "name": "Scientist Steve (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Steve (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 152,
+                        "y": 207
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Samantha",
+                "sections": [
+                    {
+                        "name": "Scientist Samantha (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Samantha (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 56,
+                        "y": 207
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♂ Ivan",
+                "sections": [
+                    {
+                        "name": "Clerk ♂ Ivan (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Ivan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 56,
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♂ Wade",
+                "sections": [
+                    {
+                        "name": "Clerk ♂ Wade (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Wade (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliabattlecompany55f",
+                        "x": 216,
+                        "y": 143
                     }
                 ]
             },
@@ -873,6 +1201,10 @@
                     {
                         "name": "TM from man in black behind dumpster",
                         "ref": "Unova Locations/Castelia City/TM from man in black behind dumpster"
+                    },
+                    {
+                        "name": "Dancer Edmond (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Narrow Street - Dancer Edmond (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -880,6 +1212,22 @@
                         "map": "casteliacity",
                         "x": 442,
                         "y": 636
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym Street - Team Plasma Grunt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 336,
+                        "y": 552
                     }
                 ]
             },
@@ -904,6 +1252,22 @@
                 ]
             },
             {
+                "name": "Dancer Raymond",
+                "sections": [
+                    {
+                        "name": "Dancer Raymond (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Unity Pier - Dancer Raymond (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 468,
+                        "y": 1016
+                    }
+                ]
+            },
+            {
                 "name": "Mode Street",
                 "sections": [
                     {
@@ -922,6 +1286,10 @@
             {
                 "name": "Central Plaza",
                 "sections": [
+                    {
+                        "name": "Dancer Mickey (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Central Plaza - Dancer Mickey (Seensanity)"
+                    },
                     {
                         "name": "Item from dancers",
                         "ref": "Unova Locations/Castelia City/Item from dancers"
@@ -954,6 +1322,46 @@
             {
                 "name": "Royal Unova",
                 "sections": [
+                    {
+                        "name": "Youngster Abe (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Youngster Abe (Seensanity)"
+                    },
+                    {
+                        "name": "Clerk ♂ Chaz (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Clerk ♂ Chaz (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Mariana (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Ace Trainer Mariana (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Henry (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Ace Trainer Henry (Seensanity)"
+                    },
+                    {
+                        "name": "Lass Sibyl (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Lass Sibyl (Seensanity)"
+                    },
+                    {
+                        "name": "Rich Boy Brad (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Rich Boy Brad (Seensanity)"
+                    },
+                    {
+                        "name": "Lady Elizandra (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Lady Elizandra (Seensanity)"
+                    },
+                    {
+                        "name": "Socialite Cassandra (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Socialite Cassandra (Seensanity)"
+                    },
+                    {
+                        "name": "Gentleman Robert (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Gentleman Robert (Seensanity)"
+                    },
+                    {
+                        "name": "Maid Tanya (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Royal Unova - Maid Tanya (Seensanity)"
+                    },
                     {
                         "name": "Item for defeating every trainer",
                         "ref": "Unova Locations/Castelia City/Royal Unova - Item for defeating every trainer"
@@ -1023,6 +1431,26 @@
                         "ref": "Unova Locations/Castelia City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Harlequin Jack (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Jack (Seensanity)"
+                    },
+                    {
+                        "name": "Harlequin Louis (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Louis (Seensanity)"
+                    },
+                    {
+                        "name": "Harlequin Kerry (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Kerry (Seensanity)"
+                    },
+                    {
+                        "name": "Harlequin Rick (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Rick (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Burgh (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Leader Burgh (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Burgh (Event)",
                         "ref": "Unova Locations/Castelia City/Gym - Defeat Burgh (Event)"
                     },
@@ -1060,8 +1488,76 @@
                 ]
             },
             {
+                "name": "Harlequin Jack",
+                "sections": [
+                    {
+                        "name": "Harlequin Jack (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Jack (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 408,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Harlequin Kerry",
+                "sections": [
+                    {
+                        "name": "Harlequin Kerry (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Kerry (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 376,
+                        "y": 330
+                    }
+                ]
+            },
+            {
+                "name": "Harlequin Louis",
+                "sections": [
+                    {
+                        "name": "Harlequin Louis (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Louis (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 152,
+                        "y": 254
+                    }
+                ]
+            },
+            {
+                "name": "Harlequin Rick",
+                "sections": [
+                    {
+                        "name": "Harlequin Rick (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Harlequin Rick (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliagym",
+                        "x": 88,
+                        "y": 382
+                    }
+                ]
+            },
+            {
                 "name": "Leader Burgh",
                 "sections": [
+                    {
+                        "name": "Leader Burgh (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Gym - Leader Burgh (Seensanity)"
+                    },
                     {
                         "name": "Defeat Burgh (Event)",
                         "ref": "Unova Locations/Castelia City/Gym - Defeat Burgh (Event)"
@@ -1093,6 +1589,10 @@
                     {
                         "name": "Zorua (Gift)",
                         "ref": "Unova Locations/Castelia City/Castelia Street - Zorua (Gift)"
+                    },
+                    {
+                        "name": "GAME FREAK Morimoto (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/GAME FREAK Morimoto (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -3076,7 +3576,7 @@
                 ]
             },
             {
-                "name": "Route 1 East\u200b",
+                "name": "Route 1\u200b",
                 "sections": [
                     {
                         "name": "Items after catching tutorial",
@@ -3092,7 +3592,7 @@
                 ]
             },
             {
-                "name": "Route 1 East\u200b\u200b",
+                "name": "Route 1\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from woman",
@@ -3103,12 +3603,12 @@
                     {
                         "map": "route1_e",
                         "x": 424,
-                        "y": 400
+                        "y": 398
                     }
                 ]
             },
             {
-                "name": "Route 1 West",
+                "name": "Route 1\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South item",
@@ -3124,7 +3624,7 @@
                 ]
             },
             {
-                "name": "Route 1 West\u200b",
+                "name": "Route 1\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West item",
@@ -3140,7 +3640,7 @@
                 ]
             },
             {
-                "name": "Route 1 West\u200b\u200b",
+                "name": "Route 1\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "South hidden item",
@@ -3156,8 +3656,28 @@
                 ]
             },
             {
-                "name": "Route 1 West\u200b\u200b\u200b",
+                "name": "Fisherman Sean",
                 "sections": [
+                    {
+                        "name": "Fisherman Sean (Seensanity)",
+                        "ref": "Unova Locations/Route 1/Fisherman Sean (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1_w",
+                        "x": 168,
+                        "y": 347
+                    }
+                ]
+            },
+            {
+                "name": "PkMn Ranger Brenda\u200b\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "PkMn Ranger Brenda (Seensanity)",
+                        "ref": "Unova Locations/Route 1/PkMn Ranger Brenda (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Brenda",
                         "ref": "Unova Locations/Route 1/Item from ranger Brenda"
@@ -3167,13 +3687,17 @@
                     {
                         "map": "route1_w",
                         "x": 472,
-                        "y": 234
+                        "y": 231
                     }
                 ]
             },
             {
-                "name": "Route 1 West\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Claude\u200b\u200b\u200b\u200b",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Claude (Seensanity)",
+                        "ref": "Unova Locations/Route 1/PkMn Ranger Claude (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Claude",
                         "ref": "Unova Locations/Route 1/Item from ranger Claude"
@@ -3183,7 +3707,7 @@
                     {
                         "map": "route1_w",
                         "x": 344,
-                        "y": 553
+                        "y": 552
                     }
                 ]
             },
