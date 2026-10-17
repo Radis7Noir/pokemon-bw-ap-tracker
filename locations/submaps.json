@@ -1731,6 +1731,10 @@
                 "name": "Nimbasa City",
                 "sections": [
                     {
+                        "name": "Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Team Plasma Grunt (Seensanity)"
+                    },
+                    {
                         "name": "Item from Day-Care man",
                         "ref": "Unova Locations/Nimbasa City/Item from Day-Care man"
                     },
@@ -1856,6 +1860,22 @@
                 ]
             },
             {
+                "name": "Team Plasma N",
+                "sections": [
+                    {
+                        "name": "Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Team Plasma N (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasacitypark",
+                        "x": 584,
+                        "y": 235
+                    }
+                ]
+            },
+            {
                 "name": "Nimbasa City Park\u200b",
                 "sections": [
                     {
@@ -1895,6 +1915,26 @@
                         "ref": "Unova Locations/Nimbasa City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Gym - Lady Magnolia (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Lady Magnolia (Seensanity)"
+                    },
+                    {
+                        "name": "Rich Boy Cody (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Rich Boy Cody (Seensanity)"
+                    },
+                    {
+                        "name": "Rich Boy Rolan (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Rich Boy Rolan (Seensanity)"
+                    },
+                    {
+                        "name": "Lady Colette (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Lady Colette (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Elesa (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Leader Elesa (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Elesa (Event)",
                         "ref": "Unova Locations/Nimbasa City/Gym - Defeat Elesa (Event)"
                     },
@@ -1932,8 +1972,76 @@
                 ]
             },
             {
+                "name": "Lady Magnolia",
+                "sections": [
+                    {
+                        "name": "Gym - Lady Magnolia (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Lady Magnolia (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 472,
+                        "y": 542
+                    }
+                ]
+            },
+            {
+                "name": "Rich Boy Cody",
+                "sections": [
+                    {
+                        "name": "Rich Boy Cody (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Rich Boy Cody (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 232,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Rich Boy Rolan",
+                "sections": [
+                    {
+                        "name": "Rich Boy Rolan (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Rich Boy Rolan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 312,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Lady Colette",
+                "sections": [
+                    {
+                        "name": "Lady Colette (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Lady Colette (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nimbasagym",
+                        "x": 856,
+                        "y": 632
+                    }
+                ]
+            },
+            {
                 "name": "Leader Elesa",
                 "sections": [
+                    {
+                        "name": "Leader Elesa (Seensanity)",
+                        "ref": "Unova Locations/Nimbasa City/Gym - Leader Elesa (Seensanity)"
+                    },
                     {
                         "name": "Defeat Elesa (Event)",
                         "ref": "Unova Locations/Nimbasa City/Gym - Defeat Elesa (Event)"
@@ -2151,6 +2259,30 @@
                         "ref": "Unova Locations/Driftveil City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Worker Felix (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Felix (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Sterling (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Sterling (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Don (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Don (Seensanity)"
+                    },
+                    {
+                        "name": "Clerk ♂ Isaac (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Clerk ♂ Isaac (Seensanity)"
+                    },
+                    {
+                        "name": "Clerk ♀ Katie (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Clerk ♀ Katie (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Clay (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Leader Clay (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Clay (Event)",
                         "ref": "Unova Locations/Driftveil City/Gym - Defeat Clay (Event)"
                     },
@@ -2184,8 +2316,92 @@
                 ]
             },
             {
+                "name": "Worker Felix",
+                "sections": [
+                    {
+                        "name": "Worker Felix (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Felix (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 232,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Worker Sterling",
+                "sections": [
+                    {
+                        "name": "Worker Sterling (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Sterling (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 232,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "Worker Don",
+                "sections": [
+                    {
+                        "name": "Worker Don (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Worker Don (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 88,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♂ Isaac",
+                "sections": [
+                    {
+                        "name": "Clerk ♂ Isaac (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Clerk ♂ Isaac (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 152,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Clerk ♀ Katie",
+                "sections": [
+                    {
+                        "name": "Clerk ♀ Katie (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Clerk ♀ Katie (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilgym",
+                        "x": 184,
+                        "y": 91
+                    }
+                ]
+            },
+            {
                 "name": "Leader Clay",
                 "sections": [
+                    {
+                        "name": "Leader Clay (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Gym - Leader Clay (Seensanity)"
+                    },
                     {
                         "name": "Defeat Clay (Event)",
                         "ref": "Unova Locations/Driftveil City/Gym - Defeat Clay (Event)"
@@ -2200,6 +2416,26 @@
                         "map": "driftveilgym",
                         "x": 536,
                         "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Motorcyclist Charles",
+                "sections": [
+                    {
+                        "name": "Motorcyclist Charles (Seensanity)",
+                        "ref": "Unova Locations/Driftveil City/Motorcyclist Charles (Seensanity)"
+                    },
+                    {
+                        "name": "Motorcyclist Charles (Seensanity)\u200b",
+                        "ref": "Unova Locations/Driftveil City/Motorcyclist Charles (Seensanity)\u200b"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity_w",
+                        "x": 136,
+                        "y": 398
                     }
                 ]
             },
@@ -2375,6 +2611,30 @@
                         "ref": "Unova Locations/Mistralton City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Worker Cliff (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Cliff (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Brady (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Brady (Seensanity)"
+                    },
+                    {
+                        "name": "Pilot Ted (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Pilot Ted (Seensanity)"
+                    },
+                    {
+                        "name": "Pilot Chase (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Pilot Chase (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Arnold (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Arnold (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Skyla (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Leader Skyla (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Skyla (Event)",
                         "ref": "Unova Locations/Mistralton City/Gym - Defeat Skyla (Event)"
                     },
@@ -2412,8 +2672,92 @@
                 ]
             },
             {
+                "name": "Worker Cliff",
+                "sections": [
+                    {
+                        "name": "Worker Cliff (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Cliff (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 328,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Worker Brady",
+                "sections": [
+                    {
+                        "name": "Worker Brady (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Brady (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 360,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "Pilot Ted",
+                "sections": [
+                    {
+                        "name": "Pilot Ted (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Pilot Ted (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 40,
+                        "y": 553
+                    }
+                ]
+            },
+            {
+                "name": "Pilot Chase",
+                "sections": [
+                    {
+                        "name": "Pilot Chase (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Pilot Chase (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 312,
+                        "y": 336
+                    }
+                ]
+            },
+            {
+                "name": "Worker Arnold",
+                "sections": [
+                    {
+                        "name": "Worker Arnold (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Worker Arnold (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltongym",
+                        "x": 40,
+                        "y": 227
+                    }
+                ]
+            },
+            {
                 "name": "Leader Skyla",
                 "sections": [
+                    {
+                        "name": "Leader Skyla (Seensanity)",
+                        "ref": "Unova Locations/Mistralton City/Gym - Leader Skyla (Seensanity)"
+                    },
                     {
                         "name": "Defeat Skyla (Event)",
                         "ref": "Unova Locations/Mistralton City/Gym - Defeat Skyla (Event)"
@@ -2773,6 +3117,26 @@
                         "ref": "Unova Locations/Icirrus City/Gym - Gym guide item"
                     },
                     {
+                        "name": "Black Belt Grant (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Black Belt Grant (Seensanity)"
+                    },
+                    {
+                        "name": "Battle Girl Miriam (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Battle Girl Miriam (Seensanity)"
+                    },
+                    {
+                        "name": "Black Belt Kendrew (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Black Belt Kendrew (Seensanity)"
+                    },
+                    {
+                        "name": "Battle Girl Mikiko (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Battle Girl Mikiko (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Brycen (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Leader Brycen (Seensanity)"
+                    },
+                    {
                         "name": "Defeat Brycen (Event)",
                         "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
                     },
@@ -2810,8 +3174,108 @@
                 ]
             },
             {
+                "name": "Black Belt Grant",
+                "sections": [
+                    {
+                        "name": "Black Belt Grant (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Black Belt Grant (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 376,
+                        "y": 725
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Miriam",
+                "sections": [
+                    {
+                        "name": "Battle Girl Miriam (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Battle Girl Miriam (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 376,
+                        "y": 623
+                    }
+                ]
+            },
+            {
+                "name": "Black Belt Kendrew",
+                "sections": [
+                    {
+                        "name": "Black Belt Kendrew (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Black Belt Kendrew (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 760,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Mikiko",
+                "sections": [
+                    {
+                        "name": "Battle Girl Mikiko (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Battle Girl Mikiko (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 888,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Chandra",
+                "sections": [
+                    {
+                        "name": "Battle Girl Chandra (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Battle Girl Chandra (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 376,
+                        "y": 412
+                    }
+                ]
+            },
+            {
+                "name": "Black Belt Thomas",
+                "sections": [
+                    {
+                        "name": "Black Belt Thomas (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Black Belt Thomas (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirrusgym",
+                        "x": 216,
+                        "y": 322
+                    }
+                ]
+            },
+            {
                 "name": "Leader Brycen",
                 "sections": [
+                    {
+                        "name": "Leader Brycen (Seensanity)",
+                        "ref": "Unova Locations/Icirrus City/Gym - Leader Brycen (Seensanity)"
+                    },
                     {
                         "name": "Defeat Brycen (Event)",
                         "ref": "Unova Locations/Icirrus City/Gym - Defeat Brycen (Event)"
@@ -3297,11 +3761,75 @@
                 ]
             },
             {
+                "name": "Battle House",
+                "sections": [
+                    {
+                        "name": "1F - Ace Trainer Eileen (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Battle House 1F - Ace Trainer Eileen (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Ace Trainer Lou (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Battle House 1F - Ace Trainer Lou (Seensanity)"
+                    },
+                    {
+                        "name": "2F - Ace Trainer Lou (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Battle House 2F - Ace Trainer Lou (Seensanity)"
+                    },
+                    {
+                        "name": "2F - Ace Trainer Eileen (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Battle House 2F - Ace Trainer Eileen (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidcity",
+                        "x": 648,
+                        "y": 200
+                    }
+                ]
+            },
+            {
                 "name": "Opelucid Gym",
                 "sections": [
                     {
                         "name": "Gym guide item",
                         "ref": "Unova Locations/Opelucid City/Gym - Gym guide item"
+                    },
+                    {
+                        "name": "Ace Trainer Webster (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Webster (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Olwen (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Olwen (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Jose (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Jose (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Clara (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Clara (Seensanity)"
+                    },
+                    {
+                        "name": "Veteran Hugo (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Veteran Hugo (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Tom (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Tom (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Dara (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Dara (Seensanity)"
+                    },
+                    {
+                        "name": "Veteran Kim (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Veteran Kim (Seensanity)"
+                    },
+                    {
+                        "name": "Leader Drayden (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Leader Drayden (Seensanity)"
                     },
                     {
                         "name": "Defeat Drayden (Event)",
@@ -3314,6 +3842,10 @@
                     {
                         "name": "TM reward",
                         "ref": "Unova Locations/Opelucid City/Gym - TM reward"
+                    },
+                    {
+                        "name": "Leader Iris (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Leader Iris (Seensanity)"
                     },
                     {
                         "name": "Defeat Iris (Event)",
@@ -3353,8 +3885,140 @@
                 ]
             },
             {
+                "name": "Ace Trainer Webster",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Webster (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Webster (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 424,
+                        "y": 721
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Olwen",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Olwen (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Olwen (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 840,
+                        "y": 517
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Jose",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Jose (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Jose (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 552,
+                        "y": 463
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Clara",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Clara (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Clara (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 840,
+                        "y": 398
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Hugo",
+                "sections": [
+                    {
+                        "name": "Veteran Hugo (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Veteran Hugo (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 513,
+                        "y": 635
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Tom",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Tom (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Tom (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 328,
+                        "y": 313
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Dara",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Dara (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Ace Trainer Dara (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 56,
+                        "y": 558
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Kim",
+                "sections": [
+                    {
+                        "name": "Veteran Kim (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Veteran Kim (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "opelucidgym",
+                        "x": 664,
+                        "y": 697
+                    }
+                ]
+            },
+            {
                 "name": "Leader Drayden",
                 "sections": [
+                    {
+                        "name": "Leader Drayden (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Leader Drayden (Seensanity)"
+                    },
                     {
                         "name": "Defeat Drayden (Event)",
                         "ref": "Unova Locations/Opelucid City/Gym - Defeat Drayden (Event)"
@@ -3379,6 +4043,10 @@
             {
                 "name": "Leader Iris",
                 "sections": [
+                    {
+                        "name": "Leader Iris (Seensanity)",
+                        "ref": "Unova Locations/Opelucid City/Gym - Leader Iris (Seensanity)"
+                    },
                     {
                         "name": "Defeat Iris (Event)",
                         "ref": "Unova Locations/Opelucid City/Gym - Defeat Iris (Event)"
@@ -3476,7 +4144,7 @@
                     {
                         "map": "undellatown",
                         "x": 344,
-                        "y": 82
+                        "y": 77
                     }
                 ]
             },
@@ -3508,7 +4176,7 @@
                     {
                         "map": "undellatown",
                         "x": 680,
-                        "y": 244
+                        "y": 240
                     }
                 ]
             },
@@ -3523,8 +4191,8 @@
                 "map_locations": [
                     {
                         "map": "undellatown",
-                        "x": 650,
-                        "y": 175
+                        "x": 648,
+                        "y": 180
                     }
                 ]
             },
@@ -3539,8 +4207,24 @@
                 "map_locations": [
                     {
                         "map": "undellatown",
-                        "x": 410,
-                        "y": 175
+                        "x": 408,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "The Riches Draco",
+                "sections": [
+                    {
+                        "name": "The Riches Draco (Seensanity)",
+                        "ref": "Unova Locations/Undella Town/The Riches Draco (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 200,
+                        "y": 282
                     }
                 ]
             },

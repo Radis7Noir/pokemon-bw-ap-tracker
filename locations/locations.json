@@ -3121,6 +3121,20 @@
                         ]
                     },
                     {
+                        "name": "Battle House 2F - Ace Trainer Lou (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
+                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid City Battle House 2F Access,dynamic_version,[]",
+                            "@Opelucid City Battle House 2F Access,not_dynamic"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,show_mons,show_trainer_teams"
+                        ]
+                    },
+                    {
                         "name": "Battle House 1F - Ace Trainer Lou (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
@@ -3131,25 +3145,11 @@
                             "@Opelucid City Battle House 1F Access,not_dynamic"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,show_mons,show_trainer_teams"
-                        ]
-                    },
-                    {
-                        "name": "Battle House 2F - Ace Trainer Eileen (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
-                        "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid City Battle House 2F Access,dynamic_version,[]",
-                            "@Opelucid City Battle House 2F Access,not_dynamic"
-                        ],
-                        "visibility_rules": [
                             "pokemon_white,show_mons,show_trainer_teams"
                         ]
                     },
                     {
-                        "name": "Battle House 2F - Ace Trainer Lou (Seensanity)",
+                        "name": "Battle House 2F - Ace Trainer Eileen (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
