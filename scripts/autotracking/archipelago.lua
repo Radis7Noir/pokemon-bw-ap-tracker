@@ -562,7 +562,6 @@ function onNotify(key, value, old_value)
             CAUGHT = value
             updateCaught()
         elseif key == IDs.SEEN then
-            print(dump_table(value))
             SEEN = value
             updateSeen()
         elseif key == IDs.HINT then
