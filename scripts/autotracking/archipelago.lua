@@ -278,7 +278,11 @@ function onClear(slot_data)
         elseif k == "seensanity" then
             Tracker:FindObjectForCode("seensanity").AcquiredCount = v
         elseif k == "shinysanity" then
-            Tracker:FindObjectForCode("shinysanity").AcquiredCount = v
+            if type(v) == "boolean" then
+                Tracker:FindObjectForCode("shinysanity").AcquiredCount = v and 1 or 0
+            else
+                Tracker:FindObjectForCode("shinysanity").AcquiredCount = v
+            end
         elseif k == "formsanity" then
             Tracker:FindObjectForCode("formsanity").AcquiredCount = v
         elseif k == "shinyformsanity" then
