@@ -16553,8 +16553,8 @@
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "dynamic_version,[]",
-                            "not_dynamic"
+                            "@N's Castle Throne Room Access,dynamic_version,[]",
+                            "@N's Castle Throne Room Access,not_dynamic"
                         ],
                         "visibility_rules": [
                             "pokemon_white,show_mons,show_trainer_teams"
@@ -16567,8 +16567,8 @@
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "dynamic_version,[]",
-                            "not_dynamic"
+                            "@N's Castle Throne Room Access,dynamic_version,[]",
+                            "@N's Castle Throne Room Access,not_dynamic"
                         ],
                         "visibility_rules": [
                             "pokemon_black,show_mons,show_trainer_teams"
