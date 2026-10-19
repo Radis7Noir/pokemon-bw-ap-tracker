@@ -844,24 +844,24 @@
         ]
     },
     {
-        "name": "Trainer Team Visibility",
+        "name": "Trainer Visibility",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 0,
-        "codes": "trainer_teams_visibility",
+        "codes": "trainer_visibility",
         "allow_disabled": false,
         "stages": [
             {
                 "name": "Trainer Team Locations - OFF",
-                "img": "/images/settings/show_encounters.png",
+                "img": "/images/settings/show_trainers.png",
                 "img_mods": "@disabled",
-                "codes": "hide_trainer_teams",
+                "codes": "trainer_visibility,hide_trainers",
                 "inherit_codes": false
             },
             {
                 "name": "Trainer Team Locations - ON",
-                "img": "/images/settings/show_encounters.png",
-                "codes": "show_trainer_teams",
+                "img": "/images/settings/show_trainers.png",
+                "codes": "trainer_visibility,show_trainers",
                 "inherit_codes": false
             }
         ]

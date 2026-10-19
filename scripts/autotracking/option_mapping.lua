@@ -79,7 +79,7 @@ LIST_CODES = {
             ["consider evolutions"]     = "consider_evolutions",
             ["consider static pokemon"] = { "consider_statics", "static_visibility" },
             ["consider trades"]         = { "consider_trades", "trade_visibility" },
-            ["consider trainers"]       = "consider_trainers",
+            ["consider trainers"]       = { "consider_trainers", "trainer_visibility" },
         }
     },
     adjust_levels = {

@@ -120,6 +120,7 @@ SEARCH_VISIBILITY_STAGES = {
     static_visibility = 0,
     trade_visibility = 0, -- we still want statics and trades even if they're not in logic because why not :D
     location_visibility = 2, -- encounters are set to ONLY during a search
+    show_trainer_teams = 0
 }
 -- we track the stages before the search
 VISIBILITY_BEFORE_SEARCH = nil
@@ -218,6 +219,14 @@ end
 
 function static_encounter()
     if has("consider_statics_true") then
+        return AccessibilityLevel.Normal
+    else
+        return AccessibilityLevel.SequenceBreak
+    end
+end
+
+function trainer_team()
+    if has("consider_trainers_true") then
         return AccessibilityLevel.Normal
     else
         return AccessibilityLevel.SequenceBreak
