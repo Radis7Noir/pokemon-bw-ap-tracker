@@ -9189,7 +9189,7 @@
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dreamyard North West Access,^$trainer_team"
+                            "@Dreamyard North West Access,defeatstriatongym,^$trainer_team"
                         ],
                         "visibility_rules": [
                             "show_mons,show_trainers"
@@ -9202,7 +9202,7 @@
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
-                            "@Dreamyard North West Access,^$trainer_team"
+                            "@Dreamyard North West Access,defeatstriatongym,^$trainer_team"
                         ],
                         "visibility_rules": [
                             "show_mons,show_trainers"
@@ -11505,7 +11505,7 @@
                         ]
                     },
                     {
-                        "name": "Castleside Back Room - Team Plasma Grunt (Seensanity)",
+                        "name": "Basement Top Right Room - Team Plasma Grunt (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/seen_trainers/dummy.png",
                         "chest_opened_img": "images/locations/seen_trainers/cleared/dummy_cleared.png",

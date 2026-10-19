@@ -475,6 +475,22 @@
                         "ref": "Unova Locations/Dreamyard/Ruins - Sage Gorm (Event)"
                     },
                     {
+                        "name": "Ruins - Youngster Joey (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Youngster Joey (Seensanity)"
+                    },
+                    {
+                        "name": "Ruins - Lass Eri (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Lass Eri (Seensanity)"
+                    },
+                    {
+                        "name": "Ruins - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Ruins - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
                         "name": "Basement - North west item",
                         "ref": "Unova Locations/Dreamyard/Basement - North west item"
                     },
@@ -493,6 +509,34 @@
                     {
                         "name": "Basement - West hidden item",
                         "ref": "Unova Locations/Dreamyard/Basement - West hidden item"
+                    },
+                    {
+                        "name": "Basement - Scientist Kathrine (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Kathrine (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Scientist Chan (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Chan (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Scientist Markus (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Markus (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Scientist Luke (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Luke (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Psychic Future (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Future (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Psychic Rudolf (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Rudolf (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Psychic Tommy (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Tommy (Seensanity)"
                     },
                     {
                         "name": "Ruins - Land Encounters",
@@ -1623,8 +1667,28 @@
                 "name": "\u200bLiberty Garden",
                 "sections": [
                     {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
                         "name": "Hidden item in trash can",
                         "ref": "Unova Locations/Liberty Garden/Hidden item in trash can"
+                    },
+                    {
+                        "name": "Lighthouse Hallway - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Hallway - Team Plasma Grunt (Seensanity)"
+                    },
+                    {
+                        "name": "Lighthouse Basement - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Team Plasma Grunt (Seensanity)"
                     },
                     {
                         "name": "Lighthouse Basement - Victini (Static)",
@@ -5087,6 +5151,18 @@
                         "ref": "Unova Locations/Wellspring Cave/1F - Hidden item #2"
                     },
                     {
+                        "name": "1F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
                         "name": "B1F - Item east of trainers",
                         "ref": "Unova Locations/Wellspring Cave/B1F - Item east of trainers"
                     },
@@ -5117,6 +5193,18 @@
                     {
                         "name": "B1F - South hidden item",
                         "ref": "Unova Locations/Wellspring Cave/B1F - South hidden item"
+                    },
+                    {
+                        "name": "B1F - Black Belt Edward (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Black Belt Edward (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Battle Girl Maggie (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Battle Girl Maggie (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Battle Girl Xiao (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Battle Girl Xiao (Seensanity)"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -11096,6 +11184,58 @@
                 ]
             },
             {
+                "name": "Youngster Joey",
+                "sections": [
+                    {
+                        "name": "Youngster Joey (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Youngster Joey (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 360,
+                        "y": 333
+                    }
+                ]
+            },
+            {
+                "name": "Lass Eri",
+                "sections": [
+                    {
+                        "name": "Lass Eri (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Lass Eri (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 184,
+                        "y": 384
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunts",
+                "sections": [
+                    {
+                        "name": "Ruins - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Ruins - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 376,
+                        "y": 121
+                    }
+                ]
+            },
+            {
                 "name": "Dreamyard Ruins Encounters",
                 "sections": [
                     {
@@ -11219,6 +11359,118 @@
                 ]
             },
             {
+                "name": "Scientist Kathrine",
+                "sections": [
+                    {
+                        "name": "Scientist Kathrine (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Kathrine (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 200,
+                        "y": 283
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Chan",
+                "sections": [
+                    {
+                        "name": "Scientist Chan (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Chan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 296,
+                        "y": 206
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Markus",
+                "sections": [
+                    {
+                        "name": "Scientist Markus (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Markus (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 328,
+                        "y": 117
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Luke",
+                "sections": [
+                    {
+                        "name": "Scientist Luke (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Scientist Luke (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 280,
+                        "y": 322
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Future",
+                "sections": [
+                    {
+                        "name": "Basement - Psychic Future (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Future (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 328,
+                        "y": 309
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Rudolf",
+                "sections": [
+                    {
+                        "name": "Psychic Rudolf (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Rudolf (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 72,
+                        "y": 334
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Tommy",
+                "sections": [
+                    {
+                        "name": "Psychic Tommy (Seensanity)",
+                        "ref": "Unova Locations/Dreamyard/Basement - Psychic Tommy (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 120,
+                        "y": 219
+                    }
+                ]
+            },
+            {
                 "name": "Dreamyard Basement Encounters",
                 "sections": [
                     {
@@ -11318,6 +11570,30 @@
                         "map": "wellspringcave1f",
                         "x": 328,
                         "y": 182
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunts",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 376,
+                        "y": 107
                     }
                 ]
             },
@@ -11489,6 +11765,54 @@
                         "map": "wellspringcaveb1f",
                         "x": 393,
                         "y": 762
+                    }
+                ]
+            },
+            {
+                "name": "Black Belt Edward",
+                "sections": [
+                    {
+                        "name": "Black Belt Edward (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Black Belt Edward (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 248,
+                        "y": 502
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Maggie",
+                "sections": [
+                    {
+                        "name": "Battle Girl Maggie (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Battle Girl Maggie (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 248,
+                        "y": 486
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Xiao",
+                "sections": [
+                    {
+                        "name": "Battle Girl Xiao (Seensanity)",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Battle Girl Xiao (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 312,
+                        "y": 477
                     }
                 ]
             },
@@ -11703,7 +12027,119 @@
                     {
                         "map": "pinwheelforestentrance_n",
                         "x": 328,
-                        "y": 125
+                        "y": 130
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Zachary",
+                "sections": [
+                    {
+                        "name": "Youngster Zachary (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Youngster Zachary (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_s",
+                        "x": 360,
+                        "y": 257
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Keita",
+                "sections": [
+                    {
+                        "name": "Youngster Keita (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Youngster Keita (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_s",
+                        "x": 232,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Nurse Shery",
+                "sections": [
+                    {
+                        "name": "Nurse Shery (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Nurse Shery (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_n",
+                        "x": 200,
+                        "y": 246
+                    }
+                ]
+            },
+            {
+                "name": "Black Belt Kentaro",
+                "sections": [
+                    {
+                        "name": "Black Belt Kentaro (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Black Belt Kentaro (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_s",
+                        "x": 648,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Lee",
+                "sections": [
+                    {
+                        "name": "Battle Girl Lee (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Battle Girl Lee (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_s",
+                        "x": 760,
+                        "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "Preschooler Juliet",
+                "sections": [
+                    {
+                        "name": "Preschooler Juliet (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Preschooler Juliet (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_n",
+                        "x": 232,
+                        "y": 374
+                    }
+                ]
+            },
+            {
+                "name": "Preschooler Homer",
+                "sections": [
+                    {
+                        "name": "Preschooler Homer (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Preschooler Homer (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_n",
+                        "x": 360,
+                        "y": 361
                     }
                 ]
             },
@@ -11886,8 +12322,12 @@
                 ]
             },
             {
-                "name": "Pinwheel Forest Inside\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Audra",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Audra (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - PkMn Ranger Audra (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Audra",
                         "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Audra"
@@ -11897,13 +12337,17 @@
                     {
                         "map": "pinwheelforest",
                         "x": 248,
-                        "y": 635
+                        "y": 640
                     }
                 ]
             },
             {
-                "name": "Pinwheel Forest Inside\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Forrest",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Forrest (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - PkMn Ranger Forrest (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Forrest",
                         "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Forrest"
@@ -11913,13 +12357,17 @@
                     {
                         "map": "pinwheelforest",
                         "x": 584,
-                        "y": 699
+                        "y": 704
                     }
                 ]
             },
             {
-                "name": "Pinwheel Forest Inside\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Irene",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Irene (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - PkMn Ranger Irene (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Irene",
                         "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Irene"
@@ -11929,13 +12377,17 @@
                     {
                         "map": "pinwheelforest",
                         "x": 104,
-                        "y": 428
+                        "y": 435
                     }
                 ]
             },
             {
-                "name": "Pinwheel Forest Inside\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Miguel",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Miguel (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - PkMn Ranger Miguel (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Miguel",
                         "ref": "Unova Locations/Pinwheel Forest/Inside - Item from ranger Miguel"
@@ -11945,13 +12397,17 @@
                     {
                         "map": "pinwheelforest",
                         "x": 600,
-                        "y": 339
+                        "y": 344
                     }
                 ]
             },
             {
                 "name": "Pinwheel Forest Inside\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
+                    {
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Team Plasma Grunt 4 (Seensanity)"
+                    },
                     {
                         "name": "Stolen item from Plasma grunt",
                         "ref": "Unova Locations/Pinwheel Forest/Inside - Stolen item from Plasma grunt"
@@ -11965,7 +12421,7 @@
                     {
                         "map": "pinwheelforest",
                         "x": 600,
-                        "y": 209
+                        "y": 192
                     }
                 ]
             },
@@ -12030,6 +12486,134 @@
                         "map": "pinwheelforest",
                         "x": 1320,
                         "y": 551
+                    }
+                ]
+            },
+            {
+                "name": "School Kid Sammy",
+                "sections": [
+                    {
+                        "name": "School Kid Sammy (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - School Kid Sammy (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1128,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "School Kid Millie",
+                "sections": [
+                    {
+                        "name": "School Kid Millie (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - School Kid Millie (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1048,
+                        "y": 345
+                    }
+                ]
+            },
+            {
+                "name": "Twins Mayo & May",
+                "sections": [
+                    {
+                        "name": "Twins Mayo & May (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Twins Mayo & May (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 944,
+                        "y": 678
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Nicholas",
+                "sections": [
+                    {
+                        "name": "Youngster Nicholas (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Youngster Nicholas (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 296,
+                        "y": 755
+                    }
+                ]
+            },
+            {
+                "name": "Lass Eva",
+                "sections": [
+                    {
+                        "name": "Lass Eva (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Lass Eva (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 1096,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 872,
+                        "y": 768
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 632,
+                        "y": 768
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 3",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 280,
+                        "y": 470
                     }
                 ]
             },
@@ -12112,7 +12696,7 @@
                     {
                         "map": "ruminationfield",
                         "x": 184,
-                        "y": 113
+                        "y": 118
                     }
                 ]
             },
@@ -12304,13 +12888,17 @@
                     {
                         "map": "desertresort",
                         "x": 1112,
-                        "y": 532
+                        "y": 537
                     }
                 ]
             },
             {
-                "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Jaden",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Jaden (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/PkMn Ranger Jaden (Seensanity)"
+                    }, 
                     {
                         "name": "Item from ranger Jaden",
                         "ref": "Unova Locations/Desert Resort/Item from ranger Jaden"
@@ -12320,13 +12908,17 @@
                     {
                         "map": "desertresort",
                         "x": 168,
-                        "y": 708
+                        "y": 715
                     }
                 ]
             },
             {
-                "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Mylene",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Mylene (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/PkMn Ranger Mylene (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Mylene",
                         "ref": "Unova Locations/Desert Resort/Item from ranger Mylene"
@@ -12336,7 +12928,7 @@
                     {
                         "map": "desertresort",
                         "x": 360,
-                        "y": 659
+                        "y": 664
                     }
                 ]
             },
@@ -12352,7 +12944,7 @@
                     {
                         "map": "desertresort",
                         "x": 888,
-                        "y": 293
+                        "y": 287
                     }
                 ]
             },
@@ -12360,7 +12952,7 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue 1 (Static)",
+                        "name": "Darmanitan Statue 1 (Static)",
                         "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 1 (Static)"
                     }
                 ],
@@ -12368,7 +12960,7 @@
                     {
                         "map": "desertresort",
                         "x": 808,
-                        "y": 283
+                        "y": 291
                     }
                 ]
             },
@@ -12376,7 +12968,7 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue 2 (Static)",
+                        "name": "Darmanitan Statue 2 (Static)",
                         "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 2 (Static)"
                     }
                 ],
@@ -12384,7 +12976,7 @@
                     {
                         "map": "desertresort",
                         "x": 840,
-                        "y": 308
+                        "y": 316
                     }
                 ]
             },
@@ -12392,7 +12984,7 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue 3 (Static)",
+                        "name": "Darmanitan Statue 3 (Static)",
                         "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 3 (Static)"
                     }
                 ],
@@ -12400,7 +12992,7 @@
                     {
                         "map": "desertresort",
                         "x": 856,
-                        "y": 334
+                        "y": 342
                     }
                 ]
             },
@@ -12408,7 +13000,7 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue 4 (Static)",
+                        "name": "Darmanitan Statue 4 (Static)",
                         "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 4 (Static)"
                     }
                 ],
@@ -12416,7 +13008,7 @@
                     {
                         "map": "desertresort",
                         "x": 920,
-                        "y": 321
+                        "y": 329
                     }
                 ]
             },
@@ -12424,7 +13016,7 @@
                 "name": "Desert Resort\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Inside - Darmanitan Statue 5 (Static)",
+                        "name": "Darmanitan Statue 5 (Static)",
                         "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 5 (Static)"
                     }
                 ],
@@ -12432,7 +13024,135 @@
                     {
                         "map": "desertresort",
                         "x": 968,
-                        "y": 283
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Low",
+                "sections": [
+                    {
+                        "name": "Psychic Low (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Psychic Low (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 456,
+                        "y": 459
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Gaven",
+                "sections": [
+                    {
+                        "name": "Psychic Gaven (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Psychic Gaven (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 552,
+                        "y": 984
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Cybil",
+                "sections": [
+                    {
+                        "name": "Psychic Cybil (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Psychic Cybil (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 856,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "Backpacker Kelsey",
+                "sections": [
+                    {
+                        "name": "Backpacker Kelsey (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Backpacker Kelsey (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1064,
+                        "y": 782
+                    }
+                ]
+            },
+            {
+                "name": "Backpacker Nate",
+                "sections": [
+                    {
+                        "name": "Backpacker Nate (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Backpacker Nate (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 824,
+                        "y": 718
+                    }
+                ]
+            },
+            {
+                "name": "Backpacker Liz",
+                "sections": [
+                    {
+                        "name": "Backpacker Liz (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Backpacker Liz (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1160,
+                        "y": 668
+                    }
+                ]
+            },
+            {
+                "name": "Backpacker Elaine",
+                "sections": [
+                    {
+                        "name": "Backpacker Elaine (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Backpacker Elaine (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 712,
+                        "y": 408
+                    }
+                ]
+            },
+            {
+                "name": "Doctor Jerry",
+                "sections": [
+                    {
+                        "name": "Doctor Jerry (Seensanity)",
+                        "ref": "Unova Locations/Desert Resort/Doctor Jerry (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 1208,
+                        "y": 856
                     }
                 ]
             },
@@ -12463,6 +13183,14 @@
                         "ref": "Unova Locations/Relic Castle/Castleside 1F - Item from backpacker"
                     },
                     {
+                        "name": "Castleside 1F - Psychic Perry (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside 1F - Psychic Perry (Seensanity)"
+                    },
+                    {
+                        "name": "Castleside 1F - Psychic Dua (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside 1F - Psychic Dua (Seensanity)"
+                    },
+                    {
                         "name": "Castleside B1F - Item",
                         "ref": "Unova Locations/Relic Castle/Castleside B1F - Item"
                     },
@@ -12471,16 +13199,36 @@
                         "ref": "Unova Locations/Relic Castle/Castleside B1F - Hidden item"
                     },
                     {
+                        "name": "Castleside B1F - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B1F - Team Plasma Grunt (Seensanity)"
+                    },
+                    {
                         "name": "Castleside B2F - Item #1",
                         "ref": "Unova Locations/Relic Castle/Castleside B2F - Item #1"
+                    },
+                    {
+                        "name": "Castleside B2F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Castleside B2F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Team Plasma Grunt 2 (Seensanity)"
                     },
                     {
                         "name": "Castleside B2F - Item #2",
                         "ref": "Unova Locations/Relic Castle/Castleside B2F - Item #2"
                     },
                     {
+                        "name": "Castleside B3F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B3F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
                         "name": "Castleside B3F - Item #1",
                         "ref": "Unova Locations/Relic Castle/Castleside B3F - Item #1"
+                    },
+                    {
+                        "name": "Castleside B2F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Team Plasma Grunt 2 (Seensanity)"
                     },
                     {
                         "name": "Castleside B3F - Item #2",
@@ -12493,6 +13241,18 @@
                     {
                         "name": "Castleside B4F - Hidden item",
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Hidden item"
+                    },
+                    {
+                        "name": "Castleside B4F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B4F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Castleside B4F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B4F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Relic Castle Basement Top Right Room - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Basement Top Right Room - Team Plasma Grunt (Seensanity)"
                     },
                     {
                         "name": "Basement Volcarona Entrance - TM from sage Ryoku",
@@ -12647,7 +13407,7 @@
                     {
                         "map": "desertresort",
                         "x": 888,
-                        "y": 268
+                        "y": 263
                     }
                 ]
             },
@@ -12679,7 +13439,39 @@
                     {
                         "map": "reliccastle1f",
                         "x": 104,
-                        "y": 196
+                        "y": 204
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Perry",
+                "sections": [
+                    {
+                        "name": "Psychic Perry (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside 1F - Psychic Perry (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastle1f",
+                        "x": 264,
+                        "y": 191
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Dua",
+                "sections": [
+                    {
+                        "name": "Psychic Dua (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside 1F - Psychic Dua (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastle1f",
+                        "x": 168,
+                        "y": 178
                     }
                 ]
             },
@@ -12731,6 +13523,22 @@
                         "map": "reliccastleb1f",
                         "x": 71,
                         "y": 147
+                    }
+                ]
+            },
+           {
+                "name": "Team Plasma Grunt",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B1F - Team Plasma Grunt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb1f",
+                        "x": 360,
+                        "y": 257
                     }
                 ]
             },
@@ -12786,6 +13594,38 @@
                 ]
             },
             {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb2f",
+                        "x": 248,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb2f",
+                        "x": 40,
+                        "y": 205
+                    }
+                ]
+            },
+            {
                 "name": "Relic Castle Castleside B2F Encounters",
                 "sections": [
                     {
@@ -12815,7 +13655,7 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb3f",
-                        "x": 217,
+                        "x": 216,
                         "y": 329
                     }
                 ]
@@ -12831,8 +13671,40 @@
                 "map_locations": [
                     {
                         "map": "reliccastleb3f",
-                        "x": 41,
+                        "x": 40,
                         "y": 315
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B3F - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb3f",
+                        "x": 248,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B3F - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb3f",
+                        "x": 72,
+                        "y": 282
                     }
                 ]
             },
@@ -12868,6 +13740,38 @@
                         "map": "reliccastleb4f",
                         "x": 312,
                         "y": 185
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B4F - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb4f",
+                        "x": 184,
+                        "y": 242
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Castleside B4F - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb4f",
+                        "x": 168,
+                        "y": 242
                     }
                 ]
             },
@@ -13113,6 +14017,22 @@
                         "map": "reliccastlemaze",
                         "x": 776,
                         "y": 48
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Relic Castle/Basement Top Right Room - Team Plasma Grunt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 729,
+                        "y": 58
                     }
                 ]
             },
@@ -19562,8 +20482,96 @@
                 ]
             },
             {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "libertygarden",
+                        "x": 552,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "libertygarden",
+                        "x": 536,
+                        "y": 387
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 3",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "libertygarden",
+                        "x": 344,
+                        "y": 301
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse Hallway - Team Plasma Grunt",
+                "sections": [
+                    {
+                        "name": "Lighthouse Hallway - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Hallway - Team Plasma Grunt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "libertygardenlighthouse",
+                        "x": 72,
+                        "y": 162
+                    }
+                ]
+            },
+            {
+                "name": "Lighthouse Basement - Team Plasma Grunt",
+                "sections": [
+                    {
+                        "name": "Lighthouse Basement - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Team Plasma Grunt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "libertygardenlighthouse",
+                        "x": 264,
+                        "y": 162
+                    }
+                ]
+            },
+            {
                 "name": "\u200bLiberty Garden Lighthouse",
                 "sections": [
+                    {
+                        "name": "Hallway - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Hallway - Team Plasma Grunt (Seensanity)"
+                    },
+                    {
+                        "name": "Basement - Team Plasma Grunt (Seensanity)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Team Plasma Grunt (Seensanity)"
+                    },
                     {
                         "name": "Basement - Victini (Event)",
                         "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
