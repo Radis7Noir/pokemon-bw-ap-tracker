@@ -668,6 +668,11 @@ function updateWildBattle(value, old_value)
     end
 end
 
+-- helper for sanities
+local function isSent(location_id)
+    return Tracker:FindObjectForCode(LOCATION_MAPPING[location_id][1]).AvailableChestCount == 0
+end
+
 function updatePokemon()
     CAUGHT = CAUGHT or {}
     SEEN = SEEN or {}
@@ -722,17 +727,34 @@ function updatePokemon()
         end
 
         local should_decrement = false
-        if form_needed and not is_seen then
+        if has("encounter_tracking_req") then
+            -- we keep encounters that have sanity locations
+            local pending = {}
+            if dexVisibilityCode and not dexSentCode and not is_caught then
+                table.insert(pending, 600000 + dex_number)
+            end
+
+            if form_needed and not is_seen then
+                table.insert(pending, 606000 + form_flag)
+            end
+            if SANITY_VISIBLE.seensanity[tostring(dex_number)] and not seenSpecies[dex_number]
+                and not (AUTO_SEEN or {})[dex_number] and not isSent(604000 + dex_number) then
+                table.insert(pending, 604000 + dex_number)
+            end
+            if SANITY_VISIBLE.shinysanity[tostring(dex_number)] and not isSent(608000 + dex_number) then
+                table.insert(pending, 608000 + dex_number)
+            end
+            if form_flag ~= nil and SANITY_VISIBLE.shinyformsanity[form_key] and not isSent(706000 + form_flag) then
+                table.insert(pending, 706000 + form_flag)
+            end
+            should_decrement = #pending == 0
+        elseif form_needed and not is_seen then
             -- formsanity still needs this exact form, catching any form of the species doesn't clear it
         elseif is_caught then
             should_decrement = true
-        elseif has("encounter_tracking_minimal") and (dexSentCode or not dexVisibilityCode) then
-            should_decrement = true
-        elseif has("encounter_tracking_seen") and not dexVisibilityCode and is_seen then
-            should_decrement = true
         end
 
-        if should_decrement == false then
+        if should_decrement == false and not has("encounter_tracking_req") then
             if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
                 local padded_dex_number = form_needed and (606000 + form_flag) or (600000 + dex_number)
                 for _, hint in pairs(SAVED_HINTS) do
@@ -823,14 +845,14 @@ function updatePokemon()
         local should_decrement = false
         if is_seen then
             should_decrement = true
-        elseif has("encounter_tracking_caught") then
+        elseif has("encounter_tracking_all") then
             -- we keep all unseen pokémon
         elseif not seen_pending and not form_pending then
             -- we decrement to the number of checks
             should_decrement = true
         end
 
-        if should_decrement == false then
+        if should_decrement == false and not has("encounter_tracking_req") then
             if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
                 local padded_location = form_pending and (606000 + form_flag) or (604000 + dex_number)
                 for _, hint in pairs(SAVED_HINTS) do

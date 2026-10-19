@@ -870,32 +870,26 @@
         "name": "Encounter Tracking",
         "type": "progressive",
         "loop": true,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 2,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Encounter Tracking - Off",
-                "img": "/images/settings/encounter_tracking.png",
+                "name": "Encounter Tracking - OFF (Manual Tracking)",
+                "img": "/images/settings/encounter_tracking_off.png",
                 "img_mods": "@disabled",
                 "codes": "encounter_tracking, encounter_tracking_off",
                 "inherit_codes": false
             },
             {
-                "name": "Encounter Tracking - Mark off Caught",
-                "img": "/images/settings/encounter_tracking.png",
-                "codes": "encounter_tracking, encounter_tracking_caught",
+                "name": "Encounter Tracking - Keep all Pokémon until caught",
+                "img": "/images/settings/encounter_tracking_all.png",
+                "codes": "encounter_tracking, encounter_tracking_all",
                 "inherit_codes": false
             },
             {
-                "name": "Encounter Tracking - Mark off caught, seen if not dexsanity",
-                "img": "/images/settings/encounter_tracking_loose.png",
-                "codes": "encounter_tracking, encounter_tracking_seen",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Tracking - Mark off caught and not dexsanity",
-                "img": "/images/settings/encounter_tracking_loose2.png",
-                "codes": "encounter_tracking, encounter_tracking_minimal",
+                "name": "Encounter Tracking - Only show required Pokémon (skip pre-evolutions)",
+                "img": "/images/settings/encounter_tracking_req.png",
+                "codes": "encounter_tracking, encounter_tracking_req",
                 "inherit_codes": false
             }
         ]
