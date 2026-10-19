@@ -2847,6 +2847,10 @@
                 "name": "\u200bChargestone Cave",
                 "sections": [
                     {
+                        "name": "1F - Item from Professor Juniper",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Item from Professor Juniper"
+                    },
+                    {
                         "name": "1F - North east item",
                         "ref": "Unova Locations/Chargestone Cave/1F - North east item"
                     },
@@ -2883,8 +2887,32 @@
                         "ref": "Unova Locations/Chargestone Cave/1F - South hidden item"
                     },
                     {
-                        "name": "Item from Professor Juniper",
-                        "ref": "Unova Locations/Chargestone Cave/Item from Professor Juniper"
+                        "name": "1F - Hiker Hardy (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Hiker Hardy (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Scientist Ronald (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Ronald (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Ace Trainer Corky (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Ace Trainer Corky (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Scientist Orville (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Orville (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Ace Trainer Jared (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Ace Trainer Jared (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Scientist Naoko (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Naoko (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Team Plasma N (Seensanity)"
                     },
                     {
                         "name": "B1F - Center item",
@@ -2905,6 +2933,38 @@
                     {
                         "name": "B1F - Items from nugget brothers",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Items from nugget brothers"
+                    },
+                    {
+                        "name": "B1F - Doctor Wayne (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Doctor Wayne (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 4 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 5 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 5 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 6 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 6 (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Team Plasma Grunt 7 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 7 (Seensanity)"
                     },
                     {
                         "name": "B2F - North east item",
@@ -2933,6 +2993,22 @@
                     {
                         "name": "B2F - Sage Bronius (Event)",
                         "ref": "Unova Locations/Chargestone Cave/B2F - Sage Bronius (Event)"
+                    },
+                    {
+                        "name": "B2F - Ace Trainer Stella (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Ace Trainer Stella (Seensanity)"
+                    },
+                    {
+                        "name": "B2F - Ace Trainer Allison (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Ace Trainer Allison (Seensanity)"
+                    },
+                    {
+                        "name": "B2F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "B2F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Team Plasma Grunt 2 (Seensanity)"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -2968,7 +3044,7 @@
                     {
                         "map": "chargestonecaveoutside",
                         "x": 184,
-                        "y": 239
+                        "y": 231
                     }
                 ]
             },
@@ -6576,6 +6652,14 @@
                         "ref": "Unova Locations/Mistralton Cave/1F - West hidden item"
                     },
                     {
+                        "name": "1F - Hiker Hugh (Seensanity)",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Hiker Hugh (Seensanity)"
+                    },
+                    {
+                        "name": "1F - Hiker Clarke (Seensanity)",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Hiker Clarke (Seensanity)"
+                    },
+                    {
                         "name": "2F - Item near stairs to 3F",
                         "ref": "Unova Locations/Mistralton Cave/2F - Item near stairs to 3F"
                     },
@@ -7034,8 +7118,44 @@
                         "ref": "Unova Locations/Celestial Tower/2F - Right item"
                     },
                     {
+                        "name": "2F - Lass Kara (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Lass Kara (Seensanity)"
+                    },
+                    {
+                        "name": "2F - Psychic Doreen (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Psychic Doreen (Seensanity)"
+                    },
+                    {
+                        "name": "2F - Pokéfan Jude (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Pokéfan Jude (Seensanity)"
+                    },
+                    {
+                        "name": "2F - Pokéfan Georgia (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Pokéfan Georgia (Seensanity)"
+                    },
+                    {
                         "name": "3F - Item",
                         "ref": "Unova Locations/Celestial Tower/3F - Item"
+                    },
+                    {
+                        "name": "3F - Psychic Micki (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Micki (Seensanity)"
+                    },
+                    {
+                        "name": "3F - Psychic Bryce (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Bryce (Seensanity)"
+                    },
+                    {
+                        "name": "3F - Psychic Lin (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Lin (Seensanity)"
+                    },
+                    {
+                        "name": "3F - Nurse Sachiko (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Nurse Sachiko (Seensanity)"
+                    },
+                    {
+                        "name": "3F - Psychic Belle (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Belle (Seensanity)"
                     },
                     {
                         "name": "4F - Left item",
@@ -7044,6 +7164,14 @@
                     {
                         "name": "4F - Right item",
                         "ref": "Unova Locations/Celestial Tower/4F - Right item"
+                    },
+                    {
+                        "name": "4F - Ace Trainer Kassandra (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/4F - Ace Trainer Kassandra (Seensanity)"
+                    },
+                    {
+                        "name": "4F - Ace Trainer Beckett (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/4F - Ace Trainer Beckett (Seensanity)"
                     },
                     {
                         "name": "2F - Land Encounters",
@@ -14613,10 +14741,10 @@
                 "map_locations": [
                     {
                         "map": "lostlornforest",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -14641,12 +14769,48 @@
                         "ref": "Unova Locations/Cold Storage/Building - North east item"
                     },
                     {
-                        "name": "Item in container",
-                        "ref": "Unova Locations/Cold Storage/Building - Item in container"
+                        "name": "Worker Victor (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Victor (Seensanity)"
                     },
                     {
-                        "name": "TM from sage Zinzolin",
-                        "ref": "Unova Locations/Cold Storage/TM from sage Zinzolin"
+                        "name": "Worker Filipe (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Filipe (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Glenn (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Glenn (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Ryan (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Ryan (Seensanity)"
+                    },
+                    {
+                        "name": "Worker Patton (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Patton (Seensanity)"
+                    },
+                    {
+                        "name": "Container - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Container - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Container - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "Container - Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 4 (Seensanity)"
+                    },
+                    {
+                        "name": "Container - Item in container",
+                        "ref": "Unova Locations/Cold Storage/Container - Item in container"
+                    },
+                    {
+                        "name": "Container - TM from sage Zinzolin",
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
                     },
                     {
                         "name": "Container - Sage Zinzolin (Event)",
@@ -14665,12 +14829,28 @@
                 "name": "\u200bCold Storage Container",
                 "sections": [
                     {
-                        "name": "Building - Item in container",
-                        "ref": "Unova Locations/Cold Storage/Building - Item in container"
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 4 (Seensanity)"
+                    },
+                    {
+                        "name": "Item in container",
+                        "ref": "Unova Locations/Cold Storage/Container - Item in container"
                     },
                     {
                         "name": "TM from sage Zinzolin",
-                        "ref": "Unova Locations/Cold Storage/TM from sage Zinzolin"
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
                     },
                     {
                         "name": "Sage Zinzolin (Event)",
@@ -14760,7 +14940,7 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 678,
+                        "x": 680,
                         "y": 104
                     }
                 ]
@@ -14792,8 +14972,56 @@
                 "map_locations": [
                     {
                         "map": "coldstorageoutside",
-                        "x": 391,
-                        "y": 190
+                        "x": 392,
+                        "y": 193
+                    }
+                ]
+            },
+            {
+                "name": "Worker Eddie",
+                "sections": [
+                    {
+                        "name": "Worker Eddie (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Worker Eddie (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorageoutside",
+                        "x": 600,
+                        "y": 219
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Albert",
+                "sections": [
+                    {
+                        "name": "Youngster Albert (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Youngster Albert (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorageoutside",
+                        "x": 520,
+                        "y": 78
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Kenneth",
+                "sections": [
+                    {
+                        "name": "Youngster Kenneth (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Youngster Kenneth (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorageoutside",
+                        "x": 408,
+                        "y": 91
                     }
                 ]
             },
@@ -14828,7 +15056,7 @@
                 "name": "Cold Storage Building",
                 "sections": [
                     {
-                        "name": "Building - Item near entrance, up the stairs",
+                        "name": "Item near entrance, up the stairs",
                         "ref": "Unova Locations/Cold Storage/Building - Item near entrance, up the stairs"
                     }
                 ],
@@ -14844,7 +15072,7 @@
                 "name": "Cold Storage Building\u200b",
                 "sections": [
                     {
-                        "name": "Building - Item on first ice field",
+                        "name": "Item on first ice field",
                         "ref": "Unova Locations/Cold Storage/Building - Item on first ice field"
                     }
                 ],
@@ -14860,7 +15088,7 @@
                 "name": "Cold Storage Building\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Building - North east item",
+                        "name": "North east item",
                         "ref": "Unova Locations/Cold Storage/Building - North east item"
                     }
                 ],
@@ -14876,7 +15104,7 @@
                 "name": "Cold Storage Building\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Building - South east item",
+                        "name": "South east item",
                         "ref": "Unova Locations/Cold Storage/Building - South east item"
                     }
                 ],
@@ -14889,18 +15117,162 @@
                 ]
             },
             {
-                "name": "Cold Storage Container",
+                "name": "Worker Victor",
                 "sections": [
                     {
-                        "name": "Building - Item in container",
-                        "ref": "Unova Locations/Cold Storage/Building - Item in container"
+                        "name": "Worker Victor (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Victor (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 216,
+                        "y": 234
+                    }
+                ]
+            },
+            {
+                "name": "Worker Filipe",
+                "sections": [
+                    {
+                        "name": "Worker Filipe (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Filipe (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 328,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Worker Glenn",
+                "sections": [
+                    {
+                        "name": "Worker Glenn (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Glenn (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 344,
+                        "y": 142
+                    }
+                ]
+            },
+            {
+                "name": "Worker Ryan",
+                "sections": [
+                    {
+                        "name": "Worker Ryan (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Ryan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 296,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Worker Patton",
+                "sections": [
+                    {
+                        "name": "Worker Patton (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Building - Worker Patton (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorage",
+                        "x": 328,
+                        "y": 414
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 1 (Seensanity)"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "coldstoragecontainer",
-                        "x": 57,
-                        "y": 152
+                        "x": 88,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstoragecontainer",
+                        "x": 104,
+                        "y": 181
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 3",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstoragecontainer",
+                        "x": 120,
+                        "y": 191
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 4",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Cold Storage/Container - Team Plasma Grunt 4 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstoragecontainer",
+                        "x": 136,
+                        "y": 191
+                    }
+                ]
+            },
+            {
+                "name": "Cold Storage Container",
+                "sections": [
+                    {
+                        "name": "Item in container",
+                        "ref": "Unova Locations/Cold Storage/Container - Item in container"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstoragecontainer",
+                        "x": 56,
+                        "y": 145
                     }
                 ]
             },
@@ -14909,7 +15281,7 @@
                 "sections": [
                     {
                         "name": "TM from sage Zinzolin",
-                        "ref": "Unova Locations/Cold Storage/TM from sage Zinzolin"
+                        "ref": "Unova Locations/Cold Storage/Container - TM from sage Zinzolin"
                     },
                     {
                         "name": "Sage Zinzolin (Event)",
@@ -14920,7 +15292,7 @@
                     {
                         "map": "coldstoragecontainer",
                         "x": 88,
-                        "y": 163
+                        "y": 155
                     }
                 ]
             },
@@ -14985,6 +15357,38 @@
                         "map": "mistraltoncave1f",
                         "x": 73,
                         "y": 256
+                    }
+                ]
+            },
+            {
+                "name": "Hiker Hugh",
+                "sections": [
+                    {
+                        "name": "Hiker Hugh (Seensanity)",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Hiker Hugh (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncave1f",
+                        "x": 184,
+                        "y": 378
+                    }
+                ]
+            },
+            {
+                "name": "Hiker Clarke",
+                "sections": [
+                    {
+                        "name": "Hiker Clarke (Seensanity)",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Hiker Clarke (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncave1f",
+                        "x": 344,
+                        "y": 128
                     }
                 ]
             },
@@ -15158,7 +15562,7 @@
                     {
                         "map": "guidancechamber",
                         "x": 152,
-                        "y": 166
+                        "y": 162
                     }
                 ]
             },
@@ -15206,7 +15610,7 @@
                     {
                         "map": "guidancechamber",
                         "x": 136,
-                        "y": 154
+                        "y": 162
                     }
                 ]
             },
@@ -15226,7 +15630,7 @@
                     {
                         "map": "guidancechamber",
                         "x": 136,
-                        "y": 81
+                        "y": 85
                     }
                 ]
             },
@@ -15434,7 +15838,7 @@
                 "sections": [
                     {
                         "name": "Item from Professor Juniper",
-                        "ref": "Unova Locations/Chargestone Cave/Item from Professor Juniper"
+                        "ref": "Unova Locations/Chargestone Cave/1F - Item from Professor Juniper"
                     }
                 ],
                 "map_locations": [
@@ -15442,6 +15846,118 @@
                         "map": "chargestonecave1f",
                         "x": 231,
                         "y": 585
+                    }
+                ]
+            },
+            {
+                "name": "Hiker Hardy",
+                "sections": [
+                    {
+                        "name": "Hiker Hardy (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Hiker Hardy (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 680,
+                        "y": 313
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Ronald",
+                "sections": [
+                    {
+                        "name": "Scientist Ronald (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Ronald (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 264,
+                        "y": 301
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Corky",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Corky (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Ace Trainer Corky (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 936,
+                        "y": 313
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Orville",
+                "sections": [
+                    {
+                        "name": "Scientist Orville (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Orville (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 776,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Jared",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Jared (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Ace Trainer Jared (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 312,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Naoko",
+                "sections": [
+                    {
+                        "name": "Scientist Naoko (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Scientist Naoko (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 1080,
+                        "y": 657
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma N",
+                "sections": [
+                    {
+                        "name": "Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Team Plasma N (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 1048,
+                        "y": 206
                     }
                 ]
             },
@@ -15460,10 +15976,10 @@
                 "map_locations": [
                     {
                         "map": "chargestonecave1f",
-                        "x": 28,
-                        "y": 55,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -15543,8 +16059,136 @@
                 "map_locations": [
                     {
                         "map": "chargestonecaveb1f",
-                        "x": 415,
-                        "y": 690
+                        "x": 416,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Doctor Wayne",
+                "sections": [
+                    {
+                        "name": "B1F - Doctor Wayne (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Doctor Wayne (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 728,
+                        "y": 559
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 600,
+                        "y": 443
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 536,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 3",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 616,
+                        "y": 289
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 4",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 4 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 664,
+                        "y": 174
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 5",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 5 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 5 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 616,
+                        "y": 213
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 6",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 6 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 6 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 488,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "B1F - Team Plasma Grunt 7",
+                "sections": [
+                    {
+                        "name": "B1F - Team Plasma Grunt 7 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 7 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 536,
+                        "y": 81
                     }
                 ]
             },
@@ -15563,10 +16207,10 @@
                 "map_locations": [
                     {
                         "map": "chargestonecaveb1f",
-                        "x": 44,
-                        "y": 32,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -15647,13 +16291,21 @@
                     {
                         "map": "chargestonecaveb2f",
                         "x": 167,
-                        "y": 476
+                        "y": 486
                     }
                 ]
             },
             {
                 "name": "Chargestone Cave B2F\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Team Plasma Grunt 2 (Seensanity)"
+                    },
                     {
                         "name": "TM from sage Bronius",
                         "ref": "Unova Locations/Chargestone Cave/B2F - TM from sage Bronius"
@@ -15672,6 +16324,38 @@
                 ]
             },
             {
+                "name": "Ace Trainer Stella",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Stella (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Ace Trainer Stella (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb2f",
+                        "x": 264,
+                        "y": 466
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Allison",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Allison (Seensanity)",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Ace Trainer Allison (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb2f",
+                        "x": 136,
+                        "y": 312
+                    }
+                ]
+            },
+            {
                 "name": "Chargestone Cave B2F Encounters",
                 "sections": [
                     {
@@ -15686,10 +16370,10 @@
                 "map_locations": [
                     {
                         "map": "chargestonecaveb2f",
-                        "x": 28,
-                        "y": 26,
-                        "size": 42,
-                        "border_thickness": 6,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -15727,6 +16411,70 @@
                 ]
             },
             {
+                "name": "Lass Kara",
+                "sections": [
+                    {
+                        "name": "Lass Kara (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Lass Kara (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower2f",
+                        "x": 280,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Doreen",
+                "sections": [
+                    {
+                        "name": "Psychic Doreen (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Psychic Doreen (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower2f",
+                        "x": 104,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Pokéfan Jude",
+                "sections": [
+                    {
+                        "name": "Pokéfan Jude (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Pokéfan Jude (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower2f",
+                        "x": 152,
+                        "y": 362
+                    }
+                ]
+            },
+            {
+                "name": "Pokéfan Georgia",
+                "sections": [
+                    {
+                        "name": "Pokéfan Georgia (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/2F - Pokéfan Georgia (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower2f",
+                        "x": 88,
+                        "y": 362
+                    }
+                ]
+            },
+            {
                 "name": "Celestial Tower 2F Encounters",
                 "sections": [
                     {
@@ -15756,8 +16504,88 @@
                 "map_locations": [
                     {
                         "map": "celestialtower3f",
-                        "x": 265,
+                        "x": 264,
                         "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Micki",
+                "sections": [
+                    {
+                        "name": "Psychic Micki (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Micki (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 152,
+                        "y": 347
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Bryce",
+                "sections": [
+                    {
+                        "name": "Psychic Bryce (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Bryce (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 216,
+                        "y": 367
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Lin",
+                "sections": [
+                    {
+                        "name": "Psychic Lin (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Lin (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 72,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "Psychic Belle",
+                "sections": [
+                    {
+                        "name": "Psychic Belle (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Psychic Belle (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 264,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "Nurse Sachiko",
+                "sections": [
+                    {
+                        "name": "Nurse Sachiko (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/3F - Nurse Sachiko (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 168,
+                        "y": 407
                     }
                 ]
             },
@@ -15807,8 +16635,40 @@
                 "map_locations": [
                     {
                         "map": "celestialtower4f",
-                        "x": 250,
+                        "x": 248,
                         "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Kassandra",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Kassandra (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/4F - Ace Trainer Kassandra (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower4f",
+                        "x": 104,
+                        "y": 342
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Beckett",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Beckett (Seensanity)",
+                        "ref": "Unova Locations/Celestial Tower/4F - Ace Trainer Beckett (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower4f",
+                        "x": 200,
+                        "y": 362
                     }
                 ]
             },

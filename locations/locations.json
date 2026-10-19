@@ -11668,7 +11668,7 @@
                         ]
                     },
                     {
-                        "name": "Building - Item in container",
+                        "name": "Container - Item in container",
                         "access_rules": [
                             "@Cold Storage Container Access"
                         ],
@@ -11677,7 +11677,7 @@
                         ]
                     },
                     {
-                        "name": "TM from sage Zinzolin",
+                        "name": "Container - TM from sage Zinzolin",
                         "chest_unopened_img": "images/locations/sagezinzolin_tm.png",
                         "chest_opened_img": "images/locations/cleared/sagezinzolin_tm_cleared.png",
                         "access_rules": [
@@ -12006,7 +12006,7 @@
                         ]
                     },
                     {
-                        "name": "Item from Professor Juniper",
+                        "name": "1F - Item from Professor Juniper",
                         "chest_unopened_img": "images/locations/prof_juniper_luckyegg.png",
                         "chest_opened_img": "images/locations/cleared/prof_juniper_luckyegg_cleared.png",
                         "access_rules": [
