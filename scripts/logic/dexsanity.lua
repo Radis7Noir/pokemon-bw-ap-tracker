@@ -120,7 +120,7 @@ SEARCH_VISIBILITY_STAGES = {
     static_visibility = 0,
     trade_visibility = 0, -- we still want statics and trades even if they're not in logic because why not :D
     location_visibility = 2, -- encounters are set to ONLY during a search
-    show_trainer_teams = 0
+    trainer_visibility = 0
 }
 -- we track the stages before the search
 VISIBILITY_BEFORE_SEARCH = nil
