@@ -22378,10 +22378,10 @@
                 ]
             },
             {
-                "name": "Lighthouse Hallway - Team Plasma Grunt",
+                "name": "Team Plasma Grunt",
                 "sections": [
                     {
-                        "name": "Lighthouse Hallway - Team Plasma Grunt (Seensanity)",
+                        "name": "Team Plasma Grunt (Seensanity)",
                         "ref": "Unova Locations/Liberty Garden/Lighthouse Hallway - Team Plasma Grunt (Seensanity)"
                     }
                 ],
@@ -22394,10 +22394,10 @@
                 ]
             },
             {
-                "name": "Lighthouse Basement - Team Plasma Grunt",
+                "name": "Team Plasma Grunt",
                 "sections": [
                     {
-                        "name": "Lighthouse Basement - Team Plasma Grunt (Seensanity)",
+                        "name": "Team Plasma Grunt (Seensanity)",
                         "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Team Plasma Grunt (Seensanity)"
                     }
                 ],
@@ -22434,7 +22434,22 @@
                         "map": "libertygarden",
                         "x": 361,
                         "y": 279
+                    }
+                ]
+            },
+            {
+                "name": "\u200b\u200bLiberty Garden Lighthouse Basement",
+                "sections": [
+                    {
+                        "name": "Victini (Event)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Event)"
                     },
+                    {
+                        "name": "Victini (Static)",
+                        "ref": "Unova Locations/Liberty Garden/Lighthouse Basement - Victini (Static)"
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "libertygardenlighthouse",
                         "x": 264,
