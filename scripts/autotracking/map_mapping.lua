@@ -113,6 +113,7 @@ MAP_MAPPING =  {
   [237] = {"Others", "Liberty Garden", "Lighthouse"}, -- Lighthouse Basement
   [385] = {"Dungeons A", "Lostlorn Forest"},
   [263] = {"Others", "Marvelous Bridge"},
+  [380] = {"Others", "Marvelous Bridge"}, -- Bridge Gate
   [333] = {"Dungeons A", "Mistralton Cave", "1F"},
   [334] = {"Dungeons A", "Mistralton Cave", "2F"},
   [335] = {"Dungeons A", "Mistralton Cave", "Guidance Chamber"},

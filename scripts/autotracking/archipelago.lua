@@ -301,6 +301,12 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
     end
 
+    if has("consider_trainers_true") and (seensanity > 0 or formsanity > 0) then
+        Tracker:FindObjectForCode("trainer_visibility").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("trainer_visibility").CurrentStage = 0
+    end
+
     if not hm_with_badges_found then
         Tracker:FindObjectForCode("hm01cut").CurrentStage = 1
         Tracker:FindObjectForCode("hm03surf").CurrentStage = 1

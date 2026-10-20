@@ -3619,6 +3619,18 @@
                         "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #2 (Winter)"
                     },
                     {
+                        "name": "Main Floor - Ace Trainer Caroll (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Ace Trainer Caroll (Seensanity)"
+                    },
+                    {
+                        "name": "Main Floor - Doctor Hank (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Doctor Hank (Seensanity)"
+                    },
+                    {
+                        "name": "Main Floor - Worker Brand (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Worker Brand (Seensanity)"
+                    },
+                    {
                         "name": "Upper Floor - North east cave item",
                         "ref": "Unova Locations/Twist Mountain/Upper Floor - North east cave item"
                     },
@@ -3629,6 +3641,18 @@
                     {
                         "name": "Upper Floor - South east cave hidden item",
                         "ref": "Unova Locations/Twist Mountain/Upper Floor - South east cave hidden item"
+                    },
+                    {
+                        "name": "Upper Floor - Worker Heath (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Worker Heath (Seensanity)"
+                    },
+                    {
+                        "name": "Upper Floor - Battle Girl Sharon (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Battle Girl Sharon (Seensanity)"
+                    },
+                    {
+                        "name": "Upper Floor - Hiker Darrell (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Hiker Darrell (Seensanity)"
                     },
                     {
                         "name": "Middle Floor - West cave item #1",
@@ -3655,6 +3679,22 @@
                         "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave hidden item #2"
                     },
                     {
+                        "name": "Middle Floor - Worker Cairn (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Cairn (Seensanity)"
+                    },
+                    {
+                        "name": "Middle Floor - Hiker Neil (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Hiker Neil (Seensanity)"
+                    },
+                    {
+                        "name": "Middle Floor - Worker Rob (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Rob (Seensanity)"
+                    },
+                    {
+                        "name": "Middle Floor - Ace Trainer Jordan (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Ace Trainer Jordan (Seensanity)"
+                    },
+                    {
                         "name": "Lower Floor - Little east cave item (Winter)",
                         "ref": "Unova Locations/Twist Mountain/Lower Floor - Little east cave item (Winter)"
                     },
@@ -3669,6 +3709,14 @@
                     {
                         "name": "Lower Floor - Item from worker near ice rock cave",
                         "ref": "Unova Locations/Twist Mountain/Lower Floor - Item from worker near ice rock cave"
+                    },
+                    {
+                        "name": "Lower Floor - Worker Rich (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Worker Rich (Seensanity)"
+                    },
+                    {
+                        "name": "Lower Floor - Black Belt Teppei (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Black Belt Teppei (Seensanity)"
                     },
                     {
                         "name": "Ice Cave - Item near ice rock",
@@ -3812,7 +3860,7 @@
                     {
                         "map": "twistmountainoutside",
                         "x": 200,
-                        "y": 85
+                        "y": 77
                     }
                 ]
             },
@@ -7561,12 +7609,28 @@
                         "ref": "Unova Locations/Moor of Icirrus/Hidden item behind boulder (Spring, Summer, Autumn)"
                     },
                     {
+                        "name": "PkMn Ranger Chloris (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/PkMn Ranger Chloris (Seensanity)"
+                    },
+                    {
                         "name": "Item from ranger Chloris",
                         "ref": "Unova Locations/Moor of Icirrus/Item from ranger Chloris"
                     },
                     {
+                        "name": "PkMn Ranger Harry (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/PkMn Ranger Harry (Seensanity)"
+                    },
+                    {
                         "name": "Item from ranger Harry",
                         "ref": "Unova Locations/Moor of Icirrus/Item from ranger Harry"
+                    },
+                    {
+                        "name": "Fisherman Damon (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/Fisherman Damon (Seensanity)"
+                    },
+                    {
+                        "name": "Parasol Lady Mariah (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/Parasol Lady Mariah (Seensanity)"
                     },
                     {
                         "name": "Land Encounters (Spring)",
@@ -7981,6 +8045,10 @@
                 "name": "\u200bChallenger's Cave",
                 "sections": [
                     {
+                        "name": "1F - Backpacker Toru (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Backpacker Toru (Seensanity)"
+                    },
+                    {
                         "name": "B1F - North item",
                         "ref": "Unova Locations/Challenger's Cave/B1F - North item"
                     },
@@ -7995,6 +8063,14 @@
                     {
                         "name": "B1F - Hidden item near stairs to B2F",
                         "ref": "Unova Locations/Challenger's Cave/B1F - Hidden item near stairs to B2F"
+                    },
+                    {
+                        "name": "B1F - Ace Trainer Terry (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Ace Trainer Terry (Seensanity)"
+                    },
+                    {
+                        "name": "B1F - Ace Trainer Beverly (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Ace Trainer Beverly (Seensanity)"
                     },
                     {
                         "name": "B2F - Item near eastern ledge",
@@ -8035,6 +8111,14 @@
                     {
                         "name": "B2F - South west hidden item #2",
                         "ref": "Unova Locations/Challenger's Cave/B2F - South west hidden item #2"
+                    },
+                    {
+                        "name": "B2F - Veteran Julia (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Veteran Julia (Seensanity)"
+                    },
+                    {
+                        "name": "B2F - Veteran Shaun (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Veteran Shaun (Seensanity)"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -8475,16 +8559,20 @@
                         "ref": "Unova Locations/Victory Road/1F - Center cavern item"
                     },
                     {
-                        "name": "1F - Eastern cavern item",
-                        "ref": "Unova Locations/Victory Road/1F - Eastern cavern item"
-                    },
-                    {
                         "name": "1F - Western cavern hidden item #1",
                         "ref": "Unova Locations/Victory Road/1F - Western cavern hidden item #1"
                     },
                     {
                         "name": "1F - Western cavern hidden item #2",
                         "ref": "Unova Locations/Victory Road/1F - Western cavern hidden item #2"
+                    },
+                    {
+                        "name": "1F - Eastern cavern item",
+                        "ref": "Unova Locations/Victory Road/1F - Eastern cavern item"
+                    },
+                    {
+                        "name": "2F Left Cave - Ace Trainer Shanta (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Ace Trainer Shanta (Seensanity)"
                     },
                     {
                         "name": "2F - Eastern cavern hidden item",
@@ -8495,12 +8583,36 @@
                         "ref": "Unova Locations/Victory Road/3F - Western cavern item"
                     },
                     {
+                        "name": "3F Left Cave - Black Belt Tyrone (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Black Belt Tyrone (Seensanity)"
+                    },
+                    {
                         "name": "3F - Middle cavern hidden item",
                         "ref": "Unova Locations/Victory Road/3F - Middle cavern hidden item"
                     },
                     {
+                        "name": "3F Middle Cave - Veteran Tiffany (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Veteran Tiffany (Seensanity)"
+                    },
+                    {
+                        "name": "3F Right Cave - Ace Trainer Dwayne (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Ace Trainer Dwayne (Seensanity)"
+                    },
+                    {
                         "name": "4F - Western cavern item",
                         "ref": "Unova Locations/Victory Road/4F - Western cavern item"
+                    },
+                    {
+                        "name": "4F - Western cavern hidden item",
+                        "ref": "Unova Locations/Victory Road/4F - Western cavern hidden item"
+                    },
+                    {
+                        "name": "4F Left Cave - Doctor Logan (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Doctor Logan (Seensanity)"
+                    },
+                    {
+                        "name": "4F Middle Cave - Ace Trainer Cathy (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Ace Trainer Cathy (Seensanity)"
                     },
                     {
                         "name": "4F - Eastern cavern hidden item #1",
@@ -8511,8 +8623,12 @@
                         "ref": "Unova Locations/Victory Road/4F - Eastern cavern hidden item #2"
                     },
                     {
-                        "name": "4F - Western cavern hidden item",
-                        "ref": "Unova Locations/Victory Road/4F - Western cavern hidden item"
+                        "name": "4F Right Cave - Veteran Martell (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Veteran Martell (Seensanity)"
+                    },
+                    {
+                        "name": "6F Cave - Ace Trainer David (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Ace Trainer David (Seensanity)"
                     },
                     {
                         "name": "Trial Chamber - Terrakion (Event)",
@@ -10080,6 +10196,22 @@
                         "ref": "Unova Locations/Abundant Shrine/Hidden item on southern lake"
                     },
                     {
+                        "name": "Lass Lurleen (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Lass Lurleen (Seensanity)"
+                    },
+                    {
+                        "name": "Youngster Wes (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Youngster Wes (Seensanity)"
+                    },
+                    {
+                        "name": "Lass Maki (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Lass Maki (Seensanity)"
+                    },
+                    {
+                        "name": "Youngster Lester (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Youngster Lester (Seensanity)"
+                    },
+                    {
                         "name": "Landorus (Static)",
                         "ref": "Unova Locations/Abundant Shrine/Landorus (Static)"
                     },
@@ -11347,11 +11479,11 @@
                 "name": "Team Plasma Grunts",
                 "sections": [
                     {
-                        "name": "Ruins - Team Plasma Grunt 1 (Seensanity)",
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
                         "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 1 (Seensanity)"
                     },
                     {
-                        "name": "Ruins - Team Plasma Grunt 2 (Seensanity)",
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
                         "ref": "Unova Locations/Dreamyard/Ruins - Team Plasma Grunt 2 (Seensanity)"
                     }
                 ],
@@ -16738,23 +16870,23 @@
                     {
                         "map": "twistmountainoutside",
                         "x": 264,
-                        "y": 197
+                        "y": 209
                     }
                 ]
             },
             {
-                "name": "Twist Mountain Outside\u200b\u200b",
+                "name": "Hiker Terrell",
                 "sections": [
                     {
-                        "name": "TM from Alder",
-                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
+                        "name": "Hiker Terrell (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Hiker Terrell (Seensanity)"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "twistmountainoutside",
-                        "x": 264,
-                        "y": 197
+                        "x": 312,
+                        "y": 94
                     }
                 ]
             },
@@ -16807,6 +16939,54 @@
                 ]
             },
             {
+                "name": "Worker Heath",
+                "sections": [
+                    {
+                        "name": "Worker Heath (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Worker Heath (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 840,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Battle Girl Sharon",
+                "sections": [
+                    {
+                        "name": "Battle Girl Sharon (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Battle Girl Sharon (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 984,
+                        "y": 595
+                    }
+                ]
+            },
+            {
+                "name": "Hiker Darrell",
+                "sections": [
+                    {
+                        "name": "Hiker Darrell (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Hiker Darrell (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 712,
+                        "y": 800
+                    }
+                ]
+            },
+            {
                 "name": "Twist Mountain Upper Floor Encounters",
                 "sections": [
                     {
@@ -16845,10 +17025,10 @@
                 "map_locations": [
                     {
                         "map": "twistmountainupperlevel",
-                        "x": 544,
-                        "y": 435,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -16966,6 +17146,54 @@
                 ]
             },
             {
+                "name": "Ace Trainer Caroll",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Caroll (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Ace Trainer Caroll (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 616,
+                        "y": 575
+                    }
+                ]
+            },
+            {
+                "name": "Doctor Hank",
+                "sections": [
+                    {
+                        "name": "Doctor Hank (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Doctor Hank (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 152,
+                        "y": 354
+                    }
+                ]
+            },
+            {
+                "name": "Worker Brand",
+                "sections": [
+                    {
+                        "name": "Worker Brand (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Main Floor - Worker Brand (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountain",
+                        "x": 760,
+                        "y": 485
+                    }
+                ]
+            },
+            {
                 "name": "Twist Mountain Middle Floor",
                 "sections": [
                     {
@@ -17062,6 +17290,70 @@
                 ]
             },
             {
+                "name": "Worker Cairn",
+                "sections": [
+                    {
+                        "name": "Worker Cairn (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Cairn (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 168,
+                        "y": 557
+                    }
+                ]
+            },
+            {
+                "name": "Hiker Neil",
+                "sections": [
+                    {
+                        "name": "Hiker Neil (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Hiker Neil (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 168,
+                        "y": 173
+                    }
+                ]
+            },
+            {
+                "name": "Worker Rob",
+                "sections": [
+                    {
+                        "name": "Worker Rob (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Rob (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 952,
+                        "y": 775
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Jordan",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Jordan (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Ace Trainer Jordan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 728,
+                        "y": 278
+                    }
+                ]
+            },
+            {
                 "name": "Twist Mountain Middle Floor Encounters",
                 "sections": [
                     {
@@ -17100,10 +17392,10 @@
                 "map_locations": [
                     {
                         "map": "twistmountainmiddlelevel",
-                        "x": 544,
-                        "y": 444,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -17173,6 +17465,38 @@
                 ]
             },
             {
+                "name": "Worker Rich",
+                "sections": [
+                    {
+                        "name": "Worker Rich (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Worker Rich (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 264,
+                        "y": 353
+                    }
+                ]
+            },
+            {
+                "name": "Black Belt Teppei",
+                "sections": [
+                    {
+                        "name": "Black Belt Teppei (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Black Belt Teppei (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 280,
+                        "y": 186
+                    }
+                ]
+            },
+            {
                 "name": "Twist Mountain Lower Floor Encounters",
                 "sections": [
                     {
@@ -17211,10 +17535,10 @@
                 "map_locations": [
                     {
                         "map": "twistmountainlowerlevel",
-                        "x": 544,
-                        "y": 491,
-                        "size": 35,
-                        "border_thickness": 5,
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
                         "shape": "diamond"
                     }
                 ]
@@ -17274,10 +17598,10 @@
                 "map_locations": [
                     {
                         "map": "twistmountainicerockcave",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -17398,6 +17722,38 @@
                 ]
             },
             {
+                "name": "Ace Trainer Jamie",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Jamie (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Ace Trainer Jamie (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 552,
+                        "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Jesse",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Jesse (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Ace Trainer Jesse (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 456,
+                        "y": 337
+                    }
+                ]
+            },
+            {
                 "name": "\u200bDragonspiral Tower",
                 "sections": [
                     {
@@ -17411,6 +17767,26 @@
                     {
                         "name": "3F - Item",
                         "ref": "Unova Locations/Dragonspiral Tower/3F - Item"
+                    },
+                    {
+                        "name": "4F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "4F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "4F - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "4F - Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 4 (Seensanity)"
+                    },
+                    {
+                        "name": "4F - Team Plasma Grunt 5 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 5 (Seensanity)"
                     },
                     {
                         "name": "4F - Item",
@@ -17431,6 +17807,22 @@
                     {
                         "name": "6F - Item",
                         "ref": "Unova Locations/Dragonspiral Tower/6F - Item"
+                    },
+                    {
+                        "name": "6F - Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "6F - Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "6F - Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "6F - Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 4 (Seensanity)"
                     },
                     {
                         "name": "1F - Land Encounters",
@@ -17663,6 +18055,86 @@
                 ]
             },
             {
+                "name": "Team Plasma Grunt 1",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 1 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 344,
+                        "y": 505
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 2",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 2 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 296,
+                        "y": 545
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 3",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 3 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 152,
+                        "y": 516
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 4",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 4 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 56,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunt 5",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 5 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/4F - Team Plasma Grunt 5 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower4f",
+                        "x": 152,
+                        "y": 252
+                    }
+                ]
+            },
+            {
                 "name": "Dragonspiral Tower 4F",
                 "sections": [
                     {
@@ -17739,6 +18211,34 @@
                         "map": "dragonspiraltower6f",
                         "x": 360,
                         "y": 299
+                    }
+                ]
+            },
+            {
+                "name": "Team Plasma Grunts",
+                "sections": [
+                    {
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 1 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 2 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 3 (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
+                        "ref": "Unova Locations/Dragonspiral Tower/6F - Team Plasma Grunt 4 (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower6f",
+                        "x": 168,
+                        "y": 362
                     }
                 ]
             },
@@ -17887,8 +18387,12 @@
                 ]
             },
             {
-                "name": "Moor of Icirrus\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Chloris",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Chloris (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/PkMn Ranger Chloris (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Chloris",
                         "ref": "Unova Locations/Moor of Icirrus/Item from ranger Chloris"
@@ -17898,13 +18402,17 @@
                     {
                         "map": "mooroficirrus",
                         "x": 824,
-                        "y": 446
+                        "y": 451
                     }
                 ]
             },
             {
-                "name": "Moor of Icirrus\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "PkMn Ranger Harry",
                 "sections": [
+                    {
+                        "name": "PkMn Ranger Harry (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/PkMn Ranger Harry (Seensanity)"
+                    },
                     {
                         "name": "Item from ranger Harry",
                         "ref": "Unova Locations/Moor of Icirrus/Item from ranger Harry"
@@ -17914,7 +18422,39 @@
                     {
                         "map": "mooroficirrus",
                         "x": 472,
-                        "y": 174
+                        "y": 183
+                    }
+                ]
+            },
+            {
+                "name": "Fisherman Damon",
+                "sections": [
+                    {
+                        "name": "Fisherman Damon (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/Fisherman Damon (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 600,
+                        "y": 593
+                    }
+                ]
+            },
+            {
+                "name": "Parasol Lady Mariah",
+                "sections": [
+                    {
+                        "name": "Parasol Lady Mariah (Seensanity)",
+                        "ref": "Unova Locations/Moor of Icirrus/Parasol Lady Mariah (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 264,
+                        "y": 606
                     }
                 ]
             },
@@ -18001,11 +18541,27 @@
                 "map_locations": [
                     {
                         "map": "mooroficirrus",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Backpacker Toru",
+                "sections": [
+                    {
+                        "name": "Backpacker Toru (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Backpacker Toru (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscave1f",
+                        "x": 120,
+                        "y": 115
                     }
                 ]
             },
@@ -18093,6 +18649,38 @@
                         "map": "challengerscaveb1f",
                         "x": 57,
                         "y": 243
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Beverly",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Beverly (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Ace Trainer Beverly (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 344,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Terry",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Terry (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Ace Trainer Terry (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 168,
+                        "y": 394
                     }
                 ]
             },
@@ -18280,6 +18868,38 @@
                         "map": "challengerscaveb2f",
                         "x": 137,
                         "y": 702
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Shaun",
+                "sections": [
+                    {
+                        "name": "Veteran Shaun (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Veteran Shaun (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 856,
+                        "y": 369
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Julia",
+                "sections": [
+                    {
+                        "name": "Veteran Julia (Seensanity)",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Veteran Julia (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 360,
+                        "y": 560
                     }
                 ]
             },
@@ -18619,6 +19239,22 @@
                 ]
             },
             {
+                "name": "Ace Trainer Shanta",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Shanta (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Ace Trainer Shanta (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 294,
+                        "y": 212
+                    }
+                ]
+            },
+            {
                 "name": "Victory Road 2F Left Cave Encounters",
                 "sections": [
                     {
@@ -18693,6 +19329,54 @@
                         "map": "victoryroad3f",
                         "x": 512,
                         "y": 274
+                    }
+                ]
+            },
+           {
+                "name": "Black Belt Tyrone",
+                "sections": [
+                    {
+                        "name": "Black Belt Tyrone (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Black Belt Tyrone (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 90,
+                        "y": 199
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Tiffany",
+                "sections": [
+                    {
+                        "name": "Veteran Tiffany (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Veteran Tiffany (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 475,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Dwayne",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Dwayne (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Ace Trainer Dwayne (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 876,
+                        "y": 288
                     }
                 ]
             },
@@ -18830,6 +19514,54 @@
                 ]
             },
             {
+                "name": "Doctor Logan",
+                "sections": [
+                    {
+                        "name": "Doctor Logan (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Doctor Logan (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 238,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Cathy",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Cathy (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Ace Trainer Cathy (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 604,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "Veteran Martell",
+                "sections": [
+                    {
+                        "name": "Veteran Martell (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Veteran Martell (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 1006,
+                        "y": 339
+                    }
+                ]
+            },
+            {
                 "name": "Victory Road 4F Left Cave Encounters",
                 "sections": [
                     {
@@ -18918,6 +19650,22 @@
                         "size": 21,
                         "border_thickness": 3,
                         "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer David",
+                "sections": [
+                    {
+                        "name": "Ace Trainer David (Seensanity)",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Ace Trainer David (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad6f",
+                        "x": 352,
+                        "y": 302
                     }
                 ]
             },
@@ -19119,26 +19867,38 @@
                 ]
             },
             {
-                "name": "\u200bThrone Room",
+                "name": "\u200bN's Castle Throne Room",
                 "sections": [
                     {
-                        "name": "N's Castle Throne Room - Reshiram (Event)",
+                        "name": "Reshiram (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Event)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Zekrom (Event)",
+                        "name": "Zekrom (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Event)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Reshiram (Static)",
+                        "name": "Reshiram (Static)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Static)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Zekrom (Static)",
+                        "name": "Zekrom (Static)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Ghetsis (Event)",
+                        "name": "Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma N (Seensanity)\u200b",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)\u200b"
+                    },
+                    {
+                        "name": "Team Plasma Ghetsis (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma Ghetsis (Seensanity)"
+                    },
+                    {
+                        "name": "Ghetsis (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Ghetsis (Event)"
                     }
                 ],
@@ -19151,26 +19911,38 @@
                 ]
             },
             {
-                "name": "Throne Room",
+                "name": "N's Castle Throne Room",
                 "sections": [
                     {
-                        "name": "N's Castle Throne Room - Reshiram (Event)",
+                        "name": "Reshiram (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Event)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Zekrom (Event)",
+                        "name": "Zekrom (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Event)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Reshiram (Static)",
+                        "name": "Reshiram (Static)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Reshiram (Static)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Zekrom (Static)",
+                        "name": "Zekrom (Static)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
                     },
                     {
-                        "name": "N's Castle Throne Room - Ghetsis (Event)",
+                        "name": "Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)"
+                    },
+                    {
+                        "name": "Team Plasma N (Seensanity)\u200b",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)\u200b"
+                    },
+                    {
+                        "name": "Team Plasma Ghetsis (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma Ghetsis (Seensanity)"
+                    },
+                    {
+                        "name": "Ghetsis (Event)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Ghetsis (Event)"
                     }
                 ],
@@ -19178,7 +19950,7 @@
                     {
                         "map": "nscastlethroneroom",
                         "x": 232,
-                        "y": 478
+                        "y": 486
                     }
                 ]
             },
@@ -19783,6 +20555,102 @@
                         "map": "undellabay",
                         "x": 392,
                         "y": 207
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♂ Matt",
+                "sections": [
+                    {
+                        "name": "Swimmer ♂ Matt (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♂ Matt (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 536,
+                        "y": 359
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♂ Bart",
+                "sections": [
+                    {
+                        "name": "Swimmer ♂ Bart (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♂ Bart (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 440,
+                        "y": 628
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♂ Tim",
+                "sections": [
+                    {
+                        "name": "Swimmer ♂ Tim (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♂ Tim (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 584,
+                        "y": 539
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♀ Rebecca",
+                "sections": [
+                    {
+                        "name": "Swimmer ♀ Rebecca (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♀ Rebecca (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 440,
+                        "y": 449
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♀ Tyra",
+                "sections": [
+                    {
+                        "name": "Swimmer ♀ Tyra (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♀ Tyra (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 344,
+                        "y": 257
+                    }
+                ]
+            },
+            {
+                "name": "Swimmer ♀ Larissa",
+                "sections": [
+                    {
+                        "name": "Swimmer ♀ Larissa (Seensanity)",
+                        "ref": "Unova Locations/Undella Bay/Swimmer ♀ Larissa (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 808,
+                        "y": 372
                     }
                 ]
             },
@@ -20989,6 +21857,70 @@
                 ]
             },
             {
+                "name": "Lass Maki",
+                "sections": [
+                    {
+                        "name": "Lass Maki (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Lass Maki (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 216,
+                        "y": 446
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Wes",
+                "sections": [
+                    {
+                        "name": "Youngster Wes (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Youngster Wes (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 504,
+                        "y": 455
+                    }
+                ]
+            },
+            {
+                "name": "Youngster Lester",
+                "sections": [
+                    {
+                        "name": "Youngster Lester (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Youngster Lester (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 344,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Lass Lurleen",
+                "sections": [
+                    {
+                        "name": "Lass Lurleen (Seensanity)",
+                        "ref": "Unova Locations/Abundant Shrine/Lass Lurleen (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 728,
+                        "y": 305
+                    }
+                ]
+            },
+            {
                 "name": "Abundant Shrine Encounters",
                 "sections": [
                     {
@@ -21144,8 +22076,12 @@
                 ]
             },
             {
-                "name": "Village Bridge\u200b\u200b\u200b\u200b\u200b",
+                "name": "Baker Chris",
                 "sections": [
+                    {
+                        "name": "Baker Chris (Seensanity)",
+                        "ref": "Unova Locations/Village Bridge/Baker Chris (Seensanity)"
+                    },
                     {
                         "name": "Item from baker Chris",
                         "ref": "Unova Locations/Village Bridge/Item from baker Chris"
@@ -21155,7 +22091,7 @@
                     {
                         "map": "villagebridge",
                         "x": 1240,
-                        "y": 536
+                        "y": 541
                     }
                 ]
             },
@@ -21172,6 +22108,38 @@
                         "map": "villagebridge",
                         "x": 1096,
                         "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "School Kid Serena",
+                "sections": [
+                    {
+                        "name": "School Kid Serena (Seensanity)",
+                        "ref": "Unova Locations/Village Bridge/School Kid Serena (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 248,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Scientist Shannon",
+                "sections": [
+                    {
+                        "name": "Scientist Shannon (Seensanity)",
+                        "ref": "Unova Locations/Village Bridge/Scientist Shannon (Seensanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 1000,
+                        "y": 451
                     }
                 ]
             },
@@ -21271,6 +22239,26 @@
                         "map": "marvelousbridge",
                         "x": 488,
                         "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "Ace Trainer Glinda",
+                "sections": [
+                    {
+                        "name": "Ace Trainer Glinda (Seensanity)",
+                        "ref": "Unova Locations/Marvelous Bridge/Ace Trainer Glinda (Seensanity)"
+                    },
+                    {
+                        "name": "Ace Trainer Glinda (Seensanity)\u200b",
+                        "ref": "Unova Locations/Marvelous Bridge/Ace Trainer Glinda (Seensanity)\u200b"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 1113,
+                        "y": 165
                     }
                 ]
             },
@@ -21458,6 +22446,22 @@
                 "name": "\u200bPokémon League",
                 "sections": [
                     {
+                        "name": "Elite Four Shauntal (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/Elite Four Shauntal (Seensanity)"
+                    },
+                     {
+                        "name": "Elite Four Marshal (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/Elite Four Marshal (Seensanity)"
+                    },
+                    {
+                        "name": "Elite Four Grimsley (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/Elite Four Grimsley (Seensanity)"
+                    },
+                    {
+                        "name": "Elite Four Caitlin (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/Elite Four Caitlin (Seensanity)"
+                    },
+                    {
                         "name": "N's Castle 2F - Right room item",
                         "ref": "Unova Locations/Pokémon League/N's Castle 2F - Right room item"
                     },
@@ -21492,6 +22496,18 @@
                     {
                         "name": "N's Castle Throne Room - Zekrom (Static)",
                         "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Zekrom (Static)"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Team Plasma N (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Team Plasma N (Seensanity)\u200b",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma N (Seensanity)\u200b"
+                    },
+                    {
+                        "name": "N's Castle Throne Room - Team Plasma Ghetsis (Seensanity)",
+                        "ref": "Unova Locations/Pokémon League/N's Castle Throne Room - Team Plasma Ghetsis (Seensanity)"
                     },
                     {
                         "name": "N's Castle Throne Room - Ghetsis (Event)",
