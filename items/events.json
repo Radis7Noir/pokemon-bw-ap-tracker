@@ -66,7 +66,7 @@
         "codes": "arrestsagebronius"
     },
     {
-        "name": "Catch or defeat Victini at Liberty Garden",
+        "name": "Catch Victini at Liberty Garden",
         "type": "toggle",
         "img": "/images/events/victini.png",
         "codes": "catchdefeatvictini"
@@ -114,43 +114,43 @@
         "codes": "catchdefeatvolcarona"
     },
     {
-        "name": "Defeat Striaton Gym Leader",
+        "name": "Defeat Leader Cilan, Chili or Cress in Striaton Gym",
         "type": "toggle",
         "img": "/images/events/leaderstriaton.png",
         "codes": "defeatstriatongym"
     },
     {
-        "name": "Defeat Gym Leader Lenora in Icirrus City",
+        "name": "Defeat Leader Lenora in Icirrus Gym",
         "type": "toggle",
         "img": "/images/events/leaderlenora.png",
         "codes": "defeatlenora"
     },
     {
-        "name": "Defeat Gym Leader Burgh in Castelia City",
+        "name": "Defeat Leader Burgh in Castelia Gym",
         "type": "toggle",
         "img": "/images/events/leaderburgh.png",
         "codes": "defeatburgh"
     },
     {
-        "name": "Defeat Gym Leader Elesa in Nimbasa City",
+        "name": "Defeat Leader Elesa in Nimbasa Gym",
         "type": "toggle",
         "img": "/images/events/leaderelesa.png",
         "codes": "defeatelesa"
     },
     {
-        "name": "Defeat Gym Leader Clay in Driftveil City",
+        "name": "Defeat Leader Clay in Driftveil Gym",
         "type": "toggle",
         "img": "/images/events/leaderclay.png",
         "codes": "defeatclay"
     },
     {
-        "name": "Defeat Gym Leader Skyla in Mistralton City",
+        "name": "Defeat Leader Skyla in Mistralton Gym",
         "type": "toggle",
         "img": "/images/events/leaderskyla.png",
         "codes": "defeatskyla"
     },
     {
-        "name": "Defeat Gym Leader Brycen in Icirrus City",
+        "name": "Defeat Leader Brycen in Icirrus Gym",
         "type": "toggle",
         "img": "/images/events/leaderbrycen.png",
         "codes": "defeatbrycen"
@@ -161,13 +161,13 @@
         "codes": "defeatopelucidgym"
     },
     {
-        "name": "Defeat Gym Leader Iris in Opelucid City",
+        "name": "Defeat Leader Iris in Opelucid Gym",
         "type": "toggle",
         "img": "/images/events/leaderiris.png",
         "codes": "defeatiris"
     },
     {
-        "name": "Defeat Gym Leader Drayden in Opelucid City",
+        "name": "Defeat Leader Drayden in Opelucid Gym",
         "type": "toggle",
         "img": "/images/events/leaderdrayden.png",
         "codes": "defeatdrayden"

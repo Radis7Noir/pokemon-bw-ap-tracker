@@ -160,17 +160,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item from man in north west building",
-                        "chest_unopened_img": "images/locations/man_pokeball.png",
-                        "chest_opened_img": "images/locations/cleared/man_pokeball_cleared.png",
-                        "access_rules": [
-                            "@Accumula Town North Left House 2F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "PkMn Trainer N (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/n.png",
@@ -181,6 +170,17 @@
                         ],
                         "visibility_rules": [
                             "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Item from man in north west building",
+                        "chest_unopened_img": "images/locations/man_pokeball.png",
+                        "chest_opened_img": "images/locations/cleared/man_pokeball_cleared.png",
+                        "access_rules": [
+                            "@Accumula Town North Left House 2F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
                         ]
                     }
                 ],
@@ -231,29 +231,7 @@
                         ]
                     },
                     {
-                        "name": "TM from Fennel",
-                        "chest_unopened_img": "images/locations/fennel_hm.png",
-                        "chest_opened_img": "images/locations/cleared/fennel_hm_cleared.png",
-                        "access_rules": [
-                            "@Striaton City East Upper House 2F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Amanita",
-                        "chest_unopened_img": "images/locations/amanita_palpad.png",
-                        "chest_opened_img": "images/locations/cleared/amanita_palpad_cleared.png",
-                        "access_rules": [
-                            "@Striaton City East Upper House 2F Access,@Dreamyard North West Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from boy in Trainer's School",
+                        "name": "Trainers' School - Item from boy in Trainer's School",
                         "chest_unopened_img": "images/locations/boy_fullheal.png",
                         "chest_opened_img": "images/locations/cleared/boy_fullheal_cleared.png",
                         "access_rules": [
@@ -388,6 +366,28 @@
                         ]
                     },
                     {
+                        "name": "Fennel's House 2F - TM from Fennel",
+                        "chest_unopened_img": "images/locations/fennel_hm.png",
+                        "chest_opened_img": "images/locations/cleared/fennel_hm_cleared.png",
+                        "access_rules": [
+                            "@Striaton City East Upper House 2F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Fennel's House 2F - Item from Amanita",
+                        "chest_unopened_img": "images/locations/amanita_palpad.png",
+                        "chest_opened_img": "images/locations/cleared/amanita_palpad_cleared.png",
+                        "access_rules": [
+                            "@Striaton City East Upper House 2F Access,@Dreamyard North West Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Surf Encounters",
                         "item_count": 5,
                         "chest_unopened_img": "images/locations/surf.png",
@@ -456,11 +456,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hidden item near Café Warehouse",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "name": "Items from Cheren",
+                        "item_count": 3,
+                        "chest_unopened_img": "images/locations/cheren_chestoberry.png",
+                        "chest_opened_img": "images/locations/cleared/cheren_chestoberry_cleared.png",
                         "access_rules": [
-                            "@Nacrene City Access,^$hidden"
+                            "@Nacrene City Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -472,18 +473,6 @@
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
                             "@Nacrene City Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Items from Cheren",
-                        "item_count": 3,
-                        "chest_unopened_img": "images/locations/cheren_chestoberry.png",
-                        "chest_opened_img": "images/locations/cleared/cheren_chestoberry_cleared.png",
-                        "access_rules": [
-                            "@Nacrene City Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -512,47 +501,27 @@
                         ]
                     },
                     {
-                        "name": "Item from Bianca",
-                        "chest_unopened_img": "images/locations/bianca_dowsingmchn.png",
-                        "chest_opened_img": "images/locations/cleared/bianca_dowsingmchn_cleared.png",
+                        "name": "Hidden item near Café Warehouse",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
-                            "@Nacrene City Access,@Nacrene Gym Access,defeatlenora"
+                            "@Nacrene City Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Item from Lenora after Relic Castle",
-                        "chest_unopened_img": "images/locations/lenora_lightstone.png",
-                        "chest_opened_img": "images/locations/cleared/lenora_lightstone_cleared.png",
+                        "name": "PkMn Trainer N (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/n.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/n_cleared.png",
+                        "clear_as_group": false,
                         "access_rules": [
-                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
+                            "@Nacrene City Access,^$trainer_team"
                         ],
                         "visibility_rules": [
-                            "not_dynamic,pokemon_black,show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Lenora after Relic Castle\u200b",
-                        "chest_unopened_img": "images/locations/lenora_darkstone.png",
-                        "chest_opened_img": "images/locations/cleared/lenora_darkstone_cleared.png",
-                        "access_rules": [
-                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
-                        ],
-                        "visibility_rules": [
-                            "not_dynamic,pokemon_white,show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from Lenora after Relic Castle\u200b\u200b",
-                        "chest_unopened_img": "images/locations/lenora_light-darkstone.png",
-                        "chest_opened_img": "images/locations/cleared/lenora_light-darkstone_cleared.png",
-                        "access_rules": [
-                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
-                        ],
-                        "visibility_rules": [
-                            "dynamic_version,show_items"
+                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -580,10 +549,10 @@
                         ]
                     },
                     {
-                        "name": "Gym - School Kid Lydia (Seensanity)",
+                        "name": "Gym - Scientist Satomi (Seensanity)",
                         "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/schoolkidf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/schoolkidf_cleared.png",
+                        "chest_unopened_img": "images/locations/trainer_teams/scientistf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistf_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Nacrene Gym Access,^$trainer_team"
@@ -593,10 +562,10 @@
                         ]
                     },
                     {
-                        "name": "Gym - Scientist Satomi (Seensanity)",
+                        "name": "Gym - School Kid Lydia (Seensanity)",
                         "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/scientistf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistf_cleared.png",
+                        "chest_unopened_img": "images/locations/trainer_teams/schoolkidf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/schoolkidf_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Nacrene Gym Access,^$trainer_team"
@@ -648,6 +617,50 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from Bianca",
+                        "chest_unopened_img": "images/locations/bianca_dowsingmchn.png",
+                        "chest_opened_img": "images/locations/cleared/bianca_dowsingmchn_cleared.png",
+                        "access_rules": [
+                            "@Nacrene City Access,@Nacrene Gym Access,defeatlenora"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle",
+                        "chest_unopened_img": "images/locations/lenora_lightstone.png",
+                        "chest_opened_img": "images/locations/cleared/lenora_lightstone_cleared.png",
+                        "access_rules": [
+                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
+                        ],
+                        "visibility_rules": [
+                            "not_dynamic,pokemon_black,show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle\u200b",
+                        "chest_unopened_img": "images/locations/lenora_darkstone.png",
+                        "chest_opened_img": "images/locations/cleared/lenora_darkstone_cleared.png",
+                        "access_rules": [
+                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
+                        ],
+                        "visibility_rules": [
+                            "not_dynamic,pokemon_white,show_items"
+                        ]
+                    },
+                    {
+                        "name": "Item from Lenora after Relic Castle\u200b\u200b",
+                        "chest_unopened_img": "images/locations/lenora_light-darkstone.png",
+                        "chest_opened_img": "images/locations/cleared/lenora_light-darkstone_cleared.png",
+                        "access_rules": [
+                            "@Nacrene City Access,@Relic Castle Castleside Sand Filled Room Access"
+                        ],
+                        "visibility_rules": [
+                            "dynamic_version,show_items"
                         ]
                     },
                     {
@@ -772,19 +785,6 @@
                         "visibility_rules": [
                             "show_mons,show_statics"
                         ]
-                    },
-                    {
-                        "name": "PkMn Trainer N (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/n.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/n_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Nacrene City Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
                     }
                 ],
                 "map_locations": [
@@ -803,7 +803,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item from scientist at Thumb Pier",
+                        "name": "Thumb Pier - Item from scientist at Thumb Pier",
                         "chest_unopened_img": "images/locations/scientist_firestone.png",
                         "chest_opened_img": "images/locations/cleared/scientist_firestone_cleared.png",
                         "access_rules": [
@@ -814,189 +814,7 @@
                         ]
                     },
                     {
-                        "name": "Battle Company 47F - Item in lower-left corner",
-                        "access_rules": [
-                            "@Battle Company 47F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Items from clerk",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/clerk_quickball.png",
-                        "chest_opened_img": "images/locations/cleared/clerk_quickball_cleared.png",
-                        "access_rules": [
-                            "@Battle Company 47F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Item from scientist",
-                        "chest_unopened_img": "images/locations/scientist_scopelens.png",
-                        "chest_opened_img": "images/locations/cleared/scientist_scopelens_cleared.png",
-                        "access_rules": [
-                            "@Battle Company 47F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Clerk ♀ Ingrid (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 47F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Clerk ♀ Alberta (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 47F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Scientist Randall (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/scientistm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 47F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Clerk ♂ Clemens (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 47F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 47F - Clerk ♂ Warren (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 47F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Center item",
-                        "access_rules": [
-                            "@Battle Company 55F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Item from President Geoff",
-                        "chest_unopened_img": "images/locations/janitor_expshare.png",
-                        "chest_opened_img": "images/locations/cleared/janitor_expshare_cleared.png",
-                        "access_rules": [
-                            "@Battle Company 55F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Scientist Steve (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/scientistm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 55F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Scientist Samantha (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/scientistf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 55F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Janitor Geoff (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/janitor.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/janitor_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 55F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Clerk ♂ Ivan (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 55F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle Company 55F - Clerk ♂ Wade (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Battle Company 55F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "TM from hiker in building in Castelia Street",
+                        "name": "Castelia Street - TM from hiker in building in Castelia Street",
                         "chest_unopened_img": "images/locations/hiker_tm.png",
                         "chest_opened_img": "images/locations/cleared/hiker_tm_cleared.png",
                         "access_rules": [
@@ -1007,29 +825,43 @@
                         ]
                     },
                     {
-                        "name": "Item from manager in Café Sonata",
-                        "chest_unopened_img": "images/locations/waiter_lemonade.png",
-                        "chest_opened_img": "images/locations/cleared/waiter_lemonade_cleared.png",
+                        "name": "Game Freak HQ 1F - See a Zorua",
+                        "chest_unopened_img": "images/locations/mart_woman.png",
+                        "chest_opened_img": "images/locations/cleared/mart_woman_cleared.png",
                         "access_rules": [
-                            "@Café Sonata Access"
+                            "@Castelia City Castelia Street East Building 1F Access"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "show_items,show_mons,$sanity_visible|seensanity|570"
                         ]
                     },
                     {
-                        "name": "TM from man in black behind dumpster",
-                        "chest_unopened_img": "images/locations/maninblack_tm.png",
-                        "chest_opened_img": "images/locations/cleared/maninblack_tm_cleared.png",
+                        "name": "Game Freak HQ 1F - Zorua (Gift)",
+                        "chest_unopened_img": "images/events/zorua.png",
+                        "chest_opened_img": "images/events/cleared/zorua_cleared.png",
                         "access_rules": [
-                            "@Castelia City Narrow Street Access"
+                            "@Castelia City Castelia Street East Building 1F Access,{}",
+                            "@Castelia City Castelia Street East Building 1F Access,caught_251,^$static_encounter"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "randomize_wild_on,show_mons,show_statics"
                         ]
                     },
                     {
-                        "name": "Item from harlequin in Studio Castelia",
+                        "name": "Game Freak HQ 22F - GAME FREAK Morimoto (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Game Freak Headquarters Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Mode Street - Item from harlequin in Studio Castelia",
                         "chest_unopened_img": "images/locations/harlequin_cheriberry.png",
                         "chest_opened_img": "images/locations/cleared/harlequin_cheriberry_cleared.png",
                         "access_rules": [
@@ -1040,27 +872,55 @@
                         ]
                     },
                     {
-                        "name": "Item in Plasma hideout",
+                        "name": "Narrow Street - TM from man in black behind dumpster",
+                        "chest_unopened_img": "images/locations/maninblack_tm.png",
+                        "chest_opened_img": "images/locations/cleared/maninblack_tm_cleared.png",
                         "access_rules": [
-                            "@Castelia City Plasma Hideout 1F Access"
+                            "@Castelia City Narrow Street Access"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Item from Iris in Plasma hideout",
-                        "chest_unopened_img": "images/locations/iris_yacheberry.png",
-                        "chest_opened_img": "images/locations/cleared/iris_yacheberry_cleared.png",
+                        "name": "Narrow Street - Item from manager in Café Sonata",
+                        "chest_unopened_img": "images/locations/waiter_lemonade.png",
+                        "chest_opened_img": "images/locations/cleared/waiter_lemonade_cleared.png",
                         "access_rules": [
-                            "@Castelia City Plasma Hideout 1F Access"
+                            "@Café Sonata Access"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Item from dancers",
+                        "name": "Narrow Street - Dancer Edmond (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Narrow Street Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Central Plaza - Dancer Mickey (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Central Plaza Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Central Plaza - Item from dancers",
                         "chest_unopened_img": "images/locations/dancer_amuletcoin.png",
                         "chest_opened_img": "images/locations/cleared/dancer_amuletcoin_cleared.png",
                         "access_rules": [
@@ -1081,7 +941,31 @@
                         "hosted_item": "showalltmhms_hosted"
                     },
                     {
-                        "name": "Item from scientist in northern street for seeing 20 species",
+                        "name": "Unity Pier - Dancer Raymond (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Unity Pier Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Northern Street - TM from school kid in building in northern street",
+                        "chest_unopened_img": "images/locations/schoolkid_tm.png",
+                        "chest_opened_img": "images/locations/cleared/schoolkid_tm_cleared.png",
+                        "access_rules": [
+                            "@Castelia City Northern Street East Lower Building 47F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Northern Street - Item from scientist in northern street for seeing 20 species",
                         "chest_unopened_img": "images/locations/scientist_eviolite.png",
                         "chest_opened_img": "images/locations/cleared/scientist_eviolite_cleared.png",
                         "access_rules": [
@@ -1093,22 +977,44 @@
                         ]
                     },
                     {
-                        "name": "TM from school kid in building in northern street",
-                        "chest_unopened_img": "images/locations/schoolkid_tm.png",
-                        "chest_opened_img": "images/locations/cleared/schoolkid_tm_cleared.png",
+                        "name": "Northern Street - TM from Mr. Lock in building in northern street",
+                        "chest_unopened_img": "images/locations/harlequin_tm.png",
+                        "chest_opened_img": "images/locations/cleared/harlequin_tm_cleared.png",
                         "access_rules": [
-                            "@Castelia City Northern Street East Lower Building 47F Access"
+                            "@Castelia City Northern Street West Building 11F Access,lockcapsule"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "TM from Mr. Lock in building in northern street",
-                        "chest_unopened_img": "images/locations/harlequin_tm.png",
-                        "chest_opened_img": "images/locations/cleared/harlequin_tm_cleared.png",
+                        "name": "Gym Street - Team Plasma Grunt (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/plasmagruntm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/plasmagruntm_cleared.png",
+                        "clear_as_group": false,
                         "access_rules": [
-                            "@Castelia City Northern Street West Building 11F Access,lockcapsule"
+                            "@Castelia City Gym Street Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym Street - Item from Iris in Plasma hideout",
+                        "chest_unopened_img": "images/locations/iris_yacheberry.png",
+                        "chest_opened_img": "images/locations/cleared/iris_yacheberry_cleared.png",
+                        "access_rules": [
+                            "@Castelia City Plasma Hideout 1F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Gym Street - Item in Plasma hideout",
+                        "access_rules": [
+                            "@Castelia City Plasma Hideout 1F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1139,7 +1045,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - Harlequin Louis (Seensanity)",
+                        "name": "Gym - Harlequin Kerry (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/harlequin.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/harlequin_cleared.png",
@@ -1152,7 +1058,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - Harlequin Kerry (Seensanity)",
+                        "name": "Gym - Harlequin Louis (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/harlequin.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/harlequin_cleared.png",
@@ -1221,235 +1127,6 @@
                         "visibility_rules": [
                             "show_items"
                         ]
-                    },
-                    {
-                        "name": "Royal Unova - Item for defeating every trainer",
-                        "chest_unopened_img": "images/locations/receptionistf_rarecandy.png",
-                        "chest_opened_img": "images/locations/cleared/receptionistf_rarecandy_cleared.png",
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Youngster Abe (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/youngster.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/youngster_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Clerk ♂ Chaz (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Ace Trainer Mariana (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Ace Trainer Henry (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Lass Sibyl (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/lass.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/lass_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Rich Boy Brad (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/richboy.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/richboy_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Lady Elizandra (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/lady.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/lady_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Socialite Cassandra (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/socialite.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/socialite_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Gentleman Robert (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/gentleman.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/gentleman_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Castelia Street - See a Zorua",
-                        "chest_unopened_img": "images/locations/mart_woman.png",
-                        "chest_opened_img": "images/locations/cleared/mart_woman_cleared.png",
-                        "access_rules": [
-                            "@Castelia City Castelia Street East Building 1F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items,show_mons,$sanity_visible|seensanity|570"
-                        ]
-                    },
-                    {
-                        "name": "Castelia Street - Zorua (Gift)",
-                        "chest_unopened_img": "images/events/zorua.png",
-                        "chest_opened_img": "images/events/cleared/zorua_cleared.png",
-                        "access_rules": [
-                            "@Castelia City Castelia Street East Building 1F Access,{}",
-                            "@Castelia City Castelia Street East Building 1F Access,caught_251,^$static_encounter"
-                        ],
-                        "visibility_rules": [
-                            "randomize_wild_on,show_mons,show_statics"
-                        ]
-                    },
-                    {
-                        "name": "GAME FREAK Morimoto (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Game Freak Headquarters Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Royal Unova - Maid Tanya (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/maid.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/maid_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym Street - Team Plasma Grunt (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/plasmagruntm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/plasmagruntm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Gym Street Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Central Plaza - Dancer Mickey (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Central Plaza Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Unity Pier - Dancer Raymond (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Unity Pier Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Narrow Street - Dancer Edmond (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/dancer.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/dancer_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Castelia City Narrow Street Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
                     }
                 ],
                 "map_locations": [
@@ -1462,11 +1139,377 @@
                 ]
             },
             {
+                "name": "Battle Company",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "47F - Clerk ♀ Ingrid (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 47F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "47F - Items from clerk",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/clerk_quickball.png",
+                        "chest_opened_img": "images/locations/cleared/clerk_quickball_cleared.png",
+                        "access_rules": [
+                            "@Battle Company 47F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "47F - Clerk ♂ Clemens (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 47F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "47F - Scientist Randall (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/scientistm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 47F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "47F - Clerk ♂ Warren (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 47F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "47F - Item from scientist",
+                        "chest_unopened_img": "images/locations/scientist_scopelens.png",
+                        "chest_opened_img": "images/locations/cleared/scientist_scopelens_cleared.png",
+                        "access_rules": [
+                            "@Battle Company 47F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "47F - Clerk ♀ Alberta (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 47F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "47F - Item in lower-left corner",
+                        "access_rules": [
+                            "@Battle Company 47F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "55F - Center item",
+                        "access_rules": [
+                            "@Battle Company 55F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "55F - Clerk ♂ Ivan (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 55F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "55F - Scientist Samantha (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/scientistf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 55F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "55F - Scientist Steve (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/scientistm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/scientistm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 55F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "55F - Clerk ♂ Wade (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 55F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "55F - Janitor Geoff (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/janitor.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/janitor_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Battle Company 55F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "55F - Item from President Geoff",
+                        "chest_unopened_img": "images/locations/janitor_expshare.png",
+                        "chest_opened_img": "images/locations/cleared/janitor_expshare_cleared.png",
+                        "access_rules": [
+                            "@Battle Company 55F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 264,
+                        "y": 292
+                    }
+                ]
+            },
+            {
+                "name": "Royal Unova",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Youngster Abe (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/youngster.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/youngster_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Clerk ♂ Chaz (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/clerkm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/clerkm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Ace Trainer Mariana (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Ace Trainer Henry (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Lass Sibyl (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/lass.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/lass_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Rich Boy Brad (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/richboy.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/richboy_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Lady Elizandra (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/lady.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/lady_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Socialite Cassandra (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/socialite.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/socialite_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gentleman Robert (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/gentleman.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/gentleman_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Maid Tanya (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/maid.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/maid_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Item for defeating every trainer",
+                        "chest_unopened_img": "images/locations/receptionistf_rarecandy.png",
+                        "chest_opened_img": "images/locations/cleared/receptionistf_rarecandy_cleared.png",
+                        "access_rules": [
+                            "@Castelia City Cruise Dock Access,defeatghetsis"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 306,
+                        "y": 309
+                    }
+                ]
+            },
+            {
                 "name": "Nimbasa City",
                 "access_rules": [
                     ""
                 ],
                 "sections": [
+                    {
+                        "name": "Team Plasma Grunt (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/plasmagruntm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/plasmagruntm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Nimbasa City Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
                     {
                         "name": "Item from Day-Care man",
                         "chest_unopened_img": "images/locations/oldman_bicycle.png",
@@ -1500,33 +1543,11 @@
                         ]
                     },
                     {
-                        "name": "Item from man in eastern gate",
-                        "chest_unopened_img": "images/locations/infielder_machobrace.png",
-                        "chest_opened_img": "images/locations/cleared/infielder_machobrace_cleared.png",
-                        "access_rules": [
-                            "@Nimbasa East Gate Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Item from ace trainer in another western building",
                         "chest_unopened_img": "images/locations/acetrainerm_sunstone.png",
                         "chest_opened_img": "images/locations/cleared/acetrainerm_sunstone_cleared.png",
                         "access_rules": [
                             "@Nimbasa City North East House 2F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from socialite in western building",
-                        "chest_unopened_img": "images/locations/socialite_soothbell.png",
-                        "chest_opened_img": "images/locations/cleared/socialite_soothbell_cleared.png",
-                        "access_rules": [
-                            "@Nimbasa City North West House 2F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1544,7 +1565,18 @@
                         ]
                     },
                     {
-                        "name": "Item from Musical Theater owner",
+                        "name": "Item from socialite in western building",
+                        "chest_unopened_img": "images/locations/socialite_soothbell.png",
+                        "chest_opened_img": "images/locations/cleared/socialite_soothbell_cleared.png",
+                        "access_rules": [
+                            "@Nimbasa City North West House 2F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Musical Theater - Item from Musical Theater owner",
                         "chest_unopened_img": "images/locations/gentleman_propcase.png",
                         "chest_opened_img": "images/locations/cleared/gentleman_propcase_cleared.png",
                         "access_rules": [
@@ -1555,7 +1587,7 @@
                         ]
                     },
                     {
-                        "name": "TM from lady in Musical Theater",
+                        "name": "Musical Theater - TM from lady in Musical Theater",
                         "chest_unopened_img": "images/locations/lady_tm.png",
                         "chest_opened_img": "images/locations/cleared/lady_tm_cleared.png",
                         "access_rules": [
@@ -1566,40 +1598,18 @@
                         ]
                     },
                     {
-                        "name": "Item near ferris wheel",
+                        "name": "East Gate - Item from man in eastern gate",
+                        "chest_unopened_img": "images/locations/infielder_machobrace.png",
+                        "chest_opened_img": "images/locations/cleared/infielder_machobrace_cleared.png",
                         "access_rules": [
-                            "@Nimbasa City Park Access"
+                            "@Nimbasa East Gate Access"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Hidden item near ferris wheel",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Nimbasa City Park Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Team Plasma Grunt (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/plasmagruntm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/plasmagruntm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Nimbasa City Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Team Plasma N (Seensanity)",
+                        "name": "Park - Team Plasma N (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/n.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/n_cleared.png",
@@ -1612,6 +1622,26 @@
                         ]
                     },
                     {
+                        "name": "Park - Item near ferris wheel",
+                        "access_rules": [
+                            "@Nimbasa City Park Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Park - Hidden item near ferris wheel",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Nimbasa City Park Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Gym - Gym guide item",
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/cleared/gymguide_freshwater_cleared.png",
@@ -1620,6 +1650,19 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Lady Magnolia (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/lady.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/lady_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Nimbasa Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -1640,19 +1683,6 @@
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/richboy.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/richboy_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Nimbasa Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Lady Magnolia (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/lady.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/lady_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Nimbasa Gym Access,^$trainer_team"
@@ -1773,24 +1803,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "North west item",
-                        "access_rules": [
-                            "@Driftveil City Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item near lighthouse",
-                        "access_rules": [
-                            "@Driftveil City Access,$surf"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Item from man for seeing more than 50 pokémon",
                         "chest_unopened_img": "images/locations/oldman_shellbell.png",
                         "chest_opened_img": "images/locations/cleared/oldman_shellbell_cleared.png",
@@ -1800,26 +1812,6 @@
                         ],
                         "visibility_rules": [
                             "show_items,show_dexappraisal"
-                        ]
-                    },
-                    {
-                        "name": "Item from lady asking for a pokémon knowing a certain TM move",
-                        "access_rules": [
-                            "@Driftveil City House North of Market Access,{}"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "TM from Bianca",
-                        "chest_unopened_img": "images/locations/bianca_hm02fly.png",
-                        "chest_opened_img": "images/locations/cleared/bianca_hm02fly_cleared.png",
-                        "access_rules": [
-                            "@Driftveil City Access,defeatclay"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
                         ]
                     },
                     {
@@ -1835,16 +1827,62 @@
                         "item_count": 3
                     },
                     {
-                        "name": "Item in market",
+                        "name": "Item near lighthouse",
                         "access_rules": [
-                            "@Driftveil Market Behind Counter Access"
+                            "@Driftveil City Access,$surf"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Hidden item in market",
+                        "name": "Item from lady asking for a pokémon knowing a certain TM move",
+                        "access_rules": [
+                            "@Driftveil City House North of Market Access,{}"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "North west item",
+                        "access_rules": [
+                            "@Driftveil City Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Motorcyclist Charles (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/biker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/biker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Driftveil City Access,dynamic_version,^$trainer_team,[]",
+                            "@Driftveil City Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Motorcyclist Charles (Seensanity)\u200b",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/biker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/biker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Driftveil City Access,dynamic_version,^$trainer_team,[]",
+                            "@Driftveil City Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Market - Hidden item in market",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -1855,11 +1893,20 @@
                         ]
                     },
                     {
-                        "name": "Item from man in black in market",
+                        "name": "Market - Item from man in black in market",
                         "chest_unopened_img": "images/locations/maninblack_expertbelt.png",
                         "chest_opened_img": "images/locations/cleared/maninblack_expertbelt_cleared.png",
                         "access_rules": [
                             "@Driftveil Market Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Market - Item in market",
+                        "access_rules": [
+                            "@Driftveil Market Behind Counter Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -1976,27 +2023,14 @@
                         ]
                     },
                     {
-                        "name": "Youngster requesting a Minccino (Trade)",
-                        "chest_unopened_img": "images/events/youngster_redeye.png",
-                        "chest_opened_img": "images/events/cleared/youngster_redeye_cleared.png",
+                        "name": "TM from Bianca",
+                        "chest_unopened_img": "images/locations/bianca_hm02fly.png",
+                        "chest_opened_img": "images/locations/cleared/bianca_hm02fly_cleared.png",
                         "access_rules": [
-                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
-                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
+                            "@Driftveil City Access,defeatclay"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,show_mons,show_trades"
-                        ]
-                    },
-                    {
-                        "name": "Youngster requesting a Minccino (Trade)\u200b",
-                        "chest_unopened_img": "images/events/youngster_blueye.png",
-                        "chest_opened_img": "images/events/cleared/youngster_blueye_cleared.png",
-                        "access_rules": [
-                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
-                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
-                        ],
-                        "visibility_rules": [
-                            "pokemon_white,show_mons,show_trades"
+                            "show_items"
                         ]
                     },
                     {
@@ -2052,31 +2086,27 @@
                         ]
                     },
                     {
-                        "name": "Motorcyclist Charles (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/biker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/biker_cleared.png",
-                        "clear_as_group": false,
+                        "name": "Youngster requesting a Minccino (Trade)",
+                        "chest_unopened_img": "images/events/youngster_redeye.png",
+                        "chest_opened_img": "images/events/cleared/youngster_redeye_cleared.png",
                         "access_rules": [
-                            "@Driftveil City Access,dynamic_version,^$trainer_team,[]",
-                            "@Driftveil City Access,not_dynamic,^$trainer_team"
+                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
+                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,show_mons,show_trainers"
+                            "pokemon_black,show_mons,show_trades"
                         ]
                     },
                     {
-                        "name": "Motorcyclist Charles (Seensanity)\u200b",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/biker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/biker_cleared.png",
-                        "clear_as_group": false,
+                        "name": "Youngster requesting a Minccino (Trade)\u200b",
+                        "chest_unopened_img": "images/events/youngster_blueye.png",
+                        "chest_opened_img": "images/events/cleared/youngster_blueye_cleared.png",
                         "access_rules": [
-                            "@Driftveil City Access,dynamic_version,^$trainer_team,[]",
-                            "@Driftveil City Access,not_dynamic,^$trainer_team"
+                            "@Driftveil City Upper Right House East of Market Access,not_dynamic,^$trade|572",
+                            "@Driftveil City Upper Right House East of Market Access,caught_572,[]"
                         ],
                         "visibility_rules": [
-                            "pokemon_white,show_mons,show_trainers"
+                            "pokemon_white,show_mons,show_trades"
                         ]
                     }
                 ],
@@ -2096,18 +2126,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item near south plane",
+                        "name": "Item from veteran in Cargo Service building",
+                        "chest_unopened_img": "images/locations/veteranf_sharpbeak.png",
+                        "chest_opened_img": "images/locations/cleared/veteranf_sharpbeak_cleared.png",
                         "access_rules": [
-                            "@Mistralton City Access"
+                            "@Mistralton Cargo Service Access"
                         ],
                         "visibility_rules": [
                             "show_items"
                         ]
                     },
                     {
-                        "name": "Appearing item at south end of runway",
+                        "name": "Item near south plane",
                         "access_rules": [
-                            "@Mistralton City Access,defeatskyla,@Mistralton City North House Access"
+                            "@Mistralton City Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2147,17 +2179,6 @@
                         ]
                     },
                     {
-                        "name": "Item from veteran in Cargo Service building",
-                        "chest_unopened_img": "images/locations/veteranf_sharpbeak.png",
-                        "chest_opened_img": "images/locations/cleared/veteranf_sharpbeak_cleared.png",
-                        "access_rules": [
-                            "@Mistralton Cargo Service Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Gym - Gym guide item",
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/cleared/gymguide_freshwater_cleared.png",
@@ -2166,32 +2187,6 @@
                         ],
                         "visibility_rules": [
                             "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Pilot Ted (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/pilot.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/pilot_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Mistralton Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Pilot Chase (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/pilot.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/pilot_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Mistralton Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -2212,6 +2207,32 @@
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Mistralton Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Pilot Ted (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/pilot.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/pilot_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Mistralton Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Pilot Chase (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/pilot.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/pilot_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Mistralton Gym Access,^$trainer_team"
@@ -2277,6 +2298,15 @@
                         "visibility_rules": [
                             "show_items"
                         ]
+                    },
+                    {
+                        "name": "Appearing item at south end of runway",
+                        "access_rules": [
+                            "@Mistralton City Access,defeatskyla,@Mistralton City North House Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2295,37 +2325,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Item west of pokémon center (Winter)",
-                        "access_rules": [
-                            "@Icirrus City Access,^$season|winter"
-                        ],
-                        "visibility_rules": [
-                            "show_items,show_winter"
-                        ]
-                    },
-                    {
-                        "name": "East hidden item #1",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Icirrus City Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "East hidden item #2",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Icirrus City Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Hidden item in large water puddle",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -2334,17 +2333,6 @@
                         ],
                         "visibility_rules": [
                             "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Hidden item west of pokémon center (Winter)",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Icirrus City Access,^$season|winter,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items,show_winter"
                         ]
                     },
                     {
@@ -2381,14 +2369,67 @@
                         ]
                     },
                     {
-                        "name": "Item from Aha for any answer",
-                        "chest_unopened_img": "images/locations/aha_antidote.png",
-                        "chest_opened_img": "images/locations/cleared/aha_antidote_cleared.png",
+                        "name": "Item from the former Team Rocket member's wife (Winter)",
+                        "chest_unopened_img": "images/locations/nurseryaide_ragecandybar.png",
+                        "chest_opened_img": "images/locations/cleared/nurseryaide_ragecandybar_cleared.png",
                         "access_rules": [
-                            "@Icirrus City Aha's House Access"
+                            "@Icirrus City South House Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_winter"
+                        ]
+                    },
+                    {
+                        "name": "East hidden item #1",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Icirrus City Access,^$hidden"
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "East hidden item #2",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Icirrus City Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "TM from old lady in pokémon center",
+                        "chest_unopened_img": "images/locations/oldlady_tm.png",
+                        "chest_opened_img": "images/locations/cleared/oldlady_tm_cleared.png",
+                        "access_rules": [
+                            "@Icirrus City Pokemon Center Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Hidden item west of pokémon center (Winter)",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Icirrus City Access,^$season|winter,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_winter"
+                        ]
+                    },
+                    {
+                        "name": "Item west of pokémon center (Winter)",
+                        "access_rules": [
+                            "@Icirrus City Access,^$season|winter"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_winter"
                         ]
                     },
                     {
@@ -2414,22 +2455,11 @@
                         ]
                     },
                     {
-                        "name": "Item from the former Team Rocket member's wife (Winter)",
-                        "chest_unopened_img": "images/locations/nurseryaide_ragecandybar.png",
-                        "chest_opened_img": "images/locations/cleared/nurseryaide_ragecandybar_cleared.png",
+                        "name": "Item from Aha for any answer",
+                        "chest_unopened_img": "images/locations/aha_antidote.png",
+                        "chest_opened_img": "images/locations/cleared/aha_antidote_cleared.png",
                         "access_rules": [
-                            "@Icirrus City South House Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items,show_winter"
-                        ]
-                    },
-                    {
-                        "name": "TM from old lady in pokémon center",
-                        "chest_unopened_img": "images/locations/oldlady_tm.png",
-                        "chest_opened_img": "images/locations/cleared/oldlady_tm_cleared.png",
-                        "access_rules": [
-                            "@Icirrus City Pokemon Center Access"
+                            "@Icirrus City Aha's House Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2447,10 +2477,36 @@
                         ]
                     },
                     {
+                        "name": "Gym - Black Belt Grant (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Icirrus Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Gym - Battle Girl Miriam (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/battlegirl.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/battlegirl_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Icirrus Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Black Belt Kendrew (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Icirrus Gym Access,^$trainer_team"
@@ -2477,32 +2533,6 @@
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/battlegirl.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/battlegirl_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Icirrus Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Black Belt Grant (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Icirrus Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Black Belt Kendrew (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Icirrus Gym Access,^$trainer_team"
@@ -2833,6 +2863,28 @@
                 ],
                 "sections": [
                     {
+                        "name": "Drayden's House 2F - Item from linebacker in Drayden's house",
+                        "chest_unopened_img": "images/locations/linebacker_floatstone.png",
+                        "chest_opened_img": "images/locations/cleared/linebacker_floatstone_cleared.png",
+                        "access_rules": [
+                            "@Opelucid City Drayden's House 2F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Drayden's House 2F - Item from female NPC in Drayden's house",
+                        "chest_unopened_img": "images/locations/backerf_ringtarget.png",
+                        "chest_opened_img": "images/locations/cleared/backerf_ringtarget_cleared.png",
+                        "access_rules": [
+                            "@Opelucid City Drayden's House 2F Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
                         "name": "Hidden item near Pokémon Center",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -2844,33 +2896,67 @@
                         ]
                     },
                     {
+                        "name": "Battle House 1F - Ace Trainer Eileen (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid City Battle House 1F Access,dynamic_version,^$trainer_team,[]",
+                            "@Opelucid City Battle House 1F Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Battle House 2F - Ace Trainer Lou (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid City Battle House 2F Access,dynamic_version,^$trainer_team,[]",
+                            "@Opelucid City Battle House 2F Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_black,show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Battle House 1F - Ace Trainer Lou (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid City Battle House 1F Access,dynamic_version,^$trainer_team,[]",
+                            "@Opelucid City Battle House 1F Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Battle House 2F - Ace Trainer Eileen (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid City Battle House 2F Access,dynamic_version,^$trainer_team,[]",
+                            "@Opelucid City Battle House 2F Access,not_dynamic,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "pokemon_white,show_mons,show_trainers"
+                        ]
+                    },
+                    {
                         "name": "Hidden item on northern road",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
                             "@Opelucid City Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from linebacker in Drayden's house",
-                        "chest_unopened_img": "images/locations/linebacker_floatstone.png",
-                        "chest_opened_img": "images/locations/cleared/linebacker_floatstone_cleared.png",
-                        "access_rules": [
-                            "@Opelucid City Drayden's House 2F Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Item from female NPC in Drayden's house",
-                        "chest_unopened_img": "images/locations/backerf_ringtarget.png",
-                        "chest_opened_img": "images/locations/cleared/backerf_ringtarget_cleared.png",
-                        "access_rules": [
-                            "@Opelucid City Drayden's House 2F Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -2888,18 +2974,6 @@
                         ]
                     },
                     {
-                        "name": "Item from Professor Juniper",
-                        "chest_unopened_img": "images/locations/prof_juniper_masterball.png",
-                        "chest_opened_img": "images/locations/cleared/prof_juniper_masterball_cleared.png",
-                        "access_rules": [
-                            "@Opelucid City Access,defeatdrayden",
-                            "@Opelucid City Access,defeatiris"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Gym - Gym guide item",
                         "chest_unopened_img": "images/locations/gymguide_freshwater.png",
                         "chest_opened_img": "images/locations/cleared/gymguide_freshwater_cleared.png",
@@ -2911,7 +2985,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - Ace Trainer Olwen (Seensanity)",
+                        "name": "Gym - Ace Trainer Webster (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
@@ -2924,33 +2998,7 @@
                         ]
                     },
                     {
-                        "name": "Gym - Ace Trainer Clara (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Ace Trainer Dara (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid Gym Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Gym - Ace Trainer Webster (Seensanity)",
+                        "name": "Gym - Ace Trainer Olwen (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
@@ -2976,10 +3024,10 @@
                         ]
                     },
                     {
-                        "name": "Gym - Ace Trainer Tom (Seensanity)",
+                        "name": "Gym - Ace Trainer Clara (Seensanity)",
                         "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Opelucid Gym Access,^$trainer_team"
@@ -2993,6 +3041,32 @@
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Ace Trainer Tom (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Opelucid Gym Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
+                        ]
+                    },
+                    {
+                        "name": "Gym - Ace Trainer Dara (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
                         "clear_as_group": false,
                         "access_rules": [
                             "@Opelucid Gym Access,^$trainer_team"
@@ -3107,59 +3181,15 @@
                         ]
                     },
                     {
-                        "name": "Battle House 1F - Ace Trainer Eileen (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
+                        "name": "Item from Professor Juniper",
+                        "chest_unopened_img": "images/locations/prof_juniper_masterball.png",
+                        "chest_opened_img": "images/locations/cleared/prof_juniper_masterball_cleared.png",
                         "access_rules": [
-                            "@Opelucid City Battle House 1F Access,dynamic_version,^$trainer_team,[]",
-                            "@Opelucid City Battle House 1F Access,not_dynamic,^$trainer_team"
+                            "@Opelucid City Access,defeatdrayden",
+                            "@Opelucid City Access,defeatiris"
                         ],
                         "visibility_rules": [
-                            "pokemon_black,show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle House 2F - Ace Trainer Lou (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid City Battle House 2F Access,dynamic_version,^$trainer_team,[]",
-                            "@Opelucid City Battle House 2F Access,not_dynamic,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "pokemon_black,show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle House 1F - Ace Trainer Lou (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid City Battle House 1F Access,dynamic_version,^$trainer_team,[]",
-                            "@Opelucid City Battle House 1F Access,not_dynamic,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "pokemon_white,show_mons,show_trainers"
-                        ]
-                    },
-                    {
-                        "name": "Battle House 2F - Ace Trainer Eileen (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Opelucid City Battle House 2F Access,dynamic_version,^$trainer_team,[]",
-                            "@Opelucid City Battle House 2F Access,not_dynamic,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "pokemon_white,show_mons,show_trainers"
+                            "show_items"
                         ]
                     }
                 ],
@@ -3178,6 +3208,19 @@
                     ""
                 ],
                 "sections": [
+                    {
+                        "name": "Item from girl for showing a Shaymin",
+                        "chest_unopened_img": "images/locations/lass_gracidea.png",
+                        "chest_opened_img": "images/locations/cleared/lass_gracidea_cleared.png",
+                        "access_rules": [
+                            "@Lacunosa Town Pokemon Center Access,{}",
+                            "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_on",
+                            "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_off,[]"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
                     {
                         "name": "Hidden item near policeman",
                         "chest_unopened_img": "images/locations/hidden.png",
@@ -3210,19 +3253,6 @@
                         "visibility_rules": [
                             "show_items"
                         ]
-                    },
-                    {
-                        "name": "Item from girl for showing a Shaymin",
-                        "chest_unopened_img": "images/locations/lass_gracidea.png",
-                        "chest_opened_img": "images/locations/cleared/lass_gracidea_cleared.png",
-                        "access_rules": [
-                            "@Lacunosa Town Pokemon Center Access,{}",
-                            "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_on",
-                            "@Lacunosa Town Pokemon Center Access,caught_492,randomize_wild_off,[]"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
                     }
                 ],
                 "map_locations": [
@@ -3241,9 +3271,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Behind the hedges of The Riches' Mansion",
+                        "name": "Item from man in Pokémon Center",
+                        "chest_unopened_img": "images/locations/man_prismscale.png",
+                        "chest_opened_img": "images/locations/cleared/man_prismscale_cleared.png",
                         "access_rules": [
-                            "@Undella Town Access"
+                            "@Undella Town Pokemon Center Access"
                         ],
                         "visibility_rules": [
                             "show_items"
@@ -3261,17 +3293,6 @@
                         ]
                     },
                     {
-                        "name": "Item from man in Pokémon Center",
-                        "chest_unopened_img": "images/locations/man_prismscale.png",
-                        "chest_opened_img": "images/locations/cleared/man_prismscale_cleared.png",
-                        "access_rules": [
-                            "@Undella Town Pokemon Center Access"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
                         "name": "Cynthia (Event)",
                         "access_rules": [
                             "@Undella Town Caitlin's Villa Access"
@@ -3282,14 +3303,25 @@
                         "hosted_item": "defeatcynthia_hosted"
                     },
                     {
-                        "name": "Backer requesting a Cinccino (Trade)",
-                        "chest_unopened_img": "images/events/backerm_gorge.png",
-                        "chest_opened_img": "images/events/cleared/backerm_gorge_cleared.png",
+                        "name": "Behind the hedges of The Riches' Mansion",
                         "access_rules": [
-                            "@Undella Town Left Small Villa Access,^$trade|573"
+                            "@Undella Town Access"
                         ],
                         "visibility_rules": [
-                            "show_mons,show_trades"
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "The Riches Draco (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/schoolkidm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/schoolkidm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Undella Town Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_trainers"
                         ]
                     },
                     {
@@ -3345,16 +3377,14 @@
                         ]
                     },
                     {
-                        "name": "The Riches Draco (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/schoolkidm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/schoolkidm_cleared.png",
-                        "clear_as_group": false,
+                        "name": "Backer requesting a Cinccino (Trade)",
+                        "chest_unopened_img": "images/events/backerm_gorge.png",
+                        "chest_opened_img": "images/events/cleared/backerm_gorge_cleared.png",
                         "access_rules": [
-                            "@Undella Town Access,^$trainer_team"
+                            "@Undella Town Left Small Villa Access,^$trade|573"
                         ],
                         "visibility_rules": [
-                            "show_mons,show_trainers"
+                            "show_mons,show_trades"
                         ]
                     }
                 ],
@@ -13049,7 +13079,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - East item",
+                        "name": "Outside - East item",
                         "access_rules": [
                             "@Twist Mountain Outside 2F South Footbridge Access"
                         ],
@@ -13058,7 +13088,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - North west item",
+                        "name": "Outside - North west item",
                         "access_rules": [
                             "@Twist Mountain Outside 3F West Footbridge Access"
                         ],
@@ -13067,7 +13097,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - South item",
+                        "name": "Outside - South item",
                         "access_rules": [
                             "@Twist Mountain Outside 3F West Footbridge Access"
                         ],
@@ -13076,7 +13106,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - West item",
+                        "name": "Outside - West item",
                         "access_rules": [
                             "@Twist Mountain Outside 2F South Footbridge Access"
                         ],
@@ -13085,7 +13115,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - East hidden item (Winter)",
+                        "name": "Outside - East hidden item (Winter)",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13096,7 +13126,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - North hidden item #1 (Winter)",
+                        "name": "Outside - North hidden item #1 (Winter)",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13107,7 +13137,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - North hidden item #2 (Winter)",
+                        "name": "Outside - North hidden item #2 (Winter)",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13118,7 +13148,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - North east cave item",
+                        "name": "3F - North east cave item",
                         "access_rules": [
                             "@Twist Mountain 3F North East Access"
                         ],
@@ -13127,7 +13157,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - North east cave hidden item",
+                        "name": "3F - North east cave hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13138,7 +13168,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - South east cave hidden item",
+                        "name": "3F - South east cave hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13149,7 +13179,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - West cave item #1",
+                        "name": "2F - West cave item #1",
                         "access_rules": [
                             "@Twist Mountain 2F South West Access"
                         ],
@@ -13158,7 +13188,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - West cave item #2",
+                        "name": "2F - West cave item #2",
                         "access_rules": [
                             "@Twist Mountain 2F South West Access"
                         ],
@@ -13167,7 +13197,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - North cave item (Winter)",
+                        "name": "2F - North cave item (Winter)",
                         "access_rules": [
                             "@Twist Mountain 2F North Access,^$season|winter"
                         ],
@@ -13176,7 +13206,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - East cave hidden item",
+                        "name": "2F - East cave hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13187,7 +13217,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - West cave hidden item #1",
+                        "name": "2F - West cave hidden item #1",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13198,7 +13228,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - West cave hidden item #2",
+                        "name": "2F - West cave hidden item #2",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13209,7 +13239,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Little east cave item (Winter)",
+                        "name": "1F - Little east cave item (Winter)",
                         "access_rules": [
                             "@Twist Mountain 1F South East Access,^$season|winter"
                         ],
@@ -13218,7 +13248,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - North west cave item (Spring, Summer, Autumn)",
+                        "name": "1F - North west cave item (Spring, Summer, Autumn)",
                         "access_rules": [
                             "@Twist Mountain 1F North West Access,^$season|not_winter"
                         ],
@@ -13227,7 +13257,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - North west cave hidden item (Spring, Summer, Autumn)",
+                        "name": "1F - North west cave hidden item (Spring, Summer, Autumn)",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13238,7 +13268,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Item from worker near ice rock cave",
+                        "name": "1F - Item from worker near ice rock cave",
                         "chest_unopened_img": "images/locations/worker_fossil.png",
                         "chest_opened_img": "images/locations/cleared/worker_fossil_cleared.png",
                         "access_rules": [
@@ -13249,7 +13279,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Item near ice rock",
+                        "name": "Ice Rock Cave - Item near ice rock",
                         "access_rules": [
                             "@Twist Mountain Ice Cave Access"
                         ],
@@ -13258,7 +13288,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Spring)",
+                        "name": "3F - Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13274,7 +13304,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Spring)",
+                        "name": "3F - Land Phenomena (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13290,7 +13320,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Spring)",
+                        "name": "2F - Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13306,7 +13336,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Spring)",
+                        "name": "2F - Land Phenomena (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13322,7 +13352,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Spring)",
+                        "name": "1F - Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13338,7 +13368,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Spring)",
+                        "name": "1F - Land Phenomena (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13354,7 +13384,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Spring)",
+                        "name": "Ice Rock Cave - Land Encounters (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13367,7 +13397,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Spring)",
+                        "name": "Ice Rock Cave - Land Phenomena (Spring)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13380,7 +13410,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Summer)",
+                        "name": "3F - Land Encounters (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13396,7 +13426,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Summer)",
+                        "name": "3F - Land Phenomena (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13412,7 +13442,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Summer)",
+                        "name": "2F - Land Encounters (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13428,7 +13458,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Summer)",
+                        "name": "2F - Land Phenomena (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13444,7 +13474,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Summer)",
+                        "name": "1F - Land Encounters (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13460,7 +13490,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Summer)",
+                        "name": "1F - Land Phenomena (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13476,7 +13506,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Summer)",
+                        "name": "Ice Rock Cave - Land Encounters (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13489,7 +13519,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Summer)",
+                        "name": "Ice Rock Cave - Land Phenomena (Summer)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13502,7 +13532,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Autumn)",
+                        "name": "3F - Land Encounters (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13518,7 +13548,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Autumn)",
+                        "name": "3F - Land Phenomena (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13534,7 +13564,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Autumn)",
+                        "name": "2F - Land Encounters (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13550,7 +13580,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Autumn)",
+                        "name": "2F - Land Phenomena (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13566,7 +13596,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Autumn)",
+                        "name": "1F - Land Encounters (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13582,7 +13612,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Autumn)",
+                        "name": "1F - Land Phenomena (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13598,7 +13628,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Autumn)",
+                        "name": "Ice Rock Cave - Land Encounters (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13611,7 +13641,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Autumn)",
+                        "name": "Ice Rock Cave - Land Phenomena (Autumn)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13624,7 +13654,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Winter)",
+                        "name": "3F - Land Encounters (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13640,7 +13670,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Winter)",
+                        "name": "3F - Land Phenomena (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13656,7 +13686,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Winter)",
+                        "name": "2F - Land Encounters (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13672,7 +13702,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Winter)",
+                        "name": "2F - Land Phenomena (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13688,7 +13718,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Winter)",
+                        "name": "1F - Land Encounters (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13704,7 +13734,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Winter)",
+                        "name": "1F - Land Phenomena (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13720,7 +13750,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Winter)",
+                        "name": "Ice Rock Cave - Land Encounters (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/cave.png",
                         "chest_opened_img": "images/locations/cleared/cave_cleared.png",
@@ -13733,7 +13763,7 @@
                         ]
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Winter)",
+                        "name": "Ice Rock Cave - Land Phenomena (Winter)",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/dustcloud.png",
                         "chest_opened_img": "images/locations/cleared/dustcloud_cleared.png",
@@ -13746,7 +13776,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - Doctor Hank (Seensanity)",
+                        "name": "Outside - Doctor Hank (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/doctor.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/doctor_cleared.png",
@@ -13759,7 +13789,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Black Belt Teppei (Seensanity)",
+                        "name": "1F - Black Belt Teppei (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
@@ -13772,7 +13802,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Worker Cairn (Seensanity)",
+                        "name": "2F - Worker Cairn (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
@@ -13785,7 +13815,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Hiker Neil (Seensanity)",
+                        "name": "2F - Hiker Neil (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
@@ -13798,7 +13828,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Worker Rob (Seensanity)",
+                        "name": "2F - Worker Rob (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
@@ -13811,7 +13841,7 @@
                         ]
                     },
                     {
-                        "name": "Lower Floor - Worker Rich (Seensanity)",
+                        "name": "1F - Worker Rich (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
@@ -13824,7 +13854,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Worker Heath (Seensanity)",
+                        "name": "3F - Worker Heath (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
@@ -13837,7 +13867,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Battle Girl Sharon (Seensanity)",
+                        "name": "3F - Battle Girl Sharon (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/battlegirl.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/battlegirl_cleared.png",
@@ -13850,7 +13880,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - Worker Brand (Seensanity)",
+                        "name": "Outside - Worker Brand (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/worker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
@@ -13863,7 +13893,7 @@
                         ]
                     },
                     {
-                        "name": "Upper Floor - Hiker Darrell (Seensanity)",
+                        "name": "3F - Hiker Darrell (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
@@ -13889,7 +13919,7 @@
                         ]
                     },
                     {
-                        "name": "Main Floor - Ace Trainer Caroll (Seensanity)",
+                        "name": "Outside - Ace Trainer Caroll (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
@@ -13902,7 +13932,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Floor - Ace Trainer Jordan (Seensanity)",
+                        "name": "2F - Ace Trainer Jordan (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",

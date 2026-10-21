@@ -168,12 +168,12 @@
                 "name": "Fennel's House",
                 "sections": [
                     {
-                        "name": "TM from Fennel",
-                        "ref": "Unova Locations/Striaton City/TM from Fennel"
+                        "name": "2F - TM from Fennel",
+                        "ref": "Unova Locations/Striaton City/Fennel's House 2F - TM from Fennel"
                     },
                     {
-                        "name": "Item from Amanita",
-                        "ref": "Unova Locations/Striaton City/Item from Amanita"
+                        "name": "2F - Item from Amanita",
+                        "ref": "Unova Locations/Striaton City/Fennel's House 2F - Item from Amanita"
                     }
                 ],
                 "map_locations": [
@@ -189,11 +189,11 @@
                 "sections": [
                     {
                         "name": "TM from Fennel",
-                        "ref": "Unova Locations/Striaton City/TM from Fennel"
+                        "ref": "Unova Locations/Striaton City/Fennel's House 2F - TM from Fennel"
                     },
                     {
                         "name": "Item from Amanita",
-                        "ref": "Unova Locations/Striaton City/Item from Amanita"
+                        "ref": "Unova Locations/Striaton City/Fennel's House 2F - Item from Amanita"
                     }
                 ],
                 "map_locations": [
@@ -209,7 +209,7 @@
                 "sections": [
                     {
                         "name": "Item from boy in Trainer's School",
-                        "ref": "Unova Locations/Striaton City/Item from boy in Trainer's School"
+                        "ref": "Unova Locations/Striaton City/Trainers' School - Item from boy in Trainer's School"
                     },
                     {
                         "name": "Items from Cheren",
@@ -896,7 +896,7 @@
                 "sections": [
                     {
                         "name": "Item from scientist at Thumb Pier",
-                        "ref": "Unova Locations/Castelia City/Item from scientist at Thumb Pier"
+                        "ref": "Unova Locations/Castelia City/Thumb Pier - Item from scientist at Thumb Pier"
                     }
                 ],
                 "map_locations": [
@@ -912,63 +912,63 @@
                 "sections": [
                     {
                         "name": "47F - Item in lower-left corner",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item in lower-left corner"
+                        "ref": "Unova Locations/Battle Company/47F - Item in lower-left corner"
                     },
                     {
                         "name": "47F - Items from clerk",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Items from clerk"
+                        "ref": "Unova Locations/Battle Company/47F - Items from clerk"
                     },
                     {
                         "name": "47F - Item from scientist",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from scientist"
+                        "ref": "Unova Locations/Battle Company/47F - Item from scientist"
                     },
                     {
                         "name": "47F - Clerk ♀ Ingrid (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Ingrid (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♀ Ingrid (Seensanity)"
                     },
                     {
                         "name": "47F - Clerk ♀ Alberta (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Alberta (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♀ Alberta (Seensanity)"
                     },
                     {
                         "name": "47F - Scientist Randall (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Scientist Randall (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Scientist Randall (Seensanity)"
                     },
                     {
                         "name": "47F - Clerk ♂ Clemens (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Clemens (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♂ Clemens (Seensanity)"
                     },
                     {
                         "name": "47F - Clerk ♂ Warren (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Warren (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♂ Warren (Seensanity)"
                     },
                     {
                         "name": "55F - Center item",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Center item"
+                        "ref": "Unova Locations/Battle Company/55F - Center item"
                     },
                     {
                         "name": "55F - Scientist Steve (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Steve (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Scientist Steve (Seensanity)"
                     },
                     {
                         "name": "55F - Scientist Samantha (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Samantha (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Scientist Samantha (Seensanity)"
                     },
                     {
                         "name": "55F - Clerk ♂ Ivan (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Ivan (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Clerk ♂ Ivan (Seensanity)"
                     },
                     {
                         "name": "55F - Clerk ♂ Wade (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Wade (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Clerk ♂ Wade (Seensanity)"
                     },
                     {
                         "name": "55F - Janitor Geoff (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Janitor Geoff (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Janitor Geoff (Seensanity)"
                     },
                     {
                         "name": "55F - Item from President Geoff",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Item from President Geoff"
+                        "ref": "Unova Locations/Battle Company/55F - Item from President Geoff"
                     }
                 ],
                 "map_locations": [
@@ -984,7 +984,7 @@
                 "sections": [
                     {
                         "name": "Item in lower-left corner",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item in lower-left corner"
+                        "ref": "Unova Locations/Battle Company/47F - Item in lower-left corner"
                     }
                 ],
                 "map_locations": [
@@ -1000,7 +1000,7 @@
                 "sections": [
                     {
                         "name": "Items from clerk",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Items from clerk"
+                        "ref": "Unova Locations/Battle Company/47F - Items from clerk"
                     }
                 ],
                 "map_locations": [
@@ -1016,7 +1016,7 @@
                 "sections": [
                     {
                         "name": "Item from scientist",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Item from scientist"
+                        "ref": "Unova Locations/Battle Company/47F - Item from scientist"
                     }
                 ],
                 "map_locations": [
@@ -1032,7 +1032,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♀ Ingrid (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Ingrid (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♀ Ingrid (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1048,7 +1048,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♀ Alberta (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♀ Alberta (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♀ Alberta (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1064,7 +1064,7 @@
                 "sections": [
                     {
                         "name": "Scientist Randall (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Scientist Randall (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Scientist Randall (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1080,7 +1080,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♂ Clemens (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Clemens (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♂ Clemens (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1096,7 +1096,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♂ Warren (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 47F - Clerk ♂ Warren (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/47F - Clerk ♂ Warren (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1112,7 +1112,7 @@
                 "sections": [
                     {
                         "name": "Center item",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Center item"
+                        "ref": "Unova Locations/Battle Company/55F - Center item"
                     }
                 ],
                 "map_locations": [
@@ -1128,11 +1128,11 @@
                 "sections": [
                     {
                         "name": "Janitor Geoff (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Janitor Geoff (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Janitor Geoff (Seensanity)"
                     },
                     {
                         "name": "Item from President Geoff",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Item from President Geoff"
+                        "ref": "Unova Locations/Battle Company/55F - Item from President Geoff"
                     }
                 ],
                 "map_locations": [
@@ -1148,7 +1148,7 @@
                 "sections": [
                     {
                         "name": "Scientist Steve (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Steve (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Scientist Steve (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1164,7 +1164,7 @@
                 "sections": [
                     {
                         "name": "Scientist Samantha (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Scientist Samantha (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Scientist Samantha (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1180,7 +1180,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♂ Ivan (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Ivan (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Clerk ♂ Ivan (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1196,7 +1196,7 @@
                 "sections": [
                     {
                         "name": "Clerk ♂ Wade (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Battle Company 55F - Clerk ♂ Wade (Seensanity)"
+                        "ref": "Unova Locations/Battle Company/55F - Clerk ♂ Wade (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1212,7 +1212,7 @@
                 "sections": [
                     {
                         "name": "TM from hiker in building in Castelia Street",
-                        "ref": "Unova Locations/Castelia City/TM from hiker in building in Castelia Street"
+                        "ref": "Unova Locations/Castelia City/Castelia Street - TM from hiker in building in Castelia Street"
                     }
                 ],
                 "map_locations": [
@@ -1228,7 +1228,7 @@
                 "sections": [
                     {
                         "name": "Item from manager in Café Sonata",
-                        "ref": "Unova Locations/Castelia City/Item from manager in Café Sonata"
+                        "ref": "Unova Locations/Castelia City/Narrow Street - Item from manager in Café Sonata"
                     }
                 ],
                 "map_locations": [
@@ -1244,7 +1244,7 @@
                 "sections": [
                     {
                         "name": "TM from man in black behind dumpster",
-                        "ref": "Unova Locations/Castelia City/TM from man in black behind dumpster"
+                        "ref": "Unova Locations/Castelia City/Narrow Street - TM from man in black behind dumpster"
                     },
                     {
                         "name": "Dancer Edmond (Seensanity)",
@@ -1280,11 +1280,11 @@
                 "sections": [
                     {
                         "name": "Item in Plasma hideout",
-                        "ref": "Unova Locations/Castelia City/Item in Plasma hideout"
+                        "ref": "Unova Locations/Castelia City/Gym Street - Item in Plasma hideout"
                     },
                     {
                         "name": "Item from Iris in Plasma hideout",
-                        "ref": "Unova Locations/Castelia City/Item from Iris in Plasma hideout"
+                        "ref": "Unova Locations/Castelia City/Gym Street - Item from Iris in Plasma hideout"
                     }
                 ],
                 "map_locations": [
@@ -1316,7 +1316,7 @@
                 "sections": [
                     {
                         "name": "Item from harlequin in Studio Castelia",
-                        "ref": "Unova Locations/Castelia City/Item from harlequin in Studio Castelia"
+                        "ref": "Unova Locations/Castelia City/Mode Street - Item from harlequin in Studio Castelia"
                     }
                 ],
                 "map_locations": [
@@ -1336,7 +1336,7 @@
                     },
                     {
                         "name": "Item from dancers",
-                        "ref": "Unova Locations/Castelia City/Item from dancers"
+                        "ref": "Unova Locations/Castelia City/Central Plaza - Item from dancers"
                     }
                 ],
                 "map_locations": [
@@ -1368,47 +1368,47 @@
                 "sections": [
                     {
                         "name": "Youngster Abe (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Youngster Abe (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Youngster Abe (Seensanity)"
                     },
                     {
                         "name": "Clerk ♂ Chaz (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Clerk ♂ Chaz (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Clerk ♂ Chaz (Seensanity)"
                     },
                     {
                         "name": "Ace Trainer Mariana (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Ace Trainer Mariana (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Ace Trainer Mariana (Seensanity)"
                     },
                     {
                         "name": "Ace Trainer Henry (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Ace Trainer Henry (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Ace Trainer Henry (Seensanity)"
                     },
                     {
                         "name": "Lass Sibyl (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Lass Sibyl (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Lass Sibyl (Seensanity)"
                     },
                     {
                         "name": "Rich Boy Brad (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Rich Boy Brad (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Rich Boy Brad (Seensanity)"
                     },
                     {
                         "name": "Lady Elizandra (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Lady Elizandra (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Lady Elizandra (Seensanity)"
                     },
                     {
                         "name": "Socialite Cassandra (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Socialite Cassandra (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Socialite Cassandra (Seensanity)"
                     },
                     {
                         "name": "Gentleman Robert (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Gentleman Robert (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Gentleman Robert (Seensanity)"
                     },
                     {
                         "name": "Maid Tanya (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Maid Tanya (Seensanity)"
+                        "ref": "Unova Locations/Royal Unova/Maid Tanya (Seensanity)"
                     },
                     {
                         "name": "Item for defeating every trainer",
-                        "ref": "Unova Locations/Castelia City/Royal Unova - Item for defeating every trainer"
+                        "ref": "Unova Locations/Royal Unova/Item for defeating every trainer"
                     }
                 ],
                 "map_locations": [
@@ -1424,7 +1424,7 @@
                 "sections": [
                     {
                         "name": "Item from scientist in northern street for seeing 20 species",
-                        "ref": "Unova Locations/Castelia City/Item from scientist in northern street for seeing 20 species"
+                        "ref": "Unova Locations/Castelia City/Northern Street - Item from scientist in northern street for seeing 20 species"
                     }
                 ],
                 "map_locations": [
@@ -1440,7 +1440,7 @@
                 "sections": [
                     {
                         "name": "TM from school kid in building in northern street",
-                        "ref": "Unova Locations/Castelia City/TM from school kid in building in northern street"
+                        "ref": "Unova Locations/Castelia City/Northern Street - TM from school kid in building in northern street"
                     }
                 ],
                 "map_locations": [
@@ -1456,7 +1456,7 @@
                 "sections": [
                     {
                         "name": "TM from Mr. Lock in building in northern street",
-                        "ref": "Unova Locations/Castelia City/TM from Mr. Lock in building in northern street"
+                        "ref": "Unova Locations/Castelia City/Northern Street - TM from Mr. Lock in building in northern street"
                     }
                 ],
                 "map_locations": [
@@ -1624,19 +1624,19 @@
                 ]
             },
             {
-                "name": "Castelia Street\u200b",
+                "name": "Game Freak HQ",
                 "sections": [
                     {
-                        "name": "See a Zorua",
-                        "ref": "Unova Locations/Castelia City/Castelia Street - See a Zorua"
+                        "name": "1F - See a Zorua",
+                        "ref": "Unova Locations/Castelia City/Game Freak HQ 1F - See a Zorua"
                     },
                     {
-                        "name": "Zorua (Gift)",
-                        "ref": "Unova Locations/Castelia City/Castelia Street - Zorua (Gift)"
+                        "name": "1F - Zorua (Gift)",
+                        "ref": "Unova Locations/Castelia City/Game Freak HQ 1F - Zorua (Gift)"
                     },
                     {
-                        "name": "GAME FREAK Morimoto (Seensanity)",
-                        "ref": "Unova Locations/Castelia City/GAME FREAK Morimoto (Seensanity)"
+                        "name": "22F - GAME FREAK Morimoto (Seensanity)",
+                        "ref": "Unova Locations/Castelia City/Game Freak HQ 22F - GAME FREAK Morimoto (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1836,7 +1836,7 @@
                 "sections": [
                     {
                         "name": "Item from man in eastern gate",
-                        "ref": "Unova Locations/Nimbasa City/Item from man in eastern gate"
+                        "ref": "Unova Locations/Nimbasa City/East Gate - Item from man in eastern gate"
                     }
                 ],
                 "map_locations": [
@@ -1888,11 +1888,11 @@
                 "sections": [
                     {
                         "name": "Item from Musical Theater owner",
-                        "ref": "Unova Locations/Nimbasa City/Item from Musical Theater owner"
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - Item from Musical Theater owner"
                     },
                     {
                         "name": "TM from lady in Musical Theater",
-                        "ref": "Unova Locations/Nimbasa City/TM from lady in Musical Theater"
+                        "ref": "Unova Locations/Nimbasa City/Musical Theater - TM from lady in Musical Theater"
                     }
                 ],
                 "map_locations": [
@@ -1928,7 +1928,7 @@
                 "sections": [
                     {
                         "name": "Team Plasma N (Seensanity)",
-                        "ref": "Unova Locations/Nimbasa City/Team Plasma N (Seensanity)"
+                        "ref": "Unova Locations/Nimbasa City/Park - Team Plasma N (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -1944,7 +1944,7 @@
                 "sections": [
                     {
                         "name": "Item near ferris wheel",
-                        "ref": "Unova Locations/Nimbasa City/Item near ferris wheel"
+                        "ref": "Unova Locations/Nimbasa City/Park - Item near ferris wheel"
                     }
                 ],
                 "map_locations": [
@@ -1960,7 +1960,7 @@
                 "sections": [
                     {
                         "name": "Hidden item near ferris wheel",
-                        "ref": "Unova Locations/Nimbasa City/Hidden item near ferris wheel"
+                        "ref": "Unova Locations/Nimbasa City/Park - Hidden item near ferris wheel"
                     }
                 ],
                 "map_locations": [
@@ -2236,11 +2236,11 @@
                 "sections": [
                     {
                         "name": "Item in market",
-                        "ref": "Unova Locations/Driftveil City/Item in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Item in market"
                     },
                     {
                         "name": "Item from man in black in market",
-                        "ref": "Unova Locations/Driftveil City/Item from man in black in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Item from man in black in market"
                     }
                 ],
                 "map_locations": [
@@ -2256,7 +2256,7 @@
                 "sections": [
                     {
                         "name": "Hidden item in market",
-                        "ref": "Unova Locations/Driftveil City/Hidden item in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Hidden item in market"
                     }
                 ],
                 "map_locations": [
@@ -2272,7 +2272,7 @@
                 "sections": [
                     {
                         "name": "Item in market",
-                        "ref": "Unova Locations/Driftveil City/Item in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Item in market"
                     }
                 ],
                 "map_locations": [
@@ -2288,7 +2288,7 @@
                 "sections": [
                     {
                         "name": "Hidden item in market",
-                        "ref": "Unova Locations/Driftveil City/Hidden item in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Hidden item in market"
                     }
                 ],
                 "map_locations": [
@@ -2304,7 +2304,7 @@
                 "sections": [
                     {
                         "name": "Item from man in black in market",
-                        "ref": "Unova Locations/Driftveil City/Item from man in black in market"
+                        "ref": "Unova Locations/Driftveil City/Market - Item from man in black in market"
                     }
                 ],
                 "map_locations": [
@@ -3591,264 +3591,264 @@
                 "name": "Twist Mountain",
                 "sections": [
                     {
-                        "name": "Main Floor - East item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - East item"
+                        "name": "Outside - East item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - East item"
                     },
                     {
-                        "name": "Main Floor - North west item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North west item"
+                        "name": "Outside - North west item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - North west item"
                     },
                     {
-                        "name": "Main Floor - South item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - South item"
+                        "name": "Outside - South item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - South item"
                     },
                     {
-                        "name": "Main Floor - West item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - West item"
+                        "name": "Outside - West item",
+                        "ref": "Unova Locations/Twist Mountain/Outside - West item"
                     },
                     {
-                        "name": "Main Floor - East hidden item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - East hidden item (Winter)"
+                        "name": "Outside - East hidden item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - East hidden item (Winter)"
                     },
                     {
-                        "name": "Main Floor - North hidden item #1 (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #1 (Winter)"
+                        "name": "Outside - North hidden item #1 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - North hidden item #1 (Winter)"
                     },
                     {
-                        "name": "Main Floor - North hidden item #2 (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #2 (Winter)"
+                        "name": "Outside - North hidden item #2 (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - North hidden item #2 (Winter)"
                     },
                     {
-                        "name": "Main Floor - Ace Trainer Caroll (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Ace Trainer Caroll (Seensanity)"
+                        "name": "Outside - Ace Trainer Caroll (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Ace Trainer Caroll (Seensanity)"
                     },
                     {
-                        "name": "Main Floor - Doctor Hank (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Doctor Hank (Seensanity)"
+                        "name": "Outside - Doctor Hank (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Doctor Hank (Seensanity)"
                     },
                     {
-                        "name": "Main Floor - Worker Brand (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Worker Brand (Seensanity)"
+                        "name": "Outside - Worker Brand (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/Outside - Worker Brand (Seensanity)"
                     },
                     {
-                        "name": "Upper Floor - North east cave item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - North east cave item"
+                        "name": "3F - North east cave item",
+                        "ref": "Unova Locations/Twist Mountain/3F - North east cave item"
                     },
                     {
-                        "name": "Upper Floor - North east cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - North east cave hidden item"
+                        "name": "3F - North east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/3F - North east cave hidden item"
                     },
                     {
-                        "name": "Upper Floor - South east cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - South east cave hidden item"
+                        "name": "3F - South east cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/3F - South east cave hidden item"
                     },
                     {
-                        "name": "Upper Floor - Worker Heath (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Worker Heath (Seensanity)"
+                        "name": "3F - Worker Heath (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Worker Heath (Seensanity)"
                     },
                     {
-                        "name": "Upper Floor - Battle Girl Sharon (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Battle Girl Sharon (Seensanity)"
+                        "name": "3F - Battle Girl Sharon (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Battle Girl Sharon (Seensanity)"
                     },
                     {
-                        "name": "Upper Floor - Hiker Darrell (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Hiker Darrell (Seensanity)"
+                        "name": "3F - Hiker Darrell (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Hiker Darrell (Seensanity)"
                     },
                     {
-                        "name": "Middle Floor - West cave item #1",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave item #1"
+                        "name": "2F - West cave item #1",
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave item #1"
                     },
                     {
-                        "name": "Middle Floor - West cave item #2",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave item #2"
+                        "name": "2F - West cave item #2",
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave item #2"
                     },
                     {
-                        "name": "Middle Floor - North cave item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - North cave item (Winter)"
+                        "name": "2F - North cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/2F - North cave item (Winter)"
                     },
                     {
-                        "name": "Middle Floor - East cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - East cave hidden item"
+                        "name": "2F - East cave hidden item",
+                        "ref": "Unova Locations/Twist Mountain/2F - East cave hidden item"
                     },
                     {
-                        "name": "Middle Floor - West cave hidden item #1",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave hidden item #1"
+                        "name": "2F - West cave hidden item #1",
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave hidden item #1"
                     },
                     {
-                        "name": "Middle Floor - West cave hidden item #2",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave hidden item #2"
+                        "name": "2F - West cave hidden item #2",
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave hidden item #2"
                     },
                     {
-                        "name": "Middle Floor - Worker Cairn (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Cairn (Seensanity)"
+                        "name": "2F - Worker Cairn (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Worker Cairn (Seensanity)"
                     },
                     {
-                        "name": "Middle Floor - Hiker Neil (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Hiker Neil (Seensanity)"
+                        "name": "2F - Hiker Neil (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Hiker Neil (Seensanity)"
                     },
                     {
-                        "name": "Middle Floor - Worker Rob (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Rob (Seensanity)"
+                        "name": "2F - Worker Rob (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Worker Rob (Seensanity)"
                     },
                     {
-                        "name": "Middle Floor - Ace Trainer Jordan (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Ace Trainer Jordan (Seensanity)"
+                        "name": "2F - Ace Trainer Jordan (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Ace Trainer Jordan (Seensanity)"
                     },
                     {
-                        "name": "Lower Floor - Little east cave item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Little east cave item (Winter)"
+                        "name": "1F - Little east cave item (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Little east cave item (Winter)"
                     },
                     {
-                        "name": "Lower Floor - North west cave item (Spring, Summer, Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - North west cave item (Spring, Summer, Autumn)"
+                        "name": "1F - North west cave item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - North west cave item (Spring, Summer, Autumn)"
                     },
                     {
-                        "name": "Lower Floor - North west cave hidden item (Spring, Summer, Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - North west cave hidden item (Spring, Summer, Autumn)"
+                        "name": "1F - North west cave hidden item (Spring, Summer, Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - North west cave hidden item (Spring, Summer, Autumn)"
                     },
                     {
-                        "name": "Lower Floor - Item from worker near ice rock cave",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Item from worker near ice rock cave"
+                        "name": "1F - Item from worker near ice rock cave",
+                        "ref": "Unova Locations/Twist Mountain/1F - Item from worker near ice rock cave"
                     },
                     {
-                        "name": "Lower Floor - Worker Rich (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Worker Rich (Seensanity)"
+                        "name": "1F - Worker Rich (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Worker Rich (Seensanity)"
                     },
                     {
-                        "name": "Lower Floor - Black Belt Teppei (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Black Belt Teppei (Seensanity)"
+                        "name": "1F - Black Belt Teppei (Seensanity)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Black Belt Teppei (Seensanity)"
                     },
                     {
-                        "name": "Ice Cave - Item near ice rock",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Item near ice rock"
+                        "name": "Ice Rock Cave - Item near ice rock",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Item near ice rock"
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Spring)"
+                        "name": "3F - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Spring)"
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Spring)"
+                        "name": "3F - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Spring)"
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Spring)"
+                        "name": "2F - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Spring)"
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Spring)"
+                        "name": "2F - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Spring)"
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Spring)"
+                        "name": "1F - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Spring)"
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Spring)"
+                        "name": "1F - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Spring)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Spring)"
+                        "name": "Ice Rock Cave - Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Spring)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Spring)"
+                        "name": "Ice Rock Cave - Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Spring)"
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Summer)"
+                        "name": "3F - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Summer)"
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Summer)"
+                        "name": "3F - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Summer)"
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Summer)"
+                        "name": "2F - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Summer)"
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Summer)"
+                        "name": "2F - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Summer)"
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Summer)"
+                        "name": "1F - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Summer)"
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Summer)"
+                        "name": "1F - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Summer)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Summer)"
+                        "name": "Ice Rock Cave - Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Summer)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Summer)"
+                        "name": "Ice Rock Cave - Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Summer)"
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Autumn)"
+                        "name": "3F - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Autumn)"
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Autumn)"
+                        "name": "3F - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Autumn)"
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Autumn)"
+                        "name": "2F - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Autumn)"
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Autumn)"
+                        "name": "2F - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Autumn)"
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Autumn)"
+                        "name": "1F - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Autumn)"
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Autumn)"
+                        "name": "1F - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Autumn)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Autumn)"
+                        "name": "Ice Rock Cave - Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Autumn)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Autumn)"
+                        "name": "Ice Rock Cave - Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Autumn)"
                     },
                     {
-                        "name": "Upper Floor - Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Winter)"
+                        "name": "3F - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Winter)"
                     },
                     {
-                        "name": "Upper Floor - Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Winter)"
+                        "name": "3F - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Winter)"
                     },
                     {
-                        "name": "Middle Floor - Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Winter)"
+                        "name": "2F - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Winter)"
                     },
                     {
-                        "name": "Middle Floor - Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Winter)"
+                        "name": "2F - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Winter)"
                     },
                     {
-                        "name": "Lower Floor - Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Winter)"
+                        "name": "1F - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Winter)"
                     },
                     {
-                        "name": "Lower Floor - Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Winter)"
+                        "name": "1F - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Winter)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Winter)"
+                        "name": "Ice Rock Cave - Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Winter)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Winter)"
+                        "name": "Ice Rock Cave - Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -3900,12 +3900,12 @@
                 "name": "Drayden's House",
                 "sections": [
                     {
-                        "name": "Item from linebacker in Drayden's house",
-                        "ref": "Unova Locations/Opelucid City/Item from linebacker in Drayden's house"
+                        "name": "2F - Item from linebacker in Drayden's house",
+                        "ref": "Unova Locations/Opelucid City/Drayden's House 2F - Item from linebacker in Drayden's house"
                     },
                     {
-                        "name": "Item from female NPC in Drayden's house",
-                        "ref": "Unova Locations/Opelucid City/Item from female NPC in Drayden's house"
+                        "name": "2F - Item from female NPC in Drayden's house",
+                        "ref": "Unova Locations/Opelucid City/Drayden's House 2F - Item from female NPC in Drayden's house"
                     }
                 ],
                 "map_locations": [
@@ -11312,10 +11312,10 @@
                 ]
             },
             {
-                "name": "Dreamyard Ruins\u200b\u200b\u200b",
+                "name": "Dreamyard Ruins 2F\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Ruins 2F - East item",
+                        "name": "East item",
                         "ref": "Unova Locations/Dreamyard/Ruins 2F - East item"
                     }
                 ],
@@ -11328,10 +11328,10 @@
                 ]
             },
             {
-                "name": "Dreamyard Ruins\u200b\u200b\u200b\u200b",
+                "name": "Dreamyard Ruins 2F\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
-                        "name": "Ruins 2F - West item",
+                        "name": "West item",
                         "ref": "Unova Locations/Dreamyard/Ruins 2F - West item"
                     }
                 ],
@@ -11686,7 +11686,7 @@
                 "name": "Psychic Future",
                 "sections": [
                     {
-                        "name": "Basement - Psychic Future (Seensanity)",
+                        "name": "Psychic Future (Seensanity)",
                         "ref": "Unova Locations/Dreamyard/Basement - Psychic Future (Seensanity)"
                     }
                 ],
@@ -13511,7 +13511,7 @@
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Team Plasma Grunt 2 (Seensanity)"
                     },
                     {
-                        "name": "Relic Castle Basement Top Right Room - Team Plasma Grunt (Seensanity)",
+                        "name": "Basement Top Right Room - Team Plasma Grunt (Seensanity)",
                         "ref": "Unova Locations/Relic Castle/Basement Top Right Room - Team Plasma Grunt (Seensanity)"
                     },
                     {
@@ -14156,43 +14156,43 @@
                 "name": "\u200bRelic Castle Towerside",
                 "sections": [
                     {
-                        "name": "Towerside B3F - Hidden item",
+                        "name": "B3F - Hidden item",
                         "ref": "Unova Locations/Relic Castle/Towerside B3F - Hidden item"
                     },
                     {
-                        "name": "Towerside 1F - Item",
+                        "name": "1F - Item",
                         "ref": "Unova Locations/Relic Castle/Towerside 1F - Item"
                     },
                     {
-                        "name": "Towerside Front Room - Land Encounters",
+                        "name": "Front Room - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside Front Room - Land Encounters"
                     },
                     {
-                        "name": "Towerside B6F - Land Encounters",
+                        "name": "B6F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B6F - Land Encounters"
                     },
                     {
-                        "name": "Towerside B5F - Land Encounters",
+                        "name": "B5F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B5F - Land Encounters"
                     },
                     {
-                        "name": "Towerside B4F - Land Encounters",
+                        "name": "B4F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B4F - Land Encounters"
                     },
                     {
-                        "name": "Towerside B3F - Land Encounters",
+                        "name": "B3F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B3F - Land Encounters"
                     },
                     {
-                        "name": "Towerside B2F - Land Encounters",
+                        "name": "B2F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B2F - Land Encounters"
                     },
                     {
-                        "name": "Towerside B1F - Land Encounters",
+                        "name": "B1F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside B1F - Land Encounters"
                     },
                     {
-                        "name": "Towerside 1F - Land Encounters",
+                        "name": "1F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Towerside 1F - Land Encounters"
                     }
                 ],
@@ -14208,67 +14208,67 @@
                 "name": "\u200bRelic Castle Castleside",
                 "sections": [
                     {
-                        "name": "Castleside 1F - Item from backpacker",
+                        "name": "1F - Item from backpacker",
                         "ref": "Unova Locations/Relic Castle/Castleside 1F - Item from backpacker"
                     },
                     {
-                        "name": "Castleside B1F - Item",
+                        "name": "B1F - Item",
                         "ref": "Unova Locations/Relic Castle/Castleside B1F - Item"
                     },
                     {
-                        "name": "Castleside B1F - Hidden item",
+                        "name": "B1F - Hidden item",
                         "ref": "Unova Locations/Relic Castle/Castleside B1F - Hidden item"
                     },
                     {
-                        "name": "Castleside B2F - Item #1",
+                        "name": "B2F - Item #1",
                         "ref": "Unova Locations/Relic Castle/Castleside B2F - Item #1"
                     },
                     {
-                        "name": "Castleside B2F - Item #2",
+                        "name": "B2F - Item #2",
                         "ref": "Unova Locations/Relic Castle/Castleside B2F - Item #2"
                     },
                     {
-                        "name": "Castleside B3F - Item #1",
+                        "name": "B3F - Item #1",
                         "ref": "Unova Locations/Relic Castle/Castleside B3F - Item #1"
                     },
                     {
-                        "name": "Castleside B3F - Item #2",
+                        "name": "B3F - Item #2",
                         "ref": "Unova Locations/Relic Castle/Castleside B3F - Item #2"
                     },
                     {
-                        "name": "Castleside B4F - Item",
+                        "name": "B4F - Item",
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Item"
                     },
                     {
-                        "name": "Castleside B4F - Hidden item",
+                        "name": "B4F - Hidden item",
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Hidden item"
                     },
                     {
-                        "name": "Castleside 1F - Land Encounters",
+                        "name": "1F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside 1F - Land Encounters"
                     },
                     {
-                        "name": "Castleside B1F - Land Encounters",
+                        "name": "B1F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside B1F - Land Encounters"
                     },
                     {
-                        "name": "Castleside B2F - Land Encounters",
+                        "name": "B2F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside B2F - Land Encounters"
                     },
                     {
-                        "name": "Castleside B3F - Land Encounters",
+                        "name": "B3F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside B3F - Land Encounters"
                     },
                     {
-                        "name": "Castleside B4F - Land Encounters",
+                        "name": "B4F - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Land Encounters"
                     },
                     {
-                        "name": "Castleside Sand Room - Land Encounters",
+                        "name": "Sand Room - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside Sand Room - Land Encounters"
                     },
                     {
-                        "name": "Castleside Back Room - Land Encounters",
+                        "name": "Back Room - Land Encounters",
                         "ref": "Unova Locations/Relic Castle/Castleside Back Room - Land Encounters"
                     }
                 ],
@@ -16197,10 +16197,10 @@
                 ]
             },
             {
-                "name": "B1F - Doctor Wayne",
+                "name": "Doctor Wayne",
                 "sections": [
                     {
-                        "name": "B1F - Doctor Wayne (Seensanity)",
+                        "name": "Doctor Wayne (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Doctor Wayne (Seensanity)"
                     }
                 ],
@@ -16213,10 +16213,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 1",
+                "name": "Team Plasma Grunt 1",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 1 (Seensanity)",
+                        "name": "Team Plasma Grunt 1 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 1 (Seensanity)"
                     }
                 ],
@@ -16229,10 +16229,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 2",
+                "name": "Team Plasma Grunt 2",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 2 (Seensanity)",
+                        "name": "Team Plasma Grunt 2 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 2 (Seensanity)"
                     }
                 ],
@@ -16245,10 +16245,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 3",
+                "name": "Team Plasma Grunt 3",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 3 (Seensanity)",
+                        "name": "Team Plasma Grunt 3 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 3 (Seensanity)"
                     }
                 ],
@@ -16261,10 +16261,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 4",
+                "name": "Team Plasma Grunt 4",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 4 (Seensanity)",
+                        "name": "Team Plasma Grunt 4 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 4 (Seensanity)"
                     }
                 ],
@@ -16277,10 +16277,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 5",
+                "name": "Team Plasma Grunt 5",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 5 (Seensanity)",
+                        "name": "Team Plasma Grunt 5 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 5 (Seensanity)"
                     }
                 ],
@@ -16293,10 +16293,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 6",
+                "name": "Team Plasma Grunt 6",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 6 (Seensanity)",
+                        "name": "Team Plasma Grunt 6 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 6 (Seensanity)"
                     }
                 ],
@@ -16309,10 +16309,10 @@
                 ]
             },
             {
-                "name": "B1F - Team Plasma Grunt 7",
+                "name": "Team Plasma Grunt 7",
                 "sections": [
                     {
-                        "name": "B1F - Team Plasma Grunt 7 (Seensanity)",
+                        "name": "Team Plasma Grunt 7 (Seensanity)",
                         "ref": "Unova Locations/Chargestone Cave/B1F - Team Plasma Grunt 7 (Seensanity)"
                     }
                 ],
@@ -16891,11 +16891,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Upper Floor",
+                "name": "Twist Mountain 3F",
                 "sections": [
                     {
                         "name": "North east cave item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - North east cave item"
+                        "ref": "Unova Locations/Twist Mountain/3F - North east cave item"
                     }
                 ],
                 "map_locations": [
@@ -16907,11 +16907,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Upper Floor\u200b",
+                "name": "Twist Mountain 3F\u200b",
                 "sections": [
                     {
                         "name": "North east cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - North east cave hidden item"
+                        "ref": "Unova Locations/Twist Mountain/3F - North east cave hidden item"
                     }
                 ],
                 "map_locations": [
@@ -16923,11 +16923,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Upper Floor\u200b\u200b",
+                "name": "Twist Mountain 3F\u200b\u200b",
                 "sections": [
                     {
                         "name": "South east cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - South east cave hidden item"
+                        "ref": "Unova Locations/Twist Mountain/3F - South east cave hidden item"
                     }
                 ],
                 "map_locations": [
@@ -16943,7 +16943,7 @@
                 "sections": [
                     {
                         "name": "Worker Heath (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Worker Heath (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Worker Heath (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -16959,7 +16959,7 @@
                 "sections": [
                     {
                         "name": "Battle Girl Sharon (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Battle Girl Sharon (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Battle Girl Sharon (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -16975,7 +16975,7 @@
                 "sections": [
                     {
                         "name": "Hiker Darrell (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Hiker Darrell (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Hiker Darrell (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -16987,39 +16987,39 @@
                 ]
             },
             {
-                "name": "Twist Mountain Upper Floor Encounters",
+                "name": "Twist Mountain 3F Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Spring)"
                     },
                     {
                         "name": "Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Spring)"
                     },
                     {
                         "name": "Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Summer)"
                     },
                     {
                         "name": "Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Summer)"
                     },
                     {
                         "name": "Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Autumn)"
                     },
                     {
                         "name": "Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Autumn)"
                     },
                     {
                         "name": "Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Encounters (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Winter)"
                     },
                     {
                         "name": "Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Upper Floor - Land Phenomena (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17034,11 +17034,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor",
+                "name": "Twist Mountain Outside",
                 "sections": [
                     {
                         "name": "East item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - East item"
+                        "ref": "Unova Locations/Twist Mountain/Outside - East item"
                     }
                 ],
                 "map_locations": [
@@ -17050,11 +17050,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b",
+                "name": "Twist Mountain Outside\u200b",
                 "sections": [
                     {
                         "name": "North west item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North west item"
+                        "ref": "Unova Locations/Twist Mountain/Outside - North west item"
                     }
                 ],
                 "map_locations": [
@@ -17066,11 +17066,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b\u200b",
+                "name": "Twist Mountain Outside\u200b\u200b",
                 "sections": [
                     {
                         "name": "South item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - South item"
+                        "ref": "Unova Locations/Twist Mountain/Outside - South item"
                     }
                 ],
                 "map_locations": [
@@ -17082,11 +17082,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b\u200b\u200b",
+                "name": "Twist Mountain Outside\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West item",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - West item"
+                        "ref": "Unova Locations/Twist Mountain/Outside - West item"
                     }
                 ],
                 "map_locations": [
@@ -17098,11 +17098,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b\u200b\u200b\u200b",
+                "name": "Twist Mountain Outside\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "East hidden item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - East hidden item (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - East hidden item (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17114,11 +17114,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b\u200b\u200b\u200b\u200b",
+                "name": "Twist Mountain Outside\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "North hidden item #1 (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #1 (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - North hidden item #1 (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17130,11 +17130,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Main Floor\u200b\u200b\u200b\u200b\u200b\u200b",
+                "name": "Twist Mountain Outside\u200b\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "North hidden item #2 (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - North hidden item #2 (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - North hidden item #2 (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17150,7 +17150,7 @@
                 "sections": [
                     {
                         "name": "Ace Trainer Caroll (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Ace Trainer Caroll (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - Ace Trainer Caroll (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17166,7 +17166,7 @@
                 "sections": [
                     {
                         "name": "Doctor Hank (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Doctor Hank (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - Doctor Hank (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17182,7 +17182,7 @@
                 "sections": [
                     {
                         "name": "Worker Brand (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Main Floor - Worker Brand (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/Outside - Worker Brand (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17194,11 +17194,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor",
+                "name": "Twist Mountain 2F",
                 "sections": [
                     {
                         "name": "West cave item #1",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave item #1"
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave item #1"
                     }
                 ],
                 "map_locations": [
@@ -17210,11 +17210,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor\u200b",
+                "name": "Twist Mountain 2F\u200b",
                 "sections": [
                     {
                         "name": "West cave item #2",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave item #2"
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave item #2"
                     }
                 ],
                 "map_locations": [
@@ -17226,11 +17226,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor\u200b\u200b",
+                "name": "Twist Mountain 2F\u200b\u200b",
                 "sections": [
                     {
                         "name": "North cave item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - North cave item (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/2F - North cave item (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17242,11 +17242,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor\u200b\u200b\u200b",
+                "name": "Twist Mountain 2F\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "East cave hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - East cave hidden item"
+                        "ref": "Unova Locations/Twist Mountain/2F - East cave hidden item"
                     }
                 ],
                 "map_locations": [
@@ -17258,11 +17258,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor\u200b\u200b\u200b\u200b",
+                "name": "Twist Mountain 2F\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West cave hidden item #1",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave hidden item #1"
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave hidden item #1"
                     }
                 ],
                 "map_locations": [
@@ -17274,11 +17274,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor\u200b\u200b\u200b\u200b\u200b",
+                "name": "Twist Mountain 2F\u200b\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "West cave hidden item #2",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - West cave hidden item #2"
+                        "ref": "Unova Locations/Twist Mountain/2F - West cave hidden item #2"
                     }
                 ],
                 "map_locations": [
@@ -17294,7 +17294,7 @@
                 "sections": [
                     {
                         "name": "Worker Cairn (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Cairn (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Worker Cairn (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17310,7 +17310,7 @@
                 "sections": [
                     {
                         "name": "Hiker Neil (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Hiker Neil (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Hiker Neil (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17326,7 +17326,7 @@
                 "sections": [
                     {
                         "name": "Worker Rob (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Worker Rob (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Worker Rob (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17342,7 +17342,7 @@
                 "sections": [
                     {
                         "name": "Ace Trainer Jordan (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Ace Trainer Jordan (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Ace Trainer Jordan (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17354,39 +17354,39 @@
                 ]
             },
             {
-                "name": "Twist Mountain Middle Floor Encounters",
+                "name": "Twist Mountain 2F Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Spring)"
                     },
                     {
                         "name": "Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Spring)"
                     },
                     {
                         "name": "Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Summer)"
                     },
                     {
                         "name": "Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Summer)"
                     },
                     {
                         "name": "Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Autumn)"
                     },
                     {
                         "name": "Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Autumn)"
                     },
                     {
                         "name": "Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Encounters (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Winter)"
                     },
                     {
                         "name": "Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Middle Floor - Land Phenomena (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17401,11 +17401,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Lower Floor",
+                "name": "Twist Mountain 1F",
                 "sections": [
                     {
                         "name": "Little east cave item (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Little east cave item (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Little east cave item (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17417,11 +17417,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Lower Floor\u200b",
+                "name": "Twist Mountain 1F\u200b",
                 "sections": [
                     {
                         "name": "North west cave item (Spring, Summer, Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - North west cave item (Spring, Summer, Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/1F - North west cave item (Spring, Summer, Autumn)"
                     }
                 ],
                 "map_locations": [
@@ -17433,11 +17433,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Lower Floor\u200b\u200b",
+                "name": "Twist Mountain 1F\u200b\u200b",
                 "sections": [
                     {
                         "name": "North west cave hidden item (Spring, Summer, Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - North west cave hidden item (Spring, Summer, Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/1F - North west cave hidden item (Spring, Summer, Autumn)"
                     }
                 ],
                 "map_locations": [
@@ -17449,11 +17449,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Lower Floor\u200b\u200b\u200b",
+                "name": "Twist Mountain 1F\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from worker near ice rock cave",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Item from worker near ice rock cave"
+                        "ref": "Unova Locations/Twist Mountain/1F - Item from worker near ice rock cave"
                     }
                 ],
                 "map_locations": [
@@ -17469,7 +17469,7 @@
                 "sections": [
                     {
                         "name": "Worker Rich (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Worker Rich (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Worker Rich (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17485,7 +17485,7 @@
                 "sections": [
                     {
                         "name": "Black Belt Teppei (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Black Belt Teppei (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Black Belt Teppei (Seensanity)"
                     }
                 ],
                 "map_locations": [
@@ -17497,39 +17497,39 @@
                 ]
             },
             {
-                "name": "Twist Mountain Lower Floor Encounters",
+                "name": "Twist Mountain 1F Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Spring)"
                     },
                     {
                         "name": "Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Spring)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Spring)"
                     },
                     {
                         "name": "Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Summer)"
                     },
                     {
                         "name": "Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Summer)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Summer)"
                     },
                     {
                         "name": "Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Autumn)"
                     },
                     {
                         "name": "Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Autumn)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Autumn)"
                     },
                     {
                         "name": "Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Encounters (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Winter)"
                     },
                     {
                         "name": "Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Lower Floor - Land Phenomena (Winter)"
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -17547,8 +17547,8 @@
                 "name": "Twist Mountain Ice Rock Cave",
                 "sections": [
                     {
-                        "name": "Ice Cave - Item near ice rock",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Item near ice rock"
+                        "name": "Item near ice rock",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Item near ice rock"
                     }
                 ],
                 "map_locations": [
@@ -17563,36 +17563,36 @@
                 "name": "Twist Mountain Ice Rock Cave Encounters",
                 "sections": [
                     {
-                        "name": "Ice Cave - Land Encounters (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Spring)"
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Spring)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Spring)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Spring)"
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Spring)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Summer)"
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Summer)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Summer)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Summer)"
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Summer)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Autumn)"
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Autumn)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Autumn)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Autumn)"
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Autumn)"
                     },
                     {
-                        "name": "Ice Cave - Land Encounters (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Encounters (Winter)"
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Winter)"
                     },
                     {
-                        "name": "Ice Cave - Land Phenomena (Winter)",
-                        "ref": "Unova Locations/Twist Mountain/Ice Cave - Land Phenomena (Winter)"
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Winter)"
                     }
                 ],
                 "map_locations": [
@@ -19854,7 +19854,7 @@
                 "name": "N's Room",
                 "sections": [
                     {
-                        "name": "N's Castle 4F - N's room item",
+                        "name": "N's room item",
                         "ref": "Unova Locations/Pokémon League/N's Castle 4F - N's room item"
                     }
                 ],
