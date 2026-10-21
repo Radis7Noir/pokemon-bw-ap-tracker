@@ -654,20 +654,20 @@ function updateWildBattle(value, old_value)
     end
 
     if check1 and check2 then
-        Tracker:UiHint("ActivateTab", "Others")
-        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Bridges")
+        Tracker:UiHint("ActivateTab", "\u{200B}")
         Tracker:UiHint("ActivateTab", "Double Dexsanity")
     elseif check1 and id2 == 0 then
-        Tracker:UiHint("ActivateTab", "Others")
-        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Bridges")
+        Tracker:UiHint("ActivateTab", "\u{200B}")
         Tracker:UiHint("ActivateTab", "Single Dexsanity")
     elseif check1 then
-        Tracker:UiHint("ActivateTab", "Others")
-        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Bridges")
+        Tracker:UiHint("ActivateTab", "\u{200B}")
         Tracker:UiHint("ActivateTab", "Right Dexsanity")
     elseif check2 then
-        Tracker:UiHint("ActivateTab", "Others")
-        Tracker:UiHint("ActivateTab", " ")
+        Tracker:UiHint("ActivateTab", "Bridges")
+        Tracker:UiHint("ActivateTab", "\u{200B}")
         Tracker:UiHint("ActivateTab", "Left Dexsanity")
     else
         updateMap()

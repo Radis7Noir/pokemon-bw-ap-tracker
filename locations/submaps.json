@@ -4439,10 +4439,10 @@
                 "map_locations": [
                     {
                         "map": "undellatown",
-                        "x": 20,
-                        "y": 20,
-                        "size": 28,
-                        "border_thickness": 4,
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
                         "shape": "diamond"
                     }
                 ]
@@ -5888,11 +5888,11 @@
                 ]
             },
             {
-                "name": "Desert Resort Outside Encounters",
+                "name": "Desert Resort Entrance Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
-                        "ref": "Unova Locations/Desert Resort/Outside - Land Encounters"
+                        "ref": "Unova Locations/Desert Resort/Entrance - Land Encounters"
                     }
                 ],
                 "map_locations": [
@@ -13213,7 +13213,7 @@
                 "sections": [
                     {
                         "name": "Darmanitan Statue 1 (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 1 (Static)"
+                        "ref": "Unova Locations/Desert Resort/Darmanitan Statue 1 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -13229,7 +13229,7 @@
                 "sections": [
                     {
                         "name": "Darmanitan Statue 2 (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 2 (Static)"
+                        "ref": "Unova Locations/Desert Resort/Darmanitan Statue 2 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -13245,7 +13245,7 @@
                 "sections": [
                     {
                         "name": "Darmanitan Statue 3 (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 3 (Static)"
+                        "ref": "Unova Locations/Desert Resort/Darmanitan Statue 3 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -13261,7 +13261,7 @@
                 "sections": [
                     {
                         "name": "Darmanitan Statue 4 (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 4 (Static)"
+                        "ref": "Unova Locations/Desert Resort/Darmanitan Statue 4 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -13277,7 +13277,7 @@
                 "sections": [
                     {
                         "name": "Darmanitan Statue 5 (Static)",
-                        "ref": "Unova Locations/Desert Resort/Inside - Darmanitan Statue 5 (Static)"
+                        "ref": "Unova Locations/Desert Resort/Darmanitan Statue 5 (Static)"
                     }
                 ],
                 "map_locations": [
@@ -13417,11 +13417,11 @@
                 ]
             },
             {
-                "name": "Desert Resort Inside Encounters",
+                "name": "Desert Resort Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
-                        "ref": "Unova Locations/Desert Resort/Inside - Land Encounters"
+                        "ref": "Unova Locations/Desert Resort/Land Encounters"
                     }
                 ],
                 "map_locations": [
@@ -13555,8 +13555,8 @@
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Land Encounters"
                     },
                     {
-                        "name": "Castleside Sand Filled Room - Land Encounters",
-                        "ref": "Unova Locations/Relic Castle/Castleside Sand Filled Room - Land Encounters"
+                        "name": "Castleside Sand Room - Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside Sand Room - Land Encounters"
                     },
                     {
                         "name": "Castleside Back Room - Land Encounters",
@@ -14074,8 +14074,8 @@
                 "name": "Relic Castle Castleside Sand Room Encounters",
                 "sections": [
                     {
-                        "name": "Castleside Sand Filled Room - Land Encounters",
-                        "ref": "Unova Locations/Relic Castle/Castleside Sand Filled Room - Land Encounters"
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside Sand Room - Land Encounters"
                     }
                 ],
                 "map_locations": [
@@ -14264,8 +14264,8 @@
                         "ref": "Unova Locations/Relic Castle/Castleside B4F - Land Encounters"
                     },
                     {
-                        "name": "Castleside Sand Filled Room - Land Encounters",
-                        "ref": "Unova Locations/Relic Castle/Castleside Sand Filled Room - Land Encounters"
+                        "name": "Castleside Sand Room - Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside Sand Room - Land Encounters"
                     },
                     {
                         "name": "Castleside Back Room - Land Encounters",
@@ -15790,11 +15790,11 @@
                 ]
             },
             {
-                "name": "Chargestone Cave Outside",
+                "name": "Chargestone Cave Entrance",
                 "sections": [
                     {
                         "name": "TM from Clay",
-                        "ref": "Unova Locations/Chargestone Cave/Outside - TM from Clay"
+                        "ref": "Unova Locations/Chargestone Cave/Entrance - TM from Clay"
                     }
                 ],
                 "map_locations": [
@@ -15806,11 +15806,11 @@
                 ]
             },
             {
-                "name": "\u200bChargestone Cave Outside",
+                "name": "\u200bChargestone Cave Entrance",
                 "sections": [
                     {
                         "name": "TM from Clay",
-                        "ref": "Unova Locations/Chargestone Cave/Outside - TM from Clay"
+                        "ref": "Unova Locations/Chargestone Cave/Entrance - TM from Clay"
                     }
                 ],
                 "map_locations": [
@@ -16843,11 +16843,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Outside",
+                "name": "Twist Mountain Entrance",
                 "sections": [
                     {
                         "name": "Hidden item",
-                        "ref": "Unova Locations/Twist Mountain/Outside - Hidden item"
+                        "ref": "Unova Locations/Twist Mountain/Entrance - Hidden item"
                     }
                 ],
                 "map_locations": [
@@ -16859,11 +16859,11 @@
                 ]
             },
             {
-                "name": "Twist Mountain Outside\u200b",
+                "name": "Twist Mountain Entrance\u200b",
                 "sections": [
                     {
                         "name": "TM from Alder",
-                        "ref": "Unova Locations/Twist Mountain/Outside - TM from Alder"
+                        "ref": "Unova Locations/Twist Mountain/Entrance - TM from Alder"
                     }
                 ],
                 "map_locations": [
@@ -16879,7 +16879,7 @@
                 "sections": [
                     {
                         "name": "Hiker Terrell (Seensanity)",
-                        "ref": "Unova Locations/Twist Mountain/Outside - Hiker Terrell (Seensanity)"
+                        "ref": "Unova Locations/Twist Mountain/Entrance - Hiker Terrell (Seensanity)"
                     }
                 ],
                 "map_locations": [

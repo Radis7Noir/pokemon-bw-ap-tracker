@@ -10607,7 +10607,7 @@
                         ]
                     },
                     {
-                        "name": "Outside - Land Encounters",
+                        "name": "Entrance - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/sand.png",
                         "chest_opened_img": "images/locations/cleared/sand_cleared.png",
@@ -10750,7 +10750,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue 1 (Static)",
+                        "name": "Darmanitan Statue 1 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [
@@ -10761,7 +10761,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue 2 (Static)",
+                        "name": "Darmanitan Statue 2 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [
@@ -10772,7 +10772,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue 3 (Static)",
+                        "name": "Darmanitan Statue 3 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [
@@ -10783,7 +10783,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue 4 (Static)",
+                        "name": "Darmanitan Statue 4 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [
@@ -10794,7 +10794,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Darmanitan Statue 5 (Static)",
+                        "name": "Darmanitan Statue 5 (Static)",
                         "chest_unopened_img": "images/events/zendarmanitan.png",
                         "chest_opened_img": "images/events/cleared/zendarmanitan_cleared.png",
                         "access_rules": [
@@ -10805,7 +10805,7 @@
                         ]
                     },
                     {
-                        "name": "Inside - Land Encounters",
+                        "name": "Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/sand.png",
                         "chest_opened_img": "images/locations/cleared/sand_cleared.png",
@@ -11065,7 +11065,7 @@
                         ]
                     },
                     {
-                        "name": "Castleside Sand Filled Room - Land Encounters",
+                        "name": "Castleside Sand Room - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/sand.png",
                         "chest_opened_img": "images/locations/cleared/sand_cleared.png",
@@ -11908,7 +11908,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Outside - TM from Clay",
+                        "name": "Entrance - TM from Clay",
                         "chest_unopened_img": "images/locations/clay_tm.png",
                         "chest_opened_img": "images/locations/cleared/clay_tm_cleared.png",
                         "access_rules": [
@@ -13027,7 +13027,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Outside - Hidden item",
+                        "name": "Entrance - Hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
                         "access_rules": [
@@ -13038,7 +13038,7 @@
                         ]
                     },
                     {
-                        "name": "Outside - TM from Alder",
+                        "name": "Entrance - TM from Alder",
                         "chest_unopened_img": "images/locations/alder_hm03surf.png",
                         "chest_opened_img": "images/locations/cleared/alder_hm03surf_cleared.png",
                         "access_rules": [
@@ -13876,7 +13876,7 @@
                         ]
                     },
                     {
-                        "name": "Outside - Hiker Terrell (Seensanity)",
+                        "name": "Entrance - Hiker Terrell (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
                         "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",

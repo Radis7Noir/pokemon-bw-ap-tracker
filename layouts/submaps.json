@@ -249,6 +249,32 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "title": "Liberty Garden",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Island",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "libertygarden"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Lighthouse",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "libertygardenlighthouse"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -290,6 +316,15 @@
                                 "type": "map",
                                 "maps": [
                                     "nimbasagym"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Anville Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "anvilletown"
                                 ]
                             }
                         }
@@ -359,6 +394,41 @@
                                 "type": "map",
                                 "maps": [
                                     "driftveilmarket"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cold Storage",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Outside",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "coldstorageoutside"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Building",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "coldstorage"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Container",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "coldstoragecontainer"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         }
@@ -487,6 +557,102 @@
                 }
             },
             {
+                "title": "Pokémon League",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "League",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Entrance",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "pokemonleague"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Champion's Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "pokemonleaguechampionsroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "N's Castle",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "1F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastle1f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "2F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastle2f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "3F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastle3f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "4F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastle4f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "5F",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastle5f"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Throne Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nscastlethroneroom"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "title": "Lacunosa Town",
                 "content": {
                     "type": "map",
@@ -498,9 +664,26 @@
             {
                 "title": "Undella Town",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "undellatown"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Exterior",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "undellatown"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Bay",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "undellabay"
+                                ]
+                            }
+                        }
                     ]
                 }
             }
@@ -896,7 +1079,7 @@
             }
         ]
     },
-    "dungeons_a": {
+    "dungeons": {
         "type": "tabbed",
         "tabs": [
             {
@@ -1092,7 +1275,15 @@
                                                 "reliccastleb5f"
                                             ]
                                         }
-                                    },
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Basement",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
                                     {
                                         "title": "Back Room",
                                         "content": {
@@ -1101,15 +1292,7 @@
                                                 "reliccastleb7f"
                                             ]
                                         }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "title": "B7F",
-                            "content": {
-                                "type": "tabbed",
-                                "tabs": [
+                                    },
                                     {
                                         "title": "Maze",
                                         "content": {
@@ -1127,6 +1310,15 @@
                                                 "reliccastlevolcaronasroom"
                                             ]
                                         }
+                                    },
+                                    {
+                                        "title": "Front Room",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "reliccastletowerb7f"
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1136,15 +1328,6 @@
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
-                                    {
-                                        "title": "Front Room",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "reliccastletowerb7f"
-                                            ]
-                                        }
-                                    },
                                     {
                                         "title": "B6F",
                                         "content": {
@@ -1224,41 +1407,6 @@
                 }
             },
             {
-                "title": "Cold Storage",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Outside",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "coldstorageoutside"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Building",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "coldstorage"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Container",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "coldstoragecontainer"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
                 "title": "Mistralton Cave",
                 "content": {
                     "type": "tabbed",
@@ -1299,7 +1447,7 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Outside",
+                            "title": "Entrance",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1389,19 +1537,14 @@
                         }
                     ]
                 }
-            }
-        ]
-    },
-    "dungeons_b": {
-        "type": "tabbed",
-        "tabs": [
+            },
             {
                 "title": "Twist Mountain",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Outside",
+                            "title": "Entrance",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1410,7 +1553,7 @@
                             }
                         },
                         {
-                            "title": "Upper Level",
+                            "title": "3F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1419,7 +1562,7 @@
                             }
                         },
                         {
-                            "title": "Main Floor",
+                            "title": "Outside",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1428,7 +1571,7 @@
                             }
                         },
                         {
-                            "title": "Middle Level",
+                            "title": "2F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1437,7 +1580,7 @@
                             }
                         },
                         {
-                            "title": "Lower Level",
+                            "title": "1F",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1463,7 +1606,7 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Icirrus City Part",
+                            "title": "Entrance",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1680,74 +1823,12 @@
                 }
             },
             {
-                "title": "N's Castle",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "1F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastle1f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "2F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastle2f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "3F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastle3f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "4F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastle4f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "5F",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastle5f"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Throne Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "nscastlethroneroom"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
                 "title": "Giant Chasm",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Outside",
+                            "title": "Entrance",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1756,7 +1837,7 @@
                             }
                         },
                         {
-                            "title": "Entrance Cave",
+                            "title": "Cave",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1774,7 +1855,7 @@
                             }
                         },
                         {
-                            "title": "Kyurem's Cave",
+                            "title": "Kyurem's Room",
                             "content": {
                                 "type": "map",
                                 "maps": [
@@ -1782,15 +1863,6 @@
                                 ]
                             }
                         }
-                    ]
-                }
-            },
-            {
-                "title": "Undella Bay",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "undellabay"
                     ]
                 }
             },
@@ -1849,7 +1921,7 @@
             }
         ]
     },
-    "others": {
+    "bridges": {
         "type": "tabbed",
         "tabs": [
             {
@@ -1889,68 +1961,7 @@
                 }
             },
             {
-                "title": "Anville Town",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "anvilletown"
-                    ]
-                }
-            },
-            {
-                "title": "Liberty Garden",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Island",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "libertygarden"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Lighthouse",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "libertygardenlighthouse"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": "Pokémon League",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Entrance",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pokemonleague"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Champion's Room",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "pokemonleaguechampionsroom"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "title": " ",
+                "title": "\u200b",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
