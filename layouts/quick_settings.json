@@ -20,12 +20,16 @@
                                 "split"
                             ],
                             [
-                                "location_visibility",
-								"encounter_tracking"
+								"item_visibility",
+								"encounter_visibility"
                             ],
                             [
                                 "trainer_visibility",
-                                "hint_tracking"
+                                "encounter_tracking"
+                            ],
+                            [
+                                "hint_tracking",
+                                ""
                             ]
                         ]
                     }
@@ -52,9 +56,10 @@
                             [
                                 "auto_switch",
 								"split",
-								"location_visibility",
-								"encounter_tracking",
+								"item_visibility",
+                                "encounter_visibility",
                                 "trainer_visibility",
+								"encounter_tracking",
                                 "hint_tracking"
                             ]
                         ]

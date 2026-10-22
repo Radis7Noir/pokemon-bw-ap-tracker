@@ -815,29 +815,46 @@
         ]
     },
     {
+        "name": "Item Visibility",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "codes": "item_visibility",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Item and Event Locations - OFF",
+                "img": "/images/settings/show_items.png",
+                "img_mods": "@disabled",
+                "codes": "hide_items",
+                "inherit_codes": false
+            },
+            {
+                "name": "Item and Event Locations - ON",
+                "img": "/images/settings/show_items.png",
+                "codes": "show_items",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Encounter Visibility",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 0,
-        "codes": "location_visibility",
+        "codes": "encounter_visibility",
         "allow_disabled": false,
         "stages": [
             {
                 "name": "Encounter Locations - OFF",
                 "img": "/images/settings/show_encounters.png",
                 "img_mods": "@disabled",
-                "codes": "show_items",
+                "codes": "hide_mons",
                 "inherit_codes": false
             },
             {
                 "name": "Encounter Locations - ON",
                 "img": "/images/settings/show_encounters.png",
-                "codes": "show_items,show_mons",
-                "inherit_codes": false
-            },
-            {
-                "name": "Encounter Locations - ONLY",
-                "img": "/images/settings/show_encounters_only.png",
                 "codes": "show_mons",
                 "inherit_codes": false
             }
@@ -852,42 +869,42 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Trainer Team Locations - OFF",
+                "name": "Trainer Locations - OFF",
                 "img": "/images/settings/show_trainers.png",
                 "img_mods": "@disabled",
-                "codes": "trainer_visibility,hide_trainers",
+                "codes": "hide_trainers,hide_teams",
                 "inherit_codes": false
             },
             {
-                "name": "Trainer Team Locations - ON",
+                "name": "Trainer Locations - Show Teams",
                 "img": "/images/settings/show_trainers.png",
-                "codes": "trainer_visibility,show_trainers",
+                "codes": "show_teams",
                 "inherit_codes": false
             }
         ]
     },
     {
-        "name": "Encounter Tracking",
+        "name": "Pokémon Tracking",
         "type": "progressive",
         "loop": true,
         "initial_stage_idx": 2,
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Encounter Tracking - OFF (Manual Tracking)",
+                "name": "Pokémon Tracking - OFF (Manual Tracking)",
                 "img": "/images/settings/encounter_tracking_off.png",
                 "img_mods": "@disabled",
                 "codes": "encounter_tracking, encounter_tracking_off",
                 "inherit_codes": false
             },
             {
-                "name": "Encounter Tracking - Keep all Pokémon until caught",
+                "name": "Pokémon Tracking - Keep all Pokémon until caught",
                 "img": "/images/settings/encounter_tracking_all.png",
                 "codes": "encounter_tracking, encounter_tracking_all",
                 "inherit_codes": false
             },
             {
-                "name": "Encounter Tracking - Only show required Pokémon (skip pre-evolutions)",
+                "name": "Pokémon Tracking - Only show required Pokémon (skips pre-evolutions)",
                 "img": "/images/settings/encounter_tracking_req.png",
                 "codes": "encounter_tracking, encounter_tracking_req",
                 "inherit_codes": false

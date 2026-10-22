@@ -119,7 +119,8 @@ end
 SEARCH_VISIBILITY_STAGES = {
     static_visibility = 0,
     trade_visibility = 0, -- we still want statics and trades even if they're not in logic because why not :D
-    location_visibility = 2, -- encounters are set to ONLY during a search
+    item_visibility = 0,
+    encounter_visibility = 1,
     trainer_visibility = 0
 }
 -- we track the stages before the search
