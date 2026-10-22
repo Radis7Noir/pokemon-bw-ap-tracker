@@ -296,9 +296,9 @@ function onClear(slot_data)
     local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
     local shinyformsanity = Tracker:FindObjectForCode("shinyformsanity").AcquiredCount
     if dexsanity > 0 or seensanity > 0 or shinysanity > 0 or formsanity > 0 or shinyformsanity > 0 then
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 1
+        Tracker:FindObjectForCode("encounter_visibility").CurrentStage = 1
     else
-        Tracker:FindObjectForCode("location_visibility").CurrentStage = 0
+        Tracker:FindObjectForCode("encounter_visibility").CurrentStage = 0
     end
 
     if has("consider_trainers_true") and (seensanity > 0 or formsanity > 0) then
