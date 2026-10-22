@@ -1,0 +1,3920 @@
+[
+    {
+        "name": "Encounters",
+        "children": [
+            {
+                "name": "Striaton City Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Striaton City/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Striaton City/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Striaton City/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Striaton City/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "striatongarden",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil City Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Driftveil City/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Driftveil City/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Driftveil City/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Driftveil City/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity_w",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Driftveil Drawbridge Encounters",
+                "sections": [
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Driftveil Drawbridge/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "driftveilcity_e",
+                        "x": 464,
+                        "y": 193,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route5",
+                        "x": 16,
+                        "y": 240,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity_w",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Icirrus City Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Icirrus City/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "icirruscity_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Undella Town Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Undella Town/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Undella Town/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Undella Town/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Undella Town/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellatown",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 Encounters",
+                "sections": [
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 1/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 1/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 1/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 1/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 1/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 1 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 1/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 1/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 1/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 1/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 1/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 1/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route1_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 2 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 2/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 2/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route2_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route2_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 3 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 3/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 3/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 3/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 3/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 3/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 3/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 3/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route3_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 4 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 4/Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route4_nw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route4_ne",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route4_se",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 4 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 4/Land Encounters"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 4/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 4/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 4/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 4/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route4_sw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort Entrance Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Desert Resort/Entrance - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresortoutside",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 5 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 5/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 5/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 5/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route5",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 6 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route6_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 6 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Spring)"
+                    },
+
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 6/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route6_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+        {
+                "name": "Route 7 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route7_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 7 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Route 7/Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 7/Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route7_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 8 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Route 8/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 8/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Route 8/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Route 8/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route8",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 9 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 9/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 9/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 9/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route9",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 10 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 10/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 10/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 10/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route10_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 10 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 10/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 10/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route10_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "\u200bBadge Gates Encounters",
+                "sections": [
+                    {
+                        "name": "Insect Badge Gate - Land Encounters",
+                        "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Land Encounters"
+                    },
+                    {
+                        "name": "Insect Badge Gate - Dark Grass Encounters",
+                        "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Insect Badge Gate - Land Phenomena",
+                        "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route10_e",
+                        "x": 296,
+                        "y": 152,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 11 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 11/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 11/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 11/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 11/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 11/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 11/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 11/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route11",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 12 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 12/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 12/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 12/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route12",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route13_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route13_c",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 13/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route13_sw",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 13 Encounters\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 13/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 13/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 13/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 13/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 13/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 13/Rod Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Route 13/Rock Smash Dwebble"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route13_se",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 14 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 14/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 14/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 14/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 14/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 14/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 14/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route14_w",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 14 Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 14/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 14/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 14/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 14/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 14/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 14/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 14/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route14_e",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 15 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 15/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 15/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 15/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route15",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 16 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 16/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 16/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 16/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route16",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 17 Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 17/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 17/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 17/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 17/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route17_p2lab",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Route 18 Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Route 18/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Route 18/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Route 18/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Route 18/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Route 18/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Route 18/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Route 18/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route18",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "P2 Laboratory Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/P2 Laboratory/Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/P2 Laboratory/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/P2 Laboratory/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/P2 Laboratory/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/P2 Laboratory/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/P2 Laboratory/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "route17_p2lab",
+                        "x": 44,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dreamyard Ruins Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Dreamyard/Ruins - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyard",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dreamyard Basement Encounters",
+                "sections": [
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Dreamyard/Basement - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Dreamyard/Basement - Rock Smash Dwebble"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dreamyardbasement",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rod Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Wellspring Cave/1F - Rock Smash Dwebble"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcave1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Wellspring Cave B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Wellspring Cave/B1F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "wellspringcaveb1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_n",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Outside Encounters\u200b",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforestentrance_s",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Pinwheel Forest Inside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Pinwheel Forest/Inside - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "pinwheelforest",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Desert Resort Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Desert Resort/Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "desertresort",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside 1F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastle1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside B1F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside B2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside B2F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside B3F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside B3F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb3f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside B4F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside B4F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb4f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside Sand Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside Sand Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb5f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Castleside Back Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Castleside Back Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastleb7f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Top Right Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Top Right Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 700,
+                        "y": 26,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Right of Top Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Right of Top Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 536,
+                        "y": 26,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Top Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Top Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 372,
+                        "y": 26,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Left of Top Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Left of Top Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 206,
+                        "y": 26,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Top Left Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Top Left Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 42,
+                        "y": 26,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Below Top Left Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Below Top Left Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 42,
+                        "y": 126,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Left of Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Left of Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 152,
+                        "y": 126,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 372,
+                        "y": 126,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Right of Center Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Right of Center Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 590,
+                        "y": 126,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Below Top Right Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Below Top Right Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 700,
+                        "y": 126,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Bottom Right Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Bottom Right Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 590,
+                        "y": 242,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Right of Volcarona Entrance Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Right of Volcarona Entrance - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 480,
+                        "y": 242,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Volcarona Entrance Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Volcarona Entrance - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 372,
+                        "y": 242,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Left of Volcarona Entrance Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Left of Volcarona Entrance - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 262,
+                        "y": 242,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Bottom Left Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Bottom Left - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlemaze",
+                        "x": 152,
+                        "y": 242,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Basement Volcarona Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Basement Volcarona Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastlevolcaronasroom",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside Front Room Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside Front Room - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb7f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B6F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B6F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb6f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B5F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B5F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb5f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B4F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B4F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb4f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B3F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B3F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb3f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B2F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside B1F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletowerb1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Relic Castle Towerside 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Relic Castle/Towerside 1F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "reliccastletower1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Lostlorn Forest Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Lostlorn Forest/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Lostlorn Forest/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Lostlorn Forest/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Lostlorn Forest/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Lostlorn Forest/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Lostlorn Forest/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Lostlorn Forest/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "lostlornforest",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Cold Storage Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Cold Storage/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Cold Storage/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Cold Storage/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "coldstorageoutside",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Mistralton Cave/1F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncave1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Cave 2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Mistralton Cave/2F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Mistralton Cave/2F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mistraltoncave2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Mistralton Cave Guidance Chamber Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Mistralton Cave/Guidance Chamber - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Mistralton Cave/Guidance Chamber - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "guidancechamber",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Chargestone Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/1F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecave1f",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Chargestone Cave B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/B1F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Chargestone Cave B2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Chargestone Cave/B2F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "chargestonecaveb2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Celestial Tower 2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Celestial Tower/2F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Celestial Tower 3F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Celestial Tower/3F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower3f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Celestial Tower 4F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Celestial Tower/4F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower4f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Celestial Tower Top Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Celestial Tower/Top - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celestialtower5f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain 3F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/3F - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainupperlevel",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain 2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/2F - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainmiddlelevel",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/1F - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainlowerlevel",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Twist Mountain Ice Rock Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Twist Mountain/Ice Rock Cave - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "twistmountainicerockcave",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Entrance Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Entrance - Land Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltowerentrance",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Dark Grass Encounters (Spring)"
+                    },
+                    {
+                        "name": "Land Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Dark Grass Encounters (Summer)"
+                    },
+                    {
+                        "name": "Land Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Dark Grass Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Land Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Land Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Encounters (Winter)"
+                    },
+                    {
+                        "name": "Dark Grass Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Dark Grass Encounters (Winter)"
+                    },
+                    {
+                        "name": "Land Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Land Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Dragonspiral Tower/Outside - Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltoweroutside",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/1F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Dragonspiral Tower 2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Dragonspiral Tower/2F - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dragonspiraltower2f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Moor of Icirrus Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Land Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Land Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Land Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Moor of Icirrus/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mooroficirrus",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave 1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/1F - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscave1f",
+                        "x": 12,
+                        "y": 12,
+                        "size": 14,
+                        "border_thickness": 2,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B1F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Land Phenomena"
+                    },
+                    {
+                        "name": "Rock Smash Dwebble",
+                        "ref": "Unova Locations/Challenger's Cave/B1F - Rock Smash Dwebble"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb1f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Challenger's Cave B2F Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Challenger's Cave/B2F - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "challengerscaveb2f",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/Outside - Land Encounters"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadoutside",
+                        "x": 28,
+                        "y": 28,
+                        "size": 35,
+                        "border_thickness": 5,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Middle Cave - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 556,
+                        "y": 42,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Right Cave - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 958,
+                        "y": 264,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 1F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/1F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/1F Left Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad1f",
+                        "x": 46,
+                        "y": 190,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 2F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/2F Left Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 236,
+                        "y": 36,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 2F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/2F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/2F Right Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad2f",
+                        "x": 565,
+                        "y": 65,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Left Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 38,
+                        "y": 40,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Middle Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 406,
+                        "y": 114,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 3F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/3F Right Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad3f",
+                        "x": 770,
+                        "y": 202,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Left Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Left Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 72,
+                        "y": 316,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Middle Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Middle Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 462,
+                        "y": 440,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 4F Right Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/4F Right Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad4f",
+                        "x": 752,
+                        "y": 216,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 5F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/5F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/5F Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad5f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 6F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/6F Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad6f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road 7F Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/7F Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/7F Cave - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad7f",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Trial Chamber Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Victory Road/Trial Chamber - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroadtrialchamber",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Outside Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Outside - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Outside - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Outside - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmentrance",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Entrance Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Entrance Cave - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcave",
+                        "x": 30,
+                        "y": 30,
+                        "size": 42,
+                        "border_thickness": 6,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Crater Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Crater - Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmcrater",
+                        "x": 30,
+                        "y": 30,
+                        "size": 42,
+                        "border_thickness": 6,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Giant Chasm Inner Cave Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Land Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Giant Chasm/Inner Cave - Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "giantchasmdepths",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Undella Bay Encounters",
+                "sections": [
+                    {
+                        "name": "Surf Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Spring)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Rod Encounters (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Spring)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Spring)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Spring)"
+                    },
+                    {
+                        "name": "Surf Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Summer)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Rod Encounters (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Summer)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Summer)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Summer)"
+                    },
+                    {
+                        "name": "Surf Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Rod Encounters (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Autumn)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Autumn)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Autumn)"
+                    },
+                    {
+                        "name": "Surf Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Encounters (Winter)"
+                    },
+                    {
+                        "name": "Surf Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Surf Phenomena (Winter)"
+                    },
+                    {
+                        "name": "Rod Encounters (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Encounters (Winter)"
+                    },
+                    {
+                        "name": "Rod Phenomena (Winter)",
+                        "ref": "Unova Locations/Undella Bay/Rod Phenomena (Winter)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "undellabay",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Abundant Shrine Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Abundant Shrine/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Abundant Shrine/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abundantshrine",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Village Bridge Encounters",
+                "sections": [
+                    {
+                        "name": "Land Encounters",
+                        "ref": "Unova Locations/Village Bridge/Land Encounters"
+                    },
+                    {
+                        "name": "Dark Grass Encounters",
+                        "ref": "Unova Locations/Village Bridge/Dark Grass Encounters"
+                    },
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Land Phenomena"
+                    },
+                    {
+                        "name": "Surf Encounters",
+                        "ref": "Unova Locations/Village Bridge/Surf Encounters"
+                    },
+                    {
+                        "name": "Surf Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Surf Phenomena"
+                    },
+                    {
+                        "name": "Rod Encounters",
+                        "ref": "Unova Locations/Village Bridge/Rod Encounters"
+                    },
+                    {
+                        "name": "Rod Phenomena",
+                        "ref": "Unova Locations/Village Bridge/Rod Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "villagebridge",
+                        "x": 20,
+                        "y": 20,
+                        "size": 28,
+                        "border_thickness": 4,
+                        "shape": "diamond"
+                    }
+                ]
+            },
+            {
+                "name": "Marvelous Bridge Encounters",
+                "sections": [
+                    {
+                        "name": "Land Phenomena",
+                        "ref": "Unova Locations/Marvelous Bridge/Land Phenomena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "marvelousbridge",
+                        "x": 16,
+                        "y": 16,
+                        "size": 21,
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    }
+]
