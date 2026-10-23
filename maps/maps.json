@@ -108,12 +108,6 @@
         "img": "images/maps/casteliabattlecompany55f.png"
     },
     {
-        "name": "nimbasacity",
-        "location_size": 14,
-        "location_border_thickness": 2,
-        "img": "images/maps/nimbasacity.png"
-    },
-    {
         "name": "nimbasagym",
         "location_size": 14,
         "location_border_thickness": 2,
