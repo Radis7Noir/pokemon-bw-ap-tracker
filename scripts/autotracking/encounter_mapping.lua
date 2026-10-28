@@ -584,7 +584,7 @@ REGION_ENCOUNTER_MAPPING = {
     ["Relic Castle Basement Below Top Right Room Encounters"] = {"@Unova Locations/Relic Castle/Basement Below Top Right Room - Land Encounters"},
     ["Relic Castle Basement Bottom Right Room Encounters"] = {"@Unova Locations/Relic Castle/Basement Bottom Right Room - Land Encounters"},
     ["Relic Castle Basement Below Top Left Room Encounters"] = {"@Unova Locations/Relic Castle/Basement Below Top Left Room - Land Encounters"},
-    ["Relic Castle Basement Bottom Left Encounters"] = {"@Unova Locations/Relic Castle/Basement Bottom Left - Land Encounters"},
+    ["Relic Castle Basement Bottom Left Room Encounters"] = {"@Unova Locations/Relic Castle/Basement Bottom Left Room - Land Encounters"},
     ["Relic Castle Basement Volcarona Entrance Encounters"] = {"@Unova Locations/Relic Castle/Basement Volcarona Entrance - Land Encounters"},
     ["Relic Castle Basement Volcarona Room Encounters"] = {"@Unova Locations/Relic Castle/Basement Volcarona Room - Land Encounters"},
 
@@ -797,8 +797,9 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Village Bridge/Surf Encounters",
     "@Unova Locations/Village Bridge/Surf Phenomena",
     "@Unova Locations/Village Bridge/Rod Encounters",
-    "@Unova Locations/Village Bridge/Rod Phenomena",
-    "@Unova Locations/Marvelous Bridge/Land Phenomena"},
+    "@Unova Locations/Village Bridge/Rod Phenomena"},
+
+    ["Marvelous Bridge Encounters"] = {"@Unova Locations/Marvelous Bridge/Land Phenomena"},
 
     ["Route 1 Encounters"] = {"@Unova Locations/Route 1/Land Encounters",  -- West
     "@Unova Locations/Route 1/Land Phenomena",
@@ -910,7 +911,7 @@ REGION_ENCOUNTER_MAPPING = {
     ["Mistralton Cave 2F Encounters"] = {"@Unova Locations/Mistralton Cave/2F - Land Encounters",
     "@Unova Locations/Mistralton Cave/2F - Land Phenomena"},
 
-    ["Guidance Chamber 1F Encounters"] = {"@Unova Locations/Mistralton Cave/Guidance Chamber - Land Encounters",
+    ["Guidance Chamber Encounters"] = {"@Unova Locations/Mistralton Cave/Guidance Chamber - Land Encounters",
     "@Unova Locations/Mistralton Cave/Guidance Chamber - Land Phenomena"},
 
     ["Route 7 Encounters"] = {"@Unova Locations/Route 7/Land Encounters (Spring)",  -- West
@@ -1004,7 +1005,7 @@ REGION_ENCOUNTER_MAPPING = {
     ["Route 10 Encounters"] = {"@Unova Locations/Route 10/Land Encounters",  -- East
     "@Unova Locations/Route 10/Land Phenomena"},
 
-    ["Badge Gates Encounters"] = {"@Unova Locations/Badge Gates/Insect Badge Gate - Land Encounters",
+    ["Insect Badge Gate Encounters"] = {"@Unova Locations/Badge Gates/Insect Badge Gate - Land Encounters",
     "@Unova Locations/Badge Gates/Insect Badge Gate - Dark Grass Encounters",
     "@Unova Locations/Badge Gates/Insect Badge Gate - Land Phenomena"},
 
