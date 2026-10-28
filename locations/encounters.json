@@ -2148,11 +2148,11 @@
                 ]
             },
             {
-                "name": "Relic Castle Basement Bottom Left Encounters",
+                "name": "Relic Castle Basement Bottom Left Room Encounters",
                 "sections": [
                     {
                         "name": "Land Encounters",
-                        "ref": "Unova Locations/Relic Castle/Basement Bottom Left - Land Encounters"
+                        "ref": "Unova Locations/Relic Castle/Basement Bottom Left Room - Land Encounters"
                     }
                 ],
                 "map_locations": [

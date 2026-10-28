@@ -71,7 +71,7 @@
     {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Desert Resort Entrance Encounters"], "visibility_rules": ["yyy"]},
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Desert Resort Entrance Encounters"], "visibility_rules": ["zzz"]}
 ],
-"map_locations": [{"map": "desertresortentrance", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "desertresortoutside", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Desert Resort Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Desert Resort Encounters"], "visibility_rules": ["xxx"]},
@@ -154,6 +154,13 @@
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["xxx"]},
     {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["yyy"]},
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["zzz"]}
+],
+"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+{"name": "Relic Castle Basement Right of Top Center Room Encounter Sanities",
+"sections": [
+    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["xxx"]},
+    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["yyy"]},
+    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["zzz"]}
 ],
 "map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Top Center Room Encounter Sanities",
@@ -527,13 +534,6 @@
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|shiny|Undella Bay Encounters"], "visibility_rules": ["zzz"]}
 ],
 "map_locations": [{"map": "undellabay", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
-{"name": "Undella Bay Encounter Sanities",
-"sections": [
-    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|dex|Undella Bay Encounters"], "visibility_rules": ["xxx"]},
-    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|seen|Undella Bay Encounters"], "visibility_rules": ["yyy"]},
-    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|shiny|Undella Bay Encounters"], "visibility_rules": ["zzz"]}
-],
-"map_locations": [{"map": "undellabay", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Driftveil Drawbridge Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Driftveil Drawbridge Encounters"], "visibility_rules": ["xxx"]},
@@ -543,9 +543,9 @@
 "map_locations": [{"map": "driftveilcity_e", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}, {"map": "route5", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Village Bridge Encounter Sanities",
 "sections": [
-    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|dex|Village Bridge Encounters"], "visibility_rules": ["xxx"]},
-    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|seen|Village Bridge Encounters"], "visibility_rules": ["yyy"]},
-    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|shiny|Village Bridge Encounters"], "visibility_rules": ["zzz"]}
+    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|dex|Village Bridge Encounters"], "visibility_rules": ["xxx"]},
+    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|seen|Village Bridge Encounters"], "visibility_rules": ["yyy"]},
+    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|shiny|Village Bridge Encounters"], "visibility_rules": ["zzz"]}
 ],
 "map_locations": [{"map": "villagebridge", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Marvelous Bridge Encounter Sanities",
@@ -694,7 +694,7 @@
     {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Celestial Tower Top Encounters"], "visibility_rules": ["yyy"]},
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Celestial Tower Top Encounters"], "visibility_rules": ["zzz"]}
 ],
-"map_locations": [{"map": "celestialtowertop", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "celestialtower5f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 8 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 116, "access_rules": ["^$remaining_sanity|dex|Route 8 Encounters"], "visibility_rules": ["xxx"]},
@@ -732,9 +732,9 @@
 "map_locations": [{"map": "challengerscaveb1f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Challenger's Cave B2F Encounter Sanities",
 "sections": [
-    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Challenger's Cave B2F Encounters"], "visibility_rules": ["xxx"]},
-    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Challenger's Cave B2F Encounters"], "visibility_rules": ["yyy"]},
-    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Challenger's Cave B2F Encounters"], "visibility_rules": ["zzz"]}
+    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|dex|Challenger's Cave B2F Encounters"], "visibility_rules": ["xxx"]},
+    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|Challenger's Cave B2F Encounters"], "visibility_rules": ["yyy"]},
+    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|Challenger's Cave B2F Encounters"], "visibility_rules": ["zzz"]}
 ],
 "map_locations": [{"map": "challengerscaveb2f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 10 Encounter Sanities",
@@ -813,7 +813,7 @@
     {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|seen|Abundant Shrine Encounters"], "visibility_rules": ["yyy"]},
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|shiny|Abundant Shrine Encounters"], "visibility_rules": ["zzz"]}
 ],
-"map_locations": [{"map": "abundntshrine", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "abundantshrine", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 15 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|dex|Route 15 Encounters"], "visibility_rules": ["xxx"]},
@@ -849,20 +849,13 @@
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|shiny|Undella Town Encounters"], "visibility_rules": ["zzz"]}
 ],
 "map_locations": [{"map": "undellatown", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
-{"name": "Undella Town Encounter Sanities",
-"sections": [
-    {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|dex|Undella Town Encounters"], "visibility_rules": ["xxx"]},
-    {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|seen|Undella Town Encounters"], "visibility_rules": ["yyy"]},
-    {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|shiny|Undella Town Encounters"], "visibility_rules": ["zzz"]}
-],
-"map_locations": [{"map": "undellatown", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 17 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "aaa.png", "chest_opened_img": "a_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|dex|Route 17 Encounters"], "visibility_rules": ["xxx"]},
     {"name": "Seens left", "chest_unopened_img": "bbb.png", "chest_opened_img": "b_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|seen|Route 17 Encounters"], "visibility_rules": ["yyy"]},
     {"name": "Shinies left", "chest_unopened_img": "ccc.png", "chest_opened_img": "c_cleared.png", "item_count": 20, "access_rules": ["^$remaining_sanity|shiny|Route 17 Encounters"], "visibility_rules": ["zzz"]}
 ],
-"map_locations": [{"map": "route17_p2lab", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "route17_p2lab", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]}
         ]
     }
 ]

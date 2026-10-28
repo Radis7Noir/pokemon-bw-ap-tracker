@@ -62,7 +62,7 @@ ENCOUNTER_MAPPING = {
     ["ReCastle (B7F UTR) - G"] = {"@Unova Locations/Relic Castle/Basement Below Top Right Room - Land Encounters"},
     ["ReCastle (B7F BoR) - G"] = {"@Unova Locations/Relic Castle/Basement Bottom Right Room - Land Encounters"},
     ["ReCastle (B7F UTL) - G"] = {"@Unova Locations/Relic Castle/Basement Below Top Left Room - Land Encounters"},
-    ["ReCastle (B7F BoL) - G"] = {"@Unova Locations/Relic Castle/Basement Bottom Left - Land Encounters"},
+    ["ReCastle (B7F BoL) - G"] = {"@Unova Locations/Relic Castle/Basement Bottom Left Room - Land Encounters"},
     ["ReCastle (B7F VE) - G"] = {"@Unova Locations/Relic Castle/Basement Volcarona Entrance - Land Encounters"},
     ["ReCastle (VR) - G"] = {"@Unova Locations/Relic Castle/Basement Volcarona Room - Land Encounters"},
     ["ReCastle (To FrR) - G"] = {"@Unova Locations/Relic Castle/Towerside Front Room - Land Encounters"},
@@ -801,14 +801,14 @@ REGION_ENCOUNTER_MAPPING = {
 
     ["Marvelous Bridge Encounters"] = {"@Unova Locations/Marvelous Bridge/Land Phenomena"},
 
-    ["Route 1 Encounters"] = {"@Unova Locations/Route 1/Land Encounters",  -- West
-    "@Unova Locations/Route 1/Land Phenomena",
+    ["Route 1 Encounters"] = {"@Unova Locations/Route 1/Dark Grass Encounters",  -- West
     "@Unova Locations/Route 1/Surf Encounters",
     "@Unova Locations/Route 1/Surf Phenomena",
     "@Unova Locations/Route 1/Rod Encounters",
     "@Unova Locations/Route 1/Rod Phenomena"},
 
-    ["Route 1 Encounters\u{200B}"] = {"@Unova Locations/Route 1/Dark Grass Encounters",  -- East
+    ["Route 1 Encounters\u{200B}"] = {"@Unova Locations/Route 1/Land Encounters",  -- East
+    "@Unova Locations/Route 1/Land Phenomena",
     "@Unova Locations/Route 1/Surf Encounters",
     "@Unova Locations/Route 1/Surf Phenomena",
     "@Unova Locations/Route 1/Rod Encounters",
@@ -1002,7 +1002,7 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Route 10/Dark Grass Encounters",
     "@Unova Locations/Route 10/Land Phenomena"},
 
-    ["Route 10 Encounters"] = {"@Unova Locations/Route 10/Land Encounters",  -- East
+    ["Route 10 Encounters\u{200B}"] = {"@Unova Locations/Route 10/Land Encounters",  -- East
     "@Unova Locations/Route 10/Land Phenomena"},
 
     ["Insect Badge Gate Encounters"] = {"@Unova Locations/Badge Gates/Insect Badge Gate - Land Encounters",
@@ -1037,7 +1037,6 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Route 13/Rod Phenomena"},
 
     ["Route 13 Encounters\u{200B}\u{200B}"] = {"@Unova Locations/Route 13/Land Encounters",  -- SE
-    "@Unova Locations/Route 13/Dark Grass Encounters",
     "@Unova Locations/Route 13/Land Phenomena",
     "@Unova Locations/Route 13/Surf Encounters",
     "@Unova Locations/Route 13/Surf Phenomena",
@@ -1051,7 +1050,7 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Route 14/Rod Encounters",
     "@Unova Locations/Route 14/Rod Phenomena"},
 
-    ["Route 14 Encounters"] = {"@Unova Locations/Route 14/Land Encounters",  -- East
+    ["Route 14 Encounters\u{200B}"] = {"@Unova Locations/Route 14/Land Encounters",  -- East
     "@Unova Locations/Route 14/Dark Grass Encounters",
     "@Unova Locations/Route 14/Land Phenomena",
     "@Unova Locations/Route 14/Surf Encounters",

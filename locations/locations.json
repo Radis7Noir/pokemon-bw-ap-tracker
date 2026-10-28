@@ -11327,7 +11327,7 @@
                         ]
                     },
                     {
-                        "name": "Basement Bottom Left - Land Encounters",
+                        "name": "Basement Bottom Left Room - Land Encounters",
                         "item_count": 12,
                         "chest_unopened_img": "images/locations/tower.png",
                         "chest_opened_img": "images/locations/cleared/tower_cleared.png",
