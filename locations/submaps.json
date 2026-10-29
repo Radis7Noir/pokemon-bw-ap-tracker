@@ -16200,8 +16200,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle2f",
-                        "x": 1012,
-                        "y": 88
+                        "x": 728,
+                        "y": 121
                     }
                 ]
             },
@@ -16216,8 +16216,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle3f",
-                        "x": 764,
-                        "y": 116
+                        "x": 344,
+                        "y": 146
                     }
                 ]
             },
@@ -16232,8 +16232,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle3f",
-                        "x": 484,
-                        "y": 82
+                        "x": 72,
+                        "y": 118
                     }
                 ]
             },
@@ -16248,8 +16248,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle4f",
-                        "x": 774,
-                        "y": 222
+                        "x": 504,
+                        "y": 223
                     }
                 ]
             },
@@ -16264,8 +16264,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle4f",
-                        "x": 424,
-                        "y": 124
+                        "x": 168,
+                        "y": 131
                     }
                 ]
             },
@@ -16308,8 +16308,8 @@
                 "map_locations": [
                     {
                         "map": "nscastle5f",
-                        "x": 870,
-                        "y": 96
+                        "x": 408,
+                        "y": 223
                     }
                 ]
             },
@@ -16352,8 +16352,8 @@
                 "map_locations": [
                     {
                         "map": "nscastlethroneroom",
-                        "x": 232,
-                        "y": 486
+                        "x": 256,
+                        "y": 512
                     }
                 ]
             },

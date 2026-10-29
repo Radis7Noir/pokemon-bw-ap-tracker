@@ -853,32 +853,32 @@
     },
     {
         "name": "nscastle1f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nscastle1f.png"
     },
     {
         "name": "nscastle2f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nscastle2f.png"
     },
     {
         "name": "nscastle3f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nscastle3f.png"
     },
     {
         "name": "nscastle4f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nscastle4f.png"
     },
     {
         "name": "nscastle5f",
-        "location_size": 21,
-        "location_border_thickness": 3,
+        "location_size": 14,
+        "location_border_thickness": 2,
         "img": "images/maps/nscastle5f.png"
     },
     {
