@@ -785,6 +785,94 @@
                         "visibility_rules": [
                             "show_mons,show_statics"
                         ]
+                    },
+                    {
+                        "name": "Museum - Normal Forme Deoxys (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/386.png",
+                        "chest_opened_img": "images/pokemon/cleared/386_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|386_0"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Normal Forme Deoxys (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/386.png",
+                        "chest_opened_img": "images/pokemon/cleared/386_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|386_0"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Attack Forme Deoxys (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_2.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_2_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|386_1"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Attack Forme Deoxys (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_2.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_2_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|386_1"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Defense Forme Deoxys (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_3.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_3_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|386_2"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Defense Forme Deoxys (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_3.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_3_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|386_2"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Speed Forme Deoxys (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_4.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_4_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|386_3"
+                        ]
+                    },
+                    {
+                        "name": "Museum - Speed Forme Deoxys (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/386_4.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/386_4_cleared.png",
+                        "access_rules": [
+                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|386_3"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -6241,6 +6329,138 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Normal Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/479.png",
+                        "chest_opened_img": "images/pokemon/cleared/479_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_0"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Normal Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/479.png",
+                        "chest_opened_img": "images/pokemon/cleared/479_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_0"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Heat Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_2.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_2_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_1"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Heat Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_2.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_2_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_1"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Wash Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_3.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_3_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_2"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Wash Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_3.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_3_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_2"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Frost Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_4.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_4_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_3"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Frost Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_4.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_4_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_3"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Fan Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_5.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_5_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_4"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Fan Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_5.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_5_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_4"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Mow Rotom (Formsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_6.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_6_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|formsanity|479_5"
+                        ]
+                    },
+                    {
+                        "name": "Shopping Mall Nine - Mow Rotom (Shinyformsanity)",
+                        "chest_unopened_img": "images/pokemon/forms/479_6.png",
+                        "chest_opened_img": "images/pokemon/forms/cleared/479_6_cleared.png",
+                        "access_rules": [
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                        ],
+                        "visibility_rules": [
+                            "show_items,show_mons,$sanity_visible|shinyformsanity|479_5"
                         ]
                     },
                     {

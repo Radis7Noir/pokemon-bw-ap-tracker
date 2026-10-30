@@ -494,6 +494,29 @@
         ]
     },
     {
+        "name": "Consider Form Changes",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Changing forms is NOT in logic",
+                "img": "/images/settings/consider_evolutions.png",
+                "img_mods": "overlay|images/settings/overlays/ool.png",
+                "codes": "consider_form_change,consider_form_change_false",
+                "inherit_codes": false
+            },
+            {
+                "name": "Changing forms IS in logic",
+                "img": "/images/settings/consider_evolutions.png",
+                "img_mods": "overlay|images/settings/overlays/true.png",
+                "codes": "consider_form_change,consider_form_change_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Consider Statics",
         "type": "progressive",
         "loop": true,

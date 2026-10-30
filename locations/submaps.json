@@ -738,6 +738,38 @@
                     {
                         "name": "Revive the Plume Fossil",
                         "ref": "Unova Locations/Nacrene City/Museum - Revive the Plume Fossil"
+                    },
+                    {
+                        "name": "Normal Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Normal Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Normal Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Normal Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Attack Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Attack Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Attack Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Attack Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Defense Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Defense Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Defense Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Defense Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Speed Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Speed Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Speed Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Speed Forme Deoxys (Shinyformsanity)"
                     }
                 ],
                 "map_locations": [
@@ -6929,6 +6961,54 @@
                     {
                         "name": "Item from worker",
                         "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item from worker"
+                    },
+                    {
+                        "name": "Normal Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Normal Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Shinyformsanity)"
                     }
                 ],
                 "map_locations": [
@@ -6940,7 +7020,71 @@
                 ]
             },
             {
-                "name": "Shopping Mall Nine\u200b",
+                "name": "Shopping Mall Nine Storage Room",
+                "sections": [
+                    {
+                        "name": "Item in storage room",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Item in storage room"
+                    },
+                   {
+                        "name": "Normal Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Normal Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Shinyformsanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoppingmallnine",
+                        "x": 312,
+                        "y": 285
+                    }
+                ]
+            },
+            {
+                "name": "Shopping Mall Nine\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item in storage room",
@@ -6949,11 +7093,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "shoppingmallnine",
-                        "x": 312,
-                        "y": 285
-                    },
-                                        {
                         "map": "shoppingmallninestorageroom",
                         "x": 186,
                         "y": 54
@@ -6961,7 +7100,67 @@
                 ]
             },
             {
-                "name": "Shopping Mall Nine\u200b\u200b",
+                "name": "Shopping Mall Nine\u200b\u200b\u200b",
+                "sections": [
+                   {
+                        "name": "Normal Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Normal Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Normal Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Heat Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Heat Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Wash Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Wash Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Frost Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Frost Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Fan Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Fan Rotom (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Formsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Formsanity)"
+                    },
+                    {
+                        "name": "Mow Rotom (Shinyformsanity)",
+                        "ref": "Unova Locations/Route 9/Shopping Mall Nine - Mow Rotom (Shinyformsanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "shoppingmallninestorageroom",
+                        "x": 154,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "Shopping Mall Nine\u200b\u200b\u200b\u200b",
                 "sections": [
                     {
                         "name": "Item from worker",
