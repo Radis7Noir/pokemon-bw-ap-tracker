@@ -137,7 +137,7 @@ DEXSEARCH_FORM_LAYOUT = "layouts/dexsearch/dexsearch_form.json"
 function toggle_dexsearch_form()
     local dex = getDigits("dexsearch_digit1", "dexsearch_digit2", "dexsearch_digit3")
     local layout = "layouts/dexsearch/dexsearch_form.json"
-    if Tracker:FindObjectForCode("dexsearch_form_" .. dex) then
+    if FORM_SEARCH[dex] then
         layout = "layouts/dexsearch/dexsearch_form_" .. dex .. ".json"
     end
     if layout ~= DEXSEARCH_FORM_LAYOUT then

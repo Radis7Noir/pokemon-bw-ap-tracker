@@ -11,6 +11,10 @@ SANITY_VISIBLE = {
     shinyformsanity = {},
 }
 
+SANITY_LOCATIONS = {}
+FORM_BUCKET = 31
+FORM_SEARCH = { [585] = true }
+
 function sanity_visible(sanity, id)
     return SANITY_VISIBLE[sanity][id] == true
 end
@@ -148,7 +152,7 @@ function restoreSearchVisibility() -- helper that sets the visibilities back to 
 end
 
 function searchMon()
-    if POKEMON_TO_LOCATIONS ~= nil then
+    if FORM_TO_LOCATIONS ~= nil then
         showSearchVisibility()
         Tracker:FindObjectForCode("no_wild_encounters_found").Active = false
         
@@ -164,15 +168,14 @@ function searchMon()
         local dexID = dex1 * 100 + dex2 * 10 + dex3
         -- stage 0 is all forms
         local form = -1
-        local form_item = Tracker:FindObjectForCode("dexsearch_form_" .. dexID)
-        if form_item then
-            form = form_item.CurrentStage - 1
+        if FORM_SEARCH[dexID] then
+            form = Tracker:FindObjectForCode("dexsearch_form_" .. dexID).CurrentStage - 1
         end
         
         Tracker:FindObjectForCode("search_ID_result").CurrentStage = dexID
         
         local found = false
-        for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
+        for pokemon_id, locations in pairs(FORM_TO_LOCATIONS) do
             if (pokemon_id & 0x7FF) == dexID and (form == -1 or (pokemon_id >> 11) == form) then
                 found = true
                 for _, location in ipairs(locations) do

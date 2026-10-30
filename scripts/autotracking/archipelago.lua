@@ -82,6 +82,7 @@ function onClear(slot_data)
     SEEN = {}
     EVENT_BITS = {}
     CACHED_MAPS = {}
+    CLEARED_LOCATIONS = {}
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
@@ -96,13 +97,65 @@ function onClear(slot_data)
 
     resetLocations()
 
+    -- pokémon sanities processing
+    local dexsanity_numbers = slot_data["all_dexsanity_numbers"] or {}
+    local sanity_offsets = { dexsanity = 600000, seensanity = 604000, shinysanity = 608000, formsanity = 606000, shinyformsanity = 706000 }
+    SANITY_LOCATIONS = {}
+
+    -- dexsanity variants that use dex IDs
+    for _, sanity in ipairs({"dexsanity", "seensanity", "shinysanity"}) do
+        local active = {}
+        for _, pokeID in ipairs(dexsanity_numbers[sanity] or {}) do
+            active[pokeID] = true
+            SANITY_LOCATIONS[sanity_offsets[sanity] + pokeID] = true
+        end
+        for i = 1, 649 do
+            SANITY_VISIBLE[sanity][tostring(i)] = active[i] or false
+        end
+    end
+
+    -- dexsanity variants that use flag IDs
+    FORM_KEY_TO_FLAG = {}
+    FORM_FLAG_TO_ID = {}
+    for _, sanity in ipairs({"formsanity", "shinyformsanity"}) do
+        local active = {}
+        for _, flagID in ipairs(dexsanity_numbers[sanity] or {}) do
+            active[flagID] = true
+            SANITY_LOCATIONS[sanity_offsets[sanity] + flagID] = true
+        end
+        for flagID, formID in pairs(FORM_FLAG_MAPPING) do
+            SANITY_VISIBLE[sanity][formID] = active[flagID] or false
+            FORM_KEY_TO_FLAG[formID] = flagID -- to build form locations from the flags in updatePokemon
+            local dex, form = formID:match("(%d+)_(%d+)")
+            FORM_FLAG_TO_ID[flagID] = tonumber(dex) + (tonumber(form) << 11)
+        end
+    end
+
+    local encounter_forms = {}
+    local trainer_forms = {}
+    FORM_SEARCH = { [585] = true }
+    for flagID, formID in pairs(FORM_FLAG_MAPPING) do
+        local pokemon_id = FORM_FLAG_TO_ID[flagID]
+        if SANITY_VISIBLE.formsanity[formID] then
+            trainer_forms[pokemon_id] = true
+        end
+        if SANITY_VISIBLE.formsanity[formID] or SANITY_VISIBLE.shinyformsanity[formID] then
+            encounter_forms[pokemon_id] = true
+            FORM_SEARCH[pokemon_id & 0x7FF] = true
+        end
+    end
+
     -- trainer_teams is a list indexed by trainer ID
     TRAINER_TEAMS = {}
     POKEMON_TO_TRAINERS = {}
     for trainer_key, _ in pairs(TRAINER_TEAMS_MAPPING) do
         local team = {}
         for _, pokemon_id in ipairs(slot_data.trainer_teams[tonumber(trainer_key) + 1] or {}) do -- 0 is a placeholder, so +1
-            if not table_contains(team, pokemon_id) then -- skips duplicates, each form counts separately
+            local dex_number = pokemon_id & 0x7FF
+            if not trainer_forms[pokemon_id] then
+                pokemon_id = trainer_forms[dex_number] and dex_number + (FORM_BUCKET << 11) or dex_number
+            end
+            if not table_contains(team, pokemon_id) then -- skips duplicates
                 table.insert(team, pokemon_id)
                 POKEMON_TO_TRAINERS[pokemon_id] = POKEMON_TO_TRAINERS[pokemon_id] or {}
                 table.insert(POKEMON_TO_TRAINERS[pokemon_id], trainer_key)
@@ -111,9 +164,8 @@ function onClear(slot_data)
         TRAINER_TEAMS[trainer_key] = team
     end
 
-    -- encounter_by_method uses dicts
     REGION_ENCOUNTERS = slot_data.encounter_by_method
-    -- Trades + Rock Smash can't be randomized
+    -- Trades + Rock Smash are hardcoded for now
     local newEncounters = {
         Munchlax_Trade = 446,
         Rotom_Trade = 479,
@@ -144,14 +196,28 @@ function onClear(slot_data)
     --print(dump_table(REGION_ENCOUNTERS))
 
     -- so we can access the mapping later
+    FORM_TO_LOCATIONS = {}
     POKEMON_TO_LOCATIONS = {}
     for location, pokemon_list in pairs(REGION_ENCOUNTERS) do
+        local merged = {}
         for _, pokemon_id in pairs(pokemon_list) do
-            if POKEMON_TO_LOCATIONS[pokemon_id] == nil then
-                POKEMON_TO_LOCATIONS[pokemon_id] = {}
+            if FORM_TO_LOCATIONS[pokemon_id] == nil then
+                FORM_TO_LOCATIONS[pokemon_id] = {}
             end
-            table.insert(POKEMON_TO_LOCATIONS[pokemon_id], location)
+            table.insert(FORM_TO_LOCATIONS[pokemon_id], location)
+            local dex_number = pokemon_id & 0x7FF
+            if not encounter_forms[pokemon_id] then
+                pokemon_id = encounter_forms[dex_number] and dex_number + (FORM_BUCKET << 11) or dex_number
+            end
+            if not table_contains(merged, pokemon_id) then
+                table.insert(merged, pokemon_id)
+                if POKEMON_TO_LOCATIONS[pokemon_id] == nil then
+                    POKEMON_TO_LOCATIONS[pokemon_id] = {}
+                end
+                table.insert(POKEMON_TO_LOCATIONS[pokemon_id], location)
+            end
         end
+        REGION_ENCOUNTERS[location] = merged
     end
 
     -- This sets each Encounter location to however many unique encounters there are in it
@@ -349,33 +415,6 @@ function onClear(slot_data)
     for _ in pairs(AUTO_SEEN) do base_seen = base_seen + 1 end
     Tracker:FindObjectForCode("seen_pokemon").AcquiredCount = base_seen
 
-    -- pokémon sanities processing
-    local dexsanity_numbers = slot_data["all_dexsanity_numbers"] or {} -- new key in 0.4.0, breaks compat with previous versions
-
-    -- dexsanity variants that use dex IDs
-    for _, sanity in ipairs({"dexsanity", "seensanity", "shinysanity"}) do
-        local active = {}
-        for _, pokeID in ipairs(dexsanity_numbers[sanity] or {}) do
-            active[pokeID] = true
-        end
-        for i = 1, 649 do
-            SANITY_VISIBLE[sanity][tostring(i)] = active[i] or false
-        end
-    end
-
-    -- dexsanity variants that use flag IDs
-    FORM_KEY_TO_FLAG = {}
-    for _, sanity in ipairs({"formsanity", "shinyformsanity"}) do
-        local active = {}
-        for _, flagID in ipairs(dexsanity_numbers[sanity] or {}) do
-            active[flagID] = true
-        end
-        for flagID, formID in pairs(FORM_FLAG_MAPPING) do
-            SANITY_VISIBLE[sanity][formID] = active[flagID] or false
-            FORM_KEY_TO_FLAG[formID] = flagID -- to build form locations from the flags in updatePokemon
-        end
-    end
-
     -- Datastorage Watches
     if PLAYER_ID>-1 then
         updateEvents(0)
@@ -397,6 +436,8 @@ function onClear(slot_data)
             Archipelago:Get({id})
         end
     end
+
+    toggle_dexsearch_form()
 end
 
 function forSlot(value)
@@ -723,8 +764,7 @@ function updatePokemon()
         local is_seen = false
 
         if form_needed then
-            -- if required by formsanity
-            is_seen = table_contains(SEEN, pokemon_id)
+            is_seen = false
         elseif (AUTO_SEEN or {})[dex_number] then
             is_seen = true
         else
@@ -740,7 +780,7 @@ function updatePokemon()
                 table.insert(pending, 600000 + dex_number)
             end
 
-            if form_needed and not is_seen then
+            if form_needed then
                 table.insert(pending, 606000 + form_flag)
             end
             if SANITY_VISIBLE.seensanity[tostring(dex_number)] and not seenSpecies[dex_number]
@@ -754,7 +794,7 @@ function updatePokemon()
                 table.insert(pending, 706000 + form_flag)
             end
             should_decrement = #pending == 0
-        elseif form_needed and not is_seen then
+        elseif form_needed then
             -- formsanity still needs this exact form, catching any form of the species doesn't clear it
         elseif is_caught then
             should_decrement = true
@@ -836,8 +876,7 @@ function updatePokemon()
         local is_seen = false
 
         if form_needed then
-            -- if required by formsanity
-            is_seen = table_contains(SEEN, pokemon_id)
+            is_seen = false
         elseif (AUTO_SEEN or {})[dex_number] then
             is_seen = true
         else
@@ -847,7 +886,7 @@ function updatePokemon()
 
         -- for each encounter_tracking method
         local seen_pending = seenVisibilityCode and not seenSentCode and not seenSpecies[dex_number]
-        local form_pending = form_needed and not table_contains(SEEN, pokemon_id)
+        local form_pending = form_needed
         local should_decrement = false
         if is_seen then
             should_decrement = true
