@@ -177,6 +177,7 @@
                 "consider_evolutions",
 				"consider_statics",
 				"consider_trades",
+                "consider_form_changes",
                 "consider_trainers"
             ]
         ]

@@ -504,14 +504,14 @@
                 "name": "Changing forms is NOT in logic",
                 "img": "/images/settings/consider_evolutions.png",
                 "img_mods": "overlay|images/settings/overlays/ool.png",
-                "codes": "consider_form_change,consider_form_change_false",
+                "codes": "consider_form_changes,consider_form_changes_false",
                 "inherit_codes": false
             },
             {
                 "name": "Changing forms IS in logic",
                 "img": "/images/settings/consider_evolutions.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
-                "codes": "consider_form_change,consider_form_change_true",
+                "codes": "consider_form_changes,consider_form_changes_true",
                 "inherit_codes": false
             }
         ]

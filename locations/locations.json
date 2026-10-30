@@ -791,7 +791,7 @@
                         "chest_unopened_img": "images/pokemon/386.png",
                         "chest_opened_img": "images/pokemon/cleared/386_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|386_0"
@@ -802,7 +802,7 @@
                         "chest_unopened_img": "images/pokemon/386.png",
                         "chest_opened_img": "images/pokemon/cleared/386_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|386_0"
@@ -813,7 +813,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_2.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_2_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|386_1"
@@ -824,7 +824,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_2.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_2_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|386_1"
@@ -835,7 +835,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_3.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_3_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|386_2"
@@ -846,7 +846,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_3.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_3_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|386_2"
@@ -857,7 +857,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_4.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_4_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|386_3"
@@ -868,7 +868,7 @@
                         "chest_unopened_img": "images/pokemon/forms/386_4.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/386_4_cleared.png",
                         "access_rules": [
-                            "@Nacrene Museum Access,caught_386,[consider_form_change_true]"
+                            "@Nacrene Museum Access,caught_386,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|386_3"
@@ -6336,7 +6336,7 @@
                         "chest_unopened_img": "images/pokemon/479.png",
                         "chest_opened_img": "images/pokemon/cleared/479_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_0"
@@ -6347,7 +6347,7 @@
                         "chest_unopened_img": "images/pokemon/479.png",
                         "chest_opened_img": "images/pokemon/cleared/479_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_0"
@@ -6358,7 +6358,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_2.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_2_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_1"
@@ -6369,7 +6369,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_2.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_2_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_1"
@@ -6380,7 +6380,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_3.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_3_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_2"
@@ -6391,7 +6391,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_3.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_3_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_2"
@@ -6402,7 +6402,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_4.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_4_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_3"
@@ -6413,7 +6413,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_4.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_4_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_3"
@@ -6424,7 +6424,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_5.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_5_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_4"
@@ -6435,7 +6435,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_5.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_5_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_4"
@@ -6446,7 +6446,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_6.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_6_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|formsanity|479_5"
@@ -6457,7 +6457,7 @@
                         "chest_unopened_img": "images/pokemon/forms/479_6.png",
                         "chest_opened_img": "images/pokemon/forms/cleared/479_6_cleared.png",
                         "access_rules": [
-                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_change_true]"
+                            "@Shopping Mall Nine Back Room Access,caught_479,[consider_form_changes_true]"
                         ],
                         "visibility_rules": [
                             "show_items,show_mons,$sanity_visible|shinyformsanity|479_5"
