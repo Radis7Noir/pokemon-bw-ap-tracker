@@ -169,6 +169,15 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
+                                        "title": "Museum",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "nacrenemuseum"
+                                            ]
+                                        }
+                                    },
+                                    {
                                         "title": "Library",
                                         "content": {
                                             "type": "map",

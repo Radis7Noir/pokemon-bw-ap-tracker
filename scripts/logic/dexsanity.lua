@@ -121,8 +121,9 @@ end
 
 
 SEARCH_VISIBILITY_STAGES = {
-    static_visibility = 0,
-    trade_visibility = 0, -- we still want statics and trades even if they're not in logic because why not :D
+    static_visibility = 1,
+    trade_visibility = 1, -- we still want statics and trades even if they're not in logic because why not :D
+    seen_visibility = 0, -- special seens like zorua dex entry in castelia or form changes should be hidden
     item_visibility = 0,
     encounter_visibility = 1,
     trainer_visibility = 0

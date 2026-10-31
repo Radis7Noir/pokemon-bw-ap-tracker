@@ -502,16 +502,35 @@
         "stages": [
             {
                 "name": "Changing forms is NOT in logic",
-                "img": "/images/settings/consider_evolutions.png",
+                "img": "/images/pokemon/forms/386-1.png",
                 "img_mods": "overlay|images/settings/overlays/ool.png",
                 "codes": "consider_form_changes,consider_form_changes_false",
                 "inherit_codes": false
             },
             {
                 "name": "Changing forms IS in logic",
-                "img": "/images/settings/consider_evolutions.png",
+                "img": "/images/pokemon/forms/386-1.png",
                 "img_mods": "overlay|images/settings/overlays/true.png",
                 "codes": "consider_form_changes,consider_form_changes_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Show Seens (Hidden)",
+        "type": "progressive",
+        "loop": true,
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hide Seens",
+                "codes": "seen_visibility,hide_seens",
+                "inherit_codes": false
+            },
+            {
+                "name": "Show Seens",
+                "codes": "seen_visibility,show_seens",
                 "inherit_codes": false
             }
         ]

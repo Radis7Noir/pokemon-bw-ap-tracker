@@ -50,6 +50,7 @@ MAP_MAPPING =  {
   [108] = {"Cities", "Mistralton City", "Gym"},
   [108 + 1024] = {"Cities", "Mistralton City", "Gym"},
   [16] = {"Cities", "Nacrene City", "Exterior"},
+  [17] = {"Cities", "Nacrene City", "Gym", "Museum"},
   [18] = {"Cities", "Nacrene City", "Gym", "Library"},
   [19] = {"Cities", "Nacrene City", "Gym", "Basement"},
   [62] = {"Cities", "Nimbasa City", "Exterior", "City"},

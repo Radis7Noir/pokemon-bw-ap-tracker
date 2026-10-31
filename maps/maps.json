@@ -66,6 +66,12 @@
         "img": "images/maps/nacrenecity.png"
     },
     {
+        "name": "nacrenemuseum",
+        "location_size": 14,
+        "location_border_thickness": 2,
+        "img": "images/maps/nacrenemuseum.png"
+    },
+    {
         "name": "nacrenegym",
         "location_size": 14,
         "location_border_thickness": 2,

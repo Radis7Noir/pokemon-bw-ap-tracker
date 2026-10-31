@@ -781,6 +781,98 @@
                 ]
             },
             {
+                "name": "Nacrene Museum\u200b",
+                "sections": [
+                    {
+                        "name": "Revive the Helix Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Helix Fossil"
+                    },
+                    {
+                        "name": "Revive the Dome Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Dome Fossil"
+                    },
+                    {
+                        "name": "Revive the Old Amber",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Old Amber"
+                    },
+                    {
+                        "name": "Revive the Root Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Root Fossil"
+                    },
+                    {
+                        "name": "Revive the Claw Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Claw Fossil"
+                    },
+                    {
+                        "name": "Revive the Skull Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Skull Fossil"
+                    },
+                    {
+                        "name": "Revive the Armor Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Armor Fossil"
+                    },
+                    {
+                        "name": "Revive the Cover Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Cover Fossil"
+                    },
+                    {
+                        "name": "Revive the Plume Fossil",
+                        "ref": "Unova Locations/Nacrene City/Museum - Revive the Plume Fossil"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenemuseum",
+                        "x": 248,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Nacrene Museum\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Normal Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Normal Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Normal Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Normal Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Attack Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Attack Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Attack Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Attack Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Defense Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Defense Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Defense Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Defense Forme Deoxys (Shinyformsanity)"
+                    },
+                    {
+                        "name": "Speed Forme Deoxys (Formsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Speed Forme Deoxys (Formsanity)"
+                    },
+                    {
+                        "name": "Speed Forme Deoxys (Shinyformsanity)",
+                        "ref": "Unova Locations/Nacrene City/Museum - Speed Forme Deoxys (Shinyformsanity)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "nacrenemuseum",
+                        "x": 56,
+                        "y": 241
+                    }
+                ]
+            },
+            {
                 "name": "Nacrene Gym",
                 "sections": [
                     {
