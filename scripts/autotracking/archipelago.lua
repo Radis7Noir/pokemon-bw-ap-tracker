@@ -16,6 +16,7 @@ GLOBAL_ITEMS = {}
 HINT_ID = {}
 EVENT_BITS = {}
 CACHED_MAPS = {}
+POKEMON_DIRTY = false
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
@@ -581,6 +582,9 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: could not find object for code %s", code))
         end
     end
+    if SANITY_LOCATIONS[location_id] then
+        POKEMON_DIRTY = true
+    end
 end
 
 function onNotify(key, value, old_value)
@@ -715,12 +719,8 @@ function updateWildBattle(value, old_value)
     end
 end
 
--- helper for sanities
-local function isSent(location_id)
-    return Tracker:FindObjectForCode(LOCATION_MAPPING[location_id][1]).AvailableChestCount == 0
-end
-
 function updatePokemon()
+    POKEMON_DIRTY = false
     CAUGHT = CAUGHT or {}
     SEEN = SEEN or {}
 
@@ -728,10 +728,44 @@ function updatePokemon()
         return
     end
 
-    -- species seen in any form, we decide later if we clear other forms or not
+    local caught = {}
+    for _, dex_number in ipairs(CAUGHT) do
+        caught[dex_number] = true
+    end
+
+    -- species seen in any form
     local seenSpecies = {}
+    for dex_number in pairs(AUTO_SEEN or {}) do
+        seenSpecies[dex_number] = true
+    end
     for _, seen_id in ipairs(SEEN) do
         seenSpecies[seen_id & 0x7FF] = true
+    end
+
+    local junk = {}
+    if not has("encounter_tracking_all") and has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
+        for _, hint in pairs(SAVED_HINTS) do
+            if hint.finding_player == PLAYER_ID and hint.found == false then
+                local level = 0
+                if hint.status == 0 then
+                    level = HIGHLIGHT_LEVEL[100 + hint.item_flags]
+                else
+                    level = HIGHLIGHT_LEVEL[hint.status]
+                end
+                if level ~= Highlight.Priority then
+                    junk[hint.location] = true
+                end
+            end
+        end
+    end
+
+    local done = {}
+    local pending = {}
+    for location_id in pairs(SANITY_LOCATIONS) do
+        local code = LOCATION_MAPPING[location_id][1]
+        local sent = (CLEARED_LOCATIONS[code] or 0) > 0 or (Tracker:FindObjectForCode(code).AvailableChestCount == 0 and not CLEARED_HINTS[code])
+        done[location_id] = sent or junk[location_id] == true
+        pending[location_id] = not done[location_id]
     end
 
     -- for encounters
@@ -750,77 +784,23 @@ function updatePokemon()
 
     for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
         local dex_number = pokemon_id & 0x7FF
-        local dexVisibilityCode = SANITY_VISIBLE.dexsanity[tostring(dex_number)]
-        local dexSentCode = Tracker:FindObjectForCode(LOCATION_MAPPING[600000 + dex_number][1]).AvailableChestCount == 0
-
-        -- these locals are needed to differentiate unique forms when they are formsanity checks
-        local form_key = dex_number .. "_" .. (pokemon_id >> 11)
-        local form_flag = FORM_KEY_TO_FLAG[form_key]
-        local formVisibilityCode = form_flag ~= nil and SANITY_VISIBLE.formsanity[form_key]
-        local formSentCode = form_flag ~= nil and Tracker:FindObjectForCode(LOCATION_MAPPING[606000 + form_flag][1]).AvailableChestCount == 0
-        local form_needed = formVisibilityCode and not formSentCode
-
-        local is_caught = table_contains(CAUGHT, dex_number)
-        local is_seen = false
-
-        if form_needed then
-            is_seen = false
-        elseif (AUTO_SEEN or {})[dex_number] then
-            is_seen = true
-        else
-            -- if not required by formsanity
-            is_seen = seenSpecies[dex_number] == true
-        end
+        local form_flag = FORM_KEY_TO_FLAG[dex_number .. "_" .. (pokemon_id >> 11)] or -1
+        local dex_pending = pending[600000 + dex_number]
+        local seen_pending = pending[604000 + dex_number] or pending[606000 + form_flag]
+        local shiny_pending = pending[608000 + dex_number] or pending[706000 + form_flag]
+        local is_caught = caught[dex_number] == true
+        local is_seen = seenSpecies[dex_number] or done[600000 + dex_number] or done[604000 + dex_number]
+            or done[608000 + dex_number] or done[606000 + form_flag] or done[706000 + form_flag]
 
         local should_decrement = false
-        if has("encounter_tracking_req") then
-            -- we keep encounters that have sanity locations
-            local pending = {}
-            if dexVisibilityCode and not dexSentCode and not is_caught then
-                table.insert(pending, 600000 + dex_number)
-            end
-
-            if form_needed then
-                table.insert(pending, 606000 + form_flag)
-            end
-            if SANITY_VISIBLE.seensanity[tostring(dex_number)] and not seenSpecies[dex_number]
-                and not (AUTO_SEEN or {})[dex_number] and not isSent(604000 + dex_number) then
-                table.insert(pending, 604000 + dex_number)
-            end
-            if SANITY_VISIBLE.shinysanity[tostring(dex_number)] and not isSent(608000 + dex_number) then
-                table.insert(pending, 608000 + dex_number)
-            end
-            if form_flag ~= nil and SANITY_VISIBLE.shinyformsanity[form_key] and not isSent(706000 + form_flag) then
-                table.insert(pending, 706000 + form_flag)
-            end
-            should_decrement = #pending == 0
-        elseif form_needed then
-            -- formsanity still needs this exact form, catching any form of the species doesn't clear it
-        elseif is_caught then
-            should_decrement = true
-        end
-
-        if should_decrement == false and not has("encounter_tracking_req") then
-            if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
-                local padded_dex_number = form_needed and (606000 + form_flag) or (600000 + dex_number)
-                for _, hint in pairs(SAVED_HINTS) do
-                    if hint.finding_player == PLAYER_ID and hint.found == false then
-                        if padded_dex_number == hint.location then
-                            local level = 0
-                            if hint.status == 0 then
-                                level = HIGHLIGHT_LEVEL[100 + hint.item_flags]
-                            else
-                                level = HIGHLIGHT_LEVEL[hint.status]
-                            end
-                            if level ~= Highlight.Priority then
-                                should_decrement = true
-                                break
-                            end
-                        end
-                    end
-                    if should_decrement then break end
-                end
-            end
+        if seen_pending or shiny_pending then
+            should_decrement = false
+        elseif has("encounter_tracking_all") then
+            should_decrement = is_caught
+        elseif has("encounter_tracking_prog") then
+            should_decrement = is_caught or (is_seen and not dex_pending)
+        else
+            should_decrement = is_caught or not dex_pending
         end
 
         if should_decrement then
@@ -864,60 +844,17 @@ function updatePokemon()
 
     for pokemon_id, trainers in pairs(POKEMON_TO_TRAINERS) do
         local dex_number = pokemon_id & 0x7FF
-        local seenVisibilityCode = SANITY_VISIBLE.seensanity[tostring(dex_number)]
-        local seenSentCode = Tracker:FindObjectForCode(LOCATION_MAPPING[604000 + dex_number][1]).AvailableChestCount == 0
-        -- these locals are needed to differentiate unique forms when they are formsanity checks
-        local form_key = dex_number .. "_" .. (pokemon_id >> 11)
-        local form_flag = FORM_KEY_TO_FLAG[form_key]
-        local formVisibilityCode = form_flag ~= nil and SANITY_VISIBLE.formsanity[form_key]
-        local formSentCode = form_flag ~= nil and Tracker:FindObjectForCode(LOCATION_MAPPING[606000 + form_flag][1]).AvailableChestCount == 0
-        local form_needed = formVisibilityCode and not formSentCode
+        local form_flag = FORM_KEY_TO_FLAG[dex_number .. "_" .. (pokemon_id >> 11)] or -1
+        local seen_pending = pending[604000 + dex_number] or pending[606000 + form_flag]
+        local is_seen = seenSpecies[dex_number] or done[604000 + dex_number] or done[606000 + form_flag]
 
-        local is_seen = false
-
-        if form_needed then
-            is_seen = false
-        elseif (AUTO_SEEN or {})[dex_number] then
-            is_seen = true
-        else
-            -- if not required by formsanity
-            is_seen = seenSpecies[dex_number] == true
-        end
-
-        -- for each encounter_tracking method
-        local seen_pending = seenVisibilityCode and not seenSentCode and not seenSpecies[dex_number]
-        local form_pending = form_needed
         local should_decrement = false
-        if is_seen then
+        if seen_pending then
+            should_decrement = false
+        elseif has("encounter_tracking_req") then
             should_decrement = true
-        elseif has("encounter_tracking_all") then
-            -- we keep all unseen pokémon
-        elseif not seen_pending and not form_pending then
-            -- we decrement to the number of checks
-            should_decrement = true
-        end
-
-        if should_decrement == false and not has("encounter_tracking_req") then
-            if has("hint_tracking_on_plus") and SAVED_HINTS ~= nil then
-                local padded_location = form_pending and (606000 + form_flag) or (604000 + dex_number)
-                for _, hint in pairs(SAVED_HINTS) do
-                    if hint.finding_player == PLAYER_ID and hint.found == false then
-                        if padded_location == hint.location then
-                            local level = 0
-                            if hint.status == 0 then
-                                level = HIGHLIGHT_LEVEL[100 + hint.item_flags]
-                            else
-                                level = HIGHLIGHT_LEVEL[hint.status]
-                            end
-                            if level ~= Highlight.Priority then
-                                should_decrement = true
-                                break
-                            end
-                        end
-                    end
-                    if should_decrement then break end
-                end
-            end
+        else
+            should_decrement = is_seen
         end
 
         if should_decrement then
@@ -990,8 +927,8 @@ end
 
 function toggleHints()
     if has("hint_tracking_off") then
-        updatePokemon()
         resetHints()
+        updatePokemon()
     elseif has("hint_tracking_on") then
         resetHints()
         updateHints()
@@ -1158,6 +1095,12 @@ function updateHints()
     end
 end
 
+function onFrame()
+    if POKEMON_DIRTY then
+        updatePokemon()
+    end
+end
+
 -- add AP callbacks
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
@@ -1165,3 +1108,4 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotify)
 Archipelago:AddBouncedHandler("map bounce handler", onMap)
+ScriptHost:AddOnFrameHandler("pokemon frame handler", onFrame)
