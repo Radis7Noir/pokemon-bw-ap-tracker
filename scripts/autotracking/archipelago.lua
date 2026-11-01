@@ -967,6 +967,14 @@ function resetHints()
             end
         end
     end
+
+    for trainer_key, locations in pairs(TRAINER_TEAMS_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                Tracker:FindObjectForCode(location).Highlight = 0
+            end
+        end
+    end
 end
 
 CLEARED_HINTS = {}
@@ -985,6 +993,13 @@ function updateHints()
         end
     end
     for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+        for _, location in ipairs(locations) do
+            if location:sub(1, 1) == "@" then
+                Tracker:FindObjectForCode(location).Highlight = 0
+            end
+        end
+    end
+    for trainer_key, locations in pairs(TRAINER_TEAMS_MAPPING) do
         for _, location in ipairs(locations) do
             if location:sub(1, 1) == "@" then
                 Tracker:FindObjectForCode(location).Highlight = 0
@@ -1022,36 +1037,67 @@ function updateHints()
                 incoming_val = HIGHLIGHT_LEVEL[hint.status]
             end
 
-            -- Special handling for Pokémon locations (600001–600649)
+            local hint_dex = nil
+            local hint_form = nil
+            local hint_trainers = false
             if hint.location >= 600001 and hint.location <= 600649 then
-                local dex_number = hint.location - 600000
+                hint_dex = hint.location - 600000
+            elseif hint.location >= 604001 and hint.location <= 604649 then
+                hint_dex = hint.location - 604000
+                hint_trainers = true
+            elseif hint.location >= 608001 and hint.location <= 608649 then
+                hint_dex = hint.location - 608000
+            elseif hint.location >= 606000 and hint.location <= 606071 then
+                hint_form = FORM_FLAG_TO_ID[hint.location - 606000]
+                hint_trainers = true
+            elseif hint.location >= 706000 and hint.location <= 706071 then
+                hint_form = FORM_FLAG_TO_ID[hint.location - 706000]
+            end
 
-                -- any form counts for dexsanity
+            if hint_dex or hint_form then
+                local glow = {}
                 for pokemon_id, poke_locations in pairs(POKEMON_TO_LOCATIONS) do
-                    if (pokemon_id & 0x7FF) == dex_number then
+                    if (pokemon_id & 0x7FF) == hint_dex or pokemon_id == hint_form then
                         for _, encounter_key in pairs(poke_locations) do
                             for _, mapped_location in ipairs(ENCOUNTER_MAPPING[encounter_key] or {}) do
-                                if mapped_location:sub(1, 1) == "@" then
-                                    local obj = Tracker:FindObjectForCode(mapped_location)
-
-                                    if tracking_plus then
-                                        if hint.found == false then
-                                            if incoming_val == Highlight.Priority then
-                                                obj.Highlight = incoming_val
-                                            end
-                                        end
-                                    else
-                                        local current_val = obj.Highlight
-                                        if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
-                                            obj.Highlight = incoming_val
-                                        end
-                                    end
+                                table.insert(glow, mapped_location)
+                            end
+                        end
+                    end
+                end
+                if hint_trainers then
+                    for pokemon_id, trainers in pairs(POKEMON_TO_TRAINERS) do
+                        if (pokemon_id & 0x7FF) == hint_dex or pokemon_id == hint_form then
+                            for _, trainer_key in pairs(trainers) do
+                                for _, mapped_location in ipairs(TRAINER_TEAMS_MAPPING[trainer_key]) do
+                                    table.insert(glow, mapped_location)
                                 end
                             end
                         end
                     end
                 end
 
+                for _, mapped_location in ipairs(glow) do
+                    if mapped_location:sub(1, 1) == "@" then
+                        local obj = Tracker:FindObjectForCode(mapped_location)
+
+                        if tracking_plus then
+                            if hint.found == false then
+                                if incoming_val == Highlight.Priority then
+                                    obj.Highlight = incoming_val
+                                end
+                            end
+                        else
+                            local current_val = obj.Highlight
+                            if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
+                                obj.Highlight = incoming_val
+                            end
+                        end
+                    end
+                end
+            end
+
+            if hint_dex and hint.location <= 600649 then
                 goto continue_hint
             end
 
