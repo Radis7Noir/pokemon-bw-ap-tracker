@@ -64,7 +64,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|seen|Pinwheel Forest Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|shiny|Pinwheel Forest Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "pinwheelforest", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "pinwheelforest", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Desert Resort Entrance Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Desert Resort Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -78,7 +78,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Desert Resort Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Desert Resort Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "desertresort", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "desertresort", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Relic Castle Castleside 1F Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Castleside 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -134,112 +134,112 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Top Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Top Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 700, "y": 44, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Top Left Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 42, "y": 44, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Left of Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Left of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Left of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Left of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 152, "y": 144, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Right of Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Right of Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 590, "y": 144, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Right of Top Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Right of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 536, "y": 44, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Top Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 372, "y": 44, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Left of Top Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Left of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Left of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Left of Top Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 206, "y": 44, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Center Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Center Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 372, "y": 144, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Left of Volcarona Entrance Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Left of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Left of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Left of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 262, "y": 260, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Right of Volcarona Entrance Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Right of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Right of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Right of Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 480, "y": 260, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Below Top Right Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Below Top Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Below Top Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Below Top Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 700, "y": 144, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Bottom Right Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Bottom Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Bottom Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Bottom Right Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 590, "y": 260, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Below Top Left Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Below Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Below Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Below Top Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 42, "y": 144, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Bottom Left Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Bottom Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Bottom Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Bottom Left Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 152, "y": 260, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Volcarona Entrance Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Volcarona Entrance Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlemaze", "x": 372, "y": 260, "size": 14, "border_thickness": 2, "shape": "diamond"}]},
 {"name": "Relic Castle Basement Volcarona Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Basement Volcarona Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Relic Castle Basement Volcarona Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Relic Castle Basement Volcarona Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "reliccastlemaze", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "reliccastlevolcaronasroom", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Relic Castle Towerside Front Room Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Relic Castle Towerside Front Room Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -309,7 +309,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Chargestone Cave 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Chargestone Cave 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "chargestonecave1f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "chargestonecave1f", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Chargestone Cave B1F Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Chargestone Cave B1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -330,21 +330,21 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|seen|Twist Mountain 3F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|shiny|Twist Mountain 3F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "twistmountainupperlevel", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "twistmountainupperlevel", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Twist Mountain 2F Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|dex|Twist Mountain 2F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|seen|Twist Mountain 2F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|shiny|Twist Mountain 2F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "twistmountainmiddlelevel", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "twistmountainmiddlelevel", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Twist Mountain 1F Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|dex|Twist Mountain 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|seen|Twist Mountain 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|shiny|Twist Mountain 1F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "twistmountainlowerlevel", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "twistmountainlowerlevel", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Twist Mountain Ice Rock Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 96, "access_rules": ["^$remaining_sanity|dex|Twist Mountain Ice Rock Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -386,77 +386,77 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Victory Road Outside Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Victory Road Outside Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroadoutside", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroadoutside", "x": 28, "y": 72, "size": 35, "border_thickness": 5, "shape": "diamond"}]},
 {"name": "Victory Road 1F Middle Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|dex|Victory Road 1F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|Victory Road 1F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|Victory Road 1F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad1f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad1f", "x": 552, "y": 66, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 2F Left Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 2F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 2F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 2F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad2f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad2f", "x": 236, "y": 64, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 3F Middle Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 3F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 3F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 3F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad3f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad3f", "x": 402, "y": 138, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 4F Middle Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 4F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 4F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 4F Middle Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad4f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad4f", "x": 458, "y": 464, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 2F Right Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 2F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 2F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 2F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad2f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad2f", "x": 565, "y": 93, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 1F Right Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|dex|Victory Road 1F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|Victory Road 1F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|Victory Road 1F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad1f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad1f", "x": 954, "y": 288, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 3F Right Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 3F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 3F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 3F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad3f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad3f", "x": 766, "y": 226, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 1F Left Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 1F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 1F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 1F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad1f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad1f", "x": 42, "y": 214, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 3F Left Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 3F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 3F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 3F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad3f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad3f", "x": 34, "y": 64, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 4F Left Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 4F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 4F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 4F Left Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad4f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad4f", "x": 68, "y": 340, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 5F Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 5F Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -477,7 +477,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|seen|Victory Road 4F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|shiny|Victory Road 4F Right Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "victoryroad4f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "victoryroad4f", "x": 748, "y": 240, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Victory Road 7F Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 24, "access_rules": ["^$remaining_sanity|dex|Victory Road 7F Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -505,14 +505,14 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|Giant Chasm Entrance Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|Giant Chasm Entrance Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "giantchasmcave", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "giantchasmcave", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Giant Chasm Crater Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|dex|Giant Chasm Crater Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|seen|Giant Chasm Crater Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|shiny|Giant Chasm Crater Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "giantchasmcrater", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "giantchasmcrater", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Giant Chasm Inner Cave Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|dex|Giant Chasm Inner Cave Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -526,7 +526,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|P2 Laboratory Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|P2 Laboratory Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "route17_p2lab", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "route17_p2lab", "x": 44, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Undella Bay Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 80, "access_rules": ["^$remaining_sanity|dex|Undella Bay Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -540,21 +540,21 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Driftveil Drawbridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Driftveil Drawbridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "driftveilcity_e", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}, {"map": "route5", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "driftveilcity_e", "x": 464, "y": 206, "size": 21, "border_thickness": 3, "shape": "diamond"}, {"map": "route5", "x": 16, "y": 252, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Village Bridge Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|dex|Village Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|seen|Village Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|shiny|Village Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "villagebridge", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "villagebridge", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Marvelous Bridge Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|dex|Marvelous Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|seen|Marvelous Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 12, "access_rules": ["^$remaining_sanity|shiny|Marvelous Bridge Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "villagebridge", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "marvelousbridge", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 1 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 32, "access_rules": ["^$remaining_sanity|dex|Route 1 Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
@@ -736,7 +736,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|seen|Challenger's Cave B2F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 44, "access_rules": ["^$remaining_sanity|shiny|Challenger's Cave B2F Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "challengerscaveb2f", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "challengerscaveb2f", "x": 24, "y": 58, "size": 28, "border_thickness": 4, "shape": "diamond"}]},
 {"name": "Route 10 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|dex|Route 10 Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},

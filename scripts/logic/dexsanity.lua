@@ -278,3 +278,7 @@ function sanity_diamond(sanity)
         return true
     end
 end
+
+function not_sanity_diamond()
+    return not sanity_diamond()
+end
