@@ -933,26 +933,26 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Pokémon Tracking - OFF (Manual Tracking)",
+                "name": "Pokémon Tracking - OFF",
                 "img": "/images/settings/encounter_tracking_off.png",
                 "img_mods": "@disabled",
                 "codes": "encounter_tracking, encounter_tracking_off",
                 "inherit_codes": false
             },
             {
-                "name": "Pokémon Tracking - ALL (Keep all Pokémon until caught)",
+                "name": "Pokémon Tracking - Keep all Pokémon until caught",
                 "img": "/images/settings/encounter_tracking_all.png",
                 "codes": "encounter_tracking, encounter_tracking_all",
                 "inherit_codes": false
             },
             {
-                "name": "Pokémon Tracking - PROG (Progressively remove non sanity Pokémon when they are seen)",
+                "name": "Pokémon Tracking - Progressively remove seen non sanity",
                 "img": "/images/settings/encounter_tracking_prog.png",
                 "codes": "encounter_tracking, encounter_tracking_prog",
                 "inherit_codes": false
             },
             {
-                "name": "Pokémon Tracking - REQ (Only show required Pokémon, skip pre-evolutions)",
+                "name": "Pokémon Tracking - Only show required Pokémon",
                 "img": "/images/settings/encounter_tracking_req.png",
                 "codes": "encounter_tracking, encounter_tracking_req",
                 "inherit_codes": false
