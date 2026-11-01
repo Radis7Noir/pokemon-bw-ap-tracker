@@ -1074,7 +1074,7 @@
                 ]
             },
             {
-                "name": "\u200bBadge Gates Encounters",
+                "name": "\u200bInsect Badge Gate Encounters",
                 "sections": [
                     {
                         "name": "Insect Badge Gate - Land Encounters",
@@ -1095,6 +1095,16 @@
                         "x": 296,
                         "y": 152,
                         "size": 21,
+                        "restrict_visibility_rules": ["$not_sanity_diamond"],
+                        "border_thickness": 3,
+                        "shape": "diamond"
+                    },
+                    {
+                        "map": "route10_e",
+                        "x": 282,
+                        "y": 152,
+                        "size": 21,
+                        "restrict_visibility_rules": ["$sanity_diamond"],
                         "border_thickness": 3,
                         "shape": "diamond"
                     }

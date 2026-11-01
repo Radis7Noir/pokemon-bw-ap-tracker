@@ -757,7 +757,7 @@
     {"name": "Seens left", "chest_unopened_img": "images/locations/pokedex_pi.png", "chest_opened_img": "images/locations/cleared/pokedex_pi_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|seen|Insect Badge Gate Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|seen"]},
     {"name": "Shinies left", "chest_unopened_img": "images/locations/pokedex_y.png", "chest_opened_img": "images/locations/cleared/pokedex_y_cleared.png", "item_count": 36, "access_rules": ["^$remaining_sanity|shiny|Insect Badge Gate Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|shiny"]}
 ],
-"map_locations": [{"map": "route10_e", "x": 16, "y": 44, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
+"map_locations": [{"map": "route10_e", "x": 310, "y": 152, "size": 21, "border_thickness": 3, "shape": "diamond"}]},
 {"name": "Route 11 Encounter Sanities",
 "sections": [
     {"name": "Catches left", "chest_unopened_img": "images/locations/pokedex.png", "chest_opened_img": "images/locations/cleared/pokedex_cleared.png", "item_count": 56, "access_rules": ["^$remaining_sanity|dex|Route 11 Encounters"], "visibility_rules": ["show_mons,$sanity_diamond|dex"]},
