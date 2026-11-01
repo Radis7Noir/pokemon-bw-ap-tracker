@@ -952,7 +952,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Pokémon Tracking - REQ (Only show required Pokémon, skip pre-evolutions",
+                "name": "Pokémon Tracking - REQ (Only show required Pokémon, skip pre-evolutions)",
                 "img": "/images/settings/encounter_tracking_req.png",
                 "codes": "encounter_tracking, encounter_tracking_req",
                 "inherit_codes": false
