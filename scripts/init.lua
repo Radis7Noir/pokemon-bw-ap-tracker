@@ -30,6 +30,7 @@ Tracker:AddLocations("locations/pokedex.json")
 Tracker:AddLocations("locations/dexsanity.json")
 Tracker:AddLocations("locations/encounters.json")
 Tracker:AddLocations("locations/submaps.json")
+Tracker:AddLocations("locations/remaining_sanities.json")
 
 -- Layout
 Tracker:AddLayouts("layouts/pokedex.json")

@@ -249,3 +249,32 @@ function trade(id)
     end
     return (caught and AccessibilityLevel.SequenceBreak) or AccessibilityLevel.None
 end
+
+function sanity_diamond(sanity)
+    -- local counsanities TODO
+    local dexsanity = Tracker:FindObjectForCode("dexsanity").AcquiredCount
+    local seensanity = Tracker:FindObjectForCode("seensanity").AcquiredCount
+    local shinysanity = Tracker:FindObjectForCode("shinysanity").AcquiredCount
+    local formsanity = Tracker:FindObjectForCode("formsanity").AcquiredCount
+    local shinyformsanity = Tracker:FindObjectForCode("shinyformsanity").AcquiredCount
+    if not has("encounter_tracking_req") then
+        return false
+
+    elseif (dexsanity > 0 and seensanity > 0) or
+    (dexsanity > 0 and shinysanity > 0) or
+    (dexsanity > 0 and formsanity > 0) or
+    (dexsanity > 0 and shinyformsanity > 0) or
+    (seensanity > 0 and shinysanity > 0) or
+    (seensanity > 0 and shinyformsanity > 0) or
+    (shinysanity > 0 and formsanity > 0) or
+    (formsanity > 0 and shinyformsanity > 0) then
+        if sanity == "dex" then
+            return dexsanity > 0
+        elseif sanity == "seen" then
+            return seensanity > 0 or formsanity > 0
+        elseif sanity == "shiny" then
+            return shinysanity > 0 or shinyformsanity > 0
+        end
+        return true
+    end
+end

@@ -13299,6 +13299,89 @@
                         ]
                     },
                     {
+                        "name": "Entrance - Hiker Terrell (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain Entrance Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "3F - North east cave item",
+                        "access_rules": [
+                            "@Twist Mountain 3F North East Access"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "3F - North east cave hidden item",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Twist Mountain 3F North East Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "3F - South east cave hidden item",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Twist Mountain 3F South East Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
+                        ]
+                    },
+                    {
+                        "name": "3F - Worker Heath (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 3F North East Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "3F - Battle Girl Sharon (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/battlegirl.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/battlegirl_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 3F South East Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "3F - Hiker Darrell (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 3F South East Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "Outside - East item",
                         "access_rules": [
                             "@Twist Mountain Outside 2F South Footbridge Access"
@@ -13368,34 +13451,42 @@
                         ]
                     },
                     {
-                        "name": "3F - North east cave item",
+                        "name": "Outside - Doctor Hank (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/doctor.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/doctor_cleared.png",
+                        "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain 3F North East Access"
+                            "@Twist Mountain Outside 2F North West Footbridge Access,^$trainer_team"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "show_teams"
                         ]
                     },
                     {
-                        "name": "3F - North east cave hidden item",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "name": "Outside - Worker Brand (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain 3F North East Access,^$hidden"
+                            "@Twist Mountain Outside 3F East Footbridge Access,^$trainer_team"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "show_teams"
                         ]
                     },
                     {
-                        "name": "3F - South east cave hidden item",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "name": "Outside - Ace Trainer Caroll (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
                         "access_rules": [
-                            "@Twist Mountain 3F South East Access,^$hidden"
+                            "@Twist Mountain Outside 3F South East Footbridge Access,^$trainer_team"
                         ],
                         "visibility_rules": [
-                            "show_items"
+                            "show_teams"
                         ]
                     },
                     {
@@ -13459,6 +13550,58 @@
                         ]
                     },
                     {
+                        "name": "2F - Worker Cairn (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 2F South West Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "2F - Hiker Neil (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 2F North West Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "2F - Worker Rob (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 2F South East Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "2F - Ace Trainer Jordan (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 2F North Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "1F - Little east cave item (Winter)",
                         "access_rules": [
                             "@Twist Mountain 1F South East Access,^$season|winter"
@@ -13496,6 +13639,32 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "1F - Black Belt Teppei (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 1F North West Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "1F - Worker Rich (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Twist Mountain 1F North West Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
                         ]
                     },
                     {
@@ -13993,175 +14162,6 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
-                        ]
-                    },
-                    {
-                        "name": "Outside - Doctor Hank (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/doctor.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/doctor_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain Outside 2F North West Footbridge Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "1F - Black Belt Teppei (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 1F North West Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "2F - Worker Cairn (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 2F South West Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "2F - Hiker Neil (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 2F North West Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "2F - Worker Rob (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 2F South East Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "1F - Worker Rich (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 1F North West Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F - Worker Heath (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 3F North East Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F - Battle Girl Sharon (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/battlegirl.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/battlegirl_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 3F South East Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "Outside - Worker Brand (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/worker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/worker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain Outside 3F East Footbridge Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F - Hiker Darrell (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 3F South East Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "Entrance - Hiker Terrell (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/hiker.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/hiker_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain Entrance Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "Outside - Ace Trainer Caroll (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain Outside 3F South East Footbridge Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "2F - Ace Trainer Jordan (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Twist Mountain 2F North Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
                         ]
                     }
                 ],
@@ -15415,6 +15415,19 @@
                 ],
                 "sections": [
                     {
+                        "name": "1F - Backpacker Toru (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/backpackerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/backpackerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Challenger's Cave 1F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "B1F - North item",
                         "access_rules": [
                             "@Challenger's Cave B1F Access"
@@ -15452,6 +15465,32 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Ace Trainer Beverly (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Challenger's Cave B1F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Ace Trainer Terry (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Challenger's Cave B1F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
                         ]
                     },
                     {
@@ -15552,6 +15591,32 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Veteran Shaun (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Challenger's Cave B2F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Veteran Julia (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/veteranf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Challenger's Cave B2F Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
                         ]
                     },
                     {
@@ -15694,71 +15759,6 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
-                        ]
-                    },
-                    {
-                        "name": "B2F - Veteran Shaun (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Challenger's Cave B2F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "B2F - Veteran Julia (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/veteranf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Challenger's Cave B2F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "B1F - Ace Trainer Beverly (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Challenger's Cave B1F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "B1F - Ace Trainer Terry (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Challenger's Cave B1F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "1F - Backpacker Toru (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/backpackerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/backpackerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Challenger's Cave 1F Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
                         ]
                     }
                 ],
@@ -15925,6 +15925,19 @@
                         ]
                     },
                     {
+                        "name": "2F Left Cave - Ace Trainer Shanta (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 2F Left Cave South Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "2F - Eastern cavern hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -15945,6 +15958,19 @@
                         ]
                     },
                     {
+                        "name": "3F Left Cave - Black Belt Tyrone (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 3F Left Cave South Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "3F - Middle cavern hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -15953,6 +15979,32 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "3F Middle Cave - Veteran Tiffany (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/veteranf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 3F Middle Cave Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "3F Right Cave - Ace Trainer Dwayne (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 3F Right Cave Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
                         ]
                     },
                     {
@@ -15987,6 +16039,32 @@
                         ]
                     },
                     {
+                        "name": "4F Right Cave - Veteran Martell (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 4F Right Cave Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "4F Middle Cave - Ace Trainer Cathy (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 4F Middle Cave Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
                         "name": "4F - Western cavern hidden item",
                         "chest_unopened_img": "images/locations/hidden.png",
                         "chest_opened_img": "images/locations/hidden_open.png",
@@ -15995,6 +16073,32 @@
                         ],
                         "visibility_rules": [
                             "show_items"
+                        ]
+                    },
+                    {
+                        "name": "4F Left Cave - Doctor Logan (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/doctor.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/doctor_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 4F Left Cave West Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "6F Cave - Ace Trainer David (Seensanity)",
+                        "item_count": 6,
+                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
+                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "@Victory Road 6F Cave South Access,^$trainer_team"
+                        ],
+                        "visibility_rules": [
+                            "show_teams"
                         ]
                     },
                     {
@@ -16530,110 +16634,6 @@
                         ],
                         "visibility_rules": [
                             "show_mons"
-                        ]
-                    },
-                    {
-                        "name": "2F Left Cave - Ace Trainer Shanta (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 2F Left Cave South Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "4F Middle Cave - Ace Trainer Cathy (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 4F Middle Cave Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F Right Cave - Ace Trainer Dwayne (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 3F Right Cave Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "6F Cave - Ace Trainer David (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/acetrainerm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/acetrainerm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 6F Cave South Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F Left Cave - Black Belt Tyrone (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/blackbelt.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/blackbelt_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 3F Left Cave South Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "4F Left Cave - Doctor Logan (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/doctor.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/doctor_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 4F Left Cave West Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "4F Right Cave - Veteran Martell (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/veteranm.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranm_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 4F Right Cave Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
-                        ]
-                    },
-                    {
-                        "name": "3F Middle Cave - Veteran Tiffany (Seensanity)",
-                        "item_count": 6,
-                        "chest_unopened_img": "images/locations/trainer_teams/veteranf.png",
-                        "chest_opened_img": "images/locations/trainer_teams/cleared/veteranf_cleared.png",
-                        "clear_as_group": false,
-                        "access_rules": [
-                            "@Victory Road 3F Middle Cave Access,^$trainer_team"
-                        ],
-                        "visibility_rules": [
-                            "show_teams"
                         ]
                     }
                 ],
