@@ -33,9 +33,9 @@ This pack features a hint tracking system with three different modes: `ON`, `Adv
 ## Pokémon Tracking
 This pack has four different modes to track Pokémon. You can cycle through them by clicking on the Pokémon Tracking icon located in the Tools section of the tracker.
 - `REQ`: The default behaviour. Only Pokémon that have sanity locations will be accounted for in the encounter diamonds. If more than one type of sanity is enabled, an extra diamond will be added on each submap to display how many catches/seens/shinies are left. Trainer team locations will also be updated to show how many Pokémon they have that you need to see.
-- `OFF`: Turn off Pokémon tracking for a manual tracking.
 - `ALL`: The counts on encounter diamonds will only decrement when you catch a Pokémon. If you have a sanity that requires to see shiny Pokémon, the counts will also not decrement until you've seen needed shinies.
 - `PROG`: The palex00 mode. Nobody knows what it does except him. (It does the same thing as ALL, but it also progressively removes non required Pokémon as they are seen.)
+- `OFF`: Turn off Pokémon tracking for a manual tracking.
 
 ## Pokésearch
 While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking on the Enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Click on the cancel button to cancel a search.
