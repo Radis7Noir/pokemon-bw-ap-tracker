@@ -33,7 +33,7 @@ This pack features a hint tracking system with three different modes: `ON`, `Adv
 ## Pokémon Tracking
 This pack has four different modes to track Pokémon. You can cycle through them by clicking on the Pokémon Tracking icon located in the Tools section of the tracker.
 - `REQ`: The default behaviour. Only Pokémon that have sanity locations will be accounted for in the encounter diamonds. If more than one type of sanity is enabled, an extra diamond will be added to each submap to display how many catches/seens/shinies are left. Trainer team locations will also be updated to show how many Pokémon they have that you need to see.
-- `ALL`: The counts on encounter diamonds will only decrement when you catch a Pokémon. If you have a sanity that requires to see shiny Pokémon, the counts will also not decrement until you've seen needed shinies.
+- `ALL`: The counts on encounter diamonds will only decrement when you catch a Pokémon. If you have a sanity that requires to see shiny Pokémon, the counts will also not decrement until you've seen needed shinies. Trainer teams will be updated as you see you Pokémon.
 - `PROG`: The palex00 mode. Nobody knows what it does except him. (It does the same thing as `ALL`, but it also progressively removes non required Pokémon as they are seen.)
 - `OFF`: Turn off Pokémon tracking for a manual tracking.
 
