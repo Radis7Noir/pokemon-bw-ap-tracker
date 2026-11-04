@@ -43,23 +43,36 @@ Some useful IDs:
 - `132` (Ditto)
 - `641, 642` (Tornadus, Thundurus)
 
-## Seen Species Logic
-The following locations will turn blue as soon as you can physically access them. They will turn green once you have seen enough species to complete them. The tracker cannot know exactly when there are enough species in the world to be seen. Use Universal Tracker to find out if the locations are currently accessible.
+## Blue Square Logic
+Some item locations will appear in blue in the tracker. PopTracker doesn't know if these locations are currently in logic. Some of them will stay blue at all times, and some of them will turn green once their conditions are met. Please refer to Universal Tracker if you need to know if these locations are in logic.
 
+The following locations will turn green once their conditions are met:
 ```
-    - "Castelia City - Item from scientist in building in northern street"
+    - "Castelia City - Item from scientist in building in northern street for seeing 20 Pokémon"
     - "Driftveil City - Item from man for seeing more than 50 pokémon"
+    - "Lacunosa Town - Item from girl for showing a Shaymin"
     - "Nuvema Town - TM from Professor Juniper for seeing 115 species"
     - "Nuvema Town - TM from Professor Juniper for seeing 25 species"
     - "Nuvema Town - TM from Professor Juniper for seeing 60 species"
+    - "P2 Laboratory - Item from scientist #1"
+    - "P2 Laboratory - Item from scientist #2"
 ```
 
-## Deerling Forms Logic
-Due to PopTracker limitations, the logic for `Route 6 - Item from scientist for all Deerling forms` can't exactly reflect the apworld's. In PopTracker, the location will turn blue when it becomes physically reachable and remain blue until it is cleared. Use Universal Tracker to find out if the location is currently accessible and use Pokésearch or the in-game Pokédex to check Deerling's locations.
- 
+The following locations will stay blue at all times:
+```
+    - "Castelia City - Item from harlequin in Studio Castelia"
+    - "Driftveil City - Item from lady asking for a pokémon knowing a certain TM move"
+    - "Pinwheel Forest Outside - Item from challenge rock"
+    - "Route 6 - Item from scientist for all Deerling forms"
+    - "Village Bridge - Item from fisherman for showing a certain pokémon caught today #1"
+    - "Village Bridge - Item from fisherman for showing a certain pokémon caught today #2"
+    - "Village Bridge - Item from fisherman for showing a certain pokémon caught today #3"
+    - "Village Bridge - Item from fisherman for showing a certain pokémon caught today #4"
+    - "Village Bridge - Item from fisherman for showing a certain pokémon caught today #5"
+```
 ## Location Visibility Lists
-You can manually show or hide the following groups of locations by clicking on their corresponding icon in the settings pop-up. You should only consider hiding a location if you excluded it in your YAML.
 
+You can manually show or hide the following groups of locations by clicking on their corresponding icon in the settings pop-up. You should only consider hiding a location if you excluded it in your YAML.
 - Show/Hide Abyssal Ruins Locations (46 locations)
 ```
     - "Abyssal Ruins items"
