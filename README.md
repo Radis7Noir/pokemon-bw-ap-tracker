@@ -37,6 +37,9 @@ This pack has four different modes to track Pokémon. You can cycle through them
 - `PROG`: The palex00 mode. Nobody knows what it does except him. (It does the same thing as ALL, but it also progressively removes non required Pokémon as they are seen.)
 - `OFF`: Turn off Pokémon tracking for a manual tracking.
 
+Please note that pre-evolutions are currently never accounted for in any of the modes. If evolutions are in logic, you may have to catch something that isn't tracked.
+Example: Let's say Pikachu is a dexsanity location but Pichu is not. Pichu is available on Route 1. It will not be tracked in REQ mode, but you might need to catch it anyway to evolve it and get its dexsanity check.
+
 ## Pokésearch
 While connected to a slot, you can search for a specific Pokémon by entering its Pokédex ID and clicking on the Enter button. You can find a list of all IDs [here](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number). When performing a search, the map settings will change to only show the encounter slots that contain the searched Pokémon. Click on the cancel button to cancel a search.
 Some useful IDs:
