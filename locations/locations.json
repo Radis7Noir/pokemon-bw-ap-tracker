@@ -9051,38 +9051,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hidden item in trash can",
-                        "chest_unopened_img": "images/locations/hidden.png",
-                        "chest_opened_img": "images/locations/hidden_open.png",
-                        "access_rules": [
-                            "@Liberty Garden Access,^$hidden"
-                        ],
-                        "visibility_rules": [
-                            "show_items"
-                        ]
-                    },
-                    {
-                        "name": "Lighthouse Basement - Victini (Static)",
-                        "chest_unopened_img": "images/events/victini.png",
-                        "chest_opened_img": "images/events/cleared/victini_cleared.png",
-                        "access_rules": [
-                            "@Liberty Garden Basement Access,^$static_encounter"
-                        ],
-                        "visibility_rules": [
-                            "show_mons,show_statics"
-                        ]
-                    },
-                    {
-                        "name": "Lighthouse Basement - Victini (Event)",
-                        "access_rules": [
-                            "@Liberty Garden Basement Access"
-                        ],
-                        "visibility_rules": [
-                            "goal_legendary_hunt_on,show_items"
-                        ],
-                        "hosted_item": "catchdefeatvictini_hosted"
-                    },
-                    {
                         "name": "Team Plasma Grunt 1 (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/plasmagruntm.png",
@@ -9106,6 +9074,17 @@
                         ],
                         "visibility_rules": [
                             "show_teams"
+                        ]
+                    },
+                    {
+                        "name": "Hidden item in trash can",
+                        "chest_unopened_img": "images/locations/hidden.png",
+                        "chest_opened_img": "images/locations/hidden_open.png",
+                        "access_rules": [
+                            "@Liberty Garden Access,^$hidden"
+                        ],
+                        "visibility_rules": [
+                            "show_items"
                         ]
                     },
                     {
@@ -9146,6 +9125,27 @@
                         "visibility_rules": [
                             "show_teams"
                         ]
+                    },
+                    {
+                        "name": "Lighthouse Basement - Victini (Static)",
+                        "chest_unopened_img": "images/events/victini.png",
+                        "chest_opened_img": "images/events/cleared/victini_cleared.png",
+                        "access_rules": [
+                            "@Liberty Garden Basement Access,^$static_encounter"
+                        ],
+                        "visibility_rules": [
+                            "show_mons,show_statics"
+                        ]
+                    },
+                    {
+                        "name": "Lighthouse Basement - Victini (Event)",
+                        "access_rules": [
+                            "@Liberty Garden Basement Access"
+                        ],
+                        "visibility_rules": [
+                            "goal_legendary_hunt_on,show_items"
+                        ],
+                        "hosted_item": "catchdefeatvictini_hosted"
                     }
                 ],
                 "map_locations": [
