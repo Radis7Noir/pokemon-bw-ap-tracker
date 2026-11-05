@@ -221,6 +221,34 @@ function onClear(slot_data)
         REGION_ENCOUNTERS[location] = merged
     end
 
+    DIAMOND_CHECKS = { dex = {}, seen = {}, shiny = {} }
+    for diamond, sections in pairs(REGION_ENCOUNTER_MAPPING) do
+        local added = {}
+        DIAMOND_CHECKS.dex[diamond] = {}
+        DIAMOND_CHECKS.seen[diamond] = {}
+        DIAMOND_CHECKS.shiny[diamond] = {}
+        for _, section in ipairs(sections) do
+            for _, pokemon_id in ipairs(REGION_ENCOUNTERS[SECTION_TO_REGION[section]]) do
+                local dex_number = pokemon_id & 0x7FF
+                local form_flag = FORM_KEY_TO_FLAG[dex_number .. "_" .. (pokemon_id >> 11)] or -1
+                local checks = {
+                    { "dex", 600000 + dex_number },
+                    { "seen", 604000 + dex_number },
+                    { "seen", 606000 + form_flag },
+                    { "shiny", 608000 + dex_number },
+                    { "shiny", 706000 + form_flag },
+                }
+                for _, check in ipairs(checks) do
+                    local location_id = check[2]
+                    if SANITY_LOCATIONS[location_id] and not added[location_id] then
+                        added[location_id] = true
+                        table.insert(DIAMOND_CHECKS[check[1]][diamond], location_id)
+                    end
+                end
+            end
+        end
+    end
+
     -- This sets each Encounter location to however many unique encounters there are in it
     for region_key, locations in pairs(ENCOUNTER_MAPPING) do
         for _, location in ipairs(locations) do
@@ -700,11 +728,11 @@ function updateWildBattle(value, old_value)
 
     if check1 and check2 then
         Tracker:UiHint("ActivateTab", "Bridges")
-        Tracker:UiHint("ActivateTab", "\u{200B}")
+        Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Double Dexsanity")
     elseif check1 and id2 == 0 then
         Tracker:UiHint("ActivateTab", "Bridges")
-        Tracker:UiHint("ActivateTab", "\u{200B}")
+        Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Single Dexsanity")
     elseif check1 then
         Tracker:UiHint("ActivateTab", "Bridges")
@@ -712,7 +740,7 @@ function updateWildBattle(value, old_value)
         Tracker:UiHint("ActivateTab", "Right Dexsanity")
     elseif check2 then
         Tracker:UiHint("ActivateTab", "Bridges")
-        Tracker:UiHint("ActivateTab", "\u{200B}")
+        Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Left Dexsanity")
     else
         updateMap()
@@ -782,6 +810,7 @@ function updatePokemon()
         pendingDecrements[region_key] = 0
     end
 
+    REGION_PENDING = { dex = {}, seen = {}, shiny = {} }
     for pokemon_id, locations in pairs(POKEMON_TO_LOCATIONS) do
         local dex_number = pokemon_id & 0x7FF
         local form_flag = FORM_KEY_TO_FLAG[dex_number .. "_" .. (pokemon_id >> 11)] or -1
@@ -791,6 +820,14 @@ function updatePokemon()
         local is_caught = caught[dex_number] == true
         local is_seen = seenSpecies[dex_number] or done[600000 + dex_number] or done[604000 + dex_number]
             or done[608000 + dex_number] or done[606000 + form_flag] or done[706000 + form_flag]
+
+        if dex_pending or seen_pending or shiny_pending then
+            for _, location in pairs(locations) do
+                REGION_PENDING.dex[location] = REGION_PENDING.dex[location] or dex_pending
+                REGION_PENDING.seen[location] = REGION_PENDING.seen[location] or seen_pending
+                REGION_PENDING.shiny[location] = REGION_PENDING.shiny[location] or shiny_pending
+            end
+        end
 
         local should_decrement = false
         if seen_pending or shiny_pending then
@@ -825,6 +862,18 @@ function updatePokemon()
                     obj.Highlight = 0
                 end
             end
+        end
+    end
+
+    for sanity, diamonds in pairs(DIAMOND_CHECKS) do
+        for diamond, checks in pairs(diamonds) do
+            local count = 0
+            for _, location_id in ipairs(checks) do
+                if pending[location_id] then
+                    count = count + 1
+                end
+            end
+            Tracker:FindObjectForCode(DIAMOND_CODES[sanity][diamond]).AvailableChestCount = count
         end
     end
 

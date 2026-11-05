@@ -1100,7 +1100,7 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Route 17/Rod Encounters",
     "@Unova Locations/Route 17/Rod Phenomena"},
 
-    ["Unovan Encounters"] = {"@Unova Locations/Striaton City/Surf Encounters",
+    ["Unovan Encounters (Wilds Only)"] = {"@Unova Locations/Striaton City/Surf Encounters",
     "@Unova Locations/Striaton City/Surf Phenomena",
     "@Unova Locations/Striaton City/Rod Encounters",
     "@Unova Locations/Striaton City/Rod Phenomena",
@@ -1546,3 +1546,18 @@ REGION_ENCOUNTER_MAPPING = {
     "@Unova Locations/Route 17/Rod Phenomena"}
 
 }
+
+SECTION_TO_REGION = {}
+for region_key, locations in pairs(ENCOUNTER_MAPPING) do
+    for _, location in ipairs(locations) do
+        SECTION_TO_REGION[location] = region_key
+    end
+end
+
+DIAMOND_CODES = { dex = {}, seen = {}, shiny = {} }
+for diamond, _ in pairs(REGION_ENCOUNTER_MAPPING) do
+    local location = "@Remaining Sanities/" .. diamond:gsub(" Encounters", " Encounter Sanities")
+    DIAMOND_CODES.dex[diamond] = location .. "/Catches left"
+    DIAMOND_CODES.seen[diamond] = location .. "/Seens left"
+    DIAMOND_CODES.shiny[diamond] = location .. "/Shinies left"
+end

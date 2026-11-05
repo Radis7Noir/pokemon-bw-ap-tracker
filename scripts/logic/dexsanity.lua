@@ -12,6 +12,8 @@ SANITY_VISIBLE = {
 }
 
 SANITY_LOCATIONS = {}
+DIAMOND_CHECKS = { dex = {}, seen = {}, shiny = {} }
+REGION_PENDING = { dex = {}, seen = {}, shiny = {} }
 FORM_BUCKET = 31
 FORM_SEARCH = { [585] = true }
 
@@ -277,6 +279,21 @@ function sanity_diamond(sanity)
         end
         return true
     end
+end
+
+function remaining_sanity(sanity, diamond)
+    local level = AccessibilityLevel.None
+    for _, section in ipairs(REGION_ENCOUNTER_MAPPING[diamond]) do
+        if REGION_PENDING[sanity][SECTION_TO_REGION[section]] then
+            local access = Tracker:FindObjectForCode(section).AccessibilityLevel
+            if access == AccessibilityLevel.Normal then
+                return AccessibilityLevel.Normal
+            elseif access > level then
+                level = access
+            end
+        end
+    end
+    return level
 end
 
 function not_sanity_diamond()
