@@ -736,7 +736,7 @@ function updateWildBattle(value, old_value)
         Tracker:UiHint("ActivateTab", "Single Dexsanity")
     elseif check1 then
         Tracker:UiHint("ActivateTab", "Bridges")
-        Tracker:UiHint("ActivateTab", "\u{200B}")
+        Tracker:UiHint("ActivateTab", " ")
         Tracker:UiHint("ActivateTab", "Right Dexsanity")
     elseif check2 then
         Tracker:UiHint("ActivateTab", "Bridges")
