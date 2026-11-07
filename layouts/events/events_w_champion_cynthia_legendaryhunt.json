@@ -30,17 +30,18 @@
                                 "catchdefeatcobalion",
                                 "catchzekrom",
                                 "defeatghetsis",
-                                "defeatchampionalder"
+                                "defeatchampionalder",
+                                "defeatcynthia"
                             ],
                             [
-                                "defeatcynthia",
                                 "catchdefeatvictini",
                                 "catchdefeatvolcarona",
-                                "catchdefeatterrakion"
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion"
                             ],
                             [
-                                "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -80,7 +81,8 @@
                             [
                                 "catchdefeatterrakion",
                                 "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                 ]
             }

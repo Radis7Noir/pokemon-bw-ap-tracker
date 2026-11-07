@@ -1029,6 +1029,16 @@
                         "hosted_item": "showalltmhms_hosted"
                     },
                     {
+                        "name": "Central Plaza - Report encountering all legendaries to the ranger (Event)",
+                        "access_rules": [
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiramzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona"
+                        ],
+                        "visibility_rules": [
+                            "goal_legendary_hunt_on,show_items"
+                        ],
+                        "hosted_item": "showalllegendaries_hosted"
+                    },
+                    {
                         "name": "Unity Pier - Dancer Raymond (Seensanity)",
                         "item_count": 6,
                         "chest_unopened_img": "images/locations/trainer_teams/dancer.png",

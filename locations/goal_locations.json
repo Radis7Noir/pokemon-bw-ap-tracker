@@ -400,6 +400,31 @@
                         "y": 457
                     }
                 ]
+            },
+            {
+                "name": "Legendary Hunt",
+                "sections": [
+                    {
+                        "name": "Report encountering all legendaries to the ranger in Castelia City",
+                        "access_rules": [
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiramzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona"
+                        ],
+                        "visibility_rules": [
+                            "goal_legendary_hunt_on"
+                        ],
+                        "hosted_item": "showalllegendaries_hosted"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "goal",
+                        "x": 219,
+                        "y": 485,
+                        "size": 18,
+                        "border_thickness": 2,
+                        "shape": "diamond"
+                    }
+                ]
             }
         ]
     }

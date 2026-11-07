@@ -177,5 +177,11 @@
         "type": "toggle",
         "img": "/images/events/oldman.png",
         "codes": "helpdaycareman"
+    },
+    {
+        "name": "Report encountering all legendaries to the ranger in Castelia City",
+        "type": "toggle",
+        "img": "/images/events/rangerm.png",
+        "codes": "showalllegendaries"
     }
 ]

@@ -25,7 +25,8 @@ FLAG_EVENT_CODES = {
     "defeatelesa",
     "defeatclay",
     "defeatskyla",
-    "defeatopelucidgym"
+    "defeatopelucidgym",
+    "showalllegendaries"
 }
 MANUAL_EVENT_CODES = {
     "catchreshiram",

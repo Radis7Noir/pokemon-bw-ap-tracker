@@ -31,20 +31,21 @@
                                 "catchzekrom",
                                 "defeatghetsis",
                                 "arrestsagegorm",
-                                "arrestsagegiallo"
+                                "arrestsagegiallo",
+                                "arrestsagezinzolin"
                             ],
                             [
-                                "arrestsagezinzolin",
                                 "arrestsageryoku",
                                 "arrestsagerood",
                                 "arrestsagebronius",
-                                "catchdefeatvictini"
+                                "catchdefeatvictini",
+                                "catchdefeatvolcarona"
                             ],
                             [
-                                "catchdefeatvolcarona",
                                 "catchdefeatterrakion",
                                 "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -88,7 +89,8 @@
                         "catchdefeatvolcarona",
                         "catchdefeatterrakion",
                         "catchdefeatvirizion",
-                        "catchdefeatkyurem"
+                        "catchdefeatkyurem",
+                        "showalllegendaries"
                     ]
                 ]
             }

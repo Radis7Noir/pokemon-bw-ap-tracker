@@ -45,7 +45,8 @@
                             [
                                 "catchdefeatterrakion",
                                 "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -88,9 +89,12 @@
                         "arrestsagebronius",
                         "catchdefeatvictini",
                         "catchdefeatvolcarona",
-                        "catchdefeatterrakion",
+                        "catchdefeatterrakion"
+                    ],
+                    [
                         "catchdefeatvirizion",
-                        "catchdefeatkyurem"
+                        "catchdefeatkyurem",
+                        "showalllegendaries"
                     ]
                 ]
             }

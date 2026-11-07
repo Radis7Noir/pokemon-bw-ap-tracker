@@ -29,16 +29,17 @@
                                 "helpdaycareman",
                                 "catchdefeatcobalion",
                                 "catchreshiram",
-                                "defeatghetsis"
+                                "defeatghetsis",
+                                "catchdefeatvictini"
                             ],
                             [
-                                "catchdefeatvictini",
                                 "catchdefeatvolcarona",
-                                "catchdefeatterrakion"
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion"
                             ],
                             [
-                                "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -76,7 +77,8 @@
                     [
                         "catchdefeatterrakion",
                         "catchdefeatvirizion",
-                        "catchdefeatkyurem"
+                        "catchdefeatkyurem",
+                        "showalllegendaries"
                     ]
                 ]
             }

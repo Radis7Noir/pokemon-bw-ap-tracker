@@ -35,11 +35,12 @@
                             [
                                 "catchdefeatvictini",
                                 "catchdefeatvolcarona",
-                                "catchdefeatterrakion"
+                                "catchdefeatterrakion",
+                                "catchdefeatvirizion"
                             ],
                             [
-                                "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -72,13 +73,14 @@
                         "catchzekrom",
                         "defeatghetsis",
                         "defeatcynthia",
-                        "catchdefeatvictini",
-                        "catchdefeatvolcarona",
-                        "catchdefeatterrakion"
+                        "catchdefeatvictini"
                     ],
                     [
+                        "catchdefeatvolcarona",
+                        "catchdefeatterrakion",
                         "catchdefeatvirizion",
-                        "catchdefeatkyurem"
+                        "catchdefeatkyurem",
+                        "showalllegendaries"
                     ]
                 ]
             }

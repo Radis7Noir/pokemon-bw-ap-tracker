@@ -46,7 +46,8 @@
                                 "catchdefeatvolcarona",
                                 "catchdefeatterrakion",
                                 "catchdefeatvirizion",
-                                "catchdefeatkyurem"
+                                "catchdefeatkyurem",
+                                "showalllegendaries"
                             ]
                         ]
                     }
@@ -94,7 +95,8 @@
                     [
                         "catchdefeatterrakion",
                         "catchdefeatvirizion",
-                        "catchdefeatkyurem"
+                        "catchdefeatkyurem",
+                        "showalllegendaries"
                     ]
                 ]
             }

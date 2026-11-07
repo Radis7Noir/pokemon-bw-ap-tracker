@@ -1451,8 +1451,24 @@
                 "map_locations": [
                     {
                         "map": "casteliacity",
-                        "x": 442,
-                        "y": 414
+                        "x": 448,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Central Plaza\u200b\u200b",
+                "sections": [
+                    {
+                        "name": "Report encountering all legendaries to the ranger (Event)",
+                        "ref": "Unova Locations/Castelia City/Central Plaza - Report encountering all legendaries to the ranger (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "casteliacity",
+                        "x": 608,
+                        "y": 398
                     }
                 ]
             },
