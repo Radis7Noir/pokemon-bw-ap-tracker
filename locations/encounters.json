@@ -1077,15 +1077,15 @@
                 "name": "\u200bInsect Badge Gate Encounters",
                 "sections": [
                     {
-                        "name": "Insect Badge Gate - Land Encounters",
+                        "name": "Land Encounters",
                         "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Land Encounters"
                     },
                     {
-                        "name": "Insect Badge Gate - Dark Grass Encounters",
+                        "name": "Dark Grass Encounters",
                         "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Dark Grass Encounters"
                     },
                     {
-                        "name": "Insect Badge Gate - Land Phenomena",
+                        "name": "Land Phenomena",
                         "ref": "Unova Locations/Badge Gates/Insect Badge Gate - Land Phenomena"
                     }
                 ],

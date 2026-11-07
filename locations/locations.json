@@ -1925,6 +1925,8 @@
                     },
                     {
                         "name": "Item from lady asking for a pokémon knowing a certain TM move",
+                        "chest_unopened_img": "images/locations/backerf_heartscale.png",
+                        "chest_opened_img": "images/locations/cleared/backerf_heartscale_cleared.png",
                         "access_rules": [
                             "@Driftveil City House North of Market Access,{}"
                         ],
