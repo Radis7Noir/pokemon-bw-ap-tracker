@@ -121,6 +121,56 @@ function evolve_move()
     end
 end
 
+function form_change(pokemon, season)
+    if pokemon == "deoxys" then
+    local meteorite = Tracker:FindObjectForCode("@Nacrene Museum Access").AccessibilityLevel
+        if has("consider_form_changes_false") then
+            return math.min(meteorite, AccessibilityLevel.SequenceBreak)
+        elseif has("consider_form_changes_true") then
+            return meteorite
+        end
+    elseif pokemon == "rotom" then
+    local appliances = Tracker:FindObjectForCode("@Shopping Mall Nine Back Room Access").AccessibilityLevel
+        if has("consider_form_changes_false") then
+            return math.min(appliances, AccessibilityLevel.SequenceBreak)
+        elseif has("consider_form_changes_true") then
+            return appliances
+        end
+    elseif pokemon == "deerling" or pokemon == "sawsbuck" then
+    local seasons_lady = Tracker:FindObjectForCode("@Nimbasa City Access").AccessibilityLevel
+        if has("season_control_randomized") then
+            if not has(season) then
+                return AccessibilityLevel.None
+            elseif has("consider_form_changes_false") then
+                return math.min(seasons_lady, AccessibilityLevel.SequenceBreak)
+            else
+                return seasons_lady
+            end
+        elseif has("season_control_changeable") then
+            if has("consider_form_changes_false") then
+                return math.min(seasons_lady, AccessibilityLevel.SequenceBreak)
+            else
+                return seasons_lady
+            end
+        else
+            return AccessibilityLevel.SequenceBreak
+        end
+    elseif pokemon == "shaymin" then
+        if  has("gracidea") then
+            if has("consider_form_changes_true") then
+                return AccessibilityLevel.Normal
+            else
+                return AccessibilityLevel.SequenceBreak
+            end
+        end
+    elseif pokemon == "giratina" then
+        if has("griseousorb") then
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
+
+    return AccessibilityLevel.None
+end
 
 SEARCH_VISIBILITY_STAGES = {
     static_visibility = 1,

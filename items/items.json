@@ -497,6 +497,16 @@
         "img": "/images/items/seasons/winter.png",
         "codes": "winter"
     },
+	{
+        "name": "Gracidea",
+        "type": "toggle",
+        "codes": "gracidea"
+    },
+	{
+        "name": "Griseous Orb",
+        "type": "toggle",
+        "codes": "griseousorb"
+    },
     {
         "name": "Dummy",
         "type": "toggle",
