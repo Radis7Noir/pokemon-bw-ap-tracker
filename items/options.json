@@ -946,7 +946,7 @@
                 "inherit_codes": false
             },
             {
-                "name": "Pokémon Tracking - Progressively remove seen non sanity",
+                "name": "Pokémon Tracking - Progressively remove non sanity seens",
                 "img": "/images/settings/encounter_tracking_prog.png",
                 "codes": "encounter_tracking, encounter_tracking_prog",
                 "inherit_codes": false
