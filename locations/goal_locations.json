@@ -407,6 +407,8 @@
                     {
                         "name": "Report encountering all legendaries to the ranger in Castelia City",
                         "access_rules": [
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona",
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiram,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona",
                             "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiramzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona"
                         ],
                         "visibility_rules": [
@@ -418,11 +420,9 @@
                 "map_locations": [
                     {
                         "map": "goal",
-                        "x": 219,
-                        "y": 485,
-                        "size": 18,
-                        "border_thickness": 2,
-                        "shape": "diamond"
+                        "x": 226,
+                        "y": 486,
+                        "size": 20
                     }
                 ]
             }
