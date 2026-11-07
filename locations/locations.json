@@ -1031,6 +1031,8 @@
                     {
                         "name": "Central Plaza - Report encountering all legendaries to the ranger (Event)",
                         "access_rules": [
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiram,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona",
+                            "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona",
                             "@Castelia City Central Plaza Access,catchdefeatcobalion,catchdefeatvictini,catchreshiramzekrom,catchdefeatterrakion,catchdefeatvirizion,catchdefeatkyurem,catchdefeatvolcarona"
                         ],
                         "visibility_rules": [
