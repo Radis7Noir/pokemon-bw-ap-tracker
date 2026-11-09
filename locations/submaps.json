@@ -7650,8 +7650,8 @@
                 "map_locations": [
                     {
                         "map": "route10_w",
-                        "x": 568,
-                        "y": 104
+                        "x": 664,
+                        "y": 155
                     }
                 ]
             },
@@ -7666,8 +7666,8 @@
                 "map_locations": [
                     {
                         "map": "route10_w",
-                        "x": 664,
-                        "y": 155
+                        "x": 568,
+                        "y": 104
                     }
                 ]
             },
@@ -11771,8 +11771,8 @@
                 "map_locations": [
                     {
                         "map": "desertresort",
-                        "x": 808,
-                        "y": 291
+                        "x": 840,
+                        "y": 316
                     }
                 ]
             },
@@ -11787,8 +11787,8 @@
                 "map_locations": [
                     {
                         "map": "desertresort",
-                        "x": 840,
-                        "y": 316
+                        "x": 856,
+                        "y": 342
                     }
                 ]
             },
@@ -11803,8 +11803,8 @@
                 "map_locations": [
                     {
                         "map": "desertresort",
-                        "x": 856,
-                        "y": 342
+                        "x": 808,
+                        "y": 291
                     }
                 ]
             },
