@@ -725,5 +725,14 @@
 {"name": "Meloetta (Aria)", "sections": [{"name": "See a Meloetta (Aria)", "access_rules": ["form_648_0"], "hosted_item": "form_648_0"}, {"name": "Find a shiny Meloetta (Aria)", "visibility_rules": "$sanity_visible|shinyformsanity|648_0", "access_rules": ["shiny_648, form_648_0"]}], "map_locations": [{"map": "formdex", "x": 744, "y": 744, "shape": "rect"}]},
 {"name": "Meloetta (Pirouette)", "sections": [{"name": "See a Meloetta (Pirouette)", "access_rules": ["form_648_1"], "hosted_item": "form_648_1"}, {"name": "Find a shiny Meloetta (Pirouette)", "visibility_rules": "$sanity_visible|shinyformsanity|648_1", "access_rules": ["shiny_648, form_648_1"]}], "map_locations": [{"map": "formdex", "x": 840, "y": 744, "shape": "rect"}]}
         ]
+    },
+    {
+        "name": "Search Shortcuts",
+        "chest_unopened_img": "images/locations/pokeball.png",
+        "chest_opened_img": "images/locations/pokeball.png",
+        "access_rules": ["{}"],
+        "children": [
+{"name": "Bulbasaur", "sections": [{"name": "Search Bulbasaur", "item_count": 1, "hosted_item": "pokesearch_0_0_1"}], "map_locations": [{"map": "kantodex", "x": 24, "y": 24, "shape": "concave_kite", "orientation": "north"}]}
+        ]
     }
 ]

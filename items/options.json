@@ -1090,6 +1090,7 @@
     {
         "name": "Click here to reset",
         "type": "progressive",
+        "loop": true,
         "allow_disabled": false,
         "stages": [
             {
@@ -1099,10 +1100,9 @@
             },
             {
                 "name": "Click here to reset",
-                "img": "/images/settings/reset2.png",
+                "img": "/images/settings/reset3.png",
                 "codes": "search_reset_complete",
-                "inherit_codes": "false",
-                "img_mods": "@disabled"
+                "inherit_codes": "false"
             }
         ]
     },

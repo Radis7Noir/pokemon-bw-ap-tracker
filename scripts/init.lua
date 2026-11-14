@@ -9,9 +9,11 @@ Tracker:AddItems("items/pokemon_shiny.json")
 Tracker:AddItems("items/pokemon_form.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
+Tracker:AddItems("items/shortcuts.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
+ScriptHost:LoadScript("scripts/pokesearch.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/dexsanity.lua")
 
@@ -78,6 +80,7 @@ ScriptHost:AddWatchForCode("hint_tracking", "hint_tracking", toggleHints)
 ScriptHost:AddWatchForCode("slotdigit_1", "slotdigit_1", updateSlot)
 ScriptHost:AddWatchForCode("slotdigit_2", "slotdigit_2", updateSlot)
 ScriptHost:AddWatchForCode("slotdigit_3", "slotdigit_3", updateSlot)
+ScriptHost:AddWatchForCode("pokesearch", "*", pokesearchShortcut)
 
 -- Event Location Syncs
 for _, code in ipairs(FLAG_EVENT_CODES) do
